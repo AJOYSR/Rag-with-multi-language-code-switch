@@ -1,0 +1,9 @@
+# G2 pilot. Requires author-approved items (03_data/variants/review_pilot*.csv returned).
+model: "gemma2:9b"
+items: 03_data/processed/pilot_items_approved.yaml
+split: dev
+variants: [en, bn, rbn, cm, cmr]
+methods: [M1, GEN, SUFF, CB, TR]
+seed: 0
+temperature: 0.0
+num_ctx: 4096

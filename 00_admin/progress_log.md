@@ -34,3 +34,16 @@
 
 **Blockers**
 - G1 author decision (hard stop). Manual checks listed in memo §6(b).
+
+## Session — 2026-10-23 (cont.) — G1 passed; Phase 4a started
+**Done**
+- G1 decision recorded (author: "proceed"). Manual checks run by agent in a browser: "Probe Before you Answer" found and full-read (Krause et al., WMT 2026, A10 — closest RQ2 work; probe thresholds don't transfer across native-script languages); 10 ACL Anthology queries logged (L6–L15); memo addendum written.
+- Environment: Ollama 0.40.9, uv 0.13.5, Python 3.11 `.venv`, pinned `requirements.txt`, `Makefile`.
+- Code (`05_experiments/src/`): `normalize.py`, `scoring.py`, `items.py`, `prompts.py`, `llm.py`, `run.py` (integrity guards), `analyze_pilot.py`, `build_review_sheet.py`, `apply_review.py`. **65 unit tests pass** (`make test`). Tests caught 4 real bugs before any run: contraction patterns; NFC "য়" in month names; `\b` failing after Bengali vowel signs (dates, names); case-suffix handling for Bengali names.
+- 30 pilot items drafted (6 per answer type, fictional notices) → `03_data/processed/pilot_items_draft.yaml`; all pass automatic checks; review sheets + instructions in `03_data/variants/`.
+**Not done / blocked**
+- Model downloads in progress (qwen3.5:9b, gemma2:9b; ~2.3 MB/s). Gemma3-12B dropped (outside 7–9B spec; download time).
+- **Pilot blocked on author review of variants** (CLAUDE.md Phase 4a).
+**Next**
+- When models finish: 2-item smoke test (not a result), record model digests/licences, check Bengali behaviour.
+- After review returned: `apply_review` → `make pilot` → `analyze-pilot` → G2 report.

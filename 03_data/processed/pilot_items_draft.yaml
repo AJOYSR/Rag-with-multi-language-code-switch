@@ -1,0 +1,795 @@
+# Pilot base items — DRAFT v0.1 (2026-10-23)
+# Status: AI-drafted (Claude Opus 5.5). NOT APPROVED. Every passage, question and
+# variant must be reviewed and edited by the author via 03_data/variants/review_pilot.csv
+# before any pilot run. All institutions, places and people are FICTIONAL. The author
+# should flag any name that accidentally matches a real organisation.
+#
+# Fields
+#   passage            sufficient evidence (Bengali)
+#   answer_sentence    exact substring of passage that carries the answer
+#   insuff_replacement text that replaces answer_sentence to make the insufficient passage
+#                      ("" = delete). The gold answer must not be recoverable afterwards.
+#   gold               see 05_experiments/src/normalize.py::match
+#   q                  main question: en, bn, rbn, cm, cmr
+#   sibling            near-miss question still answerable from the insufficient passage
+# Split: all pilot items are dev-only (decision_log 2026-10-23).
+
+- id: P01
+  domain: admission
+  answer_type: amount
+  passage: |
+    শালুকগঞ্জ কারিগরি কলেজ
+    ভর্তি বিজ্ঞপ্তি (২০২৭-২৮ শিক্ষাবর্ষ)
+    কলেজের ডিপ্লোমা প্রোগ্রামে প্রথম বর্ষে ভর্তির জন্য অনলাইনে আবেদন গ্রহণ করা হচ্ছে। আবেদন ফি ৮৫০ টাকা, যা বিকাশ বা নগদের মাধ্যমে পরিশোধ করতে হবে। আবেদনের শেষ তারিখ ২০ জানুয়ারি ২০২৭। ভর্তি পরীক্ষা কলেজ ক্যাম্পাসে অনুষ্ঠিত হবে এবং প্রবেশপত্র পরীক্ষার এক সপ্তাহ আগে ওয়েবসাইটে পাওয়া যাবে। বিস্তারিত তথ্যের জন্য কলেজের ভর্তি শাখায় যোগাযোগ করুন।
+  answer_sentence: "আবেদন ফি ৮৫০ টাকা, যা বিকাশ বা নগদের মাধ্যমে পরিশোধ করতে হবে।"
+  insuff_replacement: "আবেদন ফি বিকাশ বা নগদের মাধ্যমে পরিশোধ করতে হবে।"
+  gold: {value: 850}
+  q:
+    en: "How much is the application fee?"
+    bn: "আবেদন ফি কত টাকা?"
+    rbn: "abedon fi koto taka?"
+    cm: "Application fee কত টাকা?"
+    cmr: "application fee koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 20, month: 1, year: 2027}
+    q:
+      en: "What is the last date to apply?"
+      bn: "আবেদনের শেষ তারিখ কবে?"
+      rbn: "abedoner shesh tarikh kobe?"
+      cm: "Apply করার last date কবে?"
+      cmr: "apply korar last date kobe?"
+
+- id: P02
+  domain: utility
+  answer_type: date
+  passage: |
+    কদমতলী পৌর পানি সরবরাহ বিভাগ
+    জরুরি নোটিশ
+    প্রধান পাইপলাইনের সংস্কার কাজের জন্য ১২ ফেব্রুয়ারি ২০২৭ তারিখে পৌর এলাকার ৩, ৪ ও ৫ নম্বর ওয়ার্ডে পানি সরবরাহ বন্ধ থাকবে। সংস্কার কাজ চলাকালীন মোট ১০ ঘণ্টা পানি সরবরাহ বন্ধ থাকবে। নাগরিকদের আগে থেকে প্রয়োজনীয় পানি সংরক্ষণ করার অনুরোধ করা হলো। সাময়িক অসুবিধার জন্য কর্তৃপক্ষ আন্তরিকভাবে দুঃখিত।
+  answer_sentence: "প্রধান পাইপলাইনের সংস্কার কাজের জন্য ১২ ফেব্রুয়ারি ২০২৭ তারিখে পৌর এলাকার ৩, ৪ ও ৫ নম্বর ওয়ার্ডে পানি সরবরাহ বন্ধ থাকবে।"
+  insuff_replacement: "প্রধান পাইপলাইনের সংস্কার কাজের জন্য পৌর এলাকার ৩, ৪ ও ৫ নম্বর ওয়ার্ডে একদিন পানি সরবরাহ বন্ধ থাকবে। তারিখ পরে জানানো হবে।"
+  gold: {day: 12, month: 2, year: 2027}
+  q:
+    en: "On what date will the water supply be shut off?"
+    bn: "কোন তারিখে পানি সরবরাহ বন্ধ থাকবে?"
+    rbn: "kon tarikhe pani shorboraho bondho thakbe?"
+    cm: "কোন date-এ water supply বন্ধ থাকবে?"
+    cmr: "kon date e water supply bondho thakbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 10}
+    q:
+      en: "For how many hours will the water supply be off?"
+      bn: "মোট কত ঘণ্টা পানি সরবরাহ বন্ধ থাকবে?"
+      rbn: "mot koto ghonta pani shorboraho bondho thakbe?"
+      cm: "মোট কত hours water supply বন্ধ থাকবে?"
+      cmr: "mot koto hours water supply bondho thakbe?"
+
+- id: P03
+  domain: health
+  answer_type: name
+  passage: |
+    নীলাম্বরী কমিউনিটি ক্লিনিক
+    চিকিৎসক সূচি
+    ক্লিনিকে সপ্তাহে তিন দিন বিশেষজ্ঞ চিকিৎসক রোগী দেখেন। রবিবার ও মঙ্গলবার শিশু বিশেষজ্ঞ ডা. তানভীর আহমেদ রোগী দেখেন। শুক্রবার মেডিসিন বিশেষজ্ঞ ডা. সুমাইয়া রহমান রোগী দেখেন। বিশেষজ্ঞ চিকিৎসকের দর্শনী ৩০০ টাকা। সিরিয়ালের জন্য সকাল ৯টা থেকে ক্লিনিকের অভ্যর্থনা কক্ষে নাম লেখাতে হবে।
+  answer_sentence: "শুক্রবার মেডিসিন বিশেষজ্ঞ ডা. সুমাইয়া রহমান রোগী দেখেন।"
+  insuff_replacement: "শুক্রবার একজন মেডিসিন বিশেষজ্ঞ রোগী দেখেন।"
+  gold: {aliases: ["সুমাইয়া রহমান", "Sumaiya Rahman", "Sumaiya Rahaman", "Sumaya Rahman"]}
+  q:
+    en: "Which doctor sees patients on Friday?"
+    bn: "শুক্রবার কোন ডাক্তার রোগী দেখেন?"
+    rbn: "shukrobar kon daktar rogi dekhen?"
+    cm: "শুক্রবার কোন doctor patient দেখেন?"
+    cmr: "shukrobar kon doctor patient dekhen?"
+  sibling:
+    answer_type: amount
+    gold: {value: 300}
+    q:
+      en: "What is the specialist doctor's consultation fee?"
+      bn: "বিশেষজ্ঞ চিকিৎসকের দর্শনী কত?"
+      rbn: "bisheshoggo chikitshoker dorshoni koto?"
+      cm: "Specialist doctor-এর fee কত?"
+      cmr: "specialist doctor er fee koto?"
+
+- id: P04
+  domain: library
+  answer_type: number
+  passage: |
+    অরুণিমা পাবলিক লাইব্রেরি
+    সদস্যপদ সংক্রান্ত তথ্য
+    লাইব্রেরির সাধারণ সদস্যপদের বার্ষিক চাঁদা ৫০০ টাকা। একজন সাধারণ সদস্য একসাথে সর্বোচ্চ ৪টি বই ধার নিতে পারবেন। ধার নেওয়া বই ১৪ দিনের মধ্যে ফেরত দিতে হবে। দেরিতে ফেরত দিলে প্রতিদিনের জন্য জরিমানা প্রযোজ্য হবে। লাইব্রেরি শনিবার থেকে বৃহস্পতিবার সকাল ১০টা থেকে সন্ধ্যা ৬টা পর্যন্ত খোলা থাকে।
+  answer_sentence: "একজন সাধারণ সদস্য একসাথে সর্বোচ্চ ৪টি বই ধার নিতে পারবেন।"
+  insuff_replacement: "একজন সাধারণ সদস্য একসাথে একাধিক বই ধার নিতে পারবেন।"
+  gold: {value: 4}
+  q:
+    en: "How many books can a general member borrow at one time?"
+    bn: "একজন সাধারণ সদস্য একসাথে কয়টি বই ধার নিতে পারবেন?"
+    rbn: "ekjon sadharon shodosho eksathe koyti boi dhar nite parben?"
+    cm: "একজন general member একসাথে কয়টা book borrow করতে পারবে?"
+    cmr: "ekjon general member eksathe koyta book borrow korte parbe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 500}
+    q:
+      en: "What is the annual fee for general membership?"
+      bn: "সাধারণ সদস্যপদের বার্ষিক চাঁদা কত?"
+      rbn: "sadharon shodoshopoder barshik chada koto?"
+      cm: "General membership-এর annual fee কত?"
+      cmr: "general membership er annual fee koto?"
+
+- id: P05
+  domain: transport
+  answer_type: yesno
+  passage: |
+    সবুজপথ নগর পরিবহন
+    নতুন বাস রুট চালুর ঘোষণা
+    আগামী মাস থেকে রেলস্টেশন থেকে নদীঘাট পর্যন্ত নতুন একটি বাস রুট চালু হবে। এই রুটে প্রতিদিন ১৬টি বাস চলাচল করবে। বাসগুলো হাসপাতাল মোড় ও কলেজ গেটসহ বিভিন্ন স্টপেজে থামবে। নতুন রুটের বাস পুরাতন বাজারে থামবে না। যাত্রীদের নির্ধারিত স্টপেজ থেকে বাসে ওঠার অনুরোধ করা হলো।
+  answer_sentence: "নতুন রুটের বাস পুরাতন বাজারে থামবে না।"
+  insuff_replacement: ""
+  gold: {value: false}
+  q:
+    en: "Will the new route's buses stop at the Old Bazaar?"
+    bn: "নতুন রুটের বাস কি পুরাতন বাজারে থামবে?"
+    rbn: "notun ruter bas ki puraton bazare thambe?"
+    cm: "New route-এর bus কি পুরাতন বাজারে stop করবে?"
+    cmr: "new route er bus ki puraton bazare stop korbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 16}
+    q:
+      en: "How many buses will run on the new route each day?"
+      bn: "নতুন রুটে প্রতিদিন কয়টি বাস চলবে?"
+      rbn: "notun rute protidin koyti bas cholbe?"
+      cm: "New route-এ daily কয়টা bus চলবে?"
+      cmr: "new route e daily koyta bus cholbe?"
+
+- id: P06
+  domain: scholarship
+  answer_type: amount
+  passage: |
+    মেঘনাপাড় শিক্ষা ট্রাস্ট
+    মেধাবৃত্তি ২০২৭
+    ট্রাস্টের পক্ষ থেকে উচ্চ মাধ্যমিক পর্যায়ের দরিদ্র ও মেধাবী শিক্ষার্থীদের জন্য মেধাবৃত্তির আবেদন আহ্বান করা হচ্ছে। এসএসসি পরীক্ষায় ন্যূনতম জিপিএ ৪.৫০ পেতে হবে। নির্বাচিত শিক্ষার্থীরা প্রতি মাসে ২৫০০ টাকা বৃত্তি পাবে। বৃত্তি দুই বছর পর্যন্ত চলবে। আবেদনপত্রের সাথে প্রধান শিক্ষকের সুপারিশপত্র জমা দিতে হবে।
+  answer_sentence: "নির্বাচিত শিক্ষার্থীরা প্রতি মাসে ২৫০০ টাকা বৃত্তি পাবে।"
+  insuff_replacement: "নির্বাচিত শিক্ষার্থীরা প্রতি মাসে বৃত্তি পাবে।"
+  gold: {value: 2500}
+  q:
+    en: "How much is the monthly scholarship?"
+    bn: "প্রতি মাসে কত টাকা বৃত্তি দেওয়া হবে?"
+    rbn: "proti mashe koto taka britti dewa hobe?"
+    cm: "Monthly scholarship কত টাকা?"
+    cmr: "monthly scholarship koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 4.5}
+    q:
+      en: "What minimum SSC GPA is required?"
+      bn: "এসএসসিতে ন্যূনতম কত জিপিএ লাগবে?"
+      rbn: "SSC te nunotom koto GPA lagbe?"
+      cm: "SSC-তে minimum কত GPA লাগবে?"
+      cmr: "SSC te minimum koto GPA lagbe?"
+
+- id: P07
+  domain: jobs
+  answer_type: number
+  passage: |
+    তেপান্তর এগ্রো লিমিটেড
+    নিয়োগ বিজ্ঞপ্তি
+    প্রতিষ্ঠানের বিভিন্ন খামারে কাজের জন্য "মাঠ সহকারী" পদে লোক নিয়োগ দেওয়া হবে। এই পদে মোট ১২ জন নিয়োগ দেওয়া হবে। প্রার্থীর ন্যূনতম শিক্ষাগত যোগ্যতা এইচএসসি পাস। আবেদনের তারিখে প্রার্থীর বয়স সর্বোচ্চ ৩০ বছর হতে হবে। কৃষি বিষয়ে অভিজ্ঞ প্রার্থীদের অগ্রাধিকার দেওয়া হবে।
+  answer_sentence: "এই পদে মোট ১২ জন নিয়োগ দেওয়া হবে।"
+  insuff_replacement: ""
+  gold: {value: 12}
+  q:
+    en: "How many field assistants will be hired?"
+    bn: "মাঠ সহকারী পদে কতজন নিয়োগ দেওয়া হবে?"
+    rbn: "math shohokari pode kotojon niyog dewa hobe?"
+    cm: "Field assistant post-এ কতজন hire করা হবে?"
+    cmr: "field assistant post e kotojon hire kora hobe?"
+  sibling:
+    answer_type: number
+    gold: {value: 30}
+    q:
+      en: "What is the maximum age for applicants?"
+      bn: "প্রার্থীর সর্বোচ্চ বয়স কত হতে পারবে?"
+      rbn: "prarthir shorbocho boyosh koto hote parbe?"
+      cm: "Applicant-এর maximum age কত?"
+      cmr: "applicant er maximum age koto?"
+
+- id: P08
+  domain: exams
+  answer_type: date
+  passage: |
+    পলাশমঞ্জরী উচ্চ বিদ্যালয়
+    পরীক্ষা পুনঃনির্ধারণ বিজ্ঞপ্তি
+    অনিবার্য কারণবশত দশম শ্রেণির প্রাক-নির্বাচনী পরীক্ষার গণিত বিষয়ের পরীক্ষা স্থগিত করা হয়েছে। স্থগিত গণিত পরীক্ষা ৭ এপ্রিল ২০২৭ তারিখে অনুষ্ঠিত হবে। পরীক্ষা বিদ্যালয়ের নতুন ভবনের হলরুমে নেওয়া হবে। পরীক্ষার সময় ও অন্যান্য নিয়ম অপরিবর্তিত থাকবে।
+  answer_sentence: "স্থগিত গণিত পরীক্ষা ৭ এপ্রিল ২০২৭ তারিখে অনুষ্ঠিত হবে।"
+  insuff_replacement: "স্থগিত গণিত পরীক্ষার নতুন তারিখ পরে জানানো হবে।"
+  gold: {day: 7, month: 4, year: 2027}
+  q:
+    en: "On what date will the postponed mathematics exam be held?"
+    bn: "স্থগিত গণিত পরীক্ষা কোন তারিখে হবে?"
+    rbn: "sthogito gonit porikkha kon tarikhe hobe?"
+    cm: "Postponed math exam কোন date-এ হবে?"
+    cmr: "postponed math exam kon date e hobe?"
+  sibling:
+    answer_type: name
+    gold: {aliases: ["নতুন ভবনের হলরুম", "নতুন ভবন", "new building", "notun bhobon", "notun vobon"]}
+    q:
+      en: "Where will the exam be held?"
+      bn: "পরীক্ষা কোথায় নেওয়া হবে?"
+      rbn: "porikkha kothay newa hobe?"
+      cm: "Exam কোথায় হবে?"
+      cmr: "exam kothay hobe?"
+
+- id: P09
+  domain: training
+  answer_type: name
+  passage: |
+    দিগন্ত যুব উন্নয়ন কেন্দ্র
+    ফ্রিল্যান্সিং প্রশিক্ষণ কর্মশালা
+    কেন্দ্রে তিন দিনব্যাপী একটি ফ্রিল্যান্সিং প্রশিক্ষণ কর্মশালার আয়োজন করা হয়েছে। কর্মশালায় মোট ৪০টি আসন রয়েছে। প্রশিক্ষণ পরিচালনা করবেন জনাব মাহফুজ করিম। অংশগ্রহণকারীদের নিজস্ব ল্যাপটপ সাথে আনতে হবে। কর্মশালা শেষে সনদপত্র প্রদান করা হবে।
+  answer_sentence: "প্রশিক্ষণ পরিচালনা করবেন জনাব মাহফুজ করিম।"
+  insuff_replacement: "প্রশিক্ষণ পরিচালনা করবেন একজন অভিজ্ঞ প্রশিক্ষক।"
+  gold: {aliases: ["মাহফুজ করিম", "Mahfuz Karim", "Mahfuj Karim", "Mahfuz Kareem"]}
+  q:
+    en: "Who will conduct the training?"
+    bn: "প্রশিক্ষণ কে পরিচালনা করবেন?"
+    rbn: "proshikkhon ke porichalona korben?"
+    cm: "Training কে conduct করবেন?"
+    cmr: "training ke conduct korben?"
+  sibling:
+    answer_type: number
+    gold: {value: 40}
+    q:
+      en: "How many seats are there in the workshop?"
+      bn: "কর্মশালায় মোট কয়টি আসন আছে?"
+      rbn: "kormoshalay mot koyti ashon ache?"
+      cm: "Workshop-এ মোট কয়টা seat আছে?"
+      cmr: "workshop e mot koyta seat ache?"
+
+- id: P10
+  domain: housing
+  answer_type: yesno
+  passage: |
+    রূপসী নিবাস ফ্ল্যাট মালিক সমিতি
+    বার্ষিক সাধারণ সভার নোটিশ
+    সমিতির বার্ষিক সাধারণ সভা ৫ মার্চ ২০২৭ তারিখে ভবনের ছাদে অনুষ্ঠিত হবে। সভায় নতুন কার্যকরী কমিটি নির্বাচন করা হবে। ভাড়াটিয়ারা সভায় উপস্থিত থাকতে পারবেন, তবে ভোট দিতে পারবেন না। সকল ফ্ল্যাট মালিককে যথাসময়ে উপস্থিত থাকার অনুরোধ করা হলো।
+  answer_sentence: "ভাড়াটিয়ারা সভায় উপস্থিত থাকতে পারবেন, তবে ভোট দিতে পারবেন না।"
+  insuff_replacement: "ভাড়াটিয়ারা সভায় উপস্থিত থাকতে পারবেন।"
+  gold: {value: false}
+  q:
+    en: "Can tenants vote in the committee election?"
+    bn: "ভাড়াটিয়ারা কি কমিটি নির্বাচনে ভোট দিতে পারবেন?"
+    rbn: "varatiyara ki komiti nirbachone vot dite parben?"
+    cm: "Tenant-রা কি committee election-এ vote দিতে পারবে?"
+    cmr: "tenant ra ki committee election e vote dite parbe?"
+  sibling:
+    answer_type: date
+    gold: {day: 5, month: 3, year: 2027}
+    q:
+      en: "When is the annual general meeting?"
+      bn: "বার্ষিক সাধারণ সভা কবে?"
+      rbn: "barshik sadharon shova kobe?"
+      cm: "Annual general meeting কবে?"
+      cmr: "annual general meeting kobe?"
+
+- id: P11
+  domain: health
+  answer_type: date
+  passage: |
+    চন্দ্রকোনা স্বাস্থ্য কেন্দ্র
+    বিশেষ টিকাদান ক্যাম্প
+    স্বাস্থ্য কেন্দ্রের উদ্যোগে শিশুদের জন্য বিনামূল্যে টাইফয়েড টিকাদান ক্যাম্পের আয়োজন করা হয়েছে। ক্যাম্পটি ১৮ নভেম্বর ২০২৭ তারিখে স্থানীয় প্রাথমিক বিদ্যালয়ে অনুষ্ঠিত হবে। ন্যূনতম ২ বছর বয়সী শিশুরা এই টিকা নিতে পারবে। টিকা নিতে আসার সময় শিশুর জন্মনিবন্ধনের কপি সাথে আনতে হবে।
+  answer_sentence: "ক্যাম্পটি ১৮ নভেম্বর ২০২৭ তারিখে স্থানীয় প্রাথমিক বিদ্যালয়ে অনুষ্ঠিত হবে।"
+  insuff_replacement: "ক্যাম্পটি স্থানীয় প্রাথমিক বিদ্যালয়ে অনুষ্ঠিত হবে।"
+  gold: {day: 18, month: 11, year: 2027}
+  q:
+    en: "On what date will the vaccination camp be held?"
+    bn: "টিকাদান ক্যাম্প কোন তারিখে হবে?"
+    rbn: "tikadan camp kon tarikhe hobe?"
+    cm: "Vaccination camp কোন date-এ হবে?"
+    cmr: "vaccination camp kon date e hobe?"
+  sibling:
+    answer_type: number
+    gold: {value: 2}
+    q:
+      en: "What is the minimum age for a child to get the vaccine?"
+      bn: "কমপক্ষে কত বছর বয়সী শিশু টিকা নিতে পারবে?"
+      rbn: "kompokkhe koto bochor boyoshi shishu tika nite parbe?"
+      cm: "Minimum কত বছর age হলে child vaccine নিতে পারবে?"
+      cmr: "minimum koto bochor age hole child vaccine nite parbe?"
+
+- id: P12
+  domain: utility
+  answer_type: amount
+  passage: |
+    বনশ্রী পল্লী বিদ্যুৎ সমিতি
+    বিদ্যুৎ বিল পরিশোধ সংক্রান্ত নোটিশ
+    অক্টোবর ২০২৭ মাসের বিদ্যুৎ বিল ২৫ নভেম্বর ২০২৭ তারিখের মধ্যে পরিশোধ করতে হবে। নির্ধারিত তারিখের পরে বিল পরিশোধ করলে ১২০ টাকা বিলম্ব মাশুল দিতে হবে। বিল মোবাইল ব্যাংকিং বা সমিতির কাউন্টারে পরিশোধ করা যাবে। পরপর তিন মাস বিল বকেয়া থাকলে সংযোগ বিচ্ছিন্ন করা হতে পারে।
+  answer_sentence: "নির্ধারিত তারিখের পরে বিল পরিশোধ করলে ১২০ টাকা বিলম্ব মাশুল দিতে হবে।"
+  insuff_replacement: "নির্ধারিত তারিখের পরে বিল পরিশোধ করলে বিলম্ব মাশুল দিতে হবে।"
+  gold: {value: 120}
+  q:
+    en: "How much is the late payment fee?"
+    bn: "দেরিতে বিল দিলে কত টাকা বিলম্ব মাশুল দিতে হবে?"
+    rbn: "deritey bil dile koto taka bilombo mashul dite hobe?"
+    cm: "Late payment করলে কত টাকা fine দিতে হবে?"
+    cmr: "late payment korle koto taka fine dite hobe?"
+  sibling:
+    answer_type: date
+    gold: {day: 25, month: 11, year: 2027}
+    q:
+      en: "By what date must the October bill be paid?"
+      bn: "অক্টোবর মাসের বিল কোন তারিখের মধ্যে দিতে হবে?"
+      rbn: "oktobor masher bil kon tarikher moddhe dite hobe?"
+      cm: "October-এর bill কোন date-এর মধ্যে pay করতে হবে?"
+      cmr: "october er bill kon date er moddhe pay korte hobe?"
+
+- id: P13
+  domain: school
+  answer_type: name
+  passage: |
+    কাশবন আদর্শ বিদ্যালয়
+    বার্ষিক ক্রীড়া প্রতিযোগিতা
+    বিদ্যালয়ের বার্ষিক ক্রীড়া প্রতিযোগিতা ১৪ জানুয়ারি ২০২৭ তারিখে বিদ্যালয় মাঠে অনুষ্ঠিত হবে। অনুষ্ঠানে প্রধান অতিথি হিসেবে উপস্থিত থাকবেন অবসরপ্রাপ্ত অধ্যক্ষ নাসরিন জাহান। প্রতিযোগিতায় দৌড়, লং জাম্প ও দড়ি লাফসহ মোট ১২টি খেলা থাকবে। অভিভাবকদের অনুষ্ঠানে উপস্থিত থাকার আমন্ত্রণ জানানো হলো।
+  answer_sentence: "অনুষ্ঠানে প্রধান অতিথি হিসেবে উপস্থিত থাকবেন অবসরপ্রাপ্ত অধ্যক্ষ নাসরিন জাহান।"
+  insuff_replacement: "অনুষ্ঠানে একজন প্রধান অতিথি উপস্থিত থাকবেন।"
+  gold: {aliases: ["নাসরিন জাহান", "Nasrin Jahan", "Nasreen Jahan"]}
+  q:
+    en: "Who will be the chief guest at the sports day?"
+    bn: "ক্রীড়া প্রতিযোগিতায় প্রধান অতিথি কে থাকবেন?"
+    rbn: "krira protijogitay prodhan otithi ke thakben?"
+    cm: "Sports day-তে chief guest কে থাকবেন?"
+    cmr: "sports day te chief guest ke thakben?"
+  sibling:
+    answer_type: date
+    gold: {day: 14, month: 1, year: 2027}
+    q:
+      en: "On what date is the sports competition?"
+      bn: "ক্রীড়া প্রতিযোগিতা কোন তারিখে?"
+      rbn: "krira protijogita kon tarikhe?"
+      cm: "Sports competition কোন date-এ?"
+      cmr: "sports competition kon date e?"
+
+- id: P14
+  domain: market
+  answer_type: yesno
+  passage: |
+    হরিণমারী বাজার ব্যবসায়ী সমিতি
+    বাজার বন্ধ সংক্রান্ত বিজ্ঞপ্তি
+    বাজারের ড্রেন সংস্কারের কারণে ২২ ডিসেম্বর ২০২৭ তারিখে হরিণমারী বাজারের কিছু অংশ বন্ধ থাকবে। ওই দিন কাঁচাবাজার, মাছের বাজার ও কাপড়ের দোকান বন্ধ থাকবে। তবে বাজারের ওষুধের দোকানগুলো খোলা থাকবে। ব্যবসায়ীদের সহযোগিতা কামনা করা হলো।
+  answer_sentence: "তবে বাজারের ওষুধের দোকানগুলো খোলা থাকবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Will the pharmacies in the market stay open on that day?"
+    bn: "ওই দিন কি বাজারের ওষুধের দোকান খোলা থাকবে?"
+    rbn: "oi din ki bazarer oshudher dokan khola thakbe?"
+    cm: "ওই দিন কি market-এর pharmacy open থাকবে?"
+    cmr: "oi din ki market er pharmacy open thakbe?"
+  sibling:
+    answer_type: date
+    gold: {day: 22, month: 12, year: 2027}
+    q:
+      en: "On what date will the market be closed?"
+      bn: "বাজার কোন তারিখে বন্ধ থাকবে?"
+      rbn: "bazar kon tarikhe bondho thakbe?"
+      cm: "Market কোন date-এ বন্ধ থাকবে?"
+      cmr: "market kon date e bondho thakbe?"
+
+- id: P15
+  domain: finance
+  answer_type: number
+  passage: |
+    সোনালিধান কৃষক সমবায় সমিতি
+    ক্ষুদ্র ঋণ কর্মসূচি
+    সমিতির সদস্যরা কৃষি কাজের জন্য ক্ষুদ্র ঋণের আবেদন করতে পারবেন। একজন সদস্য সর্বোচ্চ ৫০০০০ টাকা ঋণ নিতে পারবেন। এই ঋণের বার্ষিক সুদের হার ৯ শতাংশ। ঋণ ১২টি মাসিক কিস্তিতে পরিশোধ করতে হবে। আবেদনের সাথে জাতীয় পরিচয়পত্রের কপি জমা দিতে হবে।
+  answer_sentence: "এই ঋণের বার্ষিক সুদের হার ৯ শতাংশ।"
+  insuff_replacement: "এই ঋণের সুদের হার সমিতির কার্যালয় থেকে জানা যাবে।"
+  gold: {value: 9}
+  q:
+    en: "What is the annual interest rate on the loan (in percent)?"
+    bn: "ঋণের বার্ষিক সুদের হার কত শতাংশ?"
+    rbn: "riner barshik suder har koto shotangsho?"
+    cm: "Loan-এর annual interest rate কত percent?"
+    cmr: "loan er annual interest rate koto percent?"
+  sibling:
+    answer_type: amount
+    gold: {value: 50000}
+    q:
+      en: "What is the maximum loan a member can take?"
+      bn: "একজন সদস্য সর্বোচ্চ কত টাকা ঋণ নিতে পারবেন?"
+      rbn: "ekjon shodosho shorbocho koto taka rin nite parben?"
+      cm: "একজন member maximum কত টাকা loan নিতে পারবে?"
+      cmr: "ekjon member maximum koto taka loan nite parbe?"
+
+- id: P16
+  domain: hostel
+  answer_type: date
+  passage: |
+    ধানসিঁড়ি ছাত্রী হোস্টেল
+    হোস্টেল খোলার নোটিশ
+    শীতকালীন ছুটি শেষে হোস্টেল ৩ জানুয়ারি ২০২৭ তারিখে খুলবে। আবাসিক ছাত্রীদের হোস্টেলে ফেরার আগে বকেয়া সিট ভাড়া পরিশোধ করতে হবে। প্রতি মাসের সিট ভাড়া ১৮০০ টাকা। হোস্টেলে প্রবেশের সময় পরিচয়পত্র দেখাতে হবে।
+  answer_sentence: "শীতকালীন ছুটি শেষে হোস্টেল ৩ জানুয়ারি ২০২৭ তারিখে খুলবে।"
+  insuff_replacement: "শীতকালীন ছুটি শেষে হোস্টেল খোলার তারিখ পরে জানানো হবে।"
+  gold: {day: 3, month: 1, year: 2027}
+  q:
+    en: "On what date will the hostel reopen?"
+    bn: "হোস্টেল কোন তারিখে খুলবে?"
+    rbn: "hostel kon tarikhe khulbe?"
+    cm: "Hostel কোন date-এ open হবে?"
+    cmr: "hostel kon date e open hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 1800}
+    q:
+      en: "What is the monthly seat rent?"
+      bn: "প্রতি মাসের সিট ভাড়া কত?"
+      rbn: "proti masher seat vara koto?"
+      cm: "Monthly seat rent কত?"
+      cmr: "monthly seat rent koto?"
+
+- id: P17
+  domain: environment
+  answer_type: number
+  passage: |
+    তালতলা সবুজছায়া পরিবেশ ক্লাব
+    বৃক্ষরোপণ কর্মসূচি
+    বর্ষা মৌসুম উপলক্ষে ক্লাবটি এলাকাবাসীর মধ্যে বিনামূল্যে চারা বিতরণ করবে। মোট ৫০০টি ফলজ ও বনজ গাছের চারা বিতরণ করা হবে। কর্মসূচির সমন্বয়ক হিসেবে দায়িত্ব পালন করবেন রফিকুল ইসলাম। প্রতিটি পরিবার সর্বোচ্চ দুটি চারা নিতে পারবে।
+  answer_sentence: "মোট ৫০০টি ফলজ ও বনজ গাছের চারা বিতরণ করা হবে।"
+  insuff_replacement: "ফলজ ও বনজ গাছের চারা বিতরণ করা হবে।"
+  gold: {value: 500}
+  q:
+    en: "How many saplings will be distributed in total?"
+    bn: "মোট কয়টি চারা বিতরণ করা হবে?"
+    rbn: "mot koyti chara biteron kora hobe?"
+    cm: "Total কয়টা sapling distribute করা হবে?"
+    cmr: "total koyta sapling distribute kora hobe?"
+  sibling:
+    answer_type: name
+    gold: {aliases: ["রফিকুল ইসলাম", "Rafiqul Islam", "Rafikul Islam"]}
+    q:
+      en: "Who is the coordinator of the programme?"
+      bn: "কর্মসূচির সমন্বয়ক কে?"
+      rbn: "kormoshuchir shomonnoyok ke?"
+      cm: "Program-এর coordinator কে?"
+      cmr: "program er coordinator ke?"
+
+- id: P18
+  domain: telecom
+  answer_type: yesno
+  passage: |
+    দ্রুতলিংক ইন্টারনেট সার্ভিস
+    রক্ষণাবেক্ষণ সংক্রান্ত নোটিশ
+    নেটওয়ার্কের রক্ষণাবেক্ষণের জন্য শুক্রবার রাত ১২টা থেকে ব্রডব্যান্ড সেবা বন্ধ থাকবে। রক্ষণাবেক্ষণ কাজ মোট ৬ ঘণ্টা চলবে। এই সময়ে গ্রাহকদের মোবাইল অ্যাপ স্বাভাবিকভাবে কাজ করবে এবং অ্যাপের মাধ্যমে বিল পরিশোধ করা যাবে। সাময়িক অসুবিধার জন্য আমরা দুঃখিত।
+  answer_sentence: "এই সময়ে গ্রাহকদের মোবাইল অ্যাপ স্বাভাবিকভাবে কাজ করবে এবং অ্যাপের মাধ্যমে বিল পরিশোধ করা যাবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Will the customer mobile app work during the maintenance?"
+    bn: "রক্ষণাবেক্ষণের সময় কি গ্রাহকদের মোবাইল অ্যাপ কাজ করবে?"
+    rbn: "rokkhonabekkhoner shomoy ki grahokder mobile app kaj korbe?"
+    cm: "Maintenance-এর সময় কি mobile app কাজ করবে?"
+    cmr: "maintenance er shomoy ki mobile app kaj korbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 6}
+    q:
+      en: "How many hours will the maintenance last?"
+      bn: "রক্ষণাবেক্ষণ কাজ কত ঘণ্টা চলবে?"
+      rbn: "rokkhonabekkhon kaj koto ghonta cholbe?"
+      cm: "Maintenance কত hours চলবে?"
+      cmr: "maintenance koto hours cholbe?"
+
+- id: P19
+  domain: transport
+  answer_type: amount
+  passage: |
+    চরকুসুম ফেরিঘাট কর্তৃপক্ষ
+    নতুন ভাড়ার তালিকা
+    চরকুসুম ফেরিঘাটে প্রতিদিন ৮টি ফেরি পারাপার করে। নতুন ভাড়ার তালিকা অনুযায়ী প্রতি যাত্রীর ভাড়া ৩০ টাকা। মোটরসাইকেল পারাপারের ভাড়া ১৫০ টাকা। ছয় বছরের কম বয়সী শিশুদের জন্য কোনো ভাড়া লাগবে না। নতুন ভাড়া আগামী মাসের প্রথম দিন থেকে কার্যকর হবে।
+  answer_sentence: "মোটরসাইকেল পারাপারের ভাড়া ১৫০ টাকা।"
+  insuff_replacement: "মোটরসাইকেল পারাপারের জন্য আলাদা ভাড়া প্রযোজ্য।"
+  gold: {value: 150}
+  q:
+    en: "What is the ferry fare for a motorcycle?"
+    bn: "মোটরসাইকেল পারাপারের ভাড়া কত?"
+    rbn: "motorcycle parapar er vara koto?"
+    cm: "Motorcycle-এর ferry fare কত?"
+    cmr: "motorcycle er ferry fare koto?"
+  sibling:
+    answer_type: number
+    gold: {value: 8}
+    q:
+      en: "How many ferries cross each day?"
+      bn: "প্রতিদিন কয়টি ফেরি পারাপার করে?"
+      rbn: "protidin koyti feri parapar kore?"
+      cm: "Daily কয়টা ferry চলে?"
+      cmr: "daily koyta ferry chole?"
+
+- id: P20
+  domain: health
+  answer_type: name
+  passage: |
+    জোনাকি স্বেচ্ছাসেবী সংগঠন
+    রক্তদান কর্মসূচি
+    সংগঠনের উদ্যোগে আগামী শনিবার কমিউনিটি সেন্টারে স্বেচ্ছায় রক্তদান কর্মসূচি অনুষ্ঠিত হবে। রক্তদাতার ওজন কমপক্ষে ৫০ কেজি হতে হবে। কর্মসূচির সার্বিক সমন্বয় করবেন ফারহানা ইয়াসমিন। রক্তদাতাদের জন্য হালকা নাশতার ব্যবস্থা থাকবে।
+  answer_sentence: "কর্মসূচির সার্বিক সমন্বয় করবেন ফারহানা ইয়াসমিন।"
+  insuff_replacement: "কর্মসূচির সার্বিক সমন্বয় করবে সংগঠনের একজন সদস্য।"
+  gold: {aliases: ["ফারহানা ইয়াসমিন", "Farhana Yasmin", "Farhana Yeasmin", "Farhana Iasmin"]}
+  q:
+    en: "Who will coordinate the blood donation programme?"
+    bn: "রক্তদান কর্মসূচির সমন্বয় কে করবেন?"
+    rbn: "roktodan kormoshuchir shomonnoy ke korben?"
+    cm: "Blood donation program কে coordinate করবেন?"
+    cmr: "blood donation program ke coordinate korben?"
+  sibling:
+    answer_type: number
+    gold: {value: 50}
+    q:
+      en: "What is the minimum weight for a donor (in kg)?"
+      bn: "রক্তদাতার ওজন কমপক্ষে কত কেজি হতে হবে?"
+      rbn: "roktodatar ojon kompokkhe koto kg hote hobe?"
+      cm: "Donor-এর minimum weight কত kg?"
+      cmr: "donor er minimum weight koto kg?"
+
+- id: P21
+  domain: agriculture
+  answer_type: amount
+  passage: |
+    শিমুলবাগ সেচ সহায়তা প্রকল্প
+    কৃষি ভর্তুকি বিজ্ঞপ্তি
+    বোরো মৌসুমে সেচের খরচ কমাতে প্রকল্পের আওতায় প্রান্তিক কৃষকদের ভর্তুকি দেওয়া হবে। প্রতি বিঘা জমির জন্য ৬০০ টাকা ভর্তুকি দেওয়া হবে। একজন কৃষক সর্বোচ্চ তিন বিঘা জমির জন্য ভর্তুকি পাবেন। আবেদনের শেষ তারিখ ১০ ডিসেম্বর ২০২৭।
+  answer_sentence: "প্রতি বিঘা জমির জন্য ৬০০ টাকা ভর্তুকি দেওয়া হবে।"
+  insuff_replacement: "জমির পরিমাণ অনুযায়ী ভর্তুকি দেওয়া হবে।"
+  gold: {value: 600}
+  q:
+    en: "How much subsidy is given per bigha of land?"
+    bn: "প্রতি বিঘা জমির জন্য কত টাকা ভর্তুকি দেওয়া হবে?"
+    rbn: "proti bigha jomir jonno koto taka vortuki dewa hobe?"
+    cm: "Per bigha কত টাকা subsidy দেওয়া হবে?"
+    cmr: "per bigha koto taka subsidy dewa hobe?"
+  sibling:
+    answer_type: date
+    gold: {day: 10, month: 12, year: 2027}
+    q:
+      en: "What is the last date to apply?"
+      bn: "আবেদনের শেষ তারিখ কবে?"
+      rbn: "abedoner shesh tarikh kobe?"
+      cm: "Apply করার last date কবে?"
+      cmr: "apply korar last date kobe?"
+
+- id: P22
+  domain: health
+  answer_type: number
+  passage: |
+    শিউলিতলা জেনারেল হাসপাতাল
+    দর্শনার্থী নীতিমালা
+    রোগীর সুস্থতা ও নিরাপত্তার জন্য হাসপাতালে দর্শনার্থী প্রবেশ নিয়ন্ত্রণ করা হবে। দর্শনার্থীরা প্রতিদিন বিকেল ৪টা থেকে ৬টা পর্যন্ত ওয়ার্ডে প্রবেশ করতে পারবেন। একজন রোগীর সাথে একসাথে সর্বোচ্চ ২ জন দর্শনার্থী দেখা করতে পারবেন। দর্শনার্থীদের প্রবেশপথে নাম ও মোবাইল নম্বর লিপিবদ্ধ করতে হবে।
+  answer_sentence: "একজন রোগীর সাথে একসাথে সর্বোচ্চ ২ জন দর্শনার্থী দেখা করতে পারবেন।"
+  insuff_replacement: "একজন রোগীর সাথে একসাথে সীমিত সংখ্যক দর্শনার্থী দেখা করতে পারবেন।"
+  gold: {value: 2}
+  q:
+    en: "How many visitors can see a patient at the same time?"
+    bn: "একজন রোগীর সাথে একসাথে সর্বোচ্চ কতজন দর্শনার্থী দেখা করতে পারবেন?"
+    rbn: "ekjon rogir sathe eksathe shorbocho kotojon dorshonarthi dekha korte parben?"
+    cm: "একজন patient-এর সাথে একসাথে maximum কতজন visitor দেখা করতে পারবে?"
+    cmr: "ekjon patient er sathe eksathe maximum kotojon visitor dekha korte parbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 4}
+    q:
+      en: "From what time (o'clock, afternoon) can visitors enter the ward?"
+      bn: "দর্শনার্থীরা বিকেল কয়টা থেকে ওয়ার্ডে প্রবেশ করতে পারবেন?"
+      rbn: "dorshonarthira bikel koyta theke warde probesh korte parben?"
+      cm: "Visitor-রা বিকেল কয়টা থেকে ward-এ ঢুকতে পারবে?"
+      cmr: "visitor ra bikel koyta theke ward e dhukte parbe?"
+
+- id: P23
+  domain: culture
+  answer_type: date
+  passage: |
+    বকুলতলা সাংস্কৃতিক পরিষদ
+    লোকসংগীত উৎসব ২০২৭
+    পরিষদের আয়োজনে তিন দিনব্যাপী লোকসংগীত উৎসব ২৬ ফেব্রুয়ারি ২০২৭ তারিখে শুরু হবে। উৎসবে দেশের বিভিন্ন অঞ্চলের শিল্পীরা অংশ নেবেন। উৎসবে প্রবেশ ফি ৫০ টাকা। ছাত্র-ছাত্রীরা পরিচয়পত্র দেখিয়ে বিনামূল্যে প্রবেশ করতে পারবে।
+  answer_sentence: "পরিষদের আয়োজনে তিন দিনব্যাপী লোকসংগীত উৎসব ২৬ ফেব্রুয়ারি ২০২৭ তারিখে শুরু হবে।"
+  insuff_replacement: "পরিষদের আয়োজনে তিন দিনব্যাপী লোকসংগীত উৎসব অনুষ্ঠিত হবে।"
+  gold: {day: 26, month: 2, year: 2027}
+  q:
+    en: "On what date does the folk music festival start?"
+    bn: "লোকসংগীত উৎসব কোন তারিখে শুরু হবে?"
+    rbn: "lokosongit utshob kon tarikhe shuru hobe?"
+    cm: "Folk music festival কোন date-এ start হবে?"
+    cmr: "folk music festival kon date e start hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 50}
+    q:
+      en: "What is the entry fee for the festival?"
+      bn: "উৎসবে প্রবেশ ফি কত?"
+      rbn: "utshobe probesh fi koto?"
+      cm: "Festival-এর entry fee কত?"
+      cmr: "festival er entry fee koto?"
+
+- id: P24
+  domain: housing
+  answer_type: yesno
+  passage: |
+    মাধবীলতা আবাসন
+    ফ্ল্যাট ভাড়ার বিজ্ঞপ্তি
+    আবাসনের চতুর্থ তলায় দুই কক্ষের একটি ফ্ল্যাট ভাড়া দেওয়া হবে। মাসিক ভাড়া ১৪০০০ টাকা। ভাড়ার সাথে গ্যাস বিল অন্তর্ভুক্ত, তবে বিদ্যুৎ বিল ভাড়াটিয়াকে আলাদাভাবে পরিশোধ করতে হবে। ছোট পরিবারকে অগ্রাধিকার দেওয়া হবে।
+  answer_sentence: "ভাড়ার সাথে গ্যাস বিল অন্তর্ভুক্ত, তবে বিদ্যুৎ বিল ভাড়াটিয়াকে আলাদাভাবে পরিশোধ করতে হবে।"
+  insuff_replacement: "বিদ্যুৎ বিল ভাড়াটিয়াকে আলাদাভাবে পরিশোধ করতে হবে।"
+  gold: {value: true}
+  q:
+    en: "Is the gas bill included in the rent?"
+    bn: "ভাড়ার সাথে কি গ্যাস বিল অন্তর্ভুক্ত?"
+    rbn: "varar sathe ki gas bil ontorbhukto?"
+    cm: "Rent-এর সাথে কি gas bill include করা?"
+    cmr: "rent er sathe ki gas bill include kora?"
+  sibling:
+    answer_type: amount
+    gold: {value: 14000}
+    q:
+      en: "What is the monthly rent?"
+      bn: "মাসিক ভাড়া কত?"
+      rbn: "mashik vara koto?"
+      cm: "Monthly rent কত?"
+      cmr: "monthly rent koto?"
+
+- id: P25
+  domain: training
+  answer_type: number
+  passage: |
+    আলোকবর্তিকা কম্পিউটার প্রশিক্ষণ কেন্দ্র
+    গ্রাফিক ডিজাইন কোর্স
+    কেন্দ্রে নতুন ব্যাচে গ্রাফিক ডিজাইন কোর্সে ভর্তি চলছে। কোর্সের মেয়াদ ৮ সপ্তাহ। কোর্স ফি ৬৫০০ টাকা, যা দুই কিস্তিতে পরিশোধ করা যাবে। ক্লাস সপ্তাহে তিন দিন সন্ধ্যায় অনুষ্ঠিত হবে। কোর্স শেষে সনদপত্র দেওয়া হবে।
+  answer_sentence: "কোর্সের মেয়াদ ৮ সপ্তাহ।"
+  insuff_replacement: ""
+  gold: {value: 8}
+  q:
+    en: "How many weeks long is the course?"
+    bn: "কোর্সটি কত সপ্তাহের?"
+    rbn: "korshti koto shoptaher?"
+    cm: "Course-টা কত weeks-এর?"
+    cmr: "course ta koto weeks er?"
+  sibling:
+    answer_type: amount
+    gold: {value: 6500}
+    q:
+      en: "What is the course fee?"
+      bn: "কোর্স ফি কত?"
+      rbn: "kors fi koto?"
+      cm: "Course fee কত?"
+      cmr: "course fee koto?"
+
+- id: P26
+  domain: cooperative
+  answer_type: name
+  passage: |
+    মধুকুঞ্জ মহিলা সমবায় সমিতি
+    নতুন কমিটি ঘোষণা
+    সমিতির ২ এপ্রিল ২০২৭ তারিখের সাধারণ সভায় আগামী দুই বছরের জন্য নতুন কার্যকরী কমিটি গঠন করা হয়েছে। নতুন কমিটির সভাপতি হয়েছেন শাহনাজ পারভীন। সাধারণ সম্পাদক হিসেবে দায়িত্ব পেয়েছেন মরিয়ম বেগম। নতুন কমিটির প্রথম সভা আগামী মাসে অনুষ্ঠিত হবে।
+  answer_sentence: "সাধারণ সম্পাদক হিসেবে দায়িত্ব পেয়েছেন মরিয়ম বেগম।"
+  insuff_replacement: "সাধারণ সম্পাদকের নাম পরে ঘোষণা করা হবে।"
+  gold: {aliases: ["মরিয়ম বেগম", "Moriom Begum", "Mariam Begum", "Maryam Begum", "Moriyom Begum"]}
+  q:
+    en: "Who is the new general secretary of the committee?"
+    bn: "নতুন কমিটির সাধারণ সম্পাদক কে?"
+    rbn: "notun komitir sadharon shompadok ke?"
+    cm: "New committee-র general secretary কে?"
+    cmr: "new committee r general secretary ke?"
+  sibling:
+    answer_type: name
+    gold: {aliases: ["শাহনাজ পারভীন", "Shahnaz Parvin", "Shahnaz Parveen", "Shahnaj Parvin"]}
+    q:
+      en: "Who is the president of the new committee?"
+      bn: "নতুন কমিটির সভাপতি কে?"
+      rbn: "notun komitir shovapoti ke?"
+      cm: "New committee-র president কে?"
+      cmr: "new committee r president ke?"
+
+- id: P27
+  domain: admin
+  answer_type: amount
+  passage: |
+    তিস্তাকুল বিশ্ববিদ্যালয় কলেজ
+    পরিচয়পত্র পুনরায় ইস্যু সংক্রান্ত নোটিশ
+    হারানো বা নষ্ট হওয়া শিক্ষার্থী পরিচয়পত্র পুনরায় ইস্যুর জন্য প্রশাসনিক ভবনের ২১৪ নম্বর কক্ষে আবেদন করতে হবে। পরিচয়পত্র পুনরায় ইস্যুর ফি ২০০ টাকা। আবেদনের সাথে এক কপি পাসপোর্ট সাইজের ছবি জমা দিতে হবে। আবেদনের পাঁচ কর্মদিবসের মধ্যে নতুন পরিচয়পত্র সংগ্রহ করা যাবে।
+  answer_sentence: "পরিচয়পত্র পুনরায় ইস্যুর ফি ২০০ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 200}
+  q:
+    en: "How much is the fee to reissue a student ID card?"
+    bn: "পরিচয়পত্র পুনরায় ইস্যু করতে কত টাকা ফি লাগবে?"
+    rbn: "porichoypotro punoray issu korte koto taka fi lagbe?"
+    cm: "ID card reissue করতে কত টাকা fee লাগবে?"
+    cmr: "ID card reissue korte koto taka fee lagbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 214}
+    q:
+      en: "In which room number should the application be submitted?"
+      bn: "কত নম্বর কক্ষে আবেদন করতে হবে?"
+      rbn: "koto nombor kokkhe abedon korte hobe?"
+      cm: "কত নম্বর room-এ apply করতে হবে?"
+      cmr: "koto nombor room e apply korte hobe?"
+
+- id: P28
+  domain: infrastructure
+  answer_type: date
+  passage: |
+    বাঁশঝাড়িয়া পৌরসভা প্রকৌশল বিভাগ
+    সড়ক সংস্কার কাজের নোটিশ
+    কলেজ রোড থেকে হাসপাতাল মোড় পর্যন্ত ৩.৫ কিলোমিটার সড়কের সংস্কার কাজ শুরু হয়েছে। সংস্কার কাজ ৩০ জুন ২০২৭ তারিখের মধ্যে শেষ হবে। কাজ চলাকালীন সড়কের একপাশ দিয়ে যান চলাচল করবে। পথচারীদের সতর্কভাবে চলাচলের অনুরোধ করা হলো।
+  answer_sentence: "সংস্কার কাজ ৩০ জুন ২০২৭ তারিখের মধ্যে শেষ হবে।"
+  insuff_replacement: ""
+  gold: {day: 30, month: 6, year: 2027}
+  q:
+    en: "By what date will the road repair be completed?"
+    bn: "সড়ক সংস্কার কাজ কোন তারিখের মধ্যে শেষ হবে?"
+    rbn: "shorok shongskar kaj kon tarikher moddhe shesh hobe?"
+    cm: "Road repair কাজ কোন date-এর মধ্যে শেষ হবে?"
+    cmr: "road repair kaj kon date er moddhe shesh hobe?"
+  sibling:
+    answer_type: number
+    gold: {value: 3.5}
+    q:
+      en: "How many kilometres of road are being repaired?"
+      bn: "কত কিলোমিটার সড়কের সংস্কার কাজ হচ্ছে?"
+      rbn: "koto kilometer shoroker shongskar kaj hocche?"
+      cm: "কত km road repair হচ্ছে?"
+      cmr: "koto km road repair hocche?"
+
+- id: P29
+  domain: school
+  answer_type: yesno
+  passage: |
+    জলসিঁড়ি বিজ্ঞান সমিতি
+    আঞ্চলিক বিজ্ঞান মেলা ২০২৭
+    সমিতির উদ্যোগে আঞ্চলিক বিজ্ঞান মেলার জন্য প্রকল্প আহ্বান করা হচ্ছে। কলেজ পর্যায়ের শিক্ষার্থীরা দলগতভাবে প্রকল্প জমা দিতে পারবে। মাধ্যমিক বিদ্যালয়ের শিক্ষার্থীরাও মেলায় অংশ নিতে পারবে। সেরা প্রকল্পকে ১০০০০ টাকা পুরস্কার দেওয়া হবে।
+  answer_sentence: "মাধ্যমিক বিদ্যালয়ের শিক্ষার্থীরাও মেলায় অংশ নিতে পারবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Can secondary school students take part in the science fair?"
+    bn: "মাধ্যমিক বিদ্যালয়ের শিক্ষার্থীরা কি মেলায় অংশ নিতে পারবে?"
+    rbn: "maddhomik biddaloyer shikkharthira ki melay ongsho nite parbe?"
+    cm: "Secondary school-এর student-রা কি science fair-এ participate করতে পারবে?"
+    cmr: "secondary school er student ra ki science fair e participate korte parbe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 10000}
+    q:
+      en: "How much prize money will the best project receive?"
+      bn: "সেরা প্রকল্প কত টাকা পুরস্কার পাবে?"
+      rbn: "shera prokolpo koto taka puroshkar pabe?"
+      cm: "Best project কত টাকা prize পাবে?"
+      cmr: "best project koto taka prize pabe?"
+
+- id: P30
+  domain: admin
+  answer_type: name
+  passage: |
+    শাপলাপুর পেনশন সহায়তা কেন্দ্র
+    সেবা গ্রহণ সংক্রান্ত তথ্য
+    অবসরপ্রাপ্ত কর্মচারীরা পেনশন সংক্রান্ত সেবার জন্য কেন্দ্রে যোগাযোগ করতে পারবেন। আবেদনের সাথে দুই কপি পাসপোর্ট সাইজের ছবি জমা দিতে হবে। কেন্দ্রের দায়িত্বপ্রাপ্ত কর্মকর্তা আবদুল হান্নান। সেবা গ্রহণের সময় রবিবার থেকে বৃহস্পতিবার সকাল ৯টা থেকে দুপুর ২টা।
+  answer_sentence: "কেন্দ্রের দায়িত্বপ্রাপ্ত কর্মকর্তা আবদুল হান্নান।"
+  insuff_replacement: ""
+  gold: {aliases: ["আবদুল হান্নান", "আব্দুল হান্নান", "Abdul Hannan", "Abdul Hanan"]}
+  q:
+    en: "Who is the officer in charge of the centre?"
+    bn: "কেন্দ্রের দায়িত্বপ্রাপ্ত কর্মকর্তা কে?"
+    rbn: "kendrer dayitto prapto kormokorta ke?"
+    cm: "Center-এর officer in charge কে?"
+    cmr: "center er officer in charge ke?"
+  sibling:
+    answer_type: number
+    gold: {value: 2}
+    q:
+      en: "How many passport-size photographs must be submitted?"
+      bn: "আবেদনের সাথে কয় কপি ছবি জমা দিতে হবে?"
+      rbn: "abedoner sathe koy kopi chobi joma dite hobe?"
+      cm: "Application-এর সাথে কয় copy photo দিতে হবে?"
+      cmr: "application er sathe koy copy photo dite hobe?"

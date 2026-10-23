@@ -1,0 +1,11 @@
+# Pipeline smoke test on 2 DRAFT items. Not a result; never reported.
+model: "gemma2:9b"
+items: 03_data/processed/pilot_items_draft.yaml
+smoke: true
+max_items: 2
+split: dev
+variants: [en, bn, rbn, cm, cmr]
+methods: [M1, GEN, SUFF, CB, TR]
+seed: 0
+temperature: 0.0
+num_ctx: 4096
