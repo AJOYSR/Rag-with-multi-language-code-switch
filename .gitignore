@@ -1,0 +1,4 @@
+02_literature/pdfs/
+.DS_Store
+__pycache__/
+.venv/
