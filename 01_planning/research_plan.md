@@ -20,7 +20,7 @@ What is established:
 - **[FACT]** Feng et al. (EMNLP 2024) report that abstention methods degrade outside high-resource languages, with gaps of up to 20.5% between high- and low-resource languages. They propose multilingual feedback as a fairer abstention strategy.
 - **[FACT]** NoMIRACL (Thakur et al., EMNLP 2024 Findings) measures, across 18 languages, both hallucination when all passages are irrelevant and errors when relevant passages exist. Models trade one failure for the other.
 - **[FACT]** Khullar et al. (arXiv 2512.10780, 2025/26) find consistent degradation of up to 24 points for **romanized** vs. native-script Indian-language inputs in a real triage setting. They note that models that appear to understand romanized input may still fail to act on it reliably.
-- **[FACT]** Marwah et al. (arXiv 2610.02926, NeurIPS 2026 workshop) find that mixed-language prompt contamination can trigger near-universal abstention, and flag this as relevant to multilingual RAG.
+- **[FACT]** Marwah et al. (arXiv 2610.02926v1; NeurIPS 2026 LP4FM workshop per the arXiv comment) study closed-book TriviaQA with distractors prepended to the prompt. Under Hindi distractors, several models abstain more often (e.g. Qwen-2.5-3B 0.352→0.730; Table 4). A paragraph-length **English** Wikipedia distractor raises abstention to 0.424–0.998 across five models (Table 4). The abstract's "0.806–0.998 across all models" omits two models. *(Corrected 2026-10-23 after full read; v0.1 overstated this as mixed-language contamination causing near-universal abstention.)*
 - **[FACT]** Wen et al. (TACL 2025) survey abstention in LLMs and its evaluation.
 
 Why Bengali: Bengali is spoken by over 200 million people, and real users write it in three forms (native script, romanized, and Bengali–English code-mixed). Production systems in Bangladesh receive all three. **[ASSUMPTION — find a citable source for script-usage prevalence before the Introduction is written.]**
@@ -35,15 +35,22 @@ No study found so far tests, under controlled conditions, whether an abstention 
 (b) comprehension of the variant, and
 (c) retrieval failure.
 
-What the closest works cover, and what they leave open:
+What the closest works cover, and what they leave open (**updated 2026-10-23 after full reading; see `02_literature/notes/` and `G1_novelty_memo.md`**):
 
-| Work | Covers | Does not cover (per abstract-level reading) |
+| Work (status) | Covers | Does not cover (full-read) |
 |---|---|---|
-| Joren et al. 2025 | sufficiency-guided selective generation | non-English languages, script variation, threshold transfer |
-| Feng et al. 2024 | abstention across languages | romanized/code-mixed scripts; RAG with controlled evidence |
-| NoMIRACL 2024 | multilingual RAG abstention vs. hallucination | script/code-mix variation of the *same* item; threshold transfer |
-| Khullar et al. 2025/26 | native vs. romanized performance gap | abstention/sufficiency in RAG; (Bengali coverage unconfirmed) |
-| Marwah et al. 2026 | mixed-language contamination → abstention | paired-item script variation; calibrated thresholds |
+| Joren et al. 2025 (full-read) | sufficiency autorater; selective generation from sufficiency + confidence | any non-English input; held-out threshold selection; threshold transfer |
+| Feng et al. 2024 (full-read) | abstention across English + 26 other languages incl. Bengali (native script, MT; App. B); "only somewhat transferable" abstention *decisions* across languages | RAG with controlled evidence; romanized/code-mixed input; threshold transfer at a target risk |
+| NoMIRACL 2024 (full-read) | multilingual RAG relevance-based abstention incl. Bengali | minimal-edit sufficiency; same-item script variation; scores/thresholds (rule-based IDK) |
+| Khullar et al. 2025/26 (full-read) | native vs romanized gap (up to 24 pts); shift toward "insufficient information" under romanization; script-normalisation routing | Bengali; RAG/sufficiency; numeric thresholds or calibration |
+| Marwah et al. 2026 (full-read) | distractor-induced abstention escalation (closed-book) | paired script variants; evidence sufficiency; thresholds |
+| Zoumpoulidi et al. 2026 (full-read) | paired solvable/unsolvable items across EN/FR/EL; language-dependent false abstention | RAG; scripts; Bengali; thresholds |
+| **Alfarano et al. 2026** (full-read) | **English-tuned threshold applied to 22 languages incl. Bengali (pooled; F1-selected)**; English-reasoning (pivot) improves UE | evidence sufficiency/RAG; romanized/code-mixed; target-risk realised risk per language; direct comprehension measurement |
+| **Thimma Krishnaram et al. 2026** (full-read) | **thresholds tuned on clean English, frozen, applied to paired code-mixed input → decision flips** | RAG; Bengali; script separated from code-mixing; comprehension vs calibration |
+| Kabir et al. 2026, BanglaShield (full-read) | aligned Bangla native / romanized / code-mixed items (auto-generated); romanized degrades safety refusal | RAG/sufficiency; English pairing; thresholds; human-validated variants |
+| Zhang & Wu 2026 (abstract-read) | English five-level evidence-sufficiency abstention benchmark | any non-English input |
+
+**Revised gap statement [HYPOTHESIS, pending author decision at G1]:** prior work shows that abstention degrades across languages and under romanization, and that English-tuned thresholds can shift on code-mixed or other-language input. To our knowledge, no study measures whether an abstention threshold selected on English dev **for a target risk** keeps that risk on native-script, romanized and code-mixed renderings of the **same** RAG items under **controlled evidence sufficiency**, nor separates comprehension from calibration with a direct per-item comprehension check, for Bengali or any other language.
 
 **Gate G1 must confirm this table by full reading.** The paper must **not** claim to be "the first" to study multilingual abstention or Bengali RAG.
 
@@ -51,7 +58,7 @@ What the closest works cover, and what they leave open:
 
 **RQ1 — Variant sensitivity.** With meaning and evidence held fixed, do unsupported-answer rate (UAR) and unnecessary-abstention rate (UNR) differ across EN, BN, RBN and CM?
 - **H1 [HYPOTHESIS]:** UAR on insufficient-evidence items is higher for RBN and CM than for EN and BN.
-- **H1-alt:** UNR rises instead, i.e. the model over-abstains on variants it partly fails to understand (consistent with Marwah et al.). Either direction is a reportable reliability failure.
+- **H1-alt:** UNR rises instead, i.e. the model over-abstains on variants it partly fails to understand (consistent with Marwah et al.'s abstention escalation under Hindi distractors, Feng et al.'s finding of more unnecessary abstention in low-resource languages, and Khullar et al.'s shift toward "insufficient information" under romanization — see notes). Either direction is a reportable reliability failure.
 
 **RQ2 — Threshold transfer.** Does a confidence or sufficiency threshold selected on English dev data achieve the same target risk and coverage on the other variants?
 - **H2 [HYPOTHESIS]:** An English-selected threshold violates the target risk on at least one non-English variant by more than the bootstrap confidence interval.
@@ -68,7 +75,7 @@ Candidates: (i) per-variant threshold from a small dev set (≈ 30–50 items); 
 ## 4. Novelty and expected contributions
 
 1. **A controlled paired benchmark.** About 175 base items × 4 variants × 2 sufficiency conditions, with meaning-equivalence validation. *Novel element:* script and code-mix variation of the same item under controlled evidence.
-2. **A threshold-transfer analysis.** A measurement of whether abstention operating points transfer across scripts. *Novel element:* the transfer question itself.
+2. **A threshold-transfer analysis.** Realised vs target risk, per variant, for a threshold selected on English dev. *Novel element (narrowed 2026-10-23):* target-risk transfer for evidence-sufficiency abstention in RAG, with script and code-mixing separated. The generic question of English→other-language threshold transfer is **not** new (Alfarano et al. 2026; Thimma Krishnaram et al. 2026).
 3. **A decomposition** of gaps into comprehension and calibration components.
 4. **A low-cost mitigation** evaluated on held-out items.
 
