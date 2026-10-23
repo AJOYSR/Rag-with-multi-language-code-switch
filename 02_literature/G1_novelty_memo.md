@@ -70,3 +70,13 @@ We can no longer claim the general idea that "English-calibrated thresholds may 
   - Repeat the ACL Anthology searches in its own search box.
   - About 20 minutes in total.
 - **(c) Approve the narrowed contribution wording in plan §4 and the revised gap statement in plan §2.**
+
+---
+## Addendum — after the author's G1 decision (2026-10-23)
+
+The author approved "proceed". The two manual checks were then run by the agent in a real browser (search log L5–L15).
+
+- **"Probe Before you Answer" exists. It is Krause et al., WMT 2026, A10, and it is now the closest work for RQ2.** In cross-lingual context-based QA, with negatives built by deleting the answer sentence, a probe's answerability *ranking* transfers across question languages but its *threshold* does not. More in-domain multilingual training fixes this; per-language recalibration does not. It has no romanized or code-mixed inputs, uses a probe rather than behavioural abstention, and evaluates with F1 rather than a target risk.
+- **The ACL Anthology searches (10 queries) turned up nothing closer.**
+- **Effect on the recommendation:** the decision to proceed stands. The novelty claim narrows a little more. Cross-lingual threshold non-transfer in context-based QA is now known. **What remains ours is within-language script and code-mix variation, with behavioural abstention methods, measured as risk at a target level.** A10's finding that per-language offsets barely help is a direct, testable contrast for RQ4(i).
+- Revised one-sentence claim: *"Prior work shows that abstention thresholds shift across languages (Alfarano et al., 2026; Krause et al., 2026) and on paired code-mixed input (Thimma Krishnaram et al., 2026). To our knowledge, no study tests whether a target-risk abstention threshold selected on English holds on native-script, romanized and code-mixed renderings of the same RAG items under controlled evidence sufficiency."*
