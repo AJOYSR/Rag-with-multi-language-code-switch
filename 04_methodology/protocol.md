@@ -1,6 +1,6 @@
-# Experimental and Analysis Protocol: DRAFT v0.9
+# Experimental and Analysis Protocol: v1.0 (FROZEN 2026-10-24)
 
-**Status: DRAFT, not frozen.** Written by the AI research agent on 2026-10-24, after Gate G2. The design changes come from the G2 decision (`00_admin/decision_log.md`, 2026-10-24).
+**Status: FROZEN on 2026-10-24, approved by the author (Ajoy Sarker).** Drafted by the AI research agent after Gate G2. The hashes are in `04_methodology/protocol_freeze.txt` and git tag `protocol-v1.0`. The design changes come from the G2 decision (`00_admin/decision_log.md`, 2026-10-24).
 
 **Freezing:** the author approves this file, it is committed, and its SHA-256 and the git hash are recorded in §12. **No test-split run may happen before the freeze** (`src/run.py` enforces this through `protocol_frozen_hash`). Any later change is logged in §13 and disclosed in the paper.
 
@@ -141,6 +141,6 @@ Compared at matched coverage on test.
 ## 13. Freeze record and deviations
 | Date | Version | git hash | SHA-256 | Approved by |
 |---|---|---|---|---|
-| — | 0.9 draft | — | — | pending |
+| 2026-10-24 | 1.0 | see git tag `protocol-v1.0` | see `protocol_freeze.txt` | Ajoy Sarker (author) |
 
 Deviations after the freeze: *none yet*.
