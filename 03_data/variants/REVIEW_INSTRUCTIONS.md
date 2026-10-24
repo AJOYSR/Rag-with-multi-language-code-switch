@@ -31,3 +31,20 @@ For each row:
 - Save the returned files as `review_pilot_RETURNED.csv` and `review_pilot_passages_RETURNED.csv` in this folder.
 
 The agent will then apply your edits to produce `03_data/processed/pilot_items_approved.yaml`, re-run the automatic checks, log the edit rate, and start the pilot. **Your edits are not changed silently.** Any edit that fails an automatic check, for example a gold answer still present in an insufficient passage, will be sent back to you.
+
+---
+
+# Main Review (170 new items, N001–N170)
+
+Files: `review_main_passages.csv` (170 rows, one per notice) and `review_main.csv` (340 rows, main + sibling question per item). The columns and STATUS values are the same as in the pilot, plus:
+
+- **`CHECK_FIRST`**: a hint written by the drafting agents or by the lead agent (23 items). Read it before you judge that row. **N083 is a likely leak**: please edit or drop it.
+- **`institution`, `edit_type`**: the fictional institution, and whether the answer sentence was deleted or replaced by a vaguer one (neutralisation).
+
+What is different from the pilot:
+
+1. **Each notice will be shown with two other notices** from the same split during the experiment, so the question always names the institution. Please check that the institution name in every question matches the notice.
+2. **Neutralised edits** replace the answer with vague wording. For these rows, check carefully that the answer cannot still be worked out from what remains (`insufficient_really_unanswerable`).
+3. **Mixing contrast:** RBN should be Roman-script Bengali with only loanwords you consider normal Bengali (e.g. "fee"). CMR must contain at least one real English insertion beyond what RBN has. Four items (N007, N079, N095, N129) have RBN and CMR almost identical and are flagged.
+
+Save your files as **CSV UTF-8** with the names `review_main_RETURNED.csv` and `review_main_passages_RETURNED.csv`. You can return them in parts (for example, N001–N043 first); rows left with an empty STATUS are counted as unreviewed and kept out of the dataset until reviewed.

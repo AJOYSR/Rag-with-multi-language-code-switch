@@ -3,6 +3,7 @@
 Usage: python -m src.build_review_sheet <items.yaml> <out_dir> [prefix]
 Produces <prefix>.csv (question variants) and <prefix>_passages.csv (default prefix: review_pilot)
 (evidence + insufficient edit). UTF-8 with BOM so spreadsheet apps show Bengali.
+An optional item field `review_flag` is shown in a CHECK_FIRST column of both sheets.
 """
 import csv
 import sys
@@ -31,22 +32,22 @@ def main(items_path, out_dir, prefix="review_pilot"):
     out = Path(out_dir)
     with open(out / f"{prefix}.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
-        w.writerow(["item_id", "question", *VARIANTS,
+        w.writerow(["item_id", "CHECK_FIRST", "question", *VARIANTS,
                     *[f"{v}_EDIT" for v in VARIANTS],
                     "meaning_equivalent_all (Y/N)", "natural (Y/N)", "STATUS (approve/edit/drop)", "comment"])
         for it in items:
             for qkey, q in (("main", it["q"]), ("sibling", it["sibling"]["q"])):
-                w.writerow([it["id"], qkey, *[q[v] for v in VARIANTS], *[""] * len(VARIANTS), "", "", "", ""])
+                w.writerow([it["id"], it.get("review_flag", ""), qkey, *[q[v] for v in VARIANTS], *[""] * len(VARIANTS), "", "", "", ""])
     with open(out / f"{prefix}_passages.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
-        w.writerow(["item_id", "domain", "institution", "edit_type", "MAIN_QUESTION (en)", "MAIN_QUESTION (bn)", "main_answer",
+        w.writerow(["item_id", "CHECK_FIRST", "domain", "institution", "edit_type", "MAIN_QUESTION (en)", "MAIN_QUESTION (bn)", "main_answer",
                     "SIBLING_QUESTION (en)", "SIBLING_QUESTION (bn)", "sibling_answer", "passage_SUFFICIENT",
                     "answer_sentence", "replacement", "passage_INSUFFICIENT",
                     "passage_EDIT", "replacement_EDIT", "insufficient_really_unanswerable (Y/N)",
                     "names_fictional_ok (Y/N)", "STATUS (approve/edit/drop)", "comment"])
         for it in items:
             sib = it["sibling"]
-            w.writerow([it["id"], it["domain"], (it.get("entity") or {}).get("bn", ""), it.get("edit_type", "deletion/neutral"), it["q"]["en"], it["q"]["bn"], readable(it["answer_type"], it["gold"]),
+            w.writerow([it["id"], it.get("review_flag", ""), it["domain"], (it.get("entity") or {}).get("bn", ""), it.get("edit_type", "deletion/neutral"), it["q"]["en"], it["q"]["bn"], readable(it["answer_type"], it["gold"]),
                         sib["q"]["en"], sib["q"]["bn"], readable(sib["answer_type"], sib["gold"]),
                         it["passage"].strip(), it["answer_sentence"], it["insuff_replacement"] or "(delete)",
                         insufficient_passage(it).strip(), "", "", "", "", "", ""])
