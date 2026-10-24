@@ -72,3 +72,9 @@
 - Validate batches A–C, cross-batch checks, build combined review sheet (`review_main`) for the author.
 **Blockers**
 - Author review of ~170 new items; second annotator consent/briefing.
+
+### Update — 2026-10-24 23:30
+- Done: batches A (4b15dee), B (06ad3e0), C (ac3ffcb) drafted by agents and re-validated by the lead agent (0 problems each); merged with D into `03_data/processed/main_items_draft.yaml` (170 items, 0 problems, 50 dev / 150 test with pilot); author review sheets `03_data/variants/review_main.csv` + `review_main_passages.csv` built (298f3f1); instructions appended to `REVIEW_INSTRUCTIONS.md`.
+- Issues: parallel agents shared one scratchpad and one overwrote another's helper script (outputs unaffected; re-validated). Spot-read found a likely leak in N083 (flagged). 4 items have near-identical RBN/CMR questions (flagged).
+- Next: author reviews review_main sheets → `src.apply_review` (prefix review_main) → annotation sample (≥20%) for the second annotator → κ → DATA_CARD/SOURCES → G3.
+- Blocker: author review (all 170 items).
