@@ -9,6 +9,7 @@ the EN threshold is selected and evaluated on the same 30 items (in-sample for E
 """
 import json
 import math
+import re
 import sys
 from pathlib import Path
 
@@ -17,7 +18,7 @@ import pandas as pd
 from scipy.stats import norm
 
 from .llm import first_token_binary_prob, mean_logprob
-from .normalize import is_abstention, match
+from .normalize import is_abstention, match, outcome
 from .scoring import bootstrap, fit_combiner, metrics, paired_diff, transfer_table
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -27,9 +28,22 @@ VARIANT_ORDER = ["en", "bn", "rbn", "cm", "cmr"]
 def load_run(run_dir: Path) -> pd.DataFrame:
     recs = [json.loads(l) for l in (run_dir / "responses.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
     df = pd.DataFrame(recs)
-    df["abstained"] = df["content"].map(is_abstention)
-    df["correct"] = [(not a) and match(c, t, g) for c, t, g, a in
-                     zip(df["content"], df["answer_type"], df["gold"], df["abstained"])]
+    df["category"] = [outcome(c, t) for c, t in zip(df["content"], df["answer_type"])]
+    # manual adjudication of 'ambiguous' cases (plan §5.5), keyed by run + response key
+    adj_path = ROOT / "06_results" / "adjudication_pilot.csv"
+    adj = pd.read_csv(adj_path) if adj_path.exists() else pd.DataFrame(columns=["run_id", "key", "label"])
+    adj = adj[adj.run_id == run_dir.name].set_index("key")["label"].to_dict()
+    df["adjudicated"] = df["key"].map(adj)
+    df.loc[df.adjudicated.notna(), "category"] = df.loc[df.adjudicated.notna(), "adjudicated"].map(
+        lambda x: "specific" if x.startswith("specific") else x)
+    df["abstained"] = df["category"] != "specific"          # strict: only committed values count as answers
+    df["explicit_abstain"] = df["category"] == "abstain"
+    df["correct"] = [(not a) and (match(c, t, g) if not isinstance(j, str) else
+                                  (j == "specific_yes") == bool(g.get("value")) if t == "yesno" else False)
+                     for c, t, g, a, j in zip(df["content"], df["answer_type"], df["gold"], df["abstained"], df["adjudicated"])]
+    unresolved = df[(df.category == "ambiguous") & df.method.isin(["M1", "GEN"])]
+    if len(unresolved):
+        print(f"WARNING {run_dir.name}: {len(unresolved)} unadjudicated ambiguous rows (treated as non-answers)")
     df["p_suff"] = df["logprobs"].map(first_token_binary_prob)
     df["conf"] = df["logprobs"].map(mean_logprob)
     return df
@@ -38,8 +52,9 @@ def load_run(run_dir: Path) -> pd.DataFrame:
 def outcome_frame(df: pd.DataFrame, method: str, question: str = "main") -> pd.DataFrame:
     d = df[(df.method == method) & (df.question == question)].copy()
     d["answered"] = ~d["abstained"]
-    d.loc[d.sufficiency == "insuff", "correct"] = False
-    return d[["item_id", "variant", "sufficiency", "answered", "correct", "answer_type"]]
+    if question == "main":  # the sibling question stays answerable on the insufficient passage
+        d.loc[d.sufficiency == "insuff", "correct"] = False
+    return d[["item_id", "variant", "sufficiency", "answered", "correct", "answer_type", "category"]]
 
 
 def m3_frame(df: pd.DataFrame) -> pd.DataFrame:
@@ -124,11 +139,17 @@ def main(*run_dirs, n_boot: int = 2000):
             results["M1_power"] = pd.DataFrame([mcnemar_power(m1, v, "en", m) for v in ("bn", "rbn", "cm", "cmr")
                                                 for m in ("UAR", "UNR") if v in set(m1.variant)])
             sib = outcome_frame(df, "M1", "sibling")
+            results["M1_categories"] = (df[(df.method == "M1") & (df.question == "main")]
+                .groupby(["sufficiency", "variant"])["category"].value_counts(normalize=True)
+                .unstack(fill_value=0).reset_index())
             results["M1_sibling_nearmiss"] = sib.groupby("variant").agg(
                 n=("answered", "size"), answer_rate=("answered", "mean"), acc=("correct", "mean")).reset_index()
         m3 = m3_frame(df)
         if len(m3) and m3["score"].notna().any():
             results["GEN_per_variant"] = per_variant(m3, n_boot)
+            results["GEN_categories"] = (df[(df.method == "GEN") & (df.question == "main")]
+                .groupby(["sufficiency", "variant"])["category"].value_counts(normalize=True)
+                .unstack(fill_value=0).reset_index())
             results["SUFF_rater"] = m3.assign(pred=m3.p_suff >= 0.5, gold=m3.sufficiency == "suff").groupby("variant").apply(
                 lambda g: pd.Series({"acc": (g.pred == g.gold).mean(), "mean_p_suff_suff": g[g.gold].p_suff.mean(),
                                      "mean_p_suff_insuff": g[~g.gold].p_suff.mean()}),
@@ -137,6 +158,17 @@ def main(*run_dirs, n_boot: int = 2000):
             en = m3[m3.variant == "en"]
             results["M3_transfer_EXPLORATORY"] = pd.concat(
                 [transfer_table(en, m3.dropna(subset=["score"]), r) for r in (0.05, 0.10, 0.20)], ignore_index=True)
+        tr = df[df.method == "TR"]
+        if len(tr):
+            en_q = df[(df.variant == "en") & (df.question == "main")].drop_duplicates("item_id").set_index("item_id")["query"]
+            stop = {"the", "a", "an", "is", "of", "to", "in", "on", "for", "what", "how", "will", "be", "at", "can", "by", "much", "many", "who", "which", "do", "does"}
+            def words(x):
+                return {w for w in re.findall(r"[a-z]+", x.lower()) if w not in stop}
+            t = tr.assign(en_question=tr.item_id.map(en_q), translation=tr.content.str.strip())
+            t["overlap"] = [len(words(a) & words(b)) / max(len(words(a)), 1) for a, b in zip(t.en_question, t.translation)]
+            t["flag_for_author"] = t.overlap < 0.5
+            results["TR_comprehension_PROXY"] = t[["item_id", "variant", "query", "en_question", "translation", "overlap", "flag_for_author"]]
+            results["TR_summary_PROXY"] = t.groupby("variant").agg(mean_overlap=("overlap", "mean"), flagged=("flag_for_author", "mean")).reset_index()
         cb = df[df.method == "CB"]
         if len(cb):
             results["CB_contamination"] = cb.groupby(["variant", "answer_type"]).agg(

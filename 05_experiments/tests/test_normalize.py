@@ -63,7 +63,7 @@ def test_yesno(text, gold, ok):
 
 @pytest.mark.parametrize("text", [
     "NOT_ANSWERABLE", "not answerable", "The passage does not mention the fee.",
-    "নোটিশে ফি-এর কথা উল্লেখ নেই।", "এই তথ্য দেওয়া নেই", "I don't know",
+    "নোটিশে ফি-এর কথা উল্লেখ নেই।", "এই তথ্য দেওয়া নেই", "I don't know", "Notice does not say.",
 ])
 def test_abstention_detected(text):
     assert is_abstention(text)
@@ -105,3 +105,29 @@ def test_bengali_name_boundary_respects_vowel_signs():
 ])
 def test_bengali_case_suffixes(text, ok):
     assert match(text, "name", {"aliases": ["নতুন ভবন", "রহিম"]}) is ok
+
+
+@pytest.mark.parametrize("text,atype,cat", [
+    ("NOT_ANSWERABLE", "date", "abstain"),
+    ("তারিখ পরে জানানো হবে।", "date", "nonspecific"),
+    ("১২ ফেব্রুয়ারি ২০২৭", "date", "specific"),
+    ("সীমিত সংখ্যক", "number", "nonspecific"),
+    ("A limited number of visitors.", "number", "nonspecific"),
+    ("সপ্তাহে তিন দিন", "number", "specific"),       # a committed (wrong) value
+    ("একজন অভিজ্ঞ প্রশিক্ষক।", "name", "nonspecific"),
+    ("An experienced trainer.", "name", "nonspecific"),
+    ("মাহফুজ করিম", "name", "specific"),
+    ("অবসরপ্রাপ্ত কর্মচারীরা", "name", "specific"),  # commits to an (unsupported) referent
+    ("না", "yesno", "specific"),
+    ("কলেজ পর্যায়ের শিক্ষার্থীরা দলগতভাবে প্রকল্প জমা দিতে পারবে।", "yesno", "ambiguous"),
+    ("শুক্রবার একজন মেডিসিন বিশেষজ্ঞ রোগী দেখেন।", "name", "nonspecific"),
+    ("ekjon medicine", "name", "nonspecific"),
+    ("একজন সাধারণ সদস্য একসাথে একাধিক বই ধার নিতে পারবেন।", "number", "nonspecific"),
+    ("one", "number", "specific"),
+    ("2", "number", "specific"),
+    ("হ্যাঁ", "name", "nonspecific"),
+    ("obsorproapta kormochari", "name", "specific"),
+])
+def test_outcome_categories(text, atype, cat):
+    from src.normalize import outcome
+    assert outcome(text, atype) == cat

@@ -1,0 +1,8 @@
+run_id,key,label,adjudicator,date,note
+20261024_pilot_qwen35_9b,M1|P18|main|rbn|suff,specific_yes,author (accepted agent proposal),2026-10-24,affirmative statement
+20261024_pilot_qwen35_9b,M1|P29|main|rbn|suff,specific_yes,author (accepted agent proposal),2026-10-24,affirmative statement
+20261024_pilot_qwen35_9b,M1|P29|main|rbn|insuff,nonspecific,author (accepted agent proposal),2026-10-24,states a different fact
+20261024_pilot_gemma2_9b,GEN|P05|main|rbn|insuff,nonspecific,author (accepted agent proposal),2026-10-24,lists stops; no yes/no
+20261024_pilot_gemma2_9b,GEN|P05|main|cmr|insuff,nonspecific,author (accepted agent proposal),2026-10-24,lists stops; no yes/no
+20261024_pilot_gemma2_9b,GEN|P14|main|rbn|insuff,nonspecific,author (accepted agent proposal),2026-10-24,lists closed shops; no yes/no
+20261024_pilot_gemma2_9b,M1|P18|main|rbn|suff,nonspecific,author (accepted agent proposal),2026-10-24,answers 'when' not 'will it work'

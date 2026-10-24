@@ -1,0 +1,121 @@
+item_id,variant,query,en_question,translation,overlap,flag_for_author
+P01,bn,আবেদন ফি কত টাকা?,How much is the application fee?,What is the application fee?,1.0,False
+P01,rbn,abedon fee koto taka?,How much is the application fee?,How much money do you have?,0.0,True
+P01,cm,Application fee কত টাকা?,How much is the application fee?,What is the application fee?,1.0,False
+P01,cmr,application fee koto taka?,How much is the application fee?,What is the application fee?,1.0,False
+P02,bn,কোন তারিখে পানি সরবরাহ বন্ধ থাকবে?,On what date will the water supply be shut off?,When will the water supply be cut off?,0.6,False
+P02,rbn,kon tarikhe pani shorboraho bondho thakbe?,On what date will the water supply be shut off?,When will the water supply be shut off?,0.8,False
+P02,cm,কোন date e pani supply বন্ধ থাকবে?,On what date will the water supply be shut off?,When will the water supply be cut off?,0.6,False
+P02,cmr,kon date e pani supply bondho thakbe?,On what date will the water supply be shut off?,Until what date will the water supply be shut off?,1.0,False
+P03,bn,শুক্রবার কোন ডাক্তার রোগী দেখেন?,Which doctor sees patients on Friday?,Which doctor sees patients on Friday?,1.0,False
+P03,rbn,shukrobar kon daktar rogi dekhen?,Which doctor sees patients on Friday?,Which doctor sees patients at the Shukrabad clinic?,0.75,False
+P03,cm,শুক্রবার কোন doctor patient দেখেন?,Which doctor sees patients on Friday?,Which doctor sees patients on Friday?,1.0,False
+P03,cmr,shukrobar kon doctor patient dekhen?,Which doctor sees patients on Friday?,Which doctor sees patients at the Shukrabad clinic?,0.75,False
+P04,bn,একজন সাধারণ সদস্য একসাথে কয়টি বই ধার নিতে পারবেন?,How many books can a general member borrow at one time?,How many books can a regular member borrow at once?,0.5,False
+P04,rbn,ekjon sadharon shodosho eksathe koyti boi dhar nite parben?,How many books can a general member borrow at one time?,Can you carry ten books at once?,0.16666666666666666,True
+P04,cm,একজন general member একসাথে কয়টা book borrow করতে পারবে?,How many books can a general member borrow at one time?,How many books can a general member borrow at once?,0.6666666666666666,False
+P04,cmr,ekjon general member eksathe koyta book borrow korte parbe?,How many books can a general member borrow at one time?,How many books can a general member borrow?,0.6666666666666666,False
+P05,bn,নতুন রুটের বাস কি পুরাতন বাজারে থামবে?,Will the new route's buses stop at the Old Bazaar?,Will the new route bus stop at the old market?,0.5714285714285714,False
+P05,rbn,notun ruter bas ki puraton bazare thambe?,Will the new route's buses stop at the Old Bazaar?,Where are the old bazaars located?,0.14285714285714285,True
+P05,cm,New route-এর bus কি পুরাতন বাজারে stop করবে?,Will the new route's buses stop at the Old Bazaar?,Will the bus on the new route stop at the old market?,0.5714285714285714,False
+P05,cmr,new route er bus ki puraton bazare stop korbe?,Will the new route's buses stop at the Old Bazaar?,Will the new bus route stop at the old market?,0.5714285714285714,False
+P06,bn,প্রতি মাসে কত টাকা বৃত্তি দেওয়া হবে?,How much is the monthly scholarship?,How much stipend will be given each month?,0.0,True
+P06,rbn,proti mashe koto taka britti dewa hobe?,How much is the monthly scholarship?,How much money will be needed to buy this?,0.0,True
+P06,cm,Monthly scholarship কত টাকা?,How much is the monthly scholarship?,How much is the monthly scholarship?,1.0,False
+P06,cmr,monthly scholarship koto taka?,How much is the monthly scholarship?,How much is the monthly scholarship?,1.0,False
+P07,bn,মাঠ সহকারী পদে কতজন নিয়োগ দেওয়া হবে?,How many field assistants will be hired?,How many Field Assistants will be recruited?,0.6666666666666666,False
+P07,rbn,math shohokari pode kotojon niyog dewa hobe?,How many field assistants will be hired?,Can math be taught to someone who is not interested?,0.0,True
+P07,cm,Field assistant post-এ কতজন hire করা হবে?,How many field assistants will be hired?,How many field assistants will be hired?,1.0,False
+P07,cmr,field assistant post e kotojon hire kora hobe?,How many field assistants will be hired?,How many field assistants will be hired?,1.0,False
+P08,bn,স্থগিত গণিত পরীক্ষা কোন তারিখে হবে?,On what date will the postponed mathematics exam be held?,When will the postponed math exam be held?,0.6,False
+P08,rbn,sthogito gonit porikkha kon tarikhe hobe?,On what date will the postponed mathematics exam be held?,When will the exam be held?,0.4,True
+P08,cm,Postponed math exam কোন date-এ হবে?,On what date will the postponed mathematics exam be held?,When will the postponed math exam be held?,0.6,False
+P08,cmr,postponed math exam kon date e hobe?,On what date will the postponed mathematics exam be held?,When will the postponed math exam be held?,0.6,False
+P09,bn,প্রশিক্ষণ কে পরিচালনা করবেন?,Who will conduct the training?,Who will conduct the training?,1.0,False
+P09,rbn,proshikkhon ke porichalona korben?,Who will conduct the training?,"Can you give me an introduction to the topic of ""proshikkhon""?",0.0,True
+P09,cm,Training কে conduct করবেন?,Who will conduct the training?,Who will conduct the training?,1.0,False
+P09,cmr,training ke conduct korben?,Who will conduct the training?,How is training conducted?,0.5,False
+P10,bn,ভাড়াটিয়ারা কি কমিটি নির্বাচনে ভোট দিতে পারবেন?,Can tenants vote in the committee election?,Can tenants vote in the committee election?,1.0,False
+P10,rbn,varatiyara ki komiti nirbachone vot dite parben?,Can tenants vote in the committee election?,How many votes can you cast in the committee election?,0.5,False
+P10,cm,Tenant-রা কি committee election-এ vote দিতে পারবে?,Can tenants vote in the committee election?,Can tenants vote in the committee election?,1.0,False
+P10,cmr,tenant ra ki committee election e vote dite parbe?,Can tenants vote in the committee election?,Can a tenant vote in the committee election?,0.75,False
+P11,bn,টিকাদান ক্যাম্প কোন তারিখে হবে?,On what date will the vaccination camp be held?,When will the vaccination camp be held?,0.75,False
+P11,rbn,tikadan camp kon tarikhe hobe?,On what date will the vaccination camp be held?,When will the camp be set up?,0.25,True
+P11,cm,Vaccination camp কোন date-এ হবে?,On what date will the vaccination camp be held?,When will the vaccination camp be held?,0.75,False
+P11,cmr,vaccination camp kon date e hobe?,On what date will the vaccination camp be held?,When will the vaccination camp be held?,0.75,False
+P12,bn,দেরিতে বিল দিলে কত টাকা বিলম্ব মাশুল দিতে হবে?,How much is the late payment fee?,What is the penalty for late payment of the bill?,0.6666666666666666,False
+P12,rbn,deritey bil dile koto taka bilombo mashul dite hobe?,How much is the late payment fee?,How much money will it cost to buy a deritey bil?,0.0,True
+P12,cm,Late payment করলে কত টাকা fine দিতে হবে?,How much is the late payment fee?,What is the fine for late payment?,0.6666666666666666,False
+P12,cmr,late payment korle koto taka fine dite hobe?,How much is the late payment fee?,What is the fine for late payment?,0.6666666666666666,False
+P13,bn,ক্রীড়া প্রতিযোগিতায় প্রধান অতিথি কে থাকবেন?,Who will be the chief guest at the sports day?,Who will be the chief guest at the sports competition?,0.75,False
+P13,rbn,krira protijogitay prodhan otithi ke thakben?,Who will be the chief guest at the sports day?,Where will the opposing team stay?,0.0,True
+P13,cm,Sports day-তে chief guest কে থাকবেন?,Who will be the chief guest at the sports day?,Who will be the chief guest at Sports Day?,1.0,False
+P13,cmr,sports day te chief guest ke thakben?,Who will be the chief guest at the sports day?,Who is the chief guest at sports day?,1.0,False
+P14,bn,ওই দিন কি বাজারের ওষুধের দোকান খোলা থাকবে?,Will the pharmacies in the market stay open on that day?,Will the medicine shop in the market be open that day?,0.6666666666666666,False
+P14,rbn,oi din ki bazarer oshudher dokan khola thakbe?,Will the pharmacies in the market stay open on that day?,When will the shop selling rotten goods in the market open?,0.3333333333333333,True
+P14,cm,ওই দিন কি market-এর pharmacy open থাকবে?,Will the pharmacies in the market stay open on that day?,Will the pharmacy at the market be open that day?,0.6666666666666666,False
+P14,cmr,oi din ki market er pharmacy open thakbe?,Will the pharmacies in the market stay open on that day?,When will the pharmacy in the market open?,0.3333333333333333,True
+P15,bn,ঋণের বার্ষিক সুদের হার কত শতাংশ?,What is the annual interest rate on the loan (in percent)?,What is the annual interest rate on the loan?,0.8,False
+P15,rbn,riner barshik suder har koto shotangsho?,What is the annual interest rate on the loan (in percent)?,How many shots are there in a bar of Rinier?,0.0,True
+P15,cm,Loan-এর annual interest rate কত percent?,What is the annual interest rate on the loan (in percent)?,What is the annual interest rate of the loan?,0.8,False
+P15,cmr,loan er annual interest rate koto percent?,What is the annual interest rate on the loan (in percent)?,What is the annual interest rate of the loan?,0.8,False
+P16,bn,হোস্টেল কোন তারিখে খুলবে?,On what date will the hostel reopen?,When will the hostel open?,0.3333333333333333,True
+P16,rbn,hostel kon tarikhe khulbe?,On what date will the hostel reopen?,When will the hostel open?,0.3333333333333333,True
+P16,cm,Hostel কোন date-এ open হবে?,On what date will the hostel reopen?,When will the hostel open?,0.3333333333333333,True
+P16,cmr,hostel kon date e open hobe?,On what date will the hostel reopen?,When will the hostel open?,0.3333333333333333,True
+P17,bn,মোট কয়টি চারা বিতরণ করা হবে?,How many saplings will be distributed in total?,How many saplings will be distributed in total?,1.0,False
+P17,rbn,mot koyti chara biteron kora hobe?,How many saplings will be distributed in total?,How many times will you have to try?,0.0,True
+P17,cm,Total কয়টা sapling distribute করা হবে?,How many saplings will be distributed in total?,How many saplings will be distributed in total?,1.0,False
+P17,cmr,total koyta sapling distribute kora hobe?,How many saplings will be distributed in total?,How many saplings will be distributed in total?,1.0,False
+P18,bn,রক্ষণাবেক্ষণের সময় কি গ্রাহকদের মোবাইল অ্যাপ কাজ করবে?,Will the customer mobile app work during the maintenance?,Will the customer's mobile app work during maintenance?,1.0,False
+P18,rbn,rokkhonabekkhoner shomoy ki grahokder mobile app kaj korbe?,Will the customer mobile app work during the maintenance?,When will the mobile app work for the general public?,0.5,False
+P18,cm,Maintenance-এর সময় কি mobile app কাজ করবে?,Will the customer mobile app work during the maintenance?,Will the mobile app work during maintenance?,0.8333333333333334,False
+P18,cmr,maintenance er shomoy ki mobile app kaj korbe?,Will the customer mobile app work during the maintenance?,When will the mobile app be working again after maintenance?,0.5,False
+P19,bn,মোটরসাইকেল পারাপারের ভাড়া কত?,What is the ferry fare for a motorcycle?,How much is the rent for a motorcycle?,0.3333333333333333,True
+P19,rbn,motorcycle parapar er vara koto?,What is the ferry fare for a motorcycle?,How much is a motorcycle?,0.3333333333333333,True
+P19,cm,Motorcycle-এর ferry fare কত?,What is the ferry fare for a motorcycle?,How much is the ferry fare for a motorcycle?,1.0,False
+P19,cmr,motorcycle er ferry fare koto?,What is the ferry fare for a motorcycle?,How much is the ferry fare for a motorcycle?,1.0,False
+P20,bn,রক্তদান কর্মসূচির সমন্বয় কে করবেন?,Who will coordinate the blood donation programme?,Who will coordinate the blood donation program?,0.75,False
+P20,rbn,roktodan kormoshuchir shomonnoy ke korben?,Who will coordinate the blood donation programme?,What is the name of the person who is in charge of the blood donation?,0.5,False
+P20,cm,Blood donation program কে coordinate করবেন?,Who will coordinate the blood donation programme?,Who will coordinate the blood donation program?,0.75,False
+P20,cmr,blood donation program ke coordinate korben?,Who will coordinate the blood donation programme?,How can I coordinate a blood donation program?,0.75,False
+P21,bn,প্রতি বিঘা জমির জন্য কত টাকা ভর্তুকি দেওয়া হবে?,How much subsidy is given per bigha of land?,How much subsidy will be given per acre of land?,0.8,False
+P21,rbn,proti bigha jomir jonno koto taka vortuki dewa hobe?,How much subsidy is given per bigha of land?,How much will it cost to cultivate one bigha of land?,0.4,True
+P21,cm,Per bigha কত টাকা subsidy দেওয়া হবে?,How much subsidy is given per bigha of land?,How much subsidy will be given per bigha?,0.8,False
+P21,cmr,per bigha koto taka subsidy dewa hobe?,How much subsidy is given per bigha of land?,How much subsidy will be given per bigha?,0.8,False
+P22,bn,একজন রোগীর সাথে একসাথে সর্বোচ্চ কতজন দর্শনার্থী দেখা করতে পারবেন?,How many visitors can see a patient at the same time?,How many visitors can see a patient at the same time?,1.0,False
+P22,rbn,ekjon rogir sathe eksathe shorbocho kotojon dorshonarthi dekha korte parben?,How many visitors can see a patient at the same time?,How many passengers can you see with one ticket?,0.2,True
+P22,cm,একজন patient-এর সাথে একসাথে maximum কতজন visitor দেখা করতে পারবে?,How many visitors can see a patient at the same time?,How many visitors can see a patient at the same time?,1.0,False
+P22,cmr,ekjon patient er sathe eksathe maximum kotojon visitor dekha korte parbe?,How many visitors can see a patient at the same time?,How many visitors can a patient see at most?,0.6,False
+P23,bn,লোকসংগীত উৎসব কোন তারিখে শুরু হবে?,On what date does the folk music festival start?,When will the folk music festival begin?,0.6,False
+P23,rbn,lokosongit utshob kon tarikhe shuru hobe?,On what date does the folk music festival start?,When will the Lokosongit Utshob start?,0.2,True
+P23,cm,Folk music festival কোন date-এ start হবে?,On what date does the folk music festival start?,When does the folk music festival start?,0.8,False
+P23,cmr,folk music festival kon date e start hobe?,On what date does the folk music festival start?,When does the folk music festival start?,0.8,False
+P24,bn,ভাড়ার সাথে কি গ্যাস বিল অন্তর্ভুক্ত?,Is the gas bill included in the rent?,Is gas included in the rent?,0.75,False
+P24,rbn,varar sathe ki gas bil ontorbhukto?,Is the gas bill included in the rent?,What is the gas bill amount?,0.5,False
+P24,cm,Rent-এর সাথে কি gas bill include করা?,Is the gas bill included in the rent?,Is the gas bill included with the rent?,1.0,False
+P24,cmr,rent er sathe ki gas bill include kora?,Is the gas bill included in the rent?,Does the rent include the gas bill?,0.75,False
+P25,bn,কোর্সটি কত সপ্তাহের?,How many weeks long is the course?,How many weeks long is the course?,1.0,False
+P25,rbn,korshti koto shoptaher?,How many weeks long is the course?,What is the price of this?,0.0,True
+P25,cm,Course-টা কত weeks-এর?,How many weeks long is the course?,How many weeks long is the course?,1.0,False
+P25,cmr,course ta koto weeks er?,How many weeks long is the course?,How many weeks is the course?,0.6666666666666666,False
+P26,bn,নতুন কমিটির সাধারণ সম্পাদক কে?,Who is the new general secretary of the committee?,Who is the general secretary of the new committee?,1.0,False
+P26,rbn,notun komitir sadharon shompadok ke?,Who is the new general secretary of the committee?,What is the common committee's opinion?,0.25,True
+P26,cm,New committee-র general secretary কে?,Who is the new general secretary of the committee?,Who is the general secretary of the new committee?,1.0,False
+P26,cmr,new committee r general secretary ke?,Who is the new general secretary of the committee?,Who is the new general secretary of the committee?,1.0,False
+P27,bn,পরিচয়পত্র পুনরায় ইস্যু করতে কত টাকা ফি লাগবে?,How much is the fee to reissue a student ID card?,What is the fee for re-issuing an identity card?,0.4,True
+P27,rbn,porichoypotro punoray issu korte koto taka fee lagbe?,How much is the fee to reissue a student ID card?,How much fee will it cost to issue a birth certificate?,0.2,True
+P27,cm,ID card reissue করতে কত টাকা fee লাগবে?,How much is the fee to reissue a student ID card?,How much fee will be charged for reissuing an ID card?,0.6,False
+P27,cmr,ID card reissue korte koto taka fee lagbe?,How much is the fee to reissue a student ID card?,How much fee is charged for reissuing an ID card?,0.6,False
+P28,bn,সড়ক সংস্কার কাজ কোন তারিখের মধ্যে শেষ হবে?,By what date will the road repair be completed?,When will the road repair work be completed?,0.75,False
+P28,rbn,shorok shongskar kaj kon tarikher moddhe shesh hobe?,By what date will the road repair be completed?,When will the short story writing work be finished?,0.0,True
+P28,cm,Road repair কাজ কোন date-এর মধ্যে শেষ হবে?,By what date will the road repair be completed?,When will the road repair work be finished?,0.5,False
+P28,cmr,road repair kaj kon date er moddhe shesh hobe?,By what date will the road repair be completed?,When will the road repair be completed?,0.75,False
+P29,bn,মাধ্যমিক বিদ্যালয়ের শিক্ষার্থীরা কি মেলায় অংশ নিতে পারবে?,Can secondary school students take part in the science fair?,Can middle school students participate in the fair?,0.42857142857142855,True
+P29,rbn,maddhomik biddaloyer shikkharthira ki melay ongsho nite parbe?,Can secondary school students take part in the science fair?,What is the method of teaching for madhomik biddaloyer?,0.0,True
+P29,cm,Secondary school-এর student-রা কি science fair-এ participate করতে পারবে?,Can secondary school students take part in the science fair?,Can secondary school students participate in a science fair?,0.7142857142857143,False
+P29,cmr,secondary school er student ra ki science fair e participate korte parbe?,Can secondary school students take part in the science fair?,Can a secondary school student participate in a science fair?,0.5714285714285714,False
+P30,bn,কেন্দ্রের দায়িত্বপ্রাপ্ত কর্মকর্তা কে?,Who is the officer in charge of the centre?,Who is the officer responsible at the center?,0.3333333333333333,True
+P30,rbn,kendrer dayitto prapto kormokorta ke?,Who is the officer in charge of the centre?,What is the expected work completion date?,0.0,True
+P30,cm,Center-এর officer in charge কে?,Who is the officer in charge of the centre?,Who is the officer in charge at the center?,0.6666666666666666,False
+P30,cmr,center er officer in charge ke?,Who is the officer in charge of the centre?,Who is the officer in charge?,0.6666666666666666,False

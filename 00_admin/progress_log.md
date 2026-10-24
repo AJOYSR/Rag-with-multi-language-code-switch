@@ -47,3 +47,16 @@
 **Next**
 - When models finish: 2-item smoke test (not a result), record model digests/licences, check Bengali behaviour.
 - After review returned: `apply_review` → `make pilot` → `analyze-pilot` → G2 report.
+
+## Session — 2026-10-24 — Phase 4a pilot run → Gate G2
+**Done**
+- Author reviewed all 30 pilot items (string edit rate 3.3%). Encoding incident (CSV saved without Unicode) recovered; 3 Bengali edits reconstructed and confirmed by the author; logged.
+- Matched-quantisation models (Q4_K_M, same quantiser); smoke tests; pilot runs `20261024_pilot_qwen35_9b`, `20261024_pilot_gemma2_9b` (1,620 calls each, $0).
+- Scoring refined (4-way outcome; 86 unit tests pass); 7 ambiguous responses adjudicated (author accepted).
+- **G2 deliverable:** `06_results/G2_pilot_report.md`. Headline: M1 hallucination gaps are small (≤ 6.7 pp, CIs include 0; EN floor 3%); Gemma RBN over-abstention +10 pp; Qwen sufficiency score shifts on RBN; RBN comprehension largely fails (80–90% flagged) without matching behavioural failure; no memorisation (fictional notices).
+**Failed / caveats**
+- Initial scoring rule overcounted UAR (found by manual audit; fixed before reporting). Comprehension probe is a crude proxy and lacks passage context.
+**Next**
+- Author G2 decision (proceed with 4 changes / unchanged / pivot) and target size. Then Phase 4b protocol draft.
+**Blockers**
+- G2 decision (hard stop).

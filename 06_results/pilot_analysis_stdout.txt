@@ -1,0 +1,534 @@
+
+=== 20261024_pilot_qwen35_9b (hf.co/bartowski/Qwen_Qwen3.5-9B-GGUF:Q4_K_M, Q4_K_M) ===
+M3 combiner weights [bias, p_suff, conf] (fitted on EN): [-0.593  2.814  0.94 ]
+
+-- M1_per_variant
+variant  n_items   UAR  UAR_lo  UAR_hi   UNR  UNR_lo  UNR_hi  sel_acc  sel_acc_lo  sel_acc_hi  coverage  coverage_lo  coverage_hi
+     en       30 0.033     0.0   0.100 0.000     0.0     0.0    1.000       1.000         1.0     0.517        0.500        0.550
+     bn       30 0.033     0.0   0.100 0.000     0.0     0.0    1.000       1.000         1.0     0.517        0.500        0.550
+    rbn       30 0.067     0.0   0.167 0.033     0.0     0.1    0.966       0.893         1.0     0.517        0.467        0.567
+     cm       30 0.000     0.0   0.000 0.000     0.0     0.0    1.000       1.000         1.0     0.500        0.500        0.500
+    cmr       30 0.100     0.0   0.233 0.000     0.0     0.0    1.000       1.000         1.0     0.550        0.500        0.617
+
+-- M1_paired
+comparison metric   diff     lo    hi
+     bn-en    UAR  0.000 -0.100 0.100
+     bn-en    UNR  0.000  0.000 0.000
+    rbn-en    UAR  0.033 -0.067 0.133
+    rbn-en    UNR  0.033  0.000 0.100
+     cm-en    UAR -0.033 -0.100 0.000
+     cm-en    UNR  0.000  0.000 0.000
+    cmr-en    UAR  0.067 -0.067 0.200
+    cmr-en    UNR  0.000  0.000 0.000
+     en-bn    UAR  0.000 -0.100 0.100
+     en-bn    UNR  0.000  0.000 0.000
+    rbn-bn    UAR  0.033 -0.067 0.167
+    rbn-bn    UNR  0.033  0.000 0.100
+     cm-bn    UAR -0.033 -0.100 0.000
+     cm-bn    UNR  0.000  0.000 0.000
+    cmr-bn    UAR  0.067  0.000 0.167
+    cmr-bn    UNR  0.000  0.000 0.000
+
+-- M1_power
+comparison metric  n_pairs   p10   p01  observed_diff  n_required_80pct  mde_at_n_planned  n_planned
+     bn-en    UAR       30 0.033 0.033          0.000               inf             0.063        130
+     bn-en    UNR       30 0.000 0.000          0.000               inf               NaN        130
+    rbn-en    UAR       30 0.067 0.033          0.033           704.037             0.078        130
+    rbn-en    UNR       30 0.033 0.000          0.033           233.095             0.045        130
+     cm-en    UAR       30 0.000 0.033         -0.033           233.095             0.045        130
+     cm-en    UNR       30 0.000 0.000          0.000               inf               NaN        130
+    cmr-en    UAR       30 0.100 0.033          0.067           233.095             0.090        130
+    cmr-en    UNR       30 0.000 0.000          0.000               inf               NaN        130
+
+-- M1_categories
+sufficiency variant  abstain  nonspecific  specific
+     insuff      bn    0.767        0.200     0.033
+     insuff      cm    0.767        0.233     0.000
+     insuff     cmr    0.700        0.200     0.100
+     insuff      en    0.833        0.133     0.033
+     insuff     rbn    0.667        0.267     0.067
+       suff      bn    0.000        0.000     1.000
+       suff      cm    0.000        0.000     1.000
+       suff     cmr    0.000        0.000     1.000
+       suff      en    0.000        0.000     1.000
+       suff     rbn    0.033        0.000     0.967
+
+-- M1_sibling_nearmiss
+variant  n  answer_rate  acc
+     bn 30          1.0  1.0
+     cm 30          1.0  1.0
+    cmr 30          1.0  1.0
+     en 30          1.0  1.0
+    rbn 30          1.0  1.0
+
+-- GEN_per_variant
+variant  n_items   UAR  UAR_lo  UAR_hi  UNR  UNR_lo  UNR_hi  sel_acc  sel_acc_lo  sel_acc_hi  coverage  coverage_lo  coverage_hi
+     en       30 0.200   0.067   0.367  0.0     0.0     0.0      1.0         1.0         1.0     0.600        0.533        0.683
+     bn       30 0.200   0.067   0.367  0.0     0.0     0.0      1.0         1.0         1.0     0.600        0.533        0.683
+    rbn       30 0.233   0.100   0.400  0.0     0.0     0.0      1.0         1.0         1.0     0.617        0.550        0.700
+     cm       30 0.200   0.067   0.367  0.0     0.0     0.0      1.0         1.0         1.0     0.600        0.533        0.683
+    cmr       30 0.200   0.067   0.367  0.0     0.0     0.0      1.0         1.0         1.0     0.600        0.533        0.683
+
+-- GEN_categories
+sufficiency variant  abstain  nonspecific  specific
+     insuff      bn    0.400        0.400     0.200
+     insuff      cm    0.433        0.367     0.200
+     insuff     cmr    0.300        0.500     0.200
+     insuff      en    0.533        0.267     0.200
+     insuff     rbn    0.333        0.433     0.233
+       suff      bn    0.000        0.000     1.000
+       suff      cm    0.000        0.000     1.000
+       suff     cmr    0.000        0.000     1.000
+       suff      en    0.000        0.000     1.000
+       suff     rbn    0.000        0.000     1.000
+
+-- SUFF_rater
+variant   acc  mean_p_suff_suff  mean_p_suff_insuff
+     bn 0.900             0.992               0.247
+     cm 0.900             0.989               0.286
+    cmr 0.867             0.981               0.387
+     en 0.900             0.968               0.250
+    rbn 0.783             0.966               0.484
+
+-- M3_transfer_EXPLORATORY
+variant   tau  target_risk  realised_risk  coverage  violation
+     bn 0.415         0.05          0.000     0.500     -0.050
+     cm 0.415         0.05          0.000     0.500     -0.050
+    cmr 0.415         0.05          0.000     0.500     -0.050
+     en 0.415         0.05          0.032     0.517     -0.018
+    rbn 0.415         0.05          0.091     0.550      0.041
+     bn 0.164         0.10          0.062     0.533     -0.038
+     cm 0.164         0.10          0.091     0.550     -0.009
+    cmr 0.164         0.10          0.091     0.550     -0.009
+     en 0.164         0.10          0.091     0.550     -0.009
+    rbn 0.164         0.10          0.143     0.583      0.043
+     bn 0.001         0.20          0.167     0.600     -0.033
+     cm 0.001         0.20          0.167     0.600     -0.033
+    cmr 0.001         0.20          0.143     0.583     -0.057
+     en 0.001         0.20          0.167     0.600     -0.033
+    rbn 0.001         0.20          0.189     0.617     -0.011
+
+-- TR_comprehension_PROXY
+item_id variant                                                                        query                                                  en_question                                                                               translation  overlap  flag_for_author
+    P01      bn                                                            আবেদন ফি কত টাকা?                             How much is the application fee?                                                          How much is the application fee?    1.000            False
+    P01     rbn                                                        abedon fee koto taka?                             How much is the application fee?                                                                How much does Abedon cost?    0.000             True
+    P01      cm                                                     Application fee কত টাকা?                             How much is the application fee?                                                          How much is the application fee?    1.000            False
+    P01     cmr                                                   application fee koto taka?                             How much is the application fee?                                                          How much is the application fee?    1.000            False
+    P02      bn                                           কোন তারিখে পানি সরবরাহ বন্ধ থাকবে?              On what date will the water supply be shut off?                                          On what date will the water supply be suspended?    0.600            False
+    P02     rbn                                   kon tarikhe pani shorboraho bondho thakbe?              On what date will the water supply be shut off?                                                   When will the water supply be restored?    0.400             True
+    P02      cm                                           কোন date e pani supply বন্ধ থাকবে?              On what date will the water supply be shut off?                                         On which date will the water supply be suspended?    0.600            False
+    P02     cmr                                        kon date e pani supply bondho thakbe?              On what date will the water supply be shut off?                                          On what date will the water supply be suspended?    0.600            False
+    P03      bn                                             শুক্রবার কোন ডাক্তার রোগী দেখেন?                        Which doctor sees patients on Friday?                                                     Which doctor sees patients on Friday?    1.000            False
+    P03     rbn                                            shukrobar kon daktar rogi dekhen?                        Which doctor sees patients on Friday?                                                        Which doctor should a patient see?    0.250             True
+    P03      cm                                           শুক্রবার কোন doctor patient দেখেন?                        Which doctor sees patients on Friday?                                                     Which doctor sees patients on Friday?    1.000            False
+    P03     cmr                                         shukrobar kon doctor patient dekhen?                        Which doctor sees patients on Friday?                                                        Which doctor should a patient see?    0.250             True
+    P04      bn                           একজন সাধারণ সদস্য একসাথে কয়টি বই ধার নিতে পারবেন?      How many books can a general member borrow at one time?                                       How many books can a regular member borrow at once?    0.500            False
+    P04     rbn                  ekjon sadharon shodosho eksathe koyti boi dhar nite parben?      How many books can a general member borrow at one time?                                        How many books can a common person carry together?    0.167             True
+    P04      cm                     একজন general member একসাথে কয়টা book borrow করতে পারবে?      How many books can a general member borrow at one time?                                       How many books can a general member borrow at once?    0.667            False
+    P04     cmr                  ekjon general member eksathe koyta book borrow korte parbe?      How many books can a general member borrow at one time?                                     How many books can a general member borrow at a time?    0.833            False
+    P05      bn                                       নতুন রুটের বাস কি পুরাতন বাজারে থামবে?           Will the new route's buses stop at the Old Bazaar?                                            Will the new route bus stop at the old market?    0.571            False
+    P05     rbn                                    notun ruter bas ki puraton bazare thambe?           Will the new route's buses stop at the Old Bazaar?                                            Where will the new bus stop in the old market?    0.429             True
+    P05      cm                                 New route-এর bus কি পুরাতন বাজারে stop করবে?           Will the new route's buses stop at the Old Bazaar?                                     Will the bus on the new route stop at the old market?    0.571            False
+    P05     cmr                               new route er bus ki puraton bazare stop korbe?           Will the new route's buses stop at the Old Bazaar?                                             Will the new route bus stop at Puraton Bazar?    0.429             True
+    P06      bn                                        প্রতি মাসে কত টাকা বৃত্তি দেওয়া হবে?                         How much is the monthly scholarship?                                             How much scholarship will be given per month?    0.500            False
+    P06     rbn                                      proti mashe koto taka britti dewa hobe?                         How much is the monthly scholarship?                                               How much money will be given for the bribe?    0.000             True
+    P06      cm                                                 Monthly scholarship কত টাকা?                         How much is the monthly scholarship?                                                      How much is the monthly scholarship?    1.000            False
+    P06     cmr                                               monthly scholarship koto taka?                         How much is the monthly scholarship?                                                      How much is the monthly scholarship?    1.000            False
+    P07      bn                                       মাঠ সহকারী পদে কতজন নিয়োগ দেওয়া হবে?                     How many field assistants will be hired?                       How many people will be recruited for the field assistant position?    0.333             True
+    P07     rbn                                 math shohokari pode kotojon niyog dewa hobe?                     How many field assistants will be hired?                          How many applications will be given for the mathematics subject?    0.000             True
+    P07      cm                                    Field assistant post-এ কতজন hire করা হবে?                     How many field assistants will be hired?                                                  How many field assistants will be hired?    1.000            False
+    P07     cmr                               field assistant post e kotojon hire kora hobe?                     How many field assistants will be hired?                                         How many field assistant positions will be hired?    0.667            False
+    P08      bn                                          স্থগিত গণিত পরীক্ষা কোন তারিখে হবে?    On what date will the postponed mathematics exam be held?                                                When will the suspended math exam be held?    0.400             True
+    P08     rbn                                    sthogito gonit porikkha kon tarikhe hobe?    On what date will the postponed mathematics exam be held?                                            When will the Sthogito Gonit Porikkha be held?    0.200             True
+    P08      cm                                          Postponed math exam কোন date-এ হবে?    On what date will the postponed mathematics exam be held?                                                When will the postponed math exam be held?    0.600            False
+    P08     cmr                                         postponed math exam kon date e hobe?    On what date will the postponed mathematics exam be held?                                                          When is the postponed math exam?    0.400             True
+    P09      bn                                                 প্রশিক্ষণ কে পরিচালনা করবেন?                               Who will conduct the training?                                                            Who will conduct the training?    1.000            False
+    P09     rbn                                           proshikkhon ke porichalona korben?                               Who will conduct the training?                                                    Could you please introduce yourselves?    0.000             True
+    P09      cm                                                   Training কে conduct করবেন?                               Who will conduct the training?                                                            Who will conduct the training?    1.000            False
+    P09     cmr                                                  training ke conduct korben?                               Who will conduct the training?                                                           Will the training be conducted?    0.500            False
+    P10      bn                             ভাড়াটিয়ারা কি কমিটি নির্বাচনে ভোট দিতে পারবেন?                  Can tenants vote in the committee election?                                               Can tenants vote in the committee election?    1.000            False
+    P10     rbn                             varatiyara ki komiti nirbachone vot dite parben?                  Can tenants vote in the committee election?                                        Can you vote in the Varatiyara committee election?    0.750            False
+    P10      cm                           Tenant-রা কি committee election-এ vote দিতে পারবে?                  Can tenants vote in the committee election?                                               Can tenants vote in the committee election?    1.000            False
+    P10     cmr                           tenant ra ki committee election e vote dite parbe?                  Can tenants vote in the committee election?                                               Can tenants vote in the committee election?    1.000            False
+    P11      bn                                              টিকাদান ক্যাম্প কোন তারিখে হবে?              On what date will the vaccination camp be held?                                                   When will the vaccination camp be held?    0.750            False
+    P11     rbn                                               tikadan camp kon tarikhe hobe?              On what date will the vaccination camp be held?                                                            When will the camp take place?    0.250             True
+    P11      cm                                             Vaccination camp কোন date-এ হবে?              On what date will the vaccination camp be held?                                                   When will the vaccination camp be held?    0.750            False
+    P11     cmr                                            vaccination camp kon date e hobe?              On what date will the vaccination camp be held?                                           On what date will the vaccination camp be held?    1.000            False
+    P12      bn                               দেরিতে বিল দিলে কত টাকা বিলম্ব মাশুল দিতে হবে?                            How much is the late payment fee?                               How much late fee will be charged if the bill is paid late?    0.667            False
+    P12     rbn                         deritey bil dile koto taka bilombo mashul dite hobe?                            How much is the late payment fee?                   How much bill amount will be charged for a bill in a specific language?    0.000             True
+    P12      cm                                     Late payment করলে কত টাকা fine দিতে হবে?                            How much is the late payment fee?                                           How much fine will be charged for late payment?    0.667            False
+    P12     cmr                                 late payment korle koto taka fine dite hobe?                            How much is the late payment fee?                                           How much fine will be imposed for late payment?    0.667            False
+    P13      bn                                ক্রীড়া প্রতিযোগিতায় প্রধান অতিথি কে থাকবেন?               Who will be the chief guest at the sports day?                                    Who will be the chief guest at the sports competition?    0.750            False
+    P13     rbn                                krira protijogitay prodhan otithi ke thakben?               Who will be the chief guest at the sports day?                                               Will the opposition be the main opposition?    0.000             True
+    P13      cm                                         Sports day-তে chief guest কে থাকবেন?               Who will be the chief guest at the sports day?                                            Who will be the chief guest at the sports day?    1.000            False
+    P13     cmr                                        sports day te chief guest ke thakben?               Who will be the chief guest at the sports day?                                        Will the chief guest be present at the sports day?    1.000            False
+    P14      bn                                   ওই দিন কি বাজারের ওষুধের দোকান খোলা থাকবে?     Will the pharmacies in the market stay open on that day?                                      Will the pharmacy in the market be open on that day?    0.667            False
+    P14     rbn                               oi din ki bazarer oshudher dokan khola thakbe?     Will the pharmacies in the market stay open on that day?                                   Will the medicine shop in the market be open on Sunday?    0.333             True
+    P14      cm                                     ওই দিন কি market-এর pharmacy open থাকবে?     Will the pharmacies in the market stay open on that day?                                      Will the pharmacy in the market be open on that day?    0.667            False
+    P14     cmr                                    oi din ki market er pharmacy open thakbe?     Will the pharmacies in the market stay open on that day?                                       Will the pharmacy in the market be open on Eid day?    0.500            False
+    P15      bn                                             ঋণের বার্ষিক সুদের হার কত শতাংশ?   What is the annual interest rate on the loan (in percent)?                                             What is the annual interest rate on the loan?    0.800            False
+    P15     rbn                                     riner barshik suder har koto shotangsho?   What is the annual interest rate on the loan (in percent)?                                              How many shots are there in a riner barshik?    0.000             True
+    P15      cm                                     Loan-এর annual interest rate কত percent?   What is the annual interest rate on the loan (in percent)?                                             What is the annual interest rate on the loan?    0.800            False
+    P15     cmr                                   loan er annual interest rate koto percent?   What is the annual interest rate on the loan (in percent)?                                             What is the annual interest rate on the loan?    0.800            False
+    P16      bn                                                    হোস্টেল কোন তারিখে খুলবে?                         On what date will the hostel reopen?                                                                When will the hostel open?    0.333             True
+    P16     rbn                                                   hostel kon tarikhe khulbe?                         On what date will the hostel reopen?                                                                 When did the hostel open?    0.333             True
+    P16      cm                                                  Hostel কোন date-এ open হবে?                         On what date will the hostel reopen?                                                                When will the hostel open?    0.333             True
+    P16     cmr                                                 hostel kon date e open hobe?                         On what date will the hostel reopen?                                                                When will the hostel open?    0.333             True
+    P17      bn                                                মোট কয়টি চারা বিতরণ করা হবে?              How many saplings will be distributed in total?                                          How many seedlings will be distributed in total?    0.667            False
+    P17     rbn                                           mot koyti chara biteron kora hobe?              How many saplings will be distributed in total?                                           How many people will be able to fit in the car?    0.000             True
+    P17      cm                                      Total কয়টা sapling distribute করা হবে?              How many saplings will be distributed in total?                                           How many saplings will be distributed in total?    1.000            False
+    P17     cmr                                    total koyta sapling distribute kora hobe?              How many saplings will be distributed in total?                                           How many saplings will be distributed in total?    1.000            False
+    P18      bn                      রক্ষণাবেক্ষণের সময় কি গ্রাহকদের মোবাইল অ্যাপ কাজ করবে?    Will the customer mobile app work during the maintenance?                                Will the mobile app work for customers during maintenance?    0.833            False
+    P18     rbn                  rokkhonabekkhoner shomoy ki grahokder mobile app kaj korbe?    Will the customer mobile app work during the maintenance?                        When will Rokkhonabekkhoner's mobile app for students be launched?    0.333             True
+    P18      cm                                  Maintenance-এর সময় কি mobile app কাজ করবে?    Will the customer mobile app work during the maintenance?                                              Will the mobile app work during maintenance?    0.833            False
+    P18     cmr                               maintenance er shomoy ki mobile app kaj korbe?    Will the customer mobile app work during the maintenance?                                              Will the mobile app work during maintenance?    0.833            False
+    P19      bn                                               মোটরসাইকেল পারাপারের ভাড়া কত?                     What is the ferry fare for a motorcycle?                                                    How much is the motorcycle ferry fare?    1.000            False
+    P19     rbn                                             motorcycle parapar er vara koto?                     What is the ferry fare for a motorcycle?                                                       How much is the motorcycle's price?    0.333             True
+    P19      cm                                                 Motorcycle-এর ferry fare কত?                     What is the ferry fare for a motorcycle?                                                  What is the ferry fare for a motorcycle?    1.000            False
+    P19     cmr                                               motorcycle er ferry fare koto?                     What is the ferry fare for a motorcycle?                                                  What is the ferry fare for a motorcycle?    1.000            False
+    P20      bn                                          রক্তদান কর্মসূচির সমন্বয় কে করবেন?            Who will coordinate the blood donation programme?                                          Who will coordinate the blood donation campaign?    0.750            False
+    P20     rbn                                   roktodan kormoshuchir shomonnoy ke korben?            Who will coordinate the blood donation programme?                               What is the function of the roktodan kormoshuchi shomonnoy?    0.000             True
+    P20      cm                                  Blood donation program কে coordinate করবেন?            Who will coordinate the blood donation programme?                                           Who will coordinate the blood donation program?    0.750            False
+    P20     cmr                                 blood donation program ke coordinate korben?            Who will coordinate the blood donation programme?                                           Who will coordinate the blood donation program?    0.750            False
+    P21      bn                             প্রতি বিঘা জমির জন্য কত টাকা ভর্তুকি দেওয়া হবে?                 How much subsidy is given per bigha of land?                                      How much subsidy will be provided per bigha of land?    0.800            False
+    P21     rbn                         proti bigha jomir jonno koto taka vortuki dewa hobe?                 How much subsidy is given per bigha of land?                                        How much money will be required per bigha of land?    0.600            False
+    P21      cm                                        Per bigha কত টাকা subsidy দেওয়া হবে?                 How much subsidy is given per bigha of land?                                                 How much subsidy will be given per bigha?    0.800            False
+    P21     cmr                                       per bigha koto taka subsidy dewa hobe?                 How much subsidy is given per bigha of land?                                                 How much subsidy will be given per bigha?    0.800            False
+    P22      bn            একজন রোগীর সাথে একসাথে সর্বোচ্চ কতজন দর্শনার্থী দেখা করতে পারবেন?        How many visitors can see a patient at the same time?         What is the maximum number of visitors allowed to see a patient at the same time?    1.000            False
+    P22     rbn ekjon rogir sathe eksathe shorbocho kotojon dorshonarthi dekha korte parben?        How many visitors can see a patient at the same time? How many doses of medicine can be seen together with a patient for a single dose of soup?    0.200             True
+    P22      cm            একজন patient-এর সাথে একসাথে maximum কতজন visitor দেখা করতে পারবে?        How many visitors can see a patient at the same time?                                     How many visitors can see a patient at the same time?    1.000            False
+    P22     cmr    ekjon patient er sathe eksathe maximum kotojon visitor dekha korte parbe?        How many visitors can see a patient at the same time?                         How many visitors can be allowed at the same time with a patient?    0.800            False
+    P23      bn                                           লোকসংগীত উৎসব কোন তারিখে শুরু হবে?             On what date does the folk music festival start?                                                  When will the Lokosongit Festival begin?    0.200             True
+    P23     rbn                                    lokosongit utshob kon tarikhe shuru hobe?             On what date does the folk music festival start?                                                    When will the Lokosongit utshob begin?    0.000             True
+    P23      cm                                    Folk music festival কোন date-এ start হবে?             On what date does the folk music festival start?                                                  When will the folk music festival start?    0.800            False
+    P23     cmr                                   folk music festival kon date e start hobe?             On what date does the folk music festival start?                                          On what date will the folk music festival start?    1.000            False
+    P24      bn                                        ভাড়ার সাথে কি গ্যাস বিল অন্তর্ভুক্ত?                        Is the gas bill included in the rent?                                                   Is the gas bill included with the rent?    1.000            False
+    P24     rbn                                          varar sathe ki gas bil ontorbhukto?                        Is the gas bill included in the rent?                                                               Which gas is used in varar?    0.250             True
+    P24      cm                                        Rent-এর সাথে কি gas bill include করা?                        Is the gas bill included in the rent?                                                   Is the gas bill included with the rent?    1.000            False
+    P24     cmr                                      rent er sathe ki gas bill include kora?                        Is the gas bill included in the rent?                                                   Is the gas bill included with the rent?    1.000            False
+    P25      bn                                                         কোর্সটি কত সপ্তাহের?                           How many weeks long is the course?                                                             How many weeks is the course?    0.667            False
+    P25     rbn                                                      korshti koto shoptaher?                           How many weeks long is the course?                                                                 How many shops are there?    0.000             True
+    P25      cm                                                       Course-টা কত weeks-এর?                           How many weeks long is the course?                                                             How many weeks is the course?    0.667            False
+    P25     cmr                                                     course ta koto weeks er?                           How many weeks long is the course?                                                             How many weeks is the course?    0.667            False
+    P26      bn                                               নতুন কমিটির সাধারণ সম্পাদক কে?           Who is the new general secretary of the committee?                                        Who is the general secretary of the new committee?    1.000            False
+    P26     rbn                                         notun komitir sadharon shompadok ke?           Who is the new general secretary of the committee?                                     What is the general composition of the new committee?    0.750            False
+    P26      cm                                        New committee-র general secretary কে?           Who is the new general secretary of the committee?                                        Who is the general secretary of the new committee?    1.000            False
+    P26     cmr                                        new committee r general secretary ke?           Who is the new general secretary of the committee?                                        Who is the general secretary of the new committee?    1.000            False
+    P27      bn                              পরিচয়পত্র পুনরায় ইস্যু করতে কত টাকা ফি লাগবে?            How much is the fee to reissue a student ID card?                                     How much fee is required to reissue an identity card?    0.600            False
+    P27     rbn                        porichoypotro punoray issu korte koto taka fee lagbe?            How much is the fee to reissue a student ID card?                              How much fee will be charged to complete the entire process?    0.200             True
+    P27      cm                                      ID card reissue করতে কত টাকা fee লাগবে?            How much is the fee to reissue a student ID card?                                             How much is the fee for reissuing an ID card?    0.600            False
+    P27     cmr                                   ID card reissue korte koto taka fee lagbe?            How much is the fee to reissue a student ID card?                                        How much fee is required for reissuing an ID card?    0.600            False
+    P28      bn                                  সড়ক সংস্কার কাজ কোন তারিখের মধ্যে শেষ হবে?              By what date will the road repair be completed?                                  By what date will the road renovation work be completed?    0.750            False
+    P28     rbn                         shorok shongskar kaj kon tarikher moddhe shesh hobe?              By what date will the road repair be completed?                                                        When will the short-term work end?    0.000             True
+    P28      cm                                   Road repair কাজ কোন date-এর মধ্যে শেষ হবে?              By what date will the road repair be completed?                                              When will the road repair work be completed?    0.750            False
+    P28     cmr                               road repair kaj kon date er moddhe shesh hobe?              By what date will the road repair be completed?                                              When will the road repair work be completed?    0.750            False
+    P29      bn                  মাধ্যমিক বিদ্যালয়ের শিক্ষার্থীরা কি মেলায় অংশ নিতে পারবে? Can secondary school students take part in the science fair?                              Can students from secondary schools participate in the fair?    0.429             True
+    P29     rbn               maddhomik biddaloyer shikkharthira ki melay ongsho nite parbe? Can secondary school students take part in the science fair?                                      Can I add any part of the sentence to the beginning?    0.143             True
+    P29      cm     Secondary school-এর student-রা কি science fair-এ participate করতে পারবে? Can secondary school students take part in the science fair?                            Can secondary school students participate in the science fair?    0.714            False
+    P29     cmr    secondary school er student ra ki science fair e participate korte parbe? Can secondary school students take part in the science fair?                              Can secondary school students participate in a science fair?    0.714            False
+    P30      bn                                      কেন্দ্রের দায়িত্বপ্রাপ্ত কর্মকর্তা কে?                  Who is the officer in charge of the centre?                                               Who is the officer in charge of the center?    0.667            False
+    P30     rbn                                        kendrer dayitto prapto kormokorta ke?                  Who is the officer in charge of the centre?                                      What is the purpose of the center's day-to-day work?    0.000             True
+    P30      cm                                              Center-এর officer in charge কে?                  Who is the officer in charge of the centre?                                               Who is the officer in charge of the Center?    0.667            False
+    P30     cmr                                              center er officer in charge ke?                  Who is the officer in charge of the centre?                                               Who is the officer in charge at the center?    0.667            False
+
+-- TR_summary_PROXY
+variant  mean_overlap  flagged
+     bn         0.708    0.167
+     cm         0.808    0.033
+    cmr         0.752    0.133
+    rbn         0.197    0.900
+
+-- CB_contamination
+variant answer_type  n  cb_correct  cb_answered
+     bn      amount  6       0.000        0.167
+     bn        date  6       0.000        0.000
+     bn        name  6       0.000        0.500
+     bn      number  6       0.000        0.167
+     bn       yesno  6       0.333        0.833
+     cm      amount  6       0.000        0.167
+     cm        date  6       0.000        0.000
+     cm        name  6       0.000        0.333
+     cm      number  6       0.167        0.333
+     cm       yesno  6       0.333        0.833
+    cmr      amount  6       0.000        0.167
+    cmr        date  6       0.000        0.000
+    cmr        name  6       0.000        0.167
+    cmr      number  6       0.000        0.000
+    cmr       yesno  6       0.167        0.500
+     en      amount  6       0.000        0.000
+     en        date  6       0.000        0.000
+     en        name  6       0.000        0.000
+     en      number  6       0.000        0.167
+     en       yesno  6       0.167        0.333
+    rbn      amount  6       0.000        0.000
+    rbn        date  6       0.000        0.000
+    rbn        name  6       0.000        0.167
+    rbn      number  6       0.000        0.000
+    rbn       yesno  6       0.000        0.000
+
+=== 20261024_pilot_gemma2_9b (hf.co/bartowski/gemma-2-9b-it-GGUF:Q4_K_M, Q4_K_M) ===
+M3 combiner weights [bias, p_suff, conf] (fitted on EN): [-0.28   1.36   1.397]
+
+-- M1_per_variant
+variant  n_items   UAR  UAR_lo  UAR_hi   UNR  UNR_lo  UNR_hi  sel_acc  sel_acc_lo  sel_acc_hi  coverage  coverage_lo  coverage_hi
+     en       30 0.033     0.0   0.100 0.000     0.0   0.000      1.0         1.0         1.0     0.517        0.500         0.55
+     bn       30 0.000     0.0   0.000 0.000     0.0   0.000      1.0         1.0         1.0     0.500        0.500         0.50
+    rbn       30 0.067     0.0   0.167 0.100     0.0   0.233      1.0         1.0         1.0     0.483        0.417         0.55
+     cm       30 0.000     0.0   0.000 0.000     0.0   0.000      1.0         1.0         1.0     0.500        0.500         0.50
+    cmr       30 0.000     0.0   0.000 0.033     0.0   0.100      1.0         1.0         1.0     0.483        0.450         0.50
+
+-- M1_paired
+comparison metric   diff     lo    hi
+     bn-en    UAR -0.033 -0.100 0.000
+     bn-en    UNR  0.000  0.000 0.000
+    rbn-en    UAR  0.033 -0.067 0.133
+    rbn-en    UNR  0.100  0.000 0.233
+     cm-en    UAR -0.033 -0.100 0.000
+     cm-en    UNR  0.000  0.000 0.000
+    cmr-en    UAR -0.033 -0.100 0.000
+    cmr-en    UNR  0.033  0.000 0.100
+     en-bn    UAR  0.033  0.000 0.100
+     en-bn    UNR  0.000  0.000 0.000
+    rbn-bn    UAR  0.067  0.000 0.167
+    rbn-bn    UNR  0.100  0.000 0.233
+     cm-bn    UAR  0.000  0.000 0.000
+     cm-bn    UNR  0.000  0.000 0.000
+    cmr-bn    UAR  0.000  0.000 0.000
+    cmr-bn    UNR  0.033  0.000 0.100
+
+-- M1_power
+comparison metric  n_pairs   p10   p01  observed_diff  n_required_80pct  mde_at_n_planned  n_planned
+     bn-en    UAR       30 0.000 0.033         -0.033           233.095             0.045        130
+     bn-en    UNR       30 0.000 0.000          0.000               inf               NaN        130
+    rbn-en    UAR       30 0.067 0.033          0.033           704.037             0.078        130
+    rbn-en    UNR       30 0.100 0.000          0.100            76.087             0.078        130
+     cm-en    UAR       30 0.000 0.033         -0.033           233.095             0.045        130
+     cm-en    UNR       30 0.000 0.000          0.000               inf               NaN        130
+    cmr-en    UAR       30 0.000 0.033         -0.033           233.095             0.045        130
+    cmr-en    UNR       30 0.033 0.000          0.033           233.095             0.045        130
+
+-- M1_categories
+sufficiency variant  abstain  nonspecific  specific
+     insuff      bn    0.867        0.133     0.000
+     insuff      cm    0.867        0.133     0.000
+     insuff     cmr    0.867        0.133     0.000
+     insuff      en    0.867        0.100     0.033
+     insuff     rbn    0.800        0.133     0.067
+       suff      bn    0.000        0.000     1.000
+       suff      cm    0.000        0.000     1.000
+       suff     cmr    0.033        0.000     0.967
+       suff      en    0.000        0.000     1.000
+       suff     rbn    0.067        0.033     0.900
+
+-- M1_sibling_nearmiss
+variant  n  answer_rate   acc
+     bn 30        1.000 1.000
+     cm 30        1.000 1.000
+    cmr 30        1.000 1.000
+     en 30        1.000 1.000
+    rbn 30        0.967 0.967
+
+-- GEN_per_variant
+variant  n_items   UAR  UAR_lo  UAR_hi   UNR  UNR_lo  UNR_hi  sel_acc  sel_acc_lo  sel_acc_hi  coverage  coverage_lo  coverage_hi
+     en       30 0.267   0.133   0.433 0.000     0.0     0.0    1.000       1.000         1.0     0.633        0.567        0.717
+     bn       30 0.233   0.100   0.400 0.000     0.0     0.0    1.000       1.000         1.0     0.617        0.550        0.700
+    rbn       30 0.233   0.100   0.400 0.033     0.0     0.1    0.966       0.893         1.0     0.600        0.533        0.667
+     cm       30 0.233   0.100   0.400 0.000     0.0     0.0    1.000       1.000         1.0     0.617        0.550        0.700
+    cmr       30 0.167   0.033   0.300 0.000     0.0     0.0    1.000       1.000         1.0     0.583        0.517        0.650
+
+-- GEN_categories
+sufficiency variant  abstain  nonspecific  specific
+     insuff      bn    0.433        0.333     0.233
+     insuff      cm    0.500        0.267     0.233
+     insuff     cmr    0.467        0.367     0.167
+     insuff      en    0.467        0.267     0.267
+     insuff     rbn    0.300        0.467     0.233
+       suff      bn    0.000        0.000     1.000
+       suff      cm    0.000        0.000     1.000
+       suff     cmr    0.000        0.000     1.000
+       suff      en    0.000        0.000     1.000
+       suff     rbn    0.000        0.033     0.967
+
+-- SUFF_rater
+variant   acc  mean_p_suff_suff  mean_p_suff_insuff
+     bn 0.917             0.937               0.101
+     cm 0.917             0.934               0.100
+    cmr 0.900             0.932               0.135
+     en 0.900             0.933               0.134
+    rbn 0.883             0.932               0.171
+
+-- M3_transfer_EXPLORATORY
+variant   tau  target_risk  realised_risk  coverage  violation
+     bn 0.440         0.05          0.000     0.433     -0.050
+     cm 0.440         0.05          0.036     0.467     -0.014
+    cmr 0.440         0.05          0.000     0.400     -0.050
+     en 0.440         0.05          0.034     0.483     -0.016
+    rbn 0.440         0.05          0.040     0.417     -0.010
+     bn 0.074         0.10          0.091     0.550     -0.009
+     cm 0.074         0.10          0.062     0.533     -0.038
+    cmr 0.074         0.10          0.033     0.500     -0.067
+     en 0.074         0.10          0.094     0.533     -0.006
+    rbn 0.074         0.10          0.071     0.467     -0.029
+     bn 0.018         0.20          0.143     0.583     -0.057
+     cm 0.018         0.20          0.143     0.583     -0.057
+    cmr 0.018         0.20          0.118     0.567     -0.082
+     en 0.018         0.20          0.189     0.617     -0.011
+    rbn 0.018         0.20          0.182     0.550     -0.018
+
+-- TR_comprehension_PROXY
+item_id variant                                                                        query                                                  en_question                                                            translation  overlap  flag_for_author
+    P01      bn                                                            আবেদন ফি কত টাকা?                             How much is the application fee?                                           What is the application fee?    1.000            False
+    P01     rbn                                                        abedon fee koto taka?                             How much is the application fee?                                            How much money do you have?    0.000             True
+    P01      cm                                                     Application fee কত টাকা?                             How much is the application fee?                                           What is the application fee?    1.000            False
+    P01     cmr                                                   application fee koto taka?                             How much is the application fee?                                           What is the application fee?    1.000            False
+    P02      bn                                           কোন তারিখে পানি সরবরাহ বন্ধ থাকবে?              On what date will the water supply be shut off?                                 When will the water supply be cut off?    0.600            False
+    P02     rbn                                   kon tarikhe pani shorboraho bondho thakbe?              On what date will the water supply be shut off?                                When will the water supply be shut off?    0.800            False
+    P02      cm                                           কোন date e pani supply বন্ধ থাকবে?              On what date will the water supply be shut off?                                 When will the water supply be cut off?    0.600            False
+    P02     cmr                                        kon date e pani supply bondho thakbe?              On what date will the water supply be shut off?                     Until what date will the water supply be shut off?    1.000            False
+    P03      bn                                             শুক্রবার কোন ডাক্তার রোগী দেখেন?                        Which doctor sees patients on Friday?                                  Which doctor sees patients on Friday?    1.000            False
+    P03     rbn                                            shukrobar kon daktar rogi dekhen?                        Which doctor sees patients on Friday?                    Which doctor sees patients at the Shukrabad clinic?    0.750            False
+    P03      cm                                           শুক্রবার কোন doctor patient দেখেন?                        Which doctor sees patients on Friday?                                  Which doctor sees patients on Friday?    1.000            False
+    P03     cmr                                         shukrobar kon doctor patient dekhen?                        Which doctor sees patients on Friday?                    Which doctor sees patients at the Shukrabad clinic?    0.750            False
+    P04      bn                           একজন সাধারণ সদস্য একসাথে কয়টি বই ধার নিতে পারবেন?      How many books can a general member borrow at one time?                    How many books can a regular member borrow at once?    0.500            False
+    P04     rbn                  ekjon sadharon shodosho eksathe koyti boi dhar nite parben?      How many books can a general member borrow at one time?                                       Can you carry ten books at once?    0.167             True
+    P04      cm                     একজন general member একসাথে কয়টা book borrow করতে পারবে?      How many books can a general member borrow at one time?                    How many books can a general member borrow at once?    0.667            False
+    P04     cmr                  ekjon general member eksathe koyta book borrow korte parbe?      How many books can a general member borrow at one time?                            How many books can a general member borrow?    0.667            False
+    P05      bn                                       নতুন রুটের বাস কি পুরাতন বাজারে থামবে?           Will the new route's buses stop at the Old Bazaar?                         Will the new route bus stop at the old market?    0.571            False
+    P05     rbn                                    notun ruter bas ki puraton bazare thambe?           Will the new route's buses stop at the Old Bazaar?                                     Where are the old bazaars located?    0.143             True
+    P05      cm                                 New route-এর bus কি পুরাতন বাজারে stop করবে?           Will the new route's buses stop at the Old Bazaar?                  Will the bus on the new route stop at the old market?    0.571            False
+    P05     cmr                               new route er bus ki puraton bazare stop korbe?           Will the new route's buses stop at the Old Bazaar?                         Will the new bus route stop at the old market?    0.571            False
+    P06      bn                                        প্রতি মাসে কত টাকা বৃত্তি দেওয়া হবে?                         How much is the monthly scholarship?                             How much stipend will be given each month?    0.000             True
+    P06     rbn                                      proti mashe koto taka britti dewa hobe?                         How much is the monthly scholarship?                             How much money will be needed to buy this?    0.000             True
+    P06      cm                                                 Monthly scholarship কত টাকা?                         How much is the monthly scholarship?                                   How much is the monthly scholarship?    1.000            False
+    P06     cmr                                               monthly scholarship koto taka?                         How much is the monthly scholarship?                                   How much is the monthly scholarship?    1.000            False
+    P07      bn                                       মাঠ সহকারী পদে কতজন নিয়োগ দেওয়া হবে?                     How many field assistants will be hired?                           How many Field Assistants will be recruited?    0.667            False
+    P07     rbn                                 math shohokari pode kotojon niyog dewa hobe?                     How many field assistants will be hired?                   Can math be taught to someone who is not interested?    0.000             True
+    P07      cm                                    Field assistant post-এ কতজন hire করা হবে?                     How many field assistants will be hired?                               How many field assistants will be hired?    1.000            False
+    P07     cmr                               field assistant post e kotojon hire kora hobe?                     How many field assistants will be hired?                               How many field assistants will be hired?    1.000            False
+    P08      bn                                          স্থগিত গণিত পরীক্ষা কোন তারিখে হবে?    On what date will the postponed mathematics exam be held?                             When will the postponed math exam be held?    0.600            False
+    P08     rbn                                    sthogito gonit porikkha kon tarikhe hobe?    On what date will the postponed mathematics exam be held?                                            When will the exam be held?    0.400             True
+    P08      cm                                          Postponed math exam কোন date-এ হবে?    On what date will the postponed mathematics exam be held?                             When will the postponed math exam be held?    0.600            False
+    P08     cmr                                         postponed math exam kon date e hobe?    On what date will the postponed mathematics exam be held?                             When will the postponed math exam be held?    0.600            False
+    P09      bn                                                 প্রশিক্ষণ কে পরিচালনা করবেন?                               Who will conduct the training?                                         Who will conduct the training?    1.000            False
+    P09     rbn                                           proshikkhon ke porichalona korben?                               Who will conduct the training?         Can you give me an introduction to the topic of "proshikkhon"?    0.000             True
+    P09      cm                                                   Training কে conduct করবেন?                               Who will conduct the training?                                         Who will conduct the training?    1.000            False
+    P09     cmr                                                  training ke conduct korben?                               Who will conduct the training?                                             How is training conducted?    0.500            False
+    P10      bn                             ভাড়াটিয়ারা কি কমিটি নির্বাচনে ভোট দিতে পারবেন?                  Can tenants vote in the committee election?                            Can tenants vote in the committee election?    1.000            False
+    P10     rbn                             varatiyara ki komiti nirbachone vot dite parben?                  Can tenants vote in the committee election?                 How many votes can you cast in the committee election?    0.500            False
+    P10      cm                           Tenant-রা কি committee election-এ vote দিতে পারবে?                  Can tenants vote in the committee election?                            Can tenants vote in the committee election?    1.000            False
+    P10     cmr                           tenant ra ki committee election e vote dite parbe?                  Can tenants vote in the committee election?                           Can a tenant vote in the committee election?    0.750            False
+    P11      bn                                              টিকাদান ক্যাম্প কোন তারিখে হবে?              On what date will the vaccination camp be held?                                When will the vaccination camp be held?    0.750            False
+    P11     rbn                                               tikadan camp kon tarikhe hobe?              On what date will the vaccination camp be held?                                          When will the camp be set up?    0.250             True
+    P11      cm                                             Vaccination camp কোন date-এ হবে?              On what date will the vaccination camp be held?                                When will the vaccination camp be held?    0.750            False
+    P11     cmr                                            vaccination camp kon date e hobe?              On what date will the vaccination camp be held?                                When will the vaccination camp be held?    0.750            False
+    P12      bn                               দেরিতে বিল দিলে কত টাকা বিলম্ব মাশুল দিতে হবে?                            How much is the late payment fee?                      What is the penalty for late payment of the bill?    0.667            False
+    P12     rbn                         deritey bil dile koto taka bilombo mashul dite hobe?                            How much is the late payment fee?                      How much money will it cost to buy a deritey bil?    0.000             True
+    P12      cm                                     Late payment করলে কত টাকা fine দিতে হবে?                            How much is the late payment fee?                                     What is the fine for late payment?    0.667            False
+    P12     cmr                                 late payment korle koto taka fine dite hobe?                            How much is the late payment fee?                                     What is the fine for late payment?    0.667            False
+    P13      bn                                ক্রীড়া প্রতিযোগিতায় প্রধান অতিথি কে থাকবেন?               Who will be the chief guest at the sports day?                 Who will be the chief guest at the sports competition?    0.750            False
+    P13     rbn                                krira protijogitay prodhan otithi ke thakben?               Who will be the chief guest at the sports day?                                     Where will the opposing team stay?    0.000             True
+    P13      cm                                         Sports day-তে chief guest কে থাকবেন?               Who will be the chief guest at the sports day?                             Who will be the chief guest at Sports Day?    1.000            False
+    P13     cmr                                        sports day te chief guest ke thakben?               Who will be the chief guest at the sports day?                                  Who is the chief guest at sports day?    1.000            False
+    P14      bn                                   ওই দিন কি বাজারের ওষুধের দোকান খোলা থাকবে?     Will the pharmacies in the market stay open on that day?                 Will the medicine shop in the market be open that day?    0.667            False
+    P14     rbn                               oi din ki bazarer oshudher dokan khola thakbe?     Will the pharmacies in the market stay open on that day?            When will the shop selling rotten goods in the market open?    0.333             True
+    P14      cm                                     ওই দিন কি market-এর pharmacy open থাকবে?     Will the pharmacies in the market stay open on that day?                      Will the pharmacy at the market be open that day?    0.667            False
+    P14     cmr                                    oi din ki market er pharmacy open thakbe?     Will the pharmacies in the market stay open on that day?                             When will the pharmacy in the market open?    0.333             True
+    P15      bn                                             ঋণের বার্ষিক সুদের হার কত শতাংশ?   What is the annual interest rate on the loan (in percent)?                          What is the annual interest rate on the loan?    0.800            False
+    P15     rbn                                     riner barshik suder har koto shotangsho?   What is the annual interest rate on the loan (in percent)?                           How many shots are there in a bar of Rinier?    0.000             True
+    P15      cm                                     Loan-এর annual interest rate কত percent?   What is the annual interest rate on the loan (in percent)?                          What is the annual interest rate of the loan?    0.800            False
+    P15     cmr                                   loan er annual interest rate koto percent?   What is the annual interest rate on the loan (in percent)?                          What is the annual interest rate of the loan?    0.800            False
+    P16      bn                                                    হোস্টেল কোন তারিখে খুলবে?                         On what date will the hostel reopen?                                             When will the hostel open?    0.333             True
+    P16     rbn                                                   hostel kon tarikhe khulbe?                         On what date will the hostel reopen?                                             When will the hostel open?    0.333             True
+    P16      cm                                                  Hostel কোন date-এ open হবে?                         On what date will the hostel reopen?                                             When will the hostel open?    0.333             True
+    P16     cmr                                                 hostel kon date e open hobe?                         On what date will the hostel reopen?                                             When will the hostel open?    0.333             True
+    P17      bn                                                মোট কয়টি চারা বিতরণ করা হবে?              How many saplings will be distributed in total?                        How many saplings will be distributed in total?    1.000            False
+    P17     rbn                                           mot koyti chara biteron kora hobe?              How many saplings will be distributed in total?                                   How many times will you have to try?    0.000             True
+    P17      cm                                      Total কয়টা sapling distribute করা হবে?              How many saplings will be distributed in total?                        How many saplings will be distributed in total?    1.000            False
+    P17     cmr                                    total koyta sapling distribute kora hobe?              How many saplings will be distributed in total?                        How many saplings will be distributed in total?    1.000            False
+    P18      bn                      রক্ষণাবেক্ষণের সময় কি গ্রাহকদের মোবাইল অ্যাপ কাজ করবে?    Will the customer mobile app work during the maintenance?                Will the customer's mobile app work during maintenance?    1.000            False
+    P18     rbn                  rokkhonabekkhoner shomoy ki grahokder mobile app kaj korbe?    Will the customer mobile app work during the maintenance?                  When will the mobile app work for the general public?    0.500            False
+    P18      cm                                  Maintenance-এর সময় কি mobile app কাজ করবে?    Will the customer mobile app work during the maintenance?                           Will the mobile app work during maintenance?    0.833            False
+    P18     cmr                               maintenance er shomoy ki mobile app kaj korbe?    Will the customer mobile app work during the maintenance?           When will the mobile app be working again after maintenance?    0.500            False
+    P19      bn                                               মোটরসাইকেল পারাপারের ভাড়া কত?                     What is the ferry fare for a motorcycle?                                 How much is the rent for a motorcycle?    0.333             True
+    P19     rbn                                             motorcycle parapar er vara koto?                     What is the ferry fare for a motorcycle?                                              How much is a motorcycle?    0.333             True
+    P19      cm                                                 Motorcycle-এর ferry fare কত?                     What is the ferry fare for a motorcycle?                           How much is the ferry fare for a motorcycle?    1.000            False
+    P19     cmr                                               motorcycle er ferry fare koto?                     What is the ferry fare for a motorcycle?                           How much is the ferry fare for a motorcycle?    1.000            False
+    P20      bn                                          রক্তদান কর্মসূচির সমন্বয় কে করবেন?            Who will coordinate the blood donation programme?                        Who will coordinate the blood donation program?    0.750            False
+    P20     rbn                                   roktodan kormoshuchir shomonnoy ke korben?            Who will coordinate the blood donation programme? What is the name of the person who is in charge of the blood donation?    0.500            False
+    P20      cm                                  Blood donation program কে coordinate করবেন?            Who will coordinate the blood donation programme?                        Who will coordinate the blood donation program?    0.750            False
+    P20     cmr                                 blood donation program ke coordinate korben?            Who will coordinate the blood donation programme?                         How can I coordinate a blood donation program?    0.750            False
+    P21      bn                             প্রতি বিঘা জমির জন্য কত টাকা ভর্তুকি দেওয়া হবে?                 How much subsidy is given per bigha of land?                       How much subsidy will be given per acre of land?    0.800            False
+    P21     rbn                         proti bigha jomir jonno koto taka vortuki dewa hobe?                 How much subsidy is given per bigha of land?                  How much will it cost to cultivate one bigha of land?    0.400             True
+    P21      cm                                        Per bigha কত টাকা subsidy দেওয়া হবে?                 How much subsidy is given per bigha of land?                              How much subsidy will be given per bigha?    0.800            False
+    P21     cmr                                       per bigha koto taka subsidy dewa hobe?                 How much subsidy is given per bigha of land?                              How much subsidy will be given per bigha?    0.800            False
+    P22      bn            একজন রোগীর সাথে একসাথে সর্বোচ্চ কতজন দর্শনার্থী দেখা করতে পারবেন?        How many visitors can see a patient at the same time?                  How many visitors can see a patient at the same time?    1.000            False
+    P22     rbn ekjon rogir sathe eksathe shorbocho kotojon dorshonarthi dekha korte parben?        How many visitors can see a patient at the same time?                       How many passengers can you see with one ticket?    0.200             True
+    P22      cm            একজন patient-এর সাথে একসাথে maximum কতজন visitor দেখা করতে পারবে?        How many visitors can see a patient at the same time?                  How many visitors can see a patient at the same time?    1.000            False
+    P22     cmr    ekjon patient er sathe eksathe maximum kotojon visitor dekha korte parbe?        How many visitors can see a patient at the same time?                           How many visitors can a patient see at most?    0.600            False
+    P23      bn                                           লোকসংগীত উৎসব কোন তারিখে শুরু হবে?             On what date does the folk music festival start?                               When will the folk music festival begin?    0.600            False
+    P23     rbn                                    lokosongit utshob kon tarikhe shuru hobe?             On what date does the folk music festival start?                                 When will the Lokosongit Utshob start?    0.200             True
+    P23      cm                                    Folk music festival কোন date-এ start হবে?             On what date does the folk music festival start?                               When does the folk music festival start?    0.800            False
+    P23     cmr                                   folk music festival kon date e start hobe?             On what date does the folk music festival start?                               When does the folk music festival start?    0.800            False
+    P24      bn                                        ভাড়ার সাথে কি গ্যাস বিল অন্তর্ভুক্ত?                        Is the gas bill included in the rent?                                           Is gas included in the rent?    0.750            False
+    P24     rbn                                          varar sathe ki gas bil ontorbhukto?                        Is the gas bill included in the rent?                                           What is the gas bill amount?    0.500            False
+    P24      cm                                        Rent-এর সাথে কি gas bill include করা?                        Is the gas bill included in the rent?                                Is the gas bill included with the rent?    1.000            False
+    P24     cmr                                      rent er sathe ki gas bill include kora?                        Is the gas bill included in the rent?                                    Does the rent include the gas bill?    0.750            False
+    P25      bn                                                         কোর্সটি কত সপ্তাহের?                           How many weeks long is the course?                                     How many weeks long is the course?    1.000            False
+    P25     rbn                                                      korshti koto shoptaher?                           How many weeks long is the course?                                             What is the price of this?    0.000             True
+    P25      cm                                                       Course-টা কত weeks-এর?                           How many weeks long is the course?                                     How many weeks long is the course?    1.000            False
+    P25     cmr                                                     course ta koto weeks er?                           How many weeks long is the course?                                          How many weeks is the course?    0.667            False
+    P26      bn                                               নতুন কমিটির সাধারণ সম্পাদক কে?           Who is the new general secretary of the committee?                     Who is the general secretary of the new committee?    1.000            False
+    P26     rbn                                         notun komitir sadharon shompadok ke?           Who is the new general secretary of the committee?                                What is the common committee's opinion?    0.250             True
+    P26      cm                                        New committee-র general secretary কে?           Who is the new general secretary of the committee?                     Who is the general secretary of the new committee?    1.000            False
+    P26     cmr                                        new committee r general secretary ke?           Who is the new general secretary of the committee?                     Who is the new general secretary of the committee?    1.000            False
+    P27      bn                              পরিচয়পত্র পুনরায় ইস্যু করতে কত টাকা ফি লাগবে?            How much is the fee to reissue a student ID card?                       What is the fee for re-issuing an identity card?    0.400             True
+    P27     rbn                        porichoypotro punoray issu korte koto taka fee lagbe?            How much is the fee to reissue a student ID card?                How much fee will it cost to issue a birth certificate?    0.200             True
+    P27      cm                                      ID card reissue করতে কত টাকা fee লাগবে?            How much is the fee to reissue a student ID card?                 How much fee will be charged for reissuing an ID card?    0.600            False
+    P27     cmr                                   ID card reissue korte koto taka fee lagbe?            How much is the fee to reissue a student ID card?                      How much fee is charged for reissuing an ID card?    0.600            False
+    P28      bn                                  সড়ক সংস্কার কাজ কোন তারিখের মধ্যে শেষ হবে?              By what date will the road repair be completed?                           When will the road repair work be completed?    0.750            False
+    P28     rbn                         shorok shongskar kaj kon tarikher moddhe shesh hobe?              By what date will the road repair be completed?                    When will the short story writing work be finished?    0.000             True
+    P28      cm                                   Road repair কাজ কোন date-এর মধ্যে শেষ হবে?              By what date will the road repair be completed?                            When will the road repair work be finished?    0.500            False
+    P28     cmr                               road repair kaj kon date er moddhe shesh hobe?              By what date will the road repair be completed?                                When will the road repair be completed?    0.750            False
+    P29      bn                  মাধ্যমিক বিদ্যালয়ের শিক্ষার্থীরা কি মেলায় অংশ নিতে পারবে? Can secondary school students take part in the science fair?                    Can middle school students participate in the fair?    0.429             True
+    P29     rbn               maddhomik biddaloyer shikkharthira ki melay ongsho nite parbe? Can secondary school students take part in the science fair?                What is the method of teaching for madhomik biddaloyer?    0.000             True
+    P29      cm     Secondary school-এর student-রা কি science fair-এ participate করতে পারবে? Can secondary school students take part in the science fair?           Can secondary school students participate in a science fair?    0.714            False
+    P29     cmr    secondary school er student ra ki science fair e participate korte parbe? Can secondary school students take part in the science fair?          Can a secondary school student participate in a science fair?    0.571            False
+    P30      bn                                      কেন্দ্রের দায়িত্বপ্রাপ্ত কর্মকর্তা কে?                  Who is the officer in charge of the centre?                          Who is the officer responsible at the center?    0.333             True
+    P30     rbn                                        kendrer dayitto prapto kormokorta ke?                  Who is the officer in charge of the centre?                             What is the expected work completion date?    0.000             True
+    P30      cm                                              Center-এর officer in charge কে?                  Who is the officer in charge of the centre?                            Who is the officer in charge at the center?    0.667            False
+    P30     cmr                                              center er officer in charge ke?                  Who is the officer in charge of the centre?                                          Who is the officer in charge?    0.667            False
+
+-- TR_summary_PROXY
+variant  mean_overlap  flagged
+     bn         0.702    0.200
+     cm         0.811    0.033
+    cmr         0.739    0.067
+    rbn         0.225    0.800
+
+-- CB_contamination
+variant answer_type  n  cb_correct  cb_answered
+     bn      amount  6       0.000        0.000
+     bn        date  6       0.000        0.000
+     bn        name  6       0.000        0.000
+     bn      number  6       0.000        0.000
+     bn       yesno  6       0.000        0.167
+     cm      amount  6       0.000        0.000
+     cm        date  6       0.000        0.000
+     cm        name  6       0.000        0.000
+     cm      number  6       0.000        0.000
+     cm       yesno  6       0.167        0.167
+    cmr      amount  6       0.000        0.000
+    cmr        date  6       0.000        0.000
+    cmr        name  6       0.000        0.000
+    cmr      number  6       0.000        0.000
+    cmr       yesno  6       0.000        0.000
+     en      amount  6       0.000        0.000
+     en        date  6       0.000        0.000
+     en        name  6       0.000        0.000
+     en      number  6       0.000        0.000
+     en       yesno  6       0.167        0.167
+    rbn      amount  6       0.000        0.000
+    rbn        date  6       0.000        0.000
+    rbn        name  6       0.000        0.000
+    rbn      number  6       0.000        0.000
+    rbn       yesno  6       0.000        0.000

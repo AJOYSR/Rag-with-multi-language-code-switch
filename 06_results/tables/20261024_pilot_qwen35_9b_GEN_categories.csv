@@ -1,0 +1,11 @@
+sufficiency,variant,abstain,nonspecific,specific
+insuff,bn,0.4,0.4,0.2
+insuff,cm,0.43333333333333335,0.36666666666666664,0.2
+insuff,cmr,0.3,0.5,0.2
+insuff,en,0.5333333333333333,0.26666666666666666,0.2
+insuff,rbn,0.3333333333333333,0.43333333333333335,0.23333333333333334
+suff,bn,0.0,0.0,1.0
+suff,cm,0.0,0.0,1.0
+suff,cmr,0.0,0.0,1.0
+suff,en,0.0,0.0,1.0
+suff,rbn,0.0,0.0,1.0

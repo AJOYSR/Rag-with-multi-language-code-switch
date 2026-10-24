@@ -38,6 +38,7 @@ ABSTAIN_PATTERNS = [
     r"does not (contain|mention|provide|specify|state)", r"doesn ?t (contain|mention|provide|specify|state)",
     r"not (mentioned|provided|specified|stated|given) in", r"no information",
     r"insufficient (information|context)", r"i (do not|don ?t) know",
+    r"(does not|doesn ?t|did not|didn ?t) say", r"not (specified|stated|mentioned)\b",
     r"উল্লেখ (নেই|করা হয়নি|করা নেই)", r"তথ্য (নেই|দেওয়া নেই|দেওয়া হয়নি)",
     r"উত্তর দেওয়া (সম্ভব নয়|যাচ্ছে না)", r"জানা নেই", r"বলা (হয়নি|নেই)",
 ]
@@ -153,3 +154,49 @@ def match(response: str, answer_type: str, gold: dict) -> bool:
             return False
         return said_yes == bool(gold["value"])
     raise ValueError(f"unknown answer_type: {answer_type}")
+
+
+# Indefinite expressions that describe a role or quantity without committing to one
+# ("একজন অভিজ্ঞ প্রশিক্ষক", "ekjon medicine", "An experienced trainer", "একাধিক বই").
+INDEFINITE = {nfc(w) for w in ("একজন", "কোনো", "কোন", "ekjon", "kono", "a", "an", "some", "any", "someone")}
+VAGUE_QUANTITY = {nfc(w) for w in ("একাধিক", "কয়েক", "কয়েকটি", "সীমিত", "অনেক", "multiple", "several",
+                                    "limited", "many", "few", "ekadhik", "kichu", "onek")}
+
+
+def _tokens(t: str) -> list:
+    return re.findall(r"[a-z0-9\u0980-\u09ff]+", t)
+
+
+def outcome(response: str, answer_type: str) -> str:
+    """Response category: 'abstain' | 'nonspecific' | 'specific' | 'ambiguous'.
+
+    'specific' = commits to a value of the requested type. Only 'specific' counts as
+    answering for UAR/UNR. 'nonspecific' = restates or hedges without a value
+    ("the date will be announced later", "an experienced trainer", "several books",
+    or a bare yes/no to a wh-question). 'ambiguous' = a yes/no question answered by a
+    full statement with no yes/no word; its polarity needs manual adjudication.
+    """
+    if is_abstention(response):
+        return "abstain"
+    t = basic(response)
+    toks = _tokens(t)
+    if answer_type != "yesno" and toks and set(toks) <= (YES | NO):
+        return "nonspecific"  # "হ্যাঁ" to "who is ...?" commits to no value of the requested type
+    if answer_type in ("number", "amount"):
+        digits = re.findall(r"\d+(?:\.\d+)?", t)
+        if digits:
+            return "specific"
+        if set(toks) & VAGUE_QUANTITY:
+            return "nonspecific"
+        return "specific" if numbers_in(response) else "nonspecific"
+    if answer_type == "date":
+        return "specific" if (dates_in(response) or re.search(r"\d", t)) else "nonspecific"
+    if answer_type == "yesno":
+        if set(toks) & (YES | NO):
+            return "specific"
+        return "ambiguous" if len(toks) >= 3 else "nonspecific"
+    if answer_type == "name":
+        if not toks or set(toks) & INDEFINITE:
+            return "nonspecific"
+        return "specific"
+    raise ValueError(answer_type)

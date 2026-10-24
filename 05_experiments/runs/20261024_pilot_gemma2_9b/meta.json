@@ -1,0 +1,61 @@
+{
+  "run_id": "20261024_pilot_gemma2_9b",
+  "config": {
+    "model": "hf.co/bartowski/gemma-2-9b-it-GGUF:Q4_K_M",
+    "items": "03_data/processed/pilot_items_approved.yaml",
+    "split": "dev",
+    "variants": [
+      "en",
+      "bn",
+      "rbn",
+      "cm",
+      "cmr"
+    ],
+    "methods": [
+      "M1",
+      "GEN",
+      "SUFF",
+      "CB",
+      "TR"
+    ],
+    "seed": 0,
+    "temperature": 0.0,
+    "num_ctx": 4096
+  },
+  "config_path": "configs/pilot_gemma2_9b.yaml",
+  "started": "2026-10-24T13:07:01.209422",
+  "git_commit": "8ed730bfa5730f1890e553f72c0a0a0d55f06b4e-dirty",
+  "ollama_version": "0.40.9",
+  "model": {
+    "name": "hf.co/bartowski/gemma-2-9b-it-GGUF:Q4_K_M",
+    "digest": "85d7938fc7b34dcc79333d00276582596ce00e3af902b20a4ad0a3a2f444297a",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "gemma2",
+      "families": [
+        "gemma2"
+      ],
+      "parameter_size": "9.24B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 8192,
+      "embedding_length": 3584,
+      "runner": "ggml"
+    },
+    "size_bytes": 5761058685,
+    "license_head": ""
+  },
+  "prompt_version": "v0.1-2026-10-23",
+  "decoding": {
+    "temperature": 0.0,
+    "seed": 0,
+    "num_ctx": 4096,
+    "max_tokens": {
+      "M1": 64,
+      "GEN": 64,
+      "SUFF": 2,
+      "CB": 64,
+      "TR": 96
+    }
+  }
+}
