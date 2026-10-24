@@ -11,6 +11,18 @@ from pathlib import Path
 from .items import VARIANTS, insufficient_passage, load, validate
 
 
+def readable(answer_type, gold):
+    if answer_type == "amount":
+        return f"{gold['value']} টাকা"
+    if answer_type == "number":
+        return str(gold["value"])
+    if answer_type == "date":
+        return f"{gold['day']}/{gold['month']}/{gold.get('year') or '—'}"
+    if answer_type == "name":
+        return " / ".join(gold["aliases"])
+    return "হ্যাঁ (Yes)" if gold["value"] else "না (No)"
+
+
 def main(items_path, out_dir):
     items = load(items_path)
     problems = [p for it in items for p in validate(it)]
@@ -27,12 +39,15 @@ def main(items_path, out_dir):
                 w.writerow([it["id"], qkey, *[q[v] for v in VARIANTS], *[""] * len(VARIANTS), "", "", "", ""])
     with open(out / "review_pilot_passages.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
-        w.writerow(["item_id", "domain", "answer_type", "gold", "sibling_gold", "passage_SUFFICIENT",
+        w.writerow(["item_id", "domain", "MAIN_QUESTION (en)", "MAIN_QUESTION (bn)", "main_answer",
+                    "SIBLING_QUESTION (en)", "SIBLING_QUESTION (bn)", "sibling_answer", "passage_SUFFICIENT",
                     "answer_sentence", "replacement", "passage_INSUFFICIENT",
                     "passage_EDIT", "replacement_EDIT", "insufficient_really_unanswerable (Y/N)",
                     "names_fictional_ok (Y/N)", "STATUS (approve/edit/drop)", "comment"])
         for it in items:
-            w.writerow([it["id"], it["domain"], it["answer_type"], it["gold"], it["sibling"]["gold"],
+            sib = it["sibling"]
+            w.writerow([it["id"], it["domain"], it["q"]["en"], it["q"]["bn"], readable(it["answer_type"], it["gold"]),
+                        sib["q"]["en"], sib["q"]["bn"], readable(sib["answer_type"], sib["gold"]),
                         it["passage"].strip(), it["answer_sentence"], it["insuff_replacement"] or "(delete)",
                         insufficient_passage(it).strip(), "", "", "", "", "", ""])
     print(f"wrote {len(items)} items to {out}")
