@@ -12,7 +12,7 @@ TR  comprehension probe: translate the query into English (RQ3)
 """
 from .normalize import ABSTAIN_TOKEN
 
-PROMPT_VERSION = "v0.1-2026-10-23"
+PROMPT_VERSION = "v1.0-2026-10-24"
 
 M1_SYSTEM = (
     "You answer questions about a notice using only the information in the notice. "
@@ -40,16 +40,45 @@ CB_SYSTEM = (
 
 TR_SYSTEM = "Translate the following question into English. Output only the English translation."
 
+TRP_SYSTEM = ("You will see one or more notices and a question about them. "
+              "Restate the question in English. Output only the English question, nothing else.")
+
+# Pre-specified paraphrases for robustness check 1 (protocol v1.0 §9). Written before any test run.
+PARAPHRASE_B = {
+    "M1": ("Use only the notice to answer the question. Give just the answer, without explanation. "
+           f"If the notice does not provide what is needed, write {ABSTAIN_TOKEN} and nothing else."),
+    "GEN": "Use the notice to answer the question. Give just the answer, without explanation.",
+    "SUFF": ("You are given a document and a question. Can the answer to the question be determined from "
+             "the document? Answer 1 for yes or 0 for no. Output only the digit."),
+}
+
 
 def with_passage(passage: str, query: str) -> str:
-    return f"Notice:\n{passage.strip()}\n\nQuestion: {query.strip()}"
+    head = "" if passage.lstrip().startswith("Notice 1:") else "Notice:\n"  # multi-passage contexts carry their own headings
+    return f"{head}{passage.strip()}\n\nQuestion: {query.strip()}"
 
 
 def suff_user(passage: str, query: str) -> str:
     return f"Document:\n{passage.strip()}\n\nQuestion: {query.strip()}"
 
 
-def messages(method: str, query: str, passage: str = "") -> list:
+def _plural(msgs: list) -> list:
+    """Multi-notice contexts: 'a notice'/'the notice' -> plural, so instructions match the input."""
+    sys_ = msgs[0]["content"].replace("a notice", "the notices").replace("the notice", "the notices")
+    return [{"role": "system", "content": sys_.replace("the noticess", "the notices")}] + msgs[1:]
+
+
+def messages(method: str, query: str, passage: str = "", paraphrase: str = "A") -> list:
+    msgs = _messages(method, query, passage, paraphrase)
+    return _plural(msgs) if passage.lstrip().startswith("Notice 1:") else msgs
+
+
+def _messages(method: str, query: str, passage: str = "", paraphrase: str = "A") -> list:
+    if paraphrase == "B" and method in PARAPHRASE_B:
+        user = suff_user(passage, query) if method == "SUFF" else with_passage(passage, query)
+        return [{"role": "system", "content": PARAPHRASE_B[method]}, {"role": "user", "content": user}]
+    if method == "TRP":
+        return [{"role": "system", "content": TRP_SYSTEM}, {"role": "user", "content": with_passage(passage, query)}]
     if method == "M1":
         return [{"role": "system", "content": M1_SYSTEM}, {"role": "user", "content": with_passage(passage, query)}]
     if method == "GEN":

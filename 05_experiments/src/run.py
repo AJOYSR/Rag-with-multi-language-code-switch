@@ -12,11 +12,12 @@ from pathlib import Path
 import yaml
 
 from . import llm
-from .items import expand, load, validate
+from .items import build_contexts, expand, load, validate
+from .split import assign
 from .prompts import PROMPT_VERSION, messages
 
 ROOT = Path(__file__).resolve().parents[2]
-MAX_TOKENS = {"M1": 64, "GEN": 64, "SUFF": 2, "CB": 64, "TR": 96}
+MAX_TOKENS = {"M1": 64, "GEN": 64, "SUFF": 2, "CB": 64, "TR": 96, "TRP": 96}
 
 
 def git_commit() -> str:
@@ -40,11 +41,18 @@ def guard(cfg: dict, items: list):
         sys.exit("refusing: item validation failed:\n" + "\n".join(problems))
 
 
-def jobs(cfg: dict, items: list):
-    rows = expand(items, cfg["variants"])
+def jobs(cfg: dict, items: list, all_items: list = None):
+    contexts = None
+    if any(it.get("format") == "multi" for it in items):
+        pool = all_items or items
+        contexts = build_contexts(pool, assign(pool))
+    rows = expand(items, cfg["variants"], contexts)
+    para = cfg.get("paraphrase", "A")
     for r in rows:
         for m in cfg["methods"]:
             if m in ("M1", "GEN", "SUFF"):
+                yield m, r, messages(m, r.query, r.passage, para)
+            elif m == "TRP" and r.question == "main" and r.sufficiency == "suff" and r.variant != "en":
                 yield m, r, messages(m, r.query, r.passage)
             elif m == "CB" and r.question == "main" and r.sufficiency == "suff":
                 yield m, r, messages(m, r.query)
@@ -54,8 +62,12 @@ def jobs(cfg: dict, items: list):
 
 def main(cfg_path: str):
     cfg = yaml.safe_load(Path(cfg_path).read_text())
-    items = load(ROOT / cfg["items"])
-    guard(cfg, items)
+    all_items = load(ROOT / cfg["items"])
+    guard(cfg, all_items)
+    items = all_items
+    if cfg.get("split") in ("dev", "test") and any(it.get("format") == "multi" for it in all_items):
+        split = assign(all_items)
+        items = [it for it in all_items if split[it["id"]] == cfg["split"]]
     items = items[: cfg.get("max_items", len(items))]
     run_id = cfg.get("run_id") or f"{dt.date.today():%Y%m%d}_{Path(cfg_path).stem}"
     out = ROOT / "05_experiments" / "runs" / run_id
@@ -72,7 +84,7 @@ def main(cfg_path: str):
     done = set()
     if resp_path.exists():
         done = {json.loads(l)["key"] for l in resp_path.read_text(encoding="utf-8").splitlines() if l.strip()}
-    todo = [(m, r, msg) for m, r, msg in jobs(cfg, items)
+    todo = [(m, r, msg) for m, r, msg in jobs(cfg, items, all_items)
             if f"{m}|{r.item_id}|{r.question}|{r.variant}|{r.sufficiency}" not in done]
     print(f"{run_id}: {len(done)} done, {len(todo)} to go", flush=True)
     with open(resp_path, "a", encoding="utf-8") as f:

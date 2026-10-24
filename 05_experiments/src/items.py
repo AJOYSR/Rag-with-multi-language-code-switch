@@ -4,6 +4,8 @@ An item expands to (question ∈ {main, sibling}) × variant × sufficiency rows
 The sibling question is only scored on the insufficient passage, where it must
 remain answerable (near-miss control, research_plan.md §5.2).
 """
+import hashlib
+import random
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -50,8 +52,23 @@ def validate(item: dict) -> list:
     missing = [v for v in VARIANTS if not item["q"].get(v)] + [f"sibling.{v}" for v in VARIANTS if not item["sibling"]["q"].get(v)]
     if missing:
         problems.append(f"{iid}: missing variants {missing}")
-    if len(item["passage"].split()) > 300:
+    n_words = len(item["passage"].split())
+    if n_words > 300:
         problems.append(f"{iid}: passage longer than 300 words")
+    if item.get("format") == "multi":  # protocol v1.0 §2.2 rules for new items
+        if n_words < 150:
+            problems.append(f"{iid}: new-format passage shorter than 150 words ({n_words})")
+        if item.get("edit_type") not in ("deletion", "neutralisation"):
+            problems.append(f"{iid}: edit_type must be deletion|neutralisation")
+        if (item.get("edit_type") == "deletion") != (not item.get("insuff_replacement")):
+            problems.append(f"{iid}: edit_type does not match insuff_replacement")
+        ent = item.get("entity") or {}
+        if nfc(ent.get("bn", "")) not in nfc(item["passage"]):
+            problems.append(f"{iid}: entity.bn not found in passage")
+        for v, key in (("en", "en"), ("bn", "bn"), ("rbn", "rom"), ("cm", "bn"), ("cmr", "rom")):
+            for qname, qd in (("main", item["q"]), ("sibling", item["sibling"]["q"])):
+                if ent.get(key) and nfc(ent[key]).casefold() not in nfc(qd.get(v, "")).casefold():
+                    problems.append(f"{iid}: {qname}.{v} does not name the entity ({ent[key]})")
     try:
         insuff = insufficient_passage(item)
     except ValueError as e:
@@ -76,10 +93,15 @@ def load(path) -> list:
     return items
 
 
-def expand(items: list, variants=VARIANTS) -> list:
+def expand(items: list, variants=VARIANTS, contexts: dict = None) -> list:
     rows = []
     for it in items:
-        suff, insuff = nfc(it["passage"]), insufficient_passage(it)
+        if it.get("format") == "multi":
+            if not contexts or it["id"] not in contexts:
+                raise ValueError(f"{it['id']}: multi-format item needs a context (build_contexts)")
+            suff, insuff = contexts[it["id"]]["suff"], contexts[it["id"]]["insuff"]
+        else:
+            suff, insuff = nfc(it["passage"]), insufficient_passage(it)
         for v in variants:
             q = nfc(it["q"][v])
             rows.append(Row(it["id"], "main", v, "suff", q, suff, it["answer_type"], it["gold"], True))
@@ -88,3 +110,50 @@ def expand(items: list, variants=VARIANTS) -> list:
             rows.append(Row(it["id"], "sibling", v, "insuff", sq, insuff,
                             it["sibling"]["answer_type"], it["sibling"]["gold"], True))
     return rows
+
+
+def validate_set(items: list) -> list:
+    """Cross-item checks: unique ids and unique institution names."""
+    problems = []
+    ids = [it["id"] for it in items]
+    if len(ids) != len(set(ids)):
+        problems.append("duplicate item ids")
+    ents = [nfc(it["entity"]["bn"]) for it in items if it.get("entity")]
+    dup = {e for e in ents if ents.count(e) > 1}
+    if dup:
+        problems.append(f"duplicate entities: {sorted(dup)}")
+    return problems
+
+
+CONTEXT_SEED = 20261024
+
+
+def build_contexts(items: list, split: dict, n_distractors: int = 2, seed: int = CONTEXT_SEED) -> dict:
+    """Multi-passage contexts for new-format items (protocol v1.0 §2.2 rule 6).
+
+    Distractors are sufficient passages of other items in the same split, preferring the
+    same answer type and never sharing the target entity. Target position cycles
+    0,1,2 over items sorted by id within each split, so positions are balanced.
+    Returns {item_id: {"suff": str, "insuff": str, "target_pos": int, "distractors": [ids]}}.
+    """
+    by_id = {it["id"]: it for it in items}
+    out = {}
+    for s in sorted(set(split.values())):
+        pool = sorted(i for i, v in split.items() if v == s and by_id[i].get("format") == "multi")
+        for k, iid in enumerate(pool):
+            it = by_id[iid]
+            rng = random.Random(int(hashlib.sha256(f"{seed}|{iid}".encode()).hexdigest(), 16))
+            others = [o for o in pool if o != iid and nfc(by_id[o]["entity"]["bn"]) != nfc(it["entity"]["bn"])]
+            same = [o for o in others if by_id[o]["answer_type"] == it["answer_type"]]
+            rest = [o for o in others if o not in same]
+            rng.shuffle(same)
+            rng.shuffle(rest)
+            chosen = (same + rest)[:n_distractors]
+            pos = k % (n_distractors + 1)
+            def render(target_text):
+                passages = [nfc(by_id[o]["passage"]).strip() for o in chosen]
+                passages.insert(pos, target_text.strip())
+                return "\n\n".join(f"Notice {j + 1}:\n{t}" for j, t in enumerate(passages))
+            out[iid] = {"suff": render(nfc(it["passage"])), "insuff": render(insufficient_passage(it)),
+                        "target_pos": pos, "distractors": chosen}
+    return out

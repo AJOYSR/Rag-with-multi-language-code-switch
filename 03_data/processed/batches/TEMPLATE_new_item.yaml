@@ -1,0 +1,20 @@
+# One new-format item (protocol v1.0 §2.2). Copy this block per item.
+- id: N001                      # batch-specific id range
+  format: multi                 # shown with 2 distractor notices
+  domain: admission
+  answer_type: amount           # number | amount | date | name | yesno
+  entity:                       # the target institution, named in passage AND every question
+    bn: "শালুকগঞ্জ কারিগরি কলেজ"   # exact substring of passage; used in bn and cm questions
+    rom: "shalukganj karigori college"  # used verbatim (case-insensitive) in rbn and cmr questions
+    en: "Shalukganj Technical College"  # used verbatim in the en question
+  edit_type: neutralisation     # deletion (insuff_replacement: "") | neutralisation (vague restatement)
+  passage: |
+    (150–300 words, Bengali, realistic notice; the answer appears exactly once, in answer_sentence)
+  answer_sentence: "..."
+  insuff_replacement: "..."
+  gold: {value: 850}
+  q: {en: "...", bn: "...", rbn: "...", cm: "...", cmr: "..."}
+  sibling:
+    answer_type: date
+    gold: {day: 20, month: 1, year: 2027}
+    q: {en: "...", bn: "...", rbn: "...", cm: "...", cmr: "..."}
