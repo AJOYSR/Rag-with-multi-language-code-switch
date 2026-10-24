@@ -60,3 +60,15 @@
 - Author G2 decision (proceed with 4 changes / unchanged / pivot) and target size. Then Phase 4b protocol draft.
 **Blockers**
 - G2 decision (hard stop).
+
+## Session — 2026-10-24 (cont.) — G2 passed; Phase 4b
+**Done**
+- G2 passed (author: proceed + 4 changes, ~200 items). Protocol v1.0 drafted, **approved and frozen** (tag `protocol-v1.0`, `04_methodology/protocol_freeze.txt`). Annotation guidelines drafted (`04_methodology/annotation_guidelines.md`).
+- Code: `split.py` (deterministic dev/test), distractor-context assembly, TRP probe, paraphrase-B prompts, plural wording for multi-notice contexts, annotation-sample builder, prefix-aware review tools. 92 tests pass.
+- Batch D (42 items, N129–N170) drafted by a subagent and validated (0 problems); committed (NOT author-reviewed).
+**Failed**
+- Batches A–C drafting agents were terminated by an account spend limit (HTTP 429) before writing any file; relaunched with incremental saving.
+**Next**
+- Validate batches A–C, cross-batch checks, build combined review sheet (`review_main`) for the author.
+**Blockers**
+- Author review of ~170 new items; second annotator consent/briefing.

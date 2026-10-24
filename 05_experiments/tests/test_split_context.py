@@ -63,3 +63,13 @@ def test_prompts_plural_only_for_multi_and_single_unchanged():
     multi = messages("M1", "q?", "Notice 1:\nক\n\nNotice 2:\nখ")
     assert "the notices" in multi[0]["content"] and "a notice" not in multi[0]["content"]
     assert "noticess" not in multi[0]["content"]
+
+
+def test_annotation_sample_is_stratified_and_at_least_20pct():
+    from src.build_annotation_sample import sample_ids
+    multi = [i for i in ITEMS if i.get("format") == "multi"]
+    ids = sample_ids(ITEMS)
+    assert len(ids) >= 0.2 * len(multi)
+    by_type = {t: sum(1 for i in multi if i["id"] in ids and i["answer_type"] == t) for t in TYPES}
+    assert min(by_type.values()) >= 2
+    assert sample_ids(ITEMS) == ids  # deterministic

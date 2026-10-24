@@ -1,7 +1,7 @@
 """Apply the author's returned review sheets to the draft items.
 
-Usage: python -m src.apply_review <draft.yaml> <variants_dir> <approved.yaml>
-Reads review_pilot_RETURNED.csv and review_pilot_passages_RETURNED.csv.
+Usage: python -m src.apply_review <draft.yaml> <variants_dir> <approved.yaml> [prefix]
+Reads <prefix>_RETURNED.csv and <prefix>_passages_RETURNED.csv (default prefix: review_pilot).
 Writes approved.yaml (only items with every row approved or edited, and every
 automatic check passing) and review_outcome.json (edit rates, drops, problems).
 """
@@ -25,11 +25,11 @@ def _status(row):
     return s if s in ("approve", "edit", "drop") else ""
 
 
-def main(draft, vdir, approved):
+def main(draft, vdir, approved, prefix="review_pilot"):
     vdir = Path(vdir)
     items = {it["id"]: it for it in load(draft)}
-    passages = {r["item_id"]: r for r in _rows(vdir / "review_pilot_passages_RETURNED.csv")}
-    questions = _rows(vdir / "review_pilot_RETURNED.csv")
+    passages = {r["item_id"]: r for r in _rows(vdir / f"{prefix}_passages_RETURNED.csv")}
+    questions = _rows(vdir / f"{prefix}_RETURNED.csv")
     report = {"dropped": [], "unreviewed": [], "not_unanswerable": [], "problems": [],
               "edited_passages": 0, "edited_strings": 0, "reviewed_strings": 0}
 
@@ -87,9 +87,9 @@ def main(draft, vdir, approved):
         + yaml.safe_dump(keep, allow_unicode=True, sort_keys=False), encoding="utf-8")
     report["approved_items"] = [it["id"] for it in keep]
     report["edit_rate_strings"] = report["edited_strings"] / max(report["reviewed_strings"], 1)
-    (vdir / "review_outcome.json").write_text(json.dumps(report, ensure_ascii=False, indent=2))
+    (vdir / f"{prefix}_outcome.json").write_text(json.dumps(report, ensure_ascii=False, indent=2))
     print(json.dumps({k: (len(v) if isinstance(v, list) else v) for k, v in report.items()}, indent=2))
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:4])
+    main(*sys.argv[1:5])
