@@ -1,0 +1,1809 @@
+# Batch A — AI-drafted (Claude), 2026-10-24, NOT author-reviewed
+# Domain set: education (admissions, exams/results, scholarships, events, coaching, libraries, hostels, university offices, recruitment). Ids N001–N043. All names fictional.
+- id: N001
+  format: multi
+  domain: admission
+  answer_type: amount
+  entity:
+    bn: "বেতফলপুর আদর্শ উচ্চ বিদ্যালয়"
+    rom: "betfolpur adorsho uccho biddaloy"
+    en: "Betfalpur Adarsha High School"
+  edit_type: deletion
+  passage: |
+    বেতফলপুর আদর্শ উচ্চ বিদ্যালয়
+    ষষ্ঠ শ্রেণিতে ভর্তি বিজ্ঞপ্তি — ২০২৭ শিক্ষাবর্ষ
+
+    বেতফলপুর আদর্শ উচ্চ বিদ্যালয়ে ২০২৭ শিক্ষাবর্ষে ষষ্ঠ শ্রেণিতে ভর্তির জন্য আগ্রহী শিক্ষার্থীদের কাছ থেকে আবেদন আহ্বান করা হচ্ছে। প্রভাতি ও দিবা দুই শাখায় মোট ১২০টি আসন খালি আছে। পঞ্চম শ্রেণি পাস বা সমমানের পরীক্ষায় উত্তীর্ণ শিক্ষার্থীরা আবেদন করতে পারবে।
+
+    আবেদন ফরম বিদ্যালয়ের অফিস থেকে সংগ্রহ করা যাবে। ফরমের সঙ্গে জন্মনিবন্ধন সনদের ফটোকপি, পঞ্চম শ্রেণির প্রশংসাপত্র এবং দুই কপি পাসপোর্ট সাইজের ছবি জমা দিতে হবে। ভর্তি পরীক্ষা হবে বাংলা, ইংরেজি ও গণিত বিষয়ে, মোট ৫০ নম্বরের। লিখিত পরীক্ষার ফলাফলের ভিত্তিতে মেধাতালিকা প্রকাশ করা হবে।
+
+    মেধাতালিকায় স্থান পাওয়া শিক্ষার্থীদের ভর্তির সময় ভর্তি ফি বাবদ ১,৮৫০ টাকা পরিশোধ করতে হবে। ভর্তি ফি-র মধ্যে সেশন চার্জ, লাইব্রেরি ও বিজ্ঞানাগারের খরচ অন্তর্ভুক্ত। মাসিক বেতন আলাদাভাবে প্রতি মাসের ১০ তারিখের মধ্যে জমা দিতে হবে। দরিদ্র ও মেধাবী শিক্ষার্থীদের জন্য আংশিক বেতন মওকুফের সুযোগ রয়েছে; এ জন্য প্রধান শিক্ষকের বরাবর আলাদা আবেদন করতে হবে।
+
+    বিদ্যালয়ের নির্ধারিত ইউনিফর্ম ভর্তির পর এক মাসের মধ্যে তৈরি করতে হবে। অভিভাবকদের ভর্তির দিন শিক্ষার্থীর সঙ্গে উপস্থিত থাকার অনুরোধ করা হলো। বিস্তারিত তথ্যের জন্য বিদ্যালয়ের অফিসে রবিবার থেকে বৃহস্পতিবার সকাল ৯টা থেকে দুপুর ১টার মধ্যে যোগাযোগ করুন।
+
+    প্রধান শিক্ষক
+    বেতফলপুর আদর্শ উচ্চ বিদ্যালয়
+  answer_sentence: "মেধাতালিকায় স্থান পাওয়া শিক্ষার্থীদের ভর্তির সময় ভর্তি ফি বাবদ ১,৮৫০ টাকা পরিশোধ করতে হবে।"
+  insuff_replacement: ""
+  gold: {value: 1850}
+  q:
+    en: "What is the class six admission fee at Betfalpur Adarsha High School?"
+    bn: "বেতফলপুর আদর্শ উচ্চ বিদ্যালয়ে ষষ্ঠ শ্রেণিতে ভর্তি ফি কত টাকা?"
+    rbn: "betfolpur adorsho uccho biddaloye shoshtho shrenite vorti fee koto taka?"
+    cm: "বেতফলপুর আদর্শ উচ্চ বিদ্যালয়ে class six এ admission fee কত টাকা?"
+    cmr: "betfolpur adorsho uccho biddaloye class six e admission fee koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 120}
+    q:
+      en: "How many seats are vacant in class six at Betfalpur Adarsha High School?"
+      bn: "বেতফলপুর আদর্শ উচ্চ বিদ্যালয়ে ষষ্ঠ শ্রেণিতে মোট কয়টি আসন খালি আছে?"
+      rbn: "betfolpur adorsho uccho biddaloye shoshtho shrenite mot koyti ashon khali ache?"
+      cm: "বেতফলপুর আদর্শ উচ্চ বিদ্যালয়ে class six এ মোট কয়টি seat খালি আছে?"
+      cmr: "betfolpur adorsho uccho biddaloye class six e mot koyti seat khali ache?"
+
+- id: N002
+  format: multi
+  domain: exam
+  answer_type: date
+  entity:
+    bn: "কুমিরজোলা ডিগ্রি কলেজ"
+    rom: "kumirjola degree college"
+    en: "Kumirjola Degree College"
+  edit_type: neutralisation
+  passage: |
+    কুমিরজোলা ডিগ্রি কলেজ
+    দ্বাদশ শ্রেণির নির্বাচনী পরীক্ষা সংক্রান্ত বিজ্ঞপ্তি
+
+    কুমিরজোলা ডিগ্রি কলেজের দ্বাদশ শ্রেণির বিজ্ঞান, মানবিক ও ব্যবসায় শিক্ষা শাখার সকল শিক্ষার্থীর অবগতির জন্য জানানো যাচ্ছে যে, দ্বাদশ শ্রেণির নির্বাচনী পরীক্ষা আগামী ১৪ সেপ্টেম্বর ২০২৭ তারিখ থেকে শুরু হবে। পরীক্ষা প্রতিদিন সকাল ১০টায় শুরু হবে এবং কলেজের মূল ভবনের কক্ষগুলোতে অনুষ্ঠিত হবে।
+
+    পরীক্ষায় অংশগ্রহণের জন্য প্রত্যেক শিক্ষার্থীকে পরীক্ষার ফি বাবদ ১,২৫০ টাকা কলেজের হিসাব শাখায় জমা দিতে হবে। ফি জমার রসিদ দেখিয়ে প্রবেশপত্র সংগ্রহ করতে হবে। যেসব শিক্ষার্থীর মাসিক বেতন বা অন্যান্য পাওনা বকেয়া আছে, তাদের বকেয়া পরিশোধ না করলে প্রবেশপত্র দেওয়া হবে না।
+
+    নির্বাচনী পরীক্ষায় উত্তীর্ণ শিক্ষার্থীরাই কেবল উচ্চ মাধ্যমিক পরীক্ষার ফরম পূরণ করতে পারবে। কোনো বিষয়ে অকৃতকার্য হলে বিশেষ বিবেচনার জন্য অধ্যক্ষ বরাবর লিখিত আবেদন করতে হবে, তবে অনুমোদন সম্পূর্ণ কলেজ কর্তৃপক্ষের বিবেচনার ওপর নির্ভর করবে। পরীক্ষার হলে মোবাইল ফোন, স্মার্টওয়াচ বা যেকোনো ইলেকট্রনিক যন্ত্র আনা সম্পূর্ণ নিষিদ্ধ। শুধু সাধারণ ক্যালকুলেটর ব্যবহার করা যাবে।
+
+    বিস্তারিত সময়সূচি কলেজের নোটিশ বোর্ডে টাঙিয়ে দেওয়া হয়েছে। কোনো শিক্ষার্থী অসুস্থতার কারণে পরীক্ষায় অনুপস্থিত থাকলে চিকিৎসকের সনদসহ শ্রেণিশিক্ষককে জানাতে হবে।
+
+    অধ্যক্ষ
+    কুমিরজোলা ডিগ্রি কলেজ
+  answer_sentence: "দ্বাদশ শ্রেণির নির্বাচনী পরীক্ষা আগামী ১৪ সেপ্টেম্বর ২০২৭ তারিখ থেকে শুরু হবে।"
+  insuff_replacement: "দ্বাদশ শ্রেণির নির্বাচনী পরীক্ষা শুরুর তারিখ পরবর্তী নোটিশে জানানো হবে।"
+  gold: {day: 14, month: 9, year: 2027}
+  q:
+    en: "From what date will the class twelve test exam at Kumirjola Degree College begin?"
+    bn: "কুমিরজোলা ডিগ্রি কলেজে দ্বাদশ শ্রেণির নির্বাচনী পরীক্ষা কোন তারিখ থেকে শুরু হবে?"
+    rbn: "kumirjola degree college e dadosh shrenir nirbachoni porikkha kon tarikh theke shuru hobe?"
+    cm: "কুমিরজোলা ডিগ্রি কলেজে class twelve এর test exam কোন তারিখ থেকে শুরু হবে?"
+    cmr: "kumirjola degree college e class twelve er test exam kon tarikh theke shuru hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 1250}
+    q:
+      en: "What is the exam fee for the class twelve test exam at Kumirjola Degree College?"
+      bn: "কুমিরজোলা ডিগ্রি কলেজে দ্বাদশ শ্রেণির নির্বাচনী পরীক্ষার ফি কত টাকা?"
+      rbn: "kumirjola degree college e dadosh shrenir nirbachoni porikkhar fee koto taka?"
+      cm: "কুমিরজোলা ডিগ্রি কলেজে দ্বাদশ শ্রেণির test exam এর fee কত টাকা?"
+      cmr: "kumirjola degree college e dadosh shrenir test exam er fee koto taka?"
+
+- id: N003
+  format: multi
+  domain: library
+  answer_type: name
+  entity:
+    bn: "নীলকমলপুর পৌর গণগ্রন্থাগার"
+    rom: "nilkomolpur pouro gonogronthagar"
+    en: "Nilkamalpur Municipal Public Library"
+  edit_type: deletion
+  passage: |
+    নীলকমলপুর পৌর গণগ্রন্থাগার
+    বই পড়া প্রতিযোগিতা ২০২৭
+
+    পাঠাভ্যাস গড়ে তোলার লক্ষ্যে নীলকমলপুর পৌর গণগ্রন্থাগার এ বছরও স্কুল ও কলেজের শিক্ষার্থীদের জন্য বই পড়া প্রতিযোগিতার আয়োজন করেছে। প্রতিযোগিতাটি তিনটি গ্রুপে অনুষ্ঠিত হবে: ক গ্রুপ (ষষ্ঠ থেকে অষ্টম শ্রেণি), খ গ্রুপ (নবম ও দশম শ্রেণি) এবং গ গ্রুপ (একাদশ ও দ্বাদশ শ্রেণি)।
+
+    প্রত্যেক গ্রুপের জন্য নির্ধারিত তিনটি করে বই গ্রন্থাগারের পাঠকক্ষ থেকে বিনামূল্যে ধার নেওয়া যাবে। বই পড়া শেষে প্রতিযোগীদের একটি লিখিত পরীক্ষায় অংশ নিতে হবে, যেখানে বইয়ের বিষয়বস্তু থেকে প্রশ্ন করা হবে। নিবন্ধনের শেষ তারিখ ১৫ মার্চ ২০২৭। নিবন্ধনের সময় শিক্ষার্থীর পরিচয়পত্র অথবা প্রতিষ্ঠানপ্রধানের প্রত্যয়নপত্র দেখাতে হবে।
+
+    প্রতিযোগিতার প্রধান বিচারকের দায়িত্ব পালন করবেন অবসরপ্রাপ্ত বাংলা অধ্যাপক মাহতাব উদ্দিন সরকার। লিখিত পরীক্ষার খাতা মূল্যায়ন করবেন স্থানীয় বিদ্যালয়ের শিক্ষকদের নিয়ে গঠিত একটি কমিটি। প্রতিটি গ্রুপে প্রথম, দ্বিতীয় ও তৃতীয় স্থান অধিকারীকে বই ও সনদপত্র দেওয়া হবে। অংশগ্রহণকারী সকলকে অংশগ্রহণ সনদ দেওয়া হবে।
+
+    গ্রন্থাগারের নিয়মিত সদস্য হতে চাইলে বার্ষিক সদস্য চাঁদা ৪৫০ টাকা। সদস্যরা একসঙ্গে দুটি বই দুই সপ্তাহের জন্য বাড়িতে নিতে পারবেন। গ্রন্থাগার শনিবার থেকে বৃহস্পতিবার সকাল ১০টা থেকে সন্ধ্যা ৬টা পর্যন্ত খোলা থাকে।
+
+    গ্রন্থাগারিক
+    নীলকমলপুর পৌর গণগ্রন্থাগার
+  answer_sentence: "প্রতিযোগিতার প্রধান বিচারকের দায়িত্ব পালন করবেন অবসরপ্রাপ্ত বাংলা অধ্যাপক মাহতাব উদ্দিন সরকার।"
+  insuff_replacement: ""
+  gold: {aliases: ["মাহতাব উদ্দিন সরকার", "Mahtab Uddin Sarkar", "Mahtab Uddin Sorkar", "Mahtab Uddin Sarker"]}
+  q:
+    en: "Who will be the chief judge of the reading competition at Nilkamalpur Municipal Public Library?"
+    bn: "নীলকমলপুর পৌর গণগ্রন্থাগারের বই পড়া প্রতিযোগিতার প্রধান বিচারক কে?"
+    rbn: "nilkomolpur pouro gonogronthagarer boi pora protijogitar prodhan bicharok ke?"
+    cm: "নীলকমলপুর পৌর গণগ্রন্থাগারের reading competition এর chief judge কে?"
+    cmr: "nilkomolpur pouro gonogronthagarer reading competition er chief judge ke?"
+  sibling:
+    answer_type: amount
+    gold: {value: 450}
+    q:
+      en: "What is the annual membership fee at Nilkamalpur Municipal Public Library?"
+      bn: "নীলকমলপুর পৌর গণগ্রন্থাগারের বার্ষিক সদস্য চাঁদা কত টাকা?"
+      rbn: "nilkomolpur pouro gonogronthagarer barshik shodosso chada koto taka?"
+      cm: "নীলকমলপুর পৌর গণগ্রন্থাগারের annual membership fee কত টাকা?"
+      cmr: "nilkomolpur pouro gonogronthagarer annual membership fee koto taka?"
+
+- id: N004
+  format: multi
+  domain: scholarship
+  answer_type: number
+  entity:
+    bn: "ঝিঙেফুল শিক্ষা বৃত্তি ট্রাস্ট"
+    rom: "jhingeful shikkha britti trust"
+    en: "Jhingeful Education Scholarship Trust"
+  edit_type: neutralisation
+  passage: |
+    ঝিঙেফুল শিক্ষা বৃত্তি ট্রাস্ট
+    মেধাবৃত্তি ২০২৭: আবেদন আহ্বান
+
+    অসচ্ছল পরিবারের মেধাবী শিক্ষার্থীদের পড়াশোনা চালিয়ে যেতে সহায়তার জন্য ঝিঙেফুল শিক্ষা বৃত্তি ট্রাস্ট ২০২৭ সালের মেধাবৃত্তির আবেদন আহ্বান করছে। এ বছর উচ্চ মাধ্যমিক পর্যায়ে অধ্যয়নরত শিক্ষার্থীরা এই বৃত্তির জন্য আবেদন করতে পারবে। এ বছর মোট ৬৫ জন শিক্ষার্থীকে বৃত্তি দেওয়া হবে।
+
+    আবেদনের যোগ্যতা: মাধ্যমিক পরীক্ষায় ন্যূনতম জিপিএ ৪.৫০ পেতে হবে এবং পরিবারের বার্ষিক আয় নির্ধারিত সীমার মধ্যে থাকতে হবে। আবেদনপত্রের সঙ্গে মাধ্যমিক পরীক্ষার নম্বরপত্র, বর্তমান প্রতিষ্ঠানের প্রত্যয়নপত্র, ইউনিয়ন পরিষদ বা পৌরসভা থেকে আয়ের সনদ এবং দুই কপি ছবি জমা দিতে হবে।
+
+    নির্বাচিত শিক্ষার্থীরা দুই বছর ধরে প্রতি মাসে ১,৮০০ টাকা করে বৃত্তি পাবে। এছাড়া বছরে একবার বই কেনার জন্য এককালীন অনুদান দেওয়া হবে। বৃত্তি চালু থাকার জন্য শিক্ষার্থীকে প্রতিটি পরীক্ষায় সন্তোষজনক ফল করতে হবে এবং কলেজে নিয়মিত উপস্থিত থাকতে হবে। কোনো শিক্ষার্থী পড়াশোনা ছেড়ে দিলে তার বৃত্তি বাতিল হবে।
+
+    আবেদনপত্র ট্রাস্টের কার্যালয়ে সরাসরি জমা দিতে হবে। প্রাথমিক বাছাইয়ের পর আবেদনকারীদের মৌখিক সাক্ষাৎকারের জন্য ডাকা হবে এবং প্রয়োজনে পরিবারের আর্থিক অবস্থা যাচাই করা হবে। ভুল তথ্য দিলে আবেদন বাতিল বলে গণ্য হবে।
+
+    সদস্যসচিব
+    ঝিঙেফুল শিক্ষা বৃত্তি ট্রাস্ট
+  answer_sentence: "এ বছর মোট ৬৫ জন শিক্ষার্থীকে বৃত্তি দেওয়া হবে।"
+  insuff_replacement: "এ বছর কতজন শিক্ষার্থীকে বৃত্তি দেওয়া হবে, তা ট্রাস্টি বোর্ডের সভায় চূড়ান্ত করা হবে।"
+  gold: {value: 65}
+  q:
+    en: "How many students will receive scholarships this year from the Jhingeful Education Scholarship Trust?"
+    bn: "ঝিঙেফুল শিক্ষা বৃত্তি ট্রাস্ট এ বছর কতজন শিক্ষার্থীকে বৃত্তি দেবে?"
+    rbn: "jhingeful shikkha britti trust e bochor kotojon shikkharthike britti debe?"
+    cm: "ঝিঙেফুল শিক্ষা বৃত্তি ট্রাস্ট এ বছর কতজন student কে scholarship দেবে?"
+    cmr: "jhingeful shikkha britti trust e bochor kotojon student ke scholarship debe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 1800}
+    q:
+      en: "How much is the monthly scholarship from the Jhingeful Education Scholarship Trust?"
+      bn: "ঝিঙেফুল শিক্ষা বৃত্তি ট্রাস্টের বৃত্তি প্রতি মাসে কত টাকা?"
+      rbn: "jhingeful shikkha britti trust er britti proti mashe koto taka?"
+      cm: "ঝিঙেফুল শিক্ষা বৃত্তি ট্রাস্টের monthly scholarship কত টাকা?"
+      cmr: "jhingeful shikkha britti trust er monthly scholarship koto taka?"
+
+- id: N005
+  format: multi
+  domain: training
+  answer_type: yesno
+  entity:
+    bn: "তালপাখা কম্পিউটার প্রশিক্ষণ কেন্দ্র"
+    rom: "talpakha computer proshikkhon kendro"
+    en: "Talpakha Computer Training Centre"
+  edit_type: deletion
+  passage: |
+    তালপাখা কম্পিউটার প্রশিক্ষণ কেন্দ্র
+    নতুন ব্যাচে ভর্তি চলছে
+
+    তালপাখা কম্পিউটার প্রশিক্ষণ কেন্দ্রে আগামী জানুয়ারি ২০২৭ থেকে "অফিস অ্যাপ্লিকেশন ও গ্রাফিক ডিজাইন" কোর্সের নতুন ব্যাচ শুরু হচ্ছে। কোর্সের মেয়াদ চার মাস। কোর্সে কম্পিউটারের প্রাথমিক ব্যবহার, ওয়ার্ড প্রসেসিং, স্প্রেডশিট, প্রেজেন্টেশন, ইন্টারনেট ব্যবহার এবং প্রাথমিক গ্রাফিক ডিজাইন শেখানো হবে।
+
+    প্রতিটি ব্যাচে সর্বোচ্চ ২৫ জন প্রশিক্ষণার্থী ভর্তি করা হবে, যাতে প্রত্যেকে আলাদা কম্পিউটারে হাতে-কলমে অনুশীলনের সুযোগ পান। সকালের ব্যাচের ক্লাস সপ্তাহে চার দিন, প্রতিদিন দুই ঘণ্টা করে হবে। নারী প্রশিক্ষণার্থীদের জন্য আলাদা একটি বিকেলের ব্যাচ চালু থাকবে। ন্যূনতম শিক্ষাগত যোগ্যতা অষ্টম শ্রেণি পাস।
+
+    কোর্স ফি মোট ৬,৫০০ টাকা, যা দুই কিস্তিতে পরিশোধ করা যাবে। প্রথম কিস্তি ভর্তির সময় এবং দ্বিতীয় কিস্তি কোর্স শুরুর দুই মাসের মধ্যে দিতে হবে। ফি মোবাইল ব্যাংকিং বা নগদে জমা দেওয়া যাবে। কোর্স শেষে লিখিত ও ব্যবহারিক মূল্যায়নের পর সফল প্রশিক্ষণার্থীদের সনদপত্র দেওয়া হবে। নিয়মিত উপস্থিতি ন্যূনতম আশি শতাংশ না হলে মূল্যায়নে অংশ নেওয়া যাবে না।
+
+    ভর্তির জন্য শিক্ষাগত সনদের ফটোকপি, জাতীয় পরিচয়পত্র বা জন্মনিবন্ধনের কপি এবং এক কপি ছবি সঙ্গে আনতে হবে। আসন সীমিত, তাই আগে এলে আগে ভর্তির ভিত্তিতে আসন বরাদ্দ করা হবে।
+
+    পরিচালক
+    তালপাখা কম্পিউটার প্রশিক্ষণ কেন্দ্র
+  answer_sentence: "নারী প্রশিক্ষণার্থীদের জন্য আলাদা একটি বিকেলের ব্যাচ চালু থাকবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Does Talpakha Computer Training Centre have a separate batch for female trainees?"
+    bn: "তালপাখা কম্পিউটার প্রশিক্ষণ কেন্দ্রে কি নারী প্রশিক্ষণার্থীদের জন্য আলাদা ব্যাচ আছে?"
+    rbn: "talpakha computer proshikkhon kendro te ki nari proshikkhonarthider jonno alada bach ache?"
+    cm: "তালপাখা কম্পিউটার প্রশিক্ষণ কেন্দ্রে কি মেয়েদের জন্য আলাদা batch আছে?"
+    cmr: "talpakha computer proshikkhon kendro te ki meyeder jonno alada batch ache?"
+  sibling:
+    answer_type: amount
+    gold: {value: 6500}
+    q:
+      en: "What is the total course fee at Talpakha Computer Training Centre?"
+      bn: "তালপাখা কম্পিউটার প্রশিক্ষণ কেন্দ্রের কোর্স ফি মোট কত টাকা?"
+      rbn: "talpakha computer proshikkhon kendro er kors fee mot koto taka?"
+      cm: "তালপাখা কম্পিউটার প্রশিক্ষণ কেন্দ্রের total course fee কত টাকা?"
+      cmr: "talpakha computer proshikkhon kendro er total course fee koto taka?"
+
+- id: N006
+  format: multi
+  domain: hostel
+  answer_type: amount
+  entity:
+    bn: "শিউলিমঞ্জরী ছাত্রী হোস্টেল"
+    rom: "shiulimonjori chatri hostel"
+    en: "Shiulimanjari Girls' Hostel"
+  edit_type: neutralisation
+  passage: |
+    শিউলিমঞ্জরী ছাত্রী হোস্টেল
+    আসন খালি — ২০২৭ সালের জন্য ভর্তি বিজ্ঞপ্তি
+
+    কলেজ ও বিশ্ববিদ্যালয়ে অধ্যয়নরত ছাত্রীদের জন্য শিউলিমঞ্জরী ছাত্রী হোস্টেলে ২০২৭ সালের জন্য কিছু আসন খালি হয়েছে। হোস্টেলটি শহরের কলেজপাড়া এলাকায় অবস্থিত এবং প্রধান সড়ক থেকে মাত্র পাঁচ মিনিটের হাঁটা পথ। প্রতিটি কক্ষে তিনজন করে ছাত্রী থাকার ব্যবস্থা রয়েছে।
+
+    তিনজনের কক্ষে প্রতিটি আসনের মাসিক ভাড়া ৩,২০০ টাকা। ভাড়ার মধ্যে বিদ্যুৎ, পানি ও গ্যাসের বিল অন্তর্ভুক্ত। হোস্টেলের নিজস্ব ডাইনিংয়ে তিন বেলা খাবারের ব্যবস্থা আছে, যার জন্য আলাদাভাবে মাসিক খাবার খরচ দিতে হবে। ভর্তির সময় ফেরতযোগ্য জামানত হিসেবে ৪,০০০ টাকা জমা দিতে হবে, যা হোস্টেল ছাড়ার সময় ফেরত দেওয়া হবে।
+
+    হোস্টেলে ২৪ ঘণ্টা নারী নিরাপত্তাকর্মী, সিসি ক্যামেরা, ওয়াই-ফাই এবং পড়ার জন্য একটি আলাদা কক্ষ রয়েছে। প্রতিদিন রাত ৯টার মধ্যে হোস্টেলে ফিরতে হবে। অতিথিরা কেবল নিচতলার অভ্যর্থনা কক্ষে সাক্ষাৎ করতে পারবেন; কক্ষে কোনো পুরুষ অতিথি প্রবেশ করতে পারবেন না।
+
+    ভর্তির জন্য শিক্ষাপ্রতিষ্ঠানের পরিচয়পত্রের ফটোকপি, অভিভাবকের জাতীয় পরিচয়পত্রের কপি এবং দুই কপি ছবি জমা দিতে হবে। আবেদনের শেষ তারিখ ২০ জানুয়ারি ২০২৭। আসন সীমিত হওয়ায় আগে আবেদনকারীরা অগ্রাধিকার পাবেন। বিস্তারিত জানতে হোস্টেল সুপারের সঙ্গে সরাসরি যোগাযোগ করুন।
+
+    হোস্টেল সুপার
+    শিউলিমঞ্জরী ছাত্রী হোস্টেল
+  answer_sentence: "তিনজনের কক্ষে প্রতিটি আসনের মাসিক ভাড়া ৩,২০০ টাকা।"
+  insuff_replacement: "তিনজনের কক্ষে প্রতিটি আসনের মাসিক ভাড়া ভর্তির সময় অফিস থেকে জানানো হবে।"
+  gold: {value: 3200}
+  q:
+    en: "What is the monthly rent for a seat at Shiulimanjari Girls' Hostel?"
+    bn: "শিউলিমঞ্জরী ছাত্রী হোস্টেলে প্রতিটি আসনের মাসিক ভাড়া কত টাকা?"
+    rbn: "shiulimonjori chatri hostel e protiti ashoner mashik vara koto taka?"
+    cm: "শিউলিমঞ্জরী ছাত্রী হোস্টেলে একটা seat এর monthly rent কত টাকা?"
+    cmr: "shiulimonjori chatri hostel e ekta seat er monthly rent koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 20, month: 1, year: 2027}
+    q:
+      en: "What is the last date to apply for a seat at Shiulimanjari Girls' Hostel?"
+      bn: "শিউলিমঞ্জরী ছাত্রী হোস্টেলে আসনের জন্য আবেদনের শেষ তারিখ কবে?"
+      rbn: "shiulimonjori chatri hostel e ashoner jonno abedoner shesh tarikh kobe?"
+      cm: "শিউলিমঞ্জরী ছাত্রী হোস্টেলে seat এর জন্য apply করার last date কবে?"
+      cmr: "shiulimonjori chatri hostel e seat er jonno apply korar last date kobe?"
+
+- id: N007
+  format: multi
+  domain: coaching
+  answer_type: date
+  entity:
+    bn: "জলপদ্ম একাডেমিক কোচিং সেন্টার"
+    rom: "jolpoddo academic coaching center"
+    en: "Jolpaddo Academic Coaching Centre"
+  edit_type: deletion
+  passage: |
+    জলপদ্ম একাডেমিক কোচিং সেন্টার
+    এসএসসি ২০২৭ পরীক্ষার্থীদের জন্য মডেল টেস্ট প্রোগ্রাম
+
+    আসন্ন এসএসসি পরীক্ষার প্রস্তুতি জোরদার করতে জলপদ্ম একাডেমিক কোচিং সেন্টার পরীক্ষার্থীদের জন্য বিশেষ মডেল টেস্ট প্রোগ্রামের আয়োজন করেছে। এই প্রোগ্রামে বোর্ড পরীক্ষার আদলে মোট ১২টি মডেল টেস্ট নেওয়া হবে। প্রথম মডেল টেস্ট অনুষ্ঠিত হবে ১৬ জানুয়ারি ২০২৭ তারিখে।
+
+    প্রতিটি মডেল টেস্টে সৃজনশীল ও বহুনির্বাচনী দুই ধরনের প্রশ্ন থাকবে এবং বোর্ডের নির্ধারিত সময় অনুযায়ী পরীক্ষা নেওয়া হবে। খাতা মূল্যায়ন করবেন অভিজ্ঞ শিক্ষকরা। প্রতিটি পরীক্ষার পর ভুল প্রশ্নগুলোর ওপর আলাদা সমাধান ক্লাস নেওয়া হবে, যাতে শিক্ষার্থীরা নিজেদের দুর্বলতা বুঝতে পারে।
+
+    সবগুলো মডেল টেস্টের সমন্বিত ফলাফল ৯ ফেব্রুয়ারি ২০২৭ তারিখে প্রকাশ করা হবে। ফলাফলের ভিত্তিতে সেরা দশজন শিক্ষার্থীকে সম্মাননা ও শিক্ষা উপকরণ দেওয়া হবে। প্রত্যেক শিক্ষার্থীর বিষয়ভিত্তিক অগ্রগতির একটি প্রতিবেদন অভিভাবকদের কাছে পাঠানো হবে।
+
+    এই প্রোগ্রামে অংশ নিতে কোচিংয়ের নিয়মিত শিক্ষার্থীদের কোনো অতিরিক্ত ফি লাগবে না। বাইরের শিক্ষার্থীরাও নির্ধারিত ফি দিয়ে অংশ নিতে পারবে। নিবন্ধনের সময় শিক্ষার্থীর বিদ্যালয়ের পরিচয়পত্র এবং এক কপি ছবি জমা দিতে হবে। পরীক্ষা চলাকালীন মোবাইল ফোন সঙ্গে রাখা যাবে না। নিবন্ধন ও বিস্তারিত তথ্যের জন্য কোচিংয়ের অফিসে বিকেল ৩টা থেকে রাত ৮টার মধ্যে যোগাযোগ করুন।
+
+    পরিচালক
+    জলপদ্ম একাডেমিক কোচিং সেন্টার
+  answer_sentence: "সবগুলো মডেল টেস্টের সমন্বিত ফলাফল ৯ ফেব্রুয়ারি ২০২৭ তারিখে প্রকাশ করা হবে।"
+  insuff_replacement: ""
+  gold: {day: 9, month: 2, year: 2027}
+  q:
+    en: "On what date will Jolpaddo Academic Coaching Centre publish the combined result of the model tests?"
+    bn: "জলপদ্ম একাডেমিক কোচিং সেন্টার মডেল টেস্টের সমন্বিত ফলাফল কোন তারিখে প্রকাশ করবে?"
+    rbn: "jolpoddo academic coaching center model tester shomonnito folafol kon tarikhe prokash korbe?"
+    cm: "জলপদ্ম একাডেমিক কোচিং সেন্টার model test এর combined result কোন তারিখে দেবে?"
+    cmr: "jolpoddo academic coaching center model test er combined result kon tarikhe debe?"
+  sibling:
+    answer_type: number
+    gold: {value: 12}
+    q:
+      en: "How many model tests will Jolpaddo Academic Coaching Centre hold in this programme?"
+      bn: "জলপদ্ম একাডেমিক কোচিং সেন্টার এই প্রোগ্রামে মোট কয়টি মডেল টেস্ট নেবে?"
+      rbn: "jolpoddo academic coaching center ei programe mot koyti model test nebe?"
+      cm: "জলপদ্ম একাডেমিক কোচিং সেন্টার এই program এ মোট কয়টি model test নেবে?"
+      cmr: "jolpoddo academic coaching center ei program e mot koyti model test nebe?"
+
+- id: N008
+  format: multi
+  domain: school_event
+  answer_type: name
+  entity:
+    bn: "ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়"
+    rom: "dumurtoli sorkari prathomik biddaloy"
+    en: "Dumurtali Government Primary School"
+  edit_type: neutralisation
+  passage: |
+    ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়
+    বার্ষিক ক্রীড়া প্রতিযোগিতা ও পুরস্কার বিতরণী অনুষ্ঠান ২০২৭
+
+    ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়ের বার্ষিক ক্রীড়া প্রতিযোগিতা আগামী ২৬ ফেব্রুয়ারি ২০২৭ তারিখে বিদ্যালয় মাঠে অনুষ্ঠিত হবে। প্রথম থেকে পঞ্চম শ্রেণির সকল শিক্ষার্থী শ্রেণিভিত্তিক বিভিন্ন খেলায় অংশ নিতে পারবে। খেলার মধ্যে রয়েছে দৌড়, বস্তা দৌড়, অঙ্ক দৌড়, মোরগ লড়াই, যেমন খুশি তেমন সাজো এবং অভিভাবকদের জন্য বিশেষ বালিশ খেলা।
+
+    প্রতিযোগিতায় অংশ নিতে ইচ্ছুক শিক্ষার্থীদের নিজ নিজ শ্রেণিশিক্ষকের কাছে নাম জমা দিতে হবে। প্রতিটি শিক্ষার্থী সর্বোচ্চ তিনটি খেলায় অংশ নিতে পারবে। সকাল ৯টায় জাতীয় সংগীত ও শপথ পাঠের মধ্য দিয়ে অনুষ্ঠান শুরু হবে।
+
+    বিকেলে পুরস্কার বিতরণী অনুষ্ঠানে প্রধান অতিথি হিসেবে উপস্থিত থাকবেন উপজেলা শিক্ষা অফিসার ফারহানা ইয়াসমিন মৌটুসি। অনুষ্ঠানে সভাপতিত্ব করবেন বিদ্যালয় পরিচালনা কমিটির সভাপতি আবদুল কুদ্দুস বেপারী। বিজয়ী শিক্ষার্থীদের হাতে পুরস্কার তুলে দেওয়ার পাশাপাশি বার্ষিক পরীক্ষায় প্রতিটি শ্রেণিতে প্রথম স্থান অধিকারীদের বিশেষ সম্মাননা দেওয়া হবে।
+
+    অনুষ্ঠানের দিন শিক্ষার্থীদের বিদ্যালয়ের পোশাক পরে আসতে হবে। মাঠে পানীয় জল ও প্রাথমিক চিকিৎসার ব্যবস্থা থাকবে। অনুষ্ঠান সফল করতে সকল অভিভাবক ও এলাকাবাসীর উপস্থিতি ও সহযোগিতা কামনা করা হচ্ছে।
+
+    প্রধান শিক্ষক
+    ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়
+  answer_sentence: "বিকেলে পুরস্কার বিতরণী অনুষ্ঠানে প্রধান অতিথি হিসেবে উপস্থিত থাকবেন উপজেলা শিক্ষা অফিসার ফারহানা ইয়াসমিন মৌটুসি।"
+  insuff_replacement: "বিকেলে পুরস্কার বিতরণী অনুষ্ঠানে প্রধান অতিথি হিসেবে উপজেলা শিক্ষা অফিসের একজন কর্মকর্তা উপস্থিত থাকবেন।"
+  gold: {aliases: ["ফারহানা ইয়াসমিন মৌটুসি", "Farhana Yasmin Moutushi", "Farhana Yeasmin Moutushi", "Farhana Yasmin Moutusi"]}
+  q:
+    en: "Who will be the chief guest at the prize-giving ceremony of Dumurtali Government Primary School?"
+    bn: "ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়ের পুরস্কার বিতরণী অনুষ্ঠানে প্রধান অতিথি কে থাকবেন?"
+    rbn: "dumurtoli sorkari prathomik biddaloyer puroskar bitoroni onushthane prodhan otithi ke thakben?"
+    cm: "ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়ের prize giving অনুষ্ঠানে chief guest কে থাকবেন?"
+    cmr: "dumurtoli sorkari prathomik biddaloyer prize giving onushthane chief guest ke thakben?"
+  sibling:
+    answer_type: date
+    gold: {day: 26, month: 2, year: 2027}
+    q:
+      en: "On what date will the annual sports competition of Dumurtali Government Primary School be held?"
+      bn: "ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়ের বার্ষিক ক্রীড়া প্রতিযোগিতা কোন তারিখে হবে?"
+      rbn: "dumurtoli sorkari prathomik biddaloyer barshik krira protijogita kon tarikhe hobe?"
+      cm: "ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়ের annual sports কোন date এ হবে?"
+      cmr: "dumurtoli sorkari prathomik biddaloyer annual sports kon date e hobe?"
+
+- id: N009
+  format: multi
+  domain: recruitment
+  answer_type: number
+  entity:
+    bn: "চৈতালিপুর বালিকা উচ্চ বিদ্যালয়"
+    rom: "choitalipur balika uccho biddaloy"
+    en: "Choitalipur Girls' High School"
+  edit_type: deletion
+  passage: |
+    চৈতালিপুর বালিকা উচ্চ বিদ্যালয়
+    শিক্ষক নিয়োগ বিজ্ঞপ্তি
+
+    চৈতালিপুর বালিকা উচ্চ বিদ্যালয়ের পরিচালনা কমিটির সিদ্ধান্ত অনুযায়ী বিদ্যালয়ে খণ্ডকালীন ভিত্তিতে শিক্ষক নিয়োগের জন্য যোগ্য প্রার্থীদের কাছ থেকে দরখাস্ত আহ্বান করা হচ্ছে। বিদ্যালয়ে সহকারী শিক্ষক পদে মোট ১১টি শূন্য পদে নিয়োগ দেওয়া হবে। পদগুলো বিভিন্ন বিষয়ে, এবং বিষয়ভিত্তিক বিস্তারিত তালিকা বিদ্যালয়ের অফিসে দেখা যাবে।
+
+    প্রার্থীকে সংশ্লিষ্ট বিষয়ে স্নাতক বা সমমানের ডিগ্রিধারী হতে হবে। শিক্ষাজীবনের কোনো পরীক্ষায় তৃতীয় বিভাগ বা সমমানের ফল গ্রহণযোগ্য হবে না। বিএড ডিগ্রিধারী ও শিক্ষকতায় অভিজ্ঞ প্রার্থীদের অগ্রাধিকার দেওয়া হবে। আবেদনের তারিখে প্রার্থীর বয়স ৩৫ বছরের বেশি হওয়া যাবে না। নারী প্রার্থীরা বিশেষভাবে আবেদন করতে উৎসাহিত হচ্ছেন।
+
+    আবেদনপত্র সাদা কাগজে প্রধান শিক্ষক বরাবর লিখতে হবে। আবেদনের সঙ্গে সকল শিক্ষাগত সনদের সত্যায়িত কপি, জাতীয় পরিচয়পত্রের কপি, অভিজ্ঞতার সনদ (যদি থাকে) এবং দুই কপি সদ্য তোলা ছবি দিতে হবে। আবেদন ফি বাবদ ৫০০ টাকার ব্যাংক ড্রাফট সংযুক্ত করতে হবে, যা অফেরতযোগ্য।
+
+    আবেদনপত্র ২২ এপ্রিল ২০২৭ তারিখের মধ্যে বিদ্যালয়ের অফিসে সরাসরি বা ডাকযোগে পৌঁছাতে হবে। লিখিত ও মৌখিক পরীক্ষার তারিখ যোগ্য প্রার্থীদের মোবাইলে ক্ষুদে বার্তার মাধ্যমে জানানো হবে। পরীক্ষায় অংশগ্রহণের জন্য কোনো ভাতা দেওয়া হবে না। নিয়োগের ব্যাপারে পরিচালনা কমিটির সিদ্ধান্তই চূড়ান্ত।
+
+    সভাপতি, পরিচালনা কমিটি
+    চৈতালিপুর বালিকা উচ্চ বিদ্যালয়
+  answer_sentence: "বিদ্যালয়ে সহকারী শিক্ষক পদে মোট ১১টি শূন্য পদে নিয়োগ দেওয়া হবে।"
+  insuff_replacement: ""
+  gold: {value: 11}
+  q:
+    en: "How many assistant teacher posts will be filled at Choitalipur Girls' High School?"
+    bn: "চৈতালিপুর বালিকা উচ্চ বিদ্যালয়ে সহকারী শিক্ষক পদে মোট কয়টি পদে নিয়োগ দেওয়া হবে?"
+    rbn: "choitalipur balika uccho biddaloye shohokari shikkhok pode mot koyti pode niyog dewa hobe?"
+    cm: "চৈতালিপুর বালিকা উচ্চ বিদ্যালয়ে assistant teacher এর মোট কয়টি post এ নিয়োগ হবে?"
+    cmr: "choitalipur balika uccho biddaloye assistant teacher er mot koyti post e niyog hobe?"
+  sibling:
+    answer_type: date
+    gold: {day: 22, month: 4, year: 2027}
+    q:
+      en: "By what date must applications reach Choitalipur Girls' High School?"
+      bn: "চৈতালিপুর বালিকা উচ্চ বিদ্যালয়ে আবেদনপত্র কোন তারিখের মধ্যে পৌঁছাতে হবে?"
+      rbn: "choitalipur balika uccho biddaloye abedonpotro kon tarikher moddhe pouchate hobe?"
+      cm: "চৈতালিপুর বালিকা উচ্চ বিদ্যালয়ে application কোন date এর মধ্যে পৌঁছাতে হবে?"
+      cmr: "choitalipur balika uccho biddaloye application kon date er moddhe pouchate hobe?"
+
+- id: N010
+  format: multi
+  domain: university
+  answer_type: yesno
+  entity:
+    bn: "কেওড়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়"
+    rom: "keorakhali biggan o projukti bisshobiddaloy"
+    en: "Keorakhali University of Science and Technology"
+  edit_type: neutralisation
+  passage: |
+    কেওড়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়
+    প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি সংক্রান্ত জরুরি বিজ্ঞপ্তি
+
+    কেওড়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ের ২০২৭-২৮ শিক্ষাবর্ষে প্রথম বর্ষ স্নাতক (সম্মান) শ্রেণিতে ভর্তি পরীক্ষায় উত্তীর্ণ ও মেধাতালিকায় স্থান পাওয়া শিক্ষার্থীদের জানানো যাচ্ছে যে, চূড়ান্ত ভর্তি কার্যক্রম সংশ্লিষ্ট বিভাগীয় অফিসে সম্পন্ন হবে। ভর্তির সময় শিক্ষার্থীদের মাধ্যমিক ও উচ্চ মাধ্যমিক পরীক্ষার মূল নম্বরপত্র ও প্রশংসাপত্র দেখাতে হবে।
+
+    প্রথম বর্ষে ভর্তির জন্য মোট ভর্তি ফি ৯,৭৫০ টাকা, যার মধ্যে উন্নয়ন ফি, পরিচয়পত্র, চিকিৎসা ও গ্রন্থাগার ফি অন্তর্ভুক্ত। ফি বিশ্ববিদ্যালয়ের নির্ধারিত ব্যাংক শাখায় জমা দিয়ে রসিদের একটি কপি বিভাগে জমা দিতে হবে। ভর্তির পর প্রত্যেক শিক্ষার্থীকে বিশ্ববিদ্যালয়ের মেডিকেল সেন্টারে স্বাস্থ্য পরীক্ষা করাতে হবে।
+
+    প্রথম বর্ষের শিক্ষার্থীদের জন্য এ বছর কোনো আবাসিক হলে আসন বরাদ্দ দেওয়া হবে না। বিশ্ববিদ্যালয়ের পরিবহন দপ্তর শহরের বিভিন্ন রুটে শিক্ষার্থীদের জন্য বাস সেবা চালু রেখেছে। নবীন শিক্ষার্থীদের জন্য ওরিয়েন্টেশন অনুষ্ঠানের সময়সূচি বিভাগের নোটিশ বোর্ডে প্রকাশ করা হবে।
+
+    ভর্তির সময় শিক্ষার্থীকে র‍্যাগিংবিরোধী অঙ্গীকারনামায় স্বাক্ষর করতে হবে। কোনো শিক্ষার্থী নির্ধারিত সময়ের মধ্যে ভর্তি না হলে তার আসন শূন্য ঘোষণা করে অপেক্ষমাণ তালিকা থেকে ভর্তি করা হবে। বিস্তারিত তথ্যের জন্য ছাত্রকল্যাণ উপদেষ্টার দপ্তরে যোগাযোগ করা যেতে পারে।
+
+    রেজিস্ট্রার
+    কেওড়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়
+  answer_sentence: "প্রথম বর্ষের শিক্ষার্থীদের জন্য এ বছর কোনো আবাসিক হলে আসন বরাদ্দ দেওয়া হবে না।"
+  insuff_replacement: "প্রথম বর্ষের শিক্ষার্থীদের আবাসিক হলে আসন বরাদ্দ সংক্রান্ত সিদ্ধান্ত পরবর্তীতে জানানো হবে।"
+  gold: {value: false}
+  q:
+    en: "Will first-year students at Keorakhali University of Science and Technology be allotted seats in residential halls this year?"
+    bn: "কেওড়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে এ বছর প্রথম বর্ষের শিক্ষার্থীরা কি আবাসিক হলে আসন পাবে?"
+    rbn: "keorakhali biggan o projukti bisshobiddaloye e bochor prothom borsher shikkharthira ki abashik hole ashon pabe?"
+    cm: "কেওড়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে এ বছর first year এর students কি hall এ seat পাবে?"
+    cmr: "keorakhali biggan o projukti bisshobiddaloye e bochor first year er students ki hall e seat pabe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 9750}
+    q:
+      en: "What is the total first-year admission fee at Keorakhali University of Science and Technology?"
+      bn: "কেওড়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে প্রথম বর্ষে মোট ভর্তি ফি কত টাকা?"
+      rbn: "keorakhali biggan o projukti bisshobiddaloye prothom borshe mot vorti fee koto taka?"
+      cm: "কেওড়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে first year এ total admission fee কত টাকা?"
+      cmr: "keorakhali biggan o projukti bisshobiddaloye first year e total admission fee koto taka?"
+
+- id: N011
+  format: multi
+  domain: university
+  answer_type: amount
+  entity:
+    bn: "সোনাপাতিলা বিশ্ববিদ্যালয়"
+    rom: "shonapatila bisshobiddaloy"
+    en: "Sonapatila University"
+  edit_type: deletion
+  passage: |
+    সোনাপাতিলা বিশ্ববিদ্যালয়
+    পরীক্ষা নিয়ন্ত্রকের দপ্তর
+    নম্বরপত্র ও সনদপত্র উত্তোলন সংক্রান্ত বিজ্ঞপ্তি
+
+    সোনাপাতিলা বিশ্ববিদ্যালয়ের স্নাতক ও স্নাতকোত্তর পর্যায়ের উত্তীর্ণ শিক্ষার্থীদের জানানো যাচ্ছে যে, আগামী জানুয়ারি ২০২৭ থেকে নম্বরপত্র ও মূল সনদপত্রের আবেদন কেবল পরীক্ষা নিয়ন্ত্রকের দপ্তরের নতুন সেবা কাউন্টারে গ্রহণ করা হবে। পুরোনো প্রশাসনিক ভবনের কাউন্টারে আর কোনো আবেদন নেওয়া হবে না।
+
+    সাধারণ আবেদনে নম্বরপত্র ১৫ কার্যদিবসের মধ্যে সরবরাহ করা হবে। সাধারণ আবেদনে প্রতিটি নম্বরপত্রের ফি ৮৫০ টাকা। জরুরি প্রয়োজনে তিন কার্যদিবসের মধ্যে নম্বরপত্র পেতে চাইলে জরুরি ফি বাবদ ২,৪০০ টাকা জমা দিতে হবে। মূল সনদপত্রের জন্য আলাদা আবেদন করতে হবে এবং প্রবেশপত্র ও রেজিস্ট্রেশন কার্ডের কপি জমা দিতে হবে।
+
+    সকল ফি বিশ্ববিদ্যালয়ের নির্ধারিত ব্যাংক হিসাবে জমা দিতে হবে। ব্যাংকের জমা রসিদের মূল কপি আবেদনপত্রের সঙ্গে সংযুক্ত করতে হবে। আবেদনপত্রে শিক্ষার্থীর নাম, রোল নম্বর, রেজিস্ট্রেশন নম্বর ও পরীক্ষার বছর স্পষ্টভাবে লিখতে হবে। ভুল তথ্যের কারণে বিলম্ব হলে দপ্তর দায়ী থাকবে না।
+
+    নম্বরপত্র বা সনদপত্র হারিয়ে গেলে থানায় সাধারণ ডায়েরির কপি ও একটি জাতীয় দৈনিকে প্রকাশিত বিজ্ঞপ্তির কপিসহ ডুপ্লিকেট কপির জন্য আবেদন করতে হবে। সেবা কাউন্টার রবিবার থেকে বৃহস্পতিবার সকাল ৯টা থেকে বিকেল ৪টা পর্যন্ত খোলা থাকবে।
+
+    পরীক্ষা নিয়ন্ত্রক
+    সোনাপাতিলা বিশ্ববিদ্যালয়
+  answer_sentence: "জরুরি প্রয়োজনে তিন কার্যদিবসের মধ্যে নম্বরপত্র পেতে চাইলে জরুরি ফি বাবদ ২,৪০০ টাকা জমা দিতে হবে।"
+  insuff_replacement: ""
+  gold: {value: 2400}
+  q:
+    en: "What is the urgent fee for getting a transcript from Sonapatila University?"
+    bn: "সোনাপাতিলা বিশ্ববিদ্যালয় থেকে জরুরি ভিত্তিতে নম্বরপত্র নিতে জরুরি ফি কত টাকা?"
+    rbn: "shonapatila bisshobiddaloy theke joruri vittite nombor potro nite joruri fee koto taka?"
+    cm: "সোনাপাতিলা বিশ্ববিদ্যালয় থেকে urgent transcript নিতে fee কত টাকা?"
+    cmr: "shonapatila bisshobiddaloy theke urgent transcript nite fee koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 15}
+    q:
+      en: "Within how many working days does Sonapatila University supply a transcript on a regular application?"
+      bn: "সোনাপাতিলা বিশ্ববিদ্যালয় সাধারণ আবেদনে কত কার্যদিবসের মধ্যে নম্বরপত্র দেয়?"
+      rbn: "shonapatila bisshobiddaloy sadharon abedone koto karjodiboser moddhe nombor potro dey?"
+      cm: "সোনাপাতিলা বিশ্ববিদ্যালয় সাধারণ আবেদনে কত working day এর মধ্যে transcript দেয়?"
+      cmr: "shonapatila bisshobiddaloy sadharon abedone koto working day er moddhe transcript dey?"
+
+- id: N012
+  format: multi
+  domain: school_event
+  answer_type: date
+  entity:
+    bn: "গোলপাতা স্কুল বিজ্ঞান মেলা"
+    rom: "golpata school biggan mela"
+    en: "Golpata School Science Fair"
+  edit_type: neutralisation
+  passage: |
+    গোলপাতা স্কুল বিজ্ঞান মেলা ২০২৭
+    অংশগ্রহণের আহ্বান
+
+    শিক্ষার্থীদের মধ্যে বিজ্ঞানচর্চা ও উদ্ভাবনী চিন্তা ছড়িয়ে দিতে গোলপাতা উপজেলার মাধ্যমিক বিদ্যালয়গুলোর যৌথ উদ্যোগে গোলপাতা স্কুল বিজ্ঞান মেলা ২০২৭-এর আয়োজন করা হয়েছে। মেলা অনুষ্ঠিত হবে ১১ মে ২০২৭ তারিখে উপজেলা পরিষদ চত্বরে। ষষ্ঠ থেকে দশম শ্রেণির শিক্ষার্থীরা দলগতভাবে প্রকল্প নিয়ে অংশ নিতে পারবে।
+
+    প্রতিটি দলে সর্বোচ্চ তিনজন শিক্ষার্থী থাকতে পারবে এবং প্রতিটি বিদ্যালয় সর্বোচ্চ চারটি প্রকল্প জমা দিতে পারবে। প্রকল্পগুলো দুটি বিভাগে ভাগ করা হবে: জুনিয়র বিভাগ (ষষ্ঠ থেকে অষ্টম শ্রেণি) এবং সিনিয়র বিভাগ (নবম ও দশম শ্রেণি)। পরিবেশ, কৃষি, নবায়নযোগ্য জ্বালানি ও দৈনন্দিন সমস্যার সমাধানভিত্তিক প্রকল্পকে বিশেষভাবে উৎসাহিত করা হচ্ছে।
+
+    প্রকল্প নিবন্ধনের শেষ তারিখ ২৫ এপ্রিল ২০২৭। নিবন্ধনের সময় প্রকল্পের নাম, সংক্ষিপ্ত বিবরণ এবং তত্ত্বাবধায়ক শিক্ষকের নাম জমা দিতে হবে। নিবন্ধনের জন্য কোনো ফি লাগবে না। প্রতিটি বিভাগে সেরা তিনটি প্রকল্পকে সনদ ও ক্রেস্ট দেওয়া হবে এবং সেরা প্রকল্পটি জেলা পর্যায়ের মেলায় উপজেলার প্রতিনিধিত্ব করবে।
+
+    মেলার দিন সকাল ৮টার মধ্যে প্রকল্প স্টলে স্থাপন করতে হবে। বিচারকরা দুপুর ১২টা থেকে স্টল পরিদর্শন করবেন। দাহ্য পদার্থ বা বিপজ্জনক রাসায়নিক ব্যবহার করা যাবে না। নিবন্ধন ফরম প্রত্যেক বিদ্যালয়ের প্রধান শিক্ষকের কাছে পাওয়া যাবে।
+
+    আহ্বায়ক, আয়োজক কমিটি
+    গোলপাতা স্কুল বিজ্ঞান মেলা
+  answer_sentence: "মেলা অনুষ্ঠিত হবে ১১ মে ২০২৭ তারিখে উপজেলা পরিষদ চত্বরে।"
+  insuff_replacement: "মেলা অনুষ্ঠিত হবে উপজেলা পরিষদ চত্বরে; মেলার তারিখ আয়োজক কমিটি শিগগিরই ঘোষণা করবে।"
+  gold: {day: 11, month: 5, year: 2027}
+  q:
+    en: "On what date will the Golpata School Science Fair be held?"
+    bn: "গোলপাতা স্কুল বিজ্ঞান মেলা কোন তারিখে অনুষ্ঠিত হবে?"
+    rbn: "golpata school biggan mela kon tarikhe onushthito hobe?"
+    cm: "গোলপাতা স্কুল বিজ্ঞান মেলা কোন date এ হবে?"
+    cmr: "golpata school biggan mela kon date e hobe?"
+  sibling:
+    answer_type: date
+    gold: {day: 25, month: 4, year: 2027}
+    q:
+      en: "What is the last date for project registration for the Golpata School Science Fair?"
+      bn: "গোলপাতা স্কুল বিজ্ঞান মেলায় প্রকল্প নিবন্ধনের শেষ তারিখ কবে?"
+      rbn: "golpata school biggan melay prokolpo nibondhoner shesh tarikh kobe?"
+      cm: "গোলপাতা স্কুল বিজ্ঞান মেলায় project registration এর last date কবে?"
+      cmr: "golpata school biggan melay project registration er last date kobe?"
+
+- id: N013
+  format: multi
+  domain: admission
+  answer_type: name
+  entity:
+    bn: "বিলকুমারী কৃষি বিশ্ববিদ্যালয়"
+    rom: "bilkumari krishi bisshobiddaloy"
+    en: "Bilkumari Agricultural University"
+  edit_type: deletion
+  passage: |
+    বিলকুমারী কৃষি বিশ্ববিদ্যালয়
+    স্নাতক প্রথম বর্ষ ভর্তি পরীক্ষা ২০২৭-২৮
+
+    বিলকুমারী কৃষি বিশ্ববিদ্যালয়ের ২০২৭-২৮ শিক্ষাবর্ষে কৃষি, ভেটেরিনারি, মৎস্য ও কৃষি প্রকৌশল অনুষদের স্নাতক প্রথম বর্ষে ভর্তির জন্য আবেদন আহ্বান করা হচ্ছে। চারটি অনুষদে মোট ৪৮০টি আসনে শিক্ষার্থী ভর্তি করা হবে। উচ্চ মাধ্যমিক পরীক্ষায় বিজ্ঞান বিভাগ থেকে উত্তীর্ণ শিক্ষার্থীরা নির্ধারিত যোগ্যতা পূরণ সাপেক্ষে আবেদন করতে পারবে।
+
+    ভর্তি পরীক্ষা হবে বহুনির্বাচনী পদ্ধতিতে, যেখানে পদার্থবিজ্ঞান, রসায়ন, জীববিজ্ঞান ও গণিত থেকে প্রশ্ন থাকবে। ভুল উত্তরের জন্য নম্বর কাটা হবে। পরীক্ষার কেন্দ্র বিশ্ববিদ্যালয় ক্যাম্পাসের বিভিন্ন ভবনে নির্ধারিত হবে এবং প্রবেশপত্রে কক্ষ নম্বর উল্লেখ থাকবে।
+
+    এ বছর ভর্তি পরীক্ষা কমিটির আহ্বায়কের দায়িত্ব পালন করবেন উদ্ভিদ রোগতত্ত্ব বিভাগের অধ্যাপক ড. সুলতানা পারভীন ঝুমুর। ভর্তি পরীক্ষা সংক্রান্ত যেকোনো অভিযোগ লিখিতভাবে কমিটির কাছে জমা দেওয়া যাবে। পরীক্ষার ফলাফল বিশ্ববিদ্যালয়ের নোটিশ বোর্ডে এবং প্রার্থীর মোবাইলে ক্ষুদে বার্তার মাধ্যমে জানানো হবে।
+
+    আবেদন ফি ১,১০০ টাকা, যা মোবাইল ব্যাংকিংয়ের মাধ্যমে পরিশোধ করতে হবে। পরীক্ষার দিন প্রবেশপত্র ও জাতীয় পরিচয়পত্র বা জন্মনিবন্ধন সনদের মূল কপি সঙ্গে আনতে হবে। পরীক্ষা শুরুর আধা ঘণ্টা পর কোনো প্রার্থীকে কেন্দ্রে প্রবেশ করতে দেওয়া হবে না। ক্যালকুলেটর ও মোবাইল ফোন ব্যবহার সম্পূর্ণ নিষিদ্ধ।
+
+    রেজিস্ট্রার
+    বিলকুমারী কৃষি বিশ্ববিদ্যালয়
+  answer_sentence: "এ বছর ভর্তি পরীক্ষা কমিটির আহ্বায়কের দায়িত্ব পালন করবেন উদ্ভিদ রোগতত্ত্ব বিভাগের অধ্যাপক ড. সুলতানা পারভীন ঝুমুর।"
+  insuff_replacement: ""
+  gold: {aliases: ["সুলতানা পারভীন ঝুমুর", "Sultana Parvin Jhumur", "Sultana Parveen Jhumur", "Sultana Perveen Jhumur"]}
+  q:
+    en: "Who is the convener of the admission test committee at Bilkumari Agricultural University this year?"
+    bn: "বিলকুমারী কৃষি বিশ্ববিদ্যালয়ে এ বছর ভর্তি পরীক্ষা কমিটির আহ্বায়ক কে?"
+    rbn: "bilkumari krishi bisshobiddaloye e bochor vorti porikkha komitir ahobayok ke?"
+    cm: "বিলকুমারী কৃষি বিশ্ববিদ্যালয়ে এ বছর admission test committee এর আহ্বায়ক কে?"
+    cmr: "bilkumari krishi bisshobiddaloye e bochor admission test committee er ahobayok ke?"
+  sibling:
+    answer_type: number
+    gold: {value: 480}
+    q:
+      en: "How many seats in total are there for first-year admission at Bilkumari Agricultural University?"
+      bn: "বিলকুমারী কৃষি বিশ্ববিদ্যালয়ে স্নাতক প্রথম বর্ষে মোট কয়টি আসন আছে?"
+      rbn: "bilkumari krishi bisshobiddaloye snatok prothom borshe mot koyti ashon ache?"
+      cm: "বিলকুমারী কৃষি বিশ্ববিদ্যালয়ে first year এ মোট কয়টি seat আছে?"
+      cmr: "bilkumari krishi bisshobiddaloye first year e mot koyti seat ache?"
+
+- id: N014
+  format: multi
+  domain: library
+  answer_type: number
+  entity:
+    bn: "আমলকীতলা কলেজ"
+    rom: "amlokitola college"
+    en: "Amlokitola College"
+  edit_type: neutralisation
+  passage: |
+    আমলকীতলা কলেজ
+    কেন্দ্রীয় গ্রন্থাগারের নতুন পাঠকক্ষ চালু সংক্রান্ত বিজ্ঞপ্তি
+
+    আমলকীতলা কলেজের সকল শিক্ষার্থী ও শিক্ষকের অবগতির জন্য জানানো যাচ্ছে যে, কলেজের কেন্দ্রীয় গ্রন্থাগারের সম্প্রসারিত অংশে একটি নতুন পাঠকক্ষ আগামী ৩ মার্চ ২০২৭ তারিখ থেকে চালু করা হবে। পাঠকক্ষটি গ্রন্থাগার ভবনের দোতলায় অবস্থিত এবং সম্পূর্ণ শীতাতপ নিয়ন্ত্রিত।
+
+    নতুন পাঠকক্ষে একসঙ্গে ১৪৪ জন শিক্ষার্থী বসে পড়তে পারবে। পাঠকক্ষে ওয়াই-ফাই সুবিধা, ল্যাপটপ চার্জ দেওয়ার ব্যবস্থা এবং দৃষ্টিপ্রতিবন্ধী শিক্ষার্থীদের জন্য বিশেষ কর্নার থাকবে। পরীক্ষার মৌসুমে পাঠকক্ষ রাত ৯টা পর্যন্ত খোলা রাখা হবে।
+
+    পাঠকক্ষ ব্যবহারের জন্য শিক্ষার্থীদের কলেজের বৈধ পরিচয়পত্র সঙ্গে রাখতে হবে এবং প্রবেশের সময় রেজিস্টারে নাম লিখতে হবে। পাঠকক্ষে খাবার গ্রহণ ও উচ্চস্বরে কথা বলা নিষিদ্ধ। মোবাইল ফোন নীরব রাখতে হবে। গ্রন্থাগারের রেফারেন্স বই পাঠকক্ষের বাইরে নেওয়া যাবে না।
+
+    এছাড়া গ্রন্থাগারে সম্প্রতি প্রায় দুই হাজার নতুন বই যুক্ত হয়েছে, যার বেশির ভাগই পাঠ্যসূচিভিত্তিক সহায়ক গ্রন্থ। বই ধার নেওয়ার নিয়ম আগের মতোই থাকবে। শিক্ষার্থীরা গ্রন্থাগারের নতুন সংগ্রহ সম্পর্কে পরামর্শ দিতে চাইলে গ্রন্থাগারের অভিযোগ ও পরামর্শ বাক্সে লিখিত মতামত জমা দিতে পারবে। গ্রন্থাগারের সম্পদ রক্ষায় সকলের সহযোগিতা কামনা করা হচ্ছে।
+
+    অধ্যক্ষ
+    আমলকীতলা কলেজ
+  answer_sentence: "নতুন পাঠকক্ষে একসঙ্গে ১৪৪ জন শিক্ষার্থী বসে পড়তে পারবে।"
+  insuff_replacement: "নতুন পাঠকক্ষে আগের চেয়ে বেশি শিক্ষার্থী একসঙ্গে বসে পড়তে পারবে।"
+  gold: {value: 144}
+  q:
+    en: "How many students can sit and read at the same time in the new reading room of Amlokitola College?"
+    bn: "আমলকীতলা কলেজের নতুন পাঠকক্ষে একসঙ্গে কতজন শিক্ষার্থী বসে পড়তে পারবে?"
+    rbn: "amlokitola college er notun pathokokkhe ekshonge kotojon shikkharthi boshe porte parbe?"
+    cm: "আমলকীতলা কলেজের নতুন reading room এ একসঙ্গে কতজন student বসতে পারবে?"
+    cmr: "amlokitola college er notun reading room e ekshonge kotojon student boshte parbe?"
+  sibling:
+    answer_type: date
+    gold: {day: 3, month: 3, year: 2027}
+    q:
+      en: "From what date will the new reading room of Amlokitola College open?"
+      bn: "আমলকীতলা কলেজের নতুন পাঠকক্ষ কোন তারিখ থেকে চালু হবে?"
+      rbn: "amlokitola college er notun pathokokkho kon tarikh theke chalu hobe?"
+      cm: "আমলকীতলা কলেজের নতুন reading room কোন date থেকে চালু হবে?"
+      cmr: "amlokitola college er notun reading room kon date theke chalu hobe?"
+
+- id: N015
+  format: multi
+  domain: admission
+  answer_type: yesno
+  entity:
+    bn: "মাধবীকুঞ্জ নার্সিং ইনস্টিটিউট"
+    rom: "madhobikunjo nursing institute"
+    en: "Madhabikunja Nursing Institute"
+  edit_type: neutralisation
+  passage: |
+    মাধবীকুঞ্জ নার্সিং ইনস্টিটিউট
+    ডিপ্লোমা ইন নার্সিং সায়েন্স অ্যান্ড মিডওয়াইফারি কোর্সে ভর্তি বিজ্ঞপ্তি ২০২৭
+
+    মাধবীকুঞ্জ নার্সিং ইনস্টিটিউটে ২০২৭ শিক্ষাবর্ষে তিন বছর মেয়াদি ডিপ্লোমা ইন নার্সিং সায়েন্স অ্যান্ড মিডওয়াইফারি কোর্সে ভর্তির জন্য আবেদন আহ্বান করা হচ্ছে। কোর্সে মোট ৬০টি আসন রয়েছে। উচ্চ মাধ্যমিক বা সমমানের পরীক্ষায় যেকোনো বিভাগ থেকে উত্তীর্ণ শিক্ষার্থীরা আবেদন করতে পারবে, তবে জীববিজ্ঞান বিষয়সহ উত্তীর্ণদের অগ্রাধিকার দেওয়া হবে।
+
+    আবেদন ফি ৭০০ টাকা। আবেদন অনলাইনে ইনস্টিটিউটের ওয়েবসাইটের মাধ্যমে জমা দেওয়া যাবে। আবেদনকারীর বয়স ভর্তির বছরের ১ জানুয়ারি তারিখে ১৭ থেকে ৩০ বছরের মধ্যে হতে হবে। বিবাহিত ও অবিবাহিত উভয় প্রার্থীই আবেদন করতে পারবেন।
+
+    প্রার্থী বাছাই করা হবে লিখিত পরীক্ষা, মৌখিক পরীক্ষা ও স্বাস্থ্য পরীক্ষার ভিত্তিতে। লিখিত পরীক্ষায় বাংলা, ইংরেজি, সাধারণ জ্ঞান এবং জীববিজ্ঞান থেকে প্রশ্ন থাকবে। মৌখিক পরীক্ষায় উত্তীর্ণ প্রার্থীদের স্বাস্থ্য পরীক্ষার জন্য ইনস্টিটিউটের সংশ্লিষ্ট হাসপাতালে উপস্থিত হতে হবে।
+
+    কোর্স চলাকালীন শিক্ষার্থীদের হাতে-কলমে প্রশিক্ষণের জন্য নিয়মিত হাসপাতালের বিভিন্ন ওয়ার্ডে দায়িত্ব পালন করতে হবে। ইনস্টিটিউট ক্যাম্পাসে ছাত্রীদের জন্য সীমিত সংখ্যক আবাসিক আসন রয়েছে। কোর্স শেষে নার্সিং কাউন্সিলের লাইসেন্সিং পরীক্ষায় অংশ নিতে হবে। ভর্তি সংক্রান্ত অন্যান্য তথ্যের জন্য ইনস্টিটিউটের ভর্তি শাখায় যোগাযোগ করুন।
+
+    অধ্যক্ষ
+    মাধবীকুঞ্জ নার্সিং ইনস্টিটিউট
+  answer_sentence: "আবেদন অনলাইনে ইনস্টিটিউটের ওয়েবসাইটের মাধ্যমে জমা দেওয়া যাবে।"
+  insuff_replacement: "আবেদন জমার পদ্ধতি সম্পর্কে বিস্তারিত তথ্য পরবর্তী বিজ্ঞপ্তিতে জানানো হবে।"
+  gold: {value: true}
+  q:
+    en: "Can applications to Madhabikunja Nursing Institute be submitted online?"
+    bn: "মাধবীকুঞ্জ নার্সিং ইনস্টিটিউটে কি অনলাইনে আবেদন জমা দেওয়া যাবে?"
+    rbn: "madhobikunjo nursing institute e ki onlaine abedon joma dewa jabe?"
+    cm: "মাধবীকুঞ্জ নার্সিং ইনস্টিটিউটে কি online এ application submit করা যাবে?"
+    cmr: "madhobikunjo nursing institute e ki online e application submit kora jabe?"
+  sibling:
+    answer_type: number
+    gold: {value: 60}
+    q:
+      en: "How many seats are there in the diploma course at Madhabikunja Nursing Institute?"
+      bn: "মাধবীকুঞ্জ নার্সিং ইনস্টিটিউটের ডিপ্লোমা কোর্সে মোট কয়টি আসন আছে?"
+      rbn: "madhobikunjo nursing institute er diploma korse mot koyti ashon ache?"
+      cm: "মাধবীকুঞ্জ নার্সিং ইনস্টিটিউটের diploma course এ মোট কয়টি seat আছে?"
+      cmr: "madhobikunjo nursing institute er diploma course e mot koyti seat ache?"
+
+- id: N016
+  format: multi
+  domain: coaching
+  answer_type: amount
+  entity:
+    bn: "বৃষ্টিমহল ভর্তি কোচিং"
+    rom: "brishtimohol vorti coaching"
+    en: "Brishtimahal Admission Coaching"
+  edit_type: deletion
+  passage: |
+    বৃষ্টিমহল ভর্তি কোচিং
+    বিশ্ববিদ্যালয় ভর্তি প্রস্তুতি কোর্স ২০২৭
+
+    উচ্চ মাধ্যমিক পরীক্ষা ২০২৭-এর পরীক্ষার্থীদের জন্য বৃষ্টিমহল ভর্তি কোচিং বিশ্ববিদ্যালয় ও মেডিকেল কলেজে ভর্তি প্রস্তুতির পূর্ণাঙ্গ কোর্সে ভর্তি শুরু করেছে। কোর্সের ক্লাস শুরু হবে ৫ মে ২০২৭ তারিখে এবং চলবে প্রায় চার মাস। বিজ্ঞান, মানবিক ও ব্যবসায় শিক্ষা — তিন বিভাগের জন্য আলাদা ব্যাচ থাকবে।
+
+    কোর্সে প্রতিটি বিষয়ের অধ্যায়ভিত্তিক ক্লাস, সাপ্তাহিক পরীক্ষা, পূর্ণাঙ্গ মডেল টেস্ট এবং বিগত বছরের প্রশ্নের সমাধান ক্লাস অন্তর্ভুক্ত। প্রতিটি ক্লাসের জন্য ছাপানো লেকচার শিট দেওয়া হবে। অনুপস্থিত শিক্ষার্থীদের জন্য সপ্তাহে একদিন পুনরালোচনা ক্লাসের ব্যবস্থা থাকবে।
+
+    পূর্ণাঙ্গ কোর্সের ফি ১৪,৫০০ টাকা। ফি দুই কিস্তিতে পরিশোধ করা যাবে এবং ভর্তির সময় প্রথম কিস্তি দিতে হবে। একই পরিবারের দুই ভাই-বোন একসঙ্গে ভর্তি হলে দ্বিতীয়জনের জন্য বিশেষ ছাড় দেওয়া হবে। শুধু মডেল টেস্ট প্রোগ্রামে অংশ নিতে চাইলে আলাদাভাবে ৩,০০০ টাকা দিয়ে নিবন্ধন করা যাবে।
+
+    ক্লাস নেবেন বিভিন্ন বিশ্ববিদ্যালয়ের অভিজ্ঞ শিক্ষার্থী ও শিক্ষকরা। প্রতিটি ব্যাচে সর্বোচ্চ চল্লিশজন শিক্ষার্থী রাখা হবে। ভর্তির সময় উচ্চ মাধ্যমিক পরীক্ষার প্রবেশপত্রের ফটোকপি ও দুই কপি ছবি জমা দিতে হবে। ভর্তি ও অন্যান্য তথ্যের জন্য কোচিংয়ের অফিসে প্রতিদিন সকাল ১০টা থেকে সন্ধ্যা ৭টার মধ্যে যোগাযোগ করুন।
+
+    পরিচালক
+    বৃষ্টিমহল ভর্তি কোচিং
+  answer_sentence: "পূর্ণাঙ্গ কোর্সের ফি ১৪,৫০০ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 14500}
+  q:
+    en: "What is the fee for the full admission preparation course at Brishtimahal Admission Coaching?"
+    bn: "বৃষ্টিমহল ভর্তি কোচিংয়ে পূর্ণাঙ্গ ভর্তি প্রস্তুতি কোর্সের ফি কত টাকা?"
+    rbn: "brishtimohol vorti coaching e purnango vorti prostuti korser fee koto taka?"
+    cm: "বৃষ্টিমহল ভর্তি কোচিংয়ে full course এর fee কত টাকা?"
+    cmr: "brishtimohol vorti coaching e full course er fee koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 5, month: 5, year: 2027}
+    q:
+      en: "On what date will classes of the admission preparation course at Brishtimahal Admission Coaching start?"
+      bn: "বৃষ্টিমহল ভর্তি কোচিংয়ে ভর্তি প্রস্তুতি কোর্সের ক্লাস কোন তারিখে শুরু হবে?"
+      rbn: "brishtimohol vorti coaching e vorti prostuti korser klash kon tarikhe shuru hobe?"
+      cm: "বৃষ্টিমহল ভর্তি কোচিংয়ে admission course এর class কোন তারিখে শুরু হবে?"
+      cmr: "brishtimohol vorti coaching e admission course er class kon tarikhe shuru hobe?"
+
+- id: N017
+  format: multi
+  domain: exam
+  answer_type: date
+  entity:
+    bn: "খেজুরছড়ি কিন্ডারগার্টেন অ্যাসোসিয়েশন"
+    rom: "khejurchori kindergarten association"
+    en: "Khejurchari Kindergarten Association"
+  edit_type: deletion
+  passage: |
+    খেজুরছড়ি কিন্ডারগার্টেন অ্যাসোসিয়েশন
+    বৃত্তি পরীক্ষা ২০২৭: নিবন্ধন বিজ্ঞপ্তি
+
+    খেজুরছড়ি কিন্ডারগার্টেন অ্যাসোসিয়েশনের সদস্য বিদ্যালয়গুলোর দ্বিতীয়, তৃতীয়, চতুর্থ ও পঞ্চম শ্রেণির শিক্ষার্থীদের জন্য বার্ষিক বৃত্তি পরীক্ষা ২০২৭-এর নিবন্ধন শুরু হয়েছে। এ বছর বৃত্তি পরীক্ষা অনুষ্ঠিত হবে ১৯ নভেম্বর ২০২৭ তারিখে। শুধু অ্যাসোসিয়েশনের নিবন্ধিত সদস্য বিদ্যালয়ের শিক্ষার্থীরাই এই পরীক্ষায় অংশ নিতে পারবে।
+
+    প্রতিটি শিক্ষার্থীর নিবন্ধন ফি ২৫০ টাকা। সদস্য বিদ্যালয়ের প্রধান শিক্ষককে তাঁর বিদ্যালয়ের সকল পরীক্ষার্থীর নাম, শ্রেণি ও রোল নম্বরসহ একটি তালিকা এবং মোট নিবন্ধন ফি একসঙ্গে অ্যাসোসিয়েশনের অফিসে জমা দিতে হবে। ব্যক্তিগতভাবে কোনো শিক্ষার্থীর নিবন্ধন গ্রহণ করা হবে না।
+
+    পরীক্ষা হবে বাংলা, ইংরেজি, গণিত ও সাধারণ জ্ঞান বিষয়ে, পাঠ্যবইয়ের নির্ধারিত সিলেবাস অনুযায়ী। প্রতিটি শ্রেণির জন্য আলাদা প্রশ্নপত্র থাকবে। পরীক্ষার কেন্দ্র এবং আসনবিন্যাস পরীক্ষার এক সপ্তাহ আগে প্রধান শিক্ষকদের জানিয়ে দেওয়া হবে।
+
+    ফলাফলের ভিত্তিতে প্রতিটি শ্রেণিতে ট্যালেন্টপুল ও সাধারণ গ্রেডে বৃত্তি দেওয়া হবে। বৃত্তিপ্রাপ্ত শিক্ষার্থীদের একটি অনুষ্ঠানের মাধ্যমে সনদপত্র, ক্রেস্ট ও নগদ অর্থ প্রদান করা হবে। পরীক্ষার হলে অভিভাবকদের প্রবেশ নিষেধ, তবে কেন্দ্রের বাইরে অপেক্ষার জন্য ছাউনির ব্যবস্থা রাখা হবে। শিক্ষার্থীদের নিজস্ব কলম, পেনসিল ও জ্যামিতি বক্স সঙ্গে আনতে হবে।
+
+    সাধারণ সম্পাদক
+    খেজুরছড়ি কিন্ডারগার্টেন অ্যাসোসিয়েশন
+  answer_sentence: "এ বছর বৃত্তি পরীক্ষা অনুষ্ঠিত হবে ১৯ নভেম্বর ২০২৭ তারিখে।"
+  insuff_replacement: ""
+  gold: {day: 19, month: 11, year: 2027}
+  q:
+    en: "On what date will the Khejurchari Kindergarten Association hold its scholarship exam this year?"
+    bn: "খেজুরছড়ি কিন্ডারগার্টেন অ্যাসোসিয়েশনের বৃত্তি পরীক্ষা এ বছর কোন তারিখে হবে?"
+    rbn: "khejurchori kindergarten association er britti porikkha e bochor kon tarikhe hobe?"
+    cm: "খেজুরছড়ি কিন্ডারগার্টেন অ্যাসোসিয়েশনের scholarship exam এ বছর কোন date এ হবে?"
+    cmr: "khejurchori kindergarten association er scholarship exam e bochor kon date e hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 250}
+    q:
+      en: "What is the registration fee per student for the scholarship exam of the Khejurchari Kindergarten Association?"
+      bn: "খেজুরছড়ি কিন্ডারগার্টেন অ্যাসোসিয়েশনের বৃত্তি পরীক্ষায় প্রতিটি শিক্ষার্থীর নিবন্ধন ফি কত টাকা?"
+      rbn: "khejurchori kindergarten association er britti porikkhay protiti shikkharthir nibondhon fee koto taka?"
+      cm: "খেজুরছড়ি কিন্ডারগার্টেন অ্যাসোসিয়েশনের scholarship exam এ প্রতি student এর registration fee কত টাকা?"
+      cmr: "khejurchori kindergarten association er scholarship exam e proti student er registration fee koto taka?"
+
+- id: N018
+  format: multi
+  domain: hostel
+  answer_type: name
+  entity:
+    bn: "নয়নতারা ছাত্রাবাস"
+    rom: "noyontara chatrabash"
+    en: "Nayantara Boys' Hostel"
+  edit_type: neutralisation
+  passage: |
+    নয়নতারা ছাত্রাবাস
+    আবাসিক ছাত্রদের জন্য জরুরি বিজ্ঞপ্তি
+
+    নয়নতারা ছাত্রাবাসের সকল আবাসিক ছাত্রের অবগতির জন্য জানানো যাচ্ছে যে, ছাত্রাবাসের প্রশাসনিক দায়িত্বে কিছু পরিবর্তন আনা হয়েছে। দীর্ঘ আট বছর দায়িত্ব পালনের পর আগের তত্ত্বাবধায়ক অবসরে গেছেন। ছাত্রাবাসের নতুন তত্ত্বাবধায়ক হিসেবে যোগ দিয়েছেন রেজাউল করিম পাটোয়ারী। এখন থেকে ছুটির আবেদন, কক্ষ পরিবর্তন এবং অতিথি সংক্রান্ত সকল বিষয়ে তত্ত্বাবধায়কের অনুমতি নিতে হবে।
+
+    জানুয়ারি ২০২৭ থেকে ডাইনিংয়ের মাসিক খাবার খরচ ২,৯০০ টাকা নির্ধারণ করা হয়েছে। প্রতি মাসের ৭ তারিখের মধ্যে খাবার খরচ ডাইনিং ম্যানেজারের কাছে জমা দিতে হবে। নির্ধারিত সময়ের মধ্যে টাকা জমা না দিলে ডাইনিং সুবিধা সাময়িকভাবে বন্ধ রাখা হবে। কোনো ছাত্র পরপর তিন দিনের বেশি বাইরে থাকলে আগে থেকে জানালে সেই দিনগুলোর খাবারের টাকা সমন্বয় করা হবে।
+
+    ছাত্রাবাসের মূল ফটক প্রতিদিন রাত ১০টায় বন্ধ হবে। কক্ষে বৈদ্যুতিক হিটার বা রান্নার সরঞ্জাম ব্যবহার সম্পূর্ণ নিষিদ্ধ। পানির অপচয় রোধে সকলকে সচেতন থাকার অনুরোধ করা হলো। ছাত্রাবাসের সাধারণ কক্ষে টেলিভিশন দেখা যাবে রাত ১০টা পর্যন্ত।
+
+    নিয়ম ভঙ্গ করলে প্রথমবার সতর্ক করা হবে এবং বারবার নিয়ম ভঙ্গ করলে আসন বাতিল করা হতে পারে। যেকোনো সমস্যা বা অভিযোগ লিখিতভাবে অফিসে জানাতে হবে।
+
+    পরিচালনা কমিটি
+    নয়নতারা ছাত্রাবাস
+  answer_sentence: "ছাত্রাবাসের নতুন তত্ত্বাবধায়ক হিসেবে যোগ দিয়েছেন রেজাউল করিম পাটোয়ারী।"
+  insuff_replacement: "ছাত্রাবাসে একজন নতুন তত্ত্বাবধায়ক যোগ দিয়েছেন।"
+  gold: {aliases: ["রেজাউল করিম পাটোয়ারী", "Rezaul Karim Patwary", "Rezaul Karim Patwari", "Rejaul Korim Patoari"]}
+  q:
+    en: "Who is the new superintendent of Nayantara Boys' Hostel?"
+    bn: "নয়নতারা ছাত্রাবাসের নতুন তত্ত্বাবধায়ক কে?"
+    rbn: "noyontara chatrabasher notun tottaboddhayok ke?"
+    cm: "নয়নতারা ছাত্রাবাসের নতুন superintendent কে?"
+    cmr: "noyontara chatrabasher notun superintendent ke?"
+  sibling:
+    answer_type: amount
+    gold: {value: 2900}
+    q:
+      en: "What is the monthly meal charge at Nayantara Boys' Hostel from January 2027?"
+      bn: "জানুয়ারি ২০২৭ থেকে নয়নতারা ছাত্রাবাসের মাসিক খাবার খরচ কত টাকা?"
+      rbn: "january 2027 theke noyontara chatrabasher mashik khabar khoroch koto taka?"
+      cm: "জানুয়ারি ২০২৭ থেকে নয়নতারা ছাত্রাবাসের monthly meal charge কত টাকা?"
+      cmr: "january 2027 theke noyontara chatrabasher monthly meal charge koto taka?"
+
+- id: N019
+  format: multi
+  domain: results
+  answer_type: number
+  entity:
+    bn: "রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ"
+    rom: "rajhashpur model school and college"
+    en: "Rajhanspur Model School and College"
+  edit_type: deletion
+  passage: |
+    রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ
+    এসএসসি পরীক্ষার ফলাফল ও সংবর্ধনা অনুষ্ঠান
+
+    আনন্দের সঙ্গে জানানো যাচ্ছে যে, এ বছরের এসএসসি পরীক্ষায় রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজের শিক্ষার্থীরা সন্তোষজনক ফলাফল অর্জন করেছে। বিদ্যালয় থেকে মোট ২১৪ জন শিক্ষার্থী পরীক্ষায় অংশ নিয়েছিল। এ বছর বিদ্যালয় থেকে ৩৭ জন শিক্ষার্থী জিপিএ-৫ পেয়েছে। বিজ্ঞান বিভাগের ফলাফল বিশেষভাবে ভালো হয়েছে এবং ব্যবসায় শিক্ষা বিভাগেও আগের বছরের তুলনায় ফল উন্নত হয়েছে।
+
+    কৃতী শিক্ষার্থীদের সম্মানে বিদ্যালয়ের মিলনায়তনে একটি সংবর্ধনা অনুষ্ঠানের আয়োজন করা হবে। অনুষ্ঠানে জিপিএ-৫ প্রাপ্ত প্রত্যেক শিক্ষার্থীকে ক্রেস্ট ও সনদপত্র দেওয়া হবে। অভিভাবকদেরও অনুষ্ঠানে আমন্ত্রণ জানানো হচ্ছে। অনুষ্ঠানে প্রাক্তন শিক্ষার্থীদের পক্ষ থেকে একটি শিক্ষাবৃত্তি তহবিল গঠনের ঘোষণা দেওয়া হবে।
+
+    যেসব শিক্ষার্থী কোনো বিষয়ে প্রত্যাশিত ফল পায়নি, তারা নির্ধারিত সময়ের মধ্যে বোর্ডের নিয়ম অনুযায়ী খাতা পুনর্নিরীক্ষণের আবেদন করতে পারবে। এ বিষয়ে সহায়তার জন্য বিদ্যালয়ের অফিসে একটি সহায়তা ডেস্ক খোলা হয়েছে।
+
+    এছাড়া একাদশ শ্রেণিতে ভর্তির ক্ষেত্রে বিদ্যালয়ের নিজস্ব শিক্ষার্থীরা অগ্রাধিকার পাবে। একাদশ শ্রেণিতে ভর্তির আবেদন ফরম বিদ্যালয়ের অফিসে পাওয়া যাবে। মূল নম্বরপত্র ও প্রশংসাপত্র বোর্ড থেকে পৌঁছালে নোটিশের মাধ্যমে বিতরণের তারিখ জানানো হবে। সকল শিক্ষার্থী, শিক্ষক ও অভিভাবককে আন্তরিক অভিনন্দন।
+
+    অধ্যক্ষ
+    রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ
+  answer_sentence: "এ বছর বিদ্যালয় থেকে ৩৭ জন শিক্ষার্থী জিপিএ-৫ পেয়েছে।"
+  insuff_replacement: ""
+  gold: {value: 37}
+  q:
+    en: "How many students of Rajhanspur Model School and College got GPA 5 in this year's SSC exam?"
+    bn: "এ বছরের এসএসসি পরীক্ষায় রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ থেকে কতজন শিক্ষার্থী জিপিএ-৫ পেয়েছে?"
+    rbn: "e bochorer SSC porikkhay rajhashpur model school and college theke kotojon shikkharthi GPA 5 peyeche?"
+    cm: "এ বছরের SSC তে রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ থেকে কতজন student GPA 5 পেয়েছে?"
+    cmr: "e bochorer SSC te rajhashpur model school and college theke kotojon student GPA 5 peyeche?"
+  sibling:
+    answer_type: number
+    gold: {value: 214}
+    q:
+      en: "How many students of Rajhanspur Model School and College sat for this year's SSC exam?"
+      bn: "এ বছর রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ থেকে মোট কতজন শিক্ষার্থী এসএসসি পরীক্ষায় অংশ নিয়েছিল?"
+      rbn: "e bochor rajhashpur model school and college theke mot kotojon shikkharthi SSC porikkhay ongsho niyechilo?"
+      cm: "এ বছর রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ থেকে মোট কতজন student SSC exam দিয়েছিল?"
+      cmr: "e bochor rajhashpur model school and college theke mot kotojon student SSC exam diyechilo?"
+
+- id: N020
+  format: multi
+  domain: university
+  answer_type: yesno
+  entity:
+    bn: "হিজলবনি মহিলা কলেজ"
+    rom: "hijolboni mohila college"
+    en: "Hijolboni Women's College"
+  edit_type: deletion
+  passage: |
+    হিজলবনি মহিলা কলেজ
+    স্নাতক (পাস) পরীক্ষার মূল সনদপত্র বিতরণ সংক্রান্ত বিজ্ঞপ্তি
+
+    হিজলবনি মহিলা কলেজ থেকে স্নাতক (পাস) পরীক্ষায় উত্তীর্ণ শিক্ষার্থীদের জানানো যাচ্ছে যে, বিশ্ববিদ্যালয় থেকে মূল সনদপত্র কলেজে এসে পৌঁছেছে। আগামী ৭ জুন ২০২৭ তারিখ থেকে কলেজের পরীক্ষা শাখায় সনদপত্র বিতরণ শুরু হবে। সনদপত্র বিতরণ চলবে প্রতি কর্মদিবসে সকাল ১০টা থেকে দুপুর ২টা পর্যন্ত।
+
+    সনদপত্র সংগ্রহের সময় কলেজের পরিচয়পত্র, পরীক্ষার প্রবেশপত্র এবং রেজিস্ট্রেশন কার্ডের মূল কপি দেখাতে হবে। সনদপত্র উত্তোলন ফি বাবদ ৩০০ টাকা কলেজের হিসাব শাখায় জমা দিয়ে রসিদ সংগ্রহ করতে হবে। কলেজের কাছে কোনো বকেয়া থাকলে তা পরিশোধ না করা পর্যন্ত সনদপত্র দেওয়া হবে না।
+
+    সনদপত্র কোনো প্রতিনিধির মাধ্যমে দেওয়া হবে না; শিক্ষার্থীকে নিজে উপস্থিত হয়ে সংগ্রহ করতে হবে। সনদপত্র হাতে পাওয়ার পর তাৎক্ষণিকভাবে নাম, পিতা-মাতার নাম ও ফলাফল মিলিয়ে দেখতে অনুরোধ করা হলো। কোনো ভুল পাওয়া গেলে সংশোধনের জন্য পরীক্ষা শাখায় লিখিত আবেদন করতে হবে।
+
+    যেসব শিক্ষার্থী এখনও প্রশংসাপত্র সংগ্রহ করেননি, তাঁরা একই সঙ্গে প্রশংসাপত্রের জন্য আবেদন করতে পারবেন। পরীক্ষা শাখায় ভিড় এড়াতে রোল নম্বরের ক্রম অনুযায়ী বিতরণের দিন ভাগ করে নোটিশ বোর্ডে টাঙিয়ে দেওয়া হয়েছে। বিতরণের সময়সূচিতে কোনো পরিবর্তন হলে তা নোটিশ বোর্ডে জানানো হবে।
+
+    অধ্যক্ষ
+    হিজলবনি মহিলা কলেজ
+  answer_sentence: "সনদপত্র কোনো প্রতিনিধির মাধ্যমে দেওয়া হবে না; শিক্ষার্থীকে নিজে উপস্থিত হয়ে সংগ্রহ করতে হবে।"
+  insuff_replacement: ""
+  gold: {value: false}
+  q:
+    en: "Can a representative collect the original certificate on a student's behalf at Hijolboni Women's College?"
+    bn: "হিজলবনি মহিলা কলেজ থেকে কি শিক্ষার্থীর পক্ষে কোনো প্রতিনিধি মূল সনদপত্র তুলতে পারবেন?"
+    rbn: "hijolboni mohila college theke ki shikkharthir pokkhe kono protinidhi mul sonodpotro tulte parben?"
+    cm: "হিজলবনি মহিলা কলেজ থেকে কি student এর পক্ষে অন্য কেউ original certificate তুলতে পারবে?"
+    cmr: "hijolboni mohila college theke ki student er pokkhe onno keu original certificate tulte parbe?"
+  sibling:
+    answer_type: date
+    gold: {day: 7, month: 6, year: 2027}
+    q:
+      en: "From what date will Hijolboni Women's College begin distributing the original certificates?"
+      bn: "হিজলবনি মহিলা কলেজে মূল সনদপত্র বিতরণ কোন তারিখ থেকে শুরু হবে?"
+      rbn: "hijolboni mohila college e mul sonodpotro bitoron kon tarikh theke shuru hobe?"
+      cm: "হিজলবনি মহিলা কলেজে original certificate দেওয়া কোন date থেকে শুরু হবে?"
+      cmr: "hijolboni mohila college e original certificate dewa kon date theke shuru hobe?"
+
+- id: N021
+  format: multi
+  domain: admission
+  answer_type: amount
+  entity:
+    bn: "সুপারিবাগান টিচার্স ট্রেনিং কলেজ"
+    rom: "shuparibagan teachers training college"
+    en: "Suparibagan Teachers' Training College"
+  edit_type: neutralisation
+  passage: |
+    সুপারিবাগান টিচার্স ট্রেনিং কলেজ
+    বিএড (প্রফেশনাল) কোর্সে ভর্তি বিজ্ঞপ্তি ২০২৭
+
+    সুপারিবাগান টিচার্স ট্রেনিং কলেজে ২০২৭ শিক্ষাবর্ষে এক বছর মেয়াদি বিএড (প্রফেশনাল) কোর্সে ভর্তির জন্য আবেদন আহ্বান করা হচ্ছে। কোর্সটি দুই সেমিস্টারে বিভক্ত এবং শুক্র ও শনিবার সাপ্তাহিক ছুটির দিনে ক্লাস নেওয়া হয়, ফলে কর্মরত শিক্ষকরাও সহজে অংশ নিতে পারবেন।
+
+    যেকোনো বিষয়ে স্নাতক ডিগ্রিধারী প্রার্থীরা আবেদন করতে পারবেন। কর্মরত শিক্ষকদের ক্ষেত্রে প্রতিষ্ঠানপ্রধানের অনাপত্তিপত্র জমা দিতে হবে। আবেদনপত্র কলেজের অফিস থেকে সংগ্রহ করে ১৮ আগস্ট ২০২৭ তারিখের মধ্যে জমা দিতে হবে। আবেদনপত্রের সঙ্গে সকল শিক্ষাগত সনদের সত্যায়িত কপি এবং তিন কপি ছবি দিতে হবে।
+
+    প্রতি সেমিস্টারের কোর্স ফি ১২,৮০০ টাকা। ভর্তির সময় এককালীন রেজিস্ট্রেশন ফি আলাদাভাবে পরিশোধ করতে হবে। ফি কিস্তিতে দেওয়ার সুযোগ নেই। কোর্স চলাকালীন প্রত্যেক প্রশিক্ষণার্থীকে নিকটবর্তী একটি মাধ্যমিক বিদ্যালয়ে ছয় সপ্তাহের অনুশীলন পাঠদান সম্পন্ন করতে হবে।
+
+    কলেজে সমৃদ্ধ গ্রন্থাগার, মাল্টিমিডিয়া শ্রেণিকক্ষ এবং শিক্ষা উপকরণ তৈরির জন্য আলাদা কর্মশালা রয়েছে। ক্লাসে ন্যূনতম পঁচাত্তর শতাংশ উপস্থিতি বাধ্যতামূলক, অন্যথায় চূড়ান্ত পরীক্ষায় অংশ নেওয়া যাবে না। কোর্স শেষে অধিভুক্ত বিশ্ববিদ্যালয়ের অধীনে চূড়ান্ত পরীক্ষা অনুষ্ঠিত হবে। বিস্তারিত তথ্যের জন্য কলেজের অফিসে শুক্র ও শনিবার সকাল ৯টা থেকে বিকেল ৪টার মধ্যে যোগাযোগ করুন।
+
+    অধ্যক্ষ
+    সুপারিবাগান টিচার্স ট্রেনিং কলেজ
+  answer_sentence: "প্রতি সেমিস্টারের কোর্স ফি ১২,৮০০ টাকা।"
+  insuff_replacement: "প্রতি সেমিস্টারের কোর্স ফি ভর্তির সময় কলেজের হিসাব শাখা থেকে জানানো হবে।"
+  gold: {value: 12800}
+  q:
+    en: "What is the course fee per semester for the B.Ed course at Suparibagan Teachers' Training College?"
+    bn: "সুপারিবাগান টিচার্স ট্রেনিং কলেজে বিএড কোর্সের প্রতি সেমিস্টারের ফি কত টাকা?"
+    rbn: "shuparibagan teachers training college e BEd korser proti semestarer fee koto taka?"
+    cm: "সুপারিবাগান টিচার্স ট্রেনিং কলেজে B.Ed এর per semester fee কত টাকা?"
+    cmr: "shuparibagan teachers training college e B.Ed er per semester fee koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 18, month: 8, year: 2027}
+    q:
+      en: "By what date must applications be submitted to Suparibagan Teachers' Training College?"
+      bn: "সুপারিবাগান টিচার্স ট্রেনিং কলেজে কোন তারিখের মধ্যে আবেদনপত্র জমা দিতে হবে?"
+      rbn: "shuparibagan teachers training college e kon tarikher moddhe abedonpotro joma dite hobe?"
+      cm: "সুপারিবাগান টিচার্স ট্রেনিং কলেজে application জমার last date কবে?"
+      cmr: "shuparibagan teachers training college e application jomar last date kobe?"
+
+- id: N022
+  format: multi
+  domain: university
+  answer_type: date
+  entity:
+    bn: "কুঁচিয়ামোড়া বিশ্ববিদ্যালয়"
+    rom: "kuchiyamora bisshobiddaloy"
+    en: "Kuchiamora University"
+  edit_type: neutralisation
+  passage: |
+    কুঁচিয়ামোড়া বিশ্ববিদ্যালয়
+    চতুর্থ সমাবর্তন ২০২৭: নিবন্ধন বিজ্ঞপ্তি
+
+    কুঁচিয়ামোড়া বিশ্ববিদ্যালয়ের চতুর্থ সমাবর্তন অনুষ্ঠিত হবে ২৩ ডিসেম্বর ২০২৭ তারিখে বিশ্ববিদ্যালয়ের কেন্দ্রীয় খেলার মাঠে। বিশ্ববিদ্যালয়ের বিভিন্ন অনুষদ থেকে স্নাতক, স্নাতকোত্তর, এমফিল ও পিএইচডি ডিগ্রিপ্রাপ্ত শিক্ষার্থীরা এই সমাবর্তনে অংশ নিতে পারবেন।
+
+    সমাবর্তনে অংশ নিতে ইচ্ছুক গ্র্যাজুয়েটদের নির্ধারিত ফরম পূরণ করে নিবন্ধন করতে হবে। নিবন্ধন ফি ৪,৫০০ টাকা, যার মধ্যে সমাবর্তনের গাউন, টুপি, উপহারসামগ্রী ও দুপুরের খাবারের খরচ অন্তর্ভুক্ত। একাধিক ডিগ্রির জন্য নিবন্ধন করতে চাইলে প্রতিটি অতিরিক্ত ডিগ্রির জন্য আলাদা ফি দিতে হবে। নিবন্ধনের শেষ তারিখ ৩০ সেপ্টেম্বর ২০২৭।
+
+    নিবন্ধিত গ্র্যাজুয়েটরা নিজ নিজ বিভাগ থেকে প্রবেশপত্র ও গাউন সংগ্রহ করবেন। প্রত্যেক গ্র্যাজুয়েট সর্বোচ্চ একজন অতিথিকে সঙ্গে আনতে পারবেন, যার জন্য আলাদা অতিথি পাস দেওয়া হবে। নিরাপত্তার কারণে প্রবেশপত্র ছাড়া কাউকে অনুষ্ঠানস্থলে প্রবেশ করতে দেওয়া হবে না।
+
+    অনুষ্ঠানে কৃতী শিক্ষার্থীদের স্বর্ণপদক প্রদান করা হবে। স্বর্ণপদকপ্রাপ্তদের তালিকা আলাদাভাবে প্রকাশ করা হবে। সমাবর্তনের মূল মহড়া অনুষ্ঠানের আগের দিন অনুষ্ঠিত হবে, যেখানে স্বর্ণপদকপ্রাপ্তদের উপস্থিত থাকা বাধ্যতামূলক। বিস্তারিত তথ্যের জন্য রেজিস্ট্রার দপ্তরের সমাবর্তন সেলে যোগাযোগ করুন।
+
+    রেজিস্ট্রার
+    কুঁচিয়ামোড়া বিশ্ববিদ্যালয়
+  answer_sentence: "কুঁচিয়ামোড়া বিশ্ববিদ্যালয়ের চতুর্থ সমাবর্তন অনুষ্ঠিত হবে ২৩ ডিসেম্বর ২০২৭ তারিখে বিশ্ববিদ্যালয়ের কেন্দ্রীয় খেলার মাঠে।"
+  insuff_replacement: "কুঁচিয়ামোড়া বিশ্ববিদ্যালয়ের চতুর্থ সমাবর্তন বিশ্ববিদ্যালয়ের কেন্দ্রীয় খেলার মাঠে অনুষ্ঠিত হবে; তারিখ উপাচার্যের অনুমোদনক্রমে পরে ঘোষণা করা হবে।"
+  gold: {day: 23, month: 12, year: 2027}
+  q:
+    en: "On what date will the fourth convocation of Kuchiamora University be held?"
+    bn: "কুঁচিয়ামোড়া বিশ্ববিদ্যালয়ের চতুর্থ সমাবর্তন কোন তারিখে অনুষ্ঠিত হবে?"
+    rbn: "kuchiyamora bisshobiddaloyer chaturtho shomaborton kon tarikhe onushthito hobe?"
+    cm: "কুঁচিয়ামোড়া বিশ্ববিদ্যালয়ের fourth convocation কোন date এ হবে?"
+    cmr: "kuchiyamora bisshobiddaloyer fourth convocation kon date e hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 4500}
+    q:
+      en: "What is the registration fee for the convocation of Kuchiamora University?"
+      bn: "কুঁচিয়ামোড়া বিশ্ববিদ্যালয়ের সমাবর্তনের নিবন্ধন ফি কত টাকা?"
+      rbn: "kuchiyamora bisshobiddaloyer shomabortoner nibondhon fee koto taka?"
+      cm: "কুঁচিয়ামোড়া বিশ্ববিদ্যালয়ের convocation এর registration fee কত টাকা?"
+      cmr: "kuchiyamora bisshobiddaloyer convocation er registration fee koto taka?"
+
+- id: N023
+  format: multi
+  domain: training
+  answer_type: name
+  entity:
+    bn: "কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্র"
+    rom: "kanchonbela vasha shikkha kendro"
+    en: "Kanchanbela Language Learning Centre"
+  edit_type: deletion
+  passage: |
+    কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্র
+    স্পোকেন ইংলিশ কোর্সে ভর্তি চলছে
+
+    শিক্ষার্থী, চাকরিপ্রার্থী ও কর্মজীবীদের ইংরেজিতে সাবলীলভাবে কথা বলার দক্ষতা বাড়াতে কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্রে তিন মাস মেয়াদি স্পোকেন ইংলিশ কোর্সের নতুন ব্যাচে ভর্তি চলছে। কোর্সে মোট ৩৬টি ক্লাস হবে এবং প্রতিটি ক্লাস দেড় ঘণ্টার। সকাল ও সন্ধ্যা দুই সময়ে ব্যাচ রয়েছে।
+
+    কোর্সে দৈনন্দিন কথোপকথন, উচ্চারণ, শব্দভান্ডার বৃদ্ধি, চাকরির সাক্ষাৎকারের প্রস্তুতি এবং উপস্থাপনা দক্ষতার ওপর বিশেষ গুরুত্ব দেওয়া হবে। প্রতিটি ক্লাসে দলগত আলোচনা ও ভূমিকাভিনয়ের মাধ্যমে অনুশীলন করানো হবে। প্রতি মাসের শেষে একটি মৌখিক মূল্যায়ন নেওয়া হবে।
+
+    কোর্সের প্রধান প্রশিক্ষক হিসেবে থাকবেন তানজিলা হক অদিতি, যিনি দীর্ঘদিন ধরে ভাষা প্রশিক্ষণের সঙ্গে যুক্ত। প্রতিটি ব্যাচে সর্বোচ্চ বিশজন শিক্ষার্থী নেওয়া হবে, যাতে প্রত্যেকে কথা বলার পর্যাপ্ত সুযোগ পায়। কোর্স শেষে সফল শিক্ষার্থীদের সনদপত্র দেওয়া হবে।
+
+    কোর্স ফি মোট ৫,৫০০ টাকা। শিক্ষার্থীদের জন্য পরিচয়পত্র দেখানো সাপেক্ষে বিশেষ ছাড় রয়েছে। ভর্তির জন্য এক কপি ছবি ও জাতীয় পরিচয়পত্র বা শিক্ষার্থী পরিচয়পত্রের ফটোকপি লাগবে। একটি বিনামূল্যের পরিচিতিমূলক ক্লাসে অংশ নিয়ে কোর্স সম্পর্কে ধারণা নেওয়া যাবে। বিস্তারিত জানতে কেন্দ্রের অভ্যর্থনা ডেস্কে যোগাযোগ করুন।
+
+    পরিচালক
+    কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্র
+  answer_sentence: "কোর্সের প্রধান প্রশিক্ষক হিসেবে থাকবেন তানজিলা হক অদিতি, যিনি দীর্ঘদিন ধরে ভাষা প্রশিক্ষণের সঙ্গে যুক্ত।"
+  insuff_replacement: ""
+  gold: {aliases: ["তানজিলা হক অদিতি", "Tanzila Haque Aditi", "Tanjila Hoque Oditi", "Tanzila Hoq Aditi"]}
+  q:
+    en: "Who will be the lead trainer of the spoken English course at Kanchanbela Language Learning Centre?"
+    bn: "কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্রের স্পোকেন ইংলিশ কোর্সের প্রধান প্রশিক্ষক কে?"
+    rbn: "kanchonbela vasha shikkha kendro er spoken english korser prodhan proshikkhok ke?"
+    cm: "কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্রের spoken English course এর main trainer কে?"
+    cmr: "kanchonbela vasha shikkha kendro er spoken english course er main trainer ke?"
+  sibling:
+    answer_type: number
+    gold: {value: 36}
+    q:
+      en: "How many classes are there in the spoken English course at Kanchanbela Language Learning Centre?"
+      bn: "কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্রের স্পোকেন ইংলিশ কোর্সে মোট কয়টি ক্লাস হবে?"
+      rbn: "kanchonbela vasha shikkha kendro er spoken english korse mot koyti klash hobe?"
+      cm: "কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্রের spoken English course এ মোট কয়টি class হবে?"
+      cmr: "kanchonbela vasha shikkha kendro er spoken english course e mot koyti class hobe?"
+
+- id: N024
+  format: multi
+  domain: exam
+  answer_type: number
+  entity:
+    bn: "শ্যামলকুড়ি দাখিল মাদ্রাসা"
+    rom: "shamolkuri dakhil madrasa"
+    en: "Shyamalkuri Dakhil Madrasa"
+  edit_type: neutralisation
+  passage: |
+    শ্যামলকুড়ি দাখিল মাদ্রাসা
+    দাখিল পরীক্ষা ২০২৭: কেন্দ্র সংক্রান্ত বিজ্ঞপ্তি
+
+    সংশ্লিষ্ট সকলের অবগতির জন্য জানানো যাচ্ছে যে, দাখিল পরীক্ষা ২০২৭-এর জন্য শ্যামলকুড়ি দাখিল মাদ্রাসাকে পরীক্ষাকেন্দ্র হিসেবে অনুমোদন দেওয়া হয়েছে। পরীক্ষা আগামী ১৫ ফেব্রুয়ারি ২০২৭ তারিখ থেকে শুরু হবে। এ বছর মাদ্রাসা কেন্দ্রে মোট ৩৮৬ জন পরীক্ষার্থী দাখিল পরীক্ষায় অংশ নেবে।
+
+    পরীক্ষার্থীদের পরীক্ষা শুরুর অন্তত আধা ঘণ্টা আগে কেন্দ্রে উপস্থিত হতে হবে। প্রবেশপত্র ও রেজিস্ট্রেশন কার্ড ছাড়া কাউকে পরীক্ষার কক্ষে প্রবেশ করতে দেওয়া হবে না। পরীক্ষার্থীরা কেবল স্বচ্ছ কলমদানি, সাধারণ ক্যালকুলেটর ও জ্যামিতি বক্স সঙ্গে আনতে পারবে। মোবাইল ফোনসহ যেকোনো ইলেকট্রনিক যন্ত্র কেন্দ্রে আনা সম্পূর্ণ নিষিদ্ধ।
+
+    পরীক্ষা চলাকালীন কেন্দ্রের চারপাশে অভিভাবক ও বহিরাগতদের ভিড় না করার অনুরোধ করা হচ্ছে। কেন্দ্রের দুইশো গজের মধ্যে সব ধরনের ফটোকপি দোকান বন্ধ থাকবে। আসনবিন্যাস পরীক্ষার আগের দিন বিকেলে মাদ্রাসার নোটিশ বোর্ডে টাঙিয়ে দেওয়া হবে, যাতে পরীক্ষার্থীরা আগে থেকে নিজের কক্ষ খুঁজে নিতে পারে।
+
+    পরীক্ষাকেন্দ্রে অসদুপায় অবলম্বন করলে সংশ্লিষ্ট পরীক্ষার্থীকে বহিষ্কার করা হবে এবং বোর্ডের নিয়ম অনুযায়ী ব্যবস্থা নেওয়া হবে। অসুস্থ পরীক্ষার্থীদের জন্য কেন্দ্রে আলাদা কক্ষ ও প্রাথমিক চিকিৎসার ব্যবস্থা থাকবে। সকলের সহযোগিতায় শান্তিপূর্ণ পরিবেশে পরীক্ষা সম্পন্ন হবে বলে আশা করা হচ্ছে।
+
+    কেন্দ্র সচিব ও সুপার
+    শ্যামলকুড়ি দাখিল মাদ্রাসা
+  answer_sentence: "এ বছর মাদ্রাসা কেন্দ্রে মোট ৩৮৬ জন পরীক্ষার্থী দাখিল পরীক্ষায় অংশ নেবে।"
+  insuff_replacement: "এ বছর মাদ্রাসা কেন্দ্রে আশপাশের কয়েকটি প্রতিষ্ঠানের পরীক্ষার্থীরাও দাখিল পরীক্ষায় অংশ নেবে।"
+  gold: {value: 386}
+  q:
+    en: "How many examinees will sit for the Dakhil exam at the Shyamalkuri Dakhil Madrasa centre this year?"
+    bn: "এ বছর শ্যামলকুড়ি দাখিল মাদ্রাসা কেন্দ্রে মোট কতজন পরীক্ষার্থী দাখিল পরীক্ষা দেবে?"
+    rbn: "e bochor shamolkuri dakhil madrasa kendre mot kotojon porikkharthi dakhil porikkha debe?"
+    cm: "এ বছর শ্যামলকুড়ি দাখিল মাদ্রাসা exam center এ মোট কতজন candidate দাখিল পরীক্ষা দেবে?"
+    cmr: "e bochor shamolkuri dakhil madrasa exam center e mot kotojon candidate dakhil porikkha debe?"
+  sibling:
+    answer_type: date
+    gold: {day: 15, month: 2, year: 2027}
+    q:
+      en: "From what date will the Dakhil exam start at the Shyamalkuri Dakhil Madrasa centre?"
+      bn: "শ্যামলকুড়ি দাখিল মাদ্রাসা কেন্দ্রে দাখিল পরীক্ষা কোন তারিখ থেকে শুরু হবে?"
+      rbn: "shamolkuri dakhil madrasa kendre dakhil porikkha kon tarikh theke shuru hobe?"
+      cm: "শ্যামলকুড়ি দাখিল মাদ্রাসা center এ দাখিল exam কোন date থেকে শুরু হবে?"
+      cmr: "shamolkuri dakhil madrasa center e dakhil exam kon date theke shuru hobe?"
+
+- id: N025
+  format: multi
+  domain: training
+  answer_type: yesno
+  entity:
+    bn: "তেলাকুচা ইলেকট্রিক্যাল প্রশিক্ষণ কেন্দ্র"
+    rom: "telakucha electrical proshikkhon kendro"
+    en: "Telakucha Electrical Training Centre"
+  edit_type: deletion
+  passage: |
+    তেলাকুচা ইলেকট্রিক্যাল প্রশিক্ষণ কেন্দ্র
+    হাউস ওয়্যারিং ও ইলেকট্রিক্যাল মেইনটেন্যান্স প্রশিক্ষণ
+
+    বেকার যুবক ও যুব নারীদের কর্মসংস্থানের সুযোগ সৃষ্টির লক্ষ্যে তেলাকুচা ইলেকট্রিক্যাল প্রশিক্ষণ কেন্দ্রে তিন মাস মেয়াদি হাউস ওয়্যারিং ও ইলেকট্রিক্যাল মেইনটেন্যান্স প্রশিক্ষণের নতুন ব্যাচ শুরু হতে যাচ্ছে। প্রতিটি ব্যাচে ৩০ জন প্রশিক্ষণার্থী নেওয়া হবে। প্রশিক্ষণ হবে সপ্তাহে পাঁচ দিন, সকাল ৯টা থেকে দুপুর ১টা পর্যন্ত।
+
+    আবেদনকারীর বয়স ১৮ থেকে ৩৫ বছরের মধ্যে এবং ন্যূনতম শিক্ষাগত যোগ্যতা অষ্টম শ্রেণি পাস হতে হবে। আবেদনের সঙ্গে জাতীয় পরিচয়পত্র বা জন্মনিবন্ধন সনদের কপি, শিক্ষাগত সনদের কপি এবং দুই কপি ছবি জমা দিতে হবে। প্রাথমিক বাছাইয়ের পর মৌখিক পরীক্ষার মাধ্যমে প্রশিক্ষণার্থী নির্বাচন করা হবে।
+
+    প্রশিক্ষণে বাসাবাড়ির বৈদ্যুতিক সংযোগ, সার্কিট ব্রেকার ও মিটার স্থাপন, বৈদ্যুতিক যন্ত্রপাতি মেরামত এবং কর্মক্ষেত্রে নিরাপত্তা বিষয়ে হাতে-কলমে শেখানো হবে। প্রশিক্ষণ চলাকালীন প্রত্যেক প্রশিক্ষণার্থীকে দৈনিক ভাতা দেওয়া হবে। প্রশিক্ষণের প্রয়োজনীয় যন্ত্রপাতি ও উপকরণ কেন্দ্র থেকেই সরবরাহ করা হবে।
+
+    প্রশিক্ষণ শেষে চূড়ান্ত মূল্যায়নে উত্তীর্ণদের সনদপত্র দেওয়া হবে। আগ্রহী প্রশিক্ষণার্থীদের স্থানীয় নির্মাণ প্রতিষ্ঠান ও বৈদ্যুতিক সরঞ্জাম বিক্রয়কেন্দ্রে চাকরি পেতে সহায়তা করা হবে। একটানা পাঁচ দিনের বেশি অনুপস্থিত থাকলে প্রশিক্ষণার্থীর নাম বাদ দেওয়া হতে পারে। আবেদন ফরম কেন্দ্রের অফিসে পাওয়া যাচ্ছে।
+
+    কেন্দ্র ব্যবস্থাপক
+    তেলাকুচা ইলেকট্রিক্যাল প্রশিক্ষণ কেন্দ্র
+  answer_sentence: "প্রশিক্ষণ চলাকালীন প্রত্যেক প্রশিক্ষণার্থীকে দৈনিক ভাতা দেওয়া হবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Will trainees at Telakucha Electrical Training Centre receive a daily allowance during the training?"
+    bn: "তেলাকুচা ইলেকট্রিক্যাল প্রশিক্ষণ কেন্দ্রে প্রশিক্ষণ চলাকালীন প্রশিক্ষণার্থীরা কি দৈনিক ভাতা পাবেন?"
+    rbn: "telakucha electrical proshikkhon kendro te proshikkhon cholakalin proshikkhonarthira ki doinik vata paben?"
+    cm: "তেলাকুচা ইলেকট্রিক্যাল প্রশিক্ষণ কেন্দ্রে training চলাকালীন trainee রা কি daily allowance পাবেন?"
+    cmr: "telakucha electrical proshikkhon kendro te training cholakalin trainee ra ki daily allowance paben?"
+  sibling:
+    answer_type: number
+    gold: {value: 30}
+    q:
+      en: "How many trainees will be taken in each batch at Telakucha Electrical Training Centre?"
+      bn: "তেলাকুচা ইলেকট্রিক্যাল প্রশিক্ষণ কেন্দ্রে প্রতিটি ব্যাচে কতজন প্রশিক্ষণার্থী নেওয়া হবে?"
+      rbn: "telakucha electrical proshikkhon kendro te protiti bache kotojon proshikkhonarthi newa hobe?"
+      cm: "তেলাকুচা ইলেকট্রিক্যাল প্রশিক্ষণ কেন্দ্রে প্রতিটি batch এ কতজন trainee নেওয়া হবে?"
+      cmr: "telakucha electrical proshikkhon kendro te protiti batch e kotojon trainee newa hobe?"
+
+- id: N026
+  format: multi
+  domain: exam
+  answer_type: amount
+  entity:
+    bn: "চন্দনপিড়ি কলেজ"
+    rom: "chondonpiri college"
+    en: "Chandanpiri College"
+  edit_type: neutralisation
+  passage: |
+    চন্দনপিড়ি কলেজ
+    এইচএসসি পরীক্ষা ২০২৮-এর ফরম পূরণ সংক্রান্ত বিজ্ঞপ্তি
+
+    চন্দনপিড়ি কলেজের দ্বাদশ শ্রেণির নির্বাচনী পরীক্ষায় উত্তীর্ণ শিক্ষার্থীদের জানানো যাচ্ছে যে, ২০২৮ সালের উচ্চ মাধ্যমিক পরীক্ষার ফরম পূরণ কার্যক্রম শুরু হয়েছে। ফরম পূরণের শেষ তারিখ ১২ ডিসেম্বর ২০২৭। নির্ধারিত তারিখের পর বিলম্ব ফিসহ কেবল বোর্ডের অনুমোদিত সময়ের মধ্যে ফরম পূরণ করা যাবে।
+
+    মানবিক ও ব্যবসায় শিক্ষা বিভাগের শিক্ষার্থীদের ফরম পূরণ ফি ২,৯৬০ টাকা। বিজ্ঞান বিভাগের শিক্ষার্থীদের ফরম পূরণ ফি ব্যবহারিক পরীক্ষার খরচসহ ৩,১৮০ টাকা। মানোন্নয়ন ও অনিয়মিত পরীক্ষার্থীদের ফি বিষয়সংখ্যার ভিত্তিতে আলাদাভাবে নির্ধারিত হবে। ফি কলেজের হিসাব শাখায় অথবা মোবাইল ব্যাংকিংয়ের মাধ্যমে জমা দেওয়া যাবে।
+
+    ফরম পূরণের আগে শিক্ষার্থীদের সকল বকেয়া বেতন ও অন্যান্য পাওনা পরিশোধ করতে হবে। ফরমে নাম, পিতা-মাতার নাম, জন্মতারিখ ও বিষয় কোড সঠিকভাবে লেখা হয়েছে কি না, তা শিক্ষার্থীকে নিজে যাচাই করে স্বাক্ষর করতে হবে। পরে কোনো ভুলের দায় কলেজ কর্তৃপক্ষ নেবে না।
+
+    ফরম পূরণের সময় শিক্ষার্থীদের সদ্য তোলা দুই কপি রঙিন ছবি, মাধ্যমিক পরীক্ষার নম্বরপত্রের ফটোকপি এবং রেজিস্ট্রেশন কার্ডের ফটোকপি জমা দিতে হবে। বিভাগভিত্তিক ফরম পূরণের দিন ও কক্ষ নম্বর নোটিশ বোর্ডে দেওয়া আছে। নির্ধারিত দিনে উপস্থিত না হলে পরবর্তী সময়ে ফরম পূরণে জটিলতা হতে পারে।
+
+    অধ্যক্ষ
+    চন্দনপিড়ি কলেজ
+  answer_sentence: "বিজ্ঞান বিভাগের শিক্ষার্থীদের ফরম পূরণ ফি ব্যবহারিক পরীক্ষার খরচসহ ৩,১৮০ টাকা।"
+  insuff_replacement: "বিজ্ঞান বিভাগের শিক্ষার্থীদের ফরম পূরণ ফি ব্যবহারিক পরীক্ষার খরচ যোগ করে পরে নির্ধারণ করা হবে।"
+  gold: {value: 3180}
+  q:
+    en: "What is the HSC form fill-up fee for science students at Chandanpiri College?"
+    bn: "চন্দনপিড়ি কলেজে বিজ্ঞান বিভাগের শিক্ষার্থীদের এইচএসসি ফরম পূরণ ফি কত টাকা?"
+    rbn: "chondonpiri college e biggan bivager shikkharthider HSC form puron fee koto taka?"
+    cm: "চন্দনপিড়ি কলেজে science group এর HSC form fill up fee কত টাকা?"
+    cmr: "chondonpiri college e science group er HSC form fill up fee koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 12, month: 12, year: 2027}
+    q:
+      en: "What is the last date for HSC form fill-up at Chandanpiri College?"
+      bn: "চন্দনপিড়ি কলেজে এইচএসসি ফরম পূরণের শেষ তারিখ কবে?"
+      rbn: "chondonpiri college e HSC form puroner shesh tarikh kobe?"
+      cm: "চন্দনপিড়ি কলেজে HSC form fill up এর last date কবে?"
+      cmr: "chondonpiri college e HSC form fill up er last date kobe?"
+
+- id: N027
+  format: multi
+  domain: admission
+  answer_type: date
+  entity:
+    bn: "বনফুলহাটি পলিটেকনিক ইনস্টিটিউট"
+    rom: "bonfulhati polytechnic institute"
+    en: "Banphulhati Polytechnic Institute"
+  edit_type: deletion
+  passage: |
+    বনফুলহাটি পলিটেকনিক ইনস্টিটিউট
+    ডিপ্লোমা ইন ইঞ্জিনিয়ারিং প্রথম পর্বে ভর্তি সংক্রান্ত বিজ্ঞপ্তি
+
+    বনফুলহাটি পলিটেকনিক ইনস্টিটিউটে ২০২৭-২৮ শিক্ষাবর্ষে চার বছর মেয়াদি ডিপ্লোমা ইন ইঞ্জিনিয়ারিং কোর্সের প্রথম পর্বে ভর্তির জন্য নির্বাচিত শিক্ষার্থীদের জানানো যাচ্ছে যে, চূড়ান্ত ভর্তির শেষ তারিখ ২১ সেপ্টেম্বর ২০২৭। ইনস্টিটিউটে সিভিল, ইলেকট্রিক্যাল, মেকানিক্যাল ও কম্পিউটার — এই চারটি টেকনোলজিতে ভর্তি নেওয়া হচ্ছে।
+
+    ভর্তির সময় প্রত্যেক শিক্ষার্থীকে ভর্তি ফি বাবদ ৫,৩৫০ টাকা জমা দিতে হবে। এর মধ্যে ছয় মাসের বেতন, পরিচয়পত্র, গ্রন্থাগার ও ব্যবহারিক ক্লাসের খরচ অন্তর্ভুক্ত। ভর্তির সময় মাধ্যমিক পরীক্ষার মূল নম্বরপত্র, প্রশংসাপত্র এবং চার কপি ছবি জমা দিতে হবে। মূল কাগজপত্র যাচাইয়ের পর ফেরত দেওয়া হবে।
+
+    প্রথম পর্বের ক্লাস শুরু হবে ৪ অক্টোবর ২০২৭ তারিখে। প্রথম সপ্তাহে নবীন শিক্ষার্থীদের জন্য পরিচিতি ক্লাস এবং ওয়ার্কশপ ও ল্যাবরেটরি ব্যবহারের নিরাপত্তা বিষয়ে প্রশিক্ষণ দেওয়া হবে। ওয়ার্কশপে প্রবেশের সময় নির্ধারিত পোশাক ও নিরাপত্তা জুতা পরা বাধ্যতামূলক।
+
+    নির্ধারিত সময়ের মধ্যে ভর্তি না হলে শিক্ষার্থীর মনোনয়ন বাতিল হবে এবং অপেক্ষমাণ তালিকা থেকে শূন্য আসন পূরণ করা হবে। ইনস্টিটিউটে সীমিত আসনের ছাত্রাবাস আছে; আগ্রহী শিক্ষার্থীরা ভর্তির পর ছাত্রাবাস সুপারের কাছে আবেদন করতে পারবে। ভর্তি সংক্রান্ত যেকোনো তথ্যের জন্য একাডেমিক শাখায় যোগাযোগ করুন।
+
+    অধ্যক্ষ
+    বনফুলহাটি পলিটেকনিক ইনস্টিটিউট
+  answer_sentence: "প্রথম পর্বের ক্লাস শুরু হবে ৪ অক্টোবর ২০২৭ তারিখে।"
+  insuff_replacement: ""
+  gold: {day: 4, month: 10, year: 2027}
+  q:
+    en: "On what date will first-semester classes start at Banphulhati Polytechnic Institute?"
+    bn: "বনফুলহাটি পলিটেকনিক ইনস্টিটিউটে প্রথম পর্বের ক্লাস কোন তারিখে শুরু হবে?"
+    rbn: "bonfulhati polytechnic institute e prothom porber klash kon tarikhe shuru hobe?"
+    cm: "বনফুলহাটি পলিটেকনিক ইনস্টিটিউটে first semester এর class কোন date এ শুরু হবে?"
+    cmr: "bonfulhati polytechnic institute e first semester er class kon date e shuru hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 5350}
+    q:
+      en: "How much is the admission fee at Banphulhati Polytechnic Institute?"
+      bn: "বনফুলহাটি পলিটেকনিক ইনস্টিটিউটে ভর্তি ফি কত টাকা?"
+      rbn: "bonfulhati polytechnic institute e vorti fee koto taka?"
+      cm: "বনফুলহাটি পলিটেকনিক ইনস্টিটিউটে admission fee কত টাকা?"
+      cmr: "bonfulhati polytechnic institute e admission fee koto taka?"
+
+- id: N028
+  format: multi
+  domain: scholarship
+  answer_type: name
+  entity:
+    bn: "সোনাঝুরি মেধাবৃত্তি পরিষদ"
+    rom: "shonajhuri medhabritti porishod"
+    en: "Sonajhuri Merit Scholarship Council"
+  edit_type: neutralisation
+  passage: |
+    সোনাঝুরি মেধাবৃত্তি পরিষদ
+    প্রাথমিক ও মাধ্যমিক মেধাবৃত্তি ২০২৭
+
+    এলাকার দরিদ্র ও মেধাবী শিক্ষার্থীদের উৎসাহ দিতে সোনাঝুরি মেধাবৃত্তি পরিষদ প্রতি বছরের মতো এবারও মেধাবৃত্তি প্রদানের উদ্যোগ নিয়েছে। প্রবাসী ও স্থানীয় শিক্ষানুরাগীদের অনুদানে গঠিত তহবিল থেকে এ বছর মোট ৪০টি বৃত্তি দেওয়া হবে। বৃত্তিগুলো পঞ্চম ও অষ্টম শ্রেণির বার্ষিক পরীক্ষার ফলাফলের ভিত্তিতে নির্বাচিত শিক্ষার্থীদের দেওয়া হবে।
+
+    আবেদনকারীকে অবশ্যই ইউনিয়নের স্থায়ী বাসিন্দা হতে হবে এবং সংশ্লিষ্ট শ্রেণির বার্ষিক পরীক্ষায় প্রথম বিভাগ বা সমমানের ফল করতে হবে। আবেদনপত্রের সঙ্গে নম্বরপত্রের কপি, প্রধান শিক্ষকের সুপারিশপত্র এবং ইউনিয়ন পরিষদ চেয়ারম্যানের কাছ থেকে নেওয়া নাগরিকত্ব সনদ জমা দিতে হবে।
+
+    বৃত্তিপ্রাপ্ত শিক্ষার্থীরা এককালীন অর্থ, স্কুলব্যাগ ও শিক্ষা উপকরণ পাবে। বৃত্তি বিতরণ উপলক্ষে ইউনিয়ন পরিষদ মিলনায়তনে একটি অনুষ্ঠানের আয়োজন করা হবে, যেখানে অভিভাবকদেরও আমন্ত্রণ জানানো হবে।
+
+    বৃত্তি সংক্রান্ত যেকোনো তথ্য ও আবেদনপত্র জমার জন্য পরিষদের সমন্বয়কারী আরিফুল হাসান তালুকদারের সঙ্গে যোগাযোগ করতে হবে। আবেদনপত্র শুধু শুক্রবার বিকেলে পরিষদের অস্থায়ী কার্যালয়ে গ্রহণ করা হবে। অসম্পূর্ণ আবেদন বা ভুল তথ্যসংবলিত আবেদন সরাসরি বাতিল করা হবে। পরিষদের সিদ্ধান্তই চূড়ান্ত বলে বিবেচিত হবে।
+
+    সভাপতি
+    সোনাঝুরি মেধাবৃত্তি পরিষদ
+  answer_sentence: "বৃত্তি সংক্রান্ত যেকোনো তথ্য ও আবেদনপত্র জমার জন্য পরিষদের সমন্বয়কারী আরিফুল হাসান তালুকদারের সঙ্গে যোগাযোগ করতে হবে।"
+  insuff_replacement: "বৃত্তি সংক্রান্ত যেকোনো তথ্য ও আবেদনপত্র জমার জন্য পরিষদের সমন্বয়কারীর সঙ্গে যোগাযোগ করতে হবে।"
+  gold: {aliases: ["আরিফুল হাসান তালুকদার", "Ariful Hasan Talukdar", "Ariful Hassan Talukder", "Ariful Hasan Talukder"]}
+  q:
+    en: "Who is the coordinator to contact about the scholarship of the Sonajhuri Merit Scholarship Council?"
+    bn: "সোনাঝুরি মেধাবৃত্তি পরিষদের বৃত্তি সংক্রান্ত যোগাযোগের জন্য সমন্বয়কারী কে?"
+    rbn: "shonajhuri medhabritti porishoder britti shongkranto jogajoger jonno shomonnoykari ke?"
+    cm: "সোনাঝুরি মেধাবৃত্তি পরিষদের scholarship নিয়ে contact করার জন্য coordinator কে?"
+    cmr: "shonajhuri medhabritti porishoder scholarship niye contact korar jonno coordinator ke?"
+  sibling:
+    answer_type: number
+    gold: {value: 40}
+    q:
+      en: "How many scholarships will the Sonajhuri Merit Scholarship Council award this year?"
+      bn: "সোনাঝুরি মেধাবৃত্তি পরিষদ এ বছর মোট কয়টি বৃত্তি দেবে?"
+      rbn: "shonajhuri medhabritti porishod e bochor mot koyti britti debe?"
+      cm: "সোনাঝুরি মেধাবৃত্তি পরিষদ এ বছর মোট কয়টি scholarship দেবে?"
+      cmr: "shonajhuri medhabritti porishod e bochor mot koyti scholarship debe?"
+
+- id: N029
+  format: multi
+  domain: hostel
+  answer_type: number
+  entity:
+    bn: "বকফুল আবাসিক মডেল স্কুল"
+    rom: "bokful abashik model school"
+    en: "Bokphul Residential Model School"
+  edit_type: deletion
+  passage: |
+    বকফুল আবাসিক মডেল স্কুল
+    আবাসিক শাখায় ভর্তি সংক্রান্ত তথ্য
+
+    বকফুল আবাসিক মডেল স্কুলে ২০২৭ শিক্ষাবর্ষে চতুর্থ থেকে নবম শ্রেণিতে আবাসিক ও অনাবাসিক উভয় শাখায় ভর্তি চলছে। বিদ্যালয়ের আবাসিক ভবনে বর্তমানে ২৬৫ জন শিক্ষার্থীর থাকার ব্যবস্থা রয়েছে। ছাত্র ও ছাত্রীদের জন্য আলাদা ভবন এবং প্রতিটি ভবনে সার্বক্ষণিক আবাসিক শিক্ষক ও নারী তত্ত্বাবধায়ক রয়েছেন।
+
+    আবাসিক শিক্ষার্থীদের মাসিক খরচ ৭,২০০ টাকা, যার মধ্যে থাকা, খাওয়া, সন্ধ্যাকালীন তত্ত্বাবধানে পড়াশোনা এবং ধোপার খরচ অন্তর্ভুক্ত। টিউশন ফি আলাদাভাবে দিতে হবে। আবাসিক শিক্ষার্থীদের প্রতিদিন সকালে শরীরচর্চা এবং সন্ধ্যায় নির্ধারিত সময়ে পড়ার টেবিলে বসা বাধ্যতামূলক।
+
+    অভিভাবকরা প্রতি মাসের প্রথম ও তৃতীয় শুক্রবার সকাল ১০টা থেকে দুপুর ১টা পর্যন্ত সন্তানের সঙ্গে দেখা করতে পারবেন। বিশেষ প্রয়োজনে প্রধান শিক্ষকের অনুমতি নিয়ে অন্য দিনেও সাক্ষাৎ করা যাবে। শিক্ষার্থীরা মোবাইল ফোন ব্যবহার করতে পারবে না, তবে অভিভাবকদের সঙ্গে কথা বলার জন্য অফিসের ফোন নির্ধারিত সময়ে ব্যবহার করা যাবে।
+
+    আবাসিক শাখায় ভর্তির সময় শিক্ষার্থীর স্বাস্থ্য সনদ, টিকা কার্ডের কপি এবং অভিভাবকের জাতীয় পরিচয়পত্রের কপি জমা দিতে হবে। বিছানাপত্র ও ব্যক্তিগত ব্যবহারের জিনিসপত্র শিক্ষার্থীকে নিজে আনতে হবে। ভর্তি পরীক্ষার তারিখ ও সময় অফিস থেকে জেনে নেওয়ার অনুরোধ করা হলো।
+
+    প্রধান শিক্ষক
+    বকফুল আবাসিক মডেল স্কুল
+  answer_sentence: "বিদ্যালয়ের আবাসিক ভবনে বর্তমানে ২৬৫ জন শিক্ষার্থীর থাকার ব্যবস্থা রয়েছে।"
+  insuff_replacement: ""
+  gold: {value: 265}
+  q:
+    en: "How many students can be accommodated in the residential building of Bokphul Residential Model School?"
+    bn: "বকফুল আবাসিক মডেল স্কুলের আবাসিক ভবনে কতজন শিক্ষার্থীর থাকার ব্যবস্থা আছে?"
+    rbn: "bokful abashik model school er abashik vobone kotojon shikkharthir thakar bebostha ache?"
+    cm: "বকফুল আবাসিক মডেল স্কুলের hostel building এ কতজন student থাকতে পারে?"
+    cmr: "bokful abashik model school er hostel building e kotojon student thakte pare?"
+  sibling:
+    answer_type: amount
+    gold: {value: 7200}
+    q:
+      en: "What is the monthly cost for residential students at Bokphul Residential Model School?"
+      bn: "বকফুল আবাসিক মডেল স্কুলে আবাসিক শিক্ষার্থীদের মাসিক খরচ কত টাকা?"
+      rbn: "bokful abashik model school e abashik shikkharthider mashik khoroch koto taka?"
+      cm: "বকফুল আবাসিক মডেল স্কুলে residential student দের monthly খরচ কত টাকা?"
+      cmr: "bokful abashik model school e residential student der monthly khoroch koto taka?"
+
+- id: N030
+  format: multi
+  domain: school_event
+  answer_type: yesno
+  entity:
+    bn: "বাঁশপাতা কলেজ বিতর্ক ক্লাব"
+    rom: "bashpata college bitorko club"
+    en: "Banshpata College Debating Club"
+  edit_type: neutralisation
+  passage: |
+    বাঁশপাতা কলেজ বিতর্ক ক্লাব
+    বার্ষিক বিতর্ক প্রতিযোগিতা ২০২৭
+
+    যুক্তিনির্ভর চিন্তা ও উপস্থাপনার দক্ষতা বাড়াতে বাঁশপাতা কলেজ বিতর্ক ক্লাব বার্ষিক বিতর্ক প্রতিযোগিতা ২০২৭-এর আয়োজন করেছে। প্রতিযোগিতার চূড়ান্ত পর্ব অনুষ্ঠিত হবে ১৭ আগস্ট ২০২৭ তারিখে কলেজ মিলনায়তনে। প্রাথমিক পর্বগুলো চূড়ান্ত পর্বের আগের দুই সপ্তাহে কলেজের বিভিন্ন শ্রেণিকক্ষে অনুষ্ঠিত হবে।
+
+    প্রতিযোগিতা হবে সংসদীয় পদ্ধতিতে। প্রতিটি দলে তিনজন বিতার্কিক থাকবে এবং প্রত্যেক বক্তা নির্ধারিত সময় পাবেন। প্রাথমিক পর্বের বিষয় আগে থেকে জানিয়ে দেওয়া হবে, তবে চূড়ান্ত পর্বের বিষয় বিতর্ক শুরুর আধা ঘণ্টা আগে ঘোষণা করা হবে।
+
+    বাইরের কোনো কলেজের শিক্ষার্থী এই প্রতিযোগিতায় অংশ নিতে পারবে না; শুধু বাঁশপাতা কলেজের নিয়মিত শিক্ষার্থীরাই দল গঠন করতে পারবে। দলের নাম ও সদস্যদের তালিকা ক্লাবের সাধারণ সম্পাদকের কাছে জমা দিতে হবে। নিবন্ধনের জন্য কোনো ফি নেই।
+
+    চ্যাম্পিয়ন ও রানার্সআপ দলকে ট্রফি ও সনদপত্র দেওয়া হবে। এছাড়া চূড়ান্ত পর্বের শ্রেষ্ঠ বক্তাকে বিশেষ পুরস্কার দেওয়া হবে। বিচারক হিসেবে থাকবেন কলেজের শিক্ষক ও ক্লাবের প্রাক্তন সদস্যরা। বিতর্কে অংশগ্রহণকারীদের শালীন পোশাক পরে আসতে এবং প্রতিপক্ষের প্রতি সম্মানজনক আচরণ বজায় রাখতে অনুরোধ করা হচ্ছে। বিস্তারিত জানতে ক্লাবের কক্ষে যোগাযোগ করুন।
+
+    সভাপতি
+    বাঁশপাতা কলেজ বিতর্ক ক্লাব
+  answer_sentence: "বাইরের কোনো কলেজের শিক্ষার্থী এই প্রতিযোগিতায় অংশ নিতে পারবে না; শুধু বাঁশপাতা কলেজের নিয়মিত শিক্ষার্থীরাই দল গঠন করতে পারবে।"
+  insuff_replacement: "অন্যান্য কলেজের শিক্ষার্থীদের অংশগ্রহণের বিষয়ে ক্লাবের কার্যনির্বাহী কমিটি পরে সিদ্ধান্ত জানাবে।"
+  gold: {value: false}
+  q:
+    en: "Can students from other colleges take part in the debate competition of the Banshpata College Debating Club?"
+    bn: "বাঁশপাতা কলেজ বিতর্ক ক্লাবের প্রতিযোগিতায় কি অন্য কলেজের শিক্ষার্থীরা অংশ নিতে পারবে?"
+    rbn: "bashpata college bitorko club er protijogitay ki onno college er shikkharthira ongsho nite parbe?"
+    cm: "বাঁশপাতা কলেজ বিতর্ক ক্লাবের debate competition এ কি অন্য college এর students অংশ নিতে পারবে?"
+    cmr: "bashpata college bitorko club er debate competition e ki onno college er students ongsho nite parbe?"
+  sibling:
+    answer_type: date
+    gold: {day: 17, month: 8, year: 2027}
+    q:
+      en: "On what date will the final round of the Banshpata College Debating Club competition be held?"
+      bn: "বাঁশপাতা কলেজ বিতর্ক ক্লাবের প্রতিযোগিতার চূড়ান্ত পর্ব কোন তারিখে হবে?"
+      rbn: "bashpata college bitorko club er protijogitar churanto porbo kon tarikhe hobe?"
+      cm: "বাঁশপাতা কলেজ বিতর্ক ক্লাবের competition এর final round কোন date এ হবে?"
+      cmr: "bashpata college bitorko club er competition er final round kon date e hobe?"
+
+- id: N031
+  format: multi
+  domain: coaching
+  answer_type: amount
+  entity:
+    bn: "নিশিন্দা চাকরি প্রস্তুতি কেন্দ্র"
+    rom: "nishinda chakri prostuti kendro"
+    en: "Nishinda Job Preparation Centre"
+  edit_type: deletion
+  passage: |
+    নিশিন্দা চাকরি প্রস্তুতি কেন্দ্র
+    শিক্ষক নিবন্ধন পরীক্ষা প্রস্তুতি — ক্র্যাশ কোর্স ২০২৭
+
+    বেসরকারি শিক্ষক নিবন্ধন পরীক্ষার প্রার্থীদের জন্য নিশিন্দা চাকরি প্রস্তুতি কেন্দ্র একটি নিবিড় ক্র্যাশ কোর্স চালু করতে যাচ্ছে। কোর্সে মোট ৪৫টি ক্লাস হবে, যেখানে বাংলা, ইংরেজি, গণিত, সাধারণ জ্ঞান এবং বিষয়ভিত্তিক অংশের প্রস্তুতি দেওয়া হবে। স্কুল ও কলেজ পর্যায়ের প্রার্থীদের জন্য আলাদা ব্যাচ থাকবে।
+
+    প্রতিটি অধ্যায় শেষে একটি ছোট পরীক্ষা এবং মাসে দুটি পূর্ণাঙ্গ মডেল টেস্ট নেওয়া হবে। বিগত বছরগুলোর প্রশ্নের বিশ্লেষণ ও সমাধান ক্লাস কোর্সের অন্যতম আকর্ষণ। ক্লাস নেবেন অভিজ্ঞ শিক্ষক এবং ইতিমধ্যে নিবন্ধন পরীক্ষায় উত্তীর্ণ প্রশিক্ষকরা।
+
+    ক্র্যাশ কোর্সের ফি ৮,৯০০ টাকা, যার মধ্যে সব লেকচার শিট ও মডেল টেস্টের খরচ অন্তর্ভুক্ত। যাঁরা শুধু কেন্দ্রের পাঠকক্ষ ও প্রশ্নব্যাংক ব্যবহার করতে চান, তাঁদের জন্য মাসিক ১,০০০ টাকার আলাদা সদস্যপদ রয়েছে। কোর্স ফি এককালীন অথবা দুই কিস্তিতে পরিশোধ করা যাবে।
+
+    ভর্তির সময় স্নাতক বা স্নাতকোত্তর সনদের ফটোকপি এবং এক কপি ছবি জমা দিতে হবে। ক্লাস হবে শুক্র ও শনিবার সকাল ৯টা থেকে দুপুর ১টা পর্যন্ত, যাতে কর্মরত প্রার্থীরাও অংশ নিতে পারেন। নিয়মিত উপস্থিত ও মডেল টেস্টে ভালো ফল করা প্রার্থীদের বিশেষ পরামর্শ সেশনে ডাকা হবে। আসন সীমিত হওয়ায় দ্রুত যোগাযোগ করার অনুরোধ করা হলো।
+
+    পরিচালক
+    নিশিন্দা চাকরি প্রস্তুতি কেন্দ্র
+  answer_sentence: "ক্র্যাশ কোর্সের ফি ৮,৯০০ টাকা, যার মধ্যে সব লেকচার শিট ও মডেল টেস্টের খরচ অন্তর্ভুক্ত।"
+  insuff_replacement: ""
+  gold: {value: 8900}
+  q:
+    en: "What is the fee for the crash course at Nishinda Job Preparation Centre?"
+    bn: "নিশিন্দা চাকরি প্রস্তুতি কেন্দ্রের ক্র্যাশ কোর্সের ফি কত টাকা?"
+    rbn: "nishinda chakri prostuti kendro er krash korser fee koto taka?"
+    cm: "নিশিন্দা চাকরি প্রস্তুতি কেন্দ্রের crash course এর fee কত টাকা?"
+    cmr: "nishinda chakri prostuti kendro er crash course er fee koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 45}
+    q:
+      en: "How many classes are there in the crash course at Nishinda Job Preparation Centre?"
+      bn: "নিশিন্দা চাকরি প্রস্তুতি কেন্দ্রের ক্র্যাশ কোর্সে মোট কয়টি ক্লাস হবে?"
+      rbn: "nishinda chakri prostuti kendro er krash korse mot koyti klash hobe?"
+      cm: "নিশিন্দা চাকরি প্রস্তুতি কেন্দ্রের crash course এ মোট কয়টি class হবে?"
+      cmr: "nishinda chakri prostuti kendro er crash course e mot koyti class hobe?"
+
+- id: N032
+  format: multi
+  domain: scholarship
+  answer_type: date
+  entity:
+    bn: "ঘৃতকুমারী শিক্ষা ফাউন্ডেশন"
+    rom: "ghritokumari shikkha foundation"
+    en: "Ghritakumari Education Foundation"
+  edit_type: neutralisation
+  passage: |
+    ঘৃতকুমারী শিক্ষা ফাউন্ডেশন
+    উচ্চশিক্ষা বৃত্তি ২০২৭: আবেদন ও সাক্ষাৎকার সংক্রান্ত বিজ্ঞপ্তি
+
+    বিশ্ববিদ্যালয় ও মেডিকেল কলেজে প্রথম বর্ষে অধ্যয়নরত অসচ্ছল শিক্ষার্থীদের জন্য ঘৃতকুমারী শিক্ষা ফাউন্ডেশন উচ্চশিক্ষা বৃত্তি ২০২৭-এর আবেদন আহ্বান করছে। নির্বাচিত শিক্ষার্থীরা স্নাতক কোর্স শেষ না হওয়া পর্যন্ত মাসিক বৃত্তি পাবে, তবে প্রতি বছর ফলাফল পর্যালোচনা করে বৃত্তি নবায়ন করা হবে।
+
+    আবেদনপত্র জমার শেষ তারিখ ৩০ জুন ২০২৭। আবেদনের সঙ্গে মাধ্যমিক ও উচ্চ মাধ্যমিক পরীক্ষার নম্বরপত্র, বর্তমান প্রতিষ্ঠানের ভর্তির রসিদ, অভিভাবকের আয়ের প্রমাণপত্র এবং একটি সংক্ষিপ্ত ব্যক্তিগত বিবৃতি জমা দিতে হবে। বিবৃতিতে শিক্ষার্থী তার পারিবারিক অবস্থা ও ভবিষ্যৎ পরিকল্পনা সম্পর্কে লিখবে।
+
+    আবেদনপত্র যাচাই-বাছাইয়ের পর প্রাথমিকভাবে নির্বাচিতদের তালিকা ফাউন্ডেশনের নোটিশ বোর্ডে প্রকাশ করা হবে। বাছাইকৃত আবেদনকারীদের সাক্ষাৎকার নেওয়া হবে ২৮ জুলাই ২০২৭ তারিখে ফাউন্ডেশনের কার্যালয়ে। সাক্ষাৎকারের সময় সকল মূল কাগজপত্র সঙ্গে আনতে হবে এবং একজন অভিভাবককে উপস্থিত থাকতে হবে।
+
+    অন্য কোনো প্রতিষ্ঠান থেকে নিয়মিত বৃত্তি পাচ্ছে এমন শিক্ষার্থীরা আবেদন করতে পারবে না। বৃত্তি পাওয়ার পর শিক্ষার্থীদের প্রতি বছর অন্তত একবার ফাউন্ডেশনের স্বেচ্ছাসেবী কার্যক্রমে অংশ নিতে হবে। ভুল তথ্য দিলে বৃত্তি যেকোনো সময় বাতিল করা হবে এবং প্রদত্ত অর্থ ফেরত দিতে হবে। বিস্তারিত জানতে ফাউন্ডেশনের কার্যালয়ে কর্মদিবসে যোগাযোগ করুন।
+
+    নির্বাহী পরিচালক
+    ঘৃতকুমারী শিক্ষা ফাউন্ডেশন
+  answer_sentence: "বাছাইকৃত আবেদনকারীদের সাক্ষাৎকার নেওয়া হবে ২৮ জুলাই ২০২৭ তারিখে ফাউন্ডেশনের কার্যালয়ে।"
+  insuff_replacement: "বাছাইকৃত আবেদনকারীদের সাক্ষাৎকার ফাউন্ডেশনের কার্যালয়ে নেওয়া হবে; সাক্ষাৎকারের তারিখ মোবাইলে ক্ষুদে বার্তার মাধ্যমে জানানো হবে।"
+  gold: {day: 28, month: 7, year: 2027}
+  q:
+    en: "On what date will the Ghritakumari Education Foundation interview shortlisted scholarship applicants?"
+    bn: "ঘৃতকুমারী শিক্ষা ফাউন্ডেশন বাছাইকৃত বৃত্তি আবেদনকারীদের সাক্ষাৎকার কোন তারিখে নেবে?"
+    rbn: "ghritokumari shikkha foundation bachaikrito britti abedonkarider shakkhatkar kon tarikhe nebe?"
+    cm: "ঘৃতকুমারী শিক্ষা ফাউন্ডেশন shortlisted applicant দের interview কোন date এ নেবে?"
+    cmr: "ghritokumari shikkha foundation shortlisted applicant der interview kon date e nebe?"
+  sibling:
+    answer_type: date
+    gold: {day: 30, month: 6, year: 2027}
+    q:
+      en: "What is the last date to apply for the higher education scholarship of the Ghritakumari Education Foundation?"
+      bn: "ঘৃতকুমারী শিক্ষা ফাউন্ডেশনের উচ্চশিক্ষা বৃত্তির আবেদনের শেষ তারিখ কবে?"
+      rbn: "ghritokumari shikkha foundation er uccho shikkha brittir abedoner shesh tarikh kobe?"
+      cm: "ঘৃতকুমারী শিক্ষা ফাউন্ডেশনের higher education scholarship এর last date কবে?"
+      cmr: "ghritokumari shikkha foundation er higher education scholarship er last date kobe?"
+
+- id: N033
+  format: multi
+  domain: school_event
+  answer_type: name
+  entity:
+    bn: "মান্দারতলী উচ্চ বিদ্যালয়"
+    rom: "mandartoli uccho biddaloy"
+    en: "Mandartali High School"
+  edit_type: deletion
+  passage: |
+    মান্দারতলী উচ্চ বিদ্যালয়
+    বিদায় ও বরণ অনুষ্ঠানের আমন্ত্রণ
+
+    মান্দারতলী উচ্চ বিদ্যালয়ের দীর্ঘদিনের প্রধান শিক্ষক জনাব নজরুল ইসলাম ফকির সুদীর্ঘ চাকরিজীবন শেষে অবসরে যাচ্ছেন। তাঁর বিদায় এবং নতুন প্রধান শিক্ষককে বরণ উপলক্ষে আগামী ১০ জানুয়ারি ২০২৭ তারিখে বিদ্যালয় মিলনায়তনে একটি অনুষ্ঠানের আয়োজন করা হয়েছে। অনুষ্ঠান শুরু হবে সকাল ১১টায়।
+
+    বিদায়ী প্রধান শিক্ষক দীর্ঘ সময় ধরে বিদ্যালয়ের শিক্ষার মান উন্নয়ন, নতুন বিজ্ঞানাগার স্থাপন এবং দরিদ্র শিক্ষার্থীদের জন্য বিনা বেতনে পড়ার সুযোগ সৃষ্টিতে গুরুত্বপূর্ণ ভূমিকা রেখেছেন। তাঁর অবদানের স্বীকৃতিস্বরূপ বিদ্যালয়ের পক্ষ থেকে তাঁকে সম্মাননা স্মারক প্রদান করা হবে।
+
+    বিদ্যালয়ের নতুন প্রধান শিক্ষক হিসেবে যোগদান করেছেন দিলরুবা ইয়াসমিন পাপড়ি, যিনি এর আগে পাশের উপজেলার একটি বালিকা বিদ্যালয়ে সহকারী প্রধান শিক্ষক ছিলেন। অনুষ্ঠানে তাঁকে আনুষ্ঠানিকভাবে বরণ করে নেওয়া হবে এবং তিনি বিদ্যালয়ের ভবিষ্যৎ পরিকল্পনা নিয়ে বক্তব্য দেবেন।
+
+    অনুষ্ঠানে প্রাক্তন শিক্ষার্থী, অভিভাবক, পরিচালনা কমিটির সদস্য এবং এলাকার শিক্ষানুরাগী ব্যক্তিবর্গকে উপস্থিত থাকার আন্তরিক আমন্ত্রণ জানানো হচ্ছে। অনুষ্ঠান শেষে দুপুরের খাবারের ব্যবস্থা থাকবে। প্রাক্তন শিক্ষার্থীরা কোনো স্মৃতিচারণ বা উপহার দিতে চাইলে আয়োজক কমিটির সঙ্গে আগে যোগাযোগ করতে পারবেন। সকলের উপস্থিতি অনুষ্ঠানকে সফল করবে।
+
+    আহ্বায়ক, আয়োজক কমিটি
+    মান্দারতলী উচ্চ বিদ্যালয়
+  answer_sentence: "বিদ্যালয়ের নতুন প্রধান শিক্ষক হিসেবে যোগদান করেছেন দিলরুবা ইয়াসমিন পাপড়ি, যিনি এর আগে পাশের উপজেলার একটি বালিকা বিদ্যালয়ে সহকারী প্রধান শিক্ষক ছিলেন।"
+  insuff_replacement: ""
+  gold: {aliases: ["দিলরুবা ইয়াসমিন পাপড়ি", "Dilruba Yasmin Papri", "Dilruba Yeasmin Papri", "Dilruba Yasmin Papry"]}
+  q:
+    en: "Who has joined Mandartali High School as the new headteacher?"
+    bn: "মান্দারতলী উচ্চ বিদ্যালয়ের নতুন প্রধান শিক্ষক হিসেবে কে যোগ দিয়েছেন?"
+    rbn: "mandartoli uccho biddaloyer notun prodhan shikkhok hishebe ke jog diyechen?"
+    cm: "মান্দারতলী উচ্চ বিদ্যালয়ের নতুন headmaster হিসেবে কে join করেছেন?"
+    cmr: "mandartoli uccho biddaloyer notun headmaster hishebe ke join korechen?"
+  sibling:
+    answer_type: date
+    gold: {day: 10, month: 1, year: 2027}
+    q:
+      en: "On what date will the farewell and welcome ceremony at Mandartali High School be held?"
+      bn: "মান্দারতলী উচ্চ বিদ্যালয়ের বিদায় ও বরণ অনুষ্ঠান কোন তারিখে হবে?"
+      rbn: "mandartoli uccho biddaloyer biday o boron onushthan kon tarikhe hobe?"
+      cm: "মান্দারতলী উচ্চ বিদ্যালয়ের farewell ও welcome অনুষ্ঠান কোন date এ হবে?"
+      cmr: "mandartoli uccho biddaloyer farewell o welcome onushthan kon date e hobe?"
+
+- id: N034
+  format: multi
+  domain: library
+  answer_type: number
+  entity:
+    bn: "জলটুঙি গণপাঠাগার"
+    rom: "joltungi gonopathagar"
+    en: "Joltungi Public Reading Library"
+  edit_type: neutralisation
+  passage: |
+    জলটুঙি গণপাঠাগার
+    নতুন বই সংযোজন ও সদস্য সংগ্রহ অভিযান
+
+    জলটুঙি গণপাঠাগারের সকল সদস্য ও শুভানুধ্যায়ীকে আনন্দের সঙ্গে জানানো যাচ্ছে যে, পাঠাগারের সংগ্রহ আরও সমৃদ্ধ হয়েছে। একজন প্রবাসী শুভানুধ্যায়ী পাঠাগারকে ৮৭৫টি বই দান করেছেন। দান করা বইয়ের মধ্যে রয়েছে উপন্যাস, ইতিহাস, বিজ্ঞান, মুক্তিযুদ্ধ বিষয়ক গ্রন্থ এবং শিশু-কিশোরদের জন্য সচিত্র বই।
+
+    নতুন বইগুলো শ্রেণিবিন্যাস ও তালিকাভুক্ত করার কাজ চলছে এবং আগামী মাসের মধ্যে সেগুলো পাঠকদের জন্য উন্মুক্ত করা হবে। শিশু-কিশোরদের বইগুলোর জন্য পাঠাগারের নিচতলায় একটি আলাদা শিশু কর্নার তৈরি করা হচ্ছে।
+
+    এ উপলক্ষে পাঠাগার একটি সদস্য সংগ্রহ অভিযান শুরু করেছে। সাধারণ সদস্যদের বার্ষিক চাঁদা ৩৬০ টাকা। শিক্ষার্থীদের জন্য পরিচয়পত্র দেখানো সাপেক্ষে চাঁদায় ছাড় দেওয়া হবে। সদস্যরা একবারে দুটি বই সর্বোচ্চ চৌদ্দ দিনের জন্য বাড়িতে নিতে পারবেন। নির্ধারিত সময়ের মধ্যে বই ফেরত না দিলে প্রতিদিনের জন্য জরিমানা দিতে হবে।
+
+    পাঠাগার প্রতিদিন বিকেল ৩টা থেকে রাত ৮টা পর্যন্ত খোলা থাকে, শুধু বুধবার সাপ্তাহিক বন্ধ। পাঠাগারে পত্রিকা পড়ার কক্ষ সবার জন্য উন্মুক্ত, এর জন্য সদস্য হওয়ার প্রয়োজন নেই। যাঁরা পাঠাগারে বই দান করতে চান, তাঁরা পাঠাগার সম্পাদকের সঙ্গে যোগাযোগ করতে পারেন। পাঠাগারকে এলাকার জ্ঞানচর্চার কেন্দ্র হিসেবে গড়ে তুলতে সকলের সহযোগিতা কামনা করছি।
+
+    সাধারণ সম্পাদক
+    জলটুঙি গণপাঠাগার
+  answer_sentence: "একজন প্রবাসী শুভানুধ্যায়ী পাঠাগারকে ৮৭৫টি বই দান করেছেন।"
+  insuff_replacement: "একজন প্রবাসী শুভানুধ্যায়ী পাঠাগারকে বিপুল সংখ্যক বই দান করেছেন।"
+  gold: {value: 875}
+  q:
+    en: "How many books did an expatriate well-wisher donate to the Joltungi Public Reading Library?"
+    bn: "একজন প্রবাসী শুভানুধ্যায়ী জলটুঙি গণপাঠাগারকে কয়টি বই দান করেছেন?"
+    rbn: "ekjon probashi shuvanuddhayi joltungi gonopathagarke koyti boi dan korechen?"
+    cm: "একজন probashi well-wisher জলটুঙি গণপাঠাগারকে কয়টি book দান করেছেন?"
+    cmr: "ekjon probashi well-wisher joltungi gonopathagarke koyti book dan korechen?"
+  sibling:
+    answer_type: amount
+    gold: {value: 360}
+    q:
+      en: "What is the annual subscription for general members of the Joltungi Public Reading Library?"
+      bn: "জলটুঙি গণপাঠাগারের সাধারণ সদস্যদের বার্ষিক চাঁদা কত টাকা?"
+      rbn: "joltungi gonopathagarer sadharon shodossoder barshik chada koto taka?"
+      cm: "জলটুঙি গণপাঠাগারের general member দের annual চাঁদা কত টাকা?"
+      cmr: "joltungi gonopathagarer general member der annual chada koto taka?"
+
+- id: N035
+  format: multi
+  domain: admission
+  answer_type: yesno
+  entity:
+    bn: "ভাটিয়ালিগঞ্জ বিশ্ববিদ্যালয়"
+    rom: "vatiyaliganj bisshobiddaloy"
+    en: "Bhatialiganj University"
+  edit_type: neutralisation
+  passage: |
+    ভাটিয়ালিগঞ্জ বিশ্ববিদ্যালয়
+    স্নাতক প্রথম বর্ষ ভর্তি পরীক্ষা: পরীক্ষার্থীদের জন্য নির্দেশনা
+
+    ভাটিয়ালিগঞ্জ বিশ্ববিদ্যালয়ের ২০২৭-২৮ শিক্ষাবর্ষের স্নাতক প্রথম বর্ষ ভর্তি পরীক্ষা বিশ্ববিদ্যালয় ক্যাম্পাসে অনুষ্ঠিত হবে। এ বছর বিভিন্ন বিভাগে মোট ১,৮৬০ আসনের বিপরীতে ভর্তি পরীক্ষা নেওয়া হবে। প্রবেশপত্রে প্রতিটি পরীক্ষার্থীর কেন্দ্র, ভবন ও কক্ষ নম্বর উল্লেখ থাকবে।
+
+    পরীক্ষার্থীদের পরীক্ষা শুরুর অন্তত এক ঘণ্টা আগে ক্যাম্পাসে পৌঁছাতে হবে। ভর্তি পরীক্ষার দিন শহরের রেলস্টেশন ও বাস টার্মিনাল থেকে পরীক্ষার্থীদের জন্য বিশ্ববিদ্যালয়ের বিনামূল্যে বাস সেবা চালু থাকবে। অভিভাবকদের অপেক্ষার জন্য ক্যাম্পাসের কেন্দ্রীয় মাঠে প্যান্ডেল টানানো হবে, তবে তাঁরা পরীক্ষার ভবনে প্রবেশ করতে পারবেন না।
+
+    পরীক্ষার্থীরা শুধু প্রবেশপত্র, কালো কালির বলপয়েন্ট কলম এবং স্বচ্ছ পানির বোতল সঙ্গে আনতে পারবে। ঘড়ি, ক্যালকুলেটর, মোবাইল ফোন বা যেকোনো ইলেকট্রনিক যন্ত্র সঙ্গে রাখা সম্পূর্ণ নিষিদ্ধ। কোনো পরীক্ষার্থী নিষিদ্ধ বস্তুসহ ধরা পড়লে তার পরীক্ষা বাতিল করা হবে।
+
+    ক্যাম্পাসে বিভিন্ন স্থানে তথ্যকেন্দ্র ও স্বেচ্ছাসেবক থাকবে, যারা পরীক্ষার্থীদের নির্দিষ্ট ভবন খুঁজে পেতে সহায়তা করবে। অসুস্থ পরীক্ষার্থীদের জন্য মেডিকেল সেন্টারে জরুরি চিকিৎসার ব্যবস্থা থাকবে। ফলাফল প্রকাশের পর মেধাক্রম অনুযায়ী বিভাগ বাছাইয়ের নির্দেশনা আলাদাভাবে জানানো হবে।
+
+    সদস্যসচিব, কেন্দ্রীয় ভর্তি পরীক্ষা কমিটি
+    ভাটিয়ালিগঞ্জ বিশ্ববিদ্যালয়
+  answer_sentence: "ভর্তি পরীক্ষার দিন শহরের রেলস্টেশন ও বাস টার্মিনাল থেকে পরীক্ষার্থীদের জন্য বিশ্ববিদ্যালয়ের বিনামূল্যে বাস সেবা চালু থাকবে।"
+  insuff_replacement: "ভর্তি পরীক্ষার দিন পরীক্ষার্থীদের যাতায়াত ব্যবস্থা সম্পর্কে পরবর্তীতে বিস্তারিত জানানো হবে।"
+  gold: {value: true}
+  q:
+    en: "Will Bhatialiganj University run a free bus service for candidates on the admission test day?"
+    bn: "ভাটিয়ালিগঞ্জ বিশ্ববিদ্যালয় কি ভর্তি পরীক্ষার দিন পরীক্ষার্থীদের জন্য বিনামূল্যে বাস সেবা দেবে?"
+    rbn: "vatiyaliganj bisshobiddaloy ki vorti porikkhar din porikkharthider jonno binamulle bas seba debe?"
+    cm: "ভাটিয়ালিগঞ্জ বিশ্ববিদ্যালয় কি admission test এর দিন পরীক্ষার্থীদের জন্য free bus service দেবে?"
+    cmr: "vatiyaliganj bisshobiddaloy ki admission test er din porikkharthider jonno free bus service debe?"
+  sibling:
+    answer_type: number
+    gold: {value: 1860}
+    q:
+      en: "How many seats in total is the admission test at Bhatialiganj University being held for this year?"
+      bn: "ভাটিয়ালিগঞ্জ বিশ্ববিদ্যালয়ে এ বছর মোট কয়টি আসনের জন্য ভর্তি পরীক্ষা নেওয়া হবে?"
+      rbn: "vatiyaliganj bisshobiddaloye e bochor mot koyti ashoner jonno vorti porikkha newa hobe?"
+      cm: "ভাটিয়ালিগঞ্জ বিশ্ববিদ্যালয়ে এ বছর মোট কয়টি seat এর জন্য admission test হবে?"
+      cmr: "vatiyaliganj bisshobiddaloye e bochor mot koyti seat er jonno admission test hobe?"
+
+- id: N036
+  format: multi
+  domain: training
+  answer_type: amount
+  entity:
+    bn: "কুমড়োফুল শিশু চিত্রাঙ্কন বিদ্যালয়"
+    rom: "kumroful shishu chitrankon biddaloy"
+    en: "Kumrophul Children's Art School"
+  edit_type: deletion
+  passage: |
+    কুমড়োফুল শিশু চিত্রাঙ্কন বিদ্যালয়
+    নতুন সেশনে ভর্তি চলছে — জানুয়ারি ২০২৭
+
+    শিশুদের সৃজনশীলতা বিকাশের লক্ষ্যে কুমড়োফুল শিশু চিত্রাঙ্কন বিদ্যালয়ে জানুয়ারি ২০২৭ সেশনে চার থেকে চৌদ্দ বছর বয়সী শিশুদের ভর্তি চলছে। বয়স অনুযায়ী শিশুদের তিনটি দলে ভাগ করে ক্লাস নেওয়া হবে: কুঁড়ি, পাপড়ি ও ফুল। প্রতিটি দলে সপ্তাহে দুই দিন, শুক্র ও শনিবার সকালে ক্লাস হবে।
+
+    ক্লাসে পেনসিল স্কেচ, জলরং, প্যাস্টেল, কোলাজ এবং মাটির কাজ শেখানো হবে। বড় দলের শিশুদের জন্য বছরে দুবার প্রকৃতি দেখে আঁকার বিশেষ আয়োজন থাকবে। প্রতিটি ক্লাসের শেষে শিশুদের আঁকা ছবি নিয়ে আলোচনা করা হয়, যাতে তারা নিজের কাজ নিয়ে কথা বলতে শেখে।
+
+    ভর্তি ফি ৫০০ টাকা। প্রতিটি শিশুর মাসিক বেতন ১,৩৫০ টাকা, যা প্রতি মাসের প্রথম সপ্তাহে পরিশোধ করতে হবে। আঁকার খাতা ও প্রাথমিক রং বিদ্যালয় থেকে সরবরাহ করা হবে, তবে উন্নত মানের রং ও তুলি অভিভাবকদের কিনে দিতে হবে। একই পরিবারের দুই শিশু ভর্তি হলে দ্বিতীয় শিশুর ভর্তি ফি লাগবে না।
+
+    আগামী ১৪ জুলাই ২০২৭ তারিখে শিক্ষার্থীদের আঁকা ছবি নিয়ে বিদ্যালয়ের বার্ষিক চিত্র প্রদর্শনী অনুষ্ঠিত হবে, যেখানে সেরা ছবিগুলোকে পুরস্কৃত করা হবে। ভর্তির সময় শিশুর জন্মনিবন্ধন সনদের কপি ও দুই কপি ছবি জমা দিতে হবে। অভিভাবকদের ক্লাস চলাকালীন অপেক্ষার জন্য আলাদা কক্ষ রয়েছে।
+
+    অধ্যক্ষ
+    কুমড়োফুল শিশু চিত্রাঙ্কন বিদ্যালয়
+  answer_sentence: "প্রতিটি শিশুর মাসিক বেতন ১,৩৫০ টাকা, যা প্রতি মাসের প্রথম সপ্তাহে পরিশোধ করতে হবে।"
+  insuff_replacement: ""
+  gold: {value: 1350}
+  q:
+    en: "What is the monthly tuition fee per child at Kumrophul Children's Art School?"
+    bn: "কুমড়োফুল শিশু চিত্রাঙ্কন বিদ্যালয়ে প্রতিটি শিশুর মাসিক বেতন কত টাকা?"
+    rbn: "kumroful shishu chitrankon biddaloye protiti shishur mashik beton koto taka?"
+    cm: "কুমড়োফুল শিশু চিত্রাঙ্কন বিদ্যালয়ে প্রতিটি শিশুর monthly fee কত টাকা?"
+    cmr: "kumroful shishu chitrankon biddaloye protiti shishur monthly fee koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 14, month: 7, year: 2027}
+    q:
+      en: "On what date will the annual art exhibition of Kumrophul Children's Art School be held?"
+      bn: "কুমড়োফুল শিশু চিত্রাঙ্কন বিদ্যালয়ের বার্ষিক চিত্র প্রদর্শনী কোন তারিখে হবে?"
+      rbn: "kumroful shishu chitrankon biddaloyer barshik chitro prodorshoni kon tarikhe hobe?"
+      cm: "কুমড়োফুল শিশু চিত্রাঙ্কন বিদ্যালয়ের annual art exhibition কোন তারিখে হবে?"
+      cmr: "kumroful shishu chitrankon biddaloyer annual art exhibition kon tarikhe hobe?"
+
+- id: N037
+  format: multi
+  domain: recruitment
+  answer_type: date
+  entity:
+    bn: "গাজনতলা মহাবিদ্যালয়"
+    rom: "gajontola mohabiddaloy"
+    en: "Gajantala Mahavidyalaya"
+  edit_type: deletion
+  passage: |
+    গাজনতলা মহাবিদ্যালয়
+    প্রভাষক নিয়োগ: লিখিত পরীক্ষা সংক্রান্ত বিজ্ঞপ্তি
+
+    গাজনতলা মহাবিদ্যালয়ের প্রভাষক পদে নিয়োগের জন্য প্রকাশিত বিজ্ঞপ্তির পরিপ্রেক্ষিতে আবেদনকারী প্রার্থীদের জানানো যাচ্ছে যে, আবেদনপত্র যাচাই-বাছাই সম্পন্ন হয়েছে। বাংলা, ইংরেজি, অর্থনীতি, রসায়ন ও হিসাববিজ্ঞানসহ বিভিন্ন বিষয়ে মোট ৯টি প্রভাষক পদে নিয়োগ দেওয়া হবে। যোগ্য প্রার্থীদের রোল নম্বরসহ তালিকা মহাবিদ্যালয়ের নোটিশ বোর্ডে প্রকাশ করা হয়েছে।
+
+    প্রভাষক পদের লিখিত পরীক্ষা ৮ মে ২০২৭ তারিখে মহাবিদ্যালয়ের একাডেমিক ভবনে অনুষ্ঠিত হবে। লিখিত পরীক্ষা হবে একশো নম্বরের, যার মধ্যে সংশ্লিষ্ট বিষয়ে আশি নম্বর এবং সাধারণ জ্ঞান ও শিক্ষাবিষয়ক প্রশ্নে বিশ নম্বর থাকবে। পরীক্ষার সময় দুই ঘণ্টা।
+
+    প্রার্থীদের পরীক্ষার দিন প্রবেশপত্রের সঙ্গে জাতীয় পরিচয়পত্রের মূল কপি সঙ্গে আনতে হবে। প্রবেশপত্র মহাবিদ্যালয়ের অফিস থেকে কর্মদিবসে সংগ্রহ করা যাবে। পরীক্ষাকক্ষে মোবাইল ফোন বা কোনো ইলেকট্রনিক যন্ত্র নিয়ে প্রবেশ করা যাবে না।
+
+    লিখিত পরীক্ষায় উত্তীর্ণ প্রার্থীদের পরবর্তীতে মৌখিক পরীক্ষা ও শ্রেণিকক্ষে প্রদর্শনী পাঠদানের জন্য ডাকা হবে। পরীক্ষায় অংশগ্রহণের জন্য কোনো যাতায়াত ভাতা দেওয়া হবে না। কোনো প্রকার তদবির প্রার্থীর অযোগ্যতা হিসেবে বিবেচিত হবে। নিয়োগ সংক্রান্ত বিষয়ে নিয়োগ বোর্ডের সিদ্ধান্তই চূড়ান্ত।
+
+    অধ্যক্ষ ও সদস্যসচিব, নিয়োগ বোর্ড
+    গাজনতলা মহাবিদ্যালয়
+  answer_sentence: "প্রভাষক পদের লিখিত পরীক্ষা ৮ মে ২০২৭ তারিখে মহাবিদ্যালয়ের একাডেমিক ভবনে অনুষ্ঠিত হবে।"
+  insuff_replacement: ""
+  gold: {day: 8, month: 5, year: 2027}
+  q:
+    en: "On what date will the written exam for lecturer posts at Gajantala Mahavidyalaya be held?"
+    bn: "গাজনতলা মহাবিদ্যালয়ের প্রভাষক পদের লিখিত পরীক্ষা কোন তারিখে হবে?"
+    rbn: "gajontola mohabiddaloyer provashok poder likhito porikkha kon tarikhe hobe?"
+    cm: "গাজনতলা মহাবিদ্যালয়ের lecturer post এর written exam কোন তারিখে হবে?"
+    cmr: "gajontola mohabiddaloyer lecturer post er written exam kon tarikhe hobe?"
+  sibling:
+    answer_type: number
+    gold: {value: 9}
+    q:
+      en: "How many lecturer posts will be filled at Gajantala Mahavidyalaya?"
+      bn: "গাজনতলা মহাবিদ্যালয়ে মোট কয়টি প্রভাষক পদে নিয়োগ দেওয়া হবে?"
+      rbn: "gajontola mohabiddaloye mot koyti provashok pode niyog dewa hobe?"
+      cm: "গাজনতলা মহাবিদ্যালয়ে মোট কয়টি lecturer post এ নিয়োগ হবে?"
+      cmr: "gajontola mohabiddaloye mot koyti lecturer post e niyog hobe?"
+
+- id: N038
+  format: multi
+  domain: university
+  answer_type: name
+  entity:
+    bn: "নিমফুলিয়া প্রকৌশল বিশ্ববিদ্যালয়"
+    rom: "nimfuliya prokoushol bisshobiddaloy"
+    en: "Nimphulia University of Engineering"
+  edit_type: neutralisation
+  passage: |
+    নিমফুলিয়া প্রকৌশল বিশ্ববিদ্যালয়
+    ছাত্রকল্যাণ দপ্তর
+    শিক্ষার্থীদের জন্য জরুরি আর্থিক সহায়তা তহবিল
+
+    নিমফুলিয়া প্রকৌশল বিশ্ববিদ্যালয়ের ছাত্রকল্যাণ দপ্তরের পক্ষ থেকে সকল শিক্ষার্থীর অবগতির জন্য জানানো যাচ্ছে যে, জানুয়ারি ২০২৭ থেকে দপ্তরে নতুন দায়িত্ব বণ্টন কার্যকর হয়েছে। বিশ্ববিদ্যালয়ের ছাত্রকল্যাণ উপদেষ্টা হিসেবে দায়িত্ব নিয়েছেন যন্ত্রকৌশল বিভাগের অধ্যাপক ড. মাসুদুর রহমান ভূঁইয়া। শিক্ষার্থীদের যেকোনো ব্যক্তিগত, আর্থিক বা আবাসন সংক্রান্ত সমস্যায় ছাত্রকল্যাণ দপ্তরে যোগাযোগ করতে উৎসাহিত করা হচ্ছে।
+
+    এ বছর থেকে ছাত্রকল্যাণ দপ্তর একটি জরুরি আর্থিক সহায়তা তহবিল চালু করেছে। পরিবারের আকস্মিক দুর্যোগ, গুরুতর অসুস্থতা বা অভিভাবকের মৃত্যুর মতো পরিস্থিতিতে একজন শিক্ষার্থী এই তহবিল থেকে সর্বোচ্চ ১৫,০০০ টাকা পর্যন্ত এককালীন সহায়তা পেতে পারে। সহায়তার পরিমাণ সংশ্লিষ্ট কমিটি প্রয়োজন বিবেচনা করে নির্ধারণ করবে।
+
+    সহায়তার জন্য আবেদন করতে বিভাগীয় প্রধানের সুপারিশসহ নির্ধারিত ফরম পূরণ করে দপ্তরে জমা দিতে হবে। আবেদনের সঙ্গে সমস্যার সপক্ষে প্রয়োজনীয় কাগজপত্র, যেমন চিকিৎসার ব্যবস্থাপত্র বা হাসপাতালের বিল, সংযুক্ত করতে হবে। আবেদনকারীর পরিচয় ও তথ্য সম্পূর্ণ গোপন রাখা হবে।
+
+    এছাড়া দপ্তরে মানসিক স্বাস্থ্য পরামর্শ সেবা চালু রয়েছে, যেখানে প্রশিক্ষিত পরামর্শদাতারা সপ্তাহে তিন দিন শিক্ষার্থীদের সঙ্গে কথা বলেন। পরামর্শ সেবার জন্য আগে থেকে সময় নির্ধারণ করে নিতে হবে। দপ্তর রবিবার থেকে বৃহস্পতিবার সকাল ৯টা থেকে বিকেল ৪টা পর্যন্ত খোলা থাকে।
+
+    উপপরিচালক
+    ছাত্রকল্যাণ দপ্তর
+  answer_sentence: "বিশ্ববিদ্যালয়ের ছাত্রকল্যাণ উপদেষ্টা হিসেবে দায়িত্ব নিয়েছেন যন্ত্রকৌশল বিভাগের অধ্যাপক ড. মাসুদুর রহমান ভূঁইয়া।"
+  insuff_replacement: "বিশ্ববিদ্যালয়ের একজন জ্যেষ্ঠ অধ্যাপক ছাত্রকল্যাণ উপদেষ্টা হিসেবে দায়িত্ব নিয়েছেন।"
+  gold: {aliases: ["মাসুদুর রহমান ভূঁইয়া", "Masudur Rahman Bhuiyan", "Masudur Rahman Bhuiya", "Mashudur Rohman Bhuiyan"]}
+  q:
+    en: "Who has taken charge as student welfare adviser at Nimphulia University of Engineering?"
+    bn: "নিমফুলিয়া প্রকৌশল বিশ্ববিদ্যালয়ের ছাত্রকল্যাণ উপদেষ্টা হিসেবে কে দায়িত্ব নিয়েছেন?"
+    rbn: "nimfuliya prokoushol bisshobiddaloyer chatrokollan upodeshta hishebe ke dayitto niyechen?"
+    cm: "নিমফুলিয়া প্রকৌশল বিশ্ববিদ্যালয়ের student welfare adviser হিসেবে কে দায়িত্ব নিয়েছেন?"
+    cmr: "nimfuliya prokoushol bisshobiddaloyer student welfare adviser hishebe ke dayitto niyechen?"
+  sibling:
+    answer_type: amount
+    gold: {value: 15000}
+    q:
+      en: "What is the maximum one-time support a student can get from the emergency fund of Nimphulia University of Engineering?"
+      bn: "নিমফুলিয়া প্রকৌশল বিশ্ববিদ্যালয়ের জরুরি আর্থিক সহায়তা তহবিল থেকে একজন শিক্ষার্থী সর্বোচ্চ কত টাকা পেতে পারে?"
+      rbn: "nimfuliya prokoushol bisshobiddaloyer joruri arthik shohayota tohobil theke ekjon shikkharthi shorbocho koto taka pete pare?"
+      cm: "নিমফুলিয়া প্রকৌশল বিশ্ববিদ্যালয়ের emergency fund থেকে একজন student সর্বোচ্চ কত টাকা পেতে পারে?"
+      cmr: "nimfuliya prokoushol bisshobiddaloyer emergency fund theke ekjon student shorbocho koto taka pete pare?"
+
+- id: N039
+  format: multi
+  domain: coaching
+  answer_type: number
+  entity:
+    bn: "দূর্বাঘাস একাডেমি"
+    rom: "durbaghash academy"
+    en: "Durbaghash Academy"
+  edit_type: deletion
+  passage: |
+    দূর্বাঘাস একাডেমি
+    বিশ্ববিদ্যালয় ভর্তি প্রস্তুতি: নতুন ব্যাচের ঘোষণা
+
+    উচ্চ মাধ্যমিক পরীক্ষার পর বিশ্ববিদ্যালয় ভর্তি পরীক্ষার প্রস্তুতির জন্য দূর্বাঘাস একাডেমি নতুন ব্যাচে ভর্তি শুরু করেছে। নতুন ব্যাচের ক্লাস শুরু হবে ২ জুন ২০২৭ তারিখে। একাডেমিতে বিজ্ঞান, মানবিক ও ব্যবসায় শিক্ষা শাখার জন্য আলাদা আলাদা কোর্স পরিচালনা করা হয়।
+
+    গত বছর এই একাডেমির ১৫৮ জন শিক্ষার্থী বিভিন্ন সরকারি বিশ্ববিদ্যালয়ে ভর্তির সুযোগ পেয়েছে। একাডেমির শিক্ষকমণ্ডলীতে রয়েছেন বিভিন্ন বিশ্ববিদ্যালয়ের শিক্ষার্থী ও অভিজ্ঞ শিক্ষক, যাঁরা নিয়মিত ক্লাসের পাশাপাশি ব্যক্তিগত পরামর্শও দিয়ে থাকেন।
+
+    কোর্সে প্রতিদিন তিনটি ক্লাস হবে এবং প্রতি সপ্তাহের শেষে একটি সাপ্তাহিক পরীক্ষা নেওয়া হবে। পরীক্ষার ফলাফল অভিভাবকদের মোবাইলে ক্ষুদে বার্তার মাধ্যমে জানানো হবে। দূরের শিক্ষার্থীদের জন্য একাডেমির কাছে কয়েকটি মেসে থাকার ব্যবস্থা করে দেওয়া হয়, যদিও এর খরচ শিক্ষার্থীকে নিজে বহন করতে হবে।
+
+    কোর্স ফি দুই কিস্তিতে পরিশোধ করা যাবে। উচ্চ মাধ্যমিক পরীক্ষায় ভালো ফল করা শিক্ষার্থীদের জন্য ফিতে ছাড় রয়েছে। ভর্তির সময় উচ্চ মাধ্যমিক পরীক্ষার প্রবেশপত্রের ফটোকপি এবং দুই কপি ছবি জমা দিতে হবে। আসন সীমিত হওয়ায় আগে ভর্তি হওয়া শিক্ষার্থীরা পছন্দের সময়ের ব্যাচ বেছে নেওয়ার সুযোগ পাবে। বিস্তারিত তথ্যের জন্য একাডেমির অফিসে সকাল ৯টা থেকে রাত ৮টার মধ্যে যোগাযোগ করুন।
+
+    পরিচালক
+    দূর্বাঘাস একাডেমি
+  answer_sentence: "গত বছর এই একাডেমির ১৫৮ জন শিক্ষার্থী বিভিন্ন সরকারি বিশ্ববিদ্যালয়ে ভর্তির সুযোগ পেয়েছে।"
+  insuff_replacement: ""
+  gold: {value: 158}
+  q:
+    en: "How many students of Durbaghash Academy got admission to public universities last year?"
+    bn: "গত বছর দূর্বাঘাস একাডেমির কতজন শিক্ষার্থী সরকারি বিশ্ববিদ্যালয়ে ভর্তির সুযোগ পেয়েছে?"
+    rbn: "goto bochor durbaghash academy r kotojon shikkharthi sorkari bisshobiddaloye vortir shujog peyeche?"
+    cm: "গত বছর দূর্বাঘাস একাডেমির কতজন student public university তে chance পেয়েছে?"
+    cmr: "goto bochor durbaghash academy r kotojon student public university te chance peyeche?"
+  sibling:
+    answer_type: date
+    gold: {day: 2, month: 6, year: 2027}
+    q:
+      en: "On what date will classes of the new batch start at Durbaghash Academy?"
+      bn: "দূর্বাঘাস একাডেমির নতুন ব্যাচের ক্লাস কোন তারিখে শুরু হবে?"
+      rbn: "durbaghash academy r notun bacher klash kon tarikhe shuru hobe?"
+      cm: "দূর্বাঘাস একাডেমির new batch এর class কোন তারিখে শুরু হবে?"
+      cmr: "durbaghash academy r new batch er class kon tarikhe shuru hobe?"
+
+- id: N040
+  format: multi
+  domain: admission
+  answer_type: yesno
+  entity:
+    bn: "পিয়ালবন উচ্চ বিদ্যালয়"
+    rom: "piyalbon uccho biddaloy"
+    en: "Piyalban High School"
+  edit_type: deletion
+  passage: |
+    পিয়ালবন উচ্চ বিদ্যালয়
+    নবম শ্রেণিতে শূন্য আসনে ভর্তি বিজ্ঞপ্তি
+
+    পিয়ালবন উচ্চ বিদ্যালয়ে ২০২৭ শিক্ষাবর্ষে নবম শ্রেণির বিজ্ঞান ও ব্যবসায় শিক্ষা শাখায় কিছু আসন শূন্য রয়েছে। অন্য বিদ্যালয় থেকে অষ্টম শ্রেণি উত্তীর্ণ আগ্রহী শিক্ষার্থীরা এসব শূন্য আসনে ভর্তির জন্য আবেদন করতে পারবে। আবেদনপত্র জমার শেষ তারিখ ১৬ জানুয়ারি ২০২৭।
+
+    নবম শ্রেণিতে কোনো ভর্তি পরীক্ষা নেওয়া হবে না; অষ্টম শ্রেণির বার্ষিক পরীক্ষার ফলাফলের ভিত্তিতে শিক্ষার্থী বাছাই করা হবে। আবেদনের সঙ্গে আগের বিদ্যালয়ের ছাড়পত্র, অষ্টম শ্রেণির নম্বরপত্রের কপি, জন্মনিবন্ধন সনদ এবং দুই কপি ছবি জমা দিতে হবে।
+
+    নির্বাচিত শিক্ষার্থীদের ভর্তির সময় ভর্তি ফি বাবদ ২,২০০ টাকা পরিশোধ করতে হবে। এর মধ্যে সেশন চার্জ, ক্রীড়া ও সাংস্কৃতিক কার্যক্রমের খরচ অন্তর্ভুক্ত। নবম শ্রেণিতে ভর্তির পর শিক্ষার্থীদের বোর্ডে রেজিস্ট্রেশন করতে হবে, যার জন্য আলাদা ফি প্রযোজ্য হবে।
+
+    বিদ্যালয়ে সুসজ্জিত বিজ্ঞানাগার, কম্পিউটার ল্যাব এবং সমৃদ্ধ গ্রন্থাগার রয়েছে। শিক্ষার্থীদের নিয়মিত উপস্থিতি নিশ্চিত করতে অভিভাবকদের মোবাইলে অনুপস্থিতির বার্তা পাঠানো হয়। বিজ্ঞান শাখার শিক্ষার্থীদের জন্য বিদ্যালয়ে বিশেষ সহায়ক ক্লাসের ব্যবস্থা রয়েছে। বিস্তারিত তথ্যের জন্য বিদ্যালয়ের অফিসে কর্মদিবসে সকাল ৯টা থেকে দুপুর ২টার মধ্যে যোগাযোগ করুন।
+
+    প্রধান শিক্ষক
+    পিয়ালবন উচ্চ বিদ্যালয়
+  answer_sentence: "নবম শ্রেণিতে কোনো ভর্তি পরীক্ষা নেওয়া হবে না; অষ্টম শ্রেণির বার্ষিক পরীক্ষার ফলাফলের ভিত্তিতে শিক্ষার্থী বাছাই করা হবে।"
+  insuff_replacement: ""
+  gold: {value: false}
+  q:
+    en: "Will Piyalban High School hold an admission test for class nine?"
+    bn: "পিয়ালবন উচ্চ বিদ্যালয়ে নবম শ্রেণিতে ভর্তির জন্য কি কোনো ভর্তি পরীক্ষা হবে?"
+    rbn: "piyalbon uccho biddaloye nobom shrenite vortir jonno ki kono vorti porikkha hobe?"
+    cm: "পিয়ালবন উচ্চ বিদ্যালয়ে class nine এ ভর্তির জন্য কি কোনো admission test হবে?"
+    cmr: "piyalbon uccho biddaloye class nine e vortir jonno ki kono admission test hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 2200}
+    q:
+      en: "What is the class nine admission fee at Piyalban High School?"
+      bn: "পিয়ালবন উচ্চ বিদ্যালয়ে নবম শ্রেণির ভর্তি ফি কত টাকা?"
+      rbn: "piyalbon uccho biddaloye nobom shrenir vorti fee koto taka?"
+      cm: "পিয়ালবন উচ্চ বিদ্যালয়ে class nine এর admission fee কত টাকা?"
+      cmr: "piyalbon uccho biddaloye class nine er admission fee koto taka?"
+
+- id: N041
+  format: multi
+  domain: admission
+  answer_type: amount
+  entity:
+    bn: "ময়নাদ্বীপ বিশ্ববিদ্যালয়"
+    rom: "moynadip bisshobiddaloy"
+    en: "Moynadwip University"
+  edit_type: neutralisation
+  passage: |
+    ময়নাদ্বীপ বিশ্ববিদ্যালয়
+    স্নাতকোত্তর (মাস্টার্স) প্রোগ্রামে ভর্তি বিজ্ঞপ্তি ২০২৭
+
+    ময়নাদ্বীপ বিশ্ববিদ্যালয়ের বিভিন্ন বিভাগে ২০২৭ শিক্ষাবর্ষের নিয়মিত স্নাতকোত্তর প্রোগ্রামে ভর্তির জন্য আবেদন আহ্বান করা হচ্ছে। এ বছর সব বিভাগ মিলিয়ে মোট ৩২০টি আসনে শিক্ষার্থী ভর্তি করা হবে। চার বছর মেয়াদি স্নাতক (সম্মান) ডিগ্রিধারী প্রার্থীরা সংশ্লিষ্ট বা নিকটবর্তী বিষয়ে আবেদন করতে পারবেন।
+
+    আবেদনকারীকে স্নাতক পর্যায়ে ন্যূনতম সিজিপিএ ২.৭৫ পেতে হবে। যাঁদের স্নাতক পরীক্ষার ফল এখনও প্রকাশিত হয়নি, তাঁরা বিভাগীয় প্রধানের প্রত্যয়নপত্রসহ শর্তসাপেক্ষে আবেদন করতে পারবেন। স্নাতকোত্তর ভর্তির আবেদন ফি ১,৬৫০ টাকা। আবেদনপত্রের সঙ্গে সকল শিক্ষাগত সনদ ও নম্বরপত্রের সত্যায়িত কপি জমা দিতে হবে।
+
+    প্রার্থী বাছাই করা হবে লিখিত পরীক্ষা ও মৌখিক পরীক্ষার ভিত্তিতে। কিছু বিভাগে স্নাতক পর্যায়ের ফলাফলও বিবেচনায় নেওয়া হবে। বিভাগভিত্তিক পরীক্ষার সময়সূচি সংশ্লিষ্ট বিভাগের নোটিশ বোর্ডে প্রকাশ করা হবে।
+
+    স্নাতকোত্তর প্রোগ্রাম এক বছর মেয়াদি এবং দুটি সেমিস্টারে বিভক্ত। থিসিস গ্রুপ ও নন-থিসিস গ্রুপ — দুই ধরনের সুযোগ রয়েছে, তবে থিসিস গ্রুপে আসন সীমিত। কর্মজীবী শিক্ষার্থীদের জন্য আলাদা সান্ধ্যকালীন প্রোগ্রাম রয়েছে, যার বিজ্ঞপ্তি আলাদাভাবে প্রকাশ করা হবে। বিস্তারিত তথ্যের জন্য সংশ্লিষ্ট বিভাগের অফিসে যোগাযোগ করুন।
+
+    রেজিস্ট্রার
+    ময়নাদ্বীপ বিশ্ববিদ্যালয়
+  answer_sentence: "স্নাতকোত্তর ভর্তির আবেদন ফি ১,৬৫০ টাকা।"
+  insuff_replacement: "স্নাতকোত্তর ভর্তির আবেদন ফির পরিমাণ ভর্তি নির্দেশিকায় উল্লেখ থাকবে।"
+  gold: {value: 1650}
+  q:
+    en: "What is the application fee for master's admission at Moynadwip University?"
+    bn: "ময়নাদ্বীপ বিশ্ববিদ্যালয়ে স্নাতকোত্তর ভর্তির আবেদন ফি কত টাকা?"
+    rbn: "moynadip bisshobiddaloye snatokottor vortir abedon fee koto taka?"
+    cm: "ময়নাদ্বীপ বিশ্ববিদ্যালয়ে masters admission এর application fee কত টাকা?"
+    cmr: "moynadip bisshobiddaloye masters admission er application fee koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 320}
+    q:
+      en: "How many seats in total are there in the master's programme at Moynadwip University this year?"
+      bn: "ময়নাদ্বীপ বিশ্ববিদ্যালয়ে এ বছর স্নাতকোত্তর প্রোগ্রামে মোট কয়টি আসন আছে?"
+      rbn: "moynadip bisshobiddaloye e bochor snatokottor programe mot koyti ashon ache?"
+      cm: "ময়নাদ্বীপ বিশ্ববিদ্যালয়ে এ বছর masters program এ মোট কয়টি seat আছে?"
+      cmr: "moynadip bisshobiddaloye e bochor masters program e mot koyti seat ache?"
+
+- id: N042
+  format: multi
+  domain: exam
+  answer_type: date
+  entity:
+    bn: "কুলবরই সরকারি বালক উচ্চ বিদ্যালয়"
+    rom: "kulboroi sorkari balok uccho biddaloy"
+    en: "Kulboroi Government Boys' High School"
+  edit_type: neutralisation
+  passage: |
+    কুলবরই সরকারি বালক উচ্চ বিদ্যালয়
+    বার্ষিক পরীক্ষা ২০২৭ সংক্রান্ত বিজ্ঞপ্তি
+
+    কুলবরই সরকারি বালক উচ্চ বিদ্যালয়ের ষষ্ঠ থেকে নবম শ্রেণির সকল শিক্ষার্থী ও অভিভাবকের অবগতির জন্য জানানো যাচ্ছে যে, বার্ষিক পরীক্ষা ২০২৭ আগামী ২৩ নভেম্বর ২০২৭ তারিখ থেকে শুরু হবে। পরীক্ষা প্রতিদিন সকাল ১০টায় শুরু হবে। বিস্তারিত রুটিন শ্রেণিশিক্ষকের কাছ থেকে সংগ্রহ করা যাবে।
+
+    পরীক্ষায় অংশ নিতে প্রত্যেক শিক্ষার্থীকে ডিসেম্বর মাস পর্যন্ত সকল বেতন ও পরীক্ষার ফি পরিশোধ করতে হবে। ফি পরিশোধের রসিদ দেখিয়ে শ্রেণিশিক্ষকের কাছ থেকে প্রবেশপত্র সংগ্রহ করতে হবে। প্রবেশপত্র ছাড়া কোনো শিক্ষার্থীকে পরীক্ষায় বসতে দেওয়া হবে না।
+
+    পরীক্ষা চলাকালীন নিয়মিত ক্লাস বন্ধ থাকবে। শিক্ষার্থীদের পরীক্ষা শুরুর পনেরো মিনিট আগে নিজ নিজ কক্ষে উপস্থিত থাকতে হবে। পরীক্ষার হলে কোনো ধরনের বই, নোট বা মোবাইল ফোন রাখা যাবে না। অসদুপায় অবলম্বন করলে সংশ্লিষ্ট বিষয়ের পরীক্ষা বাতিল করা হবে।
+
+    বার্ষিক পরীক্ষার ফলাফল প্রকাশিত হবে ২৯ ডিসেম্বর ২০২৭ তারিখে। ফলাফলের ভিত্তিতে পরবর্তী শ্রেণিতে উত্তীর্ণ শিক্ষার্থীদের তালিকা নোটিশ বোর্ডে টাঙানো হবে এবং প্রতিটি শ্রেণিতে প্রথম তিনজনকে পুরস্কৃত করা হবে। অকৃতকার্য শিক্ষার্থীদের অভিভাবকদের প্রধান শিক্ষকের সঙ্গে সাক্ষাৎ করতে অনুরোধ করা হলো। নতুন শিক্ষাবর্ষের ক্লাস শুরুর তারিখ ফলাফলের সঙ্গে জানিয়ে দেওয়া হবে।
+
+    প্রধান শিক্ষক
+    কুলবরই সরকারি বালক উচ্চ বিদ্যালয়
+  answer_sentence: "বার্ষিক পরীক্ষার ফলাফল প্রকাশিত হবে ২৯ ডিসেম্বর ২০২৭ তারিখে।"
+  insuff_replacement: "বার্ষিক পরীক্ষার ফলাফল প্রকাশের তারিখ শিক্ষক পরিষদের সভায় চূড়ান্ত করে জানানো হবে।"
+  gold: {day: 29, month: 12, year: 2027}
+  q:
+    en: "On what date will Kulboroi Government Boys' High School publish its annual exam results?"
+    bn: "কুলবরই সরকারি বালক উচ্চ বিদ্যালয়ের বার্ষিক পরীক্ষার ফলাফল কোন তারিখে প্রকাশিত হবে?"
+    rbn: "kulboroi sorkari balok uccho biddaloyer barshik porikkhar folafol kon tarikhe prokashito hobe?"
+    cm: "কুলবরই সরকারি বালক উচ্চ বিদ্যালয়ের annual exam এর result কোন তারিখে দেবে?"
+    cmr: "kulboroi sorkari balok uccho biddaloyer annual exam er result kon tarikhe debe?"
+  sibling:
+    answer_type: date
+    gold: {day: 23, month: 11, year: 2027}
+    q:
+      en: "From what date will the annual exam at Kulboroi Government Boys' High School start?"
+      bn: "কুলবরই সরকারি বালক উচ্চ বিদ্যালয়ের বার্ষিক পরীক্ষা কোন তারিখ থেকে শুরু হবে?"
+      rbn: "kulboroi sorkari balok uccho biddaloyer barshik porikkha kon tarikh theke shuru hobe?"
+      cm: "কুলবরই সরকারি বালক উচ্চ বিদ্যালয়ের annual exam কোন date থেকে শুরু হবে?"
+      cmr: "kulboroi sorkari balok uccho biddaloyer annual exam kon date theke shuru hobe?"
+
+- id: N043
+  format: multi
+  domain: school_event
+  answer_type: name
+  entity:
+    bn: "সুন্দরীকাঠ কলেজ"
+    rom: "shundorikath college"
+    en: "Sundorikath College"
+  edit_type: deletion
+  passage: |
+    সুন্দরীকাঠ কলেজ
+    বইমেলা ২০২৭ উপলক্ষে বিজ্ঞপ্তি
+
+    শিক্ষার্থীদের মধ্যে বই পড়ার আগ্রহ বাড়াতে সুন্দরীকাঠ কলেজের সাহিত্য সংসদের উদ্যোগে কলেজ প্রাঙ্গণে তিন দিনব্যাপী বইমেলার আয়োজন করা হয়েছে। মেলা চলবে ফেব্রুয়ারি ২০২৭-এর তৃতীয় সপ্তাহে, প্রতিদিন সকাল ১০টা থেকে সন্ধ্যা ৭টা পর্যন্ত। মেলায় স্থানীয় ও আঞ্চলিক প্রকাশনা প্রতিষ্ঠানের মোট ৩২টি স্টল থাকবে।
+
+    বইমেলা উদ্বোধন করবেন কলেজের প্রাক্তন শিক্ষার্থী ও স্থানীয় লেখক নাজমুন নাহার শিউলি। উদ্বোধনী অনুষ্ঠানে সভাপতিত্ব করবেন কলেজের অধ্যক্ষ। মেলার প্রতিদিন বিকেলে কবিতা আবৃত্তি, নতুন বইয়ের মোড়ক উন্মোচন এবং লেখক-পাঠক আড্ডার আয়োজন থাকবে।
+
+    মেলায় সব বই কমপক্ষে পঁচিশ শতাংশ ছাড়ে বিক্রি করা হবে। কলেজের শিক্ষার্থীরা পরিচয়পত্র দেখিয়ে অতিরিক্ত ছাড় পাবে। মেলা চলাকালীন শিক্ষার্থীদের জন্য একটি বই পর্যালোচনা প্রতিযোগিতার আয়োজন করা হবে, যেখানে মেলা থেকে কেনা যেকোনো একটি বই নিয়ে লিখিত পর্যালোচনা জমা দিতে হবে।
+
+    মেলা প্রাঙ্গণ ধূমপানমুক্ত থাকবে এবং পরিষ্কার-পরিচ্ছন্নতা বজায় রাখতে সাহিত্য সংসদের স্বেচ্ছাসেবকরা দায়িত্ব পালন করবেন। মেলা সবার জন্য উন্মুক্ত, প্রবেশের জন্য কোনো টিকিট লাগবে না। প্রকাশনা প্রতিষ্ঠানগুলোর স্টল বরাদ্দ সংক্রান্ত তথ্যের জন্য সাহিত্য সংসদের সাধারণ সম্পাদকের সঙ্গে যোগাযোগ করুন।
+
+    সভাপতি, সাহিত্য সংসদ
+    সুন্দরীকাঠ কলেজ
+  answer_sentence: "বইমেলা উদ্বোধন করবেন কলেজের প্রাক্তন শিক্ষার্থী ও স্থানীয় লেখক নাজমুন নাহার শিউলি।"
+  insuff_replacement: ""
+  gold: {aliases: ["নাজমুন নাহার শিউলি", "Nazmun Nahar Shiuli", "Najmun Nahar Shiuly", "Nazmun Nahar Shewly"]}
+  q:
+    en: "Who will inaugurate the book fair at Sundorikath College?"
+    bn: "সুন্দরীকাঠ কলেজের বইমেলা কে উদ্বোধন করবেন?"
+    rbn: "shundorikath college er boimela ke udbodhon korben?"
+    cm: "সুন্দরীকাঠ কলেজের book fair কে inaugurate করবেন?"
+    cmr: "shundorikath college er book fair ke inaugurate korben?"
+  sibling:
+    answer_type: number
+    gold: {value: 32}
+    q:
+      en: "How many stalls will there be at the book fair of Sundorikath College?"
+      bn: "সুন্দরীকাঠ কলেজের বইমেলায় মোট কয়টি স্টল থাকবে?"
+      rbn: "shundorikath college er boimelay mot koyti stol thakbe?"
+      cm: "সুন্দরীকাঠ কলেজের book fair এ মোট কয়টি stall থাকবে?"
+      cmr: "shundorikath college er book fair e mot koyti stall thakbe?"
