@@ -4,6 +4,8 @@
 
 Open both CSV files in Excel, Numbers or Google Sheets. They are UTF-8, so Bengali should display correctly.
 
+> **When saving, choose "CSV UTF-8 (Comma delimited)".** Plain "CSV" replaces every Bengali character with `?` (this happened in the pilot review on 2026-10-24).
+
 ## File 1: `review_pilot_passages.csv` (30 rows)
 For each fictional notice:
 1. Read `passage_SUFFICIENT`. Does it read like a real Bangladeshi notice? If not, write a corrected version in `passage_EDIT`.

@@ -25,7 +25,7 @@ Write romanized Bengali the way Bangladeshi users type in chat and search: phone
 | ঢ ধ | dh | ধরন → dhoron |
 | ড় ঢ় র | r | বড় → boro |
 | ভ | v (chat convention) | ভর্তি → vorti |
-| ফ | f | ফি → fi (the English word "fee" is CM, not RBN) |
+| ফ | f | ফল → fol. **Exception (author rule 2026-10-24):** the loanword ফি is romanized **fee**, as users type it |
 | ব | b | বই → boi |
 | য় (as a semivowel) | y, or dropped between vowels | নয় → noy, দেওয়া → dewa |
 | ং ঙ | ng | বাংলা → bangla |
@@ -42,3 +42,6 @@ Write romanized Bengali the way Bangladeshi users type in chat and search: phone
 
 ## Not canonical (robustness variants only)
 Alternative spellings users also type (for example `kobe/kbe`, `taka/tk`, `vorti/bhorti`, `ase/ache`) are generated later as a robustness check (plan §7). They are kept out of the canonical items.
+
+## Author decisions
+- 2026-10-24: ফি → `fee` in all romanized text (RBN and CMR). Approved by the author during the pilot review.

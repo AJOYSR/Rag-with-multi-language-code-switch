@@ -1,0 +1,93 @@
+{
+  "lost_cells": [
+    {
+      "item": "P02",
+      "question": "main",
+      "column": "cm_EDIT",
+      "saved_as": "??? date e  pani supply ???? ??????"
+    },
+    {
+      "item": "P03",
+      "question": "sibling",
+      "column": "bn_EDIT",
+      "saved_as": "???????? ????????? ??????? ?? ???"
+    },
+    {
+      "item": "P04",
+      "question": "sibling",
+      "column": "bn_EDIT",
+      "saved_as": "?????? ????????? ??????? ?? ???"
+    }
+  ],
+  "recovered_latin_edits": [
+    {
+      "item": "P02",
+      "question": "main",
+      "column": "cmr_EDIT",
+      "value": "kon date e pani supply bondho thakbe?"
+    },
+    {
+      "item": "P03",
+      "question": "sibling",
+      "column": "rbn_EDIT",
+      "value": "bisheshoggo chikitshoker fee koto?"
+    },
+    {
+      "item": "P04",
+      "question": "sibling",
+      "column": "rbn_EDIT",
+      "value": "sadharon shodoshopoder barshik fee koto?"
+    }
+  ],
+  "decisions_copied": 360,
+  "author_confirmed_reconstructions_2026-10-24": [
+    {
+      "item": "P02",
+      "question": "main",
+      "column": "cm_EDIT",
+      "value": "কোন date e pani supply বন্ধ থাকবে?"
+    },
+    {
+      "item": "P03",
+      "question": "sibling",
+      "column": "bn_EDIT",
+      "value": "বিশেষজ্ঞ চিকিৎসকের ভিজিটিং ফি কত?"
+    },
+    {
+      "item": "P04",
+      "question": "sibling",
+      "column": "bn_EDIT",
+      "value": "সাধারণ সদস্যপদের বার্ষিক ফি কত?"
+    }
+  ],
+  "author_rule_fee": [
+    {
+      "item": "P01",
+      "question": "main",
+      "variant": "rbn",
+      "from": "abedon fi koto taka?",
+      "to": "abedon fee koto taka?"
+    },
+    {
+      "item": "P23",
+      "question": "sibling",
+      "variant": "rbn",
+      "from": "utshobe probesh fi koto?",
+      "to": "utshobe probesh fee koto?"
+    },
+    {
+      "item": "P25",
+      "question": "sibling",
+      "variant": "rbn",
+      "from": "kors fi koto?",
+      "to": "kors fee koto?"
+    },
+    {
+      "item": "P27",
+      "question": "main",
+      "variant": "rbn",
+      "from": "porichoypotro punoray issu korte koto taka fi lagbe?",
+      "to": "porichoypotro punoray issu korte koto taka fee lagbe?"
+    }
+  ]
+}
