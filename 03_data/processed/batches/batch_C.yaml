@@ -1,0 +1,1681 @@
+# Batch C — AI-drafted (Claude), 2026-10-24, NOT author-reviewed
+# Domains: transport, commerce, finance. Ids N087–N128. All names fictional.
+- id: N087
+  format: multi
+  domain: transport
+  answer_type: amount
+  entity:
+    bn: "পানিফলতলা পরিবহন মালিক সমিতি"
+    rom: "panifoltola poribohon malik shomiti"
+    en: "Panifoltola Transport Owners' Association"
+  edit_type: deletion
+  passage: |
+    পানিফলতলা পরিবহন মালিক সমিতি
+    নতুন বাস সার্ভিস চালু ও ভাড়া সংক্রান্ত বিজ্ঞপ্তি
+
+    যাত্রীসাধারণের অবগতির জন্য জানানো যাচ্ছে যে, পানিফলতলা পরিবহন মালিক সমিতির উদ্যোগে পানিফলতলা বাসস্ট্যান্ড থেকে কেওড়াখালী উপজেলা সদর পর্যন্ত একটি নতুন শীতাতপ নিয়ন্ত্রিত বাস সার্ভিস চালু করা হয়েছে। প্রতিদিন ভোর ৬টা থেকে রাত ৯টা পর্যন্ত প্রতি ৪০ মিনিট অন্তর বাস ছাড়বে। পথে মোট ৭টি নির্ধারিত স্টপেজে বাস থামবে।
+
+    শীতাতপ নিয়ন্ত্রিত বাসে পানিফলতলা থেকে কেওড়াখালী পর্যন্ত পূর্ণ ভাড়া জনপ্রতি ১৮৫ টাকা। সাধারণ বাসের ভাড়া আগের মতোই ১১০ টাকা থাকবে। শিক্ষার্থীরা বৈধ পরিচয়পত্র দেখিয়ে সাধারণ বাসে অর্ধেক ভাড়ায় যাতায়াত করতে পারবেন। টিকিট বাসস্ট্যান্ডের কাউন্টার থেকে নগদে অথবা মোবাইল ব্যাংকিংয়ের মাধ্যমে কেনা যাবে। যাত্রার অন্তত ১৫ মিনিট আগে কাউন্টারে উপস্থিত থাকার অনুরোধ করা হলো।
+
+    প্রত্যেক যাত্রী সর্বোচ্চ ২০ কেজি পর্যন্ত মালামাল বিনা খরচে বহন করতে পারবেন। এর বেশি মালামালের জন্য আলাদা চার্জ প্রযোজ্য হবে। বাসে ধূমপান সম্পূর্ণ নিষিদ্ধ। কোনো অভিযোগ বা পরামর্শ থাকলে সমিতির কার্যালয়ে লিখিতভাবে জানানো যাবে। হারানো মালামাল সংক্রান্ত তথ্যের জন্য কাউন্টার ব্যবস্থাপকের সাথে যোগাযোগ করুন।
+
+    সাধারণ সম্পাদক
+    পানিফলতলা পরিবহন মালিক সমিতি
+  answer_sentence: "শীতাতপ নিয়ন্ত্রিত বাসে পানিফলতলা থেকে কেওড়াখালী পর্যন্ত পূর্ণ ভাড়া জনপ্রতি ১৮৫ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 185}
+  q:
+    en: "What is the full fare on the air-conditioned bus from Panifoltola to Keorakhali run by the Panifoltola Transport Owners' Association?"
+    bn: "পানিফলতলা পরিবহন মালিক সমিতির শীতাতপ নিয়ন্ত্রিত বাসে পানিফলতলা থেকে কেওড়াখালী পর্যন্ত ভাড়া কত টাকা?"
+    rbn: "panifoltola poribohon malik shomitir shitatop niyontrito bashe panifoltola theke keorakhali porjonto vara koto taka?"
+    cm: "পানিফলতলা পরিবহন মালিক সমিতির AC bus এ পানিফলতলা থেকে কেওড়াখালী পর্যন্ত ভাড়া কত টাকা?"
+    cmr: "panifoltola poribohon malik shomitir AC bus e panifoltola theke keorakhali porjonto vara koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 7}
+    q:
+      en: "At how many fixed stops will the new bus service of the Panifoltola Transport Owners' Association stop on the way?"
+      bn: "পানিফলতলা পরিবহন মালিক সমিতির নতুন বাস সার্ভিস পথে কয়টি নির্ধারিত স্টপেজে থামবে?"
+      rbn: "panifoltola poribohon malik shomitir notun bas sarvis pothe koyti nirdharito stopeje thambe?"
+      cm: "পানিফলতলা পরিবহন মালিক সমিতির নতুন bus service পথে কয়টি stoppage এ থামবে?"
+      cmr: "panifoltola poribohon malik shomitir notun bus service pothe koyti stoppage e thambe?"
+
+- id: N088
+  format: multi
+  domain: transport
+  answer_type: date
+  entity:
+    bn: "কুমিরজানি লঞ্চ সার্ভিস"
+    rom: "kumirjani launch service"
+    en: "Kumirjani Launch Service"
+  edit_type: neutralisation
+  passage: |
+    কুমিরজানি লঞ্চ সার্ভিস
+    নতুন নৌপথে যাত্রা শুরুর বিজ্ঞপ্তি
+
+    সম্মানিত যাত্রীদের জানানো যাচ্ছে যে, কুমিরজানি লঞ্চ সার্ভিসের নতুন দ্বিতল লঞ্চ এমভি জলপরী আগামী ১২ এপ্রিল ২০২৭ তারিখ থেকে কুমিরজানি ঘাট থেকে চরশালিকা ঘাট পর্যন্ত নিয়মিত চলাচল শুরু করবে। লঞ্চটি প্রতিদিন সকাল ৮টায় কুমিরজানি ঘাট ছাড়বে এবং দুপুর ২টায় চরশালিকা থেকে ফিরতি যাত্রা করবে।
+
+    লঞ্চে ডেক, সাধারণ কেবিন ও পারিবারিক কেবিন মিলিয়ে মোট ৩২০ জন যাত্রী বহনের অনুমোদন রয়েছে। ডেকের ভাড়া ৯০ টাকা এবং সাধারণ কেবিনের ভাড়া ৪৫০ টাকা। পারিবারিক কেবিন আগে থেকে বুকিং দিতে হবে। লঞ্চে পর্যাপ্ত লাইফ জ্যাকেট ও বয়া রাখা আছে এবং প্রশিক্ষিত কর্মীরা যাত্রীদের সহায়তায় নিয়োজিত থাকবেন।
+
+    বর্ষা মৌসুমে আবহাওয়ার সতর্কসংকেত জারি থাকলে লঞ্চ চলাচল সাময়িকভাবে বন্ধ রাখা হতে পারে। অতিরিক্ত যাত্রী বা নিষিদ্ধ পণ্য বহন করা হবে না। শিশু ও বয়স্ক যাত্রীদের ওঠানামার সময় বিশেষ সতর্কতা অবলম্বনের অনুরোধ করা হলো। টিকিট ঘাটের কাউন্টার থেকে যাত্রার দিন সকাল ৭টা থেকে পাওয়া যাবে। মালামাল পরিবহনের জন্য ঘাটের মালামাল বুকিং শাখায় যোগাযোগ করুন।
+
+    ব্যবস্থাপক
+    কুমিরজানি লঞ্চ সার্ভিস
+  answer_sentence: "সম্মানিত যাত্রীদের জানানো যাচ্ছে যে, কুমিরজানি লঞ্চ সার্ভিসের নতুন দ্বিতল লঞ্চ এমভি জলপরী আগামী ১২ এপ্রিল ২০২৭ তারিখ থেকে কুমিরজানি ঘাট থেকে চরশালিকা ঘাট পর্যন্ত নিয়মিত চলাচল শুরু করবে।"
+  insuff_replacement: "সম্মানিত যাত্রীদের জানানো যাচ্ছে যে, কুমিরজানি লঞ্চ সার্ভিসের নতুন দ্বিতল লঞ্চ এমভি জলপরী শিগগিরই কুমিরজানি ঘাট থেকে চরশালিকা ঘাট পর্যন্ত নিয়মিত চলাচল শুরু করবে; যাত্রা শুরুর তারিখ পরে জানানো হবে।"
+  gold: {day: 12, month: 4, year: 2027}
+  q:
+    en: "From what date will the new launch of the Kumirjani Launch Service start regular trips to Charshalika?"
+    bn: "কুমিরজানি লঞ্চ সার্ভিসের নতুন লঞ্চ কোন তারিখ থেকে চরশালিকা পর্যন্ত নিয়মিত চলাচল শুরু করবে?"
+    rbn: "kumirjani launch servicer notun launch kon tarikh theke chorshalika porjonto niyomito cholachol shuru korbe?"
+    cm: "কুমিরজানি লঞ্চ সার্ভিসের নতুন launch কোন date থেকে চরশালিকা পর্যন্ত regular চলাচল শুরু করবে?"
+    cmr: "kumirjani launch servicer notun launch kon date theke chorshalika porjonto regular cholachol shuru korbe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 90}
+    q:
+      en: "What is the deck fare on the new launch of the Kumirjani Launch Service?"
+      bn: "কুমিরজানি লঞ্চ সার্ভিসের নতুন লঞ্চে ডেকের ভাড়া কত টাকা?"
+      rbn: "kumirjani launch servicer notun launche deker vara koto taka?"
+      cm: "কুমিরজানি লঞ্চ সার্ভিসের নতুন লঞ্চে deck fare কত টাকা?"
+      cmr: "kumirjani launch servicer notun launche deck fare koto taka?"
+
+- id: N089
+  format: multi
+  domain: commerce
+  answer_type: name
+  entity:
+    bn: "বেতকাঁটা বাজার ব্যবসায়ী সমিতি"
+    rom: "betkata bajar bebshayi shomiti"
+    en: "Betkata Bazar Traders' Association"
+  edit_type: deletion
+  passage: |
+    বেতকাঁটা বাজার ব্যবসায়ী সমিতি
+    নতুন কার্যনির্বাহী কমিটি গঠন সংক্রান্ত বিজ্ঞপ্তি
+
+    বেতকাঁটা বাজার ব্যবসায়ী সমিতির সকল সদস্যের অবগতির জন্য জানানো যাচ্ছে যে, গত মাসে অনুষ্ঠিত দ্বিবার্ষিক নির্বাচনের মাধ্যমে সমিতির নতুন কার্যনির্বাহী কমিটি গঠিত হয়েছে। নির্বাচনে মোট ৪১৮ জন সদস্য ভোট প্রদান করেন। নতুন কমিটির মেয়াদ দুই বছর।
+
+    কাপড় ব্যবসায়ী মোজাম্মেল হক তালুকদার বিপুল ভোটে সমিতির সভাপতি নির্বাচিত হয়েছেন। সাধারণ সম্পাদক নির্বাচিত হয়েছেন মুদি দোকানি শাহানা পারভীন রুমকি এবং কোষাধ্যক্ষ পদে নির্বাচিত হয়েছেন হার্ডওয়্যার ব্যবসায়ী নূরুল আবসার। এছাড়া ৯ জন কার্যনির্বাহী সদস্য নির্বাচিত হয়েছেন।
+
+    নতুন কমিটি বাজারের পরিচ্ছন্নতা, রাতের নিরাপত্তা ও পানি নিষ্কাশন ব্যবস্থার উন্নয়নকে অগ্রাধিকার দেবে বলে জানিয়েছে। বাজারের প্রতিটি দোকান থেকে নৈশপ্রহরীর জন্য মাসিক চাঁদা আগের মতোই আদায় করা হবে। বাজারের ভেতরে ফুটপাত দখল করে পণ্য রাখা যাবে না এবং নিয়ম ভঙ্গ করলে সমিতির পক্ষ থেকে ব্যবস্থা নেওয়া হবে। নতুন কমিটির দায়িত্ব গ্রহণ উপলক্ষে আগামী শুক্রবার বাদ জুমা বাজার মসজিদে দোয়া মাহফিলের আয়োজন করা হয়েছে। সকল ব্যবসায়ীকে উপস্থিত থাকার আমন্ত্রণ জানানো হলো।
+
+    নির্বাচন পরিচালনা কমিটি
+    বেতকাঁটা বাজার ব্যবসায়ী সমিতি
+  answer_sentence: "কাপড় ব্যবসায়ী মোজাম্মেল হক তালুকদার বিপুল ভোটে সমিতির সভাপতি নির্বাচিত হয়েছেন।"
+  insuff_replacement: ""
+  gold: {aliases: ["মোজাম্মেল হক তালুকদার", "Mozammel Haque Talukder", "Mojammel Hoque Talukdar", "Mozammel Hoque Talukder"]}
+  q:
+    en: "Who has been elected president of the Betkata Bazar Traders' Association?"
+    bn: "বেতকাঁটা বাজার ব্যবসায়ী সমিতির সভাপতি কে নির্বাচিত হয়েছেন?"
+    rbn: "betkata bajar bebshayi shomitir shovapoti ke nirbachito hoyechen?"
+    cm: "বেতকাঁটা বাজার ব্যবসায়ী সমিতির president কে নির্বাচিত হয়েছেন?"
+    cmr: "betkata bajar bebshayi shomitir president ke nirbachito hoyechen?"
+  sibling:
+    answer_type: name
+    gold: {aliases: ["নূরুল আবসার", "Nurul Absar", "Nurul Abshar", "Nurul Absaar"]}
+    q:
+      en: "Who has been elected treasurer of the Betkata Bazar Traders' Association?"
+      bn: "বেতকাঁটা বাজার ব্যবসায়ী সমিতির কোষাধ্যক্ষ কে নির্বাচিত হয়েছেন?"
+      rbn: "betkata bajar bebshayi shomitir koshadhokkho ke nirbachito hoyechen?"
+      cm: "বেতকাঁটা বাজার ব্যবসায়ী সমিতির treasurer কে নির্বাচিত হয়েছেন?"
+      cmr: "betkata bajar bebshayi shomitir treasurer ke nirbachito hoyechen?"
+
+- id: N090
+  format: multi
+  domain: finance
+  answer_type: number
+  entity:
+    bn: "শিউলিমাটি ক্ষুদ্রঋণ সমবায় সমিতি"
+    rom: "shiulimati khudroron shomobay shomiti"
+    en: "Shiulimati Microcredit Cooperative Society"
+  edit_type: neutralisation
+  passage: |
+    শিউলিমাটি ক্ষুদ্রঋণ সমবায় সমিতি
+    নতুন ঋণ কর্মসূচি সংক্রান্ত বিজ্ঞপ্তি
+
+    শিউলিমাটি ক্ষুদ্রঋণ সমবায় সমিতি ক্ষুদ্র ব্যবসায়ী, হাঁস-মুরগি পালনকারী ও গৃহভিত্তিক উদ্যোক্তাদের জন্য একটি নতুন ঋণ কর্মসূচি চালু করেছে। সমিতির নিয়মিত সদস্য, যাঁদের সদস্যপদ কমপক্ষে ছয় মাস পূর্ণ হয়েছে, তাঁরা এই কর্মসূচিতে আবেদন করতে পারবেন।
+
+    এই কর্মসূচির আওতায় একজন সদস্য সর্বোচ্চ ৬০,০০০ টাকা পর্যন্ত ঋণ নিতে পারবেন। ঋণের অর্থ সাপ্তাহিক কিস্তিতে পরিশোধ করতে হবে এবং মোট ৪৬টি কিস্তিতে পুরো ঋণ শোধ করতে হবে। প্রথম কিস্তি ঋণ বিতরণের দুই সপ্তাহ পর থেকে শুরু হবে। কিস্তি প্রতি বৃহস্পতিবার কেন্দ্র সভায় জমা দিতে হবে।
+
+    আবেদনের সঙ্গে জাতীয় পরিচয়পত্রের ফটোকপি, দুই কপি ছবি এবং একজন জামিনদারের সম্মতিপত্র জমা দিতে হবে। ঋণ মঞ্জুরির আগে সমিতির মাঠকর্মী আবেদনকারীর ব্যবসা সরেজমিনে পরিদর্শন করবেন। নিয়মিত কিস্তি পরিশোধকারী সদস্যরা পরবর্তী ধাপে বড় অঙ্কের ঋণের জন্য বিবেচিত হবেন। ঋণ গ্রহণের সময় সদস্যদের ঋণের ১ শতাংশ হারে ঝুঁকি তহবিলে জমা দিতে হবে। এ বছর কর্মসূচিতে মোট ১৫০ জন সদস্যকে ঋণ দেওয়ার লক্ষ্য নির্ধারণ করা হয়েছে। বিস্তারিত তথ্যের জন্য সমিতির শাখা অফিসে যোগাযোগ করুন।
+
+    ব্যবস্থাপক
+    শিউলিমাটি ক্ষুদ্রঋণ সমবায় সমিতি
+  answer_sentence: "ঋণের অর্থ সাপ্তাহিক কিস্তিতে পরিশোধ করতে হবে এবং মোট ৪৬টি কিস্তিতে পুরো ঋণ শোধ করতে হবে।"
+  insuff_replacement: "ঋণের অর্থ সাপ্তাহিক কিস্তিতে পরিশোধ করতে হবে; কিস্তির সংখ্যা ঋণ মঞ্জুরির সময় জানানো হবে।"
+  gold: {value: 46}
+  q:
+    en: "In how many installments must a loan under the new programme of the Shiulimati Microcredit Cooperative Society be repaid?"
+    bn: "শিউলিমাটি ক্ষুদ্রঋণ সমবায় সমিতির নতুন কর্মসূচির ঋণ মোট কয়টি কিস্তিতে শোধ করতে হবে?"
+    rbn: "shiulimati khudroron shomobay shomitir notun kormoshuchir ron mot koyti kistite shodh korte hobe?"
+    cm: "শিউলিমাটি ক্ষুদ্রঋণ সমবায় সমিতির নতুন loan মোট কয়টি installment এ শোধ করতে হবে?"
+    cmr: "shiulimati khudroron shomobay shomitir notun loan mot koyti installment e shodh korte hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 60000}
+    q:
+      en: "What is the maximum loan a member can take under the new programme of the Shiulimati Microcredit Cooperative Society?"
+      bn: "শিউলিমাটি ক্ষুদ্রঋণ সমবায় সমিতির নতুন কর্মসূচিতে একজন সদস্য সর্বোচ্চ কত টাকা ঋণ নিতে পারবেন?"
+      rbn: "shiulimati khudroron shomobay shomitir notun kormoshuchite ekjon shodosso sorbocho koto taka ron nite parben?"
+      cm: "শিউলিমাটি ক্ষুদ্রঋণ সমবায় সমিতির নতুন program এ একজন member সর্বোচ্চ কত টাকা loan নিতে পারবেন?"
+      cmr: "shiulimati khudroron shomobay shomitir notun program e ekjon member sorbocho koto taka loan nite parben?"
+
+- id: N091
+  format: multi
+  domain: telecom
+  answer_type: yesno
+  entity:
+    bn: "মেঘডম্বুর ব্রডব্যান্ড"
+    rom: "meghdombur broadband"
+    en: "Meghdombur Broadband"
+  edit_type: deletion
+  passage: |
+    মেঘডম্বুর ব্রডব্যান্ড
+    নতুন ইন্টারনেট প্যাকেজ ও সংযোগ বিজ্ঞপ্তি
+
+    মেঘডম্বুর ব্রডব্যান্ডের পক্ষ থেকে গ্রাহকদের জানানো যাচ্ছে যে, আগামী মাস থেকে ঝাউডাঙা পৌর এলাকার সব ওয়ার্ডে ফাইবার অপটিক সংযোগ সেবা সম্প্রসারণ করা হচ্ছে। নতুন গ্রাহকদের জন্য তিনটি মাসিক প্যাকেজ চালু করা হয়েছে।
+
+    "সাধারণ" প্যাকেজে ২০ এমবিপিএস গতির সংযোগের মাসিক বিল ৬০০ টাকা, "প্লাস" প্যাকেজে ৪০ এমবিপিএস গতির সংযোগের মাসিক বিল ৯০০ টাকা এবং "প্রো" প্যাকেজে ৭৫ এমবিপিএস গতির সংযোগের মাসিক বিল ১,৪০০ টাকা। নতুন সংযোগের জন্য এককালীন সংযোগ চার্জ ১,০০০ টাকা প্রযোজ্য। নতুন সংযোগ নেওয়া প্রত্যেক গ্রাহককে একটি ওয়াই-ফাই রাউটার বিনামূল্যে দেওয়া হবে।
+
+    সংযোগের আবেদন অনলাইনে অথবা অফিসে সরাসরি এসে করা যাবে। আবেদনের সঙ্গে জাতীয় পরিচয়পত্রের কপি ও একটি ছবি জমা দিতে হবে। আবেদনের তিন কার্যদিবসের মধ্যে সংযোগ স্থাপন করা হবে। মাসিক বিল প্রতি মাসের ১০ তারিখের মধ্যে মোবাইল ব্যাংকিং বা অফিসে নগদে পরিশোধ করতে হবে। নির্ধারিত সময়ে বিল পরিশোধ না করলে সংযোগ সাময়িকভাবে বিচ্ছিন্ন করা হবে। যেকোনো কারিগরি সমস্যায় আমাদের গ্রাহকসেবা কেন্দ্র প্রতিদিন সকাল ৯টা থেকে রাত ১১টা পর্যন্ত খোলা থাকে।
+
+    ব্যবস্থাপক, গ্রাহকসেবা বিভাগ
+    মেঘডম্বুর ব্রডব্যান্ড
+  answer_sentence: "নতুন সংযোগ নেওয়া প্রত্যেক গ্রাহককে একটি ওয়াই-ফাই রাউটার বিনামূল্যে দেওয়া হবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Will Meghdombur Broadband give a free Wi-Fi router with a new connection?"
+    bn: "মেঘডম্বুর ব্রডব্যান্ড কি নতুন সংযোগের সাথে বিনামূল্যে ওয়াই-ফাই রাউটার দেবে?"
+    rbn: "meghdombur broadband ki notun shonjoger sathe binamulle wifi router debe?"
+    cm: "মেঘডম্বুর ব্রডব্যান্ড কি নতুন connection এর সাথে বিনামূল্যে router দেবে?"
+    cmr: "meghdombur broadband ki notun connection er sathe binamulle router debe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 1000}
+    q:
+      en: "What is the one-time connection charge for a new connection from Meghdombur Broadband?"
+      bn: "মেঘডম্বুর ব্রডব্যান্ডে নতুন সংযোগের এককালীন সংযোগ চার্জ কত টাকা?"
+      rbn: "meghdombur broadbande notun shonjoger ekkalin shonjog charge koto taka?"
+      cm: "মেঘডম্বুর ব্রডব্যান্ডে নতুন সংযোগের one-time connection charge কত টাকা?"
+      cmr: "meghdombur broadbande notun shonjoger one-time connection charge koto taka?"
+
+- id: N092
+  format: multi
+  domain: commerce
+  answer_type: amount
+  entity:
+    bn: "ঝিঙেফুল কুরিয়ার সার্ভিস"
+    rom: "jhingeful courier service"
+    en: "Jhingeful Courier Service"
+  edit_type: neutralisation
+  passage: |
+    ঝিঙেফুল কুরিয়ার সার্ভিস
+    নতুন সেবা ও চার্জ সংক্রান্ত বিজ্ঞপ্তি
+
+    ঝিঙেফুল কুরিয়ার সার্ভিসের সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, আগামী ১ মার্চ ২০২৭ থেকে আমাদের সকল শাখায় ঘরে পৌঁছে দেওয়া (হোম ডেলিভারি) সেবা চালু হচ্ছে। এখন থেকে গ্রাহকরা শাখায় না এসেই প্রাপকের ঠিকানায় সরাসরি পার্সেল পৌঁছাতে পারবেন।
+
+    জেলার ভেতরে এক কেজি পর্যন্ত ওজনের পার্সেলের হোম ডেলিভারি চার্জ ৮৫ টাকা। প্রতি অতিরিক্ত কেজির জন্য আলাদা চার্জ যোগ হবে। শাখা থেকে সংগ্রহ করলে পার্সেলের চার্জ আগের মতোই থাকবে। ক্যাশ অন ডেলিভারি পার্সেলের ক্ষেত্রে পণ্যমূল্যের ওপর ১ শতাংশ হারে সার্ভিস চার্জ প্রযোজ্য হবে এবং আদায়কৃত অর্থ তিন কার্যদিবসের মধ্যে প্রেরকের মোবাইল ব্যাংকিং অ্যাকাউন্টে পাঠানো হবে।
+
+    ভঙ্গুর পণ্য, যেমন কাচের জিনিস বা ইলেকট্রনিক সামগ্রী, ভালোভাবে মোড়কজাত করে পাঠাতে হবে। দাহ্য পদার্থ, নগদ টাকা ও নিষিদ্ধ পণ্য পাঠানো যাবে না। প্রতিটি পার্সেলের জন্য একটি ট্র্যাকিং নম্বর দেওয়া হবে, যার মাধ্যমে গ্রাহক পার্সেলের অবস্থান জানতে পারবেন। পার্সেল হারিয়ে গেলে বা ক্ষতিগ্রস্ত হলে সর্বোচ্চ ৫,০০০ টাকা পর্যন্ত ক্ষতিপূরণ দেওয়া হবে। শাখাগুলো শুক্রবার ছাড়া প্রতিদিন সকাল ৯টা থেকে রাত ৮টা পর্যন্ত খোলা থাকবে।
+
+    ব্যবস্থাপনা পরিচালক
+    ঝিঙেফুল কুরিয়ার সার্ভিস
+  answer_sentence: "জেলার ভেতরে এক কেজি পর্যন্ত ওজনের পার্সেলের হোম ডেলিভারি চার্জ ৮৫ টাকা।"
+  insuff_replacement: "জেলার ভেতরে পার্সেলের হোম ডেলিভারি চার্জ ওজন অনুযায়ী নির্ধারিত হবে এবং চার্জের তালিকা শাখায় টাঙানো থাকবে।"
+  gold: {value: 85}
+  q:
+    en: "What is the home delivery charge within the district for a parcel of up to one kilogram at Jhingeful Courier Service?"
+    bn: "ঝিঙেফুল কুরিয়ার সার্ভিসে জেলার ভেতরে এক কেজি পর্যন্ত পার্সেলের হোম ডেলিভারি চার্জ কত টাকা?"
+    rbn: "jhingeful courier service e jelar vetore ek kg porjonto parceler hom delivery charj koto taka?"
+    cm: "ঝিঙেফুল কুরিয়ার সার্ভিসে জেলার ভেতরে এক কেজি পর্যন্ত parcel এর delivery charge কত টাকা?"
+    cmr: "jhingeful courier service e jelar vetore ek kg porjonto parcel er delivery charge koto taka?"
+  sibling:
+    answer_type: amount
+    gold: {value: 5000}
+    q:
+      en: "Up to what amount of compensation does Jhingeful Courier Service pay for a lost or damaged parcel?"
+      bn: "ঝিঙেফুল কুরিয়ার সার্ভিসে পার্সেল হারালে বা ক্ষতিগ্রস্ত হলে সর্বোচ্চ কত টাকা ক্ষতিপূরণ দেওয়া হবে?"
+      rbn: "jhingeful courier service e parcel harale ba khotigrosto hole sorbocho koto taka khotipuron dewa hobe?"
+      cm: "ঝিঙেফুল কুরিয়ার সার্ভিসে parcel হারালে বা damage হলে সর্বোচ্চ কত টাকা compensation দেওয়া হবে?"
+      cmr: "jhingeful courier service e parcel harale ba damage hole sorbocho koto taka compensation dewa hobe?"
+
+- id: N093
+  format: multi
+  domain: transport
+  answer_type: date
+  entity:
+    bn: "তালপুকুরিয়া রেলওয়ে স্টেশন"
+    rom: "talpukuria railway station"
+    en: "Talpukuria Railway Station"
+  edit_type: deletion
+  passage: |
+    তালপুকুরিয়া রেলওয়ে স্টেশন
+    ঈদ উপলক্ষে বিশেষ ট্রেনের টিকিট বিক্রয় বিজ্ঞপ্তি
+
+    আসন্ন পবিত্র ঈদুল আজহা উপলক্ষে যাত্রীদের সুবিধার্থে তালপুকুরিয়া রেলওয়ে স্টেশন থেকে নীলকণ্ঠপুর জংশন পর্যন্ত দুটি বিশেষ ট্রেন চালানো হবে। বিশেষ ট্রেনগুলো ঈদের আগের পাঁচ দিন ও পরের পাঁচ দিন চলাচল করবে।
+
+    বিশেষ ট্রেনের অগ্রিম টিকিট বিক্রি ৬ মে ২০২৭ তারিখ সকাল ৮টা থেকে শুরু হবে। ফিরতি যাত্রার অগ্রিম টিকিট ঈদের পরে আলাদাভাবে বিক্রি করা হবে। স্টেশনের কাউন্টার এবং অনলাইন উভয় মাধ্যমে টিকিট পাওয়া যাবে। মোট টিকিটের অর্ধেক কাউন্টারে এবং বাকি অর্ধেক অনলাইনে বিক্রি করা হবে। একজন যাত্রী একসঙ্গে সর্বোচ্চ ৪টি টিকিট কিনতে পারবেন।
+
+    টিকিট কেনার সময় যাত্রীর জাতীয় পরিচয়পত্র অথবা জন্মনিবন্ধন নম্বর দিতে হবে। ভ্রমণের সময় টিকিটের সাথে মূল পরিচয়পত্র সঙ্গে রাখতে হবে, অন্যথায় টিকিট অবৈধ বলে গণ্য হবে। বিনা টিকিটে ভ্রমণ দণ্ডনীয় অপরাধ। ট্রেনে ওঠার সময় শৃঙ্খলা বজায় রাখা এবং ছাদে ভ্রমণ না করার জন্য যাত্রীদের বিশেষভাবে অনুরোধ করা হলো। স্টেশন চত্বরে অতিরিক্ত নিরাপত্তাকর্মী মোতায়েন থাকবে। টিকিট কালোবাজারি সম্পর্কে কোনো তথ্য থাকলে স্টেশন মাস্টারকে জানানোর অনুরোধ করা হলো।
+
+    স্টেশন মাস্টার
+    তালপুকুরিয়া রেলওয়ে স্টেশন
+  answer_sentence: "বিশেষ ট্রেনের অগ্রিম টিকিট বিক্রি ৬ মে ২০২৭ তারিখ সকাল ৮টা থেকে শুরু হবে।"
+  insuff_replacement: ""
+  gold: {day: 6, month: 5, year: 2027}
+  q:
+    en: "From what date will advance tickets for the Eid special trains from Talpukuria Railway Station go on sale?"
+    bn: "তালপুকুরিয়া রেলওয়ে স্টেশন থেকে ঈদের বিশেষ ট্রেনের অগ্রিম টিকিট বিক্রি কোন তারিখে শুরু হবে?"
+    rbn: "talpukuria railway station theke eider bishesh traner ogrim tiket bikri kon tarikhe shuru hobe?"
+    cm: "তালপুকুরিয়া রেলওয়ে স্টেশন থেকে ঈদের special train এর advance ticket বিক্রি কোন তারিখে শুরু হবে?"
+    cmr: "talpukuria railway station theke eider special train er advance ticket bikri kon tarikhe shuru hobe?"
+  sibling:
+    answer_type: number
+    gold: {value: 4}
+    q:
+      en: "How many tickets can one passenger buy at a time for the Eid special trains from Talpukuria Railway Station?"
+      bn: "তালপুকুরিয়া রেলওয়ে স্টেশন থেকে ঈদের বিশেষ ট্রেনের জন্য একজন যাত্রী একসঙ্গে সর্বোচ্চ কয়টি টিকিট কিনতে পারবেন?"
+      rbn: "talpukuria railway station theke eider bishesh traner jonno ekjon jatri ekshonge sorbocho koyti tiket kinte parben?"
+      cm: "তালপুকুরিয়া রেলওয়ে স্টেশন থেকে ঈদের special train এর জন্য একজন passenger একসঙ্গে সর্বোচ্চ কয়টি টিকিট কিনতে পারবেন?"
+      cmr: "talpukuria railway station theke eider special train er jonno ekjon passenger ekshonge sorbocho koyti tiket kinte parben?"
+
+- id: N094
+  format: multi
+  domain: finance
+  answer_type: name
+  entity:
+    bn: "দিগন্তছায়া জীবন বীমা"
+    rom: "digontochaya jibon bima"
+    en: "Digontochaya Life Insurance"
+  edit_type: neutralisation
+  passage: |
+    দিগন্তছায়া জীবন বীমা
+    নতুন শাখা অফিস উদ্বোধন বিজ্ঞপ্তি
+
+    দিগন্তছায়া জীবন বীমার সম্মানিত পলিসি গ্রাহক ও শুভানুধ্যায়ীদের জানানো যাচ্ছে যে, গ্রাহকসেবা আরও সহজ করার লক্ষ্যে মহিষকুণ্ডি বাজারে আমাদের একটি নতুন শাখা অফিস চালু করা হয়েছে। শাখাটি বাজারের প্রধান সড়কের পাশে কাঞ্চনবেলা প্লাজার দ্বিতীয় তলায় অবস্থিত।
+
+    নতুন শাখার ব্যবস্থাপক হিসেবে দায়িত্ব পালন করবেন ফারহানা ইয়াসমিন চৌধুরী, যিনি এর আগে প্রতিষ্ঠানের জেলা কার্যালয়ে কর্মরত ছিলেন। শাখায় মোট ৬ জন কর্মকর্তা ও ২৪ জন মাঠকর্মী কাজ করবেন। এই শাখা থেকে নতুন পলিসি খোলা, প্রিমিয়াম জমা, পলিসির মেয়াদপূর্তির দাবি এবং মৃত্যুদাবি নিষ্পত্তি সংক্রান্ত সকল সেবা পাওয়া যাবে।
+
+    প্রিমিয়াম নগদে, ব্যাংক চেকে অথবা মোবাইল ব্যাংকিংয়ের মাধ্যমে জমা দেওয়া যাবে। প্রিমিয়াম জমা দেওয়ার পর অবশ্যই প্রতিষ্ঠানের ছাপানো রশিদ সংগ্রহ করতে হবে; হাতে লেখা রশিদ গ্রহণযোগ্য নয়। কোনো মাঠকর্মী নির্ধারিত প্রিমিয়ামের বেশি অর্থ দাবি করলে সরাসরি শাখা অফিসে অভিযোগ জানানোর অনুরোধ করা হলো। শাখা অফিস শনিবার থেকে বৃহস্পতিবার সকাল ৯টা থেকে বিকেল ৫টা পর্যন্ত খোলা থাকবে। উদ্বোধন উপলক্ষে প্রথম মাসে নতুন পলিসি গ্রহণকারীদের একটি উপহার সামগ্রী দেওয়া হবে।
+
+    উপ-ব্যবস্থাপনা পরিচালক
+    দিগন্তছায়া জীবন বীমা
+  answer_sentence: "নতুন শাখার ব্যবস্থাপক হিসেবে দায়িত্ব পালন করবেন ফারহানা ইয়াসমিন চৌধুরী, যিনি এর আগে প্রতিষ্ঠানের জেলা কার্যালয়ে কর্মরত ছিলেন।"
+  insuff_replacement: "নতুন শাখার ব্যবস্থাপক হিসেবে প্রতিষ্ঠানের জেলা কার্যালয়ের একজন অভিজ্ঞ কর্মকর্তা দায়িত্ব পালন করবেন।"
+  gold: {aliases: ["ফারহানা ইয়াসমিন চৌধুরী", "Farhana Yasmin Chowdhury", "Farhana Yeasmin Chowdhury", "Farhana Yasmin Choudhury"]}
+  q:
+    en: "Who will be the manager of the new branch of Digontochaya Life Insurance?"
+    bn: "দিগন্তছায়া জীবন বীমার নতুন শাখার ব্যবস্থাপক কে?"
+    rbn: "digontochaya jibon bimar notun shakhar bebosthapok ke?"
+    cm: "দিগন্তছায়া জীবন বীমার নতুন branch এর manager কে?"
+    cmr: "digontochaya jibon bimar notun branch er manager ke?"
+  sibling:
+    answer_type: number
+    gold: {value: 24}
+    q:
+      en: "How many field workers will work at the new branch of Digontochaya Life Insurance?"
+      bn: "দিগন্তছায়া জীবন বীমার নতুন শাখায় কতজন মাঠকর্মী কাজ করবেন?"
+      rbn: "digontochaya jibon bimar notun shakhay kotojon mathkormi kaj korben?"
+      cm: "দিগন্তছায়া জীবন বীমার নতুন branch এ কতজন field worker কাজ করবেন?"
+      cmr: "digontochaya jibon bimar notun branch e kotojon field worker kaj korben?"
+
+- id: N095
+  format: multi
+  domain: transport
+  answer_type: number
+  entity:
+    bn: "ভাটিয়ালচর ফেরিঘাট"
+    rom: "vatiyalchor ferighat"
+    en: "Bhatiyalchar Ferry Ghat"
+  edit_type: deletion
+  passage: |
+    ভাটিয়ালচর ফেরিঘাট
+    ফেরি চলাচল সংক্রান্ত জরুরি বিজ্ঞপ্তি
+
+    নদীতে পানি কমে যাওয়ায় নাব্যতা সংকটের কারণে ভাটিয়ালচর ফেরিঘাট থেকে কালিজিরা ঘাট পর্যন্ত ফেরি চলাচলের সময়সূচিতে পরিবর্তন আনা হয়েছে। চ্যানেলে ড্রেজিংয়ের কাজ চলমান থাকায় রাতের বেলা ফেরি চলাচল সীমিত রাখা হবে।
+
+    বর্তমানে এই রুটে দিনে মোট ১৩টি ফেরি চলাচল করছে। প্রতিটি ফেরি একবারে সর্বোচ্চ ১৮টি ছোট যানবাহন অথবা ৬টি বড় ট্রাক পার করতে পারে। ফেরি পার হতে স্বাভাবিক সময়ে প্রায় ৫০ মিনিট লাগে, তবে বর্তমান পরিস্থিতিতে সময় বেশি লাগতে পারে।
+
+    যানবাহন পারাপারে অ্যাম্বুলেন্স, লাশবাহী গাড়ি ও জরুরি পণ্যবাহী ট্রাক অগ্রাধিকার পাবে। কাঁচামাল ও পচনশীল পণ্যবাহী ট্রাকগুলোকে দিনের প্রথম ফেরিতে পার করার চেষ্টা করা হবে। ঘাট এলাকায় যানজট এড়াতে চালকদের নির্ধারিত সারিতে অপেক্ষা করতে হবে এবং ঘাট কর্তৃপক্ষের নির্দেশনা মেনে চলতে হবে। ফেরিতে ওঠার আগে কাউন্টার থেকে নির্ধারিত টোল পরিশোধ করে রশিদ সংগ্রহ করতে হবে। যাত্রীদের ফেরির রেলিংয়ের কাছে দাঁড়িয়ে না থাকার অনুরোধ করা হলো। ড্রেজিংয়ের কাজ শেষ হলে স্বাভাবিক সময়সূচি পুনরায় চালু করা হবে এবং তা যথাসময়ে জানিয়ে দেওয়া হবে।
+
+    ব্যবস্থাপক
+    ভাটিয়ালচর ফেরিঘাট
+  answer_sentence: "বর্তমানে এই রুটে দিনে মোট ১৩টি ফেরি চলাচল করছে।"
+  insuff_replacement: ""
+  gold: {value: 13}
+  q:
+    en: "How many ferries are currently operating per day on the route from Bhatiyalchar Ferry Ghat?"
+    bn: "ভাটিয়ালচর ফেরিঘাট থেকে বর্তমানে দিনে মোট কয়টি ফেরি চলাচল করছে?"
+    rbn: "vatiyalchor ferighat theke bortomane dine mot koyti feri cholachol korche?"
+    cm: "ভাটিয়ালচর ফেরিঘাট থেকে বর্তমানে দিনে মোট কয়টি ferry চলাচল করছে?"
+    cmr: "vatiyalchor ferighat theke bortomane dine mot koyti ferry cholachol korche?"
+  sibling:
+    answer_type: number
+    gold: {value: 18}
+    q:
+      en: "How many small vehicles can each ferry at Bhatiyalchar Ferry Ghat carry at once?"
+      bn: "ভাটিয়ালচর ফেরিঘাটের প্রতিটি ফেরি একবারে সর্বোচ্চ কয়টি ছোট যানবাহন পার করতে পারে?"
+      rbn: "vatiyalchor ferighater protiti feri ekbare sorbocho koyti choto janbahon par korte pare?"
+      cm: "ভাটিয়ালচর ফেরিঘাটের প্রতিটি ferry একবারে সর্বোচ্চ কয়টি small vehicle পার করতে পারে?"
+      cmr: "vatiyalchor ferighater protiti ferry ekbare sorbocho koyti small vehicle par korte pare?"
+
+- id: N096
+  format: multi
+  domain: finance
+  answer_type: yesno
+  entity:
+    bn: "কলাপাতা মহিলা সঞ্চয় সমিতি"
+    rom: "kolapata mohila shonchoy shomiti"
+    en: "Kolapata Women's Savings Society"
+  edit_type: neutralisation
+  passage: |
+    কলাপাতা মহিলা সঞ্চয় সমিতি
+    মেয়াদি সঞ্চয় প্রকল্প সংক্রান্ত বিজ্ঞপ্তি
+
+    কলাপাতা মহিলা সঞ্চয় সমিতির সকল সদস্যের অবগতির জন্য জানানো যাচ্ছে যে, সমিতির সাধারণ সভার সিদ্ধান্ত অনুযায়ী আগামী জানুয়ারি ২০২৭ থেকে একটি নতুন মেয়াদি সঞ্চয় প্রকল্প চালু করা হচ্ছে। এই প্রকল্পের মেয়াদ তিন বছর।
+
+    প্রকল্পে অংশ নিতে ইচ্ছুক সদস্যদের প্রতি মাসে ন্যূনতম ৫০০ টাকা করে জমা দিতে হবে। মাসিক কিস্তি প্রতি মাসের প্রথম সপ্তাহে সমিতির মাসিক সভায় জমা নেওয়া হবে। মেয়াদ শেষে জমাকৃত অর্থের সঙ্গে সমিতির বার্ষিক লভ্যাংশ যোগ করে সদস্যদের অর্থ বুঝিয়ে দেওয়া হবে। মেয়াদ পূর্ণ হওয়ার আগে কোনো সদস্য প্রকল্পের জমাকৃত অর্থ উত্তোলন করতে পারবেন না।
+
+    প্রকল্পের হিসাব সমিতির কোষাধ্যক্ষ রোকসানা বেগম মিলি সংরক্ষণ করবেন এবং প্রতি ছয় মাস পর সদস্যদের সামনে আয়-ব্যয়ের হিসাব উপস্থাপন করা হবে। প্রত্যেক সদস্যকে একটি সঞ্চয় পাসবই দেওয়া হবে, যেখানে প্রতিটি জমার তথ্য লিখে কোষাধ্যক্ষ স্বাক্ষর করবেন। পরপর তিন মাস কিস্তি জমা না দিলে সদস্যকে লিখিতভাবে সতর্ক করা হবে। সমিতির তহবিল থেকে সদস্যদের জরুরি প্রয়োজনে স্বল্পমেয়াদি ঋণ দেওয়ার বিষয়টি পরবর্তী সভায় আলোচনা করা হবে। প্রকল্পে নাম লেখাতে আগ্রহী সদস্যদের সমিতির সভানেত্রীর সঙ্গে যোগাযোগ করার অনুরোধ করা হলো।
+
+    সভানেত্রী
+    কলাপাতা মহিলা সঞ্চয় সমিতি
+  answer_sentence: "মেয়াদ পূর্ণ হওয়ার আগে কোনো সদস্য প্রকল্পের জমাকৃত অর্থ উত্তোলন করতে পারবেন না।"
+  insuff_replacement: "মেয়াদ পূর্ণ হওয়ার আগে জমাকৃত অর্থ উত্তোলনের নিয়ম পরবর্তী সাধারণ সভায় চূড়ান্ত করা হবে।"
+  gold: {value: false}
+  q:
+    en: "Can members withdraw their deposits from the new term savings scheme of the Kolapata Women's Savings Society before the term ends?"
+    bn: "কলাপাতা মহিলা সঞ্চয় সমিতির নতুন মেয়াদি সঞ্চয় প্রকল্পে মেয়াদ শেষ হওয়ার আগে কি জমানো টাকা তোলা যাবে?"
+    rbn: "kolapata mohila shonchoy shomitir notun meyadi shonchoy prokolpe meyad shesh howar age ki jomano taka tola jabe?"
+    cm: "কলাপাতা মহিলা সঞ্চয় সমিতির নতুন savings scheme এ মেয়াদ শেষ হওয়ার আগে কি টাকা withdraw করা যাবে?"
+    cmr: "kolapata mohila shonchoy shomitir notun savings scheme e meyad shesh howar age ki taka withdraw kora jabe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 500}
+    q:
+      en: "What is the minimum monthly deposit for the new term savings scheme of the Kolapata Women's Savings Society?"
+      bn: "কলাপাতা মহিলা সঞ্চয় সমিতির নতুন মেয়াদি সঞ্চয় প্রকল্পে প্রতি মাসে ন্যূনতম কত টাকা জমা দিতে হবে?"
+      rbn: "kolapata mohila shonchoy shomitir notun meyadi shonchoy prokolpe proti mashe nunotom koto taka joma dite hobe?"
+      cm: "কলাপাতা মহিলা সঞ্চয় সমিতির নতুন savings scheme এ প্রতি মাসে minimum কত টাকা জমা দিতে হবে?"
+      cmr: "kolapata mohila shonchoy shomitir notun savings scheme e proti mashe minimum koto taka joma dite hobe?"
+
+- id: N097
+  format: multi
+  domain: commerce
+  answer_type: amount
+  entity:
+    bn: "হলুদবরণ পাইকারি ভাণ্ডার"
+    rom: "holudboron paikari vandar"
+    en: "Holudboron Wholesale Store"
+  edit_type: deletion
+  passage: |
+    হলুদবরণ পাইকারি ভাণ্ডার
+    সদস্য কার্ড চালু সংক্রান্ত বিজ্ঞপ্তি
+
+    সম্মানিত ক্রেতাদের জানানো যাচ্ছে যে, হলুদবরণ পাইকারি ভাণ্ডার নিয়মিত ক্রেতাদের জন্য একটি বার্ষিক সদস্য কার্ড চালু করেছে। এই কার্ডধারী ক্রেতারা চাল, ডাল, তেল, চিনি ও অন্যান্য নিত্যপ্রয়োজনীয় পণ্য কেনার সময় বিশেষ সুবিধা পাবেন। দোকানের খুচরা ও পাইকারি উভয় বিভাগেই কার্ডটি ব্যবহার করা যাবে।
+
+    বার্ষিক সদস্য কার্ড করতে এককালীন ৩৫০ টাকা জমা দিতে হবে। কার্ডধারী ক্রেতারা প্রতিটি কেনাকাটায় মোট মূল্যের ওপর ৮ শতাংশ ছাড় পাবেন। তবে গুঁড়া দুধ, শিশুখাদ্য ও সিগারেটের ক্ষেত্রে এই ছাড় প্রযোজ্য হবে না। মাসে ১০,০০০ টাকার বেশি কেনাকাটা করলে কার্ডধারীরা বিনা খরচে ঘরে পণ্য পৌঁছানোর সুবিধা পাবেন।
+
+    কার্ড করার জন্য ক্রেতার নাম, মোবাইল নম্বর ও ঠিকানা দিয়ে দোকানের ক্যাশ কাউন্টারে একটি ফরম পূরণ করতে হবে। কার্ড হারিয়ে গেলে নতুন কার্ড নিতে আলাদা চার্জ দিতে হবে। একটি কার্ড শুধু একজন ক্রেতার নামে ইস্যু করা হবে এবং অন্য কেউ তা ব্যবহার করতে পারবেন না। কার্ডের মেয়াদ ইস্যুর তারিখ থেকে এক বছর। দোকান প্রতিদিন সকাল ৮টা থেকে রাত ১০টা পর্যন্ত খোলা থাকে এবং শুক্রবার জুমার নামাজের সময় দুই ঘণ্টা বন্ধ থাকে। পণ্যের মান বা ওজন নিয়ে কোনো অভিযোগ থাকলে সরাসরি দোকানের ব্যবস্থাপককে জানানোর অনুরোধ করা হলো।
+
+    স্বত্বাধিকারী
+    হলুদবরণ পাইকারি ভাণ্ডার
+  answer_sentence: "বার্ষিক সদস্য কার্ড করতে এককালীন ৩৫০ টাকা জমা দিতে হবে।"
+  insuff_replacement: ""
+  gold: {value: 350}
+  q:
+    en: "How much does the annual membership card cost at Holudboron Wholesale Store?"
+    bn: "হলুদবরণ পাইকারি ভাণ্ডারের বার্ষিক সদস্য কার্ড করতে কত টাকা লাগবে?"
+    rbn: "holudboron paikari vandarer barshik shodosso kard korte koto taka lagbe?"
+    cm: "হলুদবরণ পাইকারি ভাণ্ডারের yearly membership card করতে কত টাকা লাগবে?"
+    cmr: "holudboron paikari vandarer yearly membership card korte koto taka lagbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 8}
+    q:
+      en: "What percentage discount do cardholders get on their purchases at Holudboron Wholesale Store?"
+      bn: "হলুদবরণ পাইকারি ভাণ্ডারে কার্ডধারী ক্রেতারা কেনাকাটায় কত শতাংশ ছাড় পাবেন?"
+      rbn: "holudboron paikari vandare karddhari kretara kenakatay koto shotangsho char paben?"
+      cm: "হলুদবরণ পাইকারি ভাণ্ডারে card holder ক্রেতারা কেনাকাটায় কত শতাংশ discount পাবেন?"
+      cmr: "holudboron paikari vandare card holder kretara kenakatay koto shotangsho discount paben?"
+
+- id: N098
+  format: multi
+  domain: commerce
+  answer_type: date
+  entity:
+    bn: "শুঁটকিহাটা সাপ্তাহিক গরুর হাট"
+    rom: "shutkihata saptahik gorur hat"
+    en: "Shutkihata Weekly Cattle Market"
+  edit_type: neutralisation
+  passage: |
+    শুঁটকিহাটা সাপ্তাহিক গরুর হাট
+    ইজারা প্রদান সংক্রান্ত বিজ্ঞপ্তি
+
+    এতদ্বারা সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে, বাংলা ১৪৩৪ সনের জন্য শুঁটকিহাটা সাপ্তাহিক গরুর হাটের ইজারা প্রকাশ্য নিলামের মাধ্যমে প্রদান করা হবে। হাটটি প্রতি মঙ্গলবার ও শনিবার বসে এবং আশপাশের ছয়টি ইউনিয়নের কৃষক ও ব্যাপারীরা এখানে গবাদিপশু কেনাবেচা করেন।
+
+    হাটের ইজারার নিলাম আগামী ২২ ফেব্রুয়ারি ২০২৭ তারিখ বেলা ১১টায় ইউনিয়ন পরিষদের সভাকক্ষে অনুষ্ঠিত হবে। নিলামে অংশ নিতে ইচ্ছুক ব্যক্তিদের সরকারি মূল্যের ২৫ শতাংশ জামানত হিসেবে পে-অর্ডারের মাধ্যমে জমা দিতে হবে। এ বছর হাটের সরকারি মূল্য নির্ধারণ করা হয়েছে ৮,৪০,০০০ টাকা। সর্বোচ্চ দরদাতাকে নিলামের দিনই মোট দরের অর্ধেক পরিশোধ করতে হবে এবং বাকি অর্থ সাত দিনের মধ্যে জমা দিতে হবে।
+
+    ইজারাদার সরকার নির্ধারিত হারের বেশি খাজনা আদায় করতে পারবেন না। প্রতিটি গরু বা মহিষ বিক্রির খাজনার হার হাটের প্রবেশপথে বড় সাইনবোর্ডে টাঙিয়ে রাখতে হবে। হাটে পশুর স্বাস্থ্য পরীক্ষার জন্য প্রাণিসম্পদ বিভাগের একটি মেডিকেল টিম উপস্থিত থাকবে। হাটের পরিচ্ছন্নতা ও পানি নিষ্কাশনের দায়িত্ব ইজারাদারকে বহন করতে হবে। কোনো কারণ দর্শানো ছাড়াই যেকোনো দরপত্র বাতিলের ক্ষমতা কর্তৃপক্ষ সংরক্ষণ করে। নিলাম সংক্রান্ত বিস্তারিত শর্তাবলি ইউনিয়ন পরিষদ কার্যালয়ের নোটিশ বোর্ডে পাওয়া যাবে।
+
+    চেয়ারম্যান
+    শুঁটকিহাটা ইউনিয়ন পরিষদ
+  answer_sentence: "হাটের ইজারার নিলাম আগামী ২২ ফেব্রুয়ারি ২০২৭ তারিখ বেলা ১১টায় ইউনিয়ন পরিষদের সভাকক্ষে অনুষ্ঠিত হবে।"
+  insuff_replacement: "হাটের ইজারার নিলাম ইউনিয়ন পরিষদের সভাকক্ষে অনুষ্ঠিত হবে; নিলামের তারিখ ও সময় পরে নোটিশ বোর্ডে জানানো হবে।"
+  gold: {day: 22, month: 2, year: 2027}
+  q:
+    en: "On what date will the lease auction of the Shutkihata Weekly Cattle Market be held?"
+    bn: "শুঁটকিহাটা সাপ্তাহিক গরুর হাটের ইজারার নিলাম কোন তারিখে হবে?"
+    rbn: "shutkihata saptahik gorur hater ijarar nilam kon tarikhe hobe?"
+    cm: "শুঁটকিহাটা সাপ্তাহিক গরুর হাটের lease auction কোন date এ হবে?"
+    cmr: "shutkihata saptahik gorur hater lease auction kon date e hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 840000}
+    q:
+      en: "What government price has been set this year for the lease of the Shutkihata Weekly Cattle Market?"
+      bn: "শুঁটকিহাটা সাপ্তাহিক গরুর হাটের এ বছরের সরকারি মূল্য কত টাকা নির্ধারণ করা হয়েছে?"
+      rbn: "shutkihata saptahik gorur hater e bochorer sorkari mullo koto taka nirdharon kora hoyeche?"
+      cm: "শুঁটকিহাটা সাপ্তাহিক গরুর হাটের এ বছরের government price কত টাকা নির্ধারণ করা হয়েছে?"
+      cmr: "shutkihata saptahik gorur hater e bochorer government price koto taka nirdharon kora hoyeche?"
+
+- id: N099
+  format: multi
+  domain: finance
+  answer_type: name
+  entity:
+    bn: "টিয়াঠুঁটি ডিজিটাল সেবা কেন্দ্র"
+    rom: "tiyathuti digital sheba kendro"
+    en: "Tiyathuti Digital Service Centre"
+  edit_type: deletion
+  passage: |
+    টিয়াঠুঁটি ডিজিটাল সেবা কেন্দ্র
+    মোবাইল ব্যাংকিং এজেন্ট প্রশিক্ষণ বিজ্ঞপ্তি
+
+    টিয়াঠুঁটি ডিজিটাল সেবা কেন্দ্রের উদ্যোগে স্থানীয় দোকানি ও তরুণ উদ্যোক্তাদের জন্য মোবাইল ব্যাংকিং এজেন্ট হিসেবে কাজ করার ওপর একটি পাঁচ দিনের প্রশিক্ষণ কোর্সের আয়োজন করা হয়েছে। প্রশিক্ষণে গ্রাহকের হিসাব খোলা, ক্যাশ ইন ও ক্যাশ আউট, লেনদেনের হিসাব সংরক্ষণ এবং প্রতারণা প্রতিরোধের কৌশল হাতে-কলমে শেখানো হবে।
+
+    প্রশিক্ষণ পরিচালনা করবেন আর্থিক সাক্ষরতা বিষয়ে দীর্ঘ অভিজ্ঞতাসম্পন্ন প্রশিক্ষক তানভীর আহমেদ সরকার। প্রতিটি ব্যাচে সর্বোচ্চ ৩৫ জন প্রশিক্ষণার্থী অংশ নিতে পারবেন। প্রশিক্ষণ প্রতিদিন সকাল ১০টা থেকে বিকেল ৪টা পর্যন্ত সেবা কেন্দ্রের প্রশিক্ষণ কক্ষে চলবে। দুপুরের খাবার ও প্রশিক্ষণ সামগ্রী কেন্দ্রের পক্ষ থেকে দেওয়া হবে।
+
+    আবেদনকারীর বয়স কমপক্ষে আঠারো বছর হতে হবে এবং ন্যূনতম এসএসসি পাস হতে হবে। নিজস্ব দোকান বা ব্যবসাপ্রতিষ্ঠান আছে এমন আবেদনকারীরা অগ্রাধিকার পাবেন। আবেদনের সঙ্গে জাতীয় পরিচয়পত্রের ফটোকপি, ট্রেড লাইসেন্সের কপি (যদি থাকে) এবং এক কপি ছবি জমা দিতে হবে। প্রশিক্ষণ শেষে সফল প্রশিক্ষণার্থীদের সনদপত্র দেওয়া হবে। প্রশিক্ষণে অংশগ্রহণের জন্য কোনো ফি লাগবে না। আবেদনপত্র কেন্দ্রের অফিস থেকে বিনামূল্যে সংগ্রহ করে পূরণ করে জমা দেওয়া যাবে। আসন সীমিত হওয়ায় আগে আবেদনকারীদের অগ্রাধিকার দেওয়া হবে।
+
+    সমন্বয়কারী
+    টিয়াঠুঁটি ডিজিটাল সেবা কেন্দ্র
+  answer_sentence: "প্রশিক্ষণ পরিচালনা করবেন আর্থিক সাক্ষরতা বিষয়ে দীর্ঘ অভিজ্ঞতাসম্পন্ন প্রশিক্ষক তানভীর আহমেদ সরকার।"
+  insuff_replacement: ""
+  gold: {aliases: ["তানভীর আহমেদ সরকার", "Tanvir Ahmed Sarker", "Tanveer Ahmed Sarkar", "Tanvir Ahmed Sarkar"]}
+  q:
+    en: "Who will conduct the mobile banking agent training at the Tiyathuti Digital Service Centre?"
+    bn: "টিয়াঠুঁটি ডিজিটাল সেবা কেন্দ্রের মোবাইল ব্যাংকিং এজেন্ট প্রশিক্ষণ কে পরিচালনা করবেন?"
+    rbn: "tiyathuti digital sheba kendro r mobile banking agent proshikkhon ke porichalona korben?"
+    cm: "টিয়াঠুঁটি ডিজিটাল সেবা কেন্দ্রের এজেন্ট training কে conduct করবেন?"
+    cmr: "tiyathuti digital sheba kendro r agent training ke conduct korben?"
+  sibling:
+    answer_type: number
+    gold: {value: 35}
+    q:
+      en: "At most how many trainees can join each batch of the training at the Tiyathuti Digital Service Centre?"
+      bn: "টিয়াঠুঁটি ডিজিটাল সেবা কেন্দ্রের প্রশিক্ষণের প্রতিটি ব্যাচে সর্বোচ্চ কতজন অংশ নিতে পারবেন?"
+      rbn: "tiyathuti digital sheba kendro r proshikkhoner protiti bache sorbocho kotojon ongsho nite parben?"
+      cm: "টিয়াঠুঁটি ডিজিটাল সেবা কেন্দ্রের training এর প্রতিটি batch এ সর্বোচ্চ কতজন অংশ নিতে পারবেন?"
+      cmr: "tiyathuti digital sheba kendro r training er protiti batch e sorbocho kotojon ongsho nite parben?"
+
+- id: N100
+  format: multi
+  domain: transport
+  answer_type: number
+  entity:
+    bn: "ধানশালিক সিটি বাস ডিপো"
+    rom: "dhanshalik city bus depot"
+    en: "Dhanshalik City Bus Depot"
+  edit_type: neutralisation
+  passage: |
+    ধানশালিক সিটি বাস ডিপো
+    নতুন বাস সংযোজন ও মাসিক পাস সংক্রান্ত বিজ্ঞপ্তি
+
+    নগরবাসীর অবগতির জন্য জানানো যাচ্ছে যে, যাত্রীসেবার মান উন্নয়নের লক্ষ্যে ধানশালিক সিটি বাস ডিপোর বহরে নতুন বাস সংযোজন করা হয়েছে। নতুন বাসগুলো নিচু মেঝেবিশিষ্ট, ফলে বয়স্ক ও শারীরিক প্রতিবন্ধী যাত্রীরা সহজে ওঠানামা করতে পারবেন।
+
+    এ মাসে ডিপোর বহরে মোট ২৮টি নতুন বাস যুক্ত হয়েছে। এগুলো ডিপো থেকে রেলস্টেশন, মেডিকেল কলেজ ও নদীবন্দর রুটে চলাচল করবে। প্রতিটি বাসে নারী, শিশু ও প্রতিবন্ধী যাত্রীদের জন্য সংরক্ষিত আসন থাকবে এবং চালকের পাশে জরুরি যোগাযোগের বোতাম থাকবে।
+
+    নিয়মিত যাত্রীদের সুবিধার্থে মাসিক বাস পাস চালু করা হয়েছে। সাধারণ যাত্রীদের মাসিক পাসের মূল্য ১,২০০ টাকা এবং শিক্ষার্থীদের জন্য তা অর্ধেক। মাসিক পাস দিয়ে ডিপোর যেকোনো রুটের বাসে মাসের যেকোনো দিন যতবার খুশি যাতায়াত করা যাবে। পাস করতে এক কপি ছবি ও জাতীয় পরিচয়পত্র অথবা শিক্ষার্থী পরিচয়পত্রের ফটোকপি জমা দিতে হবে। পাস হস্তান্তরযোগ্য নয়; অন্য কেউ পাস ব্যবহার করলে তা বাজেয়াপ্ত করা হবে। বাসে ওঠার সময় লাইন মেনে চলা এবং চলন্ত বাসে না ওঠার জন্য যাত্রীদের অনুরোধ করা হলো। চালক বা কন্ডাক্টরের আচরণ নিয়ে কোনো অভিযোগ থাকলে ডিপো ব্যবস্থাপকের কার্যালয়ে লিখিতভাবে জানানো যাবে।
+
+    ডিপো ব্যবস্থাপক
+    ধানশালিক সিটি বাস ডিপো
+  answer_sentence: "এ মাসে ডিপোর বহরে মোট ২৮টি নতুন বাস যুক্ত হয়েছে।"
+  insuff_replacement: "এ মাসে ডিপোর বহরে প্রথম ধাপের নতুন বাসগুলো যুক্ত হয়েছে।"
+  gold: {value: 28}
+  q:
+    en: "How many new buses have been added this month to the fleet of the Dhanshalik City Bus Depot?"
+    bn: "ধানশালিক সিটি বাস ডিপোর বহরে এ মাসে মোট কয়টি নতুন বাস যুক্ত হয়েছে?"
+    rbn: "dhanshalik city bus depot er bohore e mashe mot koyti notun bas jukto hoyeche?"
+    cm: "ধানশালিক সিটি বাস ডিপোর fleet এ এ মাসে মোট কয়টি নতুন bus যুক্ত হয়েছে?"
+    cmr: "dhanshalik city bus depot er fleet e e mashe mot koyti notun bus jukto hoyeche?"
+  sibling:
+    answer_type: amount
+    gold: {value: 1200}
+    q:
+      en: "What is the price of a monthly pass for general passengers at the Dhanshalik City Bus Depot?"
+      bn: "ধানশালিক সিটি বাস ডিপোর সাধারণ যাত্রীদের মাসিক পাসের দাম কত টাকা?"
+      rbn: "dhanshalik city bus depot er sadharon jatrider mashik pasher dam koto taka?"
+      cm: "ধানশালিক সিটি বাস ডিপোর সাধারণ যাত্রীদের monthly pass এর দাম কত টাকা?"
+      cmr: "dhanshalik city bus depot er sadharon jatrider monthly pass er dam koto taka?"
+
+- id: N101
+  format: multi
+  domain: finance
+  answer_type: yesno
+  entity:
+    bn: "চন্দনপিঁড়ি বণিক সমবায় সমিতি"
+    rom: "chondonpiri bonik shomobay shomiti"
+    en: "Chondonpiri Merchants' Cooperative Society"
+  edit_type: deletion
+  passage: |
+    চন্দনপিঁড়ি বণিক সমবায় সমিতি
+    বার্ষিক লভ্যাংশ ঘোষণা ও সাধারণ সভার বিজ্ঞপ্তি
+
+    চন্দনপিঁড়ি বণিক সমবায় সমিতির সকল শেয়ারহোল্ডার সদস্যের অবগতির জন্য জানানো যাচ্ছে যে, সমিতির ব্যবস্থাপনা কমিটির সভায় বিগত অর্থবছরের নিরীক্ষিত হিসাব অনুমোদন করা হয়েছে। আলোচ্য বছরে সমিতির পাইকারি কাপড় ও মনিহারি পণ্যের ব্যবসা থেকে উল্লেখযোগ্য মুনাফা অর্জিত হয়েছে।
+
+    ব্যবস্থাপনা কমিটি সদস্যদের জন্য শেয়ারপ্রতি ১৪ শতাংশ হারে লভ্যাংশের সুপারিশ করেছে, যা বার্ষিক সাধারণ সভায় চূড়ান্ত অনুমোদনের জন্য উপস্থাপন করা হবে। এ বছর লভ্যাংশ সদস্যদের নগদ অর্থে পরিশোধ করা হবে। লভ্যাংশ বিতরণের সময় সদস্যদের শেয়ার সনদের মূল কপি দেখাতে হবে।
+
+    সমিতির বার্ষিক সাধারণ সভা সমিতির নিজস্ব ভবনের তৃতীয় তলার হলরুমে অনুষ্ঠিত হবে। সভায় নতুন গুদাম নির্মাণ, পুরোনো ঋণ পরিশোধ এবং সদস্যপদ নবায়ন ফি পুনর্নির্ধারণের প্রস্তাব নিয়ে আলোচনা করা হবে। যেসব সদস্যের কাছে সমিতির বকেয়া পাওনা আছে, তাঁদের সভার আগেই বকেয়া পরিশোধের অনুরোধ করা হলো। সদস্যপদ নবায়ন না করা সদস্যরা সভায় ভোট দিতে পারবেন না। মৃত সদস্যের শেয়ার ও লভ্যাংশ সংক্রান্ত বিষয়ে তাঁর মনোনীত উত্তরাধিকারী প্রয়োজনীয় কাগজপত্রসহ সমিতির অফিসে যোগাযোগ করতে পারবেন। সভায় সকল সদস্যের উপস্থিতি একান্তভাবে কাম্য।
+
+    সম্পাদক
+    চন্দনপিঁড়ি বণিক সমবায় সমিতি
+  answer_sentence: "এ বছর লভ্যাংশ সদস্যদের নগদ অর্থে পরিশোধ করা হবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Will the Chondonpiri Merchants' Cooperative Society pay this year's dividend in cash?"
+    bn: "চন্দনপিঁড়ি বণিক সমবায় সমিতি কি এ বছরের লভ্যাংশ নগদ অর্থে দেবে?"
+    rbn: "chondonpiri bonik shomobay shomiti ki e bochorer lovvangsho nogod orthe debe?"
+    cm: "চন্দনপিঁড়ি বণিক সমবায় সমিতি কি এ বছরের dividend cash এ দেবে?"
+    cmr: "chondonpiri bonik shomobay shomiti ki e bochorer dividend cash e debe?"
+  sibling:
+    answer_type: number
+    gold: {value: 14}
+    q:
+      en: "At what percentage per share has the management committee of the Chondonpiri Merchants' Cooperative Society recommended the dividend?"
+      bn: "চন্দনপিঁড়ি বণিক সমবায় সমিতির ব্যবস্থাপনা কমিটি শেয়ারপ্রতি কত শতাংশ লভ্যাংশের সুপারিশ করেছে?"
+      rbn: "chondonpiri bonik shomobay shomitir bebosthapona komiti shearproti koto shotangsho lovvangsher shuparish koreche?"
+      cm: "চন্দনপিঁড়ি বণিক সমবায় সমিতির management committee শেয়ারপ্রতি কত percent লভ্যাংশের সুপারিশ করেছে?"
+      cmr: "chondonpiri bonik shomobay shomitir management committee shearproti koto percent lovvangsher shuparish koreche?"
+
+- id: N102
+  format: multi
+  domain: telecom
+  answer_type: amount
+  entity:
+    bn: "জোয়ারভাটা কেবল ও ইন্টারনেট নেটওয়ার্ক"
+    rom: "joarvata cable o internet network"
+    en: "Joarbhata Cable and Internet Network"
+  edit_type: neutralisation
+  passage: |
+    জোয়ারভাটা কেবল ও ইন্টারনেট নেটওয়ার্ক
+    বকেয়া বিল পরিশোধ ও পুনঃসংযোগ সংক্রান্ত বিজ্ঞপ্তি
+
+    জোয়ারভাটা কেবল ও ইন্টারনেট নেটওয়ার্কের সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, বেশ কিছু গ্রাহকের ডিশ লাইন ও ইন্টারনেট সংযোগের মাসিক বিল দীর্ঘদিন ধরে বকেয়া রয়েছে। এতে নেটওয়ার্কের রক্ষণাবেক্ষণ ও কর্মীদের বেতন পরিশোধে সমস্যা সৃষ্টি হচ্ছে।
+
+    যেসব গ্রাহকের দুই মাস বা তার বেশি সময়ের বিল বকেয়া আছে, তাঁদের আগামী ১৯ জানুয়ারি ২০২৭ তারিখের মধ্যে সম্পূর্ণ বকেয়া পরিশোধ করতে হবে। নির্ধারিত তারিখের মধ্যে বিল পরিশোধ না করলে কোনো পূর্বঘোষণা ছাড়াই সংযোগ বিচ্ছিন্ন করা হবে। বিচ্ছিন্ন সংযোগ পুনরায় চালু করতে বকেয়া বিলের সঙ্গে ৩২০ টাকা পুনঃসংযোগ চার্জ দিতে হবে।
+
+    বিল অফিসে নগদে অথবা মোবাইল ব্যাংকিংয়ের মাধ্যমে পরিশোধ করা যাবে। মোবাইল ব্যাংকিংয়ে বিল পাঠানোর সময় রেফারেন্স হিসেবে অবশ্যই গ্রাহক নম্বর লিখতে হবে। বিল পরিশোধের পর রশিদ সংরক্ষণ করার অনুরোধ করা হলো। আমাদের কোনো প্রতিনিধি বাড়িতে গিয়ে বিল সংগ্রহ করলে তিনি অবশ্যই ছাপানো রশিদ দেবেন। নতুন বছরে গ্রাহকদের জন্য উচ্চগতির নতুন ইন্টারনেট প্যাকেজ চালুর পরিকল্পনা রয়েছে, যা শিগগিরই জানানো হবে। লাইনে কোনো সমস্যা হলে অফিসে অভিযোগ জানালে চব্বিশ ঘণ্টার মধ্যে সমাধানের চেষ্টা করা হবে।
+
+    পরিচালক
+    জোয়ারভাটা কেবল ও ইন্টারনেট নেটওয়ার্ক
+  answer_sentence: "বিচ্ছিন্ন সংযোগ পুনরায় চালু করতে বকেয়া বিলের সঙ্গে ৩২০ টাকা পুনঃসংযোগ চার্জ দিতে হবে।"
+  insuff_replacement: "বিচ্ছিন্ন সংযোগ পুনরায় চালু করতে বকেয়া বিলের সঙ্গে নির্ধারিত পুনঃসংযোগ চার্জ দিতে হবে।"
+  gold: {value: 320}
+  q:
+    en: "What reconnection charge must be paid to restore a disconnected line at Joarbhata Cable and Internet Network?"
+    bn: "জোয়ারভাটা কেবল ও ইন্টারনেট নেটওয়ার্কে বিচ্ছিন্ন সংযোগ আবার চালু করতে কত টাকা পুনঃসংযোগ চার্জ দিতে হবে?"
+    rbn: "joarvata cable o internet network e bicchinno shonjog abar chalu korte koto taka punoshonjog charj dite hobe?"
+    cm: "জোয়ারভাটা কেবল ও ইন্টারনেট নেটওয়ার্কে কাটা line আবার চালু করতে কত টাকা reconnection charge দিতে হবে?"
+    cmr: "joarvata cable o internet network e kata line abar chalu korte koto taka reconnection charge dite hobe?"
+  sibling:
+    answer_type: date
+    gold: {day: 19, month: 1, year: 2027}
+    q:
+      en: "By what date must customers with two or more months of unpaid bills clear their dues with Joarbhata Cable and Internet Network?"
+      bn: "জোয়ারভাটা কেবল ও ইন্টারনেট নেটওয়ার্কের যেসব গ্রাহকের দুই মাস বা বেশি বিল বকেয়া, তাঁদের কোন তারিখের মধ্যে বকেয়া দিতে হবে?"
+      rbn: "joarvata cable o internet network er jeshob grahoker dui mash ba beshi bil bokeya, tader kon tarikher moddhe bokeya dite hobe?"
+      cm: "জোয়ারভাটা কেবল ও ইন্টারনেট নেটওয়ার্কের যেসব গ্রাহকের দুই মাস বা বেশি bill due, তাঁদের কোন date এর মধ্যে টাকা দিতে হবে?"
+      cmr: "joarvata cable o internet network er jeshob grahoker dui mash ba beshi bill due, tader kon date er moddhe taka dite hobe?"
+
+- id: N103
+  format: multi
+  domain: finance
+  answer_type: date
+  entity:
+    bn: "পাখিমারা কৃষক শস্য বীমা প্রকল্প"
+    rom: "pakhimara krishok shosso bima prokolpo"
+    en: "Pakhimara Farmers' Crop Insurance Project"
+  edit_type: deletion
+  passage: |
+    পাখিমারা কৃষক শস্য বীমা প্রকল্প
+    বোরো মৌসুমে বীমা নিবন্ধন বিজ্ঞপ্তি
+
+    পাখিমারা কৃষক শস্য বীমা প্রকল্পের আওতায় আসন্ন বোরো মৌসুমে ধানচাষিদের জন্য শস্য বীমা নিবন্ধন শুরু হয়েছে। বন্যা, শিলাবৃষ্টি, খরা বা পোকার আক্রমণে ফসলের ক্ষতি হলে নিবন্ধিত কৃষকরা নির্ধারিত হারে ক্ষতিপূরণ পাবেন।
+
+    প্রতি বিঘা জমির জন্য মৌসুমি প্রিমিয়াম ২৭০ টাকা, যার একটি অংশ প্রকল্পের ভর্তুকি তহবিল থেকে বহন করা হবে। একজন কৃষক সর্বোচ্চ ১২ বিঘা জমি বীমার আওতায় আনতে পারবেন। বীমা নিবন্ধনের শেষ তারিখ ১৫ ডিসেম্বর ২০২৭। নিবন্ধনের সময় জমির খতিয়ান বা বর্গাচুক্তির কপি এবং জাতীয় পরিচয়পত্রের ফটোকপি জমা দিতে হবে।
+
+    ফসলের ক্ষতি হলে ক্ষতির সাত দিনের মধ্যে প্রকল্প কার্যালয়ে লিখিতভাবে জানাতে হবে। এরপর প্রকল্পের মাঠ কর্মকর্তা সরেজমিনে জমি পরিদর্শন করে ক্ষতির পরিমাণ নির্ধারণ করবেন। ক্ষতিপূরণের অর্থ কৃষকের মোবাইল ব্যাংকিং অ্যাকাউন্টে সরাসরি পাঠানো হবে। বর্গাচাষিরাও জমির মালিকের সম্মতিপত্র নিয়ে এই বীমার আওতায় আসতে পারবেন। ইচ্ছাকৃত অবহেলা বা ভুল তথ্যের কারণে ক্ষতি হলে ক্ষতিপূরণ দেওয়া হবে না। নিবন্ধন ফরম প্রকল্প কার্যালয় এবং ইউনিয়ন কৃষি তথ্য কেন্দ্রে পাওয়া যাবে।
+
+    প্রকল্প পরিচালক
+    পাখিমারা কৃষক শস্য বীমা প্রকল্প
+  answer_sentence: "বীমা নিবন্ধনের শেষ তারিখ ১৫ ডিসেম্বর ২০২৭।"
+  insuff_replacement: ""
+  gold: {day: 15, month: 12, year: 2027}
+  q:
+    en: "What is the last date for Boro-season registration with the Pakhimara Farmers' Crop Insurance Project?"
+    bn: "পাখিমারা কৃষক শস্য বীমা প্রকল্পে বোরো মৌসুমের নিবন্ধনের শেষ তারিখ কবে?"
+    rbn: "pakhimara krishok shosso bima prokolpo te boro moushumer nibondhoner shesh tarikh kobe?"
+    cm: "পাখিমারা কৃষক শস্য বীমা প্রকল্পে বোরো মৌসুমের registration এর last date কবে?"
+    cmr: "pakhimara krishok shosso bima prokolpo te boro moushumer registration er last date kobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 270}
+    q:
+      en: "What is the seasonal premium per bigha of land under the Pakhimara Farmers' Crop Insurance Project?"
+      bn: "পাখিমারা কৃষক শস্য বীমা প্রকল্পে প্রতি বিঘা জমির মৌসুমি প্রিমিয়াম কত টাকা?"
+      rbn: "pakhimara krishok shosso bima prokolpo te proti bigha jomir moushumi premium koto taka?"
+      cm: "পাখিমারা কৃষক শস্য বীমা প্রকল্পে প্রতি বিঘা জমির seasonal premium কত টাকা?"
+      cmr: "pakhimara krishok shosso bima prokolpo te proti bigha jomir seasonal premium koto taka?"
+
+- id: N104
+  format: multi
+  domain: transport
+  answer_type: name
+  entity:
+    bn: "ফড়িংডাঙা ট্রাক ও কাভার্ড ভ্যান মালিক সমিতি"
+    rom: "foringdanga truck o covered van malik shomiti"
+    en: "Foringdanga Truck and Covered Van Owners' Association"
+  edit_type: neutralisation
+  passage: |
+    ফড়িংডাঙা ট্রাক ও কাভার্ড ভ্যান মালিক সমিতি
+    আহ্বায়ক কমিটি গঠন সংক্রান্ত বিজ্ঞপ্তি
+
+    ফড়িংডাঙা ট্রাক ও কাভার্ড ভ্যান মালিক সমিতির সকল সদস্যের অবগতির জন্য জানানো যাচ্ছে যে, বিগত কার্যনির্বাহী কমিটির মেয়াদ শেষ হওয়ায় এবং নির্ধারিত সময়ে নির্বাচন আয়োজন সম্ভব না হওয়ায় সমিতির সাধারণ সভায় একটি অন্তর্বর্তীকালীন আহ্বায়ক কমিটি গঠন করা হয়েছে।
+
+    ১১ সদস্যবিশিষ্ট এই আহ্বায়ক কমিটির আহ্বায়ক মনোনীত হয়েছেন প্রবীণ ট্রাক মালিক আবদুল খালেক মুন্সী। কমিটির সদস্যসচিবের দায়িত্ব পালন করবেন সমিতির সাবেক কোষাধ্যক্ষ। আহ্বায়ক কমিটি আগামী ছয় মাসের মধ্যে সদস্য তালিকা হালনাগাদ করে একটি সুষ্ঠু নির্বাচন আয়োজন করবে।
+
+    এই সময়ের মধ্যে সমিতির দৈনন্দিন কার্যক্রম, ট্রাক টার্মিনালের সিরিয়াল ব্যবস্থাপনা এবং চালকদের কল্যাণ তহবিল আহ্বায়ক কমিটি পরিচালনা করবে। সদস্যদের মাসিক চাঁদা আগের হারেই সমিতির অফিসে জমা দিতে হবে। সদস্যপদ নবায়নের জন্য প্রত্যেক মালিককে গাড়ির রেজিস্ট্রেশন সনদ ও ফিটনেস সনদের ফটোকপি জমা দিতে হবে। টার্মিনাল এলাকায় অবৈধ চাঁদা আদায়ের বিষয়ে কোনো অভিযোগ থাকলে সরাসরি আহ্বায়ক কমিটিকে জানানোর অনুরোধ করা হলো। পণ্য পরিবহনের ভাড়া নিয়ে ব্যবসায়ীদের সঙ্গে চলমান আলোচনা আহ্বায়ক কমিটির তত্ত্বাবধানে অব্যাহত থাকবে। সমিতির ঐক্য ও শৃঙ্খলা বজায় রাখতে সকল সদস্যের সহযোগিতা কামনা করা হলো।
+
+    সভাপতি, সাধারণ সভা
+    ফড়িংডাঙা ট্রাক ও কাভার্ড ভ্যান মালিক সমিতি
+  answer_sentence: "১১ সদস্যবিশিষ্ট এই আহ্বায়ক কমিটির আহ্বায়ক মনোনীত হয়েছেন প্রবীণ ট্রাক মালিক আবদুল খালেক মুন্সী।"
+  insuff_replacement: "১১ সদস্যবিশিষ্ট এই আহ্বায়ক কমিটির আহ্বায়ক হিসেবে একজন প্রবীণ ট্রাক মালিককে মনোনীত করা হয়েছে।"
+  gold: {aliases: ["আবদুল খালেক মুন্সী", "Abdul Khalek Munshi", "Abdul Khaleque Munshi", "Abdul Khalek Munsi"]}
+  q:
+    en: "Who has been nominated convener of the ad hoc committee of the Foringdanga Truck and Covered Van Owners' Association?"
+    bn: "ফড়িংডাঙা ট্রাক ও কাভার্ড ভ্যান মালিক সমিতির আহ্বায়ক কমিটির আহ্বায়ক কে মনোনীত হয়েছেন?"
+    rbn: "foringdanga truck o covered van malik shomitir ahobayok komitir ahobayok ke mononito hoyechen?"
+    cm: "ফড়িংডাঙা ট্রাক ও কাভার্ড ভ্যান মালিক সমিতির ad hoc committee র convener কে হয়েছেন?"
+    cmr: "foringdanga truck o covered van malik shomitir ad hoc committee r convener ke hoyechen?"
+  sibling:
+    answer_type: number
+    gold: {value: 11}
+    q:
+      en: "How many members does the ad hoc committee of the Foringdanga Truck and Covered Van Owners' Association have?"
+      bn: "ফড়িংডাঙা ট্রাক ও কাভার্ড ভ্যান মালিক সমিতির আহ্বায়ক কমিটি কত সদস্যবিশিষ্ট?"
+      rbn: "foringdanga truck o covered van malik shomitir ahobayok komiti koto shodossobishishto?"
+      cm: "ফড়িংডাঙা ট্রাক ও কাভার্ড ভ্যান মালিক সমিতির ad hoc committee তে কতজন member আছেন?"
+      cmr: "foringdanga truck o covered van malik shomitir ad hoc committee te kotojon member achen?"
+
+- id: N105
+  format: multi
+  domain: transport
+  answer_type: number
+  entity:
+    bn: "বেলিফুলিয়া রেল জংশন"
+    rom: "belifulia rail junction"
+    en: "Belifulia Rail Junction"
+  edit_type: deletion
+  passage: |
+    বেলিফুলিয়া রেল জংশন
+    নতুন আন্তঃনগর ট্রেন চালু সংক্রান্ত বিজ্ঞপ্তি
+
+    যাত্রীসাধারণের অবগতির জন্য জানানো যাচ্ছে যে, বেলিফুলিয়া রেল জংশন থেকে উপকূলীয় শহর লবণপাড়া পর্যন্ত একটি নতুন আন্তঃনগর ট্রেন চালু হতে যাচ্ছে। ট্রেনটির নাম রাখা হয়েছে "সাগরদোলা এক্সপ্রেস"। আগামী ৩ মার্চ ২০২৭ তারিখে ট্রেনটির উদ্বোধনী যাত্রা অনুষ্ঠিত হবে।
+
+    ট্রেনটিতে শীতাতপ নিয়ন্ত্রিত চেয়ার, শোভন চেয়ার ও স্নিগ্ধা শ্রেণির আসন থাকবে। ট্রেনটিতে মোট ১৪টি যাত্রীবাহী বগি সংযুক্ত করা হয়েছে। নারী যাত্রীদের জন্য আলাদা আসন সংরক্ষিত থাকবে এবং ট্রেনে একটি খাবার গাড়ি থাকবে। ট্রেনটি সাপ্তাহিক ছুটির দিন বুধবার ছাড়া প্রতিদিন চলাচল করবে।
+
+    সাগরদোলা এক্সপ্রেস বেলিফুলিয়া থেকে প্রতিদিন সকাল ৭টা ১৫ মিনিটে ছেড়ে যাবে এবং পথে চারটি স্টেশনে যাত্রাবিরতি করবে। ফিরতি পথে ট্রেনটি লবণপাড়া থেকে বিকেল ৪টায় ছাড়বে। অগ্রিম টিকিট যাত্রার দশ দিন আগে থেকে স্টেশনের কাউন্টার ও অনলাইনে পাওয়া যাবে। ট্রেনে ভ্রমণের সময় যাত্রীদের টিকিটের সঙ্গে জাতীয় পরিচয়পত্র বহন করতে হবে। শিশুদের জন্য নির্ধারিত নিয়মে অর্ধেক ভাড়া প্রযোজ্য হবে। স্টেশনে প্রবেশ ও বহির্গমনের সময় শৃঙ্খলা বজায় রাখার অনুরোধ করা হলো।
+
+    স্টেশন ব্যবস্থাপক
+    বেলিফুলিয়া রেল জংশন
+  answer_sentence: "ট্রেনটিতে মোট ১৪টি যাত্রীবাহী বগি সংযুক্ত করা হয়েছে।"
+  insuff_replacement: ""
+  gold: {value: 14}
+  q:
+    en: "How many passenger coaches does the new intercity train from Belifulia Rail Junction have?"
+    bn: "বেলিফুলিয়া রেল জংশন থেকে চালু হওয়া নতুন আন্তঃনগর ট্রেনে মোট কয়টি যাত্রীবাহী বগি আছে?"
+    rbn: "belifulia rail junction theke chalu howa notun antonogor trene mot koyti jatribahi bogi ache?"
+    cm: "বেলিফুলিয়া রেল জংশন থেকে নতুন intercity train এ মোট কয়টি passenger বগি আছে?"
+    cmr: "belifulia rail junction theke notun intercity train e mot koyti passenger bogi ache?"
+  sibling:
+    answer_type: date
+    gold: {day: 3, month: 3, year: 2027}
+    q:
+      en: "On what date will the inaugural run of the new intercity train from Belifulia Rail Junction take place?"
+      bn: "বেলিফুলিয়া রেল জংশন থেকে নতুন আন্তঃনগর ট্রেনের উদ্বোধনী যাত্রা কোন তারিখে হবে?"
+      rbn: "belifulia rail junction theke notun antonogor traner udbodhoni jatra kon tarikhe hobe?"
+      cm: "বেলিফুলিয়া রেল জংশন থেকে নতুন intercity train এর উদ্বোধনী যাত্রা কোন date এ হবে?"
+      cmr: "belifulia rail junction theke notun intercity train er udbodhoni jatra kon date e hobe?"
+
+- id: N106
+  format: multi
+  domain: commerce
+  answer_type: yesno
+  entity:
+    bn: "শিমফুল এক্সপ্রেস পার্সেল সার্ভিস"
+    rom: "shimful express parcel service"
+    en: "Shimful Express Parcel Service"
+  edit_type: neutralisation
+  passage: |
+    শিমফুল এক্সপ্রেস পার্সেল সার্ভিস
+    ক্যাশ অন ডেলিভারি সেবা চালু সংক্রান্ত বিজ্ঞপ্তি
+
+    অনলাইন ব্যবসায়ী ও ক্ষুদ্র উদ্যোক্তাদের জানানো যাচ্ছে যে, শিমফুল এক্সপ্রেস পার্সেল সার্ভিস এখন থেকে ক্যাশ অন ডেলিভারি সেবা চালু করেছে। এই সেবার মাধ্যমে প্রাপক পার্সেল হাতে পাওয়ার পর পণ্যের মূল্য পরিশোধ করবেন এবং আমরা সেই অর্থ প্রেরকের কাছে পৌঁছে দেব।
+
+    জেলার ভেতরে পাঠানো পার্সেল সাধারণত পরদিনের মধ্যে প্রাপকের কাছে পৌঁছে যাবে। জেলার বাইরে পাঠানো পার্সেলের ক্ষেত্রে ক্যাশ অন ডেলিভারি সুবিধা প্রযোজ্য হবে না। আদায়কৃত পণ্যমূল্য প্রতি রবিবার ও বুধবার প্রেরকের মোবাইল ব্যাংকিং অ্যাকাউন্টে পাঠানো হবে। প্রতিটি পার্সেলের সর্বোচ্চ ওজন ২৫ কেজি পর্যন্ত গ্রহণ করা হবে।
+
+    পার্সেল বুকিংয়ের সময় প্রাপকের পূর্ণ নাম, ঠিকানা ও সচল মোবাইল নম্বর দিতে হবে। ভুল ঠিকানার কারণে পার্সেল ফেরত এলে ফেরত চার্জ প্রেরককে বহন করতে হবে। প্রাপক পার্সেল গ্রহণে অস্বীকৃতি জানালে পার্সেলটি তিন কার্যদিবসের মধ্যে প্রেরকের নিকটস্থ শাখায় ফেরত পাঠানো হবে। তরল পদার্থ, ওষুধ ও কাঁচা খাদ্যপণ্য বিশেষ মোড়ক ছাড়া গ্রহণ করা হবে না। নিয়মিত ব্যবসায়ী গ্রাহকরা চুক্তির ভিত্তিতে মাসিক বিশেষ মূল্যছাড় পেতে পারেন। বিস্তারিত জানতে নিকটস্থ শাখা অফিসে যোগাযোগ করুন অথবা আমাদের প্রতিনিধির সঙ্গে কথা বলুন।
+
+    ব্যবস্থাপক, বিপণন বিভাগ
+    শিমফুল এক্সপ্রেস পার্সেল সার্ভিস
+  answer_sentence: "জেলার বাইরে পাঠানো পার্সেলের ক্ষেত্রে ক্যাশ অন ডেলিভারি সুবিধা প্রযোজ্য হবে না।"
+  insuff_replacement: "জেলার বাইরে পাঠানো পার্সেলের ক্ষেত্রে ক্যাশ অন ডেলিভারি সুবিধার বিষয়টি এখনো পর্যালোচনাধীন রয়েছে।"
+  gold: {value: false}
+  q:
+    en: "Is the cash-on-delivery service of Shimful Express Parcel Service available for parcels sent outside the district?"
+    bn: "শিমফুল এক্সপ্রেস পার্সেল সার্ভিসে জেলার বাইরে পাঠানো পার্সেলে কি ক্যাশ অন ডেলিভারি সুবিধা পাওয়া যাবে?"
+    rbn: "shimful express parcel service e jelar baire pathano parcele ki cash on delivery shubidha pawa jabe?"
+    cm: "শিমফুল এক্সপ্রেস পার্সেল সার্ভিসে জেলার বাইরে পাঠানো parcel এ কি cash on delivery পাওয়া যাবে?"
+    cmr: "shimful express parcel service e jelar baire pathano parcel e ki cash on delivery pawa jabe?"
+  sibling:
+    answer_type: number
+    gold: {value: 25}
+    q:
+      en: "Up to how many kilograms can a single parcel weigh to be accepted by Shimful Express Parcel Service?"
+      bn: "শিমফুল এক্সপ্রেস পার্সেল সার্ভিসে একটি পার্সেলের সর্বোচ্চ ওজন কত কেজি পর্যন্ত গ্রহণ করা হয়?"
+      rbn: "shimful express parcel service e ekti parceler sorbocho ojon koto kg porjonto grohon kora hoy?"
+      cm: "শিমফুল এক্সপ্রেস পার্সেল সার্ভিসে একটি parcel এর maximum weight কত কেজি পর্যন্ত?"
+      cmr: "shimful express parcel service e ekti parcel er maximum weight koto kg porjonto?"
+
+- id: N107
+  format: multi
+  domain: transport
+  answer_type: amount
+  entity:
+    bn: "চাঁদকুমারী খেয়াঘাট"
+    rom: "chadkumari kheyaghat"
+    en: "Chandkumari Ferry Crossing"
+  edit_type: deletion
+  passage: |
+    চাঁদকুমারী খেয়াঘাট
+    খেয়া পারাপারের নতুন ভাড়া তালিকা
+
+    চাঁদকুমারী খেয়াঘাটের ইজারাদারের পক্ষ থেকে সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে, উপজেলা পরিষদের অনুমোদনক্রমে আগামী মাসের প্রথম দিন থেকে খেয়া পারাপারের নতুন ভাড়া কার্যকর হবে। জ্বালানি তেলের দাম ও মাঝিদের মজুরি বৃদ্ধির কারণে ভাড়া পুনর্নির্ধারণ করা হয়েছে।
+
+    নতুন তালিকা অনুযায়ী প্রাপ্তবয়স্ক যাত্রীপ্রতি ভাড়া ১২ টাকা এবং দশ বছরের কম বয়সী শিশুদের জন্য ভাড়া লাগবে না। বাইসাইকেলসহ যাত্রীর ভাড়া ২০ টাকা। মোটরসাইকেলসহ চালকের পারাপার ভাড়া ৪৫ টাকা। গরু, মহিষ বা ছাগলসহ পারাপারের জন্য পশুপ্রতি আলাদা ভাড়া প্রযোজ্য হবে। নির্ধারিত হারের বেশি ভাড়া আদায় করা হলে উপজেলা পরিষদে অভিযোগ জানানো যাবে।
+
+    খেয়া নৌকা প্রতিদিন ভোর ৫টা থেকে রাত ১০টা পর্যন্ত চলাচল করবে। রাত ১০টার পর জরুরি রোগী পারাপারের প্রয়োজন হলে ঘাটে অবস্থানরত মাঝির সঙ্গে যোগাযোগ করা যাবে। প্রতিটি নৌকায় লাইফ জ্যাকেট রাখা বাধ্যতামূলক এবং ধারণক্ষমতার অতিরিক্ত যাত্রী তোলা যাবে না। ঝড়ো আবহাওয়ায় খেয়া চলাচল সাময়িকভাবে বন্ধ থাকবে। স্কুল-কলেজের শিক্ষার্থীরা পরিচয়পত্র দেখিয়ে মাসিক চুক্তিতে কম ভাড়ায় পারাপার হতে পারবে। ভাড়ার তালিকা ঘাটের দুই পাশে টাঙিয়ে রাখা হয়েছে।
+
+    ইজারাদার
+    চাঁদকুমারী খেয়াঘাট
+  answer_sentence: "মোটরসাইকেলসহ চালকের পারাপার ভাড়া ৪৫ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 45}
+  q:
+    en: "What is the fare for a rider crossing with a motorcycle at the Chandkumari Ferry Crossing?"
+    bn: "চাঁদকুমারী খেয়াঘাটে মোটরসাইকেলসহ চালকের পারাপার ভাড়া কত টাকা?"
+    rbn: "chadkumari kheyaghat e motorsaikelshoho chaloker parapar vara koto taka?"
+    cm: "চাঁদকুমারী খেয়াঘাটে motorcycle সহ পার হতে fare কত টাকা?"
+    cmr: "chadkumari kheyaghat e motorcycle shoho par hote fare koto taka?"
+  sibling:
+    answer_type: amount
+    gold: {value: 12}
+    q:
+      en: "What is the fare per adult passenger at the Chandkumari Ferry Crossing?"
+      bn: "চাঁদকুমারী খেয়াঘাটে প্রাপ্তবয়স্ক যাত্রীপ্রতি ভাড়া কত টাকা?"
+      rbn: "chadkumari kheyaghat e praptoboyosko jatriproti vara koto taka?"
+      cm: "চাঁদকুমারী খেয়াঘাটে adult passenger প্রতি ভাড়া কত টাকা?"
+      cmr: "chadkumari kheyaghat e adult passenger proti vara koto taka?"
+
+- id: N108
+  format: multi
+  domain: commerce
+  answer_type: date
+  entity:
+    bn: "ডালিমতলা ইলেকট্রনিক্স মার্কেট"
+    rom: "dalimtola electronics market"
+    en: "Dalimtola Electronics Market"
+  edit_type: neutralisation
+  passage: |
+    ডালিমতলা ইলেকট্রনিক্স মার্কেট
+    সংস্কারকাজের জন্য মার্কেট বন্ধ থাকার বিজ্ঞপ্তি
+
+    ডালিমতলা ইলেকট্রনিক্স মার্কেটের সকল দোকান মালিক, কর্মচারী ও ক্রেতাসাধারণের অবগতির জন্য জানানো যাচ্ছে যে, মার্কেট ভবনের বৈদ্যুতিক লাইন ও অগ্নিনির্বাপণ ব্যবস্থা সংস্কারের জন্য আগামী ১৮ জুন ২০২৭ তারিখ থেকে মার্কেট সাময়িকভাবে বন্ধ থাকবে। সম্প্রতি ভবনে একাধিকবার শর্টসার্কিটের ঘটনা ঘটায় অগ্নিনিরাপত্তা বিশেষজ্ঞদের পরামর্শে এই সিদ্ধান্ত নেওয়া হয়েছে।
+
+    মার্কেটের তিনটি তলায় মোট ১৬২টি দোকান রয়েছে, যার সবগুলোই সংস্কারকাজের সময় বন্ধ থাকবে। সংস্কারকাজ শেষে মার্কেট আগামী ৪ জুলাই ২০২৭ তারিখ থেকে আবার খুলে দেওয়া হবে। বন্ধ থাকার সময়ে দোকানের মালামাল নিজ দায়িত্বে সরিয়ে নেওয়ার অথবা নিরাপদে তালাবদ্ধ করে রাখার অনুরোধ করা হলো।
+
+    সংস্কারকাজ চলাকালে মার্কেটের প্রধান ফটক বন্ধ থাকবে এবং শুধু নির্মাণকর্মীরা পেছনের ফটক দিয়ে প্রবেশ করতে পারবেন। দোকান মালিকরা জরুরি প্রয়োজনে মার্কেট কমিটির অফিসে আবেদন করে নিরাপত্তাকর্মীর উপস্থিতিতে দোকানে প্রবেশ করতে পারবেন। বন্ধ থাকার সময়ের দোকানভাড়া মওকুফের বিষয়ে ভবন মালিকের সঙ্গে আলোচনা চলছে। সংস্কারের পর প্রতিটি তলায় নতুন অগ্নিনির্বাপণ যন্ত্র ও জরুরি বহির্গমন পথ চালু করা হবে। সাময়িক অসুবিধার জন্য আমরা আন্তরিকভাবে দুঃখিত।
+
+    সভাপতি
+    ডালিমতলা ইলেকট্রনিক্স মার্কেট দোকান মালিক সমিতি
+  answer_sentence: "সংস্কারকাজ শেষে মার্কেট আগামী ৪ জুলাই ২০২৭ তারিখ থেকে আবার খুলে দেওয়া হবে।"
+  insuff_replacement: "সংস্কারকাজ শেষ হলে মার্কেট আবার খুলে দেওয়া হবে; পুনরায় খোলার তারিখ পরে জানানো হবে।"
+  gold: {day: 4, month: 7, year: 2027}
+  q:
+    en: "From what date will the Dalimtola Electronics Market reopen after the renovation?"
+    bn: "সংস্কারের পর ডালিমতলা ইলেকট্রনিক্স মার্কেট কোন তারিখ থেকে আবার খুলবে?"
+    rbn: "shongskarer por dalimtola electronics market kon tarikh theke abar khulbe?"
+    cm: "renovation এর পর ডালিমতলা ইলেকট্রনিক্স মার্কেট কোন date থেকে আবার খুলবে?"
+    cmr: "renovation er por dalimtola electronics market kon date theke abar khulbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 162}
+    q:
+      en: "How many shops are there in the Dalimtola Electronics Market?"
+      bn: "ডালিমতলা ইলেকট্রনিক্স মার্কেটে মোট কয়টি দোকান আছে?"
+      rbn: "dalimtola electronics market e mot koyti dokan ache?"
+      cm: "ডালিমতলা ইলেকট্রনিক্স মার্কেটে মোট কয়টি shop আছে?"
+      cmr: "dalimtola electronics market e mot koyti shop ache?"
+
+- id: N109
+  format: multi
+  domain: finance
+  answer_type: name
+  entity:
+    bn: "আলোকঝারি সাধারণ বীমা"
+    rom: "alokjhari sadharon bima"
+    en: "Alokjhari General Insurance"
+  edit_type: deletion
+  passage: |
+    আলোকঝারি সাধারণ বীমা
+    মোটরযান বীমা নবায়ন ও দাবি নিষ্পত্তি বিজ্ঞপ্তি
+
+    আলোকঝারি সাধারণ বীমার আঞ্চলিক কার্যালয়ের পক্ষ থেকে সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, যেসব মোটরযানের বীমা পলিসির মেয়াদ চলতি মাসে শেষ হচ্ছে, সেগুলোর নবায়ন অবিলম্বে সম্পন্ন করার অনুরোধ করা হলো। বৈধ বীমা সনদ ছাড়া সড়কে গাড়ি চালানো আইনত দণ্ডনীয়।
+
+    মোটরসাইকেলের তৃতীয় পক্ষ বীমার বার্ষিক প্রিমিয়াম ৬৫০ টাকা এবং প্রাইভেট কারের ক্ষেত্রে প্রিমিয়াম গাড়ির ধরন অনুযায়ী নির্ধারিত হবে। নবায়নের সময় গাড়ির রেজিস্ট্রেশন সনদ ও আগের বীমা সনদের কপি সঙ্গে আনতে হবে। প্রিমিয়াম মোবাইল ব্যাংকিং বা কার্যালয়ের কাউন্টারে নগদে পরিশোধ করা যাবে।
+
+    দুর্ঘটনাজনিত ক্ষতির দাবি নিষ্পত্তির জন্য আঞ্চলিক কার্যালয়ে একটি পৃথক দাবি শাখা খোলা হয়েছে। দাবি শাখার দায়িত্বে রয়েছেন সিনিয়র কর্মকর্তা মাহমুদা আক্তার শিমু। দুর্ঘটনার পর ৪৮ ঘণ্টার মধ্যে দাবির বিষয়ে কার্যালয়কে লিখিতভাবে জানাতে হবে এবং ক্ষতিগ্রস্ত গাড়ির ছবি, থানায় দায়েরকৃত সাধারণ ডায়েরির কপি ও চালকের লাইসেন্সের কপি জমা দিতে হবে। জরিপকারী সরেজমিনে ক্ষতি পরিদর্শনের পর দাবি নিষ্পত্তি করা হবে। ভুল তথ্য দিয়ে দাবি করলে পলিসি বাতিল করা হবে। আঞ্চলিক কার্যালয় শনিবার থেকে বৃহস্পতিবার সকাল ৯টা থেকে বিকেল ৫টা পর্যন্ত খোলা থাকে।
+
+    আঞ্চলিক প্রধান
+    আলোকঝারি সাধারণ বীমা
+  answer_sentence: "দাবি শাখার দায়িত্বে রয়েছেন সিনিয়র কর্মকর্তা মাহমুদা আক্তার শিমু।"
+  insuff_replacement: ""
+  gold: {aliases: ["মাহমুদা আক্তার শিমু", "Mahmuda Akter Shimu", "Mahmuda Akhter Shimu", "Mahmuda Aktar Simu"]}
+  q:
+    en: "Who is in charge of the claims section at the regional office of Alokjhari General Insurance?"
+    bn: "আলোকঝারি সাধারণ বীমার আঞ্চলিক কার্যালয়ের দাবি শাখার দায়িত্বে কে আছেন?"
+    rbn: "alokjhari sadharon bima r ancholik karjaloyer dabi shakhar dayitte ke achen?"
+    cm: "আলোকঝারি সাধারণ বীমার regional office এর claim শাখার দায়িত্বে কে আছেন?"
+    cmr: "alokjhari sadharon bima r regional office er claim shakhar dayitte ke achen?"
+  sibling:
+    answer_type: amount
+    gold: {value: 650}
+    q:
+      en: "What is the annual premium for third-party motorcycle insurance at Alokjhari General Insurance?"
+      bn: "আলোকঝারি সাধারণ বীমায় মোটরসাইকেলের তৃতীয় পক্ষ বীমার বার্ষিক প্রিমিয়াম কত টাকা?"
+      rbn: "alokjhari sadharon bima te motorsaikeler tritiyo pokkho bimar barshik premium koto taka?"
+      cm: "আলোকঝারি সাধারণ বীমায় motorcycle এর third party বীমার বার্ষিক premium কত টাকা?"
+      cmr: "alokjhari sadharon bima te motorcycle er third party bimar barshik premium koto taka?"
+
+- id: N110
+  format: multi
+  domain: commerce
+  answer_type: number
+  entity:
+    bn: "মেহেদিপাতা পৌর কাঁচাবাজার"
+    rom: "mehedipata pouro kachabajar"
+    en: "Mehedipata Municipal Fresh Market"
+  edit_type: neutralisation
+  passage: |
+    মেহেদিপাতা পৌর কাঁচাবাজার
+    নতুন শেডে দোকান বরাদ্দ সংক্রান্ত বিজ্ঞপ্তি
+
+    মেহেদিপাতা পৌরসভার সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে, মেহেদিপাতা পৌর কাঁচাবাজারে নবনির্মিত দ্বিতল শেডে সবজি, মাছ ও মুরগি বিক্রেতাদের জন্য দোকান বরাদ্দ দেওয়া হবে। পুরোনো বাজারের ভাসমান ও ফুটপাতের বিক্রেতারা বরাদ্দের ক্ষেত্রে অগ্রাধিকার পাবেন।
+
+    নতুন শেডে মোট ১২০টি দোকান তৈরি করা হয়েছে। এর মধ্যে ২৭টি দোকান নারী বিক্রেতাদের জন্য সংরক্ষিত রাখা হয়েছে। প্রতিটি দোকানের মাসিক ভাড়া ৯৫০ টাকা, যা প্রতি মাসের প্রথম সপ্তাহে পৌরসভার রাজস্ব শাখায় জমা দিতে হবে। দোকান বরাদ্দ পাওয়ার পর জামানত হিসেবে তিন মাসের ভাড়া অগ্রিম জমা দিতে হবে।
+
+    আবেদনপত্রের সঙ্গে জাতীয় পরিচয়পত্রের ফটোকপি, দুই কপি ছবি এবং ওয়ার্ড কাউন্সিলরের প্রত্যয়নপত্র জমা দিতে হবে। একজন আবেদনকারী শুধু একটি দোকানের জন্য আবেদন করতে পারবেন এবং বরাদ্দকৃত দোকান অন্য কারও কাছে ভাড়া দেওয়া বা হস্তান্তর করা যাবে না। আবেদনের সংখ্যা দোকানের চেয়ে বেশি হলে প্রকাশ্য লটারির মাধ্যমে বরাদ্দ দেওয়া হবে। নতুন শেডে পানি সরবরাহ, পয়ঃনিষ্কাশন ও বর্জ্য ফেলার নির্দিষ্ট স্থান রয়েছে। বাজারের পরিচ্ছন্নতা রক্ষায় সকল বিক্রেতাকে সহযোগিতা করার অনুরোধ করা হলো।
+
+    মেয়র
+    মেহেদিপাতা পৌরসভা
+  answer_sentence: "এর মধ্যে ২৭টি দোকান নারী বিক্রেতাদের জন্য সংরক্ষিত রাখা হয়েছে।"
+  insuff_replacement: "এর মধ্যে নারী বিক্রেতাদের জন্য কিছু দোকান সংরক্ষিত রাখা হয়েছে।"
+  gold: {value: 27}
+  q:
+    en: "How many shops in the new shed of the Mehedipata Municipal Fresh Market are reserved for women vendors?"
+    bn: "মেহেদিপাতা পৌর কাঁচাবাজারের নতুন শেডে নারী বিক্রেতাদের জন্য কয়টি দোকান সংরক্ষিত?"
+    rbn: "mehedipata pouro kachabajar er notun shede nari bikretader jonno koyti dokan shongrokkhito?"
+    cm: "মেহেদিপাতা পৌর কাঁচাবাজারের নতুন শেডে women vendor দের জন্য কয়টি দোকান reserved?"
+    cmr: "mehedipata pouro kachabajar er notun shede women vendor der jonno koyti dokan reserved?"
+  sibling:
+    answer_type: amount
+    gold: {value: 950}
+    q:
+      en: "What is the monthly rent of each shop in the new shed of the Mehedipata Municipal Fresh Market?"
+      bn: "মেহেদিপাতা পৌর কাঁচাবাজারের নতুন শেডে প্রতিটি দোকানের মাসিক ভাড়া কত টাকা?"
+      rbn: "mehedipata pouro kachabajar er notun shede protiti dokaner mashik vara koto taka?"
+      cm: "মেহেদিপাতা পৌর কাঁচাবাজারের নতুন শেডে প্রতিটি shop এর monthly rent কত টাকা?"
+      cmr: "mehedipata pouro kachabajar er notun shede protiti shop er monthly rent koto taka?"
+
+- id: N111
+  format: multi
+  domain: telecom
+  answer_type: yesno
+  entity:
+    bn: "ঝিলমিলপুর নেট সলিউশনস"
+    rom: "jhilmilpur net solutions"
+    en: "Jhilmilpur Net Solutions"
+  edit_type: deletion
+  passage: |
+    ঝিলমিলপুর নেট সলিউশনস
+    সেবা বিঘ্ন ও রক্ষণাবেক্ষণ সংক্রান্ত বিজ্ঞপ্তি
+
+    ঝিলমিলপুর নেট সলিউশনসের সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, গত সপ্তাহে সড়ক সম্প্রসারণের কাজের সময় আমাদের মূল ফাইবার লাইন একাধিক স্থানে কেটে যাওয়ায় উত্তর ও পূর্ব অংশের গ্রাহকরা প্রায় তিন দিন ইন্টারনেট সেবা থেকে বঞ্চিত ছিলেন। এ অনাকাঙ্ক্ষিত পরিস্থিতির জন্য আমরা আন্তরিকভাবে দুঃখিত।
+
+    ক্ষতিগ্রস্ত এলাকার গ্রাহকদের পরবর্তী মাসের বিল থেকে সেবা বন্ধ থাকা দিনগুলোর বিল কেটে রাখা হবে। কাটা লাইনগুলো অস্থায়ীভাবে জোড়া লাগিয়ে সেবা চালু করা হয়েছে, তবে স্থায়ী সমাধানের জন্য লাইনগুলো মাটির নিচ দিয়ে নতুন করে টানা হবে।
+
+    এই স্থায়ী মেরামত কাজের জন্য আগামী ২৬ সেপ্টেম্বর ২০২৭ তারিখে রাত ১২টা থেকে ভোর ৬টা পর্যন্ত সেবা বন্ধ থাকবে। রক্ষণাবেক্ষণের সময় রাউটার বন্ধ না করে চালু রাখার অনুরোধ করা হলো, যাতে কাজ শেষে সংযোগ স্বয়ংক্রিয়ভাবে ফিরে আসে। কাজ শেষ হওয়ার পর কোনো গ্রাহকের সংযোগে সমস্যা থাকলে গ্রাহকসেবা কেন্দ্রে অভিযোগ নম্বর সংগ্রহ করে জানাতে হবে। আমাদের প্রযুক্তিবিদরা অভিযোগ পাওয়ার চব্বিশ ঘণ্টার মধ্যে বাড়িতে গিয়ে সমস্যার সমাধান করবেন। ভবিষ্যতে এ ধরনের পরিস্থিতি এড়াতে সংশ্লিষ্ট কর্তৃপক্ষের সঙ্গে সমন্বয় করে কাজ করা হচ্ছে। আপনাদের ধৈর্য ও সহযোগিতার জন্য ধন্যবাদ।
+
+    প্রধান নির্বাহী
+    ঝিলমিলপুর নেট সলিউশনস
+  answer_sentence: "ক্ষতিগ্রস্ত এলাকার গ্রাহকদের পরবর্তী মাসের বিল থেকে সেবা বন্ধ থাকা দিনগুলোর বিল কেটে রাখা হবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Will Jhilmilpur Net Solutions deduct the days without service from next month's bill for customers in the affected areas?"
+    bn: "ঝিলমিলপুর নেট সলিউশনস কি ক্ষতিগ্রস্ত এলাকার গ্রাহকদের পরের মাসের বিল থেকে সেবা বন্ধ থাকা দিনগুলোর বিল কেটে রাখবে?"
+    rbn: "jhilmilpur net solutions ki khotigrosto elakar grahokder porer masher bil theke sheba bondho thaka dingulor bil kete rakhbe?"
+    cm: "ঝিলমিলপুর নেট সলিউশনস কি affected এলাকার গ্রাহকদের পরের মাসের bill থেকে service বন্ধ থাকা দিনগুলোর টাকা কেটে রাখবে?"
+    cmr: "jhilmilpur net solutions ki affected elakar grahokder porer masher bill theke service bondho thaka dingulor taka kete rakhbe?"
+  sibling:
+    answer_type: date
+    gold: {day: 26, month: 9, year: 2027}
+    q:
+      en: "On what date will the service of Jhilmilpur Net Solutions be shut down for the permanent repair work?"
+      bn: "ঝিলমিলপুর নেট সলিউশনসের স্থায়ী মেরামত কাজের জন্য কোন তারিখে সেবা বন্ধ থাকবে?"
+      rbn: "jhilmilpur net solutions er sthayi meramot kajer jonno kon tarikhe sheba bondho thakbe?"
+      cm: "ঝিলমিলপুর নেট সলিউশনসের permanent repair এর জন্য কোন date এ service বন্ধ থাকবে?"
+      cmr: "jhilmilpur net solutions er permanent repair er jonno kon date e service bondho thakbe?"
+
+- id: N112
+  format: multi
+  domain: commerce
+  answer_type: amount
+  entity:
+    bn: "কাঁসারিপাড়া তাঁতশিল্পী সমবায় সমিতি"
+    rom: "kasaripara tatshilpi shomobay shomiti"
+    en: "Kasaripara Weavers' Cooperative Society"
+  edit_type: neutralisation
+  passage: |
+    কাঁসারিপাড়া তাঁতশিল্পী সমবায় সমিতি
+    নতুন সদস্য ভর্তি বিজ্ঞপ্তি
+
+    কাঁসারিপাড়া তাঁতশিল্পী সমবায় সমিতির পক্ষ থেকে এলাকার তাঁতি ও তাঁতপণ্য ব্যবসায়ীদের জানানো যাচ্ছে যে, সমিতিতে সীমিতসংখ্যক নতুন সদস্য ভর্তি করা হবে। সমিতির সদস্যরা সুতা ও রং পাইকারি দামে কিনতে পারেন এবং সমিতির বিক্রয়কেন্দ্রের মাধ্যমে তাঁদের তৈরি শাড়ি ও গামছা বাজারজাত করতে পারেন।
+
+    সদস্য হতে আগ্রহী ব্যক্তিদের এককালীন ভর্তি ফি ১৫০ টাকা দিতে হবে। এছাড়া প্রত্যেক নতুন সদস্যকে কমপক্ষে পাঁচটি শেয়ার কিনতে হবে। সমিতির প্রতিটি শেয়ারের মূল্য ৪৪০ টাকা। শেয়ারের অর্থ এককালীন অথবা তিনটি মাসিক কিস্তিতে পরিশোধ করা যাবে।
+
+    আবেদনকারীকে অবশ্যই কাঁসারিপাড়া বা পার্শ্ববর্তী গ্রামের স্থায়ী বাসিন্দা হতে হবে এবং নিজের অন্তত একটি তাঁত থাকতে হবে। আবেদনের সঙ্গে জাতীয় পরিচয়পত্রের ফটোকপি, দুই কপি ছবি ও ইউনিয়ন পরিষদের নাগরিকত্ব সনদ জমা দিতে হবে। সমিতির ব্যবস্থাপনা কমিটি আবেদন যাচাই করে সদস্যপদ অনুমোদন করবে। নতুন সদস্যরা ভর্তির এক বছর পর থেকে সমিতির বার্ষিক লভ্যাংশ পাওয়ার যোগ্য হবেন। সমিতির সাপ্তাহিক সভা প্রতি সোমবার বিকেলে সমিতির কার্যালয়ে অনুষ্ঠিত হয়। আবেদন ফরম সমিতির কার্যালয়ে কর্মদিবসে বিকেল ৩টা থেকে সন্ধ্যা ৬টা পর্যন্ত পাওয়া যাবে।
+
+    সম্পাদক
+    কাঁসারিপাড়া তাঁতশিল্পী সমবায় সমিতি
+  answer_sentence: "সমিতির প্রতিটি শেয়ারের মূল্য ৪৪০ টাকা।"
+  insuff_replacement: "সমিতির প্রতিটি শেয়ারের মূল্য সমিতির উপআইন অনুযায়ী নির্ধারিত, যা কার্যালয় থেকে জেনে নেওয়া যাবে।"
+  gold: {value: 440}
+  q:
+    en: "What is the price of each share of the Kasaripara Weavers' Cooperative Society?"
+    bn: "কাঁসারিপাড়া তাঁতশিল্পী সমবায় সমিতির প্রতিটি শেয়ারের মূল্য কত টাকা?"
+    rbn: "kasaripara tatshilpi shomobay shomiti r protiti shearer mullo koto taka?"
+    cm: "কাঁসারিপাড়া তাঁতশিল্পী সমবায় সমিতির প্রতিটি share এর price কত টাকা?"
+    cmr: "kasaripara tatshilpi shomobay shomiti r protiti share er price koto taka?"
+  sibling:
+    answer_type: amount
+    gold: {value: 150}
+    q:
+      en: "What is the one-time admission fee for new members of the Kasaripara Weavers' Cooperative Society?"
+      bn: "কাঁসারিপাড়া তাঁতশিল্পী সমবায় সমিতিতে নতুন সদস্যদের এককালীন ভর্তি ফি কত টাকা?"
+      rbn: "kasaripara tatshilpi shomobay shomiti te notun shodossoder ekkalin vorti fee koto taka?"
+      cm: "কাঁসারিপাড়া তাঁতশিল্পী সমবায় সমিতিতে নতুন member দের admission fee কত টাকা?"
+      cmr: "kasaripara tatshilpi shomobay shomiti te notun member der admission fee koto taka?"
+
+- id: N113
+  format: multi
+  domain: transport
+  answer_type: date
+  entity:
+    bn: "শুশুকমারী নৌবন্দর"
+    rom: "shushukmari noubondor"
+    en: "Shushukmari River Port"
+  edit_type: deletion
+  passage: |
+    শুশুকমারী নৌবন্দর
+    নতুন যাত্রী টার্মিনাল চালু সংক্রান্ত বিজ্ঞপ্তি
+
+    শুশুকমারী নৌবন্দর ব্যবহারকারী লঞ্চযাত্রীদের জানানো যাচ্ছে যে, বন্দরের নবনির্মিত আধুনিক যাত্রী টার্মিনাল ভবনের নির্মাণকাজ শেষ হয়েছে। টার্মিনাল ভবনটি পুরোনো পন্টুনের উত্তর পাশে নির্মিত হয়েছে এবং এতে যাত্রীদের জন্য বিভিন্ন আধুনিক সুযোগ-সুবিধা রাখা হয়েছে।
+
+    নতুন টার্মিনাল ভবনটি ২১ আগস্ট ২০২৭ তারিখ থেকে যাত্রীদের জন্য খুলে দেওয়া হবে। টার্মিনালের শীতাতপ নিয়ন্ত্রিত প্রতীক্ষালয়ে একসঙ্গে ৬০০ জন যাত্রী বসতে পারবেন। ভবনে নারী ও শিশুদের জন্য আলাদা বিশ্রামকক্ষ, মাতৃদুগ্ধ পান কর্নার, বিশুদ্ধ পানির ব্যবস্থা এবং পরিচ্ছন্ন শৌচাগার রয়েছে।
+
+    টার্মিনাল চালু হওয়ার পর সকল লঞ্চের টিকিট শুধু টার্মিনালের কাউন্টার থেকে বিক্রি করা হবে এবং পন্টুনে টিকিট বিক্রি বন্ধ থাকবে। যাত্রীদের টিকিট দেখিয়ে টার্মিনালের নির্ধারিত গেট দিয়ে পন্টুনে প্রবেশ করতে হবে। দর্শনার্থীদের টার্মিনালে প্রবেশের জন্য প্রবেশ টিকিট সংগ্রহ করতে হবে। টার্মিনালের ভেতরে হকারদের প্রবেশ নিষিদ্ধ থাকবে এবং নির্ধারিত দোকান ছাড়া কোথাও খাবার বিক্রি করা যাবে না। নিরাপত্তার জন্য পুরো ভবনে ক্লোজসার্কিট ক্যামেরা স্থাপন করা হয়েছে। যাত্রীসেবা সংক্রান্ত যেকোনো অভিযোগ টার্মিনালের তথ্যকেন্দ্রে জানানো যাবে।
+
+    বন্দর কর্মকর্তা
+    শুশুকমারী নৌবন্দর
+  answer_sentence: "নতুন টার্মিনাল ভবনটি ২১ আগস্ট ২০২৭ তারিখ থেকে যাত্রীদের জন্য খুলে দেওয়া হবে।"
+  insuff_replacement: ""
+  gold: {day: 21, month: 8, year: 2027}
+  q:
+    en: "From what date will the new passenger terminal of Shushukmari River Port open to passengers?"
+    bn: "শুশুকমারী নৌবন্দরের নতুন যাত্রী টার্মিনাল কোন তারিখ থেকে যাত্রীদের জন্য খুলে দেওয়া হবে?"
+    rbn: "shushukmari noubondor er notun jatri terminal kon tarikh theke jatrider jonno khule dewa hobe?"
+    cm: "শুশুকমারী নৌবন্দরের নতুন passenger terminal কোন date থেকে খুলবে?"
+    cmr: "shushukmari noubondor er notun passenger terminal kon date theke khulbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 600}
+    q:
+      en: "How many passengers can sit at once in the waiting room of the new terminal at Shushukmari River Port?"
+      bn: "শুশুকমারী নৌবন্দরের নতুন টার্মিনালের প্রতীক্ষালয়ে একসঙ্গে কতজন যাত্রী বসতে পারবেন?"
+      rbn: "shushukmari noubondor er notun terminaler protikkhaloye ekshonge kotojon jatri boshte parben?"
+      cm: "শুশুকমারী নৌবন্দরের নতুন terminal এর waiting room এ একসঙ্গে কতজন যাত্রী বসতে পারবেন?"
+      cmr: "shushukmari noubondor er notun terminal er waiting room e ekshonge kotojon jatri boshte parben?"
+
+- id: N114
+  format: multi
+  domain: commerce
+  answer_type: name
+  entity:
+    bn: "কেয়াঘাট শিল্প ও বাণিজ্য মেলা"
+    rom: "keyaghat shilpo o banijjo mela"
+    en: "Keyaghat Industrial and Trade Fair"
+  edit_type: neutralisation
+  passage: |
+    কেয়াঘাট শিল্প ও বাণিজ্য মেলা ২০২৭
+    উদ্বোধন ও প্রবেশ সংক্রান্ত বিজ্ঞপ্তি
+
+    কেয়াঘাট বণিক সমিতির আয়োজনে মাসব্যাপী কেয়াঘাট শিল্প ও বাণিজ্য মেলা ২০২৭ আগামী সপ্তাহে পৌর ঈদগাহ মাঠে শুরু হতে যাচ্ছে। মেলায় দেশীয় শিল্পপণ্য, আসবাবপত্র, পোশাক, কৃষি যন্ত্রপাতি ও খাদ্যপণ্যের প্রায় দুই শতাধিক স্টল ও প্যাভিলিয়ন থাকবে।
+
+    মেলার আনুষ্ঠানিক উদ্বোধন করবেন জেলা চেম্বারের সাবেক সভাপতি শামসুন্নাহার বেগম লাকি। উদ্বোধনী অনুষ্ঠানে স্থানীয় উদ্যোক্তা, ব্যবসায়ী ও গণ্যমান্য ব্যক্তিরা উপস্থিত থাকবেন। উদ্বোধনের দিন বিকেলে সাংস্কৃতিক অনুষ্ঠানের আয়োজন করা হয়েছে।
+
+    মেলায় প্রবেশের জন্য জনপ্রতি ৩০ টাকার টিকিট কাটতে হবে, তবে পাঁচ বছরের কম বয়সী শিশুদের প্রবেশ বিনামূল্যে। মেলা প্রতিদিন বিকেল ৩টা থেকে রাত ১০টা পর্যন্ত খোলা থাকবে এবং শুক্র ও শনিবার দুপুর থেকে খোলা থাকবে। মেলা প্রাঙ্গণে পর্যাপ্ত নিরাপত্তাকর্মী, অগ্নিনির্বাপণ ব্যবস্থা ও প্রাথমিক চিকিৎসাকেন্দ্র থাকবে। স্টল মালিকদের মেলা শুরুর আগের দিনের মধ্যে স্টল সাজানোর কাজ শেষ করতে হবে। মেলায় কোনো ধরনের লটারি বা জুয়া চালানো সম্পূর্ণ নিষিদ্ধ। ক্রেতারা পণ্যের মান বা দাম নিয়ে কোনো অভিযোগ থাকলে মেলার নিয়ন্ত্রণকক্ষে জানাতে পারবেন। মেলার শেষ দিনে সেরা স্টলগুলোকে পুরস্কৃত করা হবে।
+
+    আহ্বায়ক, মেলা পরিচালনা কমিটি
+    কেয়াঘাট বণিক সমিতি
+  answer_sentence: "মেলার আনুষ্ঠানিক উদ্বোধন করবেন জেলা চেম্বারের সাবেক সভাপতি শামসুন্নাহার বেগম লাকি।"
+  insuff_replacement: "মেলার আনুষ্ঠানিক উদ্বোধন করবেন জেলার একজন বিশিষ্ট ব্যবসায়ী নেতা।"
+  gold: {aliases: ["শামসুন্নাহার বেগম লাকি", "Shamsunnahar Begum Lucky", "Shamsun Nahar Begum Lucky", "Shamsunnahar Begum Laki"]}
+  q:
+    en: "Who will formally inaugurate the Keyaghat Industrial and Trade Fair?"
+    bn: "কেয়াঘাট শিল্প ও বাণিজ্য মেলার আনুষ্ঠানিক উদ্বোধন কে করবেন?"
+    rbn: "keyaghat shilpo o banijjo mela r anushthanik udbodhon ke korben?"
+    cm: "কেয়াঘাট শিল্প ও বাণিজ্য মেলার opening কে করবেন?"
+    cmr: "keyaghat shilpo o banijjo mela r opening ke korben?"
+  sibling:
+    answer_type: amount
+    gold: {value: 30}
+    q:
+      en: "What is the entry ticket price per person at the Keyaghat Industrial and Trade Fair?"
+      bn: "কেয়াঘাট শিল্প ও বাণিজ্য মেলায় প্রবেশের জন্য জনপ্রতি টিকিটের দাম কত টাকা?"
+      rbn: "keyaghat shilpo o banijjo mela te probesher jonno jonoproti tiketer dam koto taka?"
+      cm: "কেয়াঘাট শিল্প ও বাণিজ্য মেলায় entry ticket এর দাম জনপ্রতি কত টাকা?"
+      cmr: "keyaghat shilpo o banijjo mela te entry ticket er dam jonoproti koto taka?"
+
+- id: N115
+  format: multi
+  domain: finance
+  answer_type: number
+  entity:
+    bn: "পদ্মকুঁড়ি সমবায় ক্রেডিট ইউনিয়ন"
+    rom: "poddokuri shomobay credit union"
+    en: "Poddokuri Cooperative Credit Union"
+  edit_type: deletion
+  passage: |
+    পদ্মকুঁড়ি সমবায় ক্রেডিট ইউনিয়ন
+    মাসিক সঞ্চয় স্কিম চালু সংক্রান্ত বিজ্ঞপ্তি
+
+    পদ্মকুঁড়ি সমবায় ক্রেডিট ইউনিয়নের সম্মানিত সদস্যদের জানানো যাচ্ছে যে, সদস্যদের সঞ্চয়ের অভ্যাস গড়ে তোলা এবং ভবিষ্যতের প্রয়োজনে একটি নিরাপদ তহবিল তৈরির লক্ষ্যে "স্বপ্নপূরণ মাসিক সঞ্চয় স্কিম" চালু করা হয়েছে। ইউনিয়নের যেকোনো নিয়মিত সদস্য এই স্কিমে হিসাব খুলতে পারবেন।
+
+    স্কিমে প্রতি মাসে ১,৫০০ টাকা করে জমা দিতে হবে। স্কিমের মেয়াদ ৪২ মাস। মেয়াদ শেষে সদস্যরা জমাকৃত অর্থের সঙ্গে নির্ধারিত হারে মুনাফা পাবেন। মাসিক কিস্তি প্রতি মাসের ১০ তারিখের মধ্যে ইউনিয়নের কার্যালয়ে বা মোবাইল ব্যাংকিংয়ের মাধ্যমে জমা দিতে হবে।
+
+    নির্ধারিত তারিখের পরে কিস্তি জমা দিলে বিলম্ব ফি প্রযোজ্য হবে। পরপর তিনটি কিস্তি জমা না দিলে হিসাবটি নিষ্ক্রিয় বলে গণ্য হবে। হিসাব খোলার সময় সদস্যকে একজন নমিনির নাম, ছবি ও জাতীয় পরিচয়পত্রের কপি জমা দিতে হবে। একজন সদস্য সর্বোচ্চ দুটি হিসাব খুলতে পারবেন। জরুরি প্রয়োজনে সদস্যরা জমাকৃত অর্থের বিপরীতে ঋণ নিতে পারবেন। ইউনিয়নের সকল হিসাব প্রতি বছর স্বতন্ত্র নিরীক্ষক দ্বারা নিরীক্ষা করা হয়। স্কিম সম্পর্কে বিস্তারিত জানতে ইউনিয়নের কার্যালয়ে কর্মদিবসে সকাল ১০টা থেকে বিকেল ৪টার মধ্যে যোগাযোগ করুন।
+
+    ব্যবস্থাপক
+    পদ্মকুঁড়ি সমবায় ক্রেডিট ইউনিয়ন
+  answer_sentence: "স্কিমের মেয়াদ ৪২ মাস।"
+  insuff_replacement: ""
+  gold: {value: 42}
+  q:
+    en: "How many months is the term of the monthly savings scheme of the Poddokuri Cooperative Credit Union?"
+    bn: "পদ্মকুঁড়ি সমবায় ক্রেডিট ইউনিয়নের মাসিক সঞ্চয় স্কিমের মেয়াদ কত মাস?"
+    rbn: "poddokuri shomobay credit union er mashik shonchoy skimer meyad koto mash?"
+    cm: "পদ্মকুঁড়ি সমবায় ক্রেডিট ইউনিয়নের monthly savings scheme এর মেয়াদ কত মাস?"
+    cmr: "poddokuri shomobay credit union er monthly savings scheme er meyad koto mash?"
+  sibling:
+    answer_type: amount
+    gold: {value: 1500}
+    q:
+      en: "How much must be deposited each month in the monthly savings scheme of the Poddokuri Cooperative Credit Union?"
+      bn: "পদ্মকুঁড়ি সমবায় ক্রেডিট ইউনিয়নের মাসিক সঞ্চয় স্কিমে প্রতি মাসে কত টাকা জমা দিতে হবে?"
+      rbn: "poddokuri shomobay credit union er mashik shonchoy skime proti mashe koto taka joma dite hobe?"
+      cm: "পদ্মকুঁড়ি সমবায় ক্রেডিট ইউনিয়নের savings scheme এ প্রতি মাসে কত টাকা deposit করতে হবে?"
+      cmr: "poddokuri shomobay credit union er savings scheme e proti mashe koto taka deposit korte hobe?"
+
+- id: N116
+  format: multi
+  domain: transport
+  answer_type: yesno
+  entity:
+    bn: "বাঁশপাতা এক্সপ্রেস পরিবহন"
+    rom: "bashpata express poribohon"
+    en: "Bashpata Express Transport"
+  edit_type: neutralisation
+  passage: |
+    বাঁশপাতা এক্সপ্রেস পরিবহন
+    বিরতিহীন বাস সার্ভিস চালু সংক্রান্ত বিজ্ঞপ্তি
+
+    বাঁশপাতা এক্সপ্রেস পরিবহনের পক্ষ থেকে যাত্রীসাধারণকে জানানো যাচ্ছে যে, বাঁশপাতা কেন্দ্রীয় বাস টার্মিনাল থেকে জেলা শহর হিজলমোহনা পর্যন্ত একটি বিরতিহীন এক্সপ্রেস বাস সার্ভিস চালু করা হয়েছে। এই সার্ভিসের বাসগুলো পথে কোথাও যাত্রী ওঠানামা করাবে না, ফলে যাত্রার সময় প্রায় এক ঘণ্টা কমে আসবে।
+
+    এক্সপ্রেস সার্ভিসের জনপ্রতি ভাড়া ২৪০ টাকা। এক্সপ্রেস সার্ভিসে শিক্ষার্থীদের জন্য অর্ধেক ভাড়ার সুবিধা প্রযোজ্য হবে না। প্রতিদিন সকাল ৬টা থেকে সন্ধ্যা ৭টা পর্যন্ত প্রতি ঘণ্টায় একটি করে বাস ছাড়বে। টিকিট কাউন্টার থেকে অগ্রিম কেনা যাবে এবং আসন নম্বরসহ টিকিট দেওয়া হবে।
+
+    প্রত্যেক যাত্রী একটি ব্যাগ বিনা খরচে বহন করতে পারবেন। বাস ছাড়ার নির্ধারিত সময়ের পাঁচ মিনিট আগে কাউন্টারে উপস্থিত থাকতে হবে, অন্যথায় আসন বাতিল বলে গণ্য হবে। টিকিট বাতিল করতে চাইলে বাস ছাড়ার অন্তত দুই ঘণ্টা আগে কাউন্টারে জানাতে হবে। বাসে ধূমপান, উচ্চস্বরে গান বাজানো এবং চালকের সঙ্গে অপ্রয়োজনীয় কথা বলা নিষেধ। প্রতিটি বাসে প্রাথমিক চিকিৎসার বাক্স ও অগ্নিনির্বাপণ যন্ত্র রাখা হয়েছে। যাত্রীসেবা নিয়ে যেকোনো মতামত বা অভিযোগ টার্মিনাল কাউন্টারের অভিযোগ বাক্সে জমা দেওয়া যাবে।
+
+    মহাব্যবস্থাপক
+    বাঁশপাতা এক্সপ্রেস পরিবহন
+  answer_sentence: "এক্সপ্রেস সার্ভিসে শিক্ষার্থীদের জন্য অর্ধেক ভাড়ার সুবিধা প্রযোজ্য হবে না।"
+  insuff_replacement: "এক্সপ্রেস সার্ভিসে শিক্ষার্থীদের ভাড়া ছাড়ের বিষয়ে সিদ্ধান্ত পরে জানানো হবে।"
+  gold: {value: false}
+  q:
+    en: "Will students get half fare on the non-stop express service of Bashpata Express Transport?"
+    bn: "বাঁশপাতা এক্সপ্রেস পরিবহনের বিরতিহীন সার্ভিসে কি শিক্ষার্থীরা অর্ধেক ভাড়ায় যেতে পারবে?"
+    rbn: "bashpata express poribohon er birotihin sarvise ki shikkharthira ordhek varay jete parbe?"
+    cm: "বাঁশপাতা এক্সপ্রেস পরিবহনের non-stop সার্ভিসে কি student রা half ভাড়ায় যেতে পারবে?"
+    cmr: "bashpata express poribohon er non-stop service e ki student ra half varay jete parbe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 240}
+    q:
+      en: "What is the fare per person on the express service of Bashpata Express Transport?"
+      bn: "বাঁশপাতা এক্সপ্রেস পরিবহনের এক্সপ্রেস সার্ভিসে জনপ্রতি ভাড়া কত টাকা?"
+      rbn: "bashpata express poribohon er express sarvise jonoproti vara koto taka?"
+      cm: "বাঁশপাতা এক্সপ্রেস পরিবহনের express service এ জনপ্রতি fare কত টাকা?"
+      cmr: "bashpata express poribohon er express service e jonoproti fare koto taka?"
+
+- id: N117
+  format: multi
+  domain: telecom
+  answer_type: amount
+  entity:
+    bn: "বটপাকুড় মোবাইল সার্ভিসিং সেন্টার"
+    rom: "botpakur mobile servicing center"
+    en: "Botpakur Mobile Servicing Centre"
+  edit_type: deletion
+  passage: |
+    বটপাকুড় মোবাইল সার্ভিসিং সেন্টার
+    সার্ভিস চার্জ ও ওয়ারেন্টি সংক্রান্ত নোটিশ
+
+    সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, বটপাকুড় মোবাইল সার্ভিসিং সেন্টারে মোবাইল ফোন মেরামতের ক্ষেত্রে আগামী মাস থেকে নতুন সার্ভিস চার্জ তালিকা কার্যকর হবে। যন্ত্রাংশের দাম বৃদ্ধি এবং দক্ষ কারিগরের মজুরি বাড়ার কারণে এই পরিবর্তন আনা হয়েছে।
+
+    ফোনের সফটওয়্যার আপডেট বা নতুন করে সফটওয়্যার সেটআপের সার্ভিস চার্জ ২২০ টাকা। ডিসপ্লে, ব্যাটারি ও চার্জিং পোর্ট পরিবর্তনের ক্ষেত্রে যন্ত্রাংশের দামের সঙ্গে আলাদা মজুরি যোগ হবে, যা ফোনের মডেল অনুযায়ী নির্ধারিত হবে। মেরামতের আগে গ্রাহককে আনুমানিক খরচ জানিয়ে সম্মতি নেওয়া হবে।
+
+    পরিবর্তিত যন্ত্রাংশের ওপর ৪৫ দিনের ওয়ারেন্টি দেওয়া হবে। তবে পানিতে পড়া, আগুনে পোড়া বা আঘাতজনিত ক্ষতির ক্ষেত্রে ওয়ারেন্টি প্রযোজ্য হবে না। মেরামতের জন্য জমা দেওয়া ফোন ত্রিশ দিনের মধ্যে সংগ্রহ না করলে সেন্টার কোনো দায় নেবে না। ফোন জমা দেওয়ার সময় অবশ্যই জমা রশিদ সংগ্রহ করতে হবে এবং ফোন ফেরত নেওয়ার সময় রশিদ দেখাতে হবে। গ্রাহকের ব্যক্তিগত তথ্যের নিরাপত্তার জন্য ফোন জমা দেওয়ার আগে গুরুত্বপূর্ণ ছবি ও তথ্য অন্যত্র সংরক্ষণ করার পরামর্শ দেওয়া হলো। সেন্টার শুক্রবার ছাড়া প্রতিদিন সকাল ১০টা থেকে রাত ৯টা পর্যন্ত খোলা থাকে।
+
+    স্বত্বাধিকারী
+    বটপাকুড় মোবাইল সার্ভিসিং সেন্টার
+  answer_sentence: "ফোনের সফটওয়্যার আপডেট বা নতুন করে সফটওয়্যার সেটআপের সার্ভিস চার্জ ২২০ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 220}
+  q:
+    en: "What is the service charge for a software update or fresh software setup at Botpakur Mobile Servicing Centre?"
+    bn: "বটপাকুড় মোবাইল সার্ভিসিং সেন্টারে সফটওয়্যার আপডেট বা সেটআপের সার্ভিস চার্জ কত টাকা?"
+    rbn: "botpakur mobile servicing center e software update ba setup er service charge koto taka?"
+    cm: "বটপাকুড় মোবাইল সার্ভিসিং সেন্টারে software update বা setup করতে কত টাকা লাগে?"
+    cmr: "botpakur mobile servicing center e software update ba setup korte koto taka lage?"
+  sibling:
+    answer_type: number
+    gold: {value: 45}
+    q:
+      en: "How many days of warranty does Botpakur Mobile Servicing Centre give on replaced parts?"
+      bn: "বটপাকুড় মোবাইল সার্ভিসিং সেন্টারে পরিবর্তিত যন্ত্রাংশের ওপর কত দিনের ওয়ারেন্টি দেওয়া হয়?"
+      rbn: "botpakur mobile servicing center e poriborotito jontrangsher opor koto diner warranty dewa hoy?"
+      cm: "বটপাকুড় মোবাইল সার্ভিসিং সেন্টারে replace করা parts এর ওপর কত দিনের warranty দেওয়া হয়?"
+      cmr: "botpakur mobile servicing center e replace kora parts er opor koto diner warranty dewa hoy?"
+
+- id: N118
+  format: multi
+  domain: commerce
+  answer_type: date
+  entity:
+    bn: "চালকুমড়া বাজার দোকান মালিক সমিতি"
+    rom: "chalkumra bajar dokan malik shomiti"
+    en: "Chalkumra Bazar Shop Owners' Association"
+  edit_type: neutralisation
+  passage: |
+    চালকুমড়া বাজার দোকান মালিক সমিতি
+    দোকান খোলা ও বন্ধের নতুন সময়সূচি
+
+    চালকুমড়া বাজার দোকান মালিক সমিতির সকল সদস্য ও ব্যবসায়ীর অবগতির জন্য জানানো যাচ্ছে যে, বিদ্যুৎ সাশ্রয় এবং বাজার এলাকার যানজট কমানোর লক্ষ্যে সমিতির কার্যনির্বাহী কমিটির সভায় দোকান খোলা ও বন্ধের নতুন সময়সূচি নির্ধারণ করা হয়েছে। নতুন সময়সূচি আগামী ১ নভেম্বর ২০২৭ তারিখ থেকে কার্যকর হবে।
+
+    নতুন সময়সূচি অনুযায়ী বাজারের সকল দোকান সকাল ৯টায় খুলবে এবং রাত ৮টার মধ্যে বন্ধ করতে হবে। তবে ওষুধের দোকান, খাবারের হোটেল ও মুদি দোকান এই সময়সীমার বাইরে থাকবে। প্রতি মঙ্গলবার বাজারে সাপ্তাহিক ছুটি পালন করা হবে এবং সেদিন শুধু জরুরি পণ্যের দোকান খোলা রাখা যাবে।
+
+    নির্ধারিত সময়ের পরে দোকান খোলা রাখলে প্রথমবার সতর্ক করা হবে এবং দ্বিতীয়বার থেকে প্রতিবার ৭০০ টাকা জরিমানা আদায় করা হবে। আদায়কৃত জরিমানার অর্থ বাজারের নৈশপ্রহরীদের কল্যাণ তহবিলে জমা হবে। বাজারের মূল সড়কে দোকানের মালামাল রেখে চলাচলে বাধা সৃষ্টি করা যাবে না। মালবাহী ট্রাক শুধু সকাল ৭টা থেকে ৯টার মধ্যে মালামাল নামাতে পারবে। সমিতির স্বেচ্ছাসেবকরা নিয়মিত বাজার পরিদর্শন করবেন এবং নিয়ম ভঙ্গের ঘটনা কমিটিকে জানাবেন। কোনো ব্যবসায়ীর আপত্তি বা পরামর্শ থাকলে সমিতির কার্যালয়ে লিখিতভাবে জমা দেওয়া যাবে। এই সিদ্ধান্ত বাস্তবায়নে সকল ব্যবসায়ীর আন্তরিক সহযোগিতা কামনা করা হলো।
+
+    সাধারণ সম্পাদক
+    চালকুমড়া বাজার দোকান মালিক সমিতি
+  answer_sentence: "নতুন সময়সূচি আগামী ১ নভেম্বর ২০২৭ তারিখ থেকে কার্যকর হবে।"
+  insuff_replacement: "নতুন সময়সূচি কোন তারিখ থেকে কার্যকর হবে, তা পরবর্তী নোটিশে জানানো হবে।"
+  gold: {day: 1, month: 11, year: 2027}
+  q:
+    en: "From what date will the new shop opening and closing schedule of the Chalkumra Bazar Shop Owners' Association take effect?"
+    bn: "চালকুমড়া বাজার দোকান মালিক সমিতির দোকান খোলা ও বন্ধের নতুন সময়সূচি কোন তারিখ থেকে কার্যকর হবে?"
+    rbn: "chalkumra bajar dokan malik shomiti r dokan khola o bondher notun shomoyshuchi kon tarikh theke karjokor hobe?"
+    cm: "চালকুমড়া বাজার দোকান মালিক সমিতির নতুন shop timing কোন date থেকে চালু হবে?"
+    cmr: "chalkumra bajar dokan malik shomiti r notun shop timing kon date theke chalu hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 700}
+    q:
+      en: "Under the rules of the Chalkumra Bazar Shop Owners' Association, what is the fine from the second time a shop stays open after hours?"
+      bn: "চালকুমড়া বাজার দোকান মালিক সমিতির নিয়মে দ্বিতীয়বার থেকে নির্ধারিত সময়ের পরে দোকান খোলা রাখলে কত টাকা জরিমানা?"
+      rbn: "chalkumra bajar dokan malik shomiti r niyome dwitiyobar theke nirdharito shomoyer pore dokan khola rakhle koto taka jorimana?"
+      cm: "চালকুমড়া বাজার দোকান মালিক সমিতির নিয়মে দ্বিতীয়বার থেকে সময়ের পরে shop খোলা রাখলে কত টাকা fine?"
+      cmr: "chalkumra bajar dokan malik shomiti r niyome dwitiyobar theke shomoyer pore shop khola rakhle koto taka fine?"
+
+- id: N119
+  format: multi
+  domain: transport
+  answer_type: name
+  entity:
+    bn: "রুইমারি লঞ্চঘাট"
+    rom: "ruimari launch ghat"
+    en: "Ruimari Launch Ghat"
+  edit_type: deletion
+  passage: |
+    রুইমারি লঞ্চঘাট
+    ইজারা প্রদান ও টোল আদায় সংক্রান্ত বিজ্ঞপ্তি
+
+    সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে, প্রকাশ্য নিলামের মাধ্যমে ২০২৭ সালের জন্য রুইমারি লঞ্চঘাটের ইজারা প্রদান সম্পন্ন হয়েছে। নিলামে মোট সাতজন দরদাতা অংশগ্রহণ করেন এবং সর্বোচ্চ দর ছিল ৬,২৫,০০০ টাকা।
+
+    সর্বোচ্চ দরদাতা হিসেবে স্থানীয় ব্যবসায়ী রফিকুল ইসলাম খন্দকার ঘাটের ইজারা লাভ করেছেন। ইজারার মেয়াদ এক বছর, যা জানুয়ারি মাসের প্রথম দিন থেকে শুরু হবে। ইজারাদার ঘাটে লঞ্চে ওঠানামাকারী যাত্রী ও মালামালের ওপর সরকার নির্ধারিত হারে টোল আদায় করতে পারবেন।
+
+    ঘাটে যাত্রীপ্রতি টোলের হার এবং মালামালের টোলের হার ঘাটের প্রবেশমুখে টাঙানো সাইনবোর্ডে উল্লেখ থাকবে। নির্ধারিত হারের বেশি টোল আদায় করা হলে ইজারা বাতিলসহ আইনানুগ ব্যবস্থা নেওয়া হবে। ইজারাদারকে ঘাটের পন্টুন, সিঁড়ি ও যাত্রী ছাউনি নিয়মিত পরিষ্কার রাখতে হবে। মুক্তিযোদ্ধা, প্রতিবন্ধী ব্যক্তি ও সরকারি দায়িত্ব পালনরত কর্মকর্তাদের কাছ থেকে টোল আদায় করা যাবে না। ঘাট এলাকায় কোনো অবৈধ দোকান বা স্থাপনা নির্মাণ করা যাবে না। যাত্রী হয়রানি বা অতিরিক্ত টোল আদায় সংক্রান্ত অভিযোগ উপজেলা নির্বাহী কার্যালয়ে জানানো যাবে।
+
+    ঘাট ব্যবস্থাপনা কমিটি
+    রুইমারি লঞ্চঘাট
+  answer_sentence: "সর্বোচ্চ দরদাতা হিসেবে স্থানীয় ব্যবসায়ী রফিকুল ইসলাম খন্দকার ঘাটের ইজারা লাভ করেছেন।"
+  insuff_replacement: ""
+  gold: {aliases: ["রফিকুল ইসলাম খন্দকার", "Rafiqul Islam Khondoker", "Rafikul Islam Khandaker", "Rofiqul Islam Khondokar"]}
+  q:
+    en: "Who has been awarded the 2027 lease of the Ruimari Launch Ghat?"
+    bn: "২০২৭ সালের জন্য রুইমারি লঞ্চঘাটের ইজারা কে পেয়েছেন?"
+    rbn: "2027 shaler jonno ruimari launch ghat er ijara ke peyechen?"
+    cm: "২০২৭ সালের জন্য রুইমারি লঞ্চঘাটের lease কে পেয়েছেন?"
+    cmr: "2027 shaler jonno ruimari launch ghat er lease ke peyechen?"
+  sibling:
+    answer_type: amount
+    gold: {value: 625000}
+    q:
+      en: "What was the highest bid in the lease auction of the Ruimari Launch Ghat?"
+      bn: "রুইমারি লঞ্চঘাটের ইজারা নিলামে সর্বোচ্চ দর কত টাকা ছিল?"
+      rbn: "ruimari launch ghat er ijara nilame sorbocho dor koto taka chilo?"
+      cm: "রুইমারি লঞ্চঘাটের lease auction এ highest bid কত টাকা ছিল?"
+      cmr: "ruimari launch ghat er lease auction e highest bid koto taka chilo?"
+
+- id: N120
+  format: multi
+  domain: telecom
+  answer_type: number
+  entity:
+    bn: "ডাহুকডাঙা ডিজিটাল নেট"
+    rom: "dahukdanga digital net"
+    en: "Dahukdanga Digital Net"
+  edit_type: neutralisation
+  passage: |
+    ডাহুকডাঙা ডিজিটাল নেট
+    ফ্রি ওয়াই-ফাই জোন চালু সংক্রান্ত বিজ্ঞপ্তি
+
+    ডাহুকডাঙা ডিজিটাল নেটের পক্ষ থেকে পৌরবাসীকে জানানো যাচ্ছে যে, পৌরসভার সহযোগিতায় শহরের বিভিন্ন জনবহুল স্থানে বিনামূল্যে ইন্টারনেট ব্যবহারের সুবিধা চালু করা হয়েছে। শিক্ষার্থী, ছোট ব্যবসায়ী ও সাধারণ মানুষ যাতে সহজে অনলাইন সেবা নিতে পারেন, সে লক্ষ্যেই এই উদ্যোগ নেওয়া হয়েছে।
+
+    প্রথম ধাপে বাসস্ট্যান্ড, রেলস্টেশন, পৌর পার্ক, সরকারি হাসপাতাল ও প্রধান বাজার এলাকায় মোট ১৭টি ফ্রি ওয়াই-ফাই জোন স্থাপন করা হয়েছে। প্রত্যেক ব্যবহারকারী দিনে ৯০ মিনিট পর্যন্ত বিনামূল্যে ইন্টারনেট ব্যবহার করতে পারবেন। এর বেশি সময় ব্যবহার করতে চাইলে স্বল্পমূল্যের প্যাকেজ কিনতে হবে।
+
+    ফ্রি ওয়াই-ফাই ব্যবহারের জন্য ব্যবহারকারীকে একটি সচল মোবাইল নম্বর দিয়ে নিবন্ধন করতে হবে এবং নম্বরে পাঠানো গোপন কোড দিয়ে সংযোগ চালু করতে হবে। একটি মোবাইল নম্বর দিয়ে একসঙ্গে একটির বেশি যন্ত্রে সংযোগ নেওয়া যাবে না। নেটওয়ার্ক ব্যবহার করে কোনো বেআইনি বা আপত্তিকর কার্যক্রম চালানো দণ্ডনীয় অপরাধ হিসেবে গণ্য হবে। নিরাপত্তার স্বার্থে পাবলিক নেটওয়ার্কে ব্যাংকিং পাসওয়ার্ড বা ব্যক্তিগত গোপন তথ্য ব্যবহার না করার পরামর্শ দেওয়া হলো। দ্বিতীয় ধাপে শহরের অন্যান্য এলাকাতেও এই সেবা সম্প্রসারণের পরিকল্পনা রয়েছে।
+
+    ব্যবস্থাপনা পরিচালক
+    ডাহুকডাঙা ডিজিটাল নেট
+  answer_sentence: "প্রথম ধাপে বাসস্ট্যান্ড, রেলস্টেশন, পৌর পার্ক, সরকারি হাসপাতাল ও প্রধান বাজার এলাকায় মোট ১৭টি ফ্রি ওয়াই-ফাই জোন স্থাপন করা হয়েছে।"
+  insuff_replacement: "প্রথম ধাপে শহরের বিভিন্ন জনবহুল এলাকায় ফ্রি ওয়াই-ফাই জোন স্থাপন করা হয়েছে; জোনগুলোর তালিকা পরে প্রকাশ করা হবে।"
+  gold: {value: 17}
+  q:
+    en: "How many free Wi-Fi zones has Dahukdanga Digital Net set up in the first phase?"
+    bn: "ডাহুকডাঙা ডিজিটাল নেট প্রথম ধাপে মোট কয়টি ফ্রি ওয়াই-ফাই জোন স্থাপন করেছে?"
+    rbn: "dahukdanga digital net prothom dhape mot koyti free wifi zone sthapon koreche?"
+    cm: "ডাহুকডাঙা ডিজিটাল নেট first phase এ মোট কয়টি ফ্রি ওয়াই-ফাই জোন বসিয়েছে?"
+    cmr: "dahukdanga digital net first phase e mot koyti free wifi zone boshiyeche?"
+  sibling:
+    answer_type: number
+    gold: {value: 90}
+    q:
+      en: "For how many minutes a day can each user use the free internet of Dahukdanga Digital Net?"
+      bn: "ডাহুকডাঙা ডিজিটাল নেটের ফ্রি ইন্টারনেট একজন ব্যবহারকারী দিনে কত মিনিট ব্যবহার করতে পারবেন?"
+      rbn: "dahukdanga digital net er free internet ekjon beboharkari dine koto minit bebohar korte parben?"
+      cm: "ডাহুকডাঙা ডিজিটাল নেটের free internet একজন user দিনে কত minute ব্যবহার করতে পারবেন?"
+      cmr: "dahukdanga digital net er free internet ekjon user dine koto minute bebohar korte parben?"
+
+- id: N121
+  format: multi
+  domain: commerce
+  answer_type: yesno
+  entity:
+    bn: "কামরাঙা বস্ত্রবিতান"
+    rom: "kamranga bostrobitan"
+    en: "Kamranga Cloth Store"
+  edit_type: deletion
+  passage: |
+    কামরাঙা বস্ত্রবিতান
+    ঈদ উপলক্ষে বিশেষ মূল্যছাড় বিজ্ঞপ্তি
+
+    আসন্ন ঈদুল ফিতর উপলক্ষে কামরাঙা বস্ত্রবিতানে শুরু হয়েছে বিশেষ মূল্যছাড় উৎসব। আমাদের দোকানে শাড়ি, থ্রি-পিস, পাঞ্জাবি, শিশুদের পোশাক ও ঘরোয়া কাপড়ের বিশাল সংগ্রহ রয়েছে। দেশীয় তাঁতের শাড়ি ও হাতের কাজের পাঞ্জাবির জন্য আলাদা কর্নার সাজানো হয়েছে।
+
+    উৎসব চলাকালে সকল পোশাকে নির্ধারিত মূল্যের ওপর ১৫ শতাংশ ছাড় দেওয়া হচ্ছে। এক রশিদে ৩,০০০ টাকা বা তার বেশি কেনাকাটা করলে একটি উপহার সামগ্রী দেওয়া হবে। মূল্য পরিশোধ নগদে, কার্ডে বা মোবাইল ব্যাংকিংয়ের মাধ্যমে করা যাবে। কেনার সাত দিনের মধ্যে রশিদসহ অব্যবহৃত পণ্য ফেরত দিয়ে পুরো টাকা ফেরত নেওয়া যাবে।
+
+    ঈদের আগের শেষ দশ দিন দোকান সকাল ৯টা থেকে রাত ১২টা পর্যন্ত খোলা থাকবে। ভিড় এড়াতে সকালের দিকে কেনাকাটা করার অনুরোধ করা হলো। দোকানে মাপ অনুযায়ী পোশাক সেলাই ও অল্টারেশনের ব্যবস্থাও রয়েছে, তবে ঈদের আগের পাঁচ দিন নতুন সেলাইয়ের অর্ডার নেওয়া হবে না। শিশুদের নিয়ে আসা ক্রেতাদের জন্য দোকানের দ্বিতীয় তলায় বসার ব্যবস্থা রাখা হয়েছে। পকেটমার ও প্রতারক চক্র থেকে সাবধান থাকার জন্য ক্রেতাদের অনুরোধ করা হলো।
+
+    স্বত্বাধিকারী
+    কামরাঙা বস্ত্রবিতান
+  answer_sentence: "কেনার সাত দিনের মধ্যে রশিদসহ অব্যবহৃত পণ্য ফেরত দিয়ে পুরো টাকা ফেরত নেওয়া যাবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Can customers of Kamranga Cloth Store return unused items with the receipt within seven days for a full refund?"
+    bn: "কামরাঙা বস্ত্রবিতানে কি কেনার সাত দিনের মধ্যে রশিদসহ অব্যবহৃত পণ্য ফেরত দিয়ে পুরো টাকা ফেরত পাওয়া যাবে?"
+    rbn: "kamranga bostrobitan e ki kenar sat diner moddhe roshidshoho obbebohrito ponno ferot diye puro taka ferot pawa jabe?"
+    cm: "কামরাঙা বস্ত্রবিতানে কি সাত দিনের মধ্যে receipt সহ unused পণ্য ফেরত দিলে full refund পাওয়া যাবে?"
+    cmr: "kamranga bostrobitan e ki sat diner moddhe receipt shoho unused ponno ferot dile full refund pawa jabe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 3000}
+    q:
+      en: "How much must be spent on one receipt to get a free gift at Kamranga Cloth Store?"
+      bn: "কামরাঙা বস্ত্রবিতানে উপহার পেতে এক রশিদে কমপক্ষে কত টাকার কেনাকাটা করতে হবে?"
+      rbn: "kamranga bostrobitan e upohar pete ek roshide komopokkhe koto takar kenakata korte hobe?"
+      cm: "কামরাঙা বস্ত্রবিতানে gift পেতে এক receipt এ কমপক্ষে কত টাকার shopping করতে হবে?"
+      cmr: "kamranga bostrobitan e gift pete ek receipt e komopokkhe koto takar shopping korte hobe?"
+
+- id: N122
+  format: multi
+  domain: transport
+  answer_type: amount
+  entity:
+    bn: "সজনেডাঙা আন্তঃজেলা বাস টার্মিনাল"
+    rom: "shojnedanga antojela bus terminal"
+    en: "Shojnedanga Inter-district Bus Terminal"
+  edit_type: neutralisation
+  passage: |
+    সজনেডাঙা আন্তঃজেলা বাস টার্মিনাল
+    টার্মিনালে গাড়ি পার্কিং সংক্রান্ত বিজ্ঞপ্তি
+
+    সজনেডাঙা আন্তঃজেলা বাস টার্মিনাল ব্যবহারকারী সকলের অবগতির জন্য জানানো যাচ্ছে যে, টার্মিনাল চত্বরে বিশৃঙ্খলভাবে ব্যক্তিগত গাড়ি ও মোটরসাইকেল রাখার কারণে বাস চলাচলে প্রায়ই সমস্যা হচ্ছে। এ সমস্যা সমাধানে টার্মিনালের পূর্ব পাশে একটি নির্ধারিত পার্কিং এলাকা চালু করা হয়েছে।
+
+    নতুন পার্কিং এলাকায় একসঙ্গে ১৪০টি প্রাইভেট কার ও মাইক্রোবাস রাখা যাবে। মোটরসাইকেলের জন্য আলাদা ছাউনি তৈরি করা হয়েছে। প্রতি ঘণ্টার পার্কিং চার্জ গাড়ির ধরন অনুযায়ী পার্কিং এলাকার প্রবেশমুখে টাঙানো তালিকায় উল্লেখ রয়েছে। নিয়মিত ব্যবহারকারীদের জন্য প্রাইভেট কারের মাসিক পার্কিং পাসের মূল্য ১,৮০০ টাকা নির্ধারণ করা হয়েছে।
+
+    নির্ধারিত পার্কিং এলাকার বাইরে টার্মিনাল চত্বরে কোনো ব্যক্তিগত গাড়ি রাখা যাবে না। নিয়ম ভঙ্গ করলে গাড়ি সরিয়ে নেওয়া হবে এবং মালিকের কাছ থেকে জরিমানা আদায় করা হবে। পার্কিং এলাকা চব্বিশ ঘণ্টা খোলা থাকবে এবং নিরাপত্তাকর্মী ও ক্লোজসার্কিট ক্যামেরার মাধ্যমে নজরদারি করা হবে। তবে গাড়িতে রেখে যাওয়া মূল্যবান জিনিসপত্রের দায় কর্তৃপক্ষ নেবে না। মাসিক পাস নিতে গাড়ির রেজিস্ট্রেশন সনদ ও মালিকের জাতীয় পরিচয়পত্রের ফটোকপি টার্মিনাল ব্যবস্থাপকের কার্যালয়ে জমা দিতে হবে। সকলের সহযোগিতা কামনা করা হলো।
+
+    টার্মিনাল ব্যবস্থাপক
+    সজনেডাঙা আন্তঃজেলা বাস টার্মিনাল
+  answer_sentence: "নিয়মিত ব্যবহারকারীদের জন্য প্রাইভেট কারের মাসিক পার্কিং পাসের মূল্য ১,৮০০ টাকা নির্ধারণ করা হয়েছে।"
+  insuff_replacement: "নিয়মিত ব্যবহারকারীদের জন্য প্রাইভেট কারের মাসিক পার্কিং পাসের মূল্য টার্মিনাল ব্যবস্থাপকের কার্যালয় থেকে জানা যাবে।"
+  gold: {value: 1800}
+  q:
+    en: "What is the price of a monthly parking pass for a private car at the Shojnedanga Inter-district Bus Terminal?"
+    bn: "সজনেডাঙা আন্তঃজেলা বাস টার্মিনালে প্রাইভেট কারের মাসিক পার্কিং পাসের দাম কত টাকা?"
+    rbn: "shojnedanga antojela bus terminal e private carer mashik parking pasher dam koto taka?"
+    cm: "সজনেডাঙা আন্তঃজেলা বাস টার্মিনালে private car এর monthly parking pass এর দাম কত টাকা?"
+    cmr: "shojnedanga antojela bus terminal e private car er monthly parking pass er dam koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 140}
+    q:
+      en: "How many private cars and microbuses can the new parking area of the Shojnedanga Inter-district Bus Terminal hold at once?"
+      bn: "সজনেডাঙা আন্তঃজেলা বাস টার্মিনালের নতুন পার্কিং এলাকায় একসঙ্গে কয়টি প্রাইভেট কার ও মাইক্রোবাস রাখা যাবে?"
+      rbn: "shojnedanga antojela bus terminal er notun parking elakay ekshonge koyti private car o maikrobas rakha jabe?"
+      cm: "সজনেডাঙা আন্তঃজেলা বাস টার্মিনালের নতুন parking এলাকায় একসঙ্গে কয়টি car ও microbus রাখা যাবে?"
+      cmr: "shojnedanga antojela bus terminal er notun parking elakay ekshonge koyti car o microbus rakha jabe?"
+
+- id: N123
+  format: multi
+  domain: commerce
+  answer_type: number
+  entity:
+    bn: "ধুন্দুলবাড়ি কুরিয়ার সার্ভিস"
+    rom: "dhundulbari courier service"
+    en: "Dhundulbari Courier Service"
+  edit_type: deletion
+  passage: |
+    ধুন্দুলবাড়ি কুরিয়ার সার্ভিস
+    সেবা সম্প্রসারণ ও নতুন সেবা চালু সংক্রান্ত বিজ্ঞপ্তি
+
+    ধুন্দুলবাড়ি কুরিয়ার সার্ভিসের সম্মানিত গ্রাহকদের জানাতে পেরে আমরা আনন্দিত যে, গ্রাহকদের ক্রমবর্ধমান চাহিদার কারণে আমাদের সেবার আওতা উল্লেখযোগ্যভাবে বাড়ানো হয়েছে। গত এক বছরে বিভিন্ন উপজেলা শহরে নতুন শাখা খোলা হয়েছে এবং পার্সেল পরিবহনের জন্য নিজস্ব কাভার্ড ভ্যান যুক্ত করা হয়েছে।
+
+    বর্তমানে আমাদের সেবা দেশের মোট ৩৮টি জেলায় পাওয়া যাচ্ছে। এ বছরের মধ্যে আরও কয়েকটি জেলায় শাখা খোলার পরিকল্পনা রয়েছে। প্রধান শাখা থেকে শহরের ভেতরে একই দিনে পার্সেল পৌঁছে দেওয়ার নতুন সেবা চালু করা হয়েছে, যার চার্জ ১৫০ টাকা। দুপুর ১২টার আগে বুক করা পার্সেলই কেবল একই দিনে পৌঁছানো হবে।
+
+    গ্রাহকরা পার্সেল বুকিংয়ের পর মোবাইলে খুদে বার্তার মাধ্যমে ট্র্যাকিং নম্বর পাবেন এবং পার্সেল পৌঁছানোর পর প্রাপকের স্বাক্ষর সংগ্রহ করা হবে। নিয়মিত ব্যবসায়ী গ্রাহকদের জন্য মাসিক চুক্তিভিত্তিক বিশেষ সুবিধা রয়েছে। গুরুত্বপূর্ণ দলিল ও মূল্যবান সামগ্রী পাঠাতে চাইলে বুকিংয়ের সময় তা ঘোষণা করতে হবে এবং অতিরিক্ত বীমা চার্জ প্রযোজ্য হবে। আমাদের সকল শাখা শুক্রবার বন্ধ থাকে। সেবার মান উন্নয়নে আপনাদের মতামত সাদরে গ্রহণ করা হবে।
+
+    পরিচালক, পরিচালন বিভাগ
+    ধুন্দুলবাড়ি কুরিয়ার সার্ভিস
+  answer_sentence: "বর্তমানে আমাদের সেবা দেশের মোট ৩৮টি জেলায় পাওয়া যাচ্ছে।"
+  insuff_replacement: ""
+  gold: {value: 38}
+  q:
+    en: "In how many districts is the service of Dhundulbari Courier Service currently available?"
+    bn: "ধুন্দুলবাড়ি কুরিয়ার সার্ভিসের সেবা বর্তমানে কয়টি জেলায় পাওয়া যাচ্ছে?"
+    rbn: "dhundulbari courier service er sheba bortomane koyti jelay pawa jacche?"
+    cm: "ধুন্দুলবাড়ি কুরিয়ার সার্ভিসের service বর্তমানে কয়টি district এ পাওয়া যাচ্ছে?"
+    cmr: "dhundulbari courier service er service bortomane koyti district e pawa jacche?"
+  sibling:
+    answer_type: amount
+    gold: {value: 150}
+    q:
+      en: "What is the charge for same-day parcel delivery within the city at Dhundulbari Courier Service?"
+      bn: "ধুন্দুলবাড়ি কুরিয়ার সার্ভিসে শহরের ভেতরে একই দিনে পার্সেল পৌঁছানোর চার্জ কত টাকা?"
+      rbn: "dhundulbari courier service e shohorer vetore ekoi dine parcel pouchanor charj koto taka?"
+      cm: "ধুন্দুলবাড়ি কুরিয়ার সার্ভিসে শহরের ভেতরে same-day delivery charge কত টাকা?"
+      cmr: "dhundulbari courier service e shohorer vetore same-day delivery charge koto taka?"
+
+- id: N124
+  format: multi
+  domain: finance
+  answer_type: date
+  entity:
+    bn: "বকফুল গবাদিপশু বীমা প্রকল্প"
+    rom: "bokful gobadiposhu bima prokolpo"
+    en: "Bokful Livestock Insurance Project"
+  edit_type: neutralisation
+  passage: |
+    বকফুল গবাদিপশু বীমা প্রকল্প
+    গরু-মহিষের বীমা নিবন্ধন ক্যাম্প সংক্রান্ত বিজ্ঞপ্তি
+
+    বকফুল গবাদিপশু বীমা প্রকল্পের পক্ষ থেকে খামারি ও কৃষকদের জানানো যাচ্ছে যে, রোগ, দুর্ঘটনা বা প্রাকৃতিক দুর্যোগে গবাদিপশুর মৃত্যুজনিত আর্থিক ক্ষতি থেকে সুরক্ষার জন্য গরু ও মহিষের বীমা নিবন্ধন কার্যক্রম চলছে। খামারিদের সুবিধার্থে ইউনিয়ন পর্যায়ে বিশেষ নিবন্ধন ক্যাম্পের আয়োজন করা হয়েছে।
+
+    ইউনিয়ন পরিষদ চত্বরে বিশেষ নিবন্ধন ক্যাম্পটি ৯ অক্টোবর ২০২৭ তারিখে সকাল ৯টা থেকে বিকেল ৪টা পর্যন্ত চলবে। ক্যাম্পে প্রকল্পের পশু চিকিৎসক উপস্থিত থেকে প্রতিটি পশুর স্বাস্থ্য পরীক্ষা করবেন এবং পশুর কানে শনাক্তকরণ ট্যাগ লাগিয়ে দেবেন।
+
+    বীমার প্রিমিয়াম পশুর বাজারমূল্যের ওপর নির্ধারিত হবে। একটি পশুর জন্য সর্বোচ্চ ৮০,০০০ টাকা পর্যন্ত বীমা করা যাবে। ছয় মাসের কম বয়সী বাছুর এবং দশ বছরের বেশি বয়সী পশু বীমার আওতায় আসবে না। পশুর মৃত্যু হলে চব্বিশ ঘণ্টার মধ্যে প্রকল্প কার্যালয়কে জানাতে হবে এবং কানের ট্যাগসহ মৃত পশুর ছবি জমা দিতে হবে। পশু চিকিৎসকের প্রতিবেদন পাওয়ার পর দাবির অর্থ খামারির মোবাইল ব্যাংকিং অ্যাকাউন্টে পাঠানো হবে। ক্যাম্পে আসার সময় জাতীয় পরিচয়পত্রের ফটোকপি ও পশুর একটি ছবি সঙ্গে আনতে হবে। পশু চুরি বা হারিয়ে যাওয়ার ক্ষেত্রে এই বীমা প্রযোজ্য নয়।
+
+    প্রকল্প সমন্বয়কারী
+    বকফুল গবাদিপশু বীমা প্রকল্প
+  answer_sentence: "ইউনিয়ন পরিষদ চত্বরে বিশেষ নিবন্ধন ক্যাম্পটি ৯ অক্টোবর ২০২৭ তারিখে সকাল ৯টা থেকে বিকেল ৪টা পর্যন্ত চলবে।"
+  insuff_replacement: "ইউনিয়ন পরিষদ চত্বরে বিশেষ নিবন্ধন ক্যাম্প অনুষ্ঠিত হবে; ক্যাম্পের তারিখ ও সময় মাইকিং করে জানিয়ে দেওয়া হবে।"
+  gold: {day: 9, month: 10, year: 2027}
+  q:
+    en: "On what date will the special registration camp of the Bokful Livestock Insurance Project be held?"
+    bn: "বকফুল গবাদিপশু বীমা প্রকল্পের বিশেষ নিবন্ধন ক্যাম্প কোন তারিখে অনুষ্ঠিত হবে?"
+    rbn: "bokful gobadiposhu bima prokolpo r bishesh nibondhon camp kon tarikhe onushthito hobe?"
+    cm: "বকফুল গবাদিপশু বীমা প্রকল্পের special registration camp কোন তারিখে হবে?"
+    cmr: "bokful gobadiposhu bima prokolpo r special registration camp kon tarikhe hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 80000}
+    q:
+      en: "Up to what amount can one animal be insured under the Bokful Livestock Insurance Project?"
+      bn: "বকফুল গবাদিপশু বীমা প্রকল্পে একটি পশুর জন্য সর্বোচ্চ কত টাকা পর্যন্ত বীমা করা যাবে?"
+      rbn: "bokful gobadiposhu bima prokolpo te ekti poshur jonno sorbocho koto taka porjonto bima kora jabe?"
+      cm: "বকফুল গবাদিপশু বীমা প্রকল্পে একটি পশুর জন্য maximum কত টাকার insurance করা যাবে?"
+      cmr: "bokful gobadiposhu bima prokolpo te ekti poshur jonno maximum koto takar insurance kora jabe?"
+
+- id: N125
+  format: multi
+  domain: commerce
+  answer_type: number
+  entity:
+    bn: "তেঁতুলঝোরা বাজার বণিক কল্যাণ সমিতি"
+    rom: "tetuljhora bajar bonik kollan shomiti"
+    en: "Tetuljhora Bazar Merchants' Welfare Association"
+  edit_type: deletion
+  passage: |
+    তেঁতুলঝোরা বাজার বণিক কল্যাণ সমিতি
+    অগ্নিকাণ্ডে ক্ষতিগ্রস্ত ব্যবসায়ীদের সহায়তা সংক্রান্ত বিজ্ঞপ্তি
+
+    গত সপ্তাহে গভীর রাতে তেঁতুলঝোরা বাজারের কাপড়পট্টি ও মুদিপট্টিতে আকস্মিক অগ্নিকাণ্ডের ঘটনা ঘটে। স্থানীয় জনগণ ও দমকল কর্মীদের প্রায় তিন ঘণ্টার চেষ্টায় আগুন নিয়ন্ত্রণে আসে। সৌভাগ্যক্রমে কেউ হতাহত হননি, তবে ব্যবসায়ীদের ব্যাপক আর্থিক ক্ষতি হয়েছে।
+
+    সমিতির প্রাথমিক জরিপ অনুযায়ী অগ্নিকাণ্ডে মোট ৫৩টি দোকান সম্পূর্ণ বা আংশিকভাবে ক্ষতিগ্রস্ত হয়েছে। ক্ষতিগ্রস্ত প্রতিটি দোকানের মালিককে সমিতির জরুরি তহবিল থেকে ২৫,০০০ টাকা করে নগদ সহায়তা দেওয়া হবে। সহায়তার অর্থ আগামী শনিবার সমিতির কার্যালয়ে বিতরণ করা হবে।
+
+    সহায়তা গ্রহণের সময় দোকান মালিককে ট্রেড লাইসেন্স ও জাতীয় পরিচয়পত্রের মূল কপি দেখাতে হবে। যেসব দোকান ভাড়া নিয়ে চালানো হতো, সেগুলোর ক্ষেত্রে ভাড়াটিয়া ব্যবসায়ী সহায়তা পাবেন। ক্ষতিগ্রস্ত ব্যবসায়ীদের সহজ শর্তে ঋণ দেওয়ার বিষয়ে স্থানীয় সমবায় ব্যাংকের সঙ্গে আলোচনা চলছে। ভবিষ্যতে এ ধরনের দুর্ঘটনা এড়াতে বাজারের পুরোনো বৈদ্যুতিক তার পরিবর্তন এবং প্রতিটি পট্টিতে অগ্নিনির্বাপণ যন্ত্র স্থাপনের সিদ্ধান্ত নেওয়া হয়েছে। রাতে বাজারে নৈশপ্রহরীর সংখ্যা বাড়ানো হবে। বিত্তবান ব্যক্তিদের ক্ষতিগ্রস্ত ব্যবসায়ীদের পাশে দাঁড়ানোর আহ্বান জানানো হলো।
+
+    সভাপতি
+    তেঁতুলঝোরা বাজার বণিক কল্যাণ সমিতি
+  answer_sentence: "সমিতির প্রাথমিক জরিপ অনুযায়ী অগ্নিকাণ্ডে মোট ৫৩টি দোকান সম্পূর্ণ বা আংশিকভাবে ক্ষতিগ্রস্ত হয়েছে।"
+  insuff_replacement: ""
+  gold: {value: 53}
+  q:
+    en: "According to the Tetuljhora Bazar Merchants' Welfare Association, how many shops were damaged in the fire?"
+    bn: "তেঁতুলঝোরা বাজার বণিক কল্যাণ সমিতির হিসাবে অগ্নিকাণ্ডে মোট কয়টি দোকান ক্ষতিগ্রস্ত হয়েছে?"
+    rbn: "tetuljhora bajar bonik kollan shomiti r hishabe ognikande mot koyti dokan khotigrosto hoyeche?"
+    cm: "তেঁতুলঝোরা বাজার বণিক কল্যাণ সমিতির হিসাবে fire এ মোট কয়টি shop damage হয়েছে?"
+    cmr: "tetuljhora bajar bonik kollan shomiti r hishabe fire e mot koyti shop damage hoyeche?"
+  sibling:
+    answer_type: amount
+    gold: {value: 25000}
+    q:
+      en: "How much cash assistance will the Tetuljhora Bazar Merchants' Welfare Association give each affected shop owner?"
+      bn: "তেঁতুলঝোরা বাজার বণিক কল্যাণ সমিতি ক্ষতিগ্রস্ত প্রতিটি দোকানের মালিককে কত টাকা নগদ সহায়তা দেবে?"
+      rbn: "tetuljhora bajar bonik kollan shomiti khotigrosto protiti dokaner malik ke koto taka nogod shohayota debe?"
+      cm: "তেঁতুলঝোরা বাজার বণিক কল্যাণ সমিতি affected প্রতিটি দোকানের মালিককে কত টাকা cash সহায়তা দেবে?"
+      cmr: "tetuljhora bajar bonik kollan shomiti affected protiti dokaner malik ke koto taka cash shohayota debe?"
+
+- id: N126
+  format: multi
+  domain: transport
+  answer_type: name
+  entity:
+    bn: "কলাবাগিচা রেলওয়ে স্টেশন"
+    rom: "kolabagicha railway station"
+    en: "Kolabagicha Railway Station"
+  edit_type: neutralisation
+  passage: |
+    কলাবাগিচা রেলওয়ে স্টেশন
+    যাত্রীসেবা সংক্রান্ত বিজ্ঞপ্তি
+
+    কলাবাগিচা রেলওয়ে স্টেশন ব্যবহারকারী যাত্রীদের জানানো যাচ্ছে যে, যাত্রীসেবার মান উন্নয়নে স্টেশনে কিছু নতুন ব্যবস্থা চালু করা হয়েছে। স্টেশনের প্রশাসনিক দায়িত্বেও পরিবর্তন এসেছে।
+
+    চলতি মাসে স্টেশনের নতুন স্টেশন মাস্টার হিসেবে যোগদান করেছেন জাহিদুল করিম ভূঁইয়া। তিনি স্টেশনের সার্বিক ব্যবস্থাপনা, টিকিট বিক্রি তদারকি এবং যাত্রীদের অভিযোগ নিষ্পত্তির দায়িত্ব পালন করবেন। বর্তমানে এই স্টেশনে প্রতিদিন আন্তঃনগর ও লোকাল মিলিয়ে ২২টি ট্রেন যাত্রাবিরতি করে।
+
+    যাত্রীদের সুবিধার্থে প্ল্যাটফর্মের প্রবেশমুখে একটি তথ্য ও সহায়তা ডেস্ক চালু করা হয়েছে, যেখানে ট্রেনের সময়সূচি ও বিলম্বের তথ্য পাওয়া যাবে। বয়স্ক ও প্রতিবন্ধী যাত্রীদের জন্য হুইলচেয়ারের ব্যবস্থা রাখা হয়েছে। প্ল্যাটফর্মে নতুন বসার বেঞ্চ, বিশুদ্ধ খাবার পানির কল এবং নারী যাত্রীদের জন্য আলাদা বিশ্রামাগার স্থাপন করা হয়েছে। টিকিট কালোবাজারি রোধে কাউন্টারের সামনে ক্লোজসার্কিট ক্যামেরা বসানো হয়েছে। প্ল্যাটফর্মে ভাসমান হকার ও ভিক্ষাবৃত্তি নিষিদ্ধ করা হয়েছে। রেললাইন পারাপারের সময় সতর্ক থাকার এবং চলন্ত ট্রেনে ওঠানামা না করার জন্য যাত্রীদের অনুরোধ করা হলো। যেকোনো অভিযোগ বা পরামর্শ সহায়তা ডেস্কে রাখা অভিযোগ খাতায় লিপিবদ্ধ করা যাবে।
+
+    স্টেশন কর্তৃপক্ষ
+    কলাবাগিচা রেলওয়ে স্টেশন
+  answer_sentence: "চলতি মাসে স্টেশনের নতুন স্টেশন মাস্টার হিসেবে যোগদান করেছেন জাহিদুল করিম ভূঁইয়া।"
+  insuff_replacement: "চলতি মাসে স্টেশনের নতুন স্টেশন মাস্টার হিসেবে রেলওয়ের একজন অভিজ্ঞ কর্মকর্তা যোগদান করেছেন।"
+  gold: {aliases: ["জাহিদুল করিম ভূঁইয়া", "Zahidul Karim Bhuiyan", "Jahidul Karim Bhuiyan", "Zahidul Karim Bhuiya"]}
+  q:
+    en: "Who has joined as the new station master of Kolabagicha Railway Station?"
+    bn: "কলাবাগিচা রেলওয়ে স্টেশনের নতুন স্টেশন মাস্টার হিসেবে কে যোগ দিয়েছেন?"
+    rbn: "kolabagicha railway station er notun station master hishebe ke jog diyechen?"
+    cm: "কলাবাগিচা রেলওয়ে স্টেশনের new station master হিসেবে কে join করেছেন?"
+    cmr: "kolabagicha railway station er new station master hishebe ke join korechen?"
+  sibling:
+    answer_type: number
+    gold: {value: 22}
+    q:
+      en: "How many trains stop at Kolabagicha Railway Station every day?"
+      bn: "কলাবাগিচা রেলওয়ে স্টেশনে প্রতিদিন কয়টি ট্রেন যাত্রাবিরতি করে?"
+      rbn: "kolabagicha railway station e protidin koyti tren jatrabiroti kore?"
+      cm: "কলাবাগিচা রেলওয়ে স্টেশনে প্রতিদিন কয়টি train stop করে?"
+      cmr: "kolabagicha railway station e protidin koyti train stop kore?"
+
+- id: N127
+  format: multi
+  domain: commerce
+  answer_type: amount
+  entity:
+    bn: "কাকনডুবি হিমাগার লিমিটেড"
+    rom: "kakondubi himagar limited"
+    en: "Kakondubi Cold Storage Limited"
+  edit_type: deletion
+  passage: |
+    কাকনডুবি হিমাগার লিমিটেড
+    আলু সংরক্ষণের বুকিং সংক্রান্ত বিজ্ঞপ্তি
+
+    কাকনডুবি হিমাগার লিমিটেডের পক্ষ থেকে এলাকার আলুচাষি ও ব্যবসায়ীদের জানানো যাচ্ছে যে, চলতি মৌসুমে আলু সংরক্ষণের জন্য বুকিং কার্যক্রম শুরু হতে যাচ্ছে। আগামী ২ মার্চ ২০২৭ তারিখ থেকে হিমাগারের অফিসে বুকিং স্লিপ বিতরণ করা হবে।
+
+    এ মৌসুমে প্রতি বস্তা আলু সংরক্ষণের ভাড়া ৩৭৫ টাকা নির্ধারণ করা হয়েছে। প্রতিটি বস্তার ওজন সর্বোচ্চ ৬০ কেজি হতে হবে; এর বেশি ওজনের বস্তা গ্রহণ করা হবে না। বুকিংয়ের সময় মোট ভাড়ার এক-চতুর্থাংশ অগ্রিম জমা দিতে হবে এবং বাকি ভাড়া আলু উত্তোলনের সময় পরিশোধ করতে হবে।
+
+    হিমাগারে আলু রাখার আগে অবশ্যই ভালোভাবে বাছাই করে পচা ও কাটা আলু আলাদা করতে হবে। রোগাক্রান্ত বা ভেজা আলু গ্রহণ করা হবে না। প্রতিটি বস্তার গায়ে বুকিং স্লিপ নম্বর ও মালিকের নাম স্পষ্টভাবে লিখতে হবে। সংরক্ষিত আলু নভেম্বর মাসের মধ্যে উত্তোলন করতে হবে, অন্যথায় অতিরিক্ত ভাড়া প্রযোজ্য হবে। সংরক্ষিত আলুর বিপরীতে চাষিরা হিমাগারের মাধ্যমে স্বল্পমেয়াদি ঋণের জন্য আবেদন করতে পারবেন। একজন চাষি সর্বোচ্চ কত বস্তা বুক করতে পারবেন, তা হিমাগারের ধারণক্ষমতা অনুযায়ী নির্ধারণ করা হবে। বিস্তারিত তথ্যের জন্য হিমাগারের অফিসে যোগাযোগ করুন।
+
+    ব্যবস্থাপক
+    কাকনডুবি হিমাগার লিমিটেড
+  answer_sentence: "এ মৌসুমে প্রতি বস্তা আলু সংরক্ষণের ভাড়া ৩৭৫ টাকা নির্ধারণ করা হয়েছে।"
+  insuff_replacement: ""
+  gold: {value: 375}
+  q:
+    en: "What is the rent per sack for storing potatoes this season at Kakondubi Cold Storage Limited?"
+    bn: "কাকনডুবি হিমাগার লিমিটেডে এ মৌসুমে প্রতি বস্তা আলু রাখার ভাড়া কত টাকা?"
+    rbn: "kakondubi himagar limited e e moushume proti bosta alu rakhar vara koto taka?"
+    cm: "কাকনডুবি হিমাগার লিমিটেডে এ season এ প্রতি বস্তা আলু রাখার rent কত টাকা?"
+    cmr: "kakondubi himagar limited e e season e proti bosta alu rakhar rent koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 2, month: 3, year: 2027}
+    q:
+      en: "From what date will booking slips be distributed at Kakondubi Cold Storage Limited?"
+      bn: "কাকনডুবি হিমাগার লিমিটেডে কোন তারিখ থেকে বুকিং স্লিপ বিতরণ করা হবে?"
+      rbn: "kakondubi himagar limited e kon tarikh theke buking slip bitoron kora hobe?"
+      cm: "কাকনডুবি হিমাগার লিমিটেডে কোন date থেকে booking slip দেওয়া হবে?"
+      cmr: "kakondubi himagar limited e kon date theke booking slip dewa hobe?"
+
+- id: N128
+  format: multi
+  domain: finance
+  answer_type: yesno
+  entity:
+    bn: "বাতাবিলেবু নারী উদ্যোক্তা ঋণ তহবিল"
+    rom: "batabilebu nari uddokta ron tohobil"
+    en: "Batabilebu Women Entrepreneurs' Loan Fund"
+  edit_type: neutralisation
+  passage: |
+    বাতাবিলেবু নারী উদ্যোক্তা ঋণ তহবিল
+    নারী উদ্যোক্তাদের জন্য ব্যবসায়িক ঋণ বিজ্ঞপ্তি
+
+    বাতাবিলেবু নারী উদ্যোক্তা ঋণ তহবিলের পক্ষ থেকে উপজেলার নারী উদ্যোক্তাদের জানানো যাচ্ছে যে, ক্ষুদ্র ও কুটির শিল্পে নিয়োজিত নারীদের ব্যবসা সম্প্রসারণের জন্য ঋণের আবেদন গ্রহণ শুরু হয়েছে। সেলাই, হস্তশিল্প, খাদ্য প্রক্রিয়াজাতকরণ, বিউটি পার্লার ও অনলাইন ব্যবসায় যুক্ত নারীরা আবেদন করতে পারবেন।
+
+    একজন উদ্যোক্তা সর্বোচ্চ ১,৫০,০০০ টাকা পর্যন্ত ঋণ নিতে পারবেন। ঋণের অর্থ ২৪ মাসে সমান মাসিক কিস্তিতে পরিশোধ করতে হবে এবং প্রথম তিন মাস কোনো কিস্তি দিতে হবে না। এই ঋণের জন্য কোনো জামিনদারের প্রয়োজন হবে না।
+
+    আবেদনকারীর ব্যবসা কমপক্ষে এক বছর ধরে চালু থাকতে হবে এবং ব্যবসার আয়-ব্যয়ের একটি সাধারণ হিসাব জমা দিতে হবে। আবেদনের সঙ্গে জাতীয় পরিচয়পত্রের ফটোকপি, দুই কপি ছবি, ট্রেড লাইসেন্স (যদি থাকে) এবং ব্যবসার কয়েকটি ছবি জমা দিতে হবে। তহবিলের মাঠ কর্মকর্তা আবেদনকারীর ব্যবসাস্থল পরিদর্শন করে প্রতিবেদন দেবেন। ঋণ মঞ্জুরির পর উদ্যোক্তাদের তিন দিনের হিসাবরক্ষণ ও বিপণন প্রশিক্ষণে অংশ নিতে হবে। নিয়মিত কিস্তি পরিশোধকারী উদ্যোক্তারা পরবর্তীতে বড় অঙ্কের ঋণের জন্য বিবেচিত হবেন। আবেদন ফরম তহবিলের কার্যালয় থেকে বিনামূল্যে সংগ্রহ করা যাবে।
+
+    নির্বাহী পরিচালক
+    বাতাবিলেবু নারী উদ্যোক্তা ঋণ তহবিল
+  answer_sentence: "এই ঋণের জন্য কোনো জামিনদারের প্রয়োজন হবে না।"
+  insuff_replacement: "এই ঋণের জামানত ও জামিনদার সংক্রান্ত শর্তাবলি ঋণ মঞ্জুরির সময় জানানো হবে।"
+  gold: {value: false}
+  q:
+    en: "Does a loan from the Batabilebu Women Entrepreneurs' Loan Fund require a guarantor?"
+    bn: "বাতাবিলেবু নারী উদ্যোক্তা ঋণ তহবিলের ঋণ নিতে কি জামিনদার লাগবে?"
+    rbn: "batabilebu nari uddokta ron tohobil er ron nite ki jamindar lagbe?"
+    cm: "বাতাবিলেবু নারী উদ্যোক্তা ঋণ তহবিলের loan নিতে কি guarantor লাগবে?"
+    cmr: "batabilebu nari uddokta ron tohobil er loan nite ki guarantor lagbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 24}
+    q:
+      en: "Over how many months must a loan from the Batabilebu Women Entrepreneurs' Loan Fund be repaid?"
+      bn: "বাতাবিলেবু নারী উদ্যোক্তা ঋণ তহবিলের ঋণ কত মাসে পরিশোধ করতে হবে?"
+      rbn: "batabilebu nari uddokta ron tohobil er ron koto mashe porishodh korte hobe?"
+      cm: "বাতাবিলেবু নারী উদ্যোক্তা ঋণ তহবিলের loan কত মাসে repay করতে হবে?"
+      cmr: "batabilebu nari uddokta ron tohobil er loan koto mashe repay korte hobe?"
