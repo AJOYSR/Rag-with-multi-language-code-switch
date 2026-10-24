@@ -1,0 +1,1805 @@
+# Batch B — AI-drafted (Claude), 2026-10-24, NOT author-reviewed
+# Domains: health & civic services (clinics, hospitals, diagnostics, vaccination, pharmacies, municipal offices, utilities, waste, registration, ward councils). Ids N044–N086. All names fictional.
+- id: N044
+  format: multi
+  domain: health
+  answer_type: amount
+  entity:
+    bn: "শিউলিবাগ মা ও শিশু ক্লিনিক"
+    rom: "shiulibag ma o shishu clinic"
+    en: "Shiulibag Mother and Child Clinic"
+  edit_type: deletion
+  passage: |
+    শিউলিবাগ মা ও শিশু ক্লিনিক
+    বৈকালিক বিশেষজ্ঞ চেম্বার চালু সংক্রান্ত বিজ্ঞপ্তি
+
+    সম্মানিত রোগী ও অভিভাবকদের জানানো যাচ্ছে যে, আগামী ৩ ফেব্রুয়ারি ২০২৭ থেকে শিউলিবাগ মা ও শিশু ক্লিনিকে প্রতি রবিবার, মঙ্গলবার ও বৃহস্পতিবার বিকেল ৪টা থেকে রাত ৮টা পর্যন্ত স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞের বৈকালিক চেম্বার চালু হচ্ছে। গর্ভকালীন চেকআপ, প্রসব-পরবর্তী পরামর্শ এবং নবজাতকের প্রাথমিক পরীক্ষা এই চেম্বারে করা হবে।
+
+    বিশেষজ্ঞ চিকিৎসকের সাক্ষাতের জন্য আগে থেকে সিরিয়াল নিতে হবে। সিরিয়াল ক্লিনিকের অভ্যর্থনা কক্ষ থেকে অথবা ফোন করে নেওয়া যাবে। প্রতিদিন সর্বোচ্চ ৩৫ জন রোগী দেখা হবে। নতুন রোগীর ক্ষেত্রে বিশেষজ্ঞ চিকিৎসকের পরামর্শ ফি ৬৫০ টাকা। পুরোনো রোগী এক মাসের মধ্যে রিপোর্ট দেখাতে এলে ২৫০ টাকা ফি দিতে হবে। ফি ক্লিনিকের কাউন্টারে নগদ অথবা মোবাইল ব্যাংকিংয়ের মাধ্যমে পরিশোধ করা যাবে।
+
+    গর্ভবতী মায়েদের আগের সব প্রেসক্রিপশন ও পরীক্ষার রিপোর্ট সঙ্গে আনতে অনুরোধ করা হলো। চেম্বারে আসার সময় রোগীর সঙ্গে সর্বোচ্চ একজন সহযোগী আসতে পারবেন। জরুরি প্রসূতি রোগীদের জন্য ক্লিনিকের জরুরি বিভাগ আগের মতোই সার্বক্ষণিক খোলা থাকবে। ক্লিনিকের নিচতলার ফার্মেসি ও প্যাথলজি সেবা বৈকালিক চেম্বার চলাকালীন খোলা থাকবে। চেম্বারে আসার আগে সিরিয়াল নম্বর নিশ্চিত করে নেওয়ার অনুরোধ রইল, যাতে অপেক্ষার সময় কম হয়।
+
+    পরিচালক
+    শিউলিবাগ মা ও শিশু ক্লিনিক
+  answer_sentence: "নতুন রোগীর ক্ষেত্রে বিশেষজ্ঞ চিকিৎসকের পরামর্শ ফি ৬৫০ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 650}
+  q:
+    en: "What is the specialist consultation fee for a new patient at the Shiulibag Mother and Child Clinic's evening chamber?"
+    bn: "শিউলিবাগ মা ও শিশু ক্লিনিকের বৈকালিক চেম্বারে নতুন রোগীর পরামর্শ ফি কত টাকা?"
+    rbn: "shiulibag ma o shishu clinicer boikalik chambere notun rogir poramorsho fee koto taka?"
+    cm: "শিউলিবাগ মা ও শিশু ক্লিনিকের বৈকালিক চেম্বারে নতুন রোগীর consultation fee কত টাকা?"
+    cmr: "shiulibag ma o shishu clinicer boikalik chambere notun rogir consultation fee koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 35}
+    q:
+      en: "What is the maximum number of patients seen per day at the Shiulibag Mother and Child Clinic's evening chamber?"
+      bn: "শিউলিবাগ মা ও শিশু ক্লিনিকের বৈকালিক চেম্বারে প্রতিদিন সর্বোচ্চ কতজন রোগী দেখা হবে?"
+      rbn: "shiulibag ma o shishu clinicer boikalik chambere protidin shorbocho kotojon rogi dekha hobe?"
+      cm: "শিউলিবাগ মা ও শিশু ক্লিনিকের evening chamber এ প্রতিদিন সর্বোচ্চ কতজন patient দেখা হবে?"
+      cmr: "shiulibag ma o shishu clinicer evening chamber e protidin shorbocho kotojon patient dekha hobe?"
+
+- id: N045
+  format: multi
+  domain: civic
+  answer_type: date
+  entity:
+    bn: "ঢোলকলমি পৌরসভা"
+    rom: "dholkolmi pouroshova"
+    en: "Dholkolmi Municipality"
+  edit_type: neutralisation
+  passage: |
+    ঢোলকলমি পৌরসভা
+    জন্ম নিবন্ধন বিশেষ ক্যাম্প সংক্রান্ত বিজ্ঞপ্তি
+
+    ঢোলকলমি পৌরসভার সকল নাগরিকের অবগতির জন্য জানানো যাচ্ছে যে, যেসব শিশুর এখনো জন্ম নিবন্ধন করা হয়নি, তাদের জন্য পৌরসভার উদ্যোগে একটি বিশেষ জন্ম নিবন্ধন ক্যাম্পের আয়োজন করা হয়েছে। বিদ্যালয়ে ভর্তি, টিকা কার্ড ও পাসপোর্টসহ বিভিন্ন সেবার জন্য জন্ম নিবন্ধন সনদ এখন বাধ্যতামূলক।
+
+    বিশেষ জন্ম নিবন্ধন ক্যাম্প আগামী ১৪ মার্চ ২০২৭ তারিখে পৌরসভার মিলনায়তনে সকাল ৯টা থেকে বিকেল ৪টা পর্যন্ত অনুষ্ঠিত হবে। ক্যাম্পে আসার আগে অনলাইনে প্রাথমিক আবেদন পূরণ করে রাখলে সেবা দ্রুত পাওয়া যাবে। অনলাইনে প্রাথমিক আবেদন জমার শেষ তারিখ ২৮ ফেব্রুয়ারি ২০২৭।
+
+    আবেদনের সঙ্গে শিশুর টিকা কার্ড অথবা হাসপাতালের ছাড়পত্র, পিতা ও মাতার জাতীয় পরিচয়পত্রের ফটোকপি এবং পিতা-মাতার জন্ম নিবন্ধন নম্বর জমা দিতে হবে। জন্মের ৪৫ দিনের মধ্যে নিবন্ধন করলে কোনো ফি লাগবে না। পাঁচ বছরের বেশি বয়সী শিশুর নিবন্ধনের ক্ষেত্রে বিলম্ব ফি ৫০ টাকা প্রযোজ্য হবে। সনদ সংশোধনের আবেদন এই ক্যাম্পে গ্রহণ করা হবে না; সংশোধনের জন্য পৌরসভার নিবন্ধন শাখায় নিয়মিত অফিস সময়ে যোগাযোগ করতে হবে।
+
+    ক্যাম্পে প্রতিটি ওয়ার্ডের জন্য আলাদা ডেস্ক থাকবে এবং ওয়ার্ড সচিবরা আবেদন যাচাইয়ে সহায়তা করবেন। অভিভাবকদের মূল কাগজপত্র সঙ্গে আনার অনুরোধ করা হলো।
+
+    নিবন্ধক
+    ঢোলকলমি পৌরসভা
+  answer_sentence: "বিশেষ জন্ম নিবন্ধন ক্যাম্প আগামী ১৪ মার্চ ২০২৭ তারিখে পৌরসভার মিলনায়তনে সকাল ৯টা থেকে বিকেল ৪টা পর্যন্ত অনুষ্ঠিত হবে।"
+  insuff_replacement: "বিশেষ জন্ম নিবন্ধন ক্যাম্প পৌরসভার মিলনায়তনে অনুষ্ঠিত হবে; ক্যাম্পের তারিখ পরে মাইকিং করে জানানো হবে।"
+  gold: {day: 14, month: 3, year: 2027}
+  q:
+    en: "On what date will Dholkolmi Municipality hold its special birth registration camp?"
+    bn: "ঢোলকলমি পৌরসভার বিশেষ জন্ম নিবন্ধন ক্যাম্প কোন তারিখে অনুষ্ঠিত হবে?"
+    rbn: "dholkolmi pouroshovar bishesh jonmo nibondhon camp kon tarikhe onushthito hobe?"
+    cm: "ঢোলকলমি পৌরসভার birth registration ক্যাম্প কোন date এ হবে?"
+    cmr: "dholkolmi pouroshovar birth registration camp kon date e hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 50}
+    q:
+      en: "What is the late fee for registering the birth of a child older than five years at Dholkolmi Municipality?"
+      bn: "ঢোলকলমি পৌরসভায় পাঁচ বছরের বেশি বয়সী শিশুর জন্ম নিবন্ধনে বিলম্ব ফি কত টাকা?"
+      rbn: "dholkolmi pouroshovay pach bochorer beshi boyoshi shishur jonmo nibondhone bilombo fee koto taka?"
+      cm: "ঢোলকলমি পৌরসভায় পাঁচ বছরের বেশি বয়সী শিশুর জন্ম নিবন্ধনে late fee কত টাকা?"
+      cmr: "dholkolmi pouroshovay pach bochorer beshi boyoshi shishur jonmo nibondhone late fee koto taka?"
+
+- id: N046
+  format: multi
+  domain: health
+  answer_type: name
+  entity:
+    bn: "ঝুমকোলতা ডায়াগনস্টিক সেন্টার"
+    rom: "jhumkolota diagnostic center"
+    en: "Jhumkolota Diagnostic Centre"
+  edit_type: deletion
+  passage: |
+    ঝুমকোলতা ডায়াগনস্টিক সেন্টার
+    ফ্রি থাইরয়েড ও ডায়াবেটিস স্ক্রিনিং ক্যাম্প
+
+    ঝুমকোলতা ডায়াগনস্টিক সেন্টারের প্রতিষ্ঠাবার্ষিকী উপলক্ষে আগামী ২০ জানুয়ারি ২০২৭ তারিখে সেন্টারের দ্বিতীয় তলায় দিনব্যাপী বিনামূল্যে থাইরয়েড ও ডায়াবেটিস স্ক্রিনিং ক্যাম্পের আয়োজন করা হয়েছে। চল্লিশ বছরের বেশি বয়সী নারী-পুরুষ এবং যাঁদের পরিবারে ডায়াবেটিসের ইতিহাস আছে, তাঁদের এই সুযোগ গ্রহণের অনুরোধ করা হলো।
+
+    ক্যাম্পে খালি পেটে রক্তের গ্লুকোজ পরীক্ষা, টিএসএইচ পরীক্ষা এবং প্রয়োজনে থাইরয়েড গ্রন্থির আল্ট্রাসনোগ্রাম করা হবে। থাইরয়েড আল্ট্রাসনোগ্রামের রিপোর্ট প্রদান করবেন সেন্টারের কনসালট্যান্ট রেডিওলজিস্ট ডা. মুশফিকা তাবাসসুম। রক্ত পরীক্ষার রিপোর্ট যাচাই করবেন সেন্টারের প্যাথলজিস্ট ডা. ফয়সাল মাহতাব। রিপোর্ট পরদিন দুপুরের পর থেকে সংগ্রহ করা যাবে।
+
+    ক্যাম্পের দিন স্ক্রিনিংয়ের পর অন্য যেকোনো পরীক্ষায় রোগীরা ৩০ শতাংশ ছাড় পাবেন। পরীক্ষার আগে অন্তত আট ঘণ্টা না খেয়ে আসতে হবে, তবে পানি পান করা যাবে। যাঁরা নিয়মিত ডায়াবেটিস বা থাইরয়েডের ওষুধ খান, তাঁরা ওষুধের নাম লিখে আনবেন।
+
+    আসন সীমিত হওয়ায় অভ্যর্থনা ডেস্কে নাম নিবন্ধন করতে হবে। নিবন্ধনের সময় জাতীয় পরিচয়পত্র বা জন্ম নিবন্ধনের ফটোকপি সঙ্গে আনতে হবে। ক্যাম্প সকাল ৮টা থেকে দুপুর ১টা পর্যন্ত চলবে।
+
+    ব্যবস্থাপক
+    ঝুমকোলতা ডায়াগনস্টিক সেন্টার
+  answer_sentence: "থাইরয়েড আল্ট্রাসনোগ্রামের রিপোর্ট প্রদান করবেন সেন্টারের কনসালট্যান্ট রেডিওলজিস্ট ডা. মুশফিকা তাবাসসুম।"
+  insuff_replacement: ""
+  gold: {aliases: ["মুশফিকা তাবাসসুম", "Mushfika Tabassum", "Mushfiqa Tabassum", "Mushfika Tabasum"]}
+  q:
+    en: "Who will provide the thyroid ultrasonogram reports at the Jhumkolota Diagnostic Centre's screening camp?"
+    bn: "ঝুমকোলতা ডায়াগনস্টিক সেন্টারের স্ক্রিনিং ক্যাম্পে থাইরয়েড আল্ট্রাসনোগ্রামের রিপোর্ট কে দেবেন?"
+    rbn: "jhumkolota diagnostic centerer screening campe thyroid ultrasonogramer report ke deben?"
+    cm: "ঝুমকোলতা ডায়াগনস্টিক সেন্টারের ক্যাম্পে thyroid ultrasound এর report কে দেবেন?"
+    cmr: "jhumkolota diagnostic centerer campe thyroid ultrasound er report ke deben?"
+  sibling:
+    answer_type: number
+    gold: {value: 30}
+    q:
+      en: "What percentage discount will patients get on other tests at the Jhumkolota Diagnostic Centre on the camp day?"
+      bn: "ক্যাম্পের দিন ঝুমকোলতা ডায়াগনস্টিক সেন্টারে অন্য পরীক্ষায় কত শতাংশ ছাড় পাওয়া যাবে?"
+      rbn: "camper din jhumkolota diagnostic centere onno porikkhay koto shotangsho char pawa jabe?"
+      cm: "ক্যাম্পের দিন ঝুমকোলতা ডায়াগনস্টিক সেন্টারে অন্য test এ কত percent discount পাওয়া যাবে?"
+      cmr: "camper din jhumkolota diagnostic centere onno test e koto percent discount pawa jabe?"
+
+- id: N047
+  format: multi
+  domain: health
+  answer_type: number
+  entity:
+    bn: "কুলবেড়িয়া ইউনিয়ন স্বাস্থ্য কেন্দ্র"
+    rom: "kulberiya union shastho kendro"
+    en: "Kulberia Union Health Centre"
+  edit_type: neutralisation
+  passage: |
+    কুলবেড়িয়া ইউনিয়ন স্বাস্থ্য কেন্দ্র
+    হাম-রুবেলা টিকা ক্যাম্পেইন সংক্রান্ত জরুরি বিজ্ঞপ্তি
+
+    এলাকার সকল অভিভাবকের অবগতির জন্য জানানো যাচ্ছে যে, কুলবেড়িয়া ইউনিয়ন স্বাস্থ্য কেন্দ্রের তত্ত্বাবধানে আগামী ১৫ এপ্রিল ২০২৭ থেকে দশ দিনব্যাপী হাম-রুবেলা টিকা ক্যাম্পেইন পরিচালিত হবে। নয় মাস থেকে দশ বছরের কম বয়সী সকল শিশুকে এই ক্যাম্পেইনে এক ডোজ টিকা দেওয়া হবে, আগে টিকা নেওয়া থাকলেও।
+
+    ক্যাম্পেইন উপলক্ষে ইউনিয়নজুড়ে মোট ২৭টি অস্থায়ী টিকাদান কেন্দ্র স্থাপন করা হবে। প্রথম তিন দিন টিকা দেওয়া হবে এলাকার প্রাথমিক বিদ্যালয় ও মাদ্রাসায়, এরপর অস্থায়ী কেন্দ্রগুলোতে। প্রতিটি কেন্দ্রে প্রশিক্ষিত স্বাস্থ্যকর্মী ও স্বেচ্ছাসেবক দায়িত্ব পালন করবেন। টিকাদান কেন্দ্র সকাল ৮টা থেকে বিকেল ৩টা পর্যন্ত খোলা থাকবে।
+
+    টিকা সম্পূর্ণ বিনামূল্যে দেওয়া হবে। শিশুর টিকা কার্ড বা জন্ম নিবন্ধন সনদ সঙ্গে আনতে হবে; না থাকলে কেন্দ্রেই নতুন টিকা কার্ড দেওয়া হবে। জ্বর বা গুরুতর অসুস্থ শিশুকে সুস্থ হওয়ার পর টিকা দেওয়া হবে। টিকা নেওয়ার পর শিশুকে আধা ঘণ্টা কেন্দ্রে অপেক্ষা করাতে হবে।
+
+    টিকা নেওয়ার পর হালকা জ্বর বা ব্যথা হলে আতঙ্কিত হওয়ার কিছু নেই। কোনো সমস্যা দেখা দিলে নিকটস্থ স্বাস্থ্যকর্মীর সঙ্গে যোগাযোগ করুন। আপনার শিশুকে টিকা দিয়ে রোগমুক্ত ভবিষ্যৎ নিশ্চিত করুন।
+
+    মেডিকেল অফিসার
+    কুলবেড়িয়া ইউনিয়ন স্বাস্থ্য কেন্দ্র
+  answer_sentence: "ক্যাম্পেইন উপলক্ষে ইউনিয়নজুড়ে মোট ২৭টি অস্থায়ী টিকাদান কেন্দ্র স্থাপন করা হবে।"
+  insuff_replacement: "ক্যাম্পেইন উপলক্ষে ইউনিয়নজুড়ে অস্থায়ী টিকাদান কেন্দ্র স্থাপন করা হবে; কেন্দ্রগুলোর তালিকা ইউনিয়ন পরিষদের নোটিশ বোর্ডে টাঙানো হবে।"
+  gold: {value: 27}
+  q:
+    en: "How many temporary vaccination centres will be set up for the campaign run by the Kulberia Union Health Centre?"
+    bn: "কুলবেড়িয়া ইউনিয়ন স্বাস্থ্য কেন্দ্রের ক্যাম্পেইনে কয়টি অস্থায়ী টিকাদান কেন্দ্র স্থাপন করা হবে?"
+    rbn: "kulberiya union shastho kendro campaign er jonno koyti osthayi tikadan kendro sthapon korbe?"
+    cm: "কুলবেড়িয়া ইউনিয়ন স্বাস্থ্য কেন্দ্রের campaign এ কয়টি temporary টিকাদান কেন্দ্র হবে?"
+    cmr: "kulberiya union shastho kendro campaign er jonno koyti temporary tikadan kendro korbe?"
+  sibling:
+    answer_type: date
+    gold: {day: 15, month: 4, year: 2027}
+    q:
+      en: "On what date will the measles-rubella vaccination campaign of the Kulberia Union Health Centre begin?"
+      bn: "কুলবেড়িয়া ইউনিয়ন স্বাস্থ্য কেন্দ্রের হাম-রুবেলা টিকা ক্যাম্পেইন কোন তারিখে শুরু হবে?"
+      rbn: "kulberiya union shastho kendro ham-rubela tika campaign kon tarikhe shuru korbe?"
+      cm: "কুলবেড়িয়া ইউনিয়ন স্বাস্থ্য কেন্দ্রের হাম-রুবেলা vaccine campaign কোন তারিখে শুরু হবে?"
+      cmr: "kulberiya union shastho kendro ham-rubela vaccine campaign kon tarikhe shuru korbe?"
+
+- id: N048
+  format: multi
+  domain: health
+  answer_type: yesno
+  entity:
+    bn: "অর্জুনছায়া ফার্মেসি"
+    rom: "orjunchaya pharmacy"
+    en: "Arjunchhaya Pharmacy"
+  edit_type: deletion
+  passage: |
+    অর্জুনছায়া ফার্মেসি
+    সার্বক্ষণিক সেবা চালু সংক্রান্ত বিজ্ঞপ্তি
+
+    সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, আগামী ১ মার্চ ২০২৭ থেকে অর্জুনছায়া ফার্মেসি দিনরাত ২৪ ঘণ্টা খোলা থাকবে। রাতের বেলায় জরুরি ওষুধ পেতে এলাকাবাসীর দীর্ঘদিনের ভোগান্তি দূর করতে এই উদ্যোগ নেওয়া হয়েছে। রাত ১১টার পর ফার্মেসির মূল দরজা বন্ধ থাকবে, তবে পাশের জানালা দিয়ে সেবা দেওয়া হবে।
+
+    ফার্মেসিতে সার্বক্ষণিক একজন প্রশিক্ষিত ফার্মাসিস্ট দায়িত্ব পালন করবেন। নিবন্ধিত চিকিৎসকের প্রেসক্রিপশন ছাড়া অ্যান্টিবায়োটিক, ঘুমের ওষুধ ও অন্যান্য নিয়ন্ত্রিত ওষুধ বিক্রি করা হবে না। প্রেসক্রিপশনের ছবি আগে পাঠিয়ে রাখলে ওষুধ প্রস্তুত করে রাখা হবে। এলাকার দুই কিলোমিটারের মধ্যে বাসায় ওষুধ পৌঁছে দেওয়ার ব্যবস্থাও থাকবে।
+
+    নিয়মিত গ্রাহকদের জন্য সদস্য কার্ড চালু করা হচ্ছে। সদস্য কার্ডধারীরা সব ধরনের ওষুধ কেনায় ১২ শতাংশ ছাড় পাবেন। সদস্য কার্ড পেতে ফার্মেসির কাউন্টারে নাম, ঠিকানা ও মোবাইল নম্বর দিয়ে নিবন্ধন করতে হবে। মূল্য পরিশোধ নগদ, ডেবিট কার্ড অথবা মোবাইল ব্যাংকিংয়ের মাধ্যমে করা যাবে।
+
+    মেয়াদোত্তীর্ণ ওষুধ ফেরত দিলে তা নিরাপদে ধ্বংস করার ব্যবস্থা করা হবে। ইনসুলিন ও টিকাজাতীয় ওষুধ শীতল তাপমাত্রায় সংরক্ষণের জন্য ফার্মেসিতে আলাদা রেফ্রিজারেটর রয়েছে। আপনার সুস্বাস্থ্যই আমাদের কাম্য।
+
+    স্বত্বাধিকারী
+    অর্জুনছায়া ফার্মেসি
+  answer_sentence: "এলাকার দুই কিলোমিটারের মধ্যে বাসায় ওষুধ পৌঁছে দেওয়ার ব্যবস্থাও থাকবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Will Arjunchhaya Pharmacy deliver medicines to customers' homes?"
+    bn: "অর্জুনছায়া ফার্মেসি কি বাসায় ওষুধ পৌঁছে দেবে?"
+    rbn: "orjunchaya pharmacy ki bashay oshudh pouche debe?"
+    cm: "অর্জুনছায়া ফার্মেসি কি ওষুধের home delivery দেবে?"
+    cmr: "orjunchaya pharmacy ki oshudher home delivery debe?"
+  sibling:
+    answer_type: number
+    gold: {value: 12}
+    q:
+      en: "What percentage discount will membership card holders get at Arjunchhaya Pharmacy?"
+      bn: "অর্জুনছায়া ফার্মেসিতে সদস্য কার্ডধারীরা কত শতাংশ ছাড় পাবেন?"
+      rbn: "orjunchaya pharmacyte shoddosho carddharira koto shotangsho char paben?"
+      cm: "অর্জুনছায়া ফার্মেসিতে membership card থাকলে কত percent ছাড় পাওয়া যাবে?"
+      cmr: "orjunchaya pharmacyte membership card thakle koto percent char pawa jabe?"
+
+- id: N049
+  format: multi
+  domain: utilities
+  answer_type: amount
+  entity:
+    bn: "ঝিঙাফুলি পৌর পানি সরবরাহ বিভাগ"
+    rom: "jhingafuli pouro pani shorboraho bivag"
+    en: "Jhingafuli Municipal Water Supply Department"
+  edit_type: neutralisation
+  passage: |
+    ঝিঙাফুলি পৌর পানি সরবরাহ বিভাগ
+    নতুন পানির সংযোগের আবেদন আহ্বান
+
+    ঝিঙাফুলি পৌর পানি সরবরাহ বিভাগের নতুন পাম্প স্টেশন ও পাইপলাইন সম্প্রসারণের কাজ শেষ হওয়ায় পৌর এলাকার পূর্বাঞ্চলের বাসিন্দাদের কাছ থেকে নতুন পানির সংযোগের আবেদন আহ্বান করা হচ্ছে। এখন থেকে নতুন এলাকাগুলোতে প্রতিদিন সকাল ও সন্ধ্যায় দুই দফায় পানি সরবরাহ করা হবে।
+
+    আবেদন ফরম বিভাগের গ্রাহকসেবা কেন্দ্র থেকে বিনামূল্যে সংগ্রহ করা যাবে। পূরণকৃত ফরমের সঙ্গে বাড়ির মালিকানার দলিল বা হোল্ডিং ট্যাক্স পরিশোধের রসিদ, জাতীয় পরিচয়পত্রের ফটোকপি এবং দুই কপি ছবি জমা দিতে হবে। আবেদন জমার শেষ তারিখ ৩০ জুন ২০২৭।
+
+    আবাসিক নতুন সংযোগের জন্য এককালীন সংযোগ ফি ৩,৮০০ টাকা। বাণিজ্যিক প্রতিষ্ঠানের ক্ষেত্রে সংযোগ ফি ৯,৫০০ টাকা। সংযোগ ফি পৌরসভার নির্ধারিত ব্যাংক হিসাবে জমা দিয়ে রসিদের কপি আবেদনের সঙ্গে দিতে হবে। আবেদন যাচাইয়ের পর পরিদর্শকের প্রতিবেদন সাপেক্ষে সংযোগ দেওয়া হবে। সংযোগের সময় গ্রাহককে নিজ খরচে অনুমোদিত মানের পাইপ ও মিটার কিনতে হবে।
+
+    অবৈধ সংযোগ চিহ্নিত হলে তা বিচ্ছিন্ন করে জরিমানা আদায় করা হবে। পানির অপচয় রোধে সকলের সহযোগিতা কামনা করা হচ্ছে। বিস্তারিত জানতে কর্মদিবসে সকাল ৯টা থেকে বিকেল ৪টা পর্যন্ত গ্রাহকসেবা কেন্দ্রে যোগাযোগ করুন।
+
+    নির্বাহী প্রকৌশলী
+    ঝিঙাফুলি পৌর পানি সরবরাহ বিভাগ
+  answer_sentence: "আবাসিক নতুন সংযোগের জন্য এককালীন সংযোগ ফি ৩,৮০০ টাকা।"
+  insuff_replacement: "আবাসিক নতুন সংযোগের ফি পুনর্নির্ধারণের প্রক্রিয়া চলছে, যা শিগগিরই জানানো হবে।"
+  gold: {value: 3800}
+  q:
+    en: "What is the one-time connection fee for a new residential connection from the Jhingafuli Municipal Water Supply Department?"
+    bn: "ঝিঙাফুলি পৌর পানি সরবরাহ বিভাগে আবাসিক নতুন সংযোগের ফি কত টাকা?"
+    rbn: "jhingafuli pouro pani shorboraho bivage abashik notun shongjoger fee koto taka?"
+    cm: "ঝিঙাফুলি পৌর পানি সরবরাহ বিভাগে আবাসিক নতুন connection fee কত টাকা?"
+    cmr: "jhingafuli pouro pani shorboraho bivage abashik notun connection fee koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 30, month: 6, year: 2027}
+    q:
+      en: "What is the last date to apply for a new water connection at the Jhingafuli Municipal Water Supply Department?"
+      bn: "ঝিঙাফুলি পৌর পানি সরবরাহ বিভাগে নতুন সংযোগের আবেদন জমার শেষ তারিখ কবে?"
+      rbn: "jhingafuli pouro pani shorboraho bivage notun shongjoger abedon jomar shesh tarikh kobe?"
+      cm: "ঝিঙাফুলি পৌর পানি সরবরাহ বিভাগে নতুন connection এর apply করার last date কবে?"
+      cmr: "jhingafuli pouro pani shorboraho bivage notun connection er apply korar last date kobe?"
+
+- id: N050
+  format: multi
+  domain: utilities
+  answer_type: date
+  entity:
+    bn: "শালবনিয়া বিদ্যুৎ বিতরণ কার্যালয়"
+    rom: "shalboniya bidyut bitoron karjaloy"
+    en: "Shalbonia Electricity Distribution Office"
+  edit_type: deletion
+  passage: |
+    শালবনিয়া বিদ্যুৎ বিতরণ কার্যালয়
+    বিদ্যুৎ সরবরাহ সাময়িক বন্ধ থাকার বিজ্ঞপ্তি
+
+    শালবনিয়া বিদ্যুৎ বিতরণ কার্যালয়ের আওতাধীন এলাকার সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, পুরোনো ট্রান্সফরমার পরিবর্তন এবং উপকেন্দ্রের জরুরি রক্ষণাবেক্ষণ কাজের জন্য নির্ধারিত সময়ে বিদ্যুৎ সরবরাহ বন্ধ রাখা হবে। এই কাজের ফলে এলাকায় লো-ভোল্টেজ ও ঘন ঘন বিদ্যুৎ বিভ্রাটের সমস্যা অনেকাংশে কমে আসবে বলে আশা করা হচ্ছে।
+
+    আগামী ৯ মে ২০২৭ তারিখে সকাল ৯টা থেকে বিকেল ৩টা পর্যন্ত উপকেন্দ্রের সংশ্লিষ্ট লাইনে বিদ্যুৎ সরবরাহ বন্ধ থাকবে। রক্ষণাবেক্ষণ কাজের আওতায় মোট ৬টি ফিডারের অধীন এলাকা থাকবে, যার মধ্যে বাজার এলাকা, কলেজ রোড, হাসপাতাল রোড ও নদীর পাড়ের আবাসিক এলাকা উল্লেখযোগ্য। কাজ আগে শেষ হলে নির্ধারিত সময়ের আগেই বিদ্যুৎ সরবরাহ চালু করা হবে।
+
+    হাসপাতাল ও ক্লিনিকগুলোকে বিকল্প বিদ্যুতের ব্যবস্থা রাখার অনুরোধ করা হলো। কাজ চলাকালীন কোনো অবস্থাতেই বৈদ্যুতিক খুঁটি বা তারে হাত দেবেন না। এছাড়া চলতি মাসের বিদ্যুৎ বিল বিলম্ব ফি ছাড়া পরিশোধের শেষ তারিখ ২০ মে ২০২৭। প্রিপেইড মিটারের গ্রাহকদের আগেভাগে প্রয়োজনীয় রিচার্জ করে রাখার পরামর্শ দেওয়া হচ্ছে।
+
+    সাময়িক অসুবিধার জন্য আমরা আন্তরিকভাবে দুঃখিত। জরুরি প্রয়োজনে কার্যালয়ের অভিযোগ কেন্দ্রে যোগাযোগ করুন।
+
+    নির্বাহী প্রকৌশলী
+    শালবনিয়া বিদ্যুৎ বিতরণ কার্যালয়
+  answer_sentence: "আগামী ৯ মে ২০২৭ তারিখে সকাল ৯টা থেকে বিকেল ৩টা পর্যন্ত উপকেন্দ্রের সংশ্লিষ্ট লাইনে বিদ্যুৎ সরবরাহ বন্ধ থাকবে।"
+  insuff_replacement: ""
+  gold: {day: 9, month: 5, year: 2027}
+  q:
+    en: "On what date will the Shalbonia Electricity Distribution Office shut off power for the maintenance work?"
+    bn: "শালবনিয়া বিদ্যুৎ বিতরণ কার্যালয় রক্ষণাবেক্ষণ কাজের জন্য কোন তারিখে বিদ্যুৎ বন্ধ রাখবে?"
+    rbn: "shalboniya bidyut bitoron karjaloy rokkhonabekkhon kajer jonno kon tarikhe bidyut bondho rakhbe?"
+    cm: "শালবনিয়া বিদ্যুৎ বিতরণ কার্যালয় maintenance এর জন্য কোন date এ বিদ্যুৎ বন্ধ রাখবে?"
+    cmr: "shalboniya bidyut bitoron karjaloy maintenance er jonno kon date e bidyut bondho rakhbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 6}
+    q:
+      en: "How many feeders' areas are covered by the maintenance work of the Shalbonia Electricity Distribution Office?"
+      bn: "শালবনিয়া বিদ্যুৎ বিতরণ কার্যালয়ের রক্ষণাবেক্ষণ কাজের আওতায় কয়টি ফিডারের এলাকা থাকবে?"
+      rbn: "shalboniya bidyut bitoron karjaloyer rokkhonabekkhon kajer aotay koyti feederer elaka thakbe?"
+      cm: "শালবনিয়া বিদ্যুৎ বিতরণ কার্যালয়ের maintenance কাজের আওতায় কয়টি feeder এর এলাকা থাকবে?"
+      cmr: "shalboniya bidyut bitoron karjaloyer maintenance kajer aotay koyti feeder er elaka thakbe?"
+
+- id: N051
+  format: multi
+  domain: civic
+  answer_type: name
+  entity:
+    bn: "ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিল"
+    rom: "dhundulbari ward council"
+    en: "Dhundulbari Ward Council"
+  edit_type: neutralisation
+  passage: |
+    ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিল
+    উন্মুক্ত বাজেট সভার নোটিশ
+
+    ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিলের আওতাধীন সকল বাসিন্দার অবগতির জন্য জানানো যাচ্ছে যে, আগামী অর্থবছরের ওয়ার্ড উন্নয়ন বাজেট চূড়ান্ত করার আগে নাগরিকদের মতামত নেওয়ার জন্য একটি উন্মুক্ত বাজেট সভার আয়োজন করা হয়েছে। সভাটি আগামী ১১ এপ্রিল ২০২৭ তারিখে বিকেল ৩টায় ওয়ার্ডের সরকারি প্রাথমিক বিদ্যালয় মাঠে অনুষ্ঠিত হবে।
+
+    সভায় সভাপতিত্ব করবেন ওয়ার্ড কাউন্সিলর রাকিবুল হাসান তালুকদার। প্রধান অতিথি হিসেবে উপস্থিত থাকবেন পৌরসভার প্রধান নির্বাহী কর্মকর্তা সাবরিনা ইয়াসমিন চৌধুরী। সভায় গত বছরের বাজেটের আয়-ব্যয়ের হিসাব উপস্থাপন করা হবে এবং প্রস্তাবিত নতুন প্রকল্পগুলো নিয়ে আলোচনা হবে।
+
+    প্রস্তাবিত প্রকল্পের মধ্যে রয়েছে ড্রেন সংস্কার, গলির রাস্তা পাকাকরণ, সড়কবাতি স্থাপন এবং কমিউনিটি ক্লিনিকের জন্য নতুন ভবন। প্রস্তাবিত বাজেটের মোট আকার ২ কোটি ৪০ লাখ টাকা। নাগরিকরা সভায় সরাসরি মতামত দিতে পারবেন অথবা সভার আগে কাউন্সিল কার্যালয়ে রাখা মতামত বাক্সে লিখিত প্রস্তাব জমা দিতে পারবেন।
+
+    নারী, প্রবীণ ও প্রতিবন্ধী ব্যক্তিদের বসার জন্য সভাস্থলে আলাদা স্থান সংরক্ষিত থাকবে। সভায় এলাকার সকল শ্রেণি-পেশার মানুষের উপস্থিতি ও সক্রিয় অংশগ্রহণ একান্তভাবে কাম্য।
+
+    সচিব
+    ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিল
+  answer_sentence: "সভায় সভাপতিত্ব করবেন ওয়ার্ড কাউন্সিলর রাকিবুল হাসান তালুকদার।"
+  insuff_replacement: "সভার সভাপতির নাম পরবর্তীতে জানানো হবে।"
+  gold: {aliases: ["রাকিবুল হাসান তালুকদার", "Rakibul Hasan Talukdar", "Rakibul Hassan Talukder", "Rakibul Hasan Talukder"]}
+  q:
+    en: "Who will chair the open budget meeting of the Dhundulbari Ward Council?"
+    bn: "ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিলের উন্মুক্ত বাজেট সভায় কে সভাপতিত্ব করবেন?"
+    rbn: "dhundulbari ward counciler unmukto bajet shovay ke shovapotitto korben?"
+    cm: "ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিলের open budget meeting এ কে সভাপতিত্ব করবেন?"
+    cmr: "dhundulbari ward counciler open budget meeting e ke shovapotitto korben?"
+  sibling:
+    answer_type: date
+    gold: {day: 11, month: 4, year: 2027}
+    q:
+      en: "On what date will the Dhundulbari Ward Council hold its open budget meeting?"
+      bn: "ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিলের উন্মুক্ত বাজেট সভা কোন তারিখে অনুষ্ঠিত হবে?"
+      rbn: "dhundulbari ward counciler unmukto bajet shova kon tarikhe onushthito hobe?"
+      cm: "ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিলের budget meeting কোন date এ হবে?"
+      cmr: "dhundulbari ward counciler budget meeting kon date e hobe?"
+
+- id: N052
+  format: multi
+  domain: civic
+  answer_type: number
+  entity:
+    bn: "কামরাঙাতলা পৌর বর্জ্য ব্যবস্থাপনা শাখা"
+    rom: "kamrangatola pouro borjo byabosthapona shakha"
+    en: "Kamrangatola Municipal Waste Management Section"
+  edit_type: deletion
+  passage: |
+    কামরাঙাতলা পৌর বর্জ্য ব্যবস্থাপনা শাখা
+    বাসাবাড়ি থেকে বর্জ্য সংগ্রহের নতুন সময়সূচি
+
+    কামরাঙাতলা পৌর বর্জ্য ব্যবস্থাপনা শাখার পক্ষ থেকে পৌরবাসীকে জানানো যাচ্ছে যে, আগামী ১ ফেব্রুয়ারি ২০২৭ থেকে বাসাবাড়ি থেকে বর্জ্য সংগ্রহের নতুন সময়সূচি কার্যকর হবে। এখন থেকে প্রতিদিন সকাল ৭টা থেকে ১০টার মধ্যে বর্জ্য সংগ্রহ করা হবে। নির্ধারিত সময়ের পরে রাস্তায় বা ড্রেনে ময়লা ফেলা সম্পূর্ণ নিষিদ্ধ।
+
+    বাসাবাড়ি থেকে বর্জ্য সংগ্রহের জন্য শাখার ১৩টি ভ্যান প্রতিদিন পৌর এলাকায় কাজ করবে। প্রতিটি ভ্যানের সঙ্গে দুজন পরিচ্ছন্নতাকর্মী থাকবেন এবং তাঁরা বাঁশি বাজিয়ে নিজেদের আগমনের সংকেত দেবেন। সংগৃহীত বর্জ্য পৌরসভার নির্ধারিত ডাম্পিং স্টেশনে নিয়ে যাওয়া হবে।
+
+    বাসিন্দাদের পচনশীল ও অপচনশীল বর্জ্য আলাদা ব্যাগে রাখার অনুরোধ করা হলো। প্লাস্টিক, কাচ ও ধাতব বর্জ্য সপ্তাহে একদিন আলাদাভাবে সংগ্রহ করা হবে। বর্জ্য সংগ্রহ সেবার জন্য প্রতিটি বাসা থেকে মাসিক ৮০ টাকা সেবা চার্জ আদায় করা হবে, যা পৌরসভার রসিদের মাধ্যমে পরিশোধ করতে হবে। রসিদ ছাড়া কাউকে কোনো অর্থ না দেওয়ার জন্য অনুরোধ করা হচ্ছে।
+
+    নির্মাণসামগ্রীর বর্জ্য ও বড় আকারের আসবাবপত্র সরানোর জন্য শাখার অফিসে আলাদাভাবে আবেদন করতে হবে। পরিচ্ছন্ন ও স্বাস্থ্যকর শহর গড়তে সকল নাগরিকের সহযোগিতা কামনা করা হচ্ছে।
+
+    পরিচ্ছন্নতা কর্মকর্তা
+    কামরাঙাতলা পৌর বর্জ্য ব্যবস্থাপনা শাখা
+  answer_sentence: "বাসাবাড়ি থেকে বর্জ্য সংগ্রহের জন্য শাখার ১৩টি ভ্যান প্রতিদিন পৌর এলাকায় কাজ করবে।"
+  insuff_replacement: ""
+  gold: {value: 13}
+  q:
+    en: "How many vans will the Kamrangatola Municipal Waste Management Section use daily to collect household waste?"
+    bn: "কামরাঙাতলা পৌর বর্জ্য ব্যবস্থাপনা শাখার কয়টি ভ্যান প্রতিদিন বাসাবাড়ির বর্জ্য সংগ্রহ করবে?"
+    rbn: "kamrangatola pouro borjo byabosthapona shakhar koyti van protidin bashabarir borjo shongroho korbe?"
+    cm: "কামরাঙাতলা পৌর বর্জ্য ব্যবস্থাপনা শাখার কয়টি van প্রতিদিন household waste সংগ্রহ করবে?"
+    cmr: "kamrangatola pouro borjo byabosthapona shakhar koyti van protidin household waste shongroho korbe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 80}
+    q:
+      en: "What monthly service charge will the Kamrangatola Municipal Waste Management Section collect from each household?"
+      bn: "কামরাঙাতলা পৌর বর্জ্য ব্যবস্থাপনা শাখা প্রতিটি বাসা থেকে মাসিক কত টাকা সেবা চার্জ নেবে?"
+      rbn: "kamrangatola pouro borjo byabosthapona shakha protiti basha theke mashik koto taka sheba charge nebe?"
+      cm: "কামরাঙাতলা পৌর বর্জ্য ব্যবস্থাপনা শাখা প্রতিটি বাসা থেকে monthly service charge কত টাকা নেবে?"
+      cmr: "kamrangatola pouro borjo byabosthapona shakha protiti basha theke monthly service charge koto taka nebe?"
+
+- id: N053
+  format: multi
+  domain: utilities
+  answer_type: yesno
+  entity:
+    bn: "জামরুলতলী গ্যাস বিতরণ কার্যালয়"
+    rom: "jamrultoli gas bitoron karjaloy"
+    en: "Jamrultali Gas Distribution Office"
+  edit_type: neutralisation
+  passage: |
+    জামরুলতলী গ্যাস বিতরণ কার্যালয়
+    প্রিপেইড গ্যাস মিটার স্থাপন সংক্রান্ত বিজ্ঞপ্তি
+
+    জামরুলতলী গ্যাস বিতরণ কার্যালয়ের আওতাধীন আবাসিক গ্রাহকদের জানানো যাচ্ছে যে, গ্যাসের অপচয় রোধ এবং সঠিক বিল নিশ্চিত করার লক্ষ্যে পর্যায়ক্রমে সকল আবাসিক সংযোগে প্রিপেইড গ্যাস মিটার স্থাপন করা হবে। প্রথম পর্যায়ে স্টেশন রোড, পুরাতন বাজার ও মধ্যপাড়া এলাকায় মিটার স্থাপনের কাজ আগামী ৫ জুলাই ২০২৭ তারিখ থেকে শুরু হবে।
+
+    মিটার স্থাপনের আগে প্রত্যেক গ্রাহককে কার্যালয়ের গ্রাহকসেবা কেন্দ্রে নিবন্ধন করতে হবে। নিবন্ধনের সময় সর্বশেষ গ্যাস বিল পরিশোধের রসিদ, জাতীয় পরিচয়পত্রের ফটোকপি এবং গ্রাহক নম্বর সঙ্গে আনতে হবে। কোনো গ্রাহকের বকেয়া বিল থাকলে তা পরিশোধ না করা পর্যন্ত মিটার স্থাপন করা হবে না।
+
+    প্রিপেইড মিটার স্থাপনের জন্য গ্রাহকদের কাছ থেকে কোনো অর্থ নেওয়া হবে না। মিটার স্থাপনের পর গ্রাহকরা নির্ধারিত ভেন্ডিং স্টেশন অথবা মোবাইল ব্যাংকিংয়ের মাধ্যমে কার্ড রিচার্জ করতে পারবেন। মিটার চালুর পর মাসিক নির্দিষ্ট হারে বিলের পরিবর্তে শুধু ব্যবহৃত গ্যাসের মূল্য পরিশোধ করতে হবে।
+
+    মিটার স্থাপনকারী কর্মীরা কার্যালয়ের পরিচয়পত্র বহন করবেন। পরিচয়পত্র দেখে নিশ্চিত হয়ে তবেই তাঁদের বাড়িতে প্রবেশ করতে দিন। অবৈধ সংযোগ বা চুলায় রাইজার পরিবর্তন শাস্তিযোগ্য অপরাধ। গ্যাস লিকেজের গন্ধ পেলে দ্রুত জানালা খুলে দিন এবং কার্যালয়ের জরুরি নম্বরে খবর দিন।
+
+    ব্যবস্থাপক
+    জামরুলতলী গ্যাস বিতরণ কার্যালয়
+  answer_sentence: "প্রিপেইড মিটার স্থাপনের জন্য গ্রাহকদের কাছ থেকে কোনো অর্থ নেওয়া হবে না।"
+  insuff_replacement: "প্রিপেইড মিটার স্থাপনের খরচ সংক্রান্ত নির্দেশনা পরবর্তী বিজ্ঞপ্তিতে জানানো হবে।"
+  gold: {value: false}
+  q:
+    en: "Will customers have to pay for the installation of the prepaid meter by the Jamrultali Gas Distribution Office?"
+    bn: "জামরুলতলী গ্যাস বিতরণ কার্যালয়ের প্রিপেইড মিটার স্থাপনের জন্য কি গ্রাহকদের টাকা দিতে হবে?"
+    rbn: "jamrultoli gas bitoron karjaloyer prepaid meter sthaponer jonno ki grahokder taka dite hobe?"
+    cm: "জামরুলতলী গ্যাস বিতরণ কার্যালয়ের prepaid meter installation এর জন্য কি গ্রাহকদের টাকা দিতে হবে?"
+    cmr: "jamrultoli gas bitoron karjaloyer prepaid meter installation er jonno ki grahokder taka dite hobe?"
+  sibling:
+    answer_type: date
+    gold: {day: 5, month: 7, year: 2027}
+    q:
+      en: "On what date will the Jamrultali Gas Distribution Office start installing prepaid meters in the first phase?"
+      bn: "জামরুলতলী গ্যাস বিতরণ কার্যালয় প্রথম পর্যায়ে কোন তারিখ থেকে প্রিপেইড মিটার স্থাপন শুরু করবে?"
+      rbn: "jamrultoli gas bitoron karjaloy prothom porjaye kon tarikh theke prepaid meter sthapon shuru korbe?"
+      cm: "জামরুলতলী গ্যাস বিতরণ কার্যালয় first phase এ কোন date থেকে মিটার স্থাপন শুরু করবে?"
+      cmr: "jamrultoli gas bitoron karjaloy first phase e kon date theke meter sthapon shuru korbe?"
+
+- id: N054
+  format: multi
+  domain: health
+  answer_type: amount
+  entity:
+    bn: "শিরীষতলি জেনারেল হাসপাতাল"
+    rom: "shirishtoli general hospital"
+    en: "Shirishtali General Hospital"
+  edit_type: deletion
+  passage: |
+    শিরীষতলি জেনারেল হাসপাতাল
+    নতুন ভবনে অন্তর্বিভাগ চালু ও শয্যা ভাড়া সংক্রান্ত বিজ্ঞপ্তি
+
+    সম্মানিত রোগী ও তাঁদের স্বজনদের জানানো যাচ্ছে যে, শিরীষতলি জেনারেল হাসপাতালের নবনির্মিত পাঁচতলা ভবনে আগামী ১ মার্চ ২০২৭ থেকে অন্তর্বিভাগের কার্যক্রম শুরু হবে। নতুন ভবনে মোট ৬০টি শয্যা যুক্ত হচ্ছে, যার মধ্যে সাধারণ ওয়ার্ড, কেবিন এবং আলাদা শিশু ওয়ার্ড রয়েছে।
+
+    সাধারণ ওয়ার্ডের প্রতিটি শয্যার দৈনিক ভাড়া ৪৫০ টাকা। সাধারণ কেবিনের দৈনিক ভাড়া ১,৮০০ টাকা। শীতাতপনিয়ন্ত্রিত কেবিনের দৈনিক ভাড়া ৩,২০০ টাকা, যেখানে রোগীর একজন সহযোগীর থাকার ব্যবস্থা রয়েছে। শয্যা ভাড়ার মধ্যে চিকিৎসকের রাউন্ড, নার্সিং সেবা ও তিন বেলার খাবার অন্তর্ভুক্ত থাকবে, তবে ওষুধ ও পরীক্ষার খরচ আলাদাভাবে পরিশোধ করতে হবে।
+
+    ভর্তির সময় অগ্রিম হিসেবে তিন দিনের শয্যা ভাড়া জমা দিতে হবে। ছাড়পত্র নেওয়ার সময় চূড়ান্ত বিল পরিশোধ করতে হবে। দরিদ্র রোগীদের জন্য হাসপাতালের সমাজসেবা কার্যালয়ের সুপারিশ সাপেক্ষে শয্যা ভাড়ায় ছাড়ের ব্যবস্থা রয়েছে।
+
+    রোগীর সঙ্গে দর্শনার্থীরা প্রতিদিন বিকেল ৪টা থেকে সন্ধ্যা ৬টা পর্যন্ত দেখা করতে পারবেন। হাসপাতাল প্রাঙ্গণে ধূমপান সম্পূর্ণ নিষিদ্ধ। কেবিন বরাদ্দ সাপেক্ষে দেওয়া হবে, তাই আগে থেকে অভ্যর্থনা কক্ষে যোগাযোগ করার অনুরোধ করা হলো।
+
+    তত্ত্বাবধায়ক
+    শিরীষতলি জেনারেল হাসপাতাল
+  answer_sentence: "সাধারণ কেবিনের দৈনিক ভাড়া ১,৮০০ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 1800}
+  q:
+    en: "What is the daily rent of a standard (non-AC) cabin at Shirishtali General Hospital?"
+    bn: "শিরীষতলি জেনারেল হাসপাতালে সাধারণ কেবিনের দৈনিক ভাড়া কত টাকা?"
+    rbn: "shirishtoli general hospitale sadharon cabiner doinik vara koto taka?"
+    cm: "শিরীষতলি জেনারেল হাসপাতালে non-AC cabin এর দৈনিক ভাড়া কত টাকা?"
+    cmr: "shirishtoli general hospitale non-AC cabin er doinik vara koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 60}
+    q:
+      en: "How many beds are being added in the new building of Shirishtali General Hospital?"
+      bn: "শিরীষতলি জেনারেল হাসপাতালের নতুন ভবনে কয়টি শয্যা যুক্ত হচ্ছে?"
+      rbn: "shirishtoli general hospitaler notun vobone koyti shojja jukto hocche?"
+      cm: "শিরীষতলি জেনারেল হাসপাতালের new building এ কয়টি bed যুক্ত হচ্ছে?"
+      cmr: "shirishtoli general hospitaler new building e koyti bed jukto hocche?"
+
+- id: N055
+  format: multi
+  domain: civic
+  answer_type: date
+  entity:
+    bn: "ভেটুলজুড়ি ইউনিয়ন পরিষদ"
+    rom: "vetuljuri union porishod"
+    en: "Bhetuljuri Union Parishad"
+  edit_type: neutralisation
+  passage: |
+    ভেটুলজুড়ি ইউনিয়ন পরিষদ
+    জন্ম ও মৃত্যু নিবন্ধন সেবা সাময়িক বন্ধ থাকার বিজ্ঞপ্তি
+
+    ভেটুলজুড়ি ইউনিয়ন পরিষদের আওতাধীন সকল নাগরিকের অবগতির জন্য জানানো যাচ্ছে যে, অনলাইন নিবন্ধন সার্ভার হালনাগাদ এবং পুরোনো নিবন্ধন তথ্য নতুন সার্ভারে স্থানান্তরের কারণে আগামী ১০ জানুয়ারি ২০২৭ থেকে পরিষদের ডিজিটাল সেন্টারে জন্ম ও মৃত্যু নিবন্ধন সেবা সাময়িকভাবে বন্ধ থাকবে।
+
+    আগামী ২৬ জানুয়ারি ২০২৭ তারিখ থেকে পুনরায় নিবন্ধন সেবা চালু হবে। সেবা বন্ধ থাকাকালে নতুন আবেদন, সনদ সংশোধন বা সনদের অনুলিপি সরবরাহ করা সম্ভব হবে না। তবে ইতিমধ্যে যেসব আবেদন অনুমোদিত হয়েছে, সেগুলোর সনদ পরিষদের সচিবের কাছ থেকে সংগ্রহ করা যাবে।
+
+    জরুরি প্রয়োজনে, যেমন বিদেশযাত্রা বা চিকিৎসার জন্য সনদ প্রয়োজন হলে, প্রমাণপত্রসহ পরিষদের চেয়ারম্যানের কাছে লিখিত আবেদন করা যাবে। মৃত্যু নিবন্ধনের ক্ষেত্রে মৃত্যুর ৪৫ দিনের মধ্যে আবেদন করলে কোনো ফি লাগে না। মৃত্যু নিবন্ধনের আবেদনের সঙ্গে চিকিৎসক বা ইউপি সদস্যের প্রত্যয়নপত্র এবং মৃত ব্যক্তির জাতীয় পরিচয়পত্রের ফটোকপি জমা দিতে হবে।
+
+    সাময়িক অসুবিধার জন্য পরিষদ আন্তরিকভাবে দুঃখিত। সার্ভার হালনাগাদের পর নিবন্ধন সেবা আগের চেয়ে দ্রুত ও নির্ভুল হবে বলে আশা করা হচ্ছে। বিস্তারিত জানতে পরিষদের তথ্যকেন্দ্রে যোগাযোগ করুন।
+
+    সচিব
+    ভেটুলজুড়ি ইউনিয়ন পরিষদ
+  answer_sentence: "আগামী ২৬ জানুয়ারি ২০২৭ তারিখ থেকে পুনরায় নিবন্ধন সেবা চালু হবে।"
+  insuff_replacement: "সার্ভার হালনাগাদের কাজ শেষ হলে পুনরায় নিবন্ধন সেবা চালু করা হবে।"
+  gold: {day: 26, month: 1, year: 2027}
+  q:
+    en: "From what date will birth and death registration services resume at Bhetuljuri Union Parishad?"
+    bn: "ভেটুলজুড়ি ইউনিয়ন পরিষদে কোন তারিখ থেকে জন্ম ও মৃত্যু নিবন্ধন সেবা আবার চালু হবে?"
+    rbn: "vetuljuri union porishode kon tarikh theke jonmo o mrittu nibondhon sheba abar chalu hobe?"
+    cm: "ভেটুলজুড়ি ইউনিয়ন পরিষদে কোন date থেকে জন্ম ও মৃত্যু registration সেবা আবার চালু হবে?"
+    cmr: "vetuljuri union porishode kon date theke jonmo o mrittu registration sheba abar chalu hobe?"
+  sibling:
+    answer_type: date
+    gold: {day: 10, month: 1, year: 2027}
+    q:
+      en: "From what date will the registration services at Bhetuljuri Union Parishad be suspended?"
+      bn: "ভেটুলজুড়ি ইউনিয়ন পরিষদে কোন তারিখ থেকে নিবন্ধন সেবা বন্ধ থাকবে?"
+      rbn: "vetuljuri union porishode kon tarikh theke nibondhon sheba bondho thakbe?"
+      cm: "ভেটুলজুড়ি ইউনিয়ন পরিষদে কোন date থেকে registration সেবা বন্ধ থাকবে?"
+      cmr: "vetuljuri union porishode kon date theke registration sheba bondho thakbe?"
+
+- id: N056
+  format: multi
+  domain: health
+  answer_type: name
+  entity:
+    bn: "কলাবতী চক্ষু হাসপাতাল"
+    rom: "kolaboti chokkhu hospital"
+    en: "Kolaboti Eye Hospital"
+  edit_type: deletion
+  passage: |
+    কলাবতী চক্ষু হাসপাতাল
+    বিনামূল্যে ছানি অপারেশন ক্যাম্প
+
+    কলাবতী চক্ষু হাসপাতালের উদ্যোগে দরিদ্র ও প্রবীণ রোগীদের জন্য আগামী ৬ ফেব্রুয়ারি ২০২৭ থেকে তিন দিনব্যাপী বিনামূল্যে ছানি অপারেশন ক্যাম্পের আয়োজন করা হয়েছে। ক্যাম্পে প্রথমে চোখ পরীক্ষা করে অপারেশনের উপযুক্ত রোগী বাছাই করা হবে। ক্যাম্পে সর্বোচ্চ ১২০ জন রোগীর বিনামূল্যে ছানি অপারেশন করা হবে।
+
+    ক্যাম্পের ছানি অপারেশন করবেন হাসপাতালের জ্যেষ্ঠ চক্ষু সার্জন ডা. আরিফুজ্জামান মৃধা। অপারেশনের পর রোগীদের বিনামূল্যে লেন্স, চোখের ড্রপ ও কালো চশমা দেওয়া হবে। অপারেশনের পরদিন রোগীদের চোখ পরীক্ষা করে ছাড়পত্র দেওয়া হবে।
+
+    রোগী বাছাই ও নিবন্ধনের সার্বিক দায়িত্বে থাকবেন ক্যাম্প সমন্বয়ক নুসরাত জাহান লিপি। নিবন্ধনের জন্য রোগীকে জাতীয় পরিচয়পত্রের ফটোকপি এবং একজন সহযোগী সঙ্গে নিয়ে আসতে হবে। ডায়াবেটিস বা উচ্চ রক্তচাপ থাকলে নিয়মিত ওষুধ ও আগের প্রেসক্রিপশন সঙ্গে আনতে হবে, কারণ রক্তে শর্করা নিয়ন্ত্রণে না থাকলে অপারেশন করা যাবে না।
+
+    দূরের রোগীদের জন্য হাসপাতালে রাতে থাকার সীমিত ব্যবস্থা রয়েছে। ক্যাম্প চলাকালীন হাসপাতালের নিয়মিত বহির্বিভাগ সেবা স্বাভাবিক থাকবে। এই মহৎ উদ্যোগে এলাকার জনপ্রতিনিধি ও সমাজকর্মীদের সহযোগিতা কামনা করা হচ্ছে।
+
+    পরিচালক
+    কলাবতী চক্ষু হাসপাতাল
+  answer_sentence: "ক্যাম্পের ছানি অপারেশন করবেন হাসপাতালের জ্যেষ্ঠ চক্ষু সার্জন ডা. আরিফুজ্জামান মৃধা।"
+  insuff_replacement: ""
+  gold: {aliases: ["আরিফুজ্জামান মৃধা", "Arifuzzaman Mridha", "Arifuzzaman Mirdha", "Arifuz Zaman Mridha"]}
+  q:
+    en: "Who will perform the cataract operations at the Kolaboti Eye Hospital's free camp?"
+    bn: "কলাবতী চক্ষু হাসপাতালের বিনামূল্যে ক্যাম্পে ছানি অপারেশন কে করবেন?"
+    rbn: "kolaboti chokkhu hospitaler binamulle campe chani operation ke korben?"
+    cm: "কলাবতী চক্ষু হাসপাতালের free camp এ cataract operation কে করবেন?"
+    cmr: "kolaboti chokkhu hospitaler free camp e cataract operation ke korben?"
+  sibling:
+    answer_type: number
+    gold: {value: 120}
+    q:
+      en: "What is the maximum number of patients who will get free cataract operations at the Kolaboti Eye Hospital's camp?"
+      bn: "কলাবতী চক্ষু হাসপাতালের ক্যাম্পে সর্বোচ্চ কতজন রোগীর বিনামূল্যে ছানি অপারেশন করা হবে?"
+      rbn: "kolaboti chokkhu hospitaler campe shorbocho kotojon rogir binamulle chani operation kora hobe?"
+      cm: "কলাবতী চক্ষু হাসপাতালের camp এ সর্বোচ্চ কতজন রোগীর free operation করা হবে?"
+      cmr: "kolaboti chokkhu hospitaler camp e shorbocho kotojon rogir free operation kora hobe?"
+
+- id: N057
+  format: multi
+  domain: health
+  answer_type: number
+  entity:
+    bn: "তেঁতুলঝোরা হাসপাতাল ব্লাড ব্যাংক"
+    rom: "tetuljhora hospital blood bank"
+    en: "Tetuljhora Hospital Blood Bank"
+  edit_type: neutralisation
+  passage: |
+    তেঁতুলঝোরা হাসপাতাল ব্লাড ব্যাংক
+    স্বেচ্ছায় রক্তদান কর্মসূচি
+
+    তেঁতুলঝোরা হাসপাতাল ব্লাড ব্যাংকের উদ্যোগে আগামী ১৪ জুন ২০২৭ তারিখে হাসপাতালের নিচতলায় দিনব্যাপী স্বেচ্ছায় রক্তদান কর্মসূচির আয়োজন করা হয়েছে। থ্যালাসেমিয়া আক্রান্ত শিশু, প্রসূতি মা এবং দুর্ঘটনায় আহত রোগীদের জন্য নিয়মিত রক্তের চাহিদা মেটাতে এই কর্মসূচি নেওয়া হয়েছে।
+
+    এবারের কর্মসূচিতে ২২০ ব্যাগ রক্ত সংগ্রহের লক্ষ্য নির্ধারণ করা হয়েছে। সংগৃহীত রক্ত প্রয়োজনীয় স্ক্রিনিং শেষে ব্লাড ব্যাংকে সংরক্ষণ করা হবে এবং দরিদ্র রোগীদের বিনামূল্যে সরবরাহ করা হবে।
+
+    আঠারো থেকে ষাট বছর বয়সী সুস্থ নারী-পুরুষ রক্ত দিতে পারবেন। রক্তদাতার ওজন অন্তত ৫০ কেজি হতে হবে। শেষবার রক্তদানের পর অন্তত চার মাস পার না হলে আবার রক্ত দেওয়া যাবে না। রক্ত দেওয়ার আগে প্রত্যেক দাতার রক্তচাপ ও হিমোগ্লোবিন পরীক্ষা করা হবে। রক্তদানের দিন সকালে ভালোভাবে খাবার খেয়ে আসার এবং পর্যাপ্ত পানি পান করার অনুরোধ করা হলো।
+
+    প্রত্যেক রক্তদাতাকে একটি রক্তদাতা কার্ড, সনদপত্র এবং হালকা নাশতা দেওয়া হবে। রক্তদাতা কার্ড দেখিয়ে পরবর্তী এক বছর দাতা নিজে বা তাঁর পরিবারের সদস্য প্রয়োজনে অগ্রাধিকার ভিত্তিতে রক্ত পাবেন। আগ্রহীদের ব্লাড ব্যাংকের কাউন্টারে আগে থেকে নাম নিবন্ধন করার অনুরোধ করা হচ্ছে।
+
+    ইনচার্জ
+    তেঁতুলঝোরা হাসপাতাল ব্লাড ব্যাংক
+  answer_sentence: "এবারের কর্মসূচিতে ২২০ ব্যাগ রক্ত সংগ্রহের লক্ষ্য নির্ধারণ করা হয়েছে।"
+  insuff_replacement: "এবারের কর্মসূচিতে যত বেশি সম্ভব রক্ত সংগ্রহের লক্ষ্য নেওয়া হয়েছে।"
+  gold: {value: 220}
+  q:
+    en: "How many bags of blood does the Tetuljhora Hospital Blood Bank aim to collect in this donation programme?"
+    bn: "তেঁতুলঝোরা হাসপাতাল ব্লাড ব্যাংক এবারের কর্মসূচিতে কত ব্যাগ রক্ত সংগ্রহের লক্ষ্য নিয়েছে?"
+    rbn: "tetuljhora hospital blood bank ebarer kormoshuchite koto byag rokto shongrohor lokkho niyeche?"
+    cm: "তেঁতুলঝোরা হাসপাতাল ব্লাড ব্যাংক এবারের program এ কত bag রক্ত সংগ্রহের target নিয়েছে?"
+    cmr: "tetuljhora hospital blood bank ebarer program e koto bag rokto shongrohor target niyeche?"
+  sibling:
+    answer_type: number
+    gold: {value: 50}
+    q:
+      en: "What is the minimum weight in kilograms required to donate blood at the Tetuljhora Hospital Blood Bank?"
+      bn: "তেঁতুলঝোরা হাসপাতাল ব্লাড ব্যাংকে রক্ত দিতে হলে রক্তদাতার ওজন অন্তত কত কেজি হতে হবে?"
+      rbn: "tetuljhora hospital blood bank e rokto dite hole roktodatar ojon ontoto koto kg hote hobe?"
+      cm: "তেঁতুলঝোরা হাসপাতাল ব্লাড ব্যাংকে blood donate করতে minimum কত কেজি ওজন লাগবে?"
+      cmr: "tetuljhora hospital blood bank e blood donate korte minimum koto kg ojon lagbe?"
+
+- id: N058
+  format: multi
+  domain: civic
+  answer_type: yesno
+  entity:
+    bn: "চখাচখিপুর পৌরসভা"
+    rom: "chokhachokhipur pouroshova"
+    en: "Chokhachokhipur Municipality"
+  edit_type: deletion
+  passage: |
+    চখাচখিপুর পৌরসভা
+    হোল্ডিং ট্যাক্স পরিশোধ সংক্রান্ত বিজ্ঞপ্তি
+
+    চখাচখিপুর পৌরসভার সকল হোল্ডিং মালিকের অবগতির জন্য জানানো যাচ্ছে যে, চলতি অর্থবছরের হোল্ডিং ট্যাক্স ও অন্যান্য পৌর কর আদায় কার্যক্রম শুরু হয়েছে। পৌরসভার নাগরিক সেবা ও উন্নয়ন কাজ সচল রাখতে যথাসময়ে কর পরিশোধ করে সহযোগিতা করার জন্য সকলের প্রতি অনুরোধ জানানো হচ্ছে।
+
+    যাঁরা আগামী ৩১ মার্চ ২০২৭ তারিখের মধ্যে চলতি অর্থবছরের সম্পূর্ণ কর পরিশোধ করবেন, তাঁরা ১০ শতাংশ রেয়াত পাবেন। এ বছর থেকে পৌরসভার ওয়েবসাইটের মাধ্যমে অনলাইনেও হোল্ডিং ট্যাক্স পরিশোধ করা যাবে। নির্ধারিত সময়ের পরে কর পরিশোধ করলে বিধি অনুযায়ী সারচার্জ প্রযোজ্য হবে।
+
+    কর পরিশোধের সময় হোল্ডিং নম্বর উল্লেখ করতে হবে। যাঁদের হোল্ডিং নম্বর জানা নেই, তাঁরা পৌরসভার রাজস্ব শাখায় গিয়ে জেনে নিতে পারবেন। নতুন ভবন নির্মাণ বা ভবনের আয়তন বৃদ্ধি পেলে তা পৌরসভাকে জানাতে হবে, যাতে কর পুনর্নির্ধারণ করা যায়। কোনো হোল্ডিং মালিক কর নির্ধারণে আপত্তি জানাতে চাইলে রাজস্ব কর্মকর্তা বরাবর লিখিত আবেদন করতে পারবেন।
+
+    দীর্ঘদিনের বকেয়া কর আদায়ে পৌরসভা শিগগিরই বিশেষ অভিযান পরিচালনা করবে। বকেয়া কর পরিশোধ না করলে ট্রেড লাইসেন্স নবায়নসহ পৌরসভার বিভিন্ন সেবা পেতে সমস্যা হতে পারে। পৌরসভার উন্নয়নে আপনার অংশগ্রহণ একান্ত কাম্য।
+
+    রাজস্ব কর্মকর্তা
+    চখাচখিপুর পৌরসভা
+  answer_sentence: "এ বছর থেকে পৌরসভার ওয়েবসাইটের মাধ্যমে অনলাইনেও হোল্ডিং ট্যাক্স পরিশোধ করা যাবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Can holding tax be paid online to Chokhachokhipur Municipality this year?"
+    bn: "এ বছর কি চখাচখিপুর পৌরসভার হোল্ডিং ট্যাক্স অনলাইনে পরিশোধ করা যাবে?"
+    rbn: "e bochor ki chokhachokhipur pouroshovar holding tax online e porishodh kora jabe?"
+    cm: "এ বছর কি চখাচখিপুর পৌরসভার holding tax online এ pay করা যাবে?"
+    cmr: "e bochor ki chokhachokhipur pouroshovar holding tax online e pay kora jabe?"
+  sibling:
+    answer_type: date
+    gold: {day: 31, month: 3, year: 2027}
+    q:
+      en: "By what date must the full tax be paid to Chokhachokhipur Municipality to get the rebate?"
+      bn: "রেয়াত পেতে চখাচখিপুর পৌরসভায় কোন তারিখের মধ্যে সম্পূর্ণ কর পরিশোধ করতে হবে?"
+      rbn: "reyat pete chokhachokhipur pouroshovay kon tarikher moddhe shompurno kor porishodh korte hobe?"
+      cm: "rebate পেতে চখাচখিপুর পৌরসভায় কোন date এর মধ্যে সম্পূর্ণ tax দিতে হবে?"
+      cmr: "rebate pete chokhachokhipur pouroshovay kon date er moddhe shompurno tax dite hobe?"
+
+- id: N059
+  format: multi
+  domain: health
+  answer_type: amount
+  entity:
+    bn: "শজনেতলা প্যাথলজি ল্যাব"
+    rom: "shojnetola pathology lab"
+    en: "Shojnetola Pathology Lab"
+  edit_type: neutralisation
+  passage: |
+    শজনেতলা প্যাথলজি ল্যাব
+    বাসা থেকে নমুনা সংগ্রহ সেবা চালু
+
+    শজনেতলা প্যাথলজি ল্যাবের পক্ষ থেকে সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, আগামী ১০ জানুয়ারি ২০২৭ থেকে প্রবীণ, অসুস্থ ও চলাফেরায় অক্ষম রোগীদের সুবিধার্থে বাসা থেকে রক্ত ও প্রস্রাবের নমুনা সংগ্রহ সেবা চালু করা হচ্ছে। প্রশিক্ষিত টেকনোলজিস্ট নির্ধারিত সময়ে বাসায় গিয়ে নমুনা সংগ্রহ করবেন।
+
+    বাসা থেকে নমুনা সংগ্রহের জন্য আগের দিন সন্ধ্যার মধ্যে ল্যাবের নম্বরে ফোন করে সময় নির্ধারণ করতে হবে। নমুনা সংগ্রহ প্রতিদিন সকাল ৭টা থেকে ১১টার মধ্যে করা হবে। বাসা থেকে নমুনা সংগ্রহের সার্ভিস চার্জ ৩৫০ টাকা, যা পরীক্ষার খরচের বাইরে আলাদাভাবে পরিশোধ করতে হবে।
+
+    ল্যাবে নিয়মিত পরীক্ষার মধ্যে সিবিসি পরীক্ষার খরচ ৪০০ টাকা। প্রবীণদের জন্য বিশেষ স্বাস্থ্য প্যাকেজে ৮টি পরীক্ষা রয়েছে, যার মধ্যে রক্তের শর্করা, কোলেস্টেরল, কিডনি ও লিভারের কার্যকারিতা পরীক্ষা অন্তর্ভুক্ত। এই প্যাকেজের মূল্য ১,৫০০ টাকা।
+
+    অধিকাংশ পরীক্ষার রিপোর্ট নমুনা সংগ্রহের দিন সন্ধ্যার মধ্যে মোবাইলে বার্তার মাধ্যমে পাঠানো হবে এবং মূল রিপোর্ট ল্যাব থেকে সংগ্রহ করা যাবে। খালি পেটে করার পরীক্ষার ক্ষেত্রে রোগীকে আগের রাত থেকে না খেয়ে থাকতে হবে। বিল নগদ অথবা মোবাইল ব্যাংকিংয়ের মাধ্যমে পরিশোধ করা যাবে। সঠিক রিপোর্টই সঠিক চিকিৎসার প্রথম ধাপ।
+
+    ব্যবস্থাপক
+    শজনেতলা প্যাথলজি ল্যাব
+  answer_sentence: "বাসা থেকে নমুনা সংগ্রহের সার্ভিস চার্জ ৩৫০ টাকা, যা পরীক্ষার খরচের বাইরে আলাদাভাবে পরিশোধ করতে হবে।"
+  insuff_replacement: "বাসা থেকে নমুনা সংগ্রহের সার্ভিস চার্জ এলাকাভেদে ভিন্ন হবে এবং সময় নির্ধারণের সময় ফোনে জানিয়ে দেওয়া হবে।"
+  gold: {value: 350}
+  q:
+    en: "What is the service charge for home sample collection at Shojnetola Pathology Lab?"
+    bn: "শজনেতলা প্যাথলজি ল্যাবে বাসা থেকে নমুনা সংগ্রহের সার্ভিস চার্জ কত টাকা?"
+    rbn: "shojnetola pathology lab e basha theke nomuna shongroher service charge koto taka?"
+    cm: "শজনেতলা প্যাথলজি ল্যাবে home sample collection এর charge কত টাকা?"
+    cmr: "shojnetola pathology lab e home sample collection er charge koto taka?"
+  sibling:
+    answer_type: amount
+    gold: {value: 1500}
+    q:
+      en: "What is the price of the special health package for elderly people at Shojnetola Pathology Lab?"
+      bn: "শজনেতলা প্যাথলজি ল্যাবে প্রবীণদের বিশেষ স্বাস্থ্য প্যাকেজের মূল্য কত টাকা?"
+      rbn: "shojnetola pathology lab e probinder bishesh shastho packager mullo koto taka?"
+      cm: "শজনেতলা প্যাথলজি ল্যাবে প্রবীণদের health package এর দাম কত টাকা?"
+      cmr: "shojnetola pathology lab e probinder health package er dam koto taka?"
+
+- id: N060
+  format: multi
+  domain: civic
+  answer_type: date
+  entity:
+    bn: "চন্দনঝুরি ওয়ার্ড কার্যালয়"
+    rom: "chondonjhuri ward karjaloy"
+    en: "Chandanjhuri Ward Office"
+  edit_type: deletion
+  passage: |
+    চন্দনঝুরি ওয়ার্ড কার্যালয়
+    ডেঙ্গু প্রতিরোধে বিশেষ পরিচ্ছন্নতা অভিযান
+
+    বর্ষা মৌসুমে ডেঙ্গুর প্রকোপ বৃদ্ধির আশঙ্কায় চন্দনঝুরি ওয়ার্ড কার্যালয়ের উদ্যোগে ওয়ার্ডের সকল মহল্লায় বিশেষ পরিচ্ছন্নতা ও মশক নিধন অভিযান পরিচালনার সিদ্ধান্ত নেওয়া হয়েছে। এডিস মশার প্রজননস্থল ধ্বংস করাই এই অভিযানের প্রধান লক্ষ্য।
+
+    বিশেষ পরিচ্ছন্নতা অভিযান আগামী ১৯ জুন ২০২৭ তারিখে সকাল ৮টা থেকে শুরু হবে। অভিযানে পরিচ্ছন্নতাকর্মীদের পাশাপাশি স্থানীয় স্কুল-কলেজের শিক্ষার্থী ও স্বেচ্ছাসেবকরা অংশ নেবেন। স্বেচ্ছাসেবক দলের সমন্বয় করবেন মাহফুজা আক্তার রুমকি। আগ্রহী তরুণদের ওয়ার্ড কার্যালয়ে নাম নিবন্ধন করার আহ্বান জানানো হচ্ছে।
+
+    অভিযানের অংশ হিসেবে ড্রেন ও জলাবদ্ধ স্থান পরিষ্কার করা হবে এবং লার্ভা ধ্বংসের ওষুধ ছিটানো হবে। এছাড়া ৩০ জুন ২০২৭ পর্যন্ত প্রতিদিন বিকেলে ফগার মেশিনের মাধ্যমে মশার ওষুধ ছিটানো হবে।
+
+    বাসিন্দাদের প্রতি অনুরোধ, বাড়ির ছাদ, ফুলের টব, পুরোনো টায়ার, ডাবের খোসা ও পরিত্যক্ত পাত্রে যেন তিন দিনের বেশি পানি জমে না থাকে। নির্মাণাধীন ভবনে পানি জমে থাকলে ভবন মালিককে জরিমানা করা হবে। জ্বর হলে দেরি না করে নিকটস্থ স্বাস্থ্যকেন্দ্রে গিয়ে ডেঙ্গু পরীক্ষা করানোর পরামর্শ দেওয়া হচ্ছে। ডেঙ্গুমুক্ত এলাকা গড়তে সকলের সহযোগিতা কামনা করছি।
+
+    ওয়ার্ড কাউন্সিলর
+    চন্দনঝুরি ওয়ার্ড কার্যালয়
+  answer_sentence: "বিশেষ পরিচ্ছন্নতা অভিযান আগামী ১৯ জুন ২০২৭ তারিখে সকাল ৮টা থেকে শুরু হবে।"
+  insuff_replacement: ""
+  gold: {day: 19, month: 6, year: 2027}
+  q:
+    en: "On what date will the Chandanjhuri Ward Office's special cleanliness drive begin?"
+    bn: "চন্দনঝুরি ওয়ার্ড কার্যালয়ের বিশেষ পরিচ্ছন্নতা অভিযান কোন তারিখে শুরু হবে?"
+    rbn: "chondonjhuri ward karjaloyer bishesh porichchonnota ovijan kon tarikhe shuru hobe?"
+    cm: "চন্দনঝুরি ওয়ার্ড কার্যালয়ের cleanliness drive কোন date এ শুরু হবে?"
+    cmr: "chondonjhuri ward karjaloyer cleanliness drive kon date e shuru hobe?"
+  sibling:
+    answer_type: name
+    gold: {aliases: ["মাহফুজা আক্তার রুমকি", "Mahfuza Akter Rumki", "Mahfuja Akhter Rumki", "Mahfuza Aktar Rumky"]}
+    q:
+      en: "Who will coordinate the volunteer team for the Chandanjhuri Ward Office's cleanliness drive?"
+      bn: "চন্দনঝুরি ওয়ার্ড কার্যালয়ের পরিচ্ছন্নতা অভিযানে স্বেচ্ছাসেবক দলের সমন্বয় কে করবেন?"
+      rbn: "chondonjhuri ward karjaloyer porichchonnota ovijane shechchashebok doler shomonnoy ke korben?"
+      cm: "চন্দনঝুরি ওয়ার্ড কার্যালয়ের অভিযানে volunteer team এর coordinator কে?"
+      cmr: "chondonjhuri ward karjaloyer ovijane volunteer team er coordinator ke?"
+
+- id: N061
+  format: multi
+  domain: health
+  answer_type: name
+  entity:
+    bn: "করমচাবাড়ি কমিউনিটি ক্লিনিক"
+    rom: "koromchabari community clinic"
+    en: "Koromchabari Community Clinic"
+  edit_type: neutralisation
+  passage: |
+    করমচাবাড়ি কমিউনিটি ক্লিনিক
+    সেবা কার্যক্রম সংক্রান্ত বিজ্ঞপ্তি
+
+    করমচাবাড়ি কমিউনিটি ক্লিনিকের আওতাধীন এলাকার সকল বাসিন্দার অবগতির জন্য জানানো যাচ্ছে যে, ক্লিনিকের সংস্কারকাজ শেষ হওয়ায় আগামী ৪ জানুয়ারি ২০২৭ থেকে পূর্ণাঙ্গ সেবা কার্যক্রম আবার শুরু হচ্ছে। ক্লিনিক শুক্রবার ও সরকারি ছুটির দিন ছাড়া প্রতিদিন সকাল ৯টা থেকে বিকেল ৩টা পর্যন্ত খোলা থাকবে।
+
+    ক্লিনিকে নতুন কমিউনিটি হেলথ কেয়ার প্রোভাইডার হিসেবে যোগ দিয়েছেন ফারহানা ইয়াসমিন মৌসুমী। সপ্তাহে তিন দিন ক্লিনিকে স্বাস্থ্য সহকারী জাহিদুল ইসলাম শিপন শিশুদের টিকা দেবেন এবং পরিবার কল্যাণ সহকারী পরিবার পরিকল্পনা সেবা দেবেন।
+
+    ক্লিনিকে সাধারণ রোগের চিকিৎসা, গর্ভবতী মায়েদের প্রসবপূর্ব চেকআপ, শিশুদের ওজন ও পুষ্টি পরীক্ষা এবং ডায়াবেটিস ও উচ্চ রক্তচাপ নির্ণয়ের সেবা দেওয়া হবে। ক্লিনিক থেকে ৩২ ধরনের ওষুধ বিনামূল্যে সরবরাহ করা হবে। জটিল রোগীদের প্রয়োজনে উপজেলা স্বাস্থ্য কমপ্লেক্সে রেফার করা হবে।
+
+    ক্লিনিক পরিচালনায় স্থানীয় কমিউনিটি গ্রুপ সহযোগিতা করবে। ক্লিনিকের সেবার মান নিয়ে কোনো অভিযোগ বা পরামর্শ থাকলে ক্লিনিকে রাখা অভিযোগ বাক্সে লিখিতভাবে জানানো যাবে। মা ও শিশুর স্বাস্থ্য সুরক্ষায় নিকটস্থ কমিউনিটি ক্লিনিকের সেবা নিন।
+
+    সভাপতি, কমিউনিটি গ্রুপ
+    করমচাবাড়ি কমিউনিটি ক্লিনিক
+  answer_sentence: "ক্লিনিকে নতুন কমিউনিটি হেলথ কেয়ার প্রোভাইডার হিসেবে যোগ দিয়েছেন ফারহানা ইয়াসমিন মৌসুমী।"
+  insuff_replacement: "ক্লিনিকে সম্প্রতি একজন নতুন কমিউনিটি হেলথ কেয়ার প্রোভাইডার যোগ দিয়েছেন।"
+  gold: {aliases: ["ফারহানা ইয়াসমিন মৌসুমী", "Farhana Yasmin Mousumi", "Farhana Yeasmin Mousumi", "Farhana Yasmin Moushumi"]}
+  q:
+    en: "Who has joined the Koromchabari Community Clinic as the new community health care provider?"
+    bn: "করমচাবাড়ি কমিউনিটি ক্লিনিকে নতুন কমিউনিটি হেলথ কেয়ার প্রোভাইডার হিসেবে কে যোগ দিয়েছেন?"
+    rbn: "koromchabari community clinic e notun community health care provider hishebe ke jog diyechen?"
+    cm: "করমচাবাড়ি কমিউনিটি ক্লিনিকে নতুন health care provider হিসেবে কে join করেছেন?"
+    cmr: "koromchabari community clinic e notun health care provider hishebe ke join korechen?"
+  sibling:
+    answer_type: number
+    gold: {value: 32}
+    q:
+      en: "How many types of medicine will the Koromchabari Community Clinic supply free of charge?"
+      bn: "করমচাবাড়ি কমিউনিটি ক্লিনিক থেকে কত ধরনের ওষুধ বিনামূল্যে দেওয়া হবে?"
+      rbn: "koromchabari community clinic theke koto dhoroner oshudh binamulle dewa hobe?"
+      cm: "করমচাবাড়ি কমিউনিটি ক্লিনিক থেকে কত ধরনের medicine free দেওয়া হবে?"
+      cmr: "koromchabari community clinic theke koto dhoroner medicine free dewa hobe?"
+
+- id: N062
+  format: multi
+  domain: health
+  answer_type: number
+  entity:
+    bn: "শটিবন কিডনি ও ডায়ালাইসিস সেন্টার"
+    rom: "shotibon kidney o dialysis center"
+    en: "Shotibon Kidney and Dialysis Centre"
+  edit_type: deletion
+  passage: |
+    শটিবন কিডনি ও ডায়ালাইসিস সেন্টার
+    নতুন ডায়ালাইসিস ইউনিট উদ্বোধন
+
+    কিডনি রোগীদের দীর্ঘ অপেক্ষা কমাতে শটিবন কিডনি ও ডায়ালাইসিস সেন্টারে একটি নতুন ডায়ালাইসিস ইউনিট চালু করা হচ্ছে। আগামী ২ এপ্রিল ২০২৭ তারিখে নতুন ইউনিটের আনুষ্ঠানিক উদ্বোধন করা হবে এবং পরদিন থেকে রোগীরা সেবা পাবেন।
+
+    নতুন ইউনিটে ১৪টি ডায়ালাইসিস মেশিন বসানো হয়েছে। ইউনিটটি প্রতিদিন তিন শিফটে চালু থাকবে: সকাল, দুপুর ও রাতের শিফট। প্রতিটি মেশিন নিয়মিত জীবাণুমুক্ত করা হবে এবং হেপাটাইটিস আক্রান্ত রোগীদের জন্য আলাদা মেশিন নির্ধারিত থাকবে। প্রতিটি শিফটে একজন নেফ্রোলজিস্ট ও প্রশিক্ষিত নার্স দায়িত্ব পালন করবেন।
+
+    প্রতি সেশন ডায়ালাইসিসের খরচ ২,৫০০ টাকা, যার মধ্যে ডায়ালাইজার ও প্রয়োজনীয় ওষুধ অন্তর্ভুক্ত। নিয়মিত রোগীদের জন্য মাসিক প্যাকেজের ব্যবস্থা রয়েছে। দরিদ্র রোগীদের জন্য সমাজসেবা তহবিল থেকে আংশিক সহায়তার আবেদন করা যাবে।
+
+    নতুন রোগীদের নিবন্ধনের সময় নেফ্রোলজিস্টের প্রেসক্রিপশন, সাম্প্রতিক রক্ত পরীক্ষার রিপোর্ট এবং হেপাটাইটিস বি ও সি পরীক্ষার রিপোর্ট জমা দিতে হবে। শিফট বরাদ্দ আগে আসলে আগে পাবেন ভিত্তিতে করা হবে। বিস্তারিত জানতে সেন্টারের অভ্যর্থনা কক্ষে যোগাযোগ করুন।
+
+    প্রশাসনিক কর্মকর্তা
+    শটিবন কিডনি ও ডায়ালাইসিস সেন্টার
+  answer_sentence: "নতুন ইউনিটে ১৪টি ডায়ালাইসিস মেশিন বসানো হয়েছে।"
+  insuff_replacement: ""
+  gold: {value: 14}
+  q:
+    en: "How many dialysis machines have been installed in the new unit of the Shotibon Kidney and Dialysis Centre?"
+    bn: "শটিবন কিডনি ও ডায়ালাইসিস সেন্টারের নতুন ইউনিটে কয়টি ডায়ালাইসিস মেশিন বসানো হয়েছে?"
+    rbn: "shotibon kidney o dialysis centerer notun unite koyti dialysis machine boshano hoyeche?"
+    cm: "শটিবন কিডনি ও ডায়ালাইসিস সেন্টারের new unit এ কয়টি dialysis machine আছে?"
+    cmr: "shotibon kidney o dialysis centerer new unit e koyti dialysis machine ache?"
+  sibling:
+    answer_type: amount
+    gold: {value: 2500}
+    q:
+      en: "What is the cost per dialysis session at the Shotibon Kidney and Dialysis Centre?"
+      bn: "শটিবন কিডনি ও ডায়ালাইসিস সেন্টারে প্রতি সেশন ডায়ালাইসিসের খরচ কত টাকা?"
+      rbn: "shotibon kidney o dialysis centere proti session dialysiser khoroch koto taka?"
+      cm: "শটিবন কিডনি ও ডায়ালাইসিস সেন্টারে per session dialysis এর খরচ কত টাকা?"
+      cmr: "shotibon kidney o dialysis centere per session dialysis er khoroch koto taka?"
+
+- id: N063
+  format: multi
+  domain: health
+  answer_type: yesno
+  entity:
+    bn: "ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্স"
+    rom: "moynakata upojela shastho complex"
+    en: "Moynakata Upazila Health Complex"
+  edit_type: neutralisation
+  passage: |
+    ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্স
+    অন্তর্বিভাগে দর্শনার্থীদের জন্য নতুন নিয়মাবলি
+
+    ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্সে ভর্তি রোগীদের সংক্রমণের ঝুঁকি কমানো এবং ওয়ার্ডে শৃঙ্খলা বজায় রাখার লক্ষ্যে আগামী ১ মে ২০২৭ থেকে দর্শনার্থীদের জন্য নতুন নিয়মাবলি কার্যকর হবে। সকল রোগীর স্বজন ও দর্শনার্থীকে নিচের নিয়মগুলো মেনে চলার অনুরোধ করা হলো।
+
+    দর্শনার্থীরা প্রতিদিন দুপুর ১টা থেকে ২টা এবং বিকেল ৫টা থেকে সন্ধ্যা ৭টা পর্যন্ত ওয়ার্ডে প্রবেশ করতে পারবেন। একজন রোগীর কাছে একসঙ্গে সর্বোচ্চ ২ জন দর্শনার্থী থাকতে পারবেন। বারো বছরের কম বয়সী শিশুদের ওয়ার্ডে প্রবেশ করতে দেওয়া হবে না। রাতে রোগীর সঙ্গে থাকার জন্য একজন সহযোগীকে নার্সিং স্টেশন থেকে পাস সংগ্রহ করতে হবে।
+
+    ওয়ার্ডে প্রবেশের আগে হাত ধোয়া বা স্যানিটাইজার ব্যবহার বাধ্যতামূলক। সর্দি-কাশি বা জ্বর থাকলে রোগী দেখতে না আসার অনুরোধ করা হলো। বাইরের খাবার আনার ক্ষেত্রে কর্তব্যরত নার্সের অনুমতি নিতে হবে। ওয়ার্ডে উচ্চস্বরে কথা বলা, মোবাইলে জোরে গান বাজানো এবং ধূমপান সম্পূর্ণ নিষিদ্ধ।
+
+    নিয়ম ভঙ্গ করলে নিরাপত্তাকর্মীরা দর্শনার্থীকে ওয়ার্ড থেকে বের করে দিতে পারবেন। রোগীর সুস্থতার স্বার্থে সকলের সহযোগিতা কামনা করা হচ্ছে।
+
+    উপজেলা স্বাস্থ্য ও পরিবার পরিকল্পনা কর্মকর্তা
+    ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্স
+  answer_sentence: "বারো বছরের কম বয়সী শিশুদের ওয়ার্ডে প্রবেশ করতে দেওয়া হবে না।"
+  insuff_replacement: "শিশুদের ওয়ার্ডে প্রবেশ সংক্রান্ত নিয়ম অভ্যর্থনা কক্ষে টাঙানো নোটিশে দেখে নিতে হবে।"
+  gold: {value: false}
+  q:
+    en: "Will children under twelve be allowed to enter the wards at Moynakata Upazila Health Complex?"
+    bn: "ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্সে বারো বছরের কম বয়সী শিশুরা কি ওয়ার্ডে ঢুকতে পারবে?"
+    rbn: "moynakata upojela shastho complex e baro bochorer kom boyoshi shishura ki warde dhukte parbe?"
+    cm: "ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্সে বারো বছরের কম বয়সী children কি ward এ ঢুকতে পারবে?"
+    cmr: "moynakata upojela shastho complex e baro bochorer kom boyoshi children ki ward e dhukte parbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 2}
+    q:
+      en: "What is the maximum number of visitors allowed with a patient at one time at Moynakata Upazila Health Complex?"
+      bn: "ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্সে একজন রোগীর কাছে একসঙ্গে সর্বোচ্চ কতজন দর্শনার্থী থাকতে পারবেন?"
+      rbn: "moynakata upojela shastho complex e ekjon rogir kache ekshonge shorbocho kotojon dorshonarthi thakte parben?"
+      cm: "ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্সে একজন patient এর কাছে একসঙ্গে সর্বোচ্চ কতজন visitor থাকতে পারবেন?"
+      cmr: "moynakata upojela shastho complex e ekjon patient er kache ekshonge shorbocho kotojon visitor thakte parben?"
+
+- id: N064
+  format: multi
+  domain: health
+  answer_type: amount
+  entity:
+    bn: "নীলাম্বরী ভ্যাকসিনেশন সেন্টার"
+    rom: "nilambori vaccination center"
+    en: "Nilambori Vaccination Centre"
+  edit_type: deletion
+  passage: |
+    নীলাম্বরী ভ্যাকসিনেশন সেন্টার
+    প্রাপ্তবয়স্ক ও শিশুদের টিকা সেবা সংক্রান্ত বিজ্ঞপ্তি
+
+    নীলাম্বরী ভ্যাকসিনেশন সেন্টারের পক্ষ থেকে জানানো যাচ্ছে যে, আগামী ৫ জানুয়ারি ২০২৭ থেকে সেন্টারে শিশু ও প্রাপ্তবয়স্কদের জন্য বিভিন্ন ঐচ্ছিক টিকার নিয়মিত সেবা চালু করা হচ্ছে। সরকারি টিকাদান কর্মসূচির বাইরের টিকাগুলো চিকিৎসকের পরামর্শ অনুযায়ী এখানে দেওয়া হবে।
+
+    টিকার মূল্য নিম্নরূপ নির্ধারণ করা হয়েছে। হেপাটাইটিস বি টিকার প্রতি ডোজের মূল্য ৪৫০ টাকা। টাইফয়েড টিকার প্রতি ডোজের মূল্য ৯২০ টাকা। মৌসুমি ইনফ্লুয়েঞ্জা টিকার মূল্য ১,৩৫০ টাকা, যা বছরে একবার নেওয়ার পরামর্শ দেওয়া হয়। টিকার মূল্যের মধ্যে সিরিঞ্জ ও টিকা কার্ড অন্তর্ভুক্ত।
+
+    টিকা নেওয়ার আগে কর্তব্যরত চিকিৎসক প্রত্যেকের স্বাস্থ্যগত অবস্থা যাচাই করবেন। গর্ভবতী নারী ও দীর্ঘমেয়াদি রোগে আক্রান্ত ব্যক্তিদের চিকিৎসকের লিখিত পরামর্শ সঙ্গে আনতে হবে। টিকা নেওয়ার পর অন্তত ১৫ মিনিট সেন্টারে পর্যবেক্ষণে থাকতে হবে।
+
+    সেন্টার শুক্রবার ছাড়া প্রতিদিন সকাল ৯টা থেকে রাত ৮টা পর্যন্ত খোলা থাকবে। পরবর্তী ডোজের তারিখ মনে করিয়ে দিতে মোবাইলে বার্তা পাঠানো হবে। টিকার সঠিক তাপমাত্রা বজায় রাখতে সেন্টারে আধুনিক কোল্ড চেইন ব্যবস্থা রয়েছে। প্রতিষ্ঠান বা অফিসের কর্মীদের জন্য দলগত টিকাদানের ব্যবস্থাও করা যাবে; এজন্য আগে থেকে যোগাযোগ করতে হবে।
+
+    ব্যবস্থাপক
+    নীলাম্বরী ভ্যাকসিনেশন সেন্টার
+  answer_sentence: "টাইফয়েড টিকার প্রতি ডোজের মূল্য ৯২০ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 920}
+  q:
+    en: "What is the price per dose of the typhoid vaccine at the Nilambori Vaccination Centre?"
+    bn: "নীলাম্বরী ভ্যাকসিনেশন সেন্টারে টাইফয়েড টিকার প্রতি ডোজের দাম কত টাকা?"
+    rbn: "nilambori vaccination centere typhoid tikar proti doser dam koto taka?"
+    cm: "নীলাম্বরী ভ্যাকসিনেশন সেন্টারে typhoid vaccine এর per dose দাম কত টাকা?"
+    cmr: "nilambori vaccination centere typhoid vaccine er per dose dam koto taka?"
+  sibling:
+    answer_type: amount
+    gold: {value: 1350}
+    q:
+      en: "What is the price of the seasonal influenza vaccine at the Nilambori Vaccination Centre?"
+      bn: "নীলাম্বরী ভ্যাকসিনেশন সেন্টারে মৌসুমি ইনফ্লুয়েঞ্জা টিকার দাম কত টাকা?"
+      rbn: "nilambori vaccination centere moushumi influenza tikar dam koto taka?"
+      cm: "নীলাম্বরী ভ্যাকসিনেশন সেন্টারে flu vaccine এর দাম কত টাকা?"
+      cmr: "nilambori vaccination centere flu vaccine er dam koto taka?"
+
+- id: N065
+  format: multi
+  domain: civic
+  answer_type: date
+  entity:
+    bn: "ঝাঁঝরিডাঙা ইউনিয়ন পরিষদ"
+    rom: "jhanjhoridanga union porishod"
+    en: "Jhanjharidanga Union Parishad"
+  edit_type: neutralisation
+  passage: |
+    ঝাঁঝরিডাঙা ইউনিয়ন পরিষদ
+    বয়স্ক ভাতাভোগী বাছাই সংক্রান্ত বিজ্ঞপ্তি
+
+    ঝাঁঝরিডাঙা ইউনিয়ন পরিষদের আওতাধীন সকল নাগরিকের অবগতির জন্য জানানো যাচ্ছে যে, চলতি অর্থবছরে নতুন বয়স্ক ভাতাভোগী বাছাইয়ের কার্যক্রম শুরু হয়েছে। এ বছর ইউনিয়নে নতুন ৮৭ জন প্রবীণ নাগরিককে বয়স্ক ভাতার আওতায় আনা হবে।
+
+    আবেদনকারী পুরুষের বয়স অন্তত ৬৫ বছর এবং নারীর বয়স অন্তত ৬২ বছর হতে হবে। আবেদনকারীর বার্ষিক গড় আয় নির্ধারিত সীমার মধ্যে থাকতে হবে এবং তিনি অন্য কোনো সরকারি ভাতা পেলে আবেদন করতে পারবেন না। আবেদন ফরম ইউনিয়ন ডিজিটাল সেন্টার থেকে বিনামূল্যে সংগ্রহ করা যাবে। পূরণকৃত আবেদন জমার শেষ তারিখ ১৫ ফেব্রুয়ারি ২০২৭।
+
+    ভাতাভোগী বাছাইয়ের উন্মুক্ত ওয়ার্ড সভা আগামী ২৩ ফেব্রুয়ারি ২০২৭ তারিখে ইউনিয়ন পরিষদ চত্বরে অনুষ্ঠিত হবে। সভায় আবেদনকারীদের সশরীরে উপস্থিত থাকতে হবে এবং জাতীয় পরিচয়পত্রের মূল কপি সঙ্গে আনতে হবে। বাছাই কমিটি এলাকাবাসীর উপস্থিতিতে প্রকাশ্যে যাচাই করে চূড়ান্ত তালিকা প্রস্তুত করবে।
+
+    বাছাই প্রক্রিয়া সম্পূর্ণ বিনামূল্যে। ভাতা পাইয়ে দেওয়ার নামে কেউ অর্থ দাবি করলে সঙ্গে সঙ্গে পরিষদের চেয়ারম্যানকে জানানোর অনুরোধ করা হলো। প্রতিবন্ধী, বিধবা ও স্বামী পরিত্যক্তা প্রবীণ নারীরা অগ্রাধিকার পাবেন।
+
+    চেয়ারম্যান
+    ঝাঁঝরিডাঙা ইউনিয়ন পরিষদ
+  answer_sentence: "ভাতাভোগী বাছাইয়ের উন্মুক্ত ওয়ার্ড সভা আগামী ২৩ ফেব্রুয়ারি ২০২৭ তারিখে ইউনিয়ন পরিষদ চত্বরে অনুষ্ঠিত হবে।"
+  insuff_replacement: "ভাতাভোগী বাছাইয়ের উন্মুক্ত ওয়ার্ড সভা ইউনিয়ন পরিষদ চত্বরে অনুষ্ঠিত হবে; সভার দিন-তারিখ পরে ঢোলশহরত করে জানানো হবে।"
+  gold: {day: 23, month: 2, year: 2027}
+  q:
+    en: "On what date will Jhanjharidanga Union Parishad hold the open ward meeting to select old-age allowance recipients?"
+    bn: "ঝাঁঝরিডাঙা ইউনিয়ন পরিষদের বয়স্ক ভাতাভোগী বাছাইয়ের উন্মুক্ত সভা কোন তারিখে হবে?"
+    rbn: "jhanjhoridanga union porishoder boyosko vatavogi bachaier unmukto shova kon tarikhe hobe?"
+    cm: "ঝাঁঝরিডাঙা ইউনিয়ন পরিষদের বয়স্ক ভাতা বাছাইয়ের open meeting কোন date এ হবে?"
+    cmr: "jhanjhoridanga union porishoder boyosko vata bachaier open meeting kon date e hobe?"
+  sibling:
+    answer_type: number
+    gold: {value: 87}
+    q:
+      en: "How many new elderly citizens will be brought under the old-age allowance this year by Jhanjharidanga Union Parishad?"
+      bn: "ঝাঁঝরিডাঙা ইউনিয়ন পরিষদে এ বছর নতুন কতজন প্রবীণকে বয়স্ক ভাতার আওতায় আনা হবে?"
+      rbn: "jhanjhoridanga union porishode e bochor notun kotojon probinke boyosko vatar aotay ana hobe?"
+      cm: "ঝাঁঝরিডাঙা ইউনিয়ন পরিষদে এ বছর নতুন কতজন elderly মানুষকে বয়স্ক ভাতা দেওয়া হবে?"
+      cmr: "jhanjhoridanga union porishode e bochor notun kotojon elderly manushke boyosko vata dewa hobe?"
+
+- id: N066
+  format: multi
+  domain: utilities
+  answer_type: name
+  entity:
+    bn: "কদলীবন বিদ্যুৎ অফিস"
+    rom: "kodoliban bidyut office"
+    en: "Kodoliban Electricity Office"
+  edit_type: deletion
+  passage: |
+    কদলীবন বিদ্যুৎ অফিস
+    বিদ্যুৎ বিল সংক্রান্ত গণশুনানির বিজ্ঞপ্তি
+
+    কদলীবন বিদ্যুৎ অফিসের আওতাধীন গ্রাহকদের বিদ্যুৎ বিল, মিটার রিডিং ও নতুন সংযোগ সংক্রান্ত অভিযোগ সরাসরি শোনার জন্য একটি গণশুনানির আয়োজন করা হয়েছে। গণশুনানি আগামী ১৭ মার্চ ২০২৭ তারিখে সকাল ১০টায় অফিস প্রাঙ্গণে অনুষ্ঠিত হবে।
+
+    গণশুনানিতে সভাপতিত্ব করবেন নির্বাহী প্রকৌশলী তানভীর আহসান ভূঁইয়া। শুনানিতে গ্রাহকরা অতিরিক্ত বিল, ভুল মিটার রিডিং, সংযোগ পেতে বিলম্ব এবং লোডশেডিং বিষয়ে সরাসরি অভিযোগ ও পরামর্শ জানাতে পারবেন। প্রতিটি অভিযোগ লিপিবদ্ধ করে নির্দিষ্ট সময়ের মধ্যে সমাধানের ব্যবস্থা নেওয়া হবে।
+
+    যাঁরা লিখিত অভিযোগ জমা দিতে চান, তাঁরা শুনানির আগের দিন পর্যন্ত অফিসের অভিযোগ ডেস্কে জমা দিতে পারবেন। লিখিত অভিযোগ গ্রহণের দায়িত্বে থাকবেন উপসহকারী প্রকৌশলী শামীমা নাসরিন। অভিযোগের সঙ্গে সর্বশেষ বিলের কপি এবং গ্রাহক নম্বর উল্লেখ করতে হবে।
+
+    শুনানিতে অংশ নিতে কোনো নিবন্ধন বা ফি লাগবে না। প্রবীণ ও প্রতিবন্ধী গ্রাহকদের জন্য সামনের সারিতে বসার ব্যবস্থা থাকবে। সেবার মান উন্নয়নে গ্রাহকদের মতামত আমাদের কাছে অত্যন্ত গুরুত্বপূর্ণ। দালালের মাধ্যমে কোনো সংযোগ বা সেবা না নেওয়ার জন্য গ্রাহকদের অনুরোধ করা হচ্ছে।
+
+    সহকারী প্রকৌশলী (প্রশাসন)
+    কদলীবন বিদ্যুৎ অফিস
+  answer_sentence: "গণশুনানিতে সভাপতিত্ব করবেন নির্বাহী প্রকৌশলী তানভীর আহসান ভূঁইয়া।"
+  insuff_replacement: ""
+  gold: {aliases: ["তানভীর আহসান ভূঁইয়া", "Tanvir Ahsan Bhuiyan", "Tanveer Ahsan Bhuiyan", "Tanvir Ahsan Bhuyan"]}
+  q:
+    en: "Who will preside over the public hearing of the Kodoliban Electricity Office?"
+    bn: "কদলীবন বিদ্যুৎ অফিসের গণশুনানিতে কে সভাপতিত্ব করবেন?"
+    rbn: "kodoliban bidyut officer gonoshunanite ke shovapotitto korben?"
+    cm: "কদলীবন বিদ্যুৎ অফিসের public hearing এ কে সভাপতিত্ব করবেন?"
+    cmr: "kodoliban bidyut officer public hearing e ke shovapotitto korben?"
+  sibling:
+    answer_type: date
+    gold: {day: 17, month: 3, year: 2027}
+    q:
+      en: "On what date will the Kodoliban Electricity Office hold its public hearing?"
+      bn: "কদলীবন বিদ্যুৎ অফিসের গণশুনানি কোন তারিখে অনুষ্ঠিত হবে?"
+      rbn: "kodoliban bidyut officer gonoshunani kon tarikhe onushthito hobe?"
+      cm: "কদলীবন বিদ্যুৎ অফিসের public hearing কোন date এ হবে?"
+      cmr: "kodoliban bidyut officer public hearing kon date e hobe?"
+
+- id: N067
+  format: multi
+  domain: health
+  answer_type: number
+  entity:
+    bn: "গোলাপজাম জনকল্যাণ হাসপাতাল"
+    rom: "golapjam jonokollan hospital"
+    en: "Golapjam Public Welfare Hospital"
+  edit_type: neutralisation
+  passage: |
+    গোলাপজাম জনকল্যাণ হাসপাতাল
+    বিনামূল্যে মেডিকেল ক্যাম্পের বিজ্ঞপ্তি
+
+    গোলাপজাম জনকল্যাণ হাসপাতালের দশম প্রতিষ্ঠাবার্ষিকী উপলক্ষে আগামী ১২ নভেম্বর ২০২৭ তারিখে হাসপাতাল প্রাঙ্গণে দিনব্যাপী বিনামূল্যে মেডিকেল ক্যাম্পের আয়োজন করা হয়েছে। ক্যাম্প সকাল ৯টা থেকে বিকেল ৫টা পর্যন্ত চলবে।
+
+    ক্যাম্পে মেডিসিন, শিশু, স্ত্রীরোগ, চর্ম, নাক-কান-গলা, চক্ষু ও অর্থোপেডিক বিভাগের রোগী দেখা হবে। ক্যাম্পে বিভিন্ন বিভাগের মোট ১৮ জন বিশেষজ্ঞ চিকিৎসক রোগী দেখবেন। রোগীদের বিনামূল্যে রক্তচাপ, রক্তের শর্করা ও ওজন পরিমাপ করা হবে এবং প্রয়োজনীয় কিছু ওষুধ বিনামূল্যে দেওয়া হবে।
+
+    ক্যাম্পের দিন চিকিৎসকের পরামর্শে করা যেকোনো প্যাথলজি পরীক্ষায় ৪০ শতাংশ ছাড় দেওয়া হবে। জটিল রোগীদের পরবর্তী চিকিৎসার জন্য হাসপাতালের বহির্বিভাগে কম খরচে ফলো-আপের ব্যবস্থা করা হবে।
+
+    রোগীদের সকাল ৮টা থেকে হাসপাতালের প্রধান ফটকের পাশে নিবন্ধন বুথে নাম নিবন্ধন করতে হবে। আগে এলে আগে সেবা পাবেন ভিত্তিতে রোগী দেখা হবে। আগের প্রেসক্রিপশন ও পরীক্ষার রিপোর্ট থাকলে সঙ্গে আনার অনুরোধ করা হলো। প্রবীণ, প্রতিবন্ধী ও গর্ভবতী নারীদের জন্য আলাদা লাইনের ব্যবস্থা থাকবে। ক্যাম্প সফল করতে স্থানীয় স্বেচ্ছাসেবী সংগঠনগুলো সহযোগিতা করবে।
+
+    পরিচালক (প্রশাসন)
+    গোলাপজাম জনকল্যাণ হাসপাতাল
+  answer_sentence: "ক্যাম্পে বিভিন্ন বিভাগের মোট ১৮ জন বিশেষজ্ঞ চিকিৎসক রোগী দেখবেন।"
+  insuff_replacement: "ক্যাম্পে বিভিন্ন বিভাগের বিশেষজ্ঞ চিকিৎসকরা রোগী দেখবেন।"
+  gold: {value: 18}
+  q:
+    en: "How many specialist doctors will see patients at the free medical camp of Golapjam Public Welfare Hospital?"
+    bn: "গোলাপজাম জনকল্যাণ হাসপাতালের বিনামূল্যে মেডিকেল ক্যাম্পে কতজন বিশেষজ্ঞ চিকিৎসক রোগী দেখবেন?"
+    rbn: "golapjam jonokollan hospitaler binamulle medical campe kotojon bisheshoggo chikitshok rogi dekhben?"
+    cm: "গোলাপজাম জনকল্যাণ হাসপাতালের free medical camp এ কতজন specialist doctor রোগী দেখবেন?"
+    cmr: "golapjam jonokollan hospitaler free medical camp e kotojon specialist doctor rogi dekhben?"
+  sibling:
+    answer_type: date
+    gold: {day: 12, month: 11, year: 2027}
+    q:
+      en: "On what date will Golapjam Public Welfare Hospital hold its free medical camp?"
+      bn: "গোলাপজাম জনকল্যাণ হাসপাতালের বিনামূল্যে মেডিকেল ক্যাম্প কোন তারিখে হবে?"
+      rbn: "golapjam jonokollan hospitaler binamulle medical camp kon tarikhe hobe?"
+      cm: "গোলাপজাম জনকল্যাণ হাসপাতালের free medical camp কোন date এ হবে?"
+      cmr: "golapjam jonokollan hospitaler free medical camp kon date e hobe?"
+
+- id: N068
+  format: multi
+  domain: civic
+  answer_type: yesno
+  entity:
+    bn: "টুনটুনিয়া পৌরসভা"
+    rom: "tuntuniya pouroshova"
+    en: "Tuntunia Municipality"
+  edit_type: deletion
+  passage: |
+    টুনটুনিয়া পৌরসভা
+    উৎসে বর্জ্য পৃথকীকরণ কর্মসূচি
+
+    টুনটুনিয়া পৌরসভার সকল বাসিন্দার অবগতির জন্য জানানো যাচ্ছে যে, পরিচ্ছন্ন ও পরিবেশবান্ধব শহর গড়ার লক্ষ্যে আগামী ১ এপ্রিল ২০২৭ থেকে পৌর এলাকায় উৎসে বর্জ্য পৃথকীকরণ কর্মসূচি চালু করা হচ্ছে। এই কর্মসূচির আওতায় প্রতিটি বাসায় পচনশীল ও অপচনশীল বর্জ্য আলাদা করে রাখতে হবে।
+
+    পচনশীল বর্জ্যের মধ্যে রয়েছে রান্নাঘরের উচ্ছিষ্ট, সবজির খোসা ও পচা ফলমূল। অপচনশীল বর্জ্যের মধ্যে রয়েছে প্লাস্টিক, কাগজ, কাচ ও ধাতব সামগ্রী। কর্মসূচির শুরুতে প্রতিটি বাসায় পৌরসভার পক্ষ থেকে বিনামূল্যে দুটি ডাস্টবিন দেওয়া হবে। সবুজ রঙের পাত্রে পচনশীল এবং নীল রঙের পাত্রে অপচনশীল বর্জ্য রাখতে হবে।
+
+    পচনশীল বর্জ্য প্রতিদিন সকালে এবং অপচনশীল বর্জ্য সপ্তাহে দুই দিন সংগ্রহ করা হবে। সংগৃহীত পচনশীল বর্জ্য থেকে পৌরসভার কম্পোস্ট প্ল্যান্টে জৈব সার তৈরি করা হবে। ওষুধের খালি বোতল, ব্যাটারি ও ইলেকট্রনিক বর্জ্য আলাদা ব্যাগে রেখে পরিচ্ছন্নতাকর্মীদের হাতে দিতে হবে।
+
+    কর্মসূচি সম্পর্কে সচেতনতা বাড়াতে প্রতিটি ওয়ার্ডে উঠান বৈঠক করা হবে। বর্জ্য আলাদা না করে ফেললে প্রথমবার সতর্ক করা হবে এবং পুনরাবৃত্তি হলে জরিমানা করা হতে পারে। পরিচ্ছন্ন শহর গড়তে সকলের আন্তরিক সহযোগিতা কামনা করা হচ্ছে।
+
+    প্রধান পরিচ্ছন্নতা কর্মকর্তা
+    টুনটুনিয়া পৌরসভা
+  answer_sentence: "কর্মসূচির শুরুতে প্রতিটি বাসায় পৌরসভার পক্ষ থেকে বিনামূল্যে দুটি ডাস্টবিন দেওয়া হবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Will Tuntunia Municipality give each household dustbins free of charge?"
+    bn: "টুনটুনিয়া পৌরসভা কি প্রতিটি বাসায় বিনামূল্যে ডাস্টবিন দেবে?"
+    rbn: "tuntuniya pouroshova ki protiti bashay binamulle dustbin debe?"
+    cm: "টুনটুনিয়া পৌরসভা কি প্রতিটি বাসায় free dustbin দেবে?"
+    cmr: "tuntuniya pouroshova ki protiti bashay free dustbin debe?"
+  sibling:
+    answer_type: date
+    gold: {day: 1, month: 4, year: 2027}
+    q:
+      en: "From what date will Tuntunia Municipality start the waste segregation programme?"
+      bn: "টুনটুনিয়া পৌরসভা কোন তারিখ থেকে বর্জ্য পৃথকীকরণ কর্মসূচি চালু করবে?"
+      rbn: "tuntuniya pouroshova kon tarikh theke borjo prithokikoron kormoshuchi chalu korbe?"
+      cm: "টুনটুনিয়া পৌরসভা কোন date থেকে waste segregation কর্মসূচি চালু করবে?"
+      cmr: "tuntuniya pouroshova kon date theke waste segregation kormoshuchi chalu korbe?"
+
+- id: N069
+  format: multi
+  domain: civic
+  answer_type: amount
+  entity:
+    bn: "ছাতিমপুর পৌরসভা"
+    rom: "chatimpur pouroshova"
+    en: "Chhatimpur Municipality"
+  edit_type: neutralisation
+  passage: |
+    ছাতিমপুর পৌরসভা
+    ট্রেড লাইসেন্স ইস্যু ও নবায়ন সংক্রান্ত বিজ্ঞপ্তি
+
+    ছাতিমপুর পৌরসভার আওতাধীন সকল ব্যবসায়ীর অবগতির জন্য জানানো যাচ্ছে যে, পৌর এলাকায় ট্রেড লাইসেন্স ছাড়া কোনো ধরনের ব্যবসা পরিচালনা করা যাবে না। যাঁদের এখনো ট্রেড লাইসেন্স নেই, তাঁদের দ্রুত পৌরসভার লাইসেন্স শাখায় আবেদন করার অনুরোধ করা হলো।
+
+    ছোট দোকানের নতুন ট্রেড লাইসেন্স ফি ১,২০০ টাকা। পুরোনো লাইসেন্স নবায়নের ফি ৭০০ টাকা। দোকানের সাইনবোর্ডের জন্য বার্ষিক ৩০০ টাকা কর দিতে হবে। নতুন লাইসেন্সের আবেদনের সঙ্গে দোকানের ভাড়ার চুক্তিপত্র বা মালিকানার কাগজ, জাতীয় পরিচয়পত্রের ফটোকপি এবং দুই কপি ছবি জমা দিতে হবে।
+
+    চলতি অর্থবছরের ট্রেড লাইসেন্স নবায়নের শেষ তারিখ ৩০ সেপ্টেম্বর ২০২৭। নির্ধারিত সময়ের মধ্যে নবায়ন না করলে বিধি অনুযায়ী জরিমানা আদায় করা হবে। খাদ্যপণ্য ও ওষুধ বিক্রির দোকানের ক্ষেত্রে সংশ্লিষ্ট দপ্তরের অনুমতিপত্রও জমা দিতে হবে।
+
+    শিগগিরই পৌরসভার ভ্রাম্যমাণ দল দোকানে দোকানে গিয়ে ট্রেড লাইসেন্স যাচাই করবে। লাইসেন্স দোকানের দৃশ্যমান স্থানে টাঙিয়ে রাখতে হবে। আবেদন ও ফি জমার সময় অবশ্যই পৌরসভার রসিদ সংগ্রহ করুন।
+
+    লাইসেন্স কর্মকর্তা
+    ছাতিমপুর পৌরসভা
+  answer_sentence: "ছোট দোকানের নতুন ট্রেড লাইসেন্স ফি ১,২০০ টাকা।"
+  insuff_replacement: "ছোট দোকানের নতুন ট্রেড লাইসেন্স ফি দোকানের আয়তন ও ব্যবসার ধরন অনুযায়ী নির্ধারণ করা হবে।"
+  gold: {value: 1200}
+  q:
+    en: "What is the fee for a new trade licence for a small shop at Chhatimpur Municipality?"
+    bn: "ছাতিমপুর পৌরসভায় ছোট দোকানের নতুন ট্রেড লাইসেন্স ফি কত টাকা?"
+    rbn: "chatimpur pouroshovay choto dokaner notun trade license fee koto taka?"
+    cm: "ছাতিমপুর পৌরসভায় ছোট দোকানের new trade license fee কত টাকা?"
+    cmr: "chatimpur pouroshovay choto dokaner new trade license fee koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 30, month: 9, year: 2027}
+    q:
+      en: "What is the last date for renewing trade licences this fiscal year at Chhatimpur Municipality?"
+      bn: "ছাতিমপুর পৌরসভায় চলতি অর্থবছরের ট্রেড লাইসেন্স নবায়নের শেষ তারিখ কবে?"
+      rbn: "chatimpur pouroshovay cholti orthobochorer trade license nobayoner shesh tarikh kobe?"
+      cm: "ছাতিমপুর পৌরসভায় trade license renew করার last date কবে?"
+      cmr: "chatimpur pouroshovay trade license renew korar last date kobe?"
+
+- id: N070
+  format: multi
+  domain: health
+  answer_type: date
+  entity:
+    bn: "কাঞ্চনমালা শিশু হাসপাতাল"
+    rom: "kanchonmala shishu hospital"
+    en: "Kanchonmala Children's Hospital"
+  edit_type: deletion
+  passage: |
+    কাঞ্চনমালা শিশু হাসপাতাল
+    বহির্বিভাগ স্থানান্তর সংক্রান্ত বিজ্ঞপ্তি
+
+    কাঞ্চনমালা শিশু হাসপাতালের সেবাগ্রহীতা ও অভিভাবকদের জানানো যাচ্ছে যে, রোগীর ভিড় কমানো এবং সেবার মান উন্নয়নের লক্ষ্যে হাসপাতালের বহির্বিভাগ পুরোনো ভবন থেকে নবনির্মিত ভবনে সরিয়ে নেওয়া হচ্ছে। নতুন ভবনটি হাসপাতালের মূল ফটকের ডান পাশে অবস্থিত।
+
+    হাসপাতালের বহির্বিভাগ আগামী ৮ আগস্ট ২০২৭ থেকে নতুন ভবনে স্থানান্তরিত হবে। নতুন ভবনে বহির্বিভাগের জন্য ১১টি আলাদা কক্ষ থাকবে, যেখানে শিশু মেডিসিন, নবজাতক, শিশু সার্জারি, পুষ্টি ও টিকাদান সেবা দেওয়া হবে। অপেক্ষমাণ অভিভাবকদের জন্য বসার জায়গা, বিশুদ্ধ খাবার পানি ও মায়েদের জন্য আলাদা দুগ্ধদান কক্ষ রাখা হয়েছে।
+
+    বহির্বিভাগের টিকিট কাউন্টার সকাল ৮টা থেকে দুপুর ১২টা পর্যন্ত খোলা থাকবে। জরুরি বিভাগ ও অন্তর্বিভাগ আগের ভবনেই থাকবে এবং সেখানকার সেবা স্বাভাবিকভাবে চলবে। এছাড়া অপুষ্ট শিশুদের জন্য বিশেষ পুষ্টি ক্যাম্প ২১ আগস্ট ২০২৭ তারিখে নতুন ভবনে অনুষ্ঠিত হবে।
+
+    স্থানান্তরের প্রথম কয়েক দিন অভিভাবকদের পথ দেখাতে হাসপাতালের স্বেচ্ছাসেবকরা মূল ফটকে দায়িত্ব পালন করবেন। শিশুর আগের চিকিৎসার কাগজপত্র ও টিকা কার্ড সঙ্গে আনার অনুরোধ করা হলো। সাময়িক অসুবিধার জন্য আমরা আন্তরিকভাবে দুঃখিত।
+
+    পরিচালক
+    কাঞ্চনমালা শিশু হাসপাতাল
+  answer_sentence: "হাসপাতালের বহির্বিভাগ আগামী ৮ আগস্ট ২০২৭ থেকে নতুন ভবনে স্থানান্তরিত হবে।"
+  insuff_replacement: ""
+  gold: {day: 8, month: 8, year: 2027}
+  q:
+    en: "From what date will the outpatient department of Kanchonmala Children's Hospital move to the new building?"
+    bn: "কাঞ্চনমালা শিশু হাসপাতালের বহির্বিভাগ কোন তারিখ থেকে নতুন ভবনে স্থানান্তরিত হবে?"
+    rbn: "kanchonmala shishu hospitaler bohirbivag kon tarikh theke notun vobone sthanantorito hobe?"
+    cm: "কাঞ্চনমালা শিশু হাসপাতালের outdoor বিভাগ কোন date থেকে new building এ যাবে?"
+    cmr: "kanchonmala shishu hospitaler outdoor bivag kon date theke new building e jabe?"
+  sibling:
+    answer_type: number
+    gold: {value: 11}
+    q:
+      en: "How many separate rooms will the outpatient department have in the new building of Kanchonmala Children's Hospital?"
+      bn: "কাঞ্চনমালা শিশু হাসপাতালের নতুন ভবনে বহির্বিভাগের জন্য কয়টি কক্ষ থাকবে?"
+      rbn: "kanchonmala shishu hospitaler notun vobone bohirbivager jonno koyti kokkho thakbe?"
+      cm: "কাঞ্চনমালা শিশু হাসপাতালের new building এ outdoor বিভাগের কয়টি কক্ষ থাকবে?"
+      cmr: "kanchonmala shishu hospitaler new building e outdoor bivager koyti kokkho thakbe?"
+
+- id: N071
+  format: multi
+  domain: health
+  answer_type: name
+  entity:
+    bn: "শিমফুলি মাতৃসদন"
+    rom: "shimfuli matrishodon"
+    en: "Shimfuli Maternity Centre"
+  edit_type: neutralisation
+  passage: |
+    শিমফুলি মাতৃসদন
+    সার্বক্ষণিক মিডওয়াইফ সেবা চালু
+
+    শিমফুলি মাতৃসদনের পক্ষ থেকে এলাকার গর্ভবতী মা ও তাঁদের পরিবারকে জানানো যাচ্ছে যে, আগামী ১ জুন ২০২৭ থেকে মাতৃসদনে দিনরাত ২৪ ঘণ্টা প্রশিক্ষিত মিডওয়াইফ সেবা চালু করা হচ্ছে। নিরাপদ স্বাভাবিক প্রসব নিশ্চিত করা এবং অপ্রয়োজনীয় সিজারিয়ান অপারেশন কমানোই এই উদ্যোগের মূল লক্ষ্য।
+
+    মাতৃসদনে মোট ৬ জন প্রশিক্ষিত মিডওয়াইফ পালাক্রমে দায়িত্ব পালন করবেন। মিডওয়াইফ দলের নেতৃত্ব দেবেন জ্যেষ্ঠ মিডওয়াইফ রোকসানা পারভীন ঝুমা। জটিল প্রসবের ক্ষেত্রে মাতৃসদনের স্ত্রীরোগ বিশেষজ্ঞ ডা. সাদিয়া আফরিন তন্বী তত্ত্বাবধান করবেন।
+
+    গর্ভকালীন অন্তত চারবার চেকআপ, প্রসবকালীন সেবা, প্রসব-পরবর্তী মা ও নবজাতকের যত্ন এবং বুকের দুধ খাওয়ানো বিষয়ে পরামর্শ দেওয়া হবে। প্রতি বৃহস্পতিবার বিকেলে গর্ভবতী মায়েদের জন্য স্বাস্থ্য শিক্ষা সেশন অনুষ্ঠিত হবে।
+
+    গর্ভবতী মায়েদের প্রথম চেকআপের সময় মাতৃসদনে নাম নিবন্ধন করতে হবে এবং একটি মা কার্ড দেওয়া হবে। প্রসবের জন্য আসার সময় মা কার্ড, আগের পরীক্ষার রিপোর্ট এবং একজন রক্তদাতার যোগাযোগ নম্বর সঙ্গে রাখতে হবে। প্রসবব্যথা, রক্তক্ষরণ বা খিঁচুনির মতো বিপদচিহ্ন দেখা দিলে দেরি না করে মাতৃসদনে চলে আসুন।
+
+    তত্ত্বাবধায়ক
+    শিমফুলি মাতৃসদন
+  answer_sentence: "মিডওয়াইফ দলের নেতৃত্ব দেবেন জ্যেষ্ঠ মিডওয়াইফ রোকসানা পারভীন ঝুমা।"
+  insuff_replacement: "মিডওয়াইফ দলের নেতৃত্ব দেবেন একজন অভিজ্ঞ জ্যেষ্ঠ মিডওয়াইফ।"
+  gold: {aliases: ["রোকসানা পারভীন ঝুমা", "Roksana Parvin Jhuma", "Rokshana Parveen Jhuma", "Roksana Pervin Jhuma"]}
+  q:
+    en: "Who will lead the midwife team at Shimfuli Maternity Centre?"
+    bn: "শিমফুলি মাতৃসদনে মিডওয়াইফ দলের নেতৃত্ব কে দেবেন?"
+    rbn: "shimfuli matrishodone midwife doler netritto ke deben?"
+    cm: "শিমফুলি মাতৃসদনে midwife team এর leader কে?"
+    cmr: "shimfuli matrishodone midwife team er leader ke?"
+  sibling:
+    answer_type: number
+    gold: {value: 6}
+    q:
+      en: "How many trained midwives will work at Shimfuli Maternity Centre?"
+      bn: "শিমফুলি মাতৃসদনে মোট কতজন প্রশিক্ষিত মিডওয়াইফ দায়িত্ব পালন করবেন?"
+      rbn: "shimfuli matrishodone mot kotojon proshikkhito midwife dayitto palon korben?"
+      cm: "শিমফুলি মাতৃসদনে মোট কতজন trained midwife কাজ করবেন?"
+      cmr: "shimfuli matrishodone mot kotojon trained midwife kaj korben?"
+
+- id: N072
+  format: multi
+  domain: civic
+  answer_type: number
+  entity:
+    bn: "নুনিয়াগাছা পৌরসভা"
+    rom: "nuniyagacha pouroshova"
+    en: "Nuniyagachha Municipality"
+  edit_type: deletion
+  passage: |
+    নুনিয়াগাছা পৌরসভা
+    সড়কবাতি স্থাপন প্রকল্প সংক্রান্ত বিজ্ঞপ্তি
+
+    নুনিয়াগাছা পৌরসভার সকল নাগরিকের অবগতির জন্য জানানো যাচ্ছে যে, রাতের বেলায় চলাচল নিরাপদ করা এবং বিদ্যুৎ সাশ্রয়ের লক্ষ্যে পৌর এলাকার প্রধান সড়ক ও গলিপথে নতুন এলইডি সড়কবাতি স্থাপনের প্রকল্প হাতে নেওয়া হয়েছে। প্রকল্পের কাজ আগামী ৩ জানুয়ারি ২০২৭ থেকে শুরু হবে।
+
+    প্রকল্পের আওতায় পৌর এলাকায় ৪৬০টি এলইডি সড়কবাতি স্থাপন করা হবে। প্রথম পর্যায়ে বাজার এলাকা, বাসস্ট্যান্ড, হাসপাতাল সড়ক এবং বিদ্যালয়ের আশপাশের রাস্তায় বাতি বসানো হবে। দ্বিতীয় পর্যায়ে আবাসিক এলাকার গলিপথগুলো প্রকল্পের আওতায় আসবে। প্রকল্পের কাজ ৩১ মে ২০২৭ তারিখের মধ্যে শেষ করার লক্ষ্য নির্ধারণ করা হয়েছে।
+
+    নতুন বাতিগুলো সন্ধ্যায় স্বয়ংক্রিয়ভাবে জ্বলবে এবং ভোরে নিভে যাবে। পুরোনো সোডিয়াম বাতির তুলনায় এলইডি বাতিতে বিদ্যুৎ খরচ অনেক কম হবে। কাজ চলাকালীন কিছু সড়কে সাময়িকভাবে যান চলাচলে বিঘ্ন ঘটতে পারে, সেজন্য পৌরবাসীর সহযোগিতা কামনা করা হচ্ছে।
+
+    কোনো এলাকায় সড়কবাতি নষ্ট হলে বা জ্বলে না থাকলে পৌরসভার বিদ্যুৎ শাখায় খুঁটির নম্বর উল্লেখ করে অভিযোগ জানানো যাবে। সড়কবাতি বা খুঁটির ক্ষতি করা দণ্ডনীয় অপরাধ। নিরাপদ ও আলোকিত শহর গড়তে সকলের সহযোগিতা কাম্য।
+
+    নির্বাহী প্রকৌশলী
+    নুনিয়াগাছা পৌরসভা
+  answer_sentence: "প্রকল্পের আওতায় পৌর এলাকায় ৪৬০টি এলইডি সড়কবাতি স্থাপন করা হবে।"
+  insuff_replacement: ""
+  gold: {value: 460}
+  q:
+    en: "How many LED street lights will be installed under the Nuniyagachha Municipality project?"
+    bn: "নুনিয়াগাছা পৌরসভার প্রকল্পের আওতায় কয়টি এলইডি সড়কবাতি স্থাপন করা হবে?"
+    rbn: "nuniyagacha pouroshovar prokolper aotay koyti LED shorokbati sthapon kora hobe?"
+    cm: "নুনিয়াগাছা পৌরসভার project এর আওতায় কয়টি LED street light বসানো হবে?"
+    cmr: "nuniyagacha pouroshovar project er aotay koyti LED street light boshano hobe?"
+  sibling:
+    answer_type: date
+    gold: {day: 31, month: 5, year: 2027}
+    q:
+      en: "By what date does Nuniyagachha Municipality aim to finish the street light project?"
+      bn: "নুনিয়াগাছা পৌরসভা কোন তারিখের মধ্যে সড়কবাতি প্রকল্পের কাজ শেষ করতে চায়?"
+      rbn: "nuniyagacha pouroshova kon tarikher moddhe shorokbati prokolper kaj shesh korte chay?"
+      cm: "নুনিয়াগাছা পৌরসভা কোন date এর মধ্যে street light project শেষ করতে চায়?"
+      cmr: "nuniyagacha pouroshova kon date er moddhe street light project shesh korte chay?"
+
+- id: N073
+  format: multi
+  domain: utilities
+  answer_type: yesno
+  entity:
+    bn: "জলঢুপি পানি শোধনাগার"
+    rom: "joldhupi pani shodhonagar"
+    en: "Joldhupi Water Treatment Plant"
+  edit_type: neutralisation
+  passage: |
+    জলঢুপি পানি শোধনাগার
+    পানি সরবরাহের নতুন সময়সূচি ও গ্রাহকদের প্রতি নির্দেশনা
+
+    জলঢুপি পানি শোধনাগারের আওতাধীন এলাকার গ্রাহকদের জানানো যাচ্ছে যে, শোধনাগারের সক্ষমতা বৃদ্ধির কাজ সম্পন্ন হওয়ায় আগামী ১৬ মার্চ ২০২৭ থেকে পানি সরবরাহের নতুন সময়সূচি কার্যকর হবে। নতুন সময়সূচি অনুযায়ী প্রতিদিন ভোর ৫টা থেকে সকাল ৯টা এবং বিকেল ৪টা থেকে রাত ৮টা পর্যন্ত পানি সরবরাহ করা হবে।
+
+    শোধনাগারে নদীর পানি কয়েক ধাপে পরিশোধন করে পাইপলাইনের মাধ্যমে বাসাবাড়িতে পাঠানো হয়। সরবরাহকৃত পানি না ফুটিয়ে পান করা যাবে না। গ্রাহকদের বাড়ির পানির ট্যাংক অন্তত তিন মাস পরপর পরিষ্কার করার অনুরোধ করা হলো, কারণ অপরিষ্কার ট্যাংকে পানির মান নষ্ট হতে পারে।
+
+    শোধনাগারের পরীক্ষাগারে প্রতিদিন পানির নমুনা পরীক্ষা করা হয়। কোনো এলাকায় পানির রং, গন্ধ বা স্বাদে অস্বাভাবিকতা দেখা দিলে দ্রুত শোধনাগারের অভিযোগ কেন্দ্রে জানাতে হবে। পাইপলাইনে ছিদ্র বা লিকেজ চোখে পড়লেও অনুগ্রহ করে জানাবেন।
+
+    পানির অপচয় রোধে কল খোলা না রাখার এবং মোটর দিয়ে সরাসরি লাইন থেকে পানি না টানার অনুরোধ করা হলো। মোটর দিয়ে সরাসরি পানি টানলে সংযোগ বিচ্ছিন্ন করা হবে। নিরাপদ পানি সবার অধিকার; এর সঠিক ব্যবহার নিশ্চিত করা আমাদের সকলের দায়িত্ব।
+
+    প্রধান প্রকৌশলী
+    জলঢুপি পানি শোধনাগার
+  answer_sentence: "সরবরাহকৃত পানি না ফুটিয়ে পান করা যাবে না।"
+  insuff_replacement: "সরবরাহকৃত পানি পানের বিষয়ে প্রয়োজনীয় পরামর্শ পরবর্তী বিজ্ঞপ্তিতে জানানো হবে।"
+  gold: {value: false}
+  q:
+    en: "Can the water supplied by the Joldhupi Water Treatment Plant be drunk without boiling?"
+    bn: "জলঢুপি পানি শোধনাগারের সরবরাহ করা পানি কি না ফুটিয়ে পান করা যাবে?"
+    rbn: "joldhupi pani shodhonagarer shorboraho kora pani ki na futiye pan kora jabe?"
+    cm: "জলঢুপি পানি শোধনাগারের supply করা পানি কি boil না করে খাওয়া যাবে?"
+    cmr: "joldhupi pani shodhonagarer supply kora pani ki boil na kore khawa jabe?"
+  sibling:
+    answer_type: date
+    gold: {day: 16, month: 3, year: 2027}
+    q:
+      en: "From what date will the new water supply schedule of the Joldhupi Water Treatment Plant take effect?"
+      bn: "জলঢুপি পানি শোধনাগারের পানি সরবরাহের নতুন সময়সূচি কোন তারিখ থেকে কার্যকর হবে?"
+      rbn: "joldhupi pani shodhonagarer pani shorborahor notun shomoyshuchi kon tarikh theke karjokor hobe?"
+      cm: "জলঢুপি পানি শোধনাগারের নতুন supply schedule কোন date থেকে চালু হবে?"
+      cmr: "joldhupi pani shodhonagarer notun supply schedule kon date theke chalu hobe?"
+
+- id: N074
+  format: multi
+  domain: health
+  answer_type: amount
+  entity:
+    bn: "মুক্তাঝুরি ডেন্টাল কেয়ার"
+    rom: "muktajhuri dental care"
+    en: "Muktajhuri Dental Care"
+  edit_type: deletion
+  passage: |
+    মুক্তাঝুরি ডেন্টাল কেয়ার
+    দাঁতের চিকিৎসার নতুন সেবামূল্য ও শিশুদের ফ্রি ক্যাম্প
+
+    মুক্তাঝুরি ডেন্টাল কেয়ারের সম্মানিত রোগীদের জানানো যাচ্ছে যে, আধুনিক যন্ত্রপাতি সংযোজনের পর আগামী ১ ফেব্রুয়ারি ২০২৭ থেকে চেম্বারে দাঁতের বিভিন্ন চিকিৎসার নতুন সেবামূল্য কার্যকর হবে। চেম্বারে এখন ডিজিটাল এক্স-রে এবং জীবাণুমুক্তকরণের উন্নত ব্যবস্থা রয়েছে।
+
+    দন্ত চিকিৎসকের সাধারণ পরামর্শ ফি ৫০০ টাকা। দাঁত পরিষ্কার বা স্কেলিংয়ের খরচ ১,৫০০ টাকা। সাধারণ দাঁত তোলার খরচ ৮০০ টাকা। প্রতিটি দাঁতের রুট ক্যানেল চিকিৎসার খরচ ৪,৮০০ টাকা, যার মধ্যে প্রয়োজনীয় এক্স-রে অন্তর্ভুক্ত। দাঁতে ক্যাপ বা ক্রাউন লাগানোর খরচ উপকরণের ধরন অনুযায়ী আলাদা হবে।
+
+    শিশুদের দাঁতের যত্ন বিষয়ে সচেতনতা বাড়াতে আগামী ২৭ ফেব্রুয়ারি ২০২৭ তারিখে বারো বছরের কম বয়সী শিশুদের জন্য বিনামূল্যে দাঁত পরীক্ষার ক্যাম্প অনুষ্ঠিত হবে। ক্যাম্পে শিশুদের সঠিকভাবে দাঁত ব্রাশ করার পদ্ধতি শেখানো হবে এবং বিনামূল্যে টুথব্রাশ দেওয়া হবে।
+
+    চেম্বার শুক্রবার ছাড়া প্রতিদিন বিকেল ৪টা থেকে রাত ৯টা পর্যন্ত খোলা থাকবে। চিকিৎসা নিতে আগে থেকে ফোনে সিরিয়াল নেওয়ার অনুরোধ করা হলো। ডায়াবেটিস, হৃদরোগ বা রক্ত পাতলা করার ওষুধ সেবনকারী রোগীরা চিকিৎসার আগে অবশ্যই চিকিৎসককে জানাবেন।
+
+    পরিচালক
+    মুক্তাঝুরি ডেন্টাল কেয়ার
+  answer_sentence: "প্রতিটি দাঁতের রুট ক্যানেল চিকিৎসার খরচ ৪,৮০০ টাকা, যার মধ্যে প্রয়োজনীয় এক্স-রে অন্তর্ভুক্ত।"
+  insuff_replacement: ""
+  gold: {value: 4800}
+  q:
+    en: "How much does root canal treatment cost per tooth at Muktajhuri Dental Care?"
+    bn: "মুক্তাঝুরি ডেন্টাল কেয়ারে প্রতিটি দাঁতের রুট ক্যানেল চিকিৎসার খরচ কত টাকা?"
+    rbn: "muktajhuri dental care e protiti dater root canal chikitshar khoroch koto taka?"
+    cm: "মুক্তাঝুরি ডেন্টাল কেয়ারে per tooth root canal এর খরচ কত টাকা?"
+    cmr: "muktajhuri dental care e per tooth root canal er khoroch koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 27, month: 2, year: 2027}
+    q:
+      en: "On what date will Muktajhuri Dental Care hold its free dental check-up camp for children?"
+      bn: "মুক্তাঝুরি ডেন্টাল কেয়ারে শিশুদের বিনামূল্যে দাঁত পরীক্ষার ক্যাম্প কোন তারিখে হবে?"
+      rbn: "muktajhuri dental care e shishuder binamulle dat porikkhar camp kon tarikhe hobe?"
+      cm: "মুক্তাঝুরি ডেন্টাল কেয়ারে শিশুদের free dental camp কোন date এ হবে?"
+      cmr: "muktajhuri dental care e shishuder free dental camp kon date e hobe?"
+
+- id: N075
+  format: multi
+  domain: utilities
+  answer_type: date
+  entity:
+    bn: "বাবলাতলী আঞ্চলিক গ্যাস অফিস"
+    rom: "bablatoli ancholik gas office"
+    en: "Bablatali Regional Gas Office"
+  edit_type: neutralisation
+  passage: |
+    বাবলাতলী আঞ্চলিক গ্যাস অফিস
+    গ্যাস সরবরাহ সাময়িক বন্ধ থাকার বিজ্ঞপ্তি
+
+    বাবলাতলী আঞ্চলিক গ্যাস অফিসের আওতাধীন গ্রাহকদের জানানো যাচ্ছে যে, সড়ক প্রশস্তকরণ প্রকল্পের কারণে পুরোনো বিতরণ লাইন সরিয়ে নতুন পাইপলাইনের সঙ্গে সংযোগ দেওয়ার কাজ করা হবে। এ কারণে পৌর এলাকার উত্তরাংশ, শিল্প এলাকা এবং আশপাশের কয়েকটি গ্রামে গ্যাস সরবরাহ সাময়িকভাবে বন্ধ থাকবে।
+
+    পাইপলাইন সংযোগের কাজের জন্য আগামী ২৪ নভেম্বর ২০২৭ তারিখে সকাল ৮টা থেকে সন্ধ্যা ৬টা পর্যন্ত গ্যাস সরবরাহ বন্ধ থাকবে। এই কাজের ফলে আনুমানিক ২,৩০০ আবাসিক গ্রাহক এবং বেশ কয়েকটি শিল্পপ্রতিষ্ঠান ক্ষতিগ্রস্ত হবেন। কাজ শেষ হওয়ার পর লাইনে গ্যাসের চাপ স্বাভাবিক হতে কিছুটা সময় লাগতে পারে।
+
+    গ্রাহকদের প্রতি অনুরোধ, সরবরাহ বন্ধ থাকাকালে চুলার চাবি অবশ্যই বন্ধ রাখবেন। সরবরাহ আবার চালু হলে চুলা জ্বালানোর আগে কয়েক মিনিট জানালা খুলে রাখুন। কোথাও গ্যাসের গন্ধ পেলে আগুন জ্বালাবেন না এবং বৈদ্যুতিক সুইচ চালু বা বন্ধ করবেন না।
+
+    শিল্পপ্রতিষ্ঠানগুলোকে বিকল্প জ্বালানির ব্যবস্থা রাখার পরামর্শ দেওয়া হচ্ছে। জরুরি প্রয়োজনে অফিসের জরুরি সেবা কেন্দ্রে যোগাযোগ করুন। সাময়িক অসুবিধার জন্য আমরা আন্তরিকভাবে দুঃখিত।
+
+    উপমহাব্যবস্থাপক
+    বাবলাতলী আঞ্চলিক গ্যাস অফিস
+  answer_sentence: "পাইপলাইন সংযোগের কাজের জন্য আগামী ২৪ নভেম্বর ২০২৭ তারিখে সকাল ৮টা থেকে সন্ধ্যা ৬টা পর্যন্ত গ্যাস সরবরাহ বন্ধ থাকবে।"
+  insuff_replacement: "পাইপলাইন সংযোগের কাজের জন্য একটি নির্দিষ্ট দিনে গ্যাস সরবরাহ বন্ধ থাকবে; তারিখ পরে জানিয়ে দেওয়া হবে।"
+  gold: {day: 24, month: 11, year: 2027}
+  q:
+    en: "On what date will the Bablatali Regional Gas Office shut off the gas supply for the pipeline work?"
+    bn: "বাবলাতলী আঞ্চলিক গ্যাস অফিস পাইপলাইনের কাজের জন্য কোন তারিখে গ্যাস সরবরাহ বন্ধ রাখবে?"
+    rbn: "bablatoli ancholik gas office pipeline er kajer jonno kon tarikhe gas shorboraho bondho rakhbe?"
+    cm: "বাবলাতলী আঞ্চলিক গ্যাস অফিস pipeline কাজের জন্য কোন date এ gas বন্ধ রাখবে?"
+    cmr: "bablatoli ancholik gas office pipeline kajer jonno kon date e gas bondho rakhbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 2300}
+    q:
+      en: "About how many residential customers will be affected by the work of the Bablatali Regional Gas Office?"
+      bn: "বাবলাতলী আঞ্চলিক গ্যাস অফিসের কাজের ফলে আনুমানিক কতজন আবাসিক গ্রাহক ক্ষতিগ্রস্ত হবেন?"
+      rbn: "bablatoli ancholik gas officer kajer fole anumanik kotojon abashik grahok khotigrosto hoben?"
+      cm: "বাবলাতলী আঞ্চলিক গ্যাস অফিসের কাজের ফলে আনুমানিক কতজন residential customer সমস্যায় পড়বেন?"
+      cmr: "bablatoli ancholik gas officer kajer fole anumanik kotojon residential customer shomoshay porben?"
+
+- id: N076
+  format: multi
+  domain: health
+  answer_type: name
+  entity:
+    bn: "কুমড়োলতা নগর স্বাস্থ্যকেন্দ্র"
+    rom: "kumrolota nogor shasthokendro"
+    en: "Kumrolota Urban Health Centre"
+  edit_type: deletion
+  passage: |
+    কুমড়োলতা নগর স্বাস্থ্যকেন্দ্র
+    উদ্বোধন অনুষ্ঠানের আমন্ত্রণ ও সেবা কার্যক্রম
+
+    এলাকাবাসীর দীর্ঘদিনের দাবির পরিপ্রেক্ষিতে পৌর এলাকার দক্ষিণাংশে কুমড়োলতা নগর স্বাস্থ্যকেন্দ্র নির্মাণ করা হয়েছে। আগামী ১৩ মার্চ ২০২৭ তারিখে সকাল ১১টায় স্বাস্থ্যকেন্দ্রের আনুষ্ঠানিক উদ্বোধন করা হবে। উদ্বোধন অনুষ্ঠানে এলাকার সকল নাগরিককে সাদর আমন্ত্রণ জানানো হচ্ছে।
+
+    স্বাস্থ্যকেন্দ্রটি উদ্বোধন করবেন পৌরসভার মেয়র শাহানাজ পারভীন মল্লিক। অনুষ্ঠানে বিশেষ অতিথি হিসেবে উপস্থিত থাকবেন জেলার সিভিল সার্জন ডা. মাসুদুর রহমান সরকার। উদ্বোধনের পর অতিথিরা স্বাস্থ্যকেন্দ্রের বিভিন্ন কক্ষ ঘুরে দেখবেন।
+
+    উদ্বোধনের পরদিন থেকে স্বাস্থ্যকেন্দ্রে নিয়মিত সেবা শুরু হবে। এখানে সাধারণ রোগের চিকিৎসা, মা ও শিশুর স্বাস্থ্যসেবা, পরিবার পরিকল্পনা, টিকাদান এবং যক্ষ্মা ও ডায়াবেটিস স্ক্রিনিং সেবা দেওয়া হবে। শহরের দরিদ্র ও বস্তিবাসী জনগোষ্ঠী এই সেবা বিনামূল্যে বা নামমাত্র খরচে পাবেন। স্বাস্থ্যকেন্দ্রে একটি ছোট প্যাথলজি ল্যাব ও ফার্মেসিও থাকবে।
+
+    স্বাস্থ্যকেন্দ্র শুক্রবার ছাড়া প্রতিদিন সকাল ৮টা থেকে বিকেল ৪টা পর্যন্ত খোলা থাকবে। সেবা নিতে আসার সময় জাতীয় পরিচয়পত্র বা জন্ম নিবন্ধনের কপি সঙ্গে আনার অনুরোধ করা হলো। স্বাস্থ্যকেন্দ্রের পরিবেশ পরিচ্ছন্ন রাখতে সকলের সহযোগিতা কাম্য।
+
+    প্রধান স্বাস্থ্য কর্মকর্তা
+    কুমড়োলতা নগর স্বাস্থ্যকেন্দ্র
+  answer_sentence: "স্বাস্থ্যকেন্দ্রটি উদ্বোধন করবেন পৌরসভার মেয়র শাহানাজ পারভীন মল্লিক।"
+  insuff_replacement: ""
+  gold: {aliases: ["শাহানাজ পারভীন মল্লিক", "Shahanaz Parvin Mallik", "Shahnaz Parveen Mallick", "Shahanaj Parvin Mollik"]}
+  q:
+    en: "Who will inaugurate the Kumrolota Urban Health Centre?"
+    bn: "কুমড়োলতা নগর স্বাস্থ্যকেন্দ্র কে উদ্বোধন করবেন?"
+    rbn: "kumrolota nogor shasthokendro ke udbodhon korben?"
+    cm: "কুমড়োলতা নগর স্বাস্থ্যকেন্দ্র কে inaugurate করবেন?"
+    cmr: "kumrolota nogor shasthokendro ke inaugurate korben?"
+  sibling:
+    answer_type: date
+    gold: {day: 13, month: 3, year: 2027}
+    q:
+      en: "On what date will the Kumrolota Urban Health Centre be formally inaugurated?"
+      bn: "কুমড়োলতা নগর স্বাস্থ্যকেন্দ্র কোন তারিখে আনুষ্ঠানিকভাবে উদ্বোধন করা হবে?"
+      rbn: "kumrolota nogor shasthokendro kon tarikhe anushthanikvabe udbodhon kora hobe?"
+      cm: "কুমড়োলতা নগর স্বাস্থ্যকেন্দ্র কোন date এ উদ্বোধন হবে?"
+      cmr: "kumrolota nogor shasthokendro kon date e udbodhon hobe?"
+
+- id: N077
+  format: multi
+  domain: health
+  answer_type: number
+  entity:
+    bn: "ঝিলমিলিয়া উপজেলা স্বাস্থ্য অফিস"
+    rom: "jhilmiliya upojela shastho office"
+    en: "Jhilmilia Upazila Health Office"
+  edit_type: neutralisation
+  passage: |
+    ঝিলমিলিয়া উপজেলা স্বাস্থ্য অফিস
+    কিশোরীদের জরায়ুমুখ ক্যানসার প্রতিরোধী টিকাদান কর্মসূচি
+
+    ঝিলমিলিয়া উপজেলা স্বাস্থ্য অফিসের উদ্যোগে উপজেলার কিশোরীদের জরায়ুমুখ ক্যানসার প্রতিরোধে বিশেষ টিকাদান কর্মসূচি পরিচালিত হবে। কর্মসূচি আগামী ৪ অক্টোবর ২০২৭ থেকে শুরু হয়ে দুই সপ্তাহ চলবে।
+
+    এ কর্মসূচিতে উপজেলার ৪৩টি বিদ্যালয়ের ছাত্রীদের টিকা দেওয়া হবে। পঞ্চম থেকে নবম শ্রেণির ছাত্রীরা বিদ্যালয়েই টিকা নিতে পারবে। বিদ্যালয়ের বাইরে থাকা দশ থেকে চৌদ্দ বছর বয়সী কিশোরীরা নিকটস্থ কমিউনিটি ক্লিনিক বা স্থায়ী টিকাদান কেন্দ্রে টিকা নিতে পারবে।
+
+    টিকা সম্পূর্ণ বিনামূল্যে এবং এক ডোজই যথেষ্ট। টিকা নেওয়ার আগে অনলাইনে নিবন্ধন করতে হবে; নিবন্ধনের জন্য কিশোরীর জন্ম নিবন্ধন নম্বর প্রয়োজন হবে। যাদের অনলাইন নিবন্ধনে সমস্যা হবে, তাদের বিদ্যালয়ের শ্রেণিশিক্ষক বা স্বাস্থ্যকর্মী নিবন্ধনে সহায়তা করবেন।
+
+    টিকাটি নিরাপদ এবং বিভিন্ন দেশে দীর্ঘদিন ধরে ব্যবহৃত হচ্ছে। টিকা নেওয়ার পর ইনজেকশনের স্থানে সামান্য ব্যথা বা হালকা জ্বর হতে পারে, যা সাধারণত নিজে থেকেই সেরে যায়। অভিভাবকদের প্রতি অনুরোধ, গুজবে কান না দিয়ে আপনার মেয়েকে টিকা দিন। প্রতিটি টিকাদান কেন্দ্রে প্রশিক্ষিত স্বাস্থ্যকর্মী উপস্থিত থাকবেন।
+
+    উপজেলা স্বাস্থ্য ও পরিবার পরিকল্পনা কর্মকর্তা
+    ঝিলমিলিয়া উপজেলা স্বাস্থ্য অফিস
+  answer_sentence: "এ কর্মসূচিতে উপজেলার ৪৩টি বিদ্যালয়ের ছাত্রীদের টিকা দেওয়া হবে।"
+  insuff_replacement: "এ কর্মসূচিতে উপজেলার বিদ্যালয়গুলোর ছাত্রীদের টিকা দেওয়া হবে।"
+  gold: {value: 43}
+  q:
+    en: "Students of how many schools will be vaccinated in the programme of the Jhilmilia Upazila Health Office?"
+    bn: "ঝিলমিলিয়া উপজেলা স্বাস্থ্য অফিসের কর্মসূচিতে কয়টি বিদ্যালয়ের ছাত্রীদের টিকা দেওয়া হবে?"
+    rbn: "jhilmiliya upojela shastho officer kormoshuchite koyti biddaloyer chatrider tika dewa hobe?"
+    cm: "ঝিলমিলিয়া উপজেলা স্বাস্থ্য অফিসের program এ কয়টি school এর ছাত্রীদের টিকা দেওয়া হবে?"
+    cmr: "jhilmiliya upojela shastho officer program e koyti school er chatrider tika dewa hobe?"
+  sibling:
+    answer_type: date
+    gold: {day: 4, month: 10, year: 2027}
+    q:
+      en: "On what date will the vaccination programme of the Jhilmilia Upazila Health Office begin?"
+      bn: "ঝিলমিলিয়া উপজেলা স্বাস্থ্য অফিসের টিকাদান কর্মসূচি কোন তারিখে শুরু হবে?"
+      rbn: "jhilmiliya upojela shastho officer tikadan kormoshuchi kon tarikhe shuru hobe?"
+      cm: "ঝিলমিলিয়া উপজেলা স্বাস্থ্য অফিসের vaccination program কোন তারিখে শুরু হবে?"
+      cmr: "jhilmiliya upojela shastho officer vaccination program kon tarikhe shuru hobe?"
+
+- id: N078
+  format: multi
+  domain: civic
+  answer_type: yesno
+  entity:
+    bn: "দাঁড়কাকিয়া ওয়ার্ড কাউন্সিলর কার্যালয়"
+    rom: "darkakiya ward councilor karjaloy"
+    en: "Darkakia Ward Councillor's Office"
+  edit_type: deletion
+  passage: |
+    দাঁড়কাকিয়া ওয়ার্ড কাউন্সিলর কার্যালয়
+    নাগরিক সনদ ও প্রত্যয়নপত্র প্রদান সংক্রান্ত বিজ্ঞপ্তি
+
+    দাঁড়কাকিয়া ওয়ার্ড কাউন্সিলর কার্যালয় থেকে ওয়ার্ডের বাসিন্দাদের জানানো যাচ্ছে যে, আগামী ২ জানুয়ারি ২০২৭ থেকে নাগরিক সনদ, চারিত্রিক সনদ, ওয়ারিশ সনদ এবং আয়ের প্রত্যয়নপত্র প্রদানের পদ্ধতিতে কিছু পরিবর্তন আনা হয়েছে। সেবাগ্রহীতাদের নিচের নিয়মগুলো মেনে চলার অনুরোধ করা হলো।
+
+    সনদের আবেদন কার্যালয়ের নির্ধারিত ফরমে করতে হবে। আবেদনের সঙ্গে জাতীয় পরিচয়পত্র বা জন্ম নিবন্ধনের ফটোকপি, হালনাগাদ হোল্ডিং ট্যাক্স পরিশোধের রসিদ এবং এক কপি ছবি জমা দিতে হবে। প্রতিটি সনদের জন্য ১৫০ টাকা ফি নির্ধারণ করা হয়েছে, যা কার্যালয়ের রসিদের মাধ্যমে পরিশোধ করতে হবে। ওয়ারিশ সনদের ক্ষেত্রে মৃত ব্যক্তির মৃত্যু সনদ এবং সকল ওয়ারিশের তালিকা দিতে হবে।
+
+    আবেদনের দিনই সনদ সরবরাহ করা হবে না; সনদ পেতে আবেদনের পর তিন কর্মদিবস অপেক্ষা করতে হবে। মিথ্যা তথ্য দিয়ে সনদ নিলে তা বাতিল করে আইনানুগ ব্যবস্থা নেওয়া হবে।
+
+    কার্যালয় শুক্র ও শনিবার ছাড়া প্রতিদিন সকাল ৯টা থেকে বিকেল ৫টা পর্যন্ত খোলা থাকবে। সনদ সংগ্রহের সময় আবেদনকারীকে নিজে উপস্থিত থাকতে হবে অথবা লিখিত ক্ষমতাপত্রসহ প্রতিনিধি পাঠাতে হবে। কোনো দালালের মাধ্যমে আবেদন না করার জন্য অনুরোধ করা হচ্ছে।
+
+    ওয়ার্ড কাউন্সিলর
+    দাঁড়কাকিয়া ওয়ার্ড কাউন্সিলর কার্যালয়
+  answer_sentence: "আবেদনের দিনই সনদ সরবরাহ করা হবে না; সনদ পেতে আবেদনের পর তিন কর্মদিবস অপেক্ষা করতে হবে।"
+  insuff_replacement: ""
+  gold: {value: false}
+  q:
+    en: "Can a certificate be collected on the same day it is applied for at the Darkakia Ward Councillor's Office?"
+    bn: "দাঁড়কাকিয়া ওয়ার্ড কাউন্সিলর কার্যালয়ে আবেদনের দিনই কি সনদ পাওয়া যাবে?"
+    rbn: "darkakiya ward councilor karjaloye abedoner dini ki shonod pawa jabe?"
+    cm: "দাঁড়কাকিয়া ওয়ার্ড কাউন্সিলর কার্যালয়ে apply করার দিনই কি certificate পাওয়া যাবে?"
+    cmr: "darkakiya ward councilor karjaloye apply korar dini ki certificate pawa jabe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 150}
+    q:
+      en: "What is the fee for each certificate at the Darkakia Ward Councillor's Office?"
+      bn: "দাঁড়কাকিয়া ওয়ার্ড কাউন্সিলর কার্যালয়ে প্রতিটি সনদের ফি কত টাকা?"
+      rbn: "darkakiya ward councilor karjaloye protiti shonoder fee koto taka?"
+      cm: "দাঁড়কাকিয়া ওয়ার্ড কাউন্সিলর কার্যালয়ে প্রতিটি certificate এর fee কত টাকা?"
+      cmr: "darkakiya ward councilor karjaloye protiti certificate er fee koto taka?"
+
+- id: N079
+  format: multi
+  domain: health
+  answer_type: amount
+  entity:
+    bn: "টগরবনি সেবা হাসপাতাল"
+    rom: "togorboni sheba hospital"
+    en: "Togorboni Sheba Hospital"
+  edit_type: neutralisation
+  passage: |
+    টগরবনি সেবা হাসপাতাল
+    সার্বক্ষণিক অ্যাম্বুলেন্স সেবা সংক্রান্ত বিজ্ঞপ্তি
+
+    টগরবনি সেবা হাসপাতালের পক্ষ থেকে এলাকাবাসীকে জানানো যাচ্ছে যে, আগামী ১৫ জানুয়ারি ২০২৭ থেকে হাসপাতালের নিজস্ব অ্যাম্বুলেন্স সেবা দিনরাত ২৪ ঘণ্টা চালু থাকবে। জরুরি রোগী পরিবহনের জন্য হাসপাতালের বহরে বর্তমানে ৪টি অ্যাম্বুলেন্স রয়েছে, যার একটিতে অক্সিজেন ও প্রাথমিক জীবনরক্ষাকারী সরঞ্জাম আছে।
+
+    পৌর এলাকার ভেতরে অ্যাম্বুলেন্স ভাড়া ৮৫০ টাকা। জেলা সদর হাসপাতালে রোগী নিয়ে যাওয়ার ভাড়া ৩,০০০ টাকা। অক্সিজেন সুবিধাসহ অ্যাম্বুলেন্সের ক্ষেত্রে অক্সিজেনের খরচ আলাদাভাবে যোগ হবে। রাতের বেলায় ভাড়ার কোনো পরিবর্তন হবে না।
+
+    অ্যাম্বুলেন্স প্রয়োজন হলে হাসপাতালের জরুরি বিভাগে ফোন করে রোগীর ঠিকানা ও অবস্থা জানাতে হবে। ফোন পাওয়ার পর যত দ্রুত সম্ভব অ্যাম্বুলেন্স পাঠানো হবে। প্রতিটি অ্যাম্বুলেন্সে একজন প্রশিক্ষিত সহকারী থাকবেন, যিনি পথে রোগীর প্রাথমিক যত্ন নেবেন। ভাড়া অ্যাম্বুলেন্স চালকের কাছে নয়, হাসপাতালের কাউন্টারে পরিশোধ করে রসিদ সংগ্রহ করতে হবে।
+
+    সড়ক দুর্ঘটনায় আহত ব্যক্তিকে হাসপাতালে আনার ক্ষেত্রে প্রথমে চিকিৎসা শুরু করা হবে, কাগজপত্রের আনুষ্ঠানিকতা পরে সম্পন্ন করা হবে। অ্যাম্বুলেন্সকে রাস্তা ছেড়ে দিন, একটি জীবন বাঁচাতে সহায়তা করুন।
+
+    প্রশাসনিক কর্মকর্তা
+    টগরবনি সেবা হাসপাতাল
+  answer_sentence: "পৌর এলাকার ভেতরে অ্যাম্বুলেন্স ভাড়া ৮৫০ টাকা।"
+  insuff_replacement: "পৌর এলাকার ভেতরে অ্যাম্বুলেন্স ভাড়া দূরত্ব অনুযায়ী জরুরি বিভাগ থেকে জানিয়ে দেওয়া হবে।"
+  gold: {value: 850}
+  q:
+    en: "What is the ambulance fare within the municipal area at Togorboni Sheba Hospital?"
+    bn: "টগরবনি সেবা হাসপাতালের অ্যাম্বুলেন্সে পৌর এলাকার ভেতরে ভাড়া কত টাকা?"
+    rbn: "togorboni sheba hospitaler ambulance e pouro elakar vetore vara koto taka?"
+    cm: "টগরবনি সেবা হাসপাতালের ambulance এ পৌর এলাকার ভেতরে fare কত টাকা?"
+    cmr: "togorboni sheba hospitaler ambulance e pouro elakar vetore fare koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 4}
+    q:
+      en: "How many ambulances does Togorboni Sheba Hospital currently have?"
+      bn: "টগরবনি সেবা হাসপাতালের বহরে বর্তমানে কয়টি অ্যাম্বুলেন্স আছে?"
+      rbn: "togorboni sheba hospitaler bohore bortomane koyti ambulance ache?"
+      cm: "টগরবনি সেবা হাসপাতালে এখন কয়টি ambulance আছে?"
+      cmr: "togorboni sheba hospitale ekhon koyti ambulance ache?"
+
+- id: N080
+  format: multi
+  domain: health
+  answer_type: date
+  entity:
+    bn: "কাঁকরোলতলী পৌর স্বাস্থ্য বিভাগ"
+    rom: "kakroltoli pouro shastho bivag"
+    en: "Kakroltali Municipal Health Department"
+  edit_type: deletion
+  passage: |
+    কাঁকরোলতলী পৌর স্বাস্থ্য বিভাগ
+    ভিটামিন এ প্লাস ক্যাম্পেইন ও কৃমিনাশক কর্মসূচি
+
+    কাঁকরোলতলী পৌর স্বাস্থ্য বিভাগের পক্ষ থেকে পৌর এলাকার সকল অভিভাবকের অবগতির জন্য জানানো যাচ্ছে যে, শিশুদের রাতকানা রোগ প্রতিরোধ ও রোগপ্রতিরোধ ক্ষমতা বাড়াতে ভিটামিন এ প্লাস ক্যাম্পেইন পরিচালনা করা হবে। ছয় মাস থেকে পাঁচ বছরের কম বয়সী সকল শিশুকে ভিটামিন এ ক্যাপসুল খাওয়ানো হবে।
+
+    ভিটামিন এ প্লাস ক্যাম্পেইন আগামী ১৮ সেপ্টেম্বর ২০২৭ তারিখে সকাল ৮টা থেকে বিকেল ৪টা পর্যন্ত অনুষ্ঠিত হবে। এ উপলক্ষে পৌর এলাকায় মোট ৫৪টি কেন্দ্র খোলা থাকবে। ছয় থেকে এগারো মাস বয়সী শিশুদের নীল রঙের এবং বারো থেকে ঊনষাট মাস বয়সী শিশুদের লাল রঙের ক্যাপসুল খাওয়ানো হবে।
+
+    এছাড়া স্কুলগামী শিশুদের জন্য কৃমিনাশক ট্যাবলেট খাওয়ানো হবে ২৫ সেপ্টেম্বর ২০২৭ তারিখে, সংশ্লিষ্ট বিদ্যালয়ে। ট্যাবলেট ভরা পেটে চিবিয়ে খেতে হবে।
+
+    অসুস্থ শিশুকে ক্যাপসুল খাওয়ানোর আগে কেন্দ্রের স্বাস্থ্যকর্মীকে জানাতে হবে। গত এক মাসের মধ্যে যেসব শিশু ভিটামিন এ ক্যাপসুল খেয়েছে, তাদের আবার খাওয়ানো হবে না। ক্যাপসুল জোর করে খাওয়ানো যাবে না; শিশু কান্নারত অবস্থায় থাকলে শান্ত করার পর খাওয়াতে হবে। প্রতিটি কেন্দ্রে প্রশিক্ষিত স্বাস্থ্যকর্মী ও স্বেচ্ছাসেবক দায়িত্ব পালন করবেন। আপনার শিশুকে নিকটস্থ কেন্দ্রে নিয়ে আসুন।
+
+    পৌর স্বাস্থ্য কর্মকর্তা
+    কাঁকরোলতলী পৌর স্বাস্থ্য বিভাগ
+  answer_sentence: "ভিটামিন এ প্লাস ক্যাম্পেইন আগামী ১৮ সেপ্টেম্বর ২০২৭ তারিখে সকাল ৮টা থেকে বিকেল ৪টা পর্যন্ত অনুষ্ঠিত হবে।"
+  insuff_replacement: ""
+  gold: {day: 18, month: 9, year: 2027}
+  q:
+    en: "On what date will the Kakroltali Municipal Health Department hold the Vitamin A Plus campaign?"
+    bn: "কাঁকরোলতলী পৌর স্বাস্থ্য বিভাগের ভিটামিন এ প্লাস ক্যাম্পেইন কোন তারিখে অনুষ্ঠিত হবে?"
+    rbn: "kakroltoli pouro shastho bivager vitamin e plus campaign kon tarikhe onushthito hobe?"
+    cm: "কাঁকরোলতলী পৌর স্বাস্থ্য বিভাগের Vitamin A campaign কোন date এ হবে?"
+    cmr: "kakroltoli pouro shastho bivager vitamin A campaign kon date e hobe?"
+  sibling:
+    answer_type: number
+    gold: {value: 54}
+    q:
+      en: "How many centres will be open for the Vitamin A Plus campaign of the Kakroltali Municipal Health Department?"
+      bn: "কাঁকরোলতলী পৌর স্বাস্থ্য বিভাগের ভিটামিন এ প্লাস ক্যাম্পেইনে কয়টি কেন্দ্র খোলা থাকবে?"
+      rbn: "kakroltoli pouro shastho bivager vitamin e plus campaign e koyti kendro khola thakbe?"
+      cm: "কাঁকরোলতলী পৌর স্বাস্থ্য বিভাগের Vitamin A campaign এ কয়টি center খোলা থাকবে?"
+      cmr: "kakroltoli pouro shastho bivager vitamin A campaign e koyti center khola thakbe?"
+
+- id: N081
+  format: multi
+  domain: civic
+  answer_type: name
+  entity:
+    bn: "বনকরবী পৌরসভা"
+    rom: "bonkorobi pouroshova"
+    en: "Bonkorobi Municipality"
+  edit_type: neutralisation
+  passage: |
+    বনকরবী পৌরসভা
+    নিরাপদ খাদ্য নিশ্চিতকরণে বিশেষ নির্দেশনা
+
+    বনকরবী পৌরসভার আওতাধীন সকল হোটেল, রেস্তোরাঁ, বেকারি ও খাদ্যপণ্য বিক্রয়কারী প্রতিষ্ঠানের মালিকদের জানানো যাচ্ছে যে, জনস্বাস্থ্য রক্ষায় আগামী ১ মে ২০২৭ থেকে খাদ্য নিরাপত্তা বিষয়ক নতুন নির্দেশনা কার্যকর হবে। সকল প্রতিষ্ঠানকে নির্দেশনাগুলো কঠোরভাবে মেনে চলতে হবে।
+
+    প্রতিটি খাদ্য প্রতিষ্ঠানকে পৌরসভা থেকে স্বাস্থ্য সনদ নিতে হবে। স্বাস্থ্য সনদের বার্ষিক ফি ৬০০ টাকা। রান্নাঘর পরিষ্কার-পরিচ্ছন্ন রাখতে হবে, খাবার ঢেকে রাখতে হবে এবং কর্মীদের মাথায় টুপি ও হাতে গ্লাভস ব্যবহার করতে হবে। পচা বা বাসি খাবার বিক্রি এবং খাবারে ক্ষতিকর রং মেশানো সম্পূর্ণ নিষিদ্ধ।
+
+    খাদ্য নিরাপত্তা সংক্রান্ত অভিযোগ গ্রহণের দায়িত্বে থাকবেন স্যানিটারি ইন্সপেক্টর মনিরুজ্জামান পাটোয়ারী। নিয়মিত পরিদর্শন কার্যক্রমের তত্ত্বাবধান করবেন পৌর স্বাস্থ্য কর্মকর্তা ডা. ইশরাত জাহান কেয়া। ভোক্তারা ভেজাল বা অস্বাস্থ্যকর খাবারের বিষয়ে প্রমাণসহ অভিযোগ জানাতে পারবেন এবং অভিযোগকারীর পরিচয় গোপন রাখা হবে।
+
+    নির্দেশনা অমান্যকারী প্রতিষ্ঠানকে প্রথমবার সতর্ক করা হবে এবং পুনরাবৃত্তি হলে জরিমানা করা হবে ও প্রয়োজনে প্রতিষ্ঠান সাময়িকভাবে বন্ধ করে দেওয়া হবে। নিরাপদ খাদ্য সবার অধিকার; সুস্থ জাতি গঠনে সকলের সহযোগিতা কামনা করা হচ্ছে।
+
+    মেয়র
+    বনকরবী পৌরসভা
+  answer_sentence: "খাদ্য নিরাপত্তা সংক্রান্ত অভিযোগ গ্রহণের দায়িত্বে থাকবেন স্যানিটারি ইন্সপেক্টর মনিরুজ্জামান পাটোয়ারী।"
+  insuff_replacement: "খাদ্য নিরাপত্তা সংক্রান্ত অভিযোগ পৌরসভার স্বাস্থ্য শাখার অভিযোগ ডেস্কে জমা দেওয়া যাবে।"
+  gold: {aliases: ["মনিরুজ্জামান পাটোয়ারী", "Moniruzzaman Patwary", "Moniruzzaman Patwari", "Monir Uzzaman Patowari"]}
+  q:
+    en: "Who will be in charge of receiving food safety complaints at Bonkorobi Municipality?"
+    bn: "বনকরবী পৌরসভায় খাদ্য নিরাপত্তা সংক্রান্ত অভিযোগ গ্রহণের দায়িত্বে কে থাকবেন?"
+    rbn: "bonkorobi pouroshovay khaddo nirapotta shongkranto ovijog grohoner dayitte ke thakben?"
+    cm: "বনকরবী পৌরসভায় food safety complaint নেওয়ার দায়িত্বে কে থাকবেন?"
+    cmr: "bonkorobi pouroshovay food safety complaint neyar dayitte ke thakben?"
+  sibling:
+    answer_type: amount
+    gold: {value: 600}
+    q:
+      en: "What is the annual fee for the health certificate for food businesses at Bonkorobi Municipality?"
+      bn: "বনকরবী পৌরসভায় খাদ্য প্রতিষ্ঠানের স্বাস্থ্য সনদের বার্ষিক ফি কত টাকা?"
+      rbn: "bonkorobi pouroshovay khaddo protishthaner shastho shonoder barshik fee koto taka?"
+      cm: "বনকরবী পৌরসভায় খাদ্য প্রতিষ্ঠানের health certificate এর বার্ষিক fee কত টাকা?"
+      cmr: "bonkorobi pouroshovay khaddo protishthaner health certificate er barshik fee koto taka?"
+
+- id: N082
+  format: multi
+  domain: civic
+  answer_type: number
+  entity:
+    bn: "শোলাকুড়ি ওয়ার্ড কাউন্সিল"
+    rom: "sholakuri ward council"
+    en: "Sholakuri Ward Council"
+  edit_type: deletion
+  passage: |
+    শোলাকুড়ি ওয়ার্ড কাউন্সিল
+    নিরাপদ পানি সরবরাহ প্রকল্পে উপকারভোগী নির্বাচন
+
+    শোলাকুড়ি ওয়ার্ড কাউন্সিলের আওতাধীন এলাকার বাসিন্দাদের জানানো যাচ্ছে যে, আর্সেনিক ও লবণাক্ততার সমস্যা থেকে মুক্ত নিরাপদ খাবার পানি নিশ্চিত করতে ওয়ার্ডে একটি নিরাপদ পানি সরবরাহ প্রকল্প বাস্তবায়ন করা হবে। প্রকল্পের কাজ আগামী ১০ জানুয়ারি ২০২৭ থেকে শুরু হবে।
+
+    প্রকল্পের আওতায় ওয়ার্ডে ২৫টি নতুন গভীর নলকূপ বসানো হবে। যেসব পাড়ায় বর্তমানে নিরাপদ পানির কোনো উৎস নেই এবং যেখানে বিদ্যমান নলকূপে আর্সেনিক পাওয়া গেছে, সেসব এলাকা অগ্রাধিকার পাবে। প্রতিটি নলকূপ অন্তত দশটি পরিবারের যৌথ ব্যবহারের জন্য বসানো হবে।
+
+    প্রতিটি নলকূপের জন্য উপকারভোগী পরিবারগুলোকে যৌথভাবে ২,৫০০ টাকা অংশীদারি অর্থ জমা দিতে হবে। নলকূপের জায়গা জমির মালিককে লিখিতভাবে দান করতে হবে, যাতে সকল উপকারভোগী সবসময় পানি নিতে পারেন। নলকূপ রক্ষণাবেক্ষণের জন্য প্রতিটি দলে একজন তত্ত্বাবধায়ক নির্বাচন করতে হবে।
+
+    আগ্রহী দলগুলোকে ওয়ার্ড কাউন্সিল কার্যালয় থেকে আবেদন ফরম সংগ্রহ করে পূরণ করে জমা দিতে হবে। উপকারভোগী নির্বাচন উন্মুক্ত সভায় স্বচ্ছতার সঙ্গে করা হবে। নলকূপ বরাদ্দের নামে কাউকে অতিরিক্ত অর্থ দেবেন না।
+
+    সচিব
+    শোলাকুড়ি ওয়ার্ড কাউন্সিল
+  answer_sentence: "প্রকল্পের আওতায় ওয়ার্ডে ২৫টি নতুন গভীর নলকূপ বসানো হবে।"
+  insuff_replacement: ""
+  gold: {value: 25}
+  q:
+    en: "How many new deep tube wells will be installed under the Sholakuri Ward Council's safe water project?"
+    bn: "শোলাকুড়ি ওয়ার্ড কাউন্সিলের নিরাপদ পানি প্রকল্পে কয়টি নতুন গভীর নলকূপ বসানো হবে?"
+    rbn: "sholakuri ward counciler nirapod pani prokolpe koyti notun govir nolkup boshano hobe?"
+    cm: "শোলাকুড়ি ওয়ার্ড কাউন্সিলের safe water project এ কয়টি নতুন গভীর নলকূপ বসানো হবে?"
+    cmr: "sholakuri ward counciler safe water project e koyti notun govir nolkup boshano hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 2500}
+    q:
+      en: "How much contribution must beneficiary families jointly deposit for each tube well under the Sholakuri Ward Council project?"
+      bn: "শোলাকুড়ি ওয়ার্ড কাউন্সিলের প্রকল্পে প্রতিটি নলকূপের জন্য উপকারভোগীদের কত টাকা অংশীদারি অর্থ দিতে হবে?"
+      rbn: "sholakuri ward counciler prokolpe protiti nolkuper jonno upokarvogider koto taka ongshidari ortho dite hobe?"
+      cm: "শোলাকুড়ি ওয়ার্ড কাউন্সিলের project এ প্রতিটি নলকূপের জন্য কত টাকা contribution দিতে হবে?"
+      cmr: "sholakuri ward counciler project e protiti nolkuper jonno koto taka contribution dite hobe?"
+
+- id: N083
+  format: multi
+  domain: health
+  answer_type: yesno
+  entity:
+    bn: "কেশরদাম বিশেষায়িত হাসপাতাল"
+    rom: "keshordam bisheshayito hospital"
+    en: "Keshordam Specialised Hospital"
+  edit_type: neutralisation
+  passage: |
+    কেশরদাম বিশেষায়িত হাসপাতাল
+    বহির্বিভাগের সেবা সম্প্রসারণ সংক্রান্ত বিজ্ঞপ্তি
+
+    কেশরদাম বিশেষায়িত হাসপাতালের সম্মানিত রোগীদের জানানো যাচ্ছে যে, রোগীর ক্রমবর্ধমান চাপ বিবেচনায় আগামী ৭ ফেব্রুয়ারি ২০২৭ থেকে হাসপাতালের বহির্বিভাগে বৈকালিক শিফট চালু করা হচ্ছে। এখন থেকে বহির্বিভাগ সকাল ৮টা থেকে দুপুর ২টা এবং বিকেল ৪টা থেকে রাত ৮টা পর্যন্ত খোলা থাকবে।
+
+    বহির্বিভাগে হৃদরোগ, কিডনি, স্নায়ুরোগ, ডায়াবেটিস ও হরমোন এবং বাতব্যথা বিভাগের বিশেষজ্ঞ চিকিৎসকরা রোগী দেখবেন। বিশেষজ্ঞ চিকিৎসকের পরামর্শ ফি ৭০০ টাকা। হাসপাতালের বিশেষজ্ঞ চিকিৎসকদের সঙ্গে ভিডিও কলের মাধ্যমে টেলিমেডিসিন পরামর্শও নেওয়া যাবে। পরামর্শের পর প্রেসক্রিপশনের কপি রোগীর মোবাইলে পাঠানো হবে।
+
+    সিরিয়াল নেওয়ার জন্য হাসপাতালের তথ্যকেন্দ্রে ফোন করতে হবে অথবা সরাসরি টিকিট কাউন্টারে আসতে হবে। প্রবীণ, প্রতিবন্ধী ও গর্ভবতী রোগীদের জন্য আলাদা কাউন্টার থাকবে। ফলো-আপ রোগীদের আগের প্রেসক্রিপশন ও পরীক্ষার রিপোর্ট সঙ্গে আনতে হবে।
+
+    হাসপাতালের ফার্মেসি ও ডায়াগনস্টিক বিভাগ বৈকালিক শিফট চলাকালীনও খোলা থাকবে। হাসপাতাল প্রাঙ্গণে পার্কিংয়ের জায়গা সীমিত, তাই সম্ভব হলে গণপরিবহন ব্যবহার করার অনুরোধ করা হলো। আমাদের লক্ষ্য মানসম্মত বিশেষায়িত চিকিৎসা সবার কাছে পৌঁছে দেওয়া।
+
+    পরিচালক
+    কেশরদাম বিশেষায়িত হাসপাতাল
+  answer_sentence: "হাসপাতালের বিশেষজ্ঞ চিকিৎসকদের সঙ্গে ভিডিও কলের মাধ্যমে টেলিমেডিসিন পরামর্শও নেওয়া যাবে।"
+  insuff_replacement: "টেলিমেডিসিন সেবা সংক্রান্ত তথ্য হাসপাতালের তথ্যকেন্দ্র থেকে জেনে নেওয়া যাবে।"
+  gold: {value: true}
+  q:
+    en: "Can patients get telemedicine consultations by video call with specialists at Keshordam Specialised Hospital?"
+    bn: "কেশরদাম বিশেষায়িত হাসপাতালের বিশেষজ্ঞদের সঙ্গে কি ভিডিও কলে টেলিমেডিসিন পরামর্শ নেওয়া যাবে?"
+    rbn: "keshordam bisheshayito hospitaler bisheshoggoder shonge ki video call e telemedicine poramorsho neya jabe?"
+    cm: "কেশরদাম বিশেষায়িত হাসপাতালের specialist দের সঙ্গে কি video call এ পরামর্শ নেওয়া যাবে?"
+    cmr: "keshordam bisheshayito hospitaler specialist der shonge ki video call e poramorsho neya jabe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 700}
+    q:
+      en: "What is the specialist consultation fee at the outpatient department of Keshordam Specialised Hospital?"
+      bn: "কেশরদাম বিশেষায়িত হাসপাতালের বহির্বিভাগে বিশেষজ্ঞ চিকিৎসকের পরামর্শ ফি কত টাকা?"
+      rbn: "keshordam bisheshayito hospitaler bohirbivage bisheshoggo chikitshoker poramorsho fee koto taka?"
+      cm: "কেশরদাম বিশেষায়িত হাসপাতালের outdoor এ specialist doctor এর fee কত টাকা?"
+      cmr: "keshordam bisheshayito hospitaler outdoor e specialist doctor er fee koto taka?"
+
+- id: N084
+  format: multi
+  domain: utilities
+  answer_type: amount
+  entity:
+    bn: "পাটশোলা বিদ্যুৎ বিভাগ"
+    rom: "patshola bidyut bivag"
+    en: "Patshola Electricity Department"
+  edit_type: deletion
+  passage: |
+    পাটশোলা বিদ্যুৎ বিভাগ
+    প্রিপেইড মিটার সংক্রান্ত সেবা ও ফি নির্ধারণ
+
+    পাটশোলা বিদ্যুৎ বিভাগের আওতাধীন প্রিপেইড মিটার ব্যবহারকারী গ্রাহকদের জানানো যাচ্ছে যে, আগামী ১ মার্চ ২০২৭ থেকে প্রিপেইড মিটার সংক্রান্ত বিভিন্ন সেবার নতুন ফি কার্যকর হবে। গ্রাহকসেবা সহজ করতে বিভাগের অফিসে একটি আলাদা প্রিপেইড সেবা ডেস্ক চালু করা হয়েছে।
+
+    হারানো বা নষ্ট প্রিপেইড কার্ড প্রতিস্থাপনের ফি ৩৭০ টাকা। মিটার এক স্থান থেকে অন্য স্থানে স্থানান্তরের ফি ১,১০০ টাকা। মিটারের মালিকানা পরিবর্তনের জন্য প্রয়োজনীয় কাগজপত্রসহ আবেদন করতে হবে। মিটারে কারিগরি ত্রুটি দেখা দিলে তা বিনামূল্যে পরীক্ষা করে দেওয়া হবে, তবে গ্রাহকের অবহেলায় মিটার নষ্ট হলে মেরামতের খরচ গ্রাহককে বহন করতে হবে।
+
+    প্রিপেইড কার্ড নির্ধারিত ভেন্ডিং স্টেশন, মোবাইল ব্যাংকিং অথবা বিভাগের অ্যাপের মাধ্যমে রিচার্জ করা যাবে। রিচার্জের পর টোকেন নম্বর মিটারে সঠিকভাবে প্রবেশ করাতে হবে। মিটারে ব্যালান্স কম থাকলে সতর্কসংকেত বাজবে, তাই সময়মতো রিচার্জ করার অনুরোধ করা হলো। ছুটির দিনে বা রাতে ব্যালান্স শেষ হলে জরুরি ব্যালান্স ব্যবহারের সুবিধা থাকবে।
+
+    মিটারের সিল ভাঙা বা মিটারে অবৈধ হস্তক্ষেপ দণ্ডনীয় অপরাধ। প্রিপেইড সেবা ডেস্ক কর্মদিবসে সকাল ৯টা থেকে বিকেল ৪টা পর্যন্ত খোলা থাকবে।
+
+    নির্বাহী প্রকৌশলী
+    পাটশোলা বিদ্যুৎ বিভাগ
+  answer_sentence: "হারানো বা নষ্ট প্রিপেইড কার্ড প্রতিস্থাপনের ফি ৩৭০ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 370}
+  q:
+    en: "What is the fee for replacing a lost or damaged prepaid card at the Patshola Electricity Department?"
+    bn: "পাটশোলা বিদ্যুৎ বিভাগে হারানো বা নষ্ট প্রিপেইড কার্ড বদলানোর ফি কত টাকা?"
+    rbn: "patshola bidyut bivage harano ba noshto prepaid card bodlanor fee koto taka?"
+    cm: "পাটশোলা বিদ্যুৎ বিভাগে হারানো prepaid card replace করার fee কত টাকা?"
+    cmr: "patshola bidyut bivage harano prepaid card replace korar fee koto taka?"
+  sibling:
+    answer_type: amount
+    gold: {value: 1100}
+    q:
+      en: "What is the fee for shifting a meter to another location at the Patshola Electricity Department?"
+      bn: "পাটশোলা বিদ্যুৎ বিভাগে মিটার অন্য স্থানে স্থানান্তরের ফি কত টাকা?"
+      rbn: "patshola bidyut bivage meter onno sthane sthanantorer fee koto taka?"
+      cm: "পাটশোলা বিদ্যুৎ বিভাগে meter shift করার fee কত টাকা?"
+      cmr: "patshola bidyut bivage meter shift korar fee koto taka?"
+
+- id: N085
+  format: multi
+  domain: health
+  answer_type: date
+  entity:
+    bn: "চাঁপাকলিগঞ্জ পৌরসভা"
+    rom: "chapakoliganj pouroshova"
+    en: "Chapakoliganj Municipality"
+  edit_type: neutralisation
+  passage: |
+    চাঁপাকলিগঞ্জ পৌরসভা
+    জলাতঙ্কমুক্ত শহর গড়তে কুকুরের টিকাদান কর্মসূচি
+
+    চাঁপাকলিগঞ্জ পৌরসভার সকল নাগরিকের অবগতির জন্য জানানো যাচ্ছে যে, জলাতঙ্ক রোগ প্রতিরোধে পৌর এলাকার বেওয়ারিশ ও পোষা কুকুরকে জলাতঙ্ক প্রতিরোধী টিকা দেওয়ার উদ্যোগ নেওয়া হয়েছে। কুকুরের কামড় থেকে জলাতঙ্কের ঝুঁকি কমাতে এই কর্মসূচি অত্যন্ত গুরুত্বপূর্ণ।
+
+    কুকুরকে জলাতঙ্ক প্রতিরোধী টিকা দেওয়ার কর্মসূচি আগামী ৬ অক্টোবর ২০২৭ তারিখে শুরু হবে। কর্মসূচিতে পৌর এলাকায় প্রায় ১,২৫০ কুকুরকে টিকা দেওয়ার লক্ষ্য নির্ধারণ করা হয়েছে। প্রশিক্ষিত টিকাদান দল প্রতিটি ওয়ার্ডে গিয়ে কুকুর ধরে নিরাপদে টিকা দেবে এবং টিকা দেওয়া কুকুরের গায়ে রং দিয়ে চিহ্ন দেওয়া হবে।
+
+    পোষা কুকুরের মালিকরা নির্ধারিত দিনে নিজ ওয়ার্ডের টিকাদান কেন্দ্রে কুকুর নিয়ে এসে বিনামূল্যে টিকা দিতে পারবেন। কুকুরকে কোনোভাবেই মারা বা বিষ দেওয়া যাবে না; এটি আইনত দণ্ডনীয়।
+
+    কুকুর বা বিড়াল কামড়ালে বা আঁচড় দিলে সঙ্গে সঙ্গে ক্ষতস্থান সাবান ও প্রবহমান পানি দিয়ে অন্তত পনেরো মিনিট ধুয়ে ফেলতে হবে এবং দ্রুত নিকটস্থ হাসপাতালে গিয়ে টিকা নিতে হবে। ঝাড়ফুঁক বা কবিরাজি চিকিৎসার ওপর নির্ভর করবেন না। টিকাদান দলকে সহযোগিতা করার জন্য সকল নাগরিকের প্রতি অনুরোধ জানানো হচ্ছে।
+
+    পৌর স্বাস্থ্য কর্মকর্তা
+    চাঁপাকলিগঞ্জ পৌরসভা
+  answer_sentence: "কুকুরকে জলাতঙ্ক প্রতিরোধী টিকা দেওয়ার কর্মসূচি আগামী ৬ অক্টোবর ২০২৭ তারিখে শুরু হবে।"
+  insuff_replacement: "কুকুরকে জলাতঙ্ক প্রতিরোধী টিকা দেওয়ার কর্মসূচি শুরুর তারিখ ওয়ার্ডভিত্তিক মাইকিংয়ের মাধ্যমে জানানো হবে।"
+  gold: {day: 6, month: 10, year: 2027}
+  q:
+    en: "On what date will Chapakoliganj Municipality start its rabies vaccination programme for dogs?"
+    bn: "চাঁপাকলিগঞ্জ পৌরসভার কুকুরের জলাতঙ্ক টিকাদান কর্মসূচি কোন তারিখে শুরু হবে?"
+    rbn: "chapakoliganj pouroshovar kukurer jolatongko tikadan kormoshuchi kon tarikhe shuru hobe?"
+    cm: "চাঁপাকলিগঞ্জ পৌরসভার কুকুরের rabies vaccine কর্মসূচি কোন date এ শুরু হবে?"
+    cmr: "chapakoliganj pouroshovar kukurer rabies vaccine kormoshuchi kon date e shuru hobe?"
+  sibling:
+    answer_type: number
+    gold: {value: 1250}
+    q:
+      en: "About how many dogs does Chapakoliganj Municipality aim to vaccinate in the programme?"
+      bn: "চাঁপাকলিগঞ্জ পৌরসভা কর্মসূচিতে প্রায় কয়টি কুকুরকে টিকা দেওয়ার লক্ষ্য নিয়েছে?"
+      rbn: "chapakoliganj pouroshova kormoshuchite pray koyti kukurke tika dewar lokkho niyeche?"
+      cm: "চাঁপাকলিগঞ্জ পৌরসভা program এ প্রায় কয়টি কুকুরকে টিকা দেওয়ার target নিয়েছে?"
+      cmr: "chapakoliganj pouroshova program e pray koyti kukurke tika dewar target niyeche?"
+
+- id: N086
+  format: multi
+  domain: health
+  answer_type: name
+  entity:
+    bn: "বৈঁচিবন ফিজিওথেরাপি সেন্টার"
+    rom: "boichibon physiotherapy center"
+    en: "Boichibon Physiotherapy Centre"
+  edit_type: deletion
+  passage: |
+    বৈঁচিবন ফিজিওথেরাপি সেন্টার
+    নতুন শাখা উদ্বোধন ও সেবা সংক্রান্ত বিজ্ঞপ্তি
+
+    বৈঁচিবন ফিজিওথেরাপি সেন্টারের পক্ষ থেকে জানানো যাচ্ছে যে, আগামী ১০ এপ্রিল ২০২৭ থেকে কলেজ রোডে সেন্টারের নতুন শাখায় সেবা কার্যক্রম শুরু হবে। নতুন শাখায় আধুনিক থেরাপি যন্ত্রপাতি এবং নারী রোগীদের জন্য আলাদা থেরাপি কক্ষ রয়েছে।
+
+    সেন্টারের প্রধান ফিজিওথেরাপিস্ট হিসেবে দায়িত্ব পালন করবেন সৈয়দা নাফিসা কাবির। প্রতি সোমবার ও বুধবার বিকেলে রোগী দেখবেন অর্থোপেডিক পরামর্শক ডা. রাশেদুল করিম। কোমর ব্যথা, ঘাড় ব্যথা, হাঁটুর ব্যথা, স্ট্রোক-পরবর্তী পুনর্বাসন, খেলাধুলাজনিত আঘাত এবং শিশুদের সেরিব্রাল পালসির থেরাপি দেওয়া হবে।
+
+    প্রতি সেশন থেরাপির খরচ ৬০০ টাকা। দশ সেশনের প্যাকেজ নিলে বিশেষ ছাড় পাওয়া যাবে। চলাফেরায় অক্ষম রোগীদের জন্য বাসায় গিয়ে থেরাপি দেওয়ার ব্যবস্থাও রয়েছে, যার জন্য আলাদা যাতায়াত খরচ প্রযোজ্য।
+
+    প্রথমবার আসার সময় রোগীদের আগের প্রেসক্রিপশন, এক্স-রে বা এমআরআই রিপোর্ট সঙ্গে আনতে হবে। থেরাপির সময় ঢিলেঢালা ও আরামদায়ক পোশাক পরে আসার অনুরোধ করা হলো। সেন্টার শুক্রবার ছাড়া প্রতিদিন সকাল ৯টা থেকে রাত ৮টা পর্যন্ত খোলা থাকবে। সিরিয়ালের জন্য সেন্টারের অভ্যর্থনা ডেস্কে যোগাযোগ করুন।
+
+    ব্যবস্থাপক
+    বৈঁচিবন ফিজিওথেরাপি সেন্টার
+  answer_sentence: "সেন্টারের প্রধান ফিজিওথেরাপিস্ট হিসেবে দায়িত্ব পালন করবেন সৈয়দা নাফিসা কাবির।"
+  insuff_replacement: ""
+  gold: {aliases: ["সৈয়দা নাফিসা কাবির", "Syeda Nafisa Kabir", "Sayeda Nafisa Kabir", "Syeda Nafisa Kabeer"]}
+  q:
+    en: "Who will serve as the chief physiotherapist at Boichibon Physiotherapy Centre?"
+    bn: "বৈঁচিবন ফিজিওথেরাপি সেন্টারের প্রধান ফিজিওথেরাপিস্ট কে?"
+    rbn: "boichibon physiotherapy centerer prodhan physiotherapist ke?"
+    cm: "বৈঁচিবন ফিজিওথেরাপি সেন্টারের chief physiotherapist কে?"
+    cmr: "boichibon physiotherapy centerer chief physiotherapist ke?"
+  sibling:
+    answer_type: amount
+    gold: {value: 600}
+    q:
+      en: "What is the cost per therapy session at Boichibon Physiotherapy Centre?"
+      bn: "বৈঁচিবন ফিজিওথেরাপি সেন্টারে প্রতি সেশন থেরাপির খরচ কত টাকা?"
+      rbn: "boichibon physiotherapy centere proti session therapyr khoroch koto taka?"
+      cm: "বৈঁচিবন ফিজিওথেরাপি সেন্টারে per session therapy এর খরচ কত টাকা?"
+      cmr: "boichibon physiotherapy centere per session therapy er khoroch koto taka?"
