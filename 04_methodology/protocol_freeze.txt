@@ -1,0 +1,6 @@
+protocol: 04_methodology/protocol.md v1.0
+frozen: 2026-10-24
+approved_by: Ajoy Sarker (author), via Claude Code session
+git_commit: b174fe236a8494f49920d3985a7f7b3e5c1d2766
+git_tag: protocol-v1.0
+sha256: bb82a66ed205590b4264d21d534e84e660ad658f55ed0c0773a6177213f2f9f6
