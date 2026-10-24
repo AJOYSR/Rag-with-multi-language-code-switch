@@ -78,3 +78,8 @@
 - Issues: parallel agents shared one scratchpad and one overwrote another's helper script (outputs unaffected; re-validated). Spot-read found a likely leak in N083 (flagged). 4 items have near-identical RBN/CMR questions (flagged).
 - Next: author reviews review_main sheets → `src.apply_review` (prefix review_main) → annotation sample (≥20%) for the second annotator → κ → DATA_CARD/SOURCES → G3.
 - Blocker: author review (all 170 items).
+
+### Update — 2026-10-24 (main review applied)
+- Done: author's main review recovered (encoding incident #2; nothing lost) and applied → `03_data/processed/main_items_approved.yaml`, 168 items (N083, N007 dropped); outcome `03_data/variants/review_main_outcome.json`; annotation sample `03_data/variants/annotation_sample.csv` (35 items, 21%, 315 rows).
+- Next: second native-speaker annotator fills `annotation_sample.csv` → compute percent agreement and Cohen's κ → revise/drop failing items → `03_data/DATA_CARD.md`, `03_data/raw/SOURCES.csv` → G3.
+- Blocker: second annotator.

@@ -1,0 +1,710 @@
+﻿row_type,item_id,question,version,english_reference,text_to_rate,meaning_1to3,naturalness_1to3,answer_still_findable_Y_N,comment
+NOTICE,N003,main,,Who will be the chief judge of the reading competition at Nilkamalpur Municipal Public Library?,"নীলকমলপুর পৌর গণগ্রন্থাগার
+বই পড়া প্রতিযোগিতা ২০২৭
+
+পাঠাভ্যাস গড়ে তোলার লক্ষ্যে নীলকমলপুর পৌর গণগ্রন্থাগার এ বছরও স্কুল ও কলেজের শিক্ষার্থীদের জন্য বই পড়া প্রতিযোগিতার আয়োজন করেছে। প্রতিযোগিতাটি তিনটি গ্রুপে অনুষ্ঠিত হবে: ক গ্রুপ (ষষ্ঠ থেকে অষ্টম শ্রেণি), খ গ্রুপ (নবম ও দশম শ্রেণি) এবং গ গ্রুপ (একাদশ ও দ্বাদশ শ্রেণি)।
+
+প্রত্যেক গ্রুপের জন্য নির্ধারিত তিনটি করে বই গ্রন্থাগারের পাঠকক্ষ থেকে বিনামূল্যে ধার নেওয়া যাবে। বই পড়া শেষে প্রতিযোগীদের একটি লিখিত পরীক্ষায় অংশ নিতে হবে, যেখানে বইয়ের বিষয়বস্তু থেকে প্রশ্ন করা হবে। নিবন্ধনের শেষ তারিখ ১৫ মার্চ ২০২৭। নিবন্ধনের সময় শিক্ষার্থীর পরিচয়পত্র অথবা প্রতিষ্ঠানপ্রধানের প্রত্যয়নপত্র দেখাতে হবে।
+
+ লিখিত পরীক্ষার খাতা মূল্যায়ন করবেন স্থানীয় বিদ্যালয়ের শিক্ষকদের নিয়ে গঠিত একটি কমিটি। প্রতিটি গ্রুপে প্রথম, দ্বিতীয় ও তৃতীয় স্থান অধিকারীকে বই ও সনদপত্র দেওয়া হবে। অংশগ্রহণকারী সকলকে অংশগ্রহণ সনদ দেওয়া হবে।
+
+গ্রন্থাগারের নিয়মিত সদস্য হতে চাইলে বার্ষিক সদস্য চাঁদা ৪৫০ টাকা। সদস্যরা একসঙ্গে দুটি বই দুই সপ্তাহের জন্য বাড়িতে নিতে পারবেন। গ্রন্থাগার শনিবার থেকে বৃহস্পতিবার সকাল ১০টা থেকে সন্ধ্যা ৬টা পর্যন্ত খোলা থাকে।
+
+গ্রন্থাগারিক
+নীলকমলপুর পৌর গণগ্রন্থাগার",n/a,n/a,,
+QUESTION,N003,main,BN,Who will be the chief judge of the reading competition at Nilkamalpur Municipal Public Library?,নীলকমলপুর পৌর গণগ্রন্থাগারের বই পড়া প্রতিযোগিতার প্রধান বিচারক কে?,,,n/a,
+QUESTION,N003,main,RBN,Who will be the chief judge of the reading competition at Nilkamalpur Municipal Public Library?,nilkomolpur pouro gonogronthagarer boi pora protijogitar prodhan bicharok ke?,,,n/a,
+QUESTION,N003,main,CM,Who will be the chief judge of the reading competition at Nilkamalpur Municipal Public Library?,নীলকমলপুর পৌর গণগ্রন্থাগারের reading competition এর chief judge কে?,,,n/a,
+QUESTION,N003,main,CMR,Who will be the chief judge of the reading competition at Nilkamalpur Municipal Public Library?,nilkomolpur pouro gonogronthagarer reading competition er chief judge ke?,,,n/a,
+QUESTION,N003,sibling,BN,What is the annual membership fee at Nilkamalpur Municipal Public Library?,নীলকমলপুর পৌর গণগ্রন্থাগারের বার্ষিক সদস্য চাঁদা কত টাকা?,,,n/a,
+QUESTION,N003,sibling,RBN,What is the annual membership fee at Nilkamalpur Municipal Public Library?,nilkomolpur pouro gonogronthagarer barshik shodosso chada koto taka?,,,n/a,
+QUESTION,N003,sibling,CM,What is the annual membership fee at Nilkamalpur Municipal Public Library?,নীলকমলপুর পৌর গণগ্রন্থাগারের annual membership fee কত টাকা?,,,n/a,
+QUESTION,N003,sibling,CMR,What is the annual membership fee at Nilkamalpur Municipal Public Library?,nilkomolpur pouro gonogronthagarer annual membership fee koto taka?,,,n/a,
+NOTICE,N008,main,,Who will be the chief guest at the prize-giving ceremony of Dumurtali Government Primary School?,"ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়
+বার্ষিক ক্রীড়া প্রতিযোগিতা ও পুরস্কার বিতরণী অনুষ্ঠান ২০২৭
+
+ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়ের বার্ষিক ক্রীড়া প্রতিযোগিতা আগামী ২৬ ফেব্রুয়ারি ২০২৭ তারিখে বিদ্যালয় মাঠে অনুষ্ঠিত হবে। প্রথম থেকে পঞ্চম শ্রেণির সকল শিক্ষার্থী শ্রেণিভিত্তিক বিভিন্ন খেলায় অংশ নিতে পারবে। খেলার মধ্যে রয়েছে দৌড়, বস্তা দৌড়, অঙ্ক দৌড়, মোরগ লড়াই, যেমন খুশি তেমন সাজো এবং অভিভাবকদের জন্য বিশেষ বালিশ খেলা।
+
+প্রতিযোগিতায় অংশ নিতে ইচ্ছুক শিক্ষার্থীদের নিজ নিজ শ্রেণিশিক্ষকের কাছে নাম জমা দিতে হবে। প্রতিটি শিক্ষার্থী সর্বোচ্চ তিনটি খেলায় অংশ নিতে পারবে। সকাল ৯টায় জাতীয় সংগীত ও শপথ পাঠের মধ্য দিয়ে অনুষ্ঠান শুরু হবে।
+
+বিকেলে পুরস্কার বিতরণী অনুষ্ঠানে প্রধান অতিথি হিসেবে উপজেলা শিক্ষা অফিসের একজন কর্মকর্তা উপস্থিত থাকবেন। অনুষ্ঠানে সভাপতিত্ব করবেন বিদ্যালয় পরিচালনা কমিটির সভাপতি আবদুল কুদ্দুস বেপারী। বিজয়ী শিক্ষার্থীদের হাতে পুরস্কার তুলে দেওয়ার পাশাপাশি বার্ষিক পরীক্ষায় প্রতিটি শ্রেণিতে প্রথম স্থান অধিকারীদের বিশেষ সম্মাননা দেওয়া হবে।
+
+অনুষ্ঠানের দিন শিক্ষার্থীদের বিদ্যালয়ের পোশাক পরে আসতে হবে। মাঠে পানীয় জল ও প্রাথমিক চিকিৎসার ব্যবস্থা থাকবে। অনুষ্ঠান সফল করতে সকল অভিভাবক ও এলাকাবাসীর উপস্থিতি ও সহযোগিতা কামনা করা হচ্ছে।
+
+প্রধান শিক্ষক
+ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়",n/a,n/a,,
+QUESTION,N008,main,BN,Who will be the chief guest at the prize-giving ceremony of Dumurtali Government Primary School?,ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়ের পুরস্কার বিতরণী অনুষ্ঠানে প্রধান অতিথি কে থাকবেন?,,,n/a,
+QUESTION,N008,main,RBN,Who will be the chief guest at the prize-giving ceremony of Dumurtali Government Primary School?,dumurtoli sorkari prathomik biddaloyer puroskar bitoroni onushthane prodhan otithi ke thakben?,,,n/a,
+QUESTION,N008,main,CM,Who will be the chief guest at the prize-giving ceremony of Dumurtali Government Primary School?,ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়ের prize giving অনুষ্ঠানে chief guest কে থাকবেন?,,,n/a,
+QUESTION,N008,main,CMR,Who will be the chief guest at the prize-giving ceremony of Dumurtali Government Primary School?,dumurtoli sorkari prathomik biddaloyer prize giving onushthane chief guest ke thakben?,,,n/a,
+QUESTION,N008,sibling,BN,On what date will the annual sports competition of Dumurtali Government Primary School be held?,ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়ের বার্ষিক ক্রীড়া প্রতিযোগিতা কোন তারিখে হবে?,,,n/a,
+QUESTION,N008,sibling,RBN,On what date will the annual sports competition of Dumurtali Government Primary School be held?,dumurtoli sorkari prathomik biddaloyer barshik krira protijogita kon tarikhe hobe?,,,n/a,
+QUESTION,N008,sibling,CM,On what date will the annual sports competition of Dumurtali Government Primary School be held?,ডুমুরতলী সরকারি প্রাথমিক বিদ্যালয়ের annual sports কোন date এ হবে?,,,n/a,
+QUESTION,N008,sibling,CMR,On what date will the annual sports competition of Dumurtali Government Primary School be held?,dumurtoli sorkari prathomik biddaloyer annual sports kon date e hobe?,,,n/a,
+NOTICE,N018,main,,Who is the new superintendent of Nayantara Boys' Hostel?,"নয়নতারা ছাত্রাবাস
+আবাসিক ছাত্রদের জন্য জরুরি বিজ্ঞপ্তি
+
+নয়নতারা ছাত্রাবাসের সকল আবাসিক ছাত্রের অবগতির জন্য জানানো যাচ্ছে যে, ছাত্রাবাসের প্রশাসনিক দায়িত্বে কিছু পরিবর্তন আনা হয়েছে। দীর্ঘ আট বছর দায়িত্ব পালনের পর আগের তত্ত্বাবধায়ক অবসরে গেছেন। ছাত্রাবাসে একজন নতুন তত্ত্বাবধায়ক যোগ দিয়েছেন। এখন থেকে ছুটির আবেদন, কক্ষ পরিবর্তন এবং অতিথি সংক্রান্ত সকল বিষয়ে তত্ত্বাবধায়কের অনুমতি নিতে হবে।
+
+জানুয়ারি ২০২৭ থেকে ডাইনিংয়ের মাসিক খাবার খরচ ২,৯০০ টাকা নির্ধারণ করা হয়েছে। প্রতি মাসের ৭ তারিখের মধ্যে খাবার খরচ ডাইনিং ম্যানেজারের কাছে জমা দিতে হবে। নির্ধারিত সময়ের মধ্যে টাকা জমা না দিলে ডাইনিং সুবিধা সাময়িকভাবে বন্ধ রাখা হবে। কোনো ছাত্র পরপর তিন দিনের বেশি বাইরে থাকলে আগে থেকে জানালে সেই দিনগুলোর খাবারের টাকা সমন্বয় করা হবে।
+
+ছাত্রাবাসের মূল ফটক প্রতিদিন রাত ১০টায় বন্ধ হবে। কক্ষে বৈদ্যুতিক হিটার বা রান্নার সরঞ্জাম ব্যবহার সম্পূর্ণ নিষিদ্ধ। পানির অপচয় রোধে সকলকে সচেতন থাকার অনুরোধ করা হলো। ছাত্রাবাসের সাধারণ কক্ষে টেলিভিশন দেখা যাবে রাত ১০টা পর্যন্ত।
+
+নিয়ম ভঙ্গ করলে প্রথমবার সতর্ক করা হবে এবং বারবার নিয়ম ভঙ্গ করলে আসন বাতিল করা হতে পারে। যেকোনো সমস্যা বা অভিযোগ লিখিতভাবে অফিসে জানাতে হবে।
+
+পরিচালনা কমিটি
+নয়নতারা ছাত্রাবাস",n/a,n/a,,
+QUESTION,N018,main,BN,Who is the new superintendent of Nayantara Boys' Hostel?,নয়নতারা ছাত্রাবাসের নতুন তত্ত্বাবধায়ক কে?,,,n/a,
+QUESTION,N018,main,RBN,Who is the new superintendent of Nayantara Boys' Hostel?,noyontara chatrabasher notun tottaboddhayok ke?,,,n/a,
+QUESTION,N018,main,CM,Who is the new superintendent of Nayantara Boys' Hostel?,নয়নতারা ছাত্রাবাসের নতুন superintendent কে?,,,n/a,
+QUESTION,N018,main,CMR,Who is the new superintendent of Nayantara Boys' Hostel?,noyontara chatrabasher notun superintendent ke?,,,n/a,
+QUESTION,N018,sibling,BN,What is the monthly meal charge at Nayantara Boys' Hostel from January 2027?,জানুয়ারি ২০২৭ থেকে নয়নতারা ছাত্রাবাসের মাসিক খাবার খরচ কত টাকা?,,,n/a,
+QUESTION,N018,sibling,RBN,What is the monthly meal charge at Nayantara Boys' Hostel from January 2027?,january 2027 theke noyontara chatrabasher mashik khabar khoroch koto taka?,,,n/a,
+QUESTION,N018,sibling,CM,What is the monthly meal charge at Nayantara Boys' Hostel from January 2027?,জানুয়ারি ২০২৭ থেকে নয়নতারা ছাত্রাবাসের monthly meal charge কত টাকা?,,,n/a,
+QUESTION,N018,sibling,CMR,What is the monthly meal charge at Nayantara Boys' Hostel from January 2027?,january 2027 theke noyontara chatrabasher monthly meal charge koto taka?,,,n/a,
+NOTICE,N019,main,,How many students of Rajhanspur Model School and College got GPA 5 in this year's SSC exam?,"রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ
+এসএসসি পরীক্ষার ফলাফল ও সংবর্ধনা অনুষ্ঠান
+
+আনন্দের সঙ্গে জানানো যাচ্ছে যে, এ বছরের এসএসসি পরীক্ষায় রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজের শিক্ষার্থীরা সন্তোষজনক ফলাফল অর্জন করেছে। বিদ্যালয় থেকে মোট ২১৪ জন শিক্ষার্থী পরীক্ষায় অংশ নিয়েছিল। বিজ্ঞান বিভাগের ফলাফল বিশেষভাবে ভালো হয়েছে এবং ব্যবসায় শিক্ষা বিভাগেও আগের বছরের তুলনায় ফল উন্নত হয়েছে।
+
+কৃতী শিক্ষার্থীদের সম্মানে বিদ্যালয়ের মিলনায়তনে একটি সংবর্ধনা অনুষ্ঠানের আয়োজন করা হবে। অনুষ্ঠানে জিপিএ-৫ প্রাপ্ত প্রত্যেক শিক্ষার্থীকে ক্রেস্ট ও সনদপত্র দেওয়া হবে। অভিভাবকদেরও অনুষ্ঠানে আমন্ত্রণ জানানো হচ্ছে। অনুষ্ঠানে প্রাক্তন শিক্ষার্থীদের পক্ষ থেকে একটি শিক্ষাবৃত্তি তহবিল গঠনের ঘোষণা দেওয়া হবে।
+
+যেসব শিক্ষার্থী কোনো বিষয়ে প্রত্যাশিত ফল পায়নি, তারা নির্ধারিত সময়ের মধ্যে বোর্ডের নিয়ম অনুযায়ী খাতা পুনর্নিরীক্ষণের আবেদন করতে পারবে। এ বিষয়ে সহায়তার জন্য বিদ্যালয়ের অফিসে একটি সহায়তা ডেস্ক খোলা হয়েছে।
+
+এছাড়া একাদশ শ্রেণিতে ভর্তির ক্ষেত্রে বিদ্যালয়ের নিজস্ব শিক্ষার্থীরা অগ্রাধিকার পাবে। একাদশ শ্রেণিতে ভর্তির আবেদন ফরম বিদ্যালয়ের অফিসে পাওয়া যাবে। মূল নম্বরপত্র ও প্রশংসাপত্র বোর্ড থেকে পৌঁছালে নোটিশের মাধ্যমে বিতরণের তারিখ জানানো হবে। সকল শিক্ষার্থী, শিক্ষক ও অভিভাবককে আন্তরিক অভিনন্দন।
+
+অধ্যক্ষ
+রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ",n/a,n/a,,
+QUESTION,N019,main,BN,How many students of Rajhanspur Model School and College got GPA 5 in this year's SSC exam?,এ বছরের এসএসসি পরীক্ষায় রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ থেকে কতজন শিক্ষার্থী জিপিএ-৫ পেয়েছে?,,,n/a,
+QUESTION,N019,main,RBN,How many students of Rajhanspur Model School and College got GPA 5 in this year's SSC exam?,e bochorer SSC porikkhay rajhashpur model school and college theke kotojon shikkharthi GPA 5 peyeche?,,,n/a,
+QUESTION,N019,main,CM,How many students of Rajhanspur Model School and College got GPA 5 in this year's SSC exam?,এ বছরের SSC তে রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ থেকে কতজন student GPA 5 পেয়েছে?,,,n/a,
+QUESTION,N019,main,CMR,How many students of Rajhanspur Model School and College got GPA 5 in this year's SSC exam?,e bochorer SSC te rajhashpur model school and college theke kotojon student GPA 5 peyeche?,,,n/a,
+QUESTION,N019,sibling,BN,How many students of Rajhanspur Model School and College sat for this year's SSC exam?,এ বছর রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ থেকে মোট কতজন শিক্ষার্থী এসএসসি পরীক্ষায় অংশ নিয়েছিল?,,,n/a,
+QUESTION,N019,sibling,RBN,How many students of Rajhanspur Model School and College sat for this year's SSC exam?,e bochor rajhashpur model school and college theke mot kotojon shikkharthi SSC porikkhay ongsho niyechilo?,,,n/a,
+QUESTION,N019,sibling,CM,How many students of Rajhanspur Model School and College sat for this year's SSC exam?,এ বছর রাজহাঁসপুর মডেল স্কুল অ্যান্ড কলেজ থেকে মোট কতজন student SSC exam দিয়েছিল?,,,n/a,
+QUESTION,N019,sibling,CMR,How many students of Rajhanspur Model School and College sat for this year's SSC exam?,e bochor rajhashpur model school and college theke mot kotojon student SSC exam diyechilo?,,,n/a,
+NOTICE,N030,main,,Can students from other colleges take part in the debate competition of the Banshpata College Debating Club?,"বাঁশপাতা কলেজ বিতর্ক ক্লাব
+বার্ষিক বিতর্ক প্রতিযোগিতা ২০২৭
+
+যুক্তিনির্ভর চিন্তা ও উপস্থাপনার দক্ষতা বাড়াতে বাঁশপাতা কলেজ বিতর্ক ক্লাব বার্ষিক বিতর্ক প্রতিযোগিতা ২০২৭-এর আয়োজন করেছে। প্রতিযোগিতার চূড়ান্ত পর্ব অনুষ্ঠিত হবে ১৭ আগস্ট ২০২৭ তারিখে কলেজ মিলনায়তনে। প্রাথমিক পর্বগুলো চূড়ান্ত পর্বের আগের দুই সপ্তাহে কলেজের বিভিন্ন শ্রেণিকক্ষে অনুষ্ঠিত হবে।
+
+প্রতিযোগিতা হবে সংসদীয় পদ্ধতিতে। প্রতিটি দলে তিনজন বিতার্কিক থাকবে এবং প্রত্যেক বক্তা নির্ধারিত সময় পাবেন। প্রাথমিক পর্বের বিষয় আগে থেকে জানিয়ে দেওয়া হবে, তবে চূড়ান্ত পর্বের বিষয় বিতর্ক শুরুর আধা ঘণ্টা আগে ঘোষণা করা হবে।
+
+অন্যান্য কলেজের শিক্ষার্থীদের অংশগ্রহণের বিষয়ে ক্লাবের কার্যনির্বাহী কমিটি পরে সিদ্ধান্ত জানাবে। দলের নাম ও সদস্যদের তালিকা ক্লাবের সাধারণ সম্পাদকের কাছে জমা দিতে হবে। নিবন্ধনের জন্য কোনো ফি নেই।
+
+চ্যাম্পিয়ন ও রানার্সআপ দলকে ট্রফি ও সনদপত্র দেওয়া হবে। এছাড়া চূড়ান্ত পর্বের শ্রেষ্ঠ বক্তাকে বিশেষ পুরস্কার দেওয়া হবে। বিচারক হিসেবে থাকবেন কলেজের শিক্ষক ও ক্লাবের প্রাক্তন সদস্যরা। বিতর্কে অংশগ্রহণকারীদের শালীন পোশাক পরে আসতে এবং প্রতিপক্ষের প্রতি সম্মানজনক আচরণ বজায় রাখতে অনুরোধ করা হচ্ছে। বিস্তারিত জানতে ক্লাবের কক্ষে যোগাযোগ করুন।
+
+সভাপতি
+বাঁশপাতা কলেজ বিতর্ক ক্লাব",n/a,n/a,,
+QUESTION,N030,main,BN,Can students from other colleges take part in the debate competition of the Banshpata College Debating Club?,বাঁশপাতা কলেজ বিতর্ক ক্লাবের প্রতিযোগিতায় কি অন্য কলেজের শিক্ষার্থীরা অংশ নিতে পারবে?,,,n/a,
+QUESTION,N030,main,RBN,Can students from other colleges take part in the debate competition of the Banshpata College Debating Club?,bashpata college bitorko club er protijogitay ki onno college er shikkharthira ongsho nite parbe?,,,n/a,
+QUESTION,N030,main,CM,Can students from other colleges take part in the debate competition of the Banshpata College Debating Club?,বাঁশপাতা কলেজ বিতর্ক ক্লাবের debate competition এ কি অন্য college এর students অংশ নিতে পারবে?,,,n/a,
+QUESTION,N030,main,CMR,Can students from other colleges take part in the debate competition of the Banshpata College Debating Club?,bashpata college bitorko club er debate competition e ki onno college er students ongsho nite parbe?,,,n/a,
+QUESTION,N030,sibling,BN,On what date will the final round of the Banshpata College Debating Club competition be held?,বাঁশপাতা কলেজ বিতর্ক ক্লাবের প্রতিযোগিতার চূড়ান্ত পর্ব কোন তারিখে হবে?,,,n/a,
+QUESTION,N030,sibling,RBN,On what date will the final round of the Banshpata College Debating Club competition be held?,bashpata college bitorko club er protijogitar churanto porbo kon tarikhe hobe?,,,n/a,
+QUESTION,N030,sibling,CM,On what date will the final round of the Banshpata College Debating Club competition be held?,বাঁশপাতা কলেজ বিতর্ক ক্লাবের competition এর final round কোন date এ হবে?,,,n/a,
+QUESTION,N030,sibling,CMR,On what date will the final round of the Banshpata College Debating Club competition be held?,bashpata college bitorko club er competition er final round kon date e hobe?,,,n/a,
+NOTICE,N037,main,,On what date will the written exam for lecturer posts at Gajantala Mahavidyalaya be held?,"গাজনতলা মহাবিদ্যালয়
+প্রভাষক নিয়োগ: লিখিত পরীক্ষা সংক্রান্ত বিজ্ঞপ্তি
+
+গাজনতলা মহাবিদ্যালয়ের প্রভাষক পদে নিয়োগের জন্য প্রকাশিত বিজ্ঞপ্তির পরিপ্রেক্ষিতে আবেদনকারী প্রার্থীদের জানানো যাচ্ছে যে, আবেদনপত্র যাচাই-বাছাই সম্পন্ন হয়েছে। বাংলা, ইংরেজি, অর্থনীতি, রসায়ন ও হিসাববিজ্ঞানসহ বিভিন্ন বিষয়ে মোট ৯টি প্রভাষক পদে নিয়োগ দেওয়া হবে। যোগ্য প্রার্থীদের রোল নম্বরসহ তালিকা মহাবিদ্যালয়ের নোটিশ বোর্ডে প্রকাশ করা হয়েছে।
+
+ লিখিত পরীক্ষা হবে একশো নম্বরের, যার মধ্যে সংশ্লিষ্ট বিষয়ে আশি নম্বর এবং সাধারণ জ্ঞান ও শিক্ষাবিষয়ক প্রশ্নে বিশ নম্বর থাকবে। পরীক্ষার সময় দুই ঘণ্টা।
+
+প্রার্থীদের পরীক্ষার দিন প্রবেশপত্রের সঙ্গে জাতীয় পরিচয়পত্রের মূল কপি সঙ্গে আনতে হবে। প্রবেশপত্র মহাবিদ্যালয়ের অফিস থেকে কর্মদিবসে সংগ্রহ করা যাবে। পরীক্ষাকক্ষে মোবাইল ফোন বা কোনো ইলেকট্রনিক যন্ত্র নিয়ে প্রবেশ করা যাবে না।
+
+লিখিত পরীক্ষায় উত্তীর্ণ প্রার্থীদের পরবর্তীতে মৌখিক পরীক্ষা ও শ্রেণিকক্ষে প্রদর্শনী পাঠদানের জন্য ডাকা হবে। পরীক্ষায় অংশগ্রহণের জন্য কোনো যাতায়াত ভাতা দেওয়া হবে না। কোনো প্রকার তদবির প্রার্থীর অযোগ্যতা হিসেবে বিবেচিত হবে। নিয়োগ সংক্রান্ত বিষয়ে নিয়োগ বোর্ডের সিদ্ধান্তই চূড়ান্ত।
+
+অধ্যক্ষ ও সদস্যসচিব, নিয়োগ বোর্ড
+গাজনতলা মহাবিদ্যালয়",n/a,n/a,,
+QUESTION,N037,main,BN,On what date will the written exam for lecturer posts at Gajantala Mahavidyalaya be held?,গাজনতলা মহাবিদ্যালয়ের প্রভাষক পদের লিখিত পরীক্ষা কোন তারিখে হবে?,,,n/a,
+QUESTION,N037,main,RBN,On what date will the written exam for lecturer posts at Gajantala Mahavidyalaya be held?,gajontola mohabiddaloyer provashok poder likhito porikkha kon tarikhe hobe?,,,n/a,
+QUESTION,N037,main,CM,On what date will the written exam for lecturer posts at Gajantala Mahavidyalaya be held?,গাজনতলা মহাবিদ্যালয়ের lecturer post এর written exam কোন তারিখে হবে?,,,n/a,
+QUESTION,N037,main,CMR,On what date will the written exam for lecturer posts at Gajantala Mahavidyalaya be held?,gajontola mohabiddaloyer lecturer post er written exam kon tarikhe hobe?,,,n/a,
+QUESTION,N037,sibling,BN,How many lecturer posts will be filled at Gajantala Mahavidyalaya?,গাজনতলা মহাবিদ্যালয়ে মোট কয়টি প্রভাষক পদে নিয়োগ দেওয়া হবে?,,,n/a,
+QUESTION,N037,sibling,RBN,How many lecturer posts will be filled at Gajantala Mahavidyalaya?,gajontola mohabiddaloye mot koyti provashok pode niyog dewa hobe?,,,n/a,
+QUESTION,N037,sibling,CM,How many lecturer posts will be filled at Gajantala Mahavidyalaya?,গাজনতলা মহাবিদ্যালয়ে মোট কয়টি lecturer post এ নিয়োগ হবে?,,,n/a,
+QUESTION,N037,sibling,CMR,How many lecturer posts will be filled at Gajantala Mahavidyalaya?,gajontola mohabiddaloye mot koyti lecturer post e niyog hobe?,,,n/a,
+NOTICE,N042,main,,On what date will Kulboroi Government Boys' High School publish its annual exam results?,"কুলবরই সরকারি বালক উচ্চ বিদ্যালয়
+বার্ষিক পরীক্ষা ২০২৭ সংক্রান্ত বিজ্ঞপ্তি
+
+কুলবরই সরকারি বালক উচ্চ বিদ্যালয়ের ষষ্ঠ থেকে নবম শ্রেণির সকল শিক্ষার্থী ও অভিভাবকের অবগতির জন্য জানানো যাচ্ছে যে, বার্ষিক পরীক্ষা ২০২৭ আগামী ২৩ নভেম্বর ২০২৭ তারিখ থেকে শুরু হবে। পরীক্ষা প্রতিদিন সকাল ১০টায় শুরু হবে। বিস্তারিত রুটিন শ্রেণিশিক্ষকের কাছ থেকে সংগ্রহ করা যাবে।
+
+পরীক্ষায় অংশ নিতে প্রত্যেক শিক্ষার্থীকে ডিসেম্বর মাস পর্যন্ত সকল বেতন ও পরীক্ষার ফি পরিশোধ করতে হবে। ফি পরিশোধের রসিদ দেখিয়ে শ্রেণিশিক্ষকের কাছ থেকে প্রবেশপত্র সংগ্রহ করতে হবে। প্রবেশপত্র ছাড়া কোনো শিক্ষার্থীকে পরীক্ষায় বসতে দেওয়া হবে না।
+
+পরীক্ষা চলাকালীন নিয়মিত ক্লাস বন্ধ থাকবে। শিক্ষার্থীদের পরীক্ষা শুরুর পনেরো মিনিট আগে নিজ নিজ কক্ষে উপস্থিত থাকতে হবে। পরীক্ষার হলে কোনো ধরনের বই, নোট বা মোবাইল ফোন রাখা যাবে না। অসদুপায় অবলম্বন করলে সংশ্লিষ্ট বিষয়ের পরীক্ষা বাতিল করা হবে।
+
+বার্ষিক পরীক্ষার ফলাফল প্রকাশের তারিখ শিক্ষক পরিষদের সভায় চূড়ান্ত করে জানানো হবে। ফলাফলের ভিত্তিতে পরবর্তী শ্রেণিতে উত্তীর্ণ শিক্ষার্থীদের তালিকা নোটিশ বোর্ডে টাঙানো হবে এবং প্রতিটি শ্রেণিতে প্রথম তিনজনকে পুরস্কৃত করা হবে। অকৃতকার্য শিক্ষার্থীদের অভিভাবকদের প্রধান শিক্ষকের সঙ্গে সাক্ষাৎ করতে অনুরোধ করা হলো। নতুন শিক্ষাবর্ষের ক্লাস শুরুর তারিখ ফলাফলের সঙ্গে জানিয়ে দেওয়া হবে।
+
+প্রধান শিক্ষক
+কুলবরই সরকারি বালক উচ্চ বিদ্যালয়",n/a,n/a,,
+QUESTION,N042,main,BN,On what date will Kulboroi Government Boys' High School publish its annual exam results?,কুলবরই সরকারি বালক উচ্চ বিদ্যালয়ের বার্ষিক পরীক্ষার ফলাফল কোন তারিখে প্রকাশিত হবে?,,,n/a,
+QUESTION,N042,main,RBN,On what date will Kulboroi Government Boys' High School publish its annual exam results?,kulboroi sorkari balok uccho biddaloyer barshik porikkhar folafol kon tarikhe prokashito hobe?,,,n/a,
+QUESTION,N042,main,CM,On what date will Kulboroi Government Boys' High School publish its annual exam results?,কুলবরই সরকারি বালক উচ্চ বিদ্যালয়ের annual exam এর result কোন তারিখে দেবে?,,,n/a,
+QUESTION,N042,main,CMR,On what date will Kulboroi Government Boys' High School publish its annual exam results?,kulboroi sorkari balok uccho biddaloyer annual exam er result kon tarikhe debe?,,,n/a,
+QUESTION,N042,sibling,BN,From what date will the annual exam at Kulboroi Government Boys' High School start?,কুলবরই সরকারি বালক উচ্চ বিদ্যালয়ের বার্ষিক পরীক্ষা কোন তারিখ থেকে শুরু হবে?,,,n/a,
+QUESTION,N042,sibling,RBN,From what date will the annual exam at Kulboroi Government Boys' High School start?,kulboroi sorkari balok uccho biddaloyer barshik porikkha kon tarikh theke shuru hobe?,,,n/a,
+QUESTION,N042,sibling,CM,From what date will the annual exam at Kulboroi Government Boys' High School start?,কুলবরই সরকারি বালক উচ্চ বিদ্যালয়ের annual exam কোন date থেকে শুরু হবে?,,,n/a,
+QUESTION,N042,sibling,CMR,From what date will the annual exam at Kulboroi Government Boys' High School start?,kulboroi sorkari balok uccho biddaloyer annual exam kon date theke shuru hobe?,,,n/a,
+NOTICE,N046,main,,Who will provide the thyroid ultrasonogram reports at the Jhumkolota Diagnostic Centre's screening camp?,"ঝুমকোলতা ডায়াগনস্টিক সেন্টার
+ফ্রি থাইরয়েড ও ডায়াবেটিস স্ক্রিনিং ক্যাম্প
+
+ঝুমকোলতা ডায়াগনস্টিক সেন্টারের প্রতিষ্ঠাবার্ষিকী উপলক্ষে আগামী ২০ জানুয়ারি ২০২৭ তারিখে সেন্টারের দ্বিতীয় তলায় দিনব্যাপী বিনামূল্যে থাইরয়েড ও ডায়াবেটিস স্ক্রিনিং ক্যাম্পের আয়োজন করা হয়েছে। চল্লিশ বছরের বেশি বয়সী নারী-পুরুষ এবং যাঁদের পরিবারে ডায়াবেটিসের ইতিহাস আছে, তাঁদের এই সুযোগ গ্রহণের অনুরোধ করা হলো।
+
+ক্যাম্পে খালি পেটে রক্তের গ্লুকোজ পরীক্ষা, টিএসএইচ পরীক্ষা এবং প্রয়োজনে থাইরয়েড গ্রন্থির আল্ট্রাসনোগ্রাম করা হবে। রক্ত পরীক্ষার রিপোর্ট যাচাই করবেন সেন্টারের প্যাথলজিস্ট ডা. ফয়সাল মাহতাব। রিপোর্ট পরদিন দুপুরের পর থেকে সংগ্রহ করা যাবে।
+
+ক্যাম্পের দিন স্ক্রিনিংয়ের পর অন্য যেকোনো পরীক্ষায় রোগীরা ৩০ শতাংশ ছাড় পাবেন। পরীক্ষার আগে অন্তত আট ঘণ্টা না খেয়ে আসতে হবে, তবে পানি পান করা যাবে। যাঁরা নিয়মিত ডায়াবেটিস বা থাইরয়েডের ওষুধ খান, তাঁরা ওষুধের নাম লিখে আনবেন।
+
+আসন সীমিত হওয়ায় অভ্যর্থনা ডেস্কে নাম নিবন্ধন করতে হবে। নিবন্ধনের সময় জাতীয় পরিচয়পত্র বা জন্ম নিবন্ধনের ফটোকপি সঙ্গে আনতে হবে। ক্যাম্প সকাল ৮টা থেকে দুপুর ১টা পর্যন্ত চলবে।
+
+ব্যবস্থাপক
+ঝুমকোলতা ডায়াগনস্টিক সেন্টার",n/a,n/a,,
+QUESTION,N046,main,BN,Who will provide the thyroid ultrasonogram reports at the Jhumkolota Diagnostic Centre's screening camp?,ঝুমকোলতা ডায়াগনস্টিক সেন্টারের স্ক্রিনিং ক্যাম্পে থাইরয়েড আল্ট্রাসনোগ্রামের রিপোর্ট কে দেবেন?,,,n/a,
+QUESTION,N046,main,RBN,Who will provide the thyroid ultrasonogram reports at the Jhumkolota Diagnostic Centre's screening camp?,jhumkolota diagnostic centerer screening campe thyroid ultrasonogramer report ke deben?,,,n/a,
+QUESTION,N046,main,CM,Who will provide the thyroid ultrasonogram reports at the Jhumkolota Diagnostic Centre's screening camp?,ঝুমকোলতা ডায়াগনস্টিক সেন্টারের ক্যাম্পে thyroid ultrasound এর report কে দেবেন?,,,n/a,
+QUESTION,N046,main,CMR,Who will provide the thyroid ultrasonogram reports at the Jhumkolota Diagnostic Centre's screening camp?,jhumkolota diagnostic centerer campe thyroid ultrasound er report ke deben?,,,n/a,
+QUESTION,N046,sibling,BN,What percentage discount will patients get on other tests at the Jhumkolota Diagnostic Centre on the camp day?,ক্যাম্পের দিন ঝুমকোলতা ডায়াগনস্টিক সেন্টারে অন্য পরীক্ষায় কত শতাংশ ছাড় পাওয়া যাবে?,,,n/a,
+QUESTION,N046,sibling,RBN,What percentage discount will patients get on other tests at the Jhumkolota Diagnostic Centre on the camp day?,camper din jhumkolota diagnostic centere onno porikkhay koto shotangsho char pawa jabe?,,,n/a,
+QUESTION,N046,sibling,CM,What percentage discount will patients get on other tests at the Jhumkolota Diagnostic Centre on the camp day?,ক্যাম্পের দিন ঝুমকোলতা ডায়াগনস্টিক সেন্টারে অন্য test এ কত percent discount পাওয়া যাবে?,,,n/a,
+QUESTION,N046,sibling,CMR,What percentage discount will patients get on other tests at the Jhumkolota Diagnostic Centre on the camp day?,camper din jhumkolota diagnostic centere onno test e koto percent discount pawa jabe?,,,n/a,
+NOTICE,N051,main,,Who will chair the open budget meeting of the Dhundulbari Ward Council?,"ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিল
+উন্মুক্ত বাজেট সভার নোটিশ
+
+ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিলের আওতাধীন সকল বাসিন্দার অবগতির জন্য জানানো যাচ্ছে যে, আগামী অর্থবছরের ওয়ার্ড উন্নয়ন বাজেট চূড়ান্ত করার আগে নাগরিকদের মতামত নেওয়ার জন্য একটি উন্মুক্ত বাজেট সভার আয়োজন করা হয়েছে। সভাটি আগামী ১১ এপ্রিল ২০২৭ তারিখে বিকেল ৩টায় ওয়ার্ডের সরকারি প্রাথমিক বিদ্যালয় মাঠে অনুষ্ঠিত হবে।
+
+সভার সভাপতির নাম পরবর্তীতে জানানো হবে। প্রধান অতিথি হিসেবে উপস্থিত থাকবেন পৌরসভার প্রধান নির্বাহী কর্মকর্তা সাবরিনা ইয়াসমিন চৌধুরী। সভায় গত বছরের বাজেটের আয়-ব্যয়ের হিসাব উপস্থাপন করা হবে এবং প্রস্তাবিত নতুন প্রকল্পগুলো নিয়ে আলোচনা হবে।
+
+প্রস্তাবিত প্রকল্পের মধ্যে রয়েছে ড্রেন সংস্কার, গলির রাস্তা পাকাকরণ, সড়কবাতি স্থাপন এবং কমিউনিটি ক্লিনিকের জন্য নতুন ভবন। প্রস্তাবিত বাজেটের মোট আকার ২ কোটি ৪০ লাখ টাকা। নাগরিকরা সভায় সরাসরি মতামত দিতে পারবেন অথবা সভার আগে কাউন্সিল কার্যালয়ে রাখা মতামত বাক্সে লিখিত প্রস্তাব জমা দিতে পারবেন।
+
+নারী, প্রবীণ ও প্রতিবন্ধী ব্যক্তিদের বসার জন্য সভাস্থলে আলাদা স্থান সংরক্ষিত থাকবে। সভায় এলাকার সকল শ্রেণি-পেশার মানুষের উপস্থিতি ও সক্রিয় অংশগ্রহণ একান্তভাবে কাম্য।
+
+সচিব
+ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিল",n/a,n/a,,
+QUESTION,N051,main,BN,Who will chair the open budget meeting of the Dhundulbari Ward Council?,ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিলের উন্মুক্ত বাজেট সভায় কে সভাপতিত্ব করবেন?,,,n/a,
+QUESTION,N051,main,RBN,Who will chair the open budget meeting of the Dhundulbari Ward Council?,dhundulbari ward counciler unmukto bajet shovay ke shovapotitto korben?,,,n/a,
+QUESTION,N051,main,CM,Who will chair the open budget meeting of the Dhundulbari Ward Council?,ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিলের open budget meeting এ কে সভাপতিত্ব করবেন?,,,n/a,
+QUESTION,N051,main,CMR,Who will chair the open budget meeting of the Dhundulbari Ward Council?,dhundulbari ward counciler open budget meeting e ke shovapotitto korben?,,,n/a,
+QUESTION,N051,sibling,BN,On what date will the Dhundulbari Ward Council hold its open budget meeting?,ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিলের উন্মুক্ত বাজেট সভা কোন তারিখে অনুষ্ঠিত হবে?,,,n/a,
+QUESTION,N051,sibling,RBN,On what date will the Dhundulbari Ward Council hold its open budget meeting?,dhundulbari ward counciler unmukto bajet shova kon tarikhe onushthito hobe?,,,n/a,
+QUESTION,N051,sibling,CM,On what date will the Dhundulbari Ward Council hold its open budget meeting?,ধুন্দুলবাড়ি ওয়ার্ড কাউন্সিলের budget meeting কোন date এ হবে?,,,n/a,
+QUESTION,N051,sibling,CMR,On what date will the Dhundulbari Ward Council hold its open budget meeting?,dhundulbari ward counciler budget meeting kon date e hobe?,,,n/a,
+NOTICE,N053,main,,Will customers have to pay for the installation of the prepaid meter by the Jamrultali Gas Distribution Office?,"জামরুলতলী গ্যাস বিতরণ কার্যালয়
+প্রিপেইড গ্যাস মিটার স্থাপন সংক্রান্ত বিজ্ঞপ্তি
+
+জামরুলতলী গ্যাস বিতরণ কার্যালয়ের আওতাধীন আবাসিক গ্রাহকদের জানানো যাচ্ছে যে, গ্যাসের অপচয় রোধ এবং সঠিক বিল নিশ্চিত করার লক্ষ্যে পর্যায়ক্রমে সকল আবাসিক সংযোগে প্রিপেইড গ্যাস মিটার স্থাপন করা হবে। প্রথম পর্যায়ে স্টেশন রোড, পুরাতন বাজার ও মধ্যপাড়া এলাকায় মিটার স্থাপনের কাজ আগামী ৫ জুলাই ২০২৭ তারিখ থেকে শুরু হবে।
+
+মিটার স্থাপনের আগে প্রত্যেক গ্রাহককে কার্যালয়ের গ্রাহকসেবা কেন্দ্রে নিবন্ধন করতে হবে। নিবন্ধনের সময় সর্বশেষ গ্যাস বিল পরিশোধের রসিদ, জাতীয় পরিচয়পত্রের ফটোকপি এবং গ্রাহক নম্বর সঙ্গে আনতে হবে। কোনো গ্রাহকের বকেয়া বিল থাকলে তা পরিশোধ না করা পর্যন্ত মিটার স্থাপন করা হবে না।
+
+প্রিপেইড মিটার স্থাপনের খরচ সংক্রান্ত নির্দেশনা পরবর্তী বিজ্ঞপ্তিতে জানানো হবে। মিটার স্থাপনের পর গ্রাহকরা নির্ধারিত ভেন্ডিং স্টেশন অথবা মোবাইল ব্যাংকিংয়ের মাধ্যমে কার্ড রিচার্জ করতে পারবেন। মিটার চালুর পর মাসিক নির্দিষ্ট হারে বিলের পরিবর্তে শুধু ব্যবহৃত গ্যাসের মূল্য পরিশোধ করতে হবে।
+
+মিটার স্থাপনকারী কর্মীরা কার্যালয়ের পরিচয়পত্র বহন করবেন। পরিচয়পত্র দেখে নিশ্চিত হয়ে তবেই তাঁদের বাড়িতে প্রবেশ করতে দিন। অবৈধ সংযোগ বা চুলায় রাইজার পরিবর্তন শাস্তিযোগ্য অপরাধ। গ্যাস লিকেজের গন্ধ পেলে দ্রুত জানালা খুলে দিন এবং কার্যালয়ের জরুরি নম্বরে খবর দিন।
+
+ব্যবস্থাপক
+জামরুলতলী গ্যাস বিতরণ কার্যালয়",n/a,n/a,,
+QUESTION,N053,main,BN,Will customers have to pay for the installation of the prepaid meter by the Jamrultali Gas Distribution Office?,জামরুলতলী গ্যাস বিতরণ কার্যালয়ের প্রিপেইড মিটার স্থাপনের জন্য কি গ্রাহকদের টাকা দিতে হবে?,,,n/a,
+QUESTION,N053,main,RBN,Will customers have to pay for the installation of the prepaid meter by the Jamrultali Gas Distribution Office?,jamrultoli gas bitoron karjaloyer prepaid meter sthaponer jonno ki grahokder taka dite hobe?,,,n/a,
+QUESTION,N053,main,CM,Will customers have to pay for the installation of the prepaid meter by the Jamrultali Gas Distribution Office?,জামরুলতলী গ্যাস বিতরণ কার্যালয়ের prepaid meter installation এর জন্য কি গ্রাহকদের টাকা দিতে হবে?,,,n/a,
+QUESTION,N053,main,CMR,Will customers have to pay for the installation of the prepaid meter by the Jamrultali Gas Distribution Office?,jamrultoli gas bitoron karjaloyer prepaid meter installation er jonno ki grahokder taka dite hobe?,,,n/a,
+QUESTION,N053,sibling,BN,On what date will the Jamrultali Gas Distribution Office start installing prepaid meters in the first phase?,জামরুলতলী গ্যাস বিতরণ কার্যালয় প্রথম পর্যায়ে কোন তারিখ থেকে প্রিপেইড মিটার স্থাপন শুরু করবে?,,,n/a,
+QUESTION,N053,sibling,RBN,On what date will the Jamrultali Gas Distribution Office start installing prepaid meters in the first phase?,jamrultoli gas bitoron karjaloy prothom porjaye kon tarikh theke prepaid meter sthapon shuru korbe?,,,n/a,
+QUESTION,N053,sibling,CM,On what date will the Jamrultali Gas Distribution Office start installing prepaid meters in the first phase?,জামরুলতলী গ্যাস বিতরণ কার্যালয় first phase এ কোন date থেকে মিটার স্থাপন শুরু করবে?,,,n/a,
+QUESTION,N053,sibling,CMR,On what date will the Jamrultali Gas Distribution Office start installing prepaid meters in the first phase?,jamrultoli gas bitoron karjaloy first phase e kon date theke meter sthapon shuru korbe?,,,n/a,
+NOTICE,N058,main,,Can holding tax be paid online to Chokhachokhipur Municipality this year?,"চখাচখিপুর পৌরসভা
+হোল্ডিং ট্যাক্স পরিশোধ সংক্রান্ত বিজ্ঞপ্তি
+
+চখাচখিপুর পৌরসভার সকল হোল্ডিং মালিকের অবগতির জন্য জানানো যাচ্ছে যে, চলতি অর্থবছরের হোল্ডিং ট্যাক্স ও অন্যান্য পৌর কর আদায় কার্যক্রম শুরু হয়েছে। পৌরসভার নাগরিক সেবা ও উন্নয়ন কাজ সচল রাখতে যথাসময়ে কর পরিশোধ করে সহযোগিতা করার জন্য সকলের প্রতি অনুরোধ জানানো হচ্ছে।
+
+যাঁরা আগামী ৩১ মার্চ ২০২৭ তারিখের মধ্যে চলতি অর্থবছরের সম্পূর্ণ কর পরিশোধ করবেন, তাঁরা ১০ শতাংশ রেয়াত পাবেন। নির্ধারিত সময়ের পরে কর পরিশোধ করলে বিধি অনুযায়ী সারচার্জ প্রযোজ্য হবে।
+
+কর পরিশোধের সময় হোল্ডিং নম্বর উল্লেখ করতে হবে। যাঁদের হোল্ডিং নম্বর জানা নেই, তাঁরা পৌরসভার রাজস্ব শাখায় গিয়ে জেনে নিতে পারবেন। নতুন ভবন নির্মাণ বা ভবনের আয়তন বৃদ্ধি পেলে তা পৌরসভাকে জানাতে হবে, যাতে কর পুনর্নির্ধারণ করা যায়। কোনো হোল্ডিং মালিক কর নির্ধারণে আপত্তি জানাতে চাইলে রাজস্ব কর্মকর্তা বরাবর লিখিত আবেদন করতে পারবেন।
+
+দীর্ঘদিনের বকেয়া কর আদায়ে পৌরসভা শিগগিরই বিশেষ অভিযান পরিচালনা করবে। বকেয়া কর পরিশোধ না করলে ট্রেড লাইসেন্স নবায়নসহ পৌরসভার বিভিন্ন সেবা পেতে সমস্যা হতে পারে। পৌরসভার উন্নয়নে আপনার অংশগ্রহণ একান্ত কাম্য।
+
+রাজস্ব কর্মকর্তা
+চখাচখিপুর পৌরসভা",n/a,n/a,,
+QUESTION,N058,main,BN,Can holding tax be paid online to Chokhachokhipur Municipality this year?,এ বছর কি চখাচখিপুর পৌরসভার হোল্ডিং ট্যাক্স অনলাইনে পরিশোধ করা যাবে?,,,n/a,
+QUESTION,N058,main,RBN,Can holding tax be paid online to Chokhachokhipur Municipality this year?,e bochor ki chokhachokhipur pouroshovar holding tax online e porishodh kora jabe?,,,n/a,
+QUESTION,N058,main,CM,Can holding tax be paid online to Chokhachokhipur Municipality this year?,এ বছর কি চখাচখিপুর পৌরসভার holding tax online এ pay করা যাবে?,,,n/a,
+QUESTION,N058,main,CMR,Can holding tax be paid online to Chokhachokhipur Municipality this year?,e bochor ki chokhachokhipur pouroshovar holding tax online e pay kora jabe?,,,n/a,
+QUESTION,N058,sibling,BN,By what date must the full tax be paid to Chokhachokhipur Municipality to get the rebate?,রেয়াত পেতে চখাচখিপুর পৌরসভায় কোন তারিখের মধ্যে সম্পূর্ণ কর পরিশোধ করতে হবে?,,,n/a,
+QUESTION,N058,sibling,RBN,By what date must the full tax be paid to Chokhachokhipur Municipality to get the rebate?,reyat pete chokhachokhipur pouroshovay kon tarikher moddhe shompurno kor porishodh korte hobe?,,,n/a,
+QUESTION,N058,sibling,CM,By what date must the full tax be paid to Chokhachokhipur Municipality to get the rebate?,rebate পেতে চখাচখিপুর পৌরসভায় কোন date এর মধ্যে সম্পূর্ণ tax দিতে হবে?,,,n/a,
+QUESTION,N058,sibling,CMR,By what date must the full tax be paid to Chokhachokhipur Municipality to get the rebate?,rebate pete chokhachokhipur pouroshovay kon date er moddhe shompurno tax dite hobe?,,,n/a,
+NOTICE,N059,main,,What is the service charge for home sample collection at Shojnetola Pathology Lab?,"শজনেতলা প্যাথলজি ল্যাব
+বাসা থেকে নমুনা সংগ্রহ সেবা চালু
+
+শজনেতলা প্যাথলজি ল্যাবের পক্ষ থেকে সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, আগামী ১০ জানুয়ারি ২০২৭ থেকে প্রবীণ, অসুস্থ ও চলাফেরায় অক্ষম রোগীদের সুবিধার্থে বাসা থেকে রক্ত ও প্রস্রাবের নমুনা সংগ্রহ সেবা চালু করা হচ্ছে। প্রশিক্ষিত টেকনোলজিস্ট নির্ধারিত সময়ে বাসায় গিয়ে নমুনা সংগ্রহ করবেন।
+
+বাসা থেকে নমুনা সংগ্রহের জন্য আগের দিন সন্ধ্যার মধ্যে ল্যাবের নম্বরে ফোন করে সময় নির্ধারণ করতে হবে। নমুনা সংগ্রহ প্রতিদিন সকাল ৭টা থেকে ১১টার মধ্যে করা হবে। বাসা থেকে নমুনা সংগ্রহের সার্ভিস চার্জ এলাকাভেদে ভিন্ন হবে এবং সময় নির্ধারণের সময় ফোনে জানিয়ে দেওয়া হবে।
+
+ল্যাবে নিয়মিত পরীক্ষার মধ্যে সিবিসি পরীক্ষার খরচ ৪০০ টাকা। প্রবীণদের জন্য বিশেষ স্বাস্থ্য প্যাকেজে ৮টি পরীক্ষা রয়েছে, যার মধ্যে রক্তের শর্করা, কোলেস্টেরল, কিডনি ও লিভারের কার্যকারিতা পরীক্ষা অন্তর্ভুক্ত। এই প্যাকেজের মূল্য ১,৫০০ টাকা।
+
+অধিকাংশ পরীক্ষার রিপোর্ট নমুনা সংগ্রহের দিন সন্ধ্যার মধ্যে মোবাইলে বার্তার মাধ্যমে পাঠানো হবে এবং মূল রিপোর্ট ল্যাব থেকে সংগ্রহ করা যাবে। খালি পেটে করার পরীক্ষার ক্ষেত্রে রোগীকে আগের রাত থেকে না খেয়ে থাকতে হবে। বিল নগদ অথবা মোবাইল ব্যাংকিংয়ের মাধ্যমে পরিশোধ করা যাবে। সঠিক রিপোর্টই সঠিক চিকিৎসার প্রথম ধাপ।
+
+ব্যবস্থাপক
+শজনেতলা প্যাথলজি ল্যাব",n/a,n/a,,
+QUESTION,N059,main,BN,What is the service charge for home sample collection at Shojnetola Pathology Lab?,শজনেতলা প্যাথলজি ল্যাবে বাসা থেকে নমুনা সংগ্রহের সার্ভিস চার্জ কত টাকা?,,,n/a,
+QUESTION,N059,main,RBN,What is the service charge for home sample collection at Shojnetola Pathology Lab?,shojnetola pathology lab e basha theke nomuna shongroher service charge koto taka?,,,n/a,
+QUESTION,N059,main,CM,What is the service charge for home sample collection at Shojnetola Pathology Lab?,শজনেতলা প্যাথলজি ল্যাবে home sample collection এর charge কত টাকা?,,,n/a,
+QUESTION,N059,main,CMR,What is the service charge for home sample collection at Shojnetola Pathology Lab?,shojnetola pathology lab e home sample collection er charge koto taka?,,,n/a,
+QUESTION,N059,sibling,BN,What is the price of the special health package for elderly people at Shojnetola Pathology Lab?,শজনেতলা প্যাথলজি ল্যাবে প্রবীণদের বিশেষ স্বাস্থ্য প্যাকেজের মূল্য কত টাকা?,,,n/a,
+QUESTION,N059,sibling,RBN,What is the price of the special health package for elderly people at Shojnetola Pathology Lab?,shojnetola pathology lab e probinder bishesh shastho packager mullo koto taka?,,,n/a,
+QUESTION,N059,sibling,CM,What is the price of the special health package for elderly people at Shojnetola Pathology Lab?,শজনেতলা প্যাথলজি ল্যাবে প্রবীণদের health package এর দাম কত টাকা?,,,n/a,
+QUESTION,N059,sibling,CMR,What is the price of the special health package for elderly people at Shojnetola Pathology Lab?,shojnetola pathology lab e probinder health package er dam koto taka?,,,n/a,
+NOTICE,N063,main,,Will children under twelve be allowed to enter the wards at Moynakata Upazila Health Complex?,"ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্স
+অন্তর্বিভাগে দর্শনার্থীদের জন্য নতুন নিয়মাবলি
+
+ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্সে ভর্তি রোগীদের সংক্রমণের ঝুঁকি কমানো এবং ওয়ার্ডে শৃঙ্খলা বজায় রাখার লক্ষ্যে আগামী ১ মে ২০২৭ থেকে দর্শনার্থীদের জন্য নতুন নিয়মাবলি কার্যকর হবে। সকল রোগীর স্বজন ও দর্শনার্থীকে নিচের নিয়মগুলো মেনে চলার অনুরোধ করা হলো।
+
+দর্শনার্থীরা প্রতিদিন দুপুর ১টা থেকে ২টা এবং বিকেল ৫টা থেকে সন্ধ্যা ৭টা পর্যন্ত ওয়ার্ডে প্রবেশ করতে পারবেন। একজন রোগীর কাছে একসঙ্গে সর্বোচ্চ ২ জন দর্শনার্থী থাকতে পারবেন। শিশুদের ওয়ার্ডে প্রবেশ সংক্রান্ত নিয়ম অভ্যর্থনা কক্ষে টাঙানো নোটিশে দেখে নিতে হবে। রাতে রোগীর সঙ্গে থাকার জন্য একজন সহযোগীকে নার্সিং স্টেশন থেকে পাস সংগ্রহ করতে হবে।
+
+ওয়ার্ডে প্রবেশের আগে হাত ধোয়া বা স্যানিটাইজার ব্যবহার বাধ্যতামূলক। সর্দি-কাশি বা জ্বর থাকলে রোগী দেখতে না আসার অনুরোধ করা হলো। বাইরের খাবার আনার ক্ষেত্রে কর্তব্যরত নার্সের অনুমতি নিতে হবে। ওয়ার্ডে উচ্চস্বরে কথা বলা, মোবাইলে জোরে গান বাজানো এবং ধূমপান সম্পূর্ণ নিষিদ্ধ।
+
+নিয়ম ভঙ্গ করলে নিরাপত্তাকর্মীরা দর্শনার্থীকে ওয়ার্ড থেকে বের করে দিতে পারবেন। রোগীর সুস্থতার স্বার্থে সকলের সহযোগিতা কামনা করা হচ্ছে।
+
+উপজেলা স্বাস্থ্য ও পরিবার পরিকল্পনা কর্মকর্তা
+ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্স",n/a,n/a,,
+QUESTION,N063,main,BN,Will children under twelve be allowed to enter the wards at Moynakata Upazila Health Complex?,ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্সে বারো বছরের কম বয়সী শিশুরা কি ওয়ার্ডে ঢুকতে পারবে?,,,n/a,
+QUESTION,N063,main,RBN,Will children under twelve be allowed to enter the wards at Moynakata Upazila Health Complex?,moynakata upojela shastho complex e baro bochorer kom boyoshi shishura ki warde dhukte parbe?,,,n/a,
+QUESTION,N063,main,CM,Will children under twelve be allowed to enter the wards at Moynakata Upazila Health Complex?,ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্সে বারো বছরের কম বয়সী children কি ward এ ঢুকতে পারবে?,,,n/a,
+QUESTION,N063,main,CMR,Will children under twelve be allowed to enter the wards at Moynakata Upazila Health Complex?,moynakata upojela shastho complex e baro bochorer kom boyoshi children ki ward e dhukte parbe?,,,n/a,
+QUESTION,N063,sibling,BN,What is the maximum number of visitors allowed with a patient at one time at Moynakata Upazila Health Complex?,ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্সে একজন রোগীর কাছে একসঙ্গে সর্বোচ্চ কতজন দর্শনার্থী থাকতে পারবেন?,,,n/a,
+QUESTION,N063,sibling,RBN,What is the maximum number of visitors allowed with a patient at one time at Moynakata Upazila Health Complex?,moynakata upojela shastho complex e ekjon rogir kache ekshonge shorbocho kotojon dorshonarthi thakte parben?,,,n/a,
+QUESTION,N063,sibling,CM,What is the maximum number of visitors allowed with a patient at one time at Moynakata Upazila Health Complex?,ময়নাকাঁটা উপজেলা স্বাস্থ্য কমপ্লেক্সে একজন patient এর কাছে একসঙ্গে সর্বোচ্চ কতজন visitor থাকতে পারবেন?,,,n/a,
+QUESTION,N063,sibling,CMR,What is the maximum number of visitors allowed with a patient at one time at Moynakata Upazila Health Complex?,moynakata upojela shastho complex e ekjon patient er kache ekshonge shorbocho kotojon visitor thakte parben?,,,n/a,
+NOTICE,N065,main,,On what date will Jhanjharidanga Union Parishad hold the open ward meeting to select old-age allowance recipients?,"ঝাঁঝরিডাঙা ইউনিয়ন পরিষদ
+বয়স্ক ভাতাভোগী বাছাই সংক্রান্ত বিজ্ঞপ্তি
+
+ঝাঁঝরিডাঙা ইউনিয়ন পরিষদের আওতাধীন সকল নাগরিকের অবগতির জন্য জানানো যাচ্ছে যে, চলতি অর্থবছরে নতুন বয়স্ক ভাতাভোগী বাছাইয়ের কার্যক্রম শুরু হয়েছে। এ বছর ইউনিয়নে নতুন ৮৭ জন প্রবীণ নাগরিককে বয়স্ক ভাতার আওতায় আনা হবে।
+
+আবেদনকারী পুরুষের বয়স অন্তত ৬৫ বছর এবং নারীর বয়স অন্তত ৬২ বছর হতে হবে। আবেদনকারীর বার্ষিক গড় আয় নির্ধারিত সীমার মধ্যে থাকতে হবে এবং তিনি অন্য কোনো সরকারি ভাতা পেলে আবেদন করতে পারবেন না। আবেদন ফরম ইউনিয়ন ডিজিটাল সেন্টার থেকে বিনামূল্যে সংগ্রহ করা যাবে। পূরণকৃত আবেদন জমার শেষ তারিখ ১৫ ফেব্রুয়ারি ২০২৭।
+
+ভাতাভোগী বাছাইয়ের উন্মুক্ত ওয়ার্ড সভা ইউনিয়ন পরিষদ চত্বরে অনুষ্ঠিত হবে; সভার দিন-তারিখ পরে ঢোলশহরত করে জানানো হবে। সভায় আবেদনকারীদের সশরীরে উপস্থিত থাকতে হবে এবং জাতীয় পরিচয়পত্রের মূল কপি সঙ্গে আনতে হবে। বাছাই কমিটি এলাকাবাসীর উপস্থিতিতে প্রকাশ্যে যাচাই করে চূড়ান্ত তালিকা প্রস্তুত করবে।
+
+বাছাই প্রক্রিয়া সম্পূর্ণ বিনামূল্যে। ভাতা পাইয়ে দেওয়ার নামে কেউ অর্থ দাবি করলে সঙ্গে সঙ্গে পরিষদের চেয়ারম্যানকে জানানোর অনুরোধ করা হলো। প্রতিবন্ধী, বিধবা ও স্বামী পরিত্যক্তা প্রবীণ নারীরা অগ্রাধিকার পাবেন।
+
+চেয়ারম্যান
+ঝাঁঝরিডাঙা ইউনিয়ন পরিষদ",n/a,n/a,,
+QUESTION,N065,main,BN,On what date will Jhanjharidanga Union Parishad hold the open ward meeting to select old-age allowance recipients?,ঝাঁঝরিডাঙা ইউনিয়ন পরিষদের বয়স্ক ভাতাভোগী বাছাইয়ের উন্মুক্ত সভা কোন তারিখে হবে?,,,n/a,
+QUESTION,N065,main,RBN,On what date will Jhanjharidanga Union Parishad hold the open ward meeting to select old-age allowance recipients?,jhanjhoridanga union porishoder boyosko vatavogi bachaier unmukto shova kon tarikhe hobe?,,,n/a,
+QUESTION,N065,main,CM,On what date will Jhanjharidanga Union Parishad hold the open ward meeting to select old-age allowance recipients?,ঝাঁঝরিডাঙা ইউনিয়ন পরিষদের বয়স্ক ভাতা বাছাইয়ের open meeting কোন date এ হবে?,,,n/a,
+QUESTION,N065,main,CMR,On what date will Jhanjharidanga Union Parishad hold the open ward meeting to select old-age allowance recipients?,jhanjhoridanga union porishoder boyosko vata bachaier open meeting kon date e hobe?,,,n/a,
+QUESTION,N065,sibling,BN,How many new elderly citizens will be brought under the old-age allowance this year by Jhanjharidanga Union Parishad?,ঝাঁঝরিডাঙা ইউনিয়ন পরিষদে এ বছর নতুন কতজন প্রবীণকে বয়স্ক ভাতার আওতায় আনা হবে?,,,n/a,
+QUESTION,N065,sibling,RBN,How many new elderly citizens will be brought under the old-age allowance this year by Jhanjharidanga Union Parishad?,jhanjhoridanga union porishode e bochor notun kotojon probinke boyosko vatar aotay ana hobe?,,,n/a,
+QUESTION,N065,sibling,CM,How many new elderly citizens will be brought under the old-age allowance this year by Jhanjharidanga Union Parishad?,ঝাঁঝরিডাঙা ইউনিয়ন পরিষদে এ বছর নতুন কতজন elderly মানুষকে বয়স্ক ভাতা দেওয়া হবে?,,,n/a,
+QUESTION,N065,sibling,CMR,How many new elderly citizens will be brought under the old-age allowance this year by Jhanjharidanga Union Parishad?,jhanjhoridanga union porishode e bochor notun kotojon elderly manushke boyosko vata dewa hobe?,,,n/a,
+NOTICE,N072,main,,How many LED street lights will be installed under the Nuniyagachha Municipality project?,"নুনিয়াগাছা পৌরসভা
+সড়কবাতি স্থাপন প্রকল্প সংক্রান্ত বিজ্ঞপ্তি
+
+নুনিয়াগাছা পৌরসভার সকল নাগরিকের অবগতির জন্য জানানো যাচ্ছে যে, রাতের বেলায় চলাচল নিরাপদ করা এবং বিদ্যুৎ সাশ্রয়ের লক্ষ্যে পৌর এলাকার প্রধান সড়ক ও গলিপথে নতুন এলইডি সড়কবাতি স্থাপনের প্রকল্প হাতে নেওয়া হয়েছে। প্রকল্পের কাজ আগামী ৩ জানুয়ারি ২০২৭ থেকে শুরু হবে।
+
+ প্রথম পর্যায়ে বাজার এলাকা, বাসস্ট্যান্ড, হাসপাতাল সড়ক এবং বিদ্যালয়ের আশপাশের রাস্তায় বাতি বসানো হবে। দ্বিতীয় পর্যায়ে আবাসিক এলাকার গলিপথগুলো প্রকল্পের আওতায় আসবে। প্রকল্পের কাজ ৩১ মে ২০২৭ তারিখের মধ্যে শেষ করার লক্ষ্য নির্ধারণ করা হয়েছে।
+
+নতুন বাতিগুলো সন্ধ্যায় স্বয়ংক্রিয়ভাবে জ্বলবে এবং ভোরে নিভে যাবে। পুরোনো সোডিয়াম বাতির তুলনায় এলইডি বাতিতে বিদ্যুৎ খরচ অনেক কম হবে। কাজ চলাকালীন কিছু সড়কে সাময়িকভাবে যান চলাচলে বিঘ্ন ঘটতে পারে, সেজন্য পৌরবাসীর সহযোগিতা কামনা করা হচ্ছে।
+
+কোনো এলাকায় সড়কবাতি নষ্ট হলে বা জ্বলে না থাকলে পৌরসভার বিদ্যুৎ শাখায় খুঁটির নম্বর উল্লেখ করে অভিযোগ জানানো যাবে। সড়কবাতি বা খুঁটির ক্ষতি করা দণ্ডনীয় অপরাধ। নিরাপদ ও আলোকিত শহর গড়তে সকলের সহযোগিতা কাম্য।
+
+নির্বাহী প্রকৌশলী
+নুনিয়াগাছা পৌরসভা",n/a,n/a,,
+QUESTION,N072,main,BN,How many LED street lights will be installed under the Nuniyagachha Municipality project?,নুনিয়াগাছা পৌরসভার প্রকল্পের আওতায় কয়টি এলইডি সড়কবাতি স্থাপন করা হবে?,,,n/a,
+QUESTION,N072,main,RBN,How many LED street lights will be installed under the Nuniyagachha Municipality project?,nuniyagacha pouroshovar prokolper aotay koyti LED shorokbati sthapon kora hobe?,,,n/a,
+QUESTION,N072,main,CM,How many LED street lights will be installed under the Nuniyagachha Municipality project?,নুনিয়াগাছা পৌরসভার project এর আওতায় কয়টি LED street light বসানো হবে?,,,n/a,
+QUESTION,N072,main,CMR,How many LED street lights will be installed under the Nuniyagachha Municipality project?,nuniyagacha pouroshovar project er aotay koyti LED street light boshano hobe?,,,n/a,
+QUESTION,N072,sibling,BN,By what date does Nuniyagachha Municipality aim to finish the street light project?,নুনিয়াগাছা পৌরসভা কোন তারিখের মধ্যে সড়কবাতি প্রকল্পের কাজ শেষ করতে চায়?,,,n/a,
+QUESTION,N072,sibling,RBN,By what date does Nuniyagachha Municipality aim to finish the street light project?,nuniyagacha pouroshova kon tarikher moddhe shorokbati prokolper kaj shesh korte chay?,,,n/a,
+QUESTION,N072,sibling,CM,By what date does Nuniyagachha Municipality aim to finish the street light project?,নুনিয়াগাছা পৌরসভা কোন date এর মধ্যে street light project শেষ করতে চায়?,,,n/a,
+QUESTION,N072,sibling,CMR,By what date does Nuniyagachha Municipality aim to finish the street light project?,nuniyagacha pouroshova kon date er moddhe street light project shesh korte chay?,,,n/a,
+NOTICE,N073,main,,Can the water supplied by the Joldhupi Water Treatment Plant be drunk without boiling?,"জলঢুপি পানি শোধনাগার
+পানি সরবরাহের নতুন সময়সূচি ও গ্রাহকদের প্রতি নির্দেশনা
+
+জলঢুপি পানি শোধনাগারের আওতাধীন এলাকার গ্রাহকদের জানানো যাচ্ছে যে, শোধনাগারের সক্ষমতা বৃদ্ধির কাজ সম্পন্ন হওয়ায় আগামী ১৬ মার্চ ২০২৭ থেকে পানি সরবরাহের নতুন সময়সূচি কার্যকর হবে। নতুন সময়সূচি অনুযায়ী প্রতিদিন ভোর ৫টা থেকে সকাল ৯টা এবং বিকেল ৪টা থেকে রাত ৮টা পর্যন্ত পানি সরবরাহ করা হবে।
+
+শোধনাগারে নদীর পানি কয়েক ধাপে পরিশোধন করে পাইপলাইনের মাধ্যমে বাসাবাড়িতে পাঠানো হয়। সরবরাহকৃত পানি পানের বিষয়ে প্রয়োজনীয় পরামর্শ পরবর্তী বিজ্ঞপ্তিতে জানানো হবে। গ্রাহকদের বাড়ির পানির ট্যাংক অন্তত তিন মাস পরপর পরিষ্কার করার অনুরোধ করা হলো, কারণ অপরিষ্কার ট্যাংকে পানির মান নষ্ট হতে পারে।
+
+শোধনাগারের পরীক্ষাগারে প্রতিদিন পানির নমুনা পরীক্ষা করা হয়। কোনো এলাকায় পানির রং, গন্ধ বা স্বাদে অস্বাভাবিকতা দেখা দিলে দ্রুত শোধনাগারের অভিযোগ কেন্দ্রে জানাতে হবে। পাইপলাইনে ছিদ্র বা লিকেজ চোখে পড়লেও অনুগ্রহ করে জানাবেন।
+
+পানির অপচয় রোধে কল খোলা না রাখার এবং মোটর দিয়ে সরাসরি লাইন থেকে পানি না টানার অনুরোধ করা হলো। মোটর দিয়ে সরাসরি পানি টানলে সংযোগ বিচ্ছিন্ন করা হবে। নিরাপদ পানি সবার অধিকার; এর সঠিক ব্যবহার নিশ্চিত করা আমাদের সকলের দায়িত্ব।
+
+প্রধান প্রকৌশলী
+জলঢুপি পানি শোধনাগার",n/a,n/a,,
+QUESTION,N073,main,BN,Can the water supplied by the Joldhupi Water Treatment Plant be drunk without boiling?,জলঢুপি পানি শোধনাগারের সরবরাহ করা পানি কি না ফুটিয়ে পান করা যাবে?,,,n/a,
+QUESTION,N073,main,RBN,Can the water supplied by the Joldhupi Water Treatment Plant be drunk without boiling?,joldhupi pani shodhonagarer shorboraho kora pani ki na futiye pan kora jabe?,,,n/a,
+QUESTION,N073,main,CM,Can the water supplied by the Joldhupi Water Treatment Plant be drunk without boiling?,জলঢুপি পানি শোধনাগারের supply করা পানি কি boil না করে খাওয়া যাবে?,,,n/a,
+QUESTION,N073,main,CMR,Can the water supplied by the Joldhupi Water Treatment Plant be drunk without boiling?,joldhupi pani shodhonagarer supply kora pani ki boil na kore khawa jabe?,,,n/a,
+QUESTION,N073,sibling,BN,From what date will the new water supply schedule of the Joldhupi Water Treatment Plant take effect?,জলঢুপি পানি শোধনাগারের পানি সরবরাহের নতুন সময়সূচি কোন তারিখ থেকে কার্যকর হবে?,,,n/a,
+QUESTION,N073,sibling,RBN,From what date will the new water supply schedule of the Joldhupi Water Treatment Plant take effect?,joldhupi pani shodhonagarer pani shorborahor notun shomoyshuchi kon tarikh theke karjokor hobe?,,,n/a,
+QUESTION,N073,sibling,CM,From what date will the new water supply schedule of the Joldhupi Water Treatment Plant take effect?,জলঢুপি পানি শোধনাগারের নতুন supply schedule কোন date থেকে চালু হবে?,,,n/a,
+QUESTION,N073,sibling,CMR,From what date will the new water supply schedule of the Joldhupi Water Treatment Plant take effect?,joldhupi pani shodhonagarer notun supply schedule kon date theke chalu hobe?,,,n/a,
+NOTICE,N082,main,,How many new deep tube wells will be installed under the Sholakuri Ward Council's safe water project?,"শোলাকুড়ি ওয়ার্ড কাউন্সিল
+নিরাপদ পানি সরবরাহ প্রকল্পে উপকারভোগী নির্বাচন
+
+শোলাকুড়ি ওয়ার্ড কাউন্সিলের আওতাধীন এলাকার বাসিন্দাদের জানানো যাচ্ছে যে, আর্সেনিক ও লবণাক্ততার সমস্যা থেকে মুক্ত নিরাপদ খাবার পানি নিশ্চিত করতে ওয়ার্ডে একটি নিরাপদ পানি সরবরাহ প্রকল্প বাস্তবায়ন করা হবে। প্রকল্পের কাজ আগামী ১০ জানুয়ারি ২০২৭ থেকে শুরু হবে।
+
+ যেসব পাড়ায় বর্তমানে নিরাপদ পানির কোনো উৎস নেই এবং যেখানে বিদ্যমান নলকূপে আর্সেনিক পাওয়া গেছে, সেসব এলাকা অগ্রাধিকার পাবে। প্রতিটি নলকূপ অন্তত দশটি পরিবারের যৌথ ব্যবহারের জন্য বসানো হবে।
+
+প্রতিটি নলকূপের জন্য উপকারভোগী পরিবারগুলোকে যৌথভাবে ২,৫০০ টাকা অংশীদারি অর্থ জমা দিতে হবে। নলকূপের জায়গা জমির মালিককে লিখিতভাবে দান করতে হবে, যাতে সকল উপকারভোগী সবসময় পানি নিতে পারেন। নলকূপ রক্ষণাবেক্ষণের জন্য প্রতিটি দলে একজন তত্ত্বাবধায়ক নির্বাচন করতে হবে।
+
+আগ্রহী দলগুলোকে ওয়ার্ড কাউন্সিল কার্যালয় থেকে আবেদন ফরম সংগ্রহ করে পূরণ করে জমা দিতে হবে। উপকারভোগী নির্বাচন উন্মুক্ত সভায় স্বচ্ছতার সঙ্গে করা হবে। নলকূপ বরাদ্দের নামে কাউকে অতিরিক্ত অর্থ দেবেন না।
+
+সচিব
+শোলাকুড়ি ওয়ার্ড কাউন্সিল",n/a,n/a,,
+QUESTION,N082,main,BN,How many new deep tube wells will be installed under the Sholakuri Ward Council's safe water project?,শোলাকুড়ি ওয়ার্ড কাউন্সিলের নিরাপদ পানি প্রকল্পে কয়টি নতুন গভীর নলকূপ বসানো হবে?,,,n/a,
+QUESTION,N082,main,RBN,How many new deep tube wells will be installed under the Sholakuri Ward Council's safe water project?,sholakuri ward counciler nirapod pani prokolpe koyti notun govir nolkup boshano hobe?,,,n/a,
+QUESTION,N082,main,CM,How many new deep tube wells will be installed under the Sholakuri Ward Council's safe water project?,শোলাকুড়ি ওয়ার্ড কাউন্সিলের safe water project এ কয়টি নতুন গভীর নলকূপ বসানো হবে?,,,n/a,
+QUESTION,N082,main,CMR,How many new deep tube wells will be installed under the Sholakuri Ward Council's safe water project?,sholakuri ward counciler safe water project e koyti notun govir nolkup boshano hobe?,,,n/a,
+QUESTION,N082,sibling,BN,How much contribution must beneficiary families jointly deposit for each tube well under the Sholakuri Ward Council project?,শোলাকুড়ি ওয়ার্ড কাউন্সিলের প্রকল্পে প্রতিটি নলকূপের জন্য উপকারভোগীদের কত টাকা অংশীদারি অর্থ দিতে হবে?,,,n/a,
+QUESTION,N082,sibling,RBN,How much contribution must beneficiary families jointly deposit for each tube well under the Sholakuri Ward Council project?,sholakuri ward counciler prokolpe protiti nolkuper jonno upokarvogider koto taka ongshidari ortho dite hobe?,,,n/a,
+QUESTION,N082,sibling,CM,How much contribution must beneficiary families jointly deposit for each tube well under the Sholakuri Ward Council project?,শোলাকুড়ি ওয়ার্ড কাউন্সিলের project এ প্রতিটি নলকূপের জন্য কত টাকা contribution দিতে হবে?,,,n/a,
+QUESTION,N082,sibling,CMR,How much contribution must beneficiary families jointly deposit for each tube well under the Sholakuri Ward Council project?,sholakuri ward counciler project e protiti nolkuper jonno koto taka contribution dite hobe?,,,n/a,
+NOTICE,N088,main,,From what date will the new launch of the Kumirjani Launch Service start regular trips to Charshalika?,"কুমিরজানি লঞ্চ সার্ভিস
+নতুন নৌপথে যাত্রা শুরুর বিজ্ঞপ্তি
+
+সম্মানিত যাত্রীদের জানানো যাচ্ছে যে, কুমিরজানি লঞ্চ সার্ভিসের নতুন দ্বিতল লঞ্চ এমভি জলপরী শিগগিরই কুমিরজানি ঘাট থেকে চরশালিকা ঘাট পর্যন্ত নিয়মিত চলাচল শুরু করবে; যাত্রা শুরুর তারিখ পরে জানানো হবে। লঞ্চটি প্রতিদিন সকাল ৮টায় কুমিরজানি ঘাট ছাড়বে এবং দুপুর ২টায় চরশালিকা থেকে ফিরতি যাত্রা করবে।
+
+লঞ্চে ডেক, সাধারণ কেবিন ও পারিবারিক কেবিন মিলিয়ে মোট ৩২০ জন যাত্রী বহনের অনুমোদন রয়েছে। ডেকের ভাড়া ৯০ টাকা এবং সাধারণ কেবিনের ভাড়া ৪৫০ টাকা। পারিবারিক কেবিন আগে থেকে বুকিং দিতে হবে। লঞ্চে পর্যাপ্ত লাইফ জ্যাকেট ও বয়া রাখা আছে এবং প্রশিক্ষিত কর্মীরা যাত্রীদের সহায়তায় নিয়োজিত থাকবেন।
+
+বর্ষা মৌসুমে আবহাওয়ার সতর্কসংকেত জারি থাকলে লঞ্চ চলাচল সাময়িকভাবে বন্ধ রাখা হতে পারে। অতিরিক্ত যাত্রী বা নিষিদ্ধ পণ্য বহন করা হবে না। শিশু ও বয়স্ক যাত্রীদের ওঠানামার সময় বিশেষ সতর্কতা অবলম্বনের অনুরোধ করা হলো। টিকিট ঘাটের কাউন্টার থেকে যাত্রার দিন সকাল ৭টা থেকে পাওয়া যাবে। মালামাল পরিবহনের জন্য ঘাটের মালামাল বুকিং শাখায় যোগাযোগ করুন।
+
+ব্যবস্থাপক
+কুমিরজানি লঞ্চ সার্ভিস",n/a,n/a,,
+QUESTION,N088,main,BN,From what date will the new launch of the Kumirjani Launch Service start regular trips to Charshalika?,কুমিরজানি লঞ্চ সার্ভিসের নতুন লঞ্চ কোন তারিখ থেকে চরশালিকা পর্যন্ত নিয়মিত চলাচল শুরু করবে?,,,n/a,
+QUESTION,N088,main,RBN,From what date will the new launch of the Kumirjani Launch Service start regular trips to Charshalika?,kumirjani launch servicer notun launch kon tarikh theke chorshalika porjonto niyomito cholachol shuru korbe?,,,n/a,
+QUESTION,N088,main,CM,From what date will the new launch of the Kumirjani Launch Service start regular trips to Charshalika?,কুমিরজানি লঞ্চ সার্ভিসের নতুন launch কোন date থেকে চরশালিকা পর্যন্ত regular চলাচল শুরু করবে?,,,n/a,
+QUESTION,N088,main,CMR,From what date will the new launch of the Kumirjani Launch Service start regular trips to Charshalika?,kumirjani launch servicer notun launch kon date theke chorshalika porjonto regular cholachol shuru korbe?,,,n/a,
+QUESTION,N088,sibling,BN,What is the deck fare on the new launch of the Kumirjani Launch Service?,কুমিরজানি লঞ্চ সার্ভিসের নতুন লঞ্চে ডেকের ভাড়া কত টাকা?,,,n/a,
+QUESTION,N088,sibling,RBN,What is the deck fare on the new launch of the Kumirjani Launch Service?,kumirjani launch servicer notun launche deker vara koto taka?,,,n/a,
+QUESTION,N088,sibling,CM,What is the deck fare on the new launch of the Kumirjani Launch Service?,কুমিরজানি লঞ্চ সার্ভিসের নতুন লঞ্চে deck fare কত টাকা?,,,n/a,
+QUESTION,N088,sibling,CMR,What is the deck fare on the new launch of the Kumirjani Launch Service?,kumirjani launch servicer notun launche deck fare koto taka?,,,n/a,
+NOTICE,N093,main,,From what date will advance tickets for the Eid special trains from Talpukuria Railway Station go on sale?,"তালপুকুরিয়া রেলওয়ে স্টেশন
+ঈদ উপলক্ষে বিশেষ ট্রেনের টিকিট বিক্রয় বিজ্ঞপ্তি
+
+আসন্ন পবিত্র ঈদুল আজহা উপলক্ষে যাত্রীদের সুবিধার্থে তালপুকুরিয়া রেলওয়ে স্টেশন থেকে নীলকণ্ঠপুর জংশন পর্যন্ত দুটি বিশেষ ট্রেন চালানো হবে। বিশেষ ট্রেনগুলো ঈদের আগের পাঁচ দিন ও পরের পাঁচ দিন চলাচল করবে।
+
+ ফিরতি যাত্রার অগ্রিম টিকিট ঈদের পরে আলাদাভাবে বিক্রি করা হবে। স্টেশনের কাউন্টার এবং অনলাইন উভয় মাধ্যমে টিকিট পাওয়া যাবে। মোট টিকিটের অর্ধেক কাউন্টারে এবং বাকি অর্ধেক অনলাইনে বিক্রি করা হবে। একজন যাত্রী একসঙ্গে সর্বোচ্চ ৪টি টিকিট কিনতে পারবেন।
+
+টিকিট কেনার সময় যাত্রীর জাতীয় পরিচয়পত্র অথবা জন্মনিবন্ধন নম্বর দিতে হবে। ভ্রমণের সময় টিকিটের সাথে মূল পরিচয়পত্র সঙ্গে রাখতে হবে, অন্যথায় টিকিট অবৈধ বলে গণ্য হবে। বিনা টিকিটে ভ্রমণ দণ্ডনীয় অপরাধ। ট্রেনে ওঠার সময় শৃঙ্খলা বজায় রাখা এবং ছাদে ভ্রমণ না করার জন্য যাত্রীদের বিশেষভাবে অনুরোধ করা হলো। স্টেশন চত্বরে অতিরিক্ত নিরাপত্তাকর্মী মোতায়েন থাকবে। টিকিট কালোবাজারি সম্পর্কে কোনো তথ্য থাকলে স্টেশন মাস্টারকে জানানোর অনুরোধ করা হলো।
+
+স্টেশন মাস্টার
+তালপুকুরিয়া রেলওয়ে স্টেশন",n/a,n/a,,
+QUESTION,N093,main,BN,From what date will advance tickets for the Eid special trains from Talpukuria Railway Station go on sale?,তালপুকুরিয়া রেলওয়ে স্টেশন থেকে ঈদের বিশেষ ট্রেনের অগ্রিম টিকিট বিক্রি কোন তারিখে শুরু হবে?,,,n/a,
+QUESTION,N093,main,RBN,From what date will advance tickets for the Eid special trains from Talpukuria Railway Station go on sale?,talpukuria railway station theke eider bishesh traner ogrim tiket bikri kon tarikhe shuru hobe?,,,n/a,
+QUESTION,N093,main,CM,From what date will advance tickets for the Eid special trains from Talpukuria Railway Station go on sale?,তালপুকুরিয়া রেলওয়ে স্টেশন থেকে ঈদের special train এর advance ticket বিক্রি কোন তারিখে শুরু হবে?,,,n/a,
+QUESTION,N093,main,CMR,From what date will advance tickets for the Eid special trains from Talpukuria Railway Station go on sale?,talpukuria railway station theke eider special train er advance ticket bikri kon tarikhe shuru hobe?,,,n/a,
+QUESTION,N093,sibling,BN,How many tickets can one passenger buy at a time for the Eid special trains from Talpukuria Railway Station?,তালপুকুরিয়া রেলওয়ে স্টেশন থেকে ঈদের বিশেষ ট্রেনের জন্য একজন যাত্রী একসঙ্গে সর্বোচ্চ কয়টি টিকিট কিনতে পারবেন?,,,n/a,
+QUESTION,N093,sibling,RBN,How many tickets can one passenger buy at a time for the Eid special trains from Talpukuria Railway Station?,talpukuria railway station theke eider bishesh traner jonno ekjon jatri ekshonge sorbocho koyti tiket kinte parben?,,,n/a,
+QUESTION,N093,sibling,CM,How many tickets can one passenger buy at a time for the Eid special trains from Talpukuria Railway Station?,তালপুকুরিয়া রেলওয়ে স্টেশন থেকে ঈদের special train এর জন্য একজন passenger একসঙ্গে সর্বোচ্চ কয়টি টিকিট কিনতে পারবেন?,,,n/a,
+QUESTION,N093,sibling,CMR,How many tickets can one passenger buy at a time for the Eid special trains from Talpukuria Railway Station?,talpukuria railway station theke eider special train er jonno ekjon passenger ekshonge sorbocho koyti tiket kinte parben?,,,n/a,
+NOTICE,N108,main,,From what date will the Dalimtola Electronics Market reopen after the renovation?,"ডালিমতলা ইলেকট্রনিক্স মার্কেট
+সংস্কারকাজের জন্য মার্কেট বন্ধ থাকার বিজ্ঞপ্তি
+
+ডালিমতলা ইলেকট্রনিক্স মার্কেটের সকল দোকান মালিক, কর্মচারী ও ক্রেতাসাধারণের অবগতির জন্য জানানো যাচ্ছে যে, মার্কেট ভবনের বৈদ্যুতিক লাইন ও অগ্নিনির্বাপণ ব্যবস্থা সংস্কারের জন্য আগামী ১৮ জুন ২০২৭ তারিখ থেকে মার্কেট সাময়িকভাবে বন্ধ থাকবে। সম্প্রতি ভবনে একাধিকবার শর্টসার্কিটের ঘটনা ঘটায় অগ্নিনিরাপত্তা বিশেষজ্ঞদের পরামর্শে এই সিদ্ধান্ত নেওয়া হয়েছে।
+
+মার্কেটের তিনটি তলায় মোট ১৬২টি দোকান রয়েছে, যার সবগুলোই সংস্কারকাজের সময় বন্ধ থাকবে। সংস্কারকাজ শেষ হলে মার্কেট আবার খুলে দেওয়া হবে; পুনরায় খোলার তারিখ পরে জানানো হবে। বন্ধ থাকার সময়ে দোকানের মালামাল নিজ দায়িত্বে সরিয়ে নেওয়ার অথবা নিরাপদে তালাবদ্ধ করে রাখার অনুরোধ করা হলো।
+
+সংস্কারকাজ চলাকালে মার্কেটের প্রধান ফটক বন্ধ থাকবে এবং শুধু নির্মাণকর্মীরা পেছনের ফটক দিয়ে প্রবেশ করতে পারবেন। দোকান মালিকরা জরুরি প্রয়োজনে মার্কেট কমিটির অফিসে আবেদন করে নিরাপত্তাকর্মীর উপস্থিতিতে দোকানে প্রবেশ করতে পারবেন। বন্ধ থাকার সময়ের দোকানভাড়া মওকুফের বিষয়ে ভবন মালিকের সঙ্গে আলোচনা চলছে। সংস্কারের পর প্রতিটি তলায় নতুন অগ্নিনির্বাপণ যন্ত্র ও জরুরি বহির্গমন পথ চালু করা হবে। সাময়িক অসুবিধার জন্য আমরা আন্তরিকভাবে দুঃখিত।
+
+সভাপতি
+ডালিমতলা ইলেকট্রনিক্স মার্কেট দোকান মালিক সমিতি",n/a,n/a,,
+QUESTION,N108,main,BN,From what date will the Dalimtola Electronics Market reopen after the renovation?,সংস্কারের পর ডালিমতলা ইলেকট্রনিক্স মার্কেট কোন তারিখ থেকে আবার খুলবে?,,,n/a,
+QUESTION,N108,main,RBN,From what date will the Dalimtola Electronics Market reopen after the renovation?,shongskarer por dalimtola electronics market kon tarikh theke abar khulbe?,,,n/a,
+QUESTION,N108,main,CM,From what date will the Dalimtola Electronics Market reopen after the renovation?,renovation এর পর ডালিমতলা ইলেকট্রনিক্স মার্কেট কোন date থেকে আবার খুলবে?,,,n/a,
+QUESTION,N108,main,CMR,From what date will the Dalimtola Electronics Market reopen after the renovation?,renovation er por dalimtola electronics market kon date theke abar khulbe?,,,n/a,
+QUESTION,N108,sibling,BN,How many shops are there in the Dalimtola Electronics Market?,ডালিমতলা ইলেকট্রনিক্স মার্কেটে মোট কয়টি দোকান আছে?,,,n/a,
+QUESTION,N108,sibling,RBN,How many shops are there in the Dalimtola Electronics Market?,dalimtola electronics market e mot koyti dokan ache?,,,n/a,
+QUESTION,N108,sibling,CM,How many shops are there in the Dalimtola Electronics Market?,ডালিমতলা ইলেকট্রনিক্স মার্কেটে মোট কয়টি shop আছে?,,,n/a,
+QUESTION,N108,sibling,CMR,How many shops are there in the Dalimtola Electronics Market?,dalimtola electronics market e mot koyti shop ache?,,,n/a,
+NOTICE,N109,main,,Who is in charge of the claims section at the regional office of Alokjhari General Insurance?,"আলোকঝারি সাধারণ বীমা
+মোটরযান বীমা নবায়ন ও দাবি নিষ্পত্তি বিজ্ঞপ্তি
+
+আলোকঝারি সাধারণ বীমার আঞ্চলিক কার্যালয়ের পক্ষ থেকে সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, যেসব মোটরযানের বীমা পলিসির মেয়াদ চলতি মাসে শেষ হচ্ছে, সেগুলোর নবায়ন অবিলম্বে সম্পন্ন করার অনুরোধ করা হলো। বৈধ বীমা সনদ ছাড়া সড়কে গাড়ি চালানো আইনত দণ্ডনীয়।
+
+মোটরসাইকেলের তৃতীয় পক্ষ বীমার বার্ষিক প্রিমিয়াম ৬৫০ টাকা এবং প্রাইভেট কারের ক্ষেত্রে প্রিমিয়াম গাড়ির ধরন অনুযায়ী নির্ধারিত হবে। নবায়নের সময় গাড়ির রেজিস্ট্রেশন সনদ ও আগের বীমা সনদের কপি সঙ্গে আনতে হবে। প্রিমিয়াম মোবাইল ব্যাংকিং বা কার্যালয়ের কাউন্টারে নগদে পরিশোধ করা যাবে।
+
+দুর্ঘটনাজনিত ক্ষতির দাবি নিষ্পত্তির জন্য আঞ্চলিক কার্যালয়ে একটি পৃথক দাবি শাখা খোলা হয়েছে। দুর্ঘটনার পর ৪৮ ঘণ্টার মধ্যে দাবির বিষয়ে কার্যালয়কে লিখিতভাবে জানাতে হবে এবং ক্ষতিগ্রস্ত গাড়ির ছবি, থানায় দায়েরকৃত সাধারণ ডায়েরির কপি ও চালকের লাইসেন্সের কপি জমা দিতে হবে। জরিপকারী সরেজমিনে ক্ষতি পরিদর্শনের পর দাবি নিষ্পত্তি করা হবে। ভুল তথ্য দিয়ে দাবি করলে পলিসি বাতিল করা হবে। আঞ্চলিক কার্যালয় শনিবার থেকে বৃহস্পতিবার সকাল ৯টা থেকে বিকেল ৫টা পর্যন্ত খোলা থাকে।
+
+আঞ্চলিক প্রধান
+আলোকঝারি সাধারণ বীমা",n/a,n/a,,
+QUESTION,N109,main,BN,Who is in charge of the claims section at the regional office of Alokjhari General Insurance?,আলোকঝারি সাধারণ বীমার আঞ্চলিক কার্যালয়ের দাবি শাখার দায়িত্বে কে আছেন?,,,n/a,
+QUESTION,N109,main,RBN,Who is in charge of the claims section at the regional office of Alokjhari General Insurance?,alokjhari sadharon bima r ancholik karjaloyer dabi shakhar dayitte ke achen?,,,n/a,
+QUESTION,N109,main,CM,Who is in charge of the claims section at the regional office of Alokjhari General Insurance?,আলোকঝারি সাধারণ বীমার regional office এর claim শাখার দায়িত্বে কে আছেন?,,,n/a,
+QUESTION,N109,main,CMR,Who is in charge of the claims section at the regional office of Alokjhari General Insurance?,alokjhari sadharon bima r regional office er claim shakhar dayitte ke achen?,,,n/a,
+QUESTION,N109,sibling,BN,What is the annual premium for third-party motorcycle insurance at Alokjhari General Insurance?,আলোকঝারি সাধারণ বীমায় মোটরসাইকেলের তৃতীয় পক্ষ বীমার বার্ষিক প্রিমিয়াম কত টাকা?,,,n/a,
+QUESTION,N109,sibling,RBN,What is the annual premium for third-party motorcycle insurance at Alokjhari General Insurance?,alokjhari sadharon bima te motorsaikeler tritiyo pokkho bimar barshik premium koto taka?,,,n/a,
+QUESTION,N109,sibling,CM,What is the annual premium for third-party motorcycle insurance at Alokjhari General Insurance?,আলোকঝারি সাধারণ বীমায় motorcycle এর third party বীমার বার্ষিক premium কত টাকা?,,,n/a,
+QUESTION,N109,sibling,CMR,What is the annual premium for third-party motorcycle insurance at Alokjhari General Insurance?,alokjhari sadharon bima te motorcycle er third party bimar barshik premium koto taka?,,,n/a,
+NOTICE,N111,main,,Will Jhilmilpur Net Solutions deduct the days without service from next month's bill for customers in the affected areas?,"ঝিলমিলপুর নেট সলিউশনস
+সেবা বিঘ্ন ও রক্ষণাবেক্ষণ সংক্রান্ত বিজ্ঞপ্তি
+
+ঝিলমিলপুর নেট সলিউশনসের সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, গত সপ্তাহে সড়ক সম্প্রসারণের কাজের সময় আমাদের মূল ফাইবার লাইন একাধিক স্থানে কেটে যাওয়ায় উত্তর ও পূর্ব অংশের গ্রাহকরা প্রায় তিন দিন ইন্টারনেট সেবা থেকে বঞ্চিত ছিলেন। এ অনাকাঙ্ক্ষিত পরিস্থিতির জন্য আমরা আন্তরিকভাবে দুঃখিত।
+
+ কাটা লাইনগুলো অস্থায়ীভাবে জোড়া লাগিয়ে সেবা চালু করা হয়েছে, তবে স্থায়ী সমাধানের জন্য লাইনগুলো মাটির নিচ দিয়ে নতুন করে টানা হবে।
+
+এই স্থায়ী মেরামত কাজের জন্য আগামী ২৬ সেপ্টেম্বর ২০২৭ তারিখে রাত ১২টা থেকে ভোর ৬টা পর্যন্ত সেবা বন্ধ থাকবে। রক্ষণাবেক্ষণের সময় রাউটার বন্ধ না করে চালু রাখার অনুরোধ করা হলো, যাতে কাজ শেষে সংযোগ স্বয়ংক্রিয়ভাবে ফিরে আসে। কাজ শেষ হওয়ার পর কোনো গ্রাহকের সংযোগে সমস্যা থাকলে গ্রাহকসেবা কেন্দ্রে অভিযোগ নম্বর সংগ্রহ করে জানাতে হবে। আমাদের প্রযুক্তিবিদরা অভিযোগ পাওয়ার চব্বিশ ঘণ্টার মধ্যে বাড়িতে গিয়ে সমস্যার সমাধান করবেন। ভবিষ্যতে এ ধরনের পরিস্থিতি এড়াতে সংশ্লিষ্ট কর্তৃপক্ষের সঙ্গে সমন্বয় করে কাজ করা হচ্ছে। আপনাদের ধৈর্য ও সহযোগিতার জন্য ধন্যবাদ।
+
+প্রধান নির্বাহী
+ঝিলমিলপুর নেট সলিউশনস",n/a,n/a,,
+QUESTION,N111,main,BN,Will Jhilmilpur Net Solutions deduct the days without service from next month's bill for customers in the affected areas?,ঝিলমিলপুর নেট সলিউশনস কি ক্ষতিগ্রস্ত এলাকার গ্রাহকদের পরের মাসের বিল থেকে সেবা বন্ধ থাকা দিনগুলোর বিল কেটে রাখবে?,,,n/a,
+QUESTION,N111,main,RBN,Will Jhilmilpur Net Solutions deduct the days without service from next month's bill for customers in the affected areas?,jhilmilpur net solutions ki khotigrosto elakar grahokder porer masher bil theke sheba bondho thaka dingulor bil kete rakhbe?,,,n/a,
+QUESTION,N111,main,CM,Will Jhilmilpur Net Solutions deduct the days without service from next month's bill for customers in the affected areas?,ঝিলমিলপুর নেট সলিউশনস কি affected এলাকার গ্রাহকদের পরের মাসের bill থেকে service বন্ধ থাকা দিনগুলোর টাকা কেটে রাখবে?,,,n/a,
+QUESTION,N111,main,CMR,Will Jhilmilpur Net Solutions deduct the days without service from next month's bill for customers in the affected areas?,jhilmilpur net solutions ki affected elakar grahokder porer masher bill theke service bondho thaka dingulor taka kete rakhbe?,,,n/a,
+QUESTION,N111,sibling,BN,On what date will the service of Jhilmilpur Net Solutions be shut down for the permanent repair work?,ঝিলমিলপুর নেট সলিউশনসের স্থায়ী মেরামত কাজের জন্য কোন তারিখে সেবা বন্ধ থাকবে?,,,n/a,
+QUESTION,N111,sibling,RBN,On what date will the service of Jhilmilpur Net Solutions be shut down for the permanent repair work?,jhilmilpur net solutions er sthayi meramot kajer jonno kon tarikhe sheba bondho thakbe?,,,n/a,
+QUESTION,N111,sibling,CM,On what date will the service of Jhilmilpur Net Solutions be shut down for the permanent repair work?,ঝিলমিলপুর নেট সলিউশনসের permanent repair এর জন্য কোন date এ service বন্ধ থাকবে?,,,n/a,
+QUESTION,N111,sibling,CMR,On what date will the service of Jhilmilpur Net Solutions be shut down for the permanent repair work?,jhilmilpur net solutions er permanent repair er jonno kon date e service bondho thakbe?,,,n/a,
+NOTICE,N116,main,,Will students get half fare on the non-stop express service of Bashpata Express Transport?,"বাঁশপাতা এক্সপ্রেস পরিবহন
+বিরতিহীন বাস সার্ভিস চালু সংক্রান্ত বিজ্ঞপ্তি
+
+বাঁশপাতা এক্সপ্রেস পরিবহনের পক্ষ থেকে যাত্রীসাধারণকে জানানো যাচ্ছে যে, বাঁশপাতা কেন্দ্রীয় বাস টার্মিনাল থেকে জেলা শহর হিজলমোহনা পর্যন্ত একটি বিরতিহীন এক্সপ্রেস বাস সার্ভিস চালু করা হয়েছে। এই সার্ভিসের বাসগুলো পথে কোথাও যাত্রী ওঠানামা করাবে না, ফলে যাত্রার সময় প্রায় এক ঘণ্টা কমে আসবে।
+
+এক্সপ্রেস সার্ভিসের জনপ্রতি ভাড়া ২৪০ টাকা। এক্সপ্রেস সার্ভিসে শিক্ষার্থীদের ভাড়া ছাড়ের বিষয়ে সিদ্ধান্ত পরে জানানো হবে। প্রতিদিন সকাল ৬টা থেকে সন্ধ্যা ৭টা পর্যন্ত প্রতি ঘণ্টায় একটি করে বাস ছাড়বে। টিকিট কাউন্টার থেকে অগ্রিম কেনা যাবে এবং আসন নম্বরসহ টিকিট দেওয়া হবে।
+
+প্রত্যেক যাত্রী একটি ব্যাগ বিনা খরচে বহন করতে পারবেন। বাস ছাড়ার নির্ধারিত সময়ের পাঁচ মিনিট আগে কাউন্টারে উপস্থিত থাকতে হবে, অন্যথায় আসন বাতিল বলে গণ্য হবে। টিকিট বাতিল করতে চাইলে বাস ছাড়ার অন্তত দুই ঘণ্টা আগে কাউন্টারে জানাতে হবে। বাসে ধূমপান, উচ্চস্বরে গান বাজানো এবং চালকের সঙ্গে অপ্রয়োজনীয় কথা বলা নিষেধ। প্রতিটি বাসে প্রাথমিক চিকিৎসার বাক্স ও অগ্নিনির্বাপণ যন্ত্র রাখা হয়েছে। যাত্রীসেবা নিয়ে যেকোনো মতামত বা অভিযোগ টার্মিনাল কাউন্টারের অভিযোগ বাক্সে জমা দেওয়া যাবে।
+
+মহাব্যবস্থাপক
+বাঁশপাতা এক্সপ্রেস পরিবহন",n/a,n/a,,
+QUESTION,N116,main,BN,Will students get half fare on the non-stop express service of Bashpata Express Transport?,বাঁশপাতা এক্সপ্রেস পরিবহনের বিরতিহীন সার্ভিসে কি শিক্ষার্থীরা অর্ধেক ভাড়ায় যেতে পারবে?,,,n/a,
+QUESTION,N116,main,RBN,Will students get half fare on the non-stop express service of Bashpata Express Transport?,bashpata express poribohon er birotihin sarvise ki shikkharthira ordhek varay jete parbe?,,,n/a,
+QUESTION,N116,main,CM,Will students get half fare on the non-stop express service of Bashpata Express Transport?,বাঁশপাতা এক্সপ্রেস পরিবহনের non-stop সার্ভিসে কি student রা half ভাড়ায় যেতে পারবে?,,,n/a,
+QUESTION,N116,main,CMR,Will students get half fare on the non-stop express service of Bashpata Express Transport?,bashpata express poribohon er non-stop service e ki student ra half varay jete parbe?,,,n/a,
+QUESTION,N116,sibling,BN,What is the fare per person on the express service of Bashpata Express Transport?,বাঁশপাতা এক্সপ্রেস পরিবহনের এক্সপ্রেস সার্ভিসে জনপ্রতি ভাড়া কত টাকা?,,,n/a,
+QUESTION,N116,sibling,RBN,What is the fare per person on the express service of Bashpata Express Transport?,bashpata express poribohon er express sarvise jonoproti vara koto taka?,,,n/a,
+QUESTION,N116,sibling,CM,What is the fare per person on the express service of Bashpata Express Transport?,বাঁশপাতা এক্সপ্রেস পরিবহনের express service এ জনপ্রতি fare কত টাকা?,,,n/a,
+QUESTION,N116,sibling,CMR,What is the fare per person on the express service of Bashpata Express Transport?,bashpata express poribohon er express service e jonoproti fare koto taka?,,,n/a,
+NOTICE,N117,main,,What is the service charge for a software update or fresh software setup at Botpakur Mobile Servicing Centre?,"বটপাকুড় মোবাইল সার্ভিসিং সেন্টার
+সার্ভিস চার্জ ও ওয়ারেন্টি সংক্রান্ত নোটিশ
+
+সম্মানিত গ্রাহকদের জানানো যাচ্ছে যে, বটপাকুড় মোবাইল সার্ভিসিং সেন্টারে মোবাইল ফোন মেরামতের ক্ষেত্রে আগামী মাস থেকে নতুন সার্ভিস চার্জ তালিকা কার্যকর হবে। যন্ত্রাংশের দাম বৃদ্ধি এবং দক্ষ কারিগরের মজুরি বাড়ার কারণে এই পরিবর্তন আনা হয়েছে।
+
+ ডিসপ্লে, ব্যাটারি ও চার্জিং পোর্ট পরিবর্তনের ক্ষেত্রে যন্ত্রাংশের দামের সঙ্গে আলাদা মজুরি যোগ হবে, যা ফোনের মডেল অনুযায়ী নির্ধারিত হবে। মেরামতের আগে গ্রাহককে আনুমানিক খরচ জানিয়ে সম্মতি নেওয়া হবে।
+
+পরিবর্তিত যন্ত্রাংশের ওপর ৪৫ দিনের ওয়ারেন্টি দেওয়া হবে। তবে পানিতে পড়া, আগুনে পোড়া বা আঘাতজনিত ক্ষতির ক্ষেত্রে ওয়ারেন্টি প্রযোজ্য হবে না। মেরামতের জন্য জমা দেওয়া ফোন ত্রিশ দিনের মধ্যে সংগ্রহ না করলে সেন্টার কোনো দায় নেবে না। ফোন জমা দেওয়ার সময় অবশ্যই জমা রশিদ সংগ্রহ করতে হবে এবং ফোন ফেরত নেওয়ার সময় রশিদ দেখাতে হবে। গ্রাহকের ব্যক্তিগত তথ্যের নিরাপত্তার জন্য ফোন জমা দেওয়ার আগে গুরুত্বপূর্ণ ছবি ও তথ্য অন্যত্র সংরক্ষণ করার পরামর্শ দেওয়া হলো। সেন্টার শুক্রবার ছাড়া প্রতিদিন সকাল ১০টা থেকে রাত ৯টা পর্যন্ত খোলা থাকে।
+
+স্বত্বাধিকারী
+বটপাকুড় মোবাইল সার্ভিসিং সেন্টার",n/a,n/a,,
+QUESTION,N117,main,BN,What is the service charge for a software update or fresh software setup at Botpakur Mobile Servicing Centre?,বটপাকুড় মোবাইল সার্ভিসিং সেন্টারে সফটওয়্যার আপডেট বা সেটআপের সার্ভিস চার্জ কত টাকা?,,,n/a,
+QUESTION,N117,main,RBN,What is the service charge for a software update or fresh software setup at Botpakur Mobile Servicing Centre?,botpakur mobile servicing center e software update ba setup er service charge koto taka?,,,n/a,
+QUESTION,N117,main,CM,What is the service charge for a software update or fresh software setup at Botpakur Mobile Servicing Centre?,বটপাকুড় মোবাইল সার্ভিসিং সেন্টারে software update বা setup করতে কত টাকা লাগে?,,,n/a,
+QUESTION,N117,main,CMR,What is the service charge for a software update or fresh software setup at Botpakur Mobile Servicing Centre?,botpakur mobile servicing center e software update ba setup korte koto taka lage?,,,n/a,
+QUESTION,N117,sibling,BN,How many days of warranty does Botpakur Mobile Servicing Centre give on replaced parts?,বটপাকুড় মোবাইল সার্ভিসিং সেন্টারে পরিবর্তিত যন্ত্রাংশের ওপর কত দিনের ওয়ারেন্টি দেওয়া হয়?,,,n/a,
+QUESTION,N117,sibling,RBN,How many days of warranty does Botpakur Mobile Servicing Centre give on replaced parts?,botpakur mobile servicing center e poriborotito jontrangsher opor koto diner warranty dewa hoy?,,,n/a,
+QUESTION,N117,sibling,CM,How many days of warranty does Botpakur Mobile Servicing Centre give on replaced parts?,বটপাকুড় মোবাইল সার্ভিসিং সেন্টারে replace করা parts এর ওপর কত দিনের warranty দেওয়া হয়?,,,n/a,
+QUESTION,N117,sibling,CMR,How many days of warranty does Botpakur Mobile Servicing Centre give on replaced parts?,botpakur mobile servicing center e replace kora parts er opor koto diner warranty dewa hoy?,,,n/a,
+NOTICE,N120,main,,How many free Wi-Fi zones has Dahukdanga Digital Net set up in the first phase?,"ডাহুকডাঙা ডিজিটাল নেট
+ফ্রি ওয়াই-ফাই জোন চালু সংক্রান্ত বিজ্ঞপ্তি
+
+ডাহুকডাঙা ডিজিটাল নেটের পক্ষ থেকে পৌরবাসীকে জানানো যাচ্ছে যে, পৌরসভার সহযোগিতায় শহরের বিভিন্ন জনবহুল স্থানে বিনামূল্যে ইন্টারনেট ব্যবহারের সুবিধা চালু করা হয়েছে। শিক্ষার্থী, ছোট ব্যবসায়ী ও সাধারণ মানুষ যাতে সহজে অনলাইন সেবা নিতে পারেন, সে লক্ষ্যেই এই উদ্যোগ নেওয়া হয়েছে।
+
+প্রথম ধাপে শহরের বিভিন্ন জনবহুল এলাকায় ফ্রি ওয়াই-ফাই জোন স্থাপন করা হয়েছে; জোনগুলোর তালিকা পরে প্রকাশ করা হবে। প্রত্যেক ব্যবহারকারী দিনে ৯০ মিনিট পর্যন্ত বিনামূল্যে ইন্টারনেট ব্যবহার করতে পারবেন। এর বেশি সময় ব্যবহার করতে চাইলে স্বল্পমূল্যের প্যাকেজ কিনতে হবে।
+
+ফ্রি ওয়াই-ফাই ব্যবহারের জন্য ব্যবহারকারীকে একটি সচল মোবাইল নম্বর দিয়ে নিবন্ধন করতে হবে এবং নম্বরে পাঠানো গোপন কোড দিয়ে সংযোগ চালু করতে হবে। একটি মোবাইল নম্বর দিয়ে একসঙ্গে একটির বেশি যন্ত্রে সংযোগ নেওয়া যাবে না। নেটওয়ার্ক ব্যবহার করে কোনো বেআইনি বা আপত্তিকর কার্যক্রম চালানো দণ্ডনীয় অপরাধ হিসেবে গণ্য হবে। নিরাপত্তার স্বার্থে পাবলিক নেটওয়ার্কে ব্যাংকিং পাসওয়ার্ড বা ব্যক্তিগত গোপন তথ্য ব্যবহার না করার পরামর্শ দেওয়া হলো। দ্বিতীয় ধাপে শহরের অন্যান্য এলাকাতেও এই সেবা সম্প্রসারণের পরিকল্পনা রয়েছে।
+
+ব্যবস্থাপনা পরিচালক
+ডাহুকডাঙা ডিজিটাল নেট",n/a,n/a,,
+QUESTION,N120,main,BN,How many free Wi-Fi zones has Dahukdanga Digital Net set up in the first phase?,ডাহুকডাঙা ডিজিটাল নেট প্রথম ধাপে মোট কয়টি ফ্রি ওয়াই-ফাই জোন স্থাপন করেছে?,,,n/a,
+QUESTION,N120,main,RBN,How many free Wi-Fi zones has Dahukdanga Digital Net set up in the first phase?,dahukdanga digital net prothom dhape mot koyti free wifi zone sthapon koreche?,,,n/a,
+QUESTION,N120,main,CM,How many free Wi-Fi zones has Dahukdanga Digital Net set up in the first phase?,ডাহুকডাঙা ডিজিটাল নেট first phase এ মোট কয়টি ফ্রি ওয়াই-ফাই জোন বসিয়েছে?,,,n/a,
+QUESTION,N120,main,CMR,How many free Wi-Fi zones has Dahukdanga Digital Net set up in the first phase?,dahukdanga digital net first phase e mot koyti free wifi zone boshiyeche?,,,n/a,
+QUESTION,N120,sibling,BN,For how many minutes a day can each user use the free internet of Dahukdanga Digital Net?,ডাহুকডাঙা ডিজিটাল নেটের ফ্রি ইন্টারনেট একজন ব্যবহারকারী দিনে কত মিনিট ব্যবহার করতে পারবেন?,,,n/a,
+QUESTION,N120,sibling,RBN,For how many minutes a day can each user use the free internet of Dahukdanga Digital Net?,dahukdanga digital net er free internet ekjon beboharkari dine koto minit bebohar korte parben?,,,n/a,
+QUESTION,N120,sibling,CM,For how many minutes a day can each user use the free internet of Dahukdanga Digital Net?,ডাহুকডাঙা ডিজিটাল নেটের free internet একজন user দিনে কত minute ব্যবহার করতে পারবেন?,,,n/a,
+QUESTION,N120,sibling,CMR,For how many minutes a day can each user use the free internet of Dahukdanga Digital Net?,dahukdanga digital net er free internet ekjon user dine koto minute bebohar korte parben?,,,n/a,
+NOTICE,N122,main,,What is the price of a monthly parking pass for a private car at the Shojnedanga Inter-district Bus Terminal?,"সজনেডাঙা আন্তঃজেলা বাস টার্মিনাল
+টার্মিনালে গাড়ি পার্কিং সংক্রান্ত বিজ্ঞপ্তি
+
+সজনেডাঙা আন্তঃজেলা বাস টার্মিনাল ব্যবহারকারী সকলের অবগতির জন্য জানানো যাচ্ছে যে, টার্মিনাল চত্বরে বিশৃঙ্খলভাবে ব্যক্তিগত গাড়ি ও মোটরসাইকেল রাখার কারণে বাস চলাচলে প্রায়ই সমস্যা হচ্ছে। এ সমস্যা সমাধানে টার্মিনালের পূর্ব পাশে একটি নির্ধারিত পার্কিং এলাকা চালু করা হয়েছে।
+
+নতুন পার্কিং এলাকায় একসঙ্গে ১৪০টি প্রাইভেট কার ও মাইক্রোবাস রাখা যাবে। মোটরসাইকেলের জন্য আলাদা ছাউনি তৈরি করা হয়েছে। প্রতি ঘণ্টার পার্কিং চার্জ গাড়ির ধরন অনুযায়ী পার্কিং এলাকার প্রবেশমুখে টাঙানো তালিকায় উল্লেখ রয়েছে। নিয়মিত ব্যবহারকারীদের জন্য প্রাইভেট কারের মাসিক পার্কিং পাসের মূল্য টার্মিনাল ব্যবস্থাপকের কার্যালয় থেকে জানা যাবে।
+
+নির্ধারিত পার্কিং এলাকার বাইরে টার্মিনাল চত্বরে কোনো ব্যক্তিগত গাড়ি রাখা যাবে না। নিয়ম ভঙ্গ করলে গাড়ি সরিয়ে নেওয়া হবে এবং মালিকের কাছ থেকে জরিমানা আদায় করা হবে। পার্কিং এলাকা চব্বিশ ঘণ্টা খোলা থাকবে এবং নিরাপত্তাকর্মী ও ক্লোজসার্কিট ক্যামেরার মাধ্যমে নজরদারি করা হবে। তবে গাড়িতে রেখে যাওয়া মূল্যবান জিনিসপত্রের দায় কর্তৃপক্ষ নেবে না। মাসিক পাস নিতে গাড়ির রেজিস্ট্রেশন সনদ ও মালিকের জাতীয় পরিচয়পত্রের ফটোকপি টার্মিনাল ব্যবস্থাপকের কার্যালয়ে জমা দিতে হবে। সকলের সহযোগিতা কামনা করা হলো।
+
+টার্মিনাল ব্যবস্থাপক
+সজনেডাঙা আন্তঃজেলা বাস টার্মিনাল",n/a,n/a,,
+QUESTION,N122,main,BN,What is the price of a monthly parking pass for a private car at the Shojnedanga Inter-district Bus Terminal?,সজনেডাঙা আন্তঃজেলা বাস টার্মিনালে প্রাইভেট কারের মাসিক পার্কিং পাসের দাম কত টাকা?,,,n/a,
+QUESTION,N122,main,RBN,What is the price of a monthly parking pass for a private car at the Shojnedanga Inter-district Bus Terminal?,shojnedanga antojela bus terminal e private carer mashik parking pasher dam koto taka?,,,n/a,
+QUESTION,N122,main,CM,What is the price of a monthly parking pass for a private car at the Shojnedanga Inter-district Bus Terminal?,সজনেডাঙা আন্তঃজেলা বাস টার্মিনালে private car এর monthly parking pass এর দাম কত টাকা?,,,n/a,
+QUESTION,N122,main,CMR,What is the price of a monthly parking pass for a private car at the Shojnedanga Inter-district Bus Terminal?,shojnedanga antojela bus terminal e private car er monthly parking pass er dam koto taka?,,,n/a,
+QUESTION,N122,sibling,BN,How many private cars and microbuses can the new parking area of the Shojnedanga Inter-district Bus Terminal hold at once?,সজনেডাঙা আন্তঃজেলা বাস টার্মিনালের নতুন পার্কিং এলাকায় একসঙ্গে কয়টি প্রাইভেট কার ও মাইক্রোবাস রাখা যাবে?,,,n/a,
+QUESTION,N122,sibling,RBN,How many private cars and microbuses can the new parking area of the Shojnedanga Inter-district Bus Terminal hold at once?,shojnedanga antojela bus terminal er notun parking elakay ekshonge koyti private car o maikrobas rakha jabe?,,,n/a,
+QUESTION,N122,sibling,CM,How many private cars and microbuses can the new parking area of the Shojnedanga Inter-district Bus Terminal hold at once?,সজনেডাঙা আন্তঃজেলা বাস টার্মিনালের নতুন parking এলাকায় একসঙ্গে কয়টি car ও microbus রাখা যাবে?,,,n/a,
+QUESTION,N122,sibling,CMR,How many private cars and microbuses can the new parking area of the Shojnedanga Inter-district Bus Terminal hold at once?,shojnedanga antojela bus terminal er notun parking elakay ekshonge koyti car o microbus rakha jabe?,,,n/a,
+NOTICE,N127,main,,What is the rent per sack for storing potatoes this season at Kakondubi Cold Storage Limited?,"কাকনডুবি হিমাগার লিমিটেড
+আলু সংরক্ষণের বুকিং সংক্রান্ত বিজ্ঞপ্তি
+
+কাকনডুবি হিমাগার লিমিটেডের পক্ষ থেকে এলাকার আলুচাষি ও ব্যবসায়ীদের জানানো যাচ্ছে যে, চলতি মৌসুমে আলু সংরক্ষণের জন্য বুকিং কার্যক্রম শুরু হতে যাচ্ছে। আগামী ২ মার্চ ২০২৭ তারিখ থেকে হিমাগারের অফিসে বুকিং স্লিপ বিতরণ করা হবে।
+
+ প্রতিটি বস্তার ওজন সর্বোচ্চ ৬০ কেজি হতে হবে; এর বেশি ওজনের বস্তা গ্রহণ করা হবে না। বুকিংয়ের সময় মোট ভাড়ার এক-চতুর্থাংশ অগ্রিম জমা দিতে হবে এবং বাকি ভাড়া আলু উত্তোলনের সময় পরিশোধ করতে হবে।
+
+হিমাগারে আলু রাখার আগে অবশ্যই ভালোভাবে বাছাই করে পচা ও কাটা আলু আলাদা করতে হবে। রোগাক্রান্ত বা ভেজা আলু গ্রহণ করা হবে না। প্রতিটি বস্তার গায়ে বুকিং স্লিপ নম্বর ও মালিকের নাম স্পষ্টভাবে লিখতে হবে। সংরক্ষিত আলু নভেম্বর মাসের মধ্যে উত্তোলন করতে হবে, অন্যথায় অতিরিক্ত ভাড়া প্রযোজ্য হবে। সংরক্ষিত আলুর বিপরীতে চাষিরা হিমাগারের মাধ্যমে স্বল্পমেয়াদি ঋণের জন্য আবেদন করতে পারবেন। একজন চাষি সর্বোচ্চ কত বস্তা বুক করতে পারবেন, তা হিমাগারের ধারণক্ষমতা অনুযায়ী নির্ধারণ করা হবে। বিস্তারিত তথ্যের জন্য হিমাগারের অফিসে যোগাযোগ করুন।
+
+ব্যবস্থাপক
+কাকনডুবি হিমাগার লিমিটেড",n/a,n/a,,
+QUESTION,N127,main,BN,What is the rent per sack for storing potatoes this season at Kakondubi Cold Storage Limited?,কাকনডুবি হিমাগার লিমিটেডে এ মৌসুমে প্রতি বস্তা আলু রাখার ভাড়া কত টাকা?,,,n/a,
+QUESTION,N127,main,RBN,What is the rent per sack for storing potatoes this season at Kakondubi Cold Storage Limited?,kakondubi himagar limited e e moushume proti bosta alu rakhar vara koto taka?,,,n/a,
+QUESTION,N127,main,CM,What is the rent per sack for storing potatoes this season at Kakondubi Cold Storage Limited?,কাকনডুবি হিমাগার লিমিটেডে এ season এ প্রতি বস্তা আলু রাখার rent কত টাকা?,,,n/a,
+QUESTION,N127,main,CMR,What is the rent per sack for storing potatoes this season at Kakondubi Cold Storage Limited?,kakondubi himagar limited e e season e proti bosta alu rakhar rent koto taka?,,,n/a,
+QUESTION,N127,sibling,BN,From what date will booking slips be distributed at Kakondubi Cold Storage Limited?,কাকনডুবি হিমাগার লিমিটেডে কোন তারিখ থেকে বুকিং স্লিপ বিতরণ করা হবে?,,,n/a,
+QUESTION,N127,sibling,RBN,From what date will booking slips be distributed at Kakondubi Cold Storage Limited?,kakondubi himagar limited e kon tarikh theke buking slip bitoron kora hobe?,,,n/a,
+QUESTION,N127,sibling,CM,From what date will booking slips be distributed at Kakondubi Cold Storage Limited?,কাকনডুবি হিমাগার লিমিটেডে কোন date থেকে booking slip দেওয়া হবে?,,,n/a,
+QUESTION,N127,sibling,CMR,From what date will booking slips be distributed at Kakondubi Cold Storage Limited?,kakondubi himagar limited e kon date theke booking slip dewa hobe?,,,n/a,
+NOTICE,N129,main,,What is the rent for a small stall at the fair organised by the Kashfuldanga Boishakhi Mela Celebration Council?,"কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদ
+স্টল বরাদ্দ বিজ্ঞপ্তি
+
+বাংলা নববর্ষ উপলক্ষে কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদের উদ্যোগে প্রতি বছরের মতো এবারও স্থানীয় উচ্চ বিদ্যালয় মাঠে সপ্তাহব্যাপী বৈশাখী মেলার আয়োজন করা হয়েছে। মেলায় হস্তশিল্প, মৃৎশিল্প, তাঁতের কাপড়, ঐতিহ্যবাহী খাবার ও শিশুদের খেলনার স্টল থাকবে। আগ্রহী ব্যবসায়ী ও উদ্যোক্তাদের কাছ থেকে স্টল বরাদ্দের আবেদন আহ্বান করা হচ্ছে।
+
+মেলা প্রাঙ্গণে মোট ৮৪টি স্টল বসানো হবে, যার মধ্যে কিছু স্টল নারী উদ্যোক্তাদের জন্য সংরক্ষিত থাকবে। বড় আকারের খাবারের স্টলের ভাড়া ৪,৬০০ টাকা, যা বিদ্যুৎ বিলসহ নির্ধারিত। আবেদন ফরম পরিষদের অফিস থেকে ৫০ টাকার বিনিময়ে সংগ্রহ করা যাবে। স্টল ভাড়া মোবাইল ব্যাংকিং বা নগদে পরিশোধ করা যাবে, তবে বরাদ্দপত্র পাওয়ার আগে পুরো ভাড়া জমা দিতে হবে। একজন আবেদনকারী একাধিক স্টলের জন্য আবেদন করতে পারবেন না।
+
+মেলা চলাকালীন প্রতিদিন বিকেল থেকে রাত পর্যন্ত সাংস্কৃতিক অনুষ্ঠান, লোকগান ও পুতুলনাচ পরিবেশিত হবে। মেলা প্রাঙ্গণে ধূমপান সম্পূর্ণ নিষিদ্ধ। নিরাপত্তার জন্য পরিষদের স্বেচ্ছাসেবক দল সার্বক্ষণিক দায়িত্ব পালন করবে। স্টল বরাদ্দ লটারির মাধ্যমে নির্ধারণ করা হবে এবং ফলাফল পরিষদের নোটিশ বোর্ডে টাঙিয়ে দেওয়া হবে। বিস্তারিত জানতে পরিষদের অফিসে সকাল ১০টা থেকে বিকেল ৫টার মধ্যে যোগাযোগ করুন।
+
+আহ্বায়ক
+কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদ",n/a,n/a,,
+QUESTION,N129,main,BN,What is the rent for a small stall at the fair organised by the Kashfuldanga Boishakhi Mela Celebration Council?,কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদের মেলায় ছোট স্টলের ভাড়া কত টাকা?,,,n/a,
+QUESTION,N129,main,RBN,What is the rent for a small stall at the fair organised by the Kashfuldanga Boishakhi Mela Celebration Council?,kashfuldanga boishakhi mela udjapon porishoder melay choto stoler vara koto taka?,,,n/a,
+QUESTION,N129,main,CM,What is the rent for a small stall at the fair organised by the Kashfuldanga Boishakhi Mela Celebration Council?,কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদের মেলায় small stall এর rent কত টাকা?,,,n/a,
+QUESTION,N129,main,CMR,What is the rent for a small stall at the fair organised by the Kashfuldanga Boishakhi Mela Celebration Council?,kashfuldanga boishakhi mela udjapon porishoder melay small stall er rent koto taka?,,,n/a,
+QUESTION,N129,sibling,BN,How many stalls in total will be set up at the fair organised by the Kashfuldanga Boishakhi Mela Celebration Council?,কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদের মেলায় মোট কয়টি স্টল বসানো হবে?,,,n/a,
+QUESTION,N129,sibling,RBN,How many stalls in total will be set up at the fair organised by the Kashfuldanga Boishakhi Mela Celebration Council?,kashfuldanga boishakhi mela udjapon porishoder melay mot koyti stol boshano hobe?,,,n/a,
+QUESTION,N129,sibling,CM,How many stalls in total will be set up at the fair organised by the Kashfuldanga Boishakhi Mela Celebration Council?,কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদের মেলায় মোট কয়টি stall বসানো হবে?,,,n/a,
+QUESTION,N129,sibling,CMR,How many stalls in total will be set up at the fair organised by the Kashfuldanga Boishakhi Mela Celebration Council?,kashfuldanga boishakhi mela udjapon porishoder melay mot koyti stall boshano hobe?,,,n/a,
+NOTICE,N132,main,,How many sales representatives will Chaltabari Food Products Limited recruit?,"চালতাবাড়ি খাদ্যপণ্য লিমিটেড
+নিয়োগ বিজ্ঞপ্তি
+
+মুড়ি, চানাচুর ও বিস্কুট প্রস্তুতকারী প্রতিষ্ঠান চালতাবাড়ি খাদ্যপণ্য লিমিটেড তাদের বিক্রয় বিভাগে জনবল নিয়োগের জন্য যোগ্য প্রার্থীদের কাছ থেকে আবেদন আহ্বান করছে।
+
+পদের নাম: বিক্রয় প্রতিনিধি। এই পদে প্রয়োজনীয় সংখ্যক প্রার্থী নিয়োগ দেওয়া হবে। নির্বাচিত প্রার্থীদের জেলার বিভিন্ন উপজেলায় পাইকারি ও খুচরা দোকানে পণ্য সরবরাহের তদারকি করতে হবে। শিক্ষাগত যোগ্যতা ন্যূনতম উচ্চ মাধ্যমিক পাস। প্রার্থীর বয়স অনূর্ধ্ব ৩০ বছর হতে হবে। মোটরসাইকেল চালাতে জানা প্রার্থীদের অগ্রাধিকার দেওয়া হবে। মাসিক বেতন ১৬,০০০ টাকা, সঙ্গে বিক্রয়ের ওপর কমিশন ও দৈনিক যাতায়াত ভাতা দেওয়া হবে।
+
+পদের নাম: হিসাব সহকারী। এই পদে স্নাতক পাস এবং কম্পিউটারে হিসাব রাখার কাজে দক্ষ প্রার্থীরা আবেদন করতে পারবেন। মাসিক বেতন আলোচনা সাপেক্ষে নির্ধারণ করা হবে।
+
+আগ্রহী প্রার্থীদের জীবনবৃত্তান্ত, দুই কপি পাসপোর্ট সাইজের ছবি ও শিক্ষাগত সনদের ফটোকপিসহ আবেদনপত্র প্রতিষ্ঠানের প্রধান কার্যালয়ে সরাসরি অথবা ডাকযোগে পাঠাতে হবে। আবেদনের শেষ তারিখ ১২ ফেব্রুয়ারি ২০২৭। শুধুমাত্র প্রাথমিকভাবে বাছাইকৃত প্রার্থীদের মৌখিক পরীক্ষার জন্য মোবাইলে খুদে বার্তার মাধ্যমে জানানো হবে। কোনো ধরনের সুপারিশ প্রার্থীর অযোগ্যতা হিসেবে বিবেচিত হবে।
+
+মানবসম্পদ বিভাগ
+চালতাবাড়ি খাদ্যপণ্য লিমিটেড",n/a,n/a,,
+QUESTION,N132,main,BN,How many sales representatives will Chaltabari Food Products Limited recruit?,চালতাবাড়ি খাদ্যপণ্য লিমিটেড কতজন বিক্রয় প্রতিনিধি নিয়োগ দেবে?,,,n/a,
+QUESTION,N132,main,RBN,How many sales representatives will Chaltabari Food Products Limited recruit?,chaltabari khaddopponno limited kotojon bikroy protinidhi niyog debe?,,,n/a,
+QUESTION,N132,main,CM,How many sales representatives will Chaltabari Food Products Limited recruit?,চালতাবাড়ি খাদ্যপণ্য লিমিটেড কতজন sales representative নিয়োগ দেবে?,,,n/a,
+QUESTION,N132,main,CMR,How many sales representatives will Chaltabari Food Products Limited recruit?,chaltabari khaddopponno limited kotojon sales representative niyog debe?,,,n/a,
+QUESTION,N132,sibling,BN,What is the last date to apply for the jobs at Chaltabari Food Products Limited?,চালতাবাড়ি খাদ্যপণ্য লিমিটেডের চাকরিতে আবেদনের শেষ তারিখ কবে?,,,n/a,
+QUESTION,N132,sibling,RBN,What is the last date to apply for the jobs at Chaltabari Food Products Limited?,chaltabari khaddopponno limiteder chakrite abedoner shesh tarikh kobe?,,,n/a,
+QUESTION,N132,sibling,CM,What is the last date to apply for the jobs at Chaltabari Food Products Limited?,চালতাবাড়ি খাদ্যপণ্য লিমিটেডের চাকরিতে apply করার last date কবে?,,,n/a,
+QUESTION,N132,sibling,CMR,What is the last date to apply for the jobs at Chaltabari Food Products Limited?,chaltabari khaddopponno limiteder chakrite apply korar last date kobe?,,,n/a,
+NOTICE,N135,main,,How much cash assistance will each selected farmer receive from the Kaunbari Farmers' Welfare Cooperative Society?,"কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতি
+রবি মৌসুমে কৃষি সহায়তা বিতরণ সংক্রান্ত বিজ্ঞপ্তি
+
+কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতির সদস্যদের জানানো যাচ্ছে যে, চলতি রবি মৌসুমে ক্ষুদ্র ও প্রান্তিক কৃষকদের জন্য সমিতির নিজস্ব তহবিল থেকে কৃষি সহায়তা কর্মসূচি গ্রহণ করা হয়েছে। এ বছর মোট ২১৫ জন কৃষককে এই কর্মসূচির জন্য নির্বাচন করা হয়েছে। নির্বাচিত কৃষকদের তালিকা সমিতির কার্যালয়ের নোটিশ বোর্ডে টাঙানো হয়েছে।
+
+নির্বাচিত প্রত্যেক কৃষক সার ও বীজ কেনার জন্য নগদ সহায়তা পাবেন; সহায়তার পরিমাণ পরবর্তীতে জানানো হবে। সহায়তার অর্থ কৃষকের নিজ নামে খোলা মোবাইল ব্যাংকিং হিসাবে পাঠানো হবে, তাই প্রত্যেককে সক্রিয় হিসাব নম্বর জমা দিতে হবে। যাঁদের এখনো মোবাইল ব্যাংকিং হিসাব নেই, তাঁরা সমিতির মাঠকর্মীর সহায়তায় হিসাব খুলে নিতে পারবেন।
+
+সহায়তা পেতে হলে কৃষককে অবশ্যই সমিতির নিয়মিত সদস্য হতে হবে এবং চলতি বছরের বার্ষিক সদস্য চাঁদা ১০০ টাকা পরিশোধিত থাকতে হবে। আবেদনের সঙ্গে জাতীয় পরিচয়পত্রের ফটোকপি ও জমির পরিমাণ উল্লেখ করে ইউনিয়ন উপসহকারী কৃষি কর্মকর্তার প্রত্যয়নপত্র জমা দিতে হবে। একই পরিবারের একাধিক সদস্য সহায়তার জন্য বিবেচিত হবেন না।
+
+সহায়তার অর্থ শুধুমাত্র গম, সরিষা, আলু বা ডাল চাষের কাজে ব্যবহার করতে হবে। সমিতির মাঠকর্মীরা মৌসুমজুড়ে খেত পরিদর্শন করবেন। কোনো অনিয়ম পাওয়া গেলে ভবিষ্যতে ওই কৃষককে সহায়তা তালিকা থেকে বাদ দেওয়া হবে।
+
+সম্পাদক
+কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতি",n/a,n/a,,
+QUESTION,N135,main,BN,How much cash assistance will each selected farmer receive from the Kaunbari Farmers' Welfare Cooperative Society?,কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতি থেকে নির্বাচিত প্রত্যেক কৃষক কত টাকা নগদ সহায়তা পাবেন?,,,n/a,
+QUESTION,N135,main,RBN,How much cash assistance will each selected farmer receive from the Kaunbari Farmers' Welfare Cooperative Society?,kaunbari krishok kollan shomobay shomiti theke nirbachito prottek krishok koto taka nogod shohayota paben?,,,n/a,
+QUESTION,N135,main,CM,How much cash assistance will each selected farmer receive from the Kaunbari Farmers' Welfare Cooperative Society?,কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতি থেকে selected প্রত্যেক কৃষক কত টাকা cash সহায়তা পাবেন?,,,n/a,
+QUESTION,N135,main,CMR,How much cash assistance will each selected farmer receive from the Kaunbari Farmers' Welfare Cooperative Society?,kaunbari krishok kollan shomobay shomiti theke selected prottek krishok koto taka cash shohayota paben?,,,n/a,
+QUESTION,N135,sibling,BN,How many farmers in total have been selected for the Kaunbari Farmers' Welfare Cooperative Society's assistance programme this year?,এ বছর কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতির সহায়তা কর্মসূচিতে মোট কতজন কৃষক নির্বাচিত হয়েছেন?,,,n/a,
+QUESTION,N135,sibling,RBN,How many farmers in total have been selected for the Kaunbari Farmers' Welfare Cooperative Society's assistance programme this year?,e bochor kaunbari krishok kollan shomobay shomitir shohayota kormoshuchite mot kotojon krishok nirbachito hoyechen?,,,n/a,
+QUESTION,N135,sibling,CM,How many farmers in total have been selected for the Kaunbari Farmers' Welfare Cooperative Society's assistance programme this year?,এ বছর কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতির সহায়তা program এ মোট কতজন কৃষক selected হয়েছেন?,,,n/a,
+QUESTION,N135,sibling,CMR,How many farmers in total have been selected for the Kaunbari Farmers' Welfare Cooperative Society's assistance programme this year?,e bochor kaunbari krishok kollan shomobay shomitir shohayota program e mot kotojon krishok selected hoyechen?,,,n/a,
+NOTICE,N136,main,,From what date will the shops at Kadamrenu Market Complex be available for rent?,"কদমরেণু বিপণি বিতান
+দোকান ভাড়া দেওয়া হবে
+
+বাজার রোডে নবনির্মিত কদমরেণু বিপণি বিতানের নিচতলা ও দোতলায় মোট বারোটি দোকান ভাড়া দেওয়ার জন্য আগ্রহী ব্যবসায়ীদের কাছ থেকে আবেদন আহ্বান করা হচ্ছে। প্রতিটি দোকানে বিদ্যুতের আলাদা মিটার, শাটার দরজা এবং পেছনে ছোট গুদাম কক্ষ রয়েছে। ভবনে সার্বক্ষণিক নিরাপত্তাকর্মী ও সিসিটিভি ক্যামেরার ব্যবস্থা আছে।
+
+নিচতলার প্রতিটি দোকানের মাসিক ভাড়া ৮,৫০০ টাকা এবং দোতলার প্রতিটি দোকানের মাসিক ভাড়া ৬,২০০ টাকা। ভাড়ার সঙ্গে সাধারণ এলাকার বিদ্যুৎ ও পরিচ্ছন্নতা বাবদ মাসিক সার্ভিস চার্জ আলাদাভাবে দিতে হবে। চুক্তি স্বাক্ষরের সময় ছয় মাসের ভাড়ার সমপরিমাণ অর্থ জামানত হিসেবে জমা দিতে হবে, যা চুক্তি শেষে ফেরতযোগ্য।
+
+আগ্রহী ব্যক্তিদের ১০ ফেব্রুয়ারি ২০২৭ তারিখের মধ্যে ট্রেড লাইসেন্স ও জাতীয় পরিচয়পত্রের ফটোকপিসহ ভবনের ব্যবস্থাপনা অফিসে আবেদন জমা দিতে হবে। একাধিক আবেদন পড়লে লটারির মাধ্যমে দোকান বরাদ্দ করা হবে। মাছ, মাংস বা কাঁচাবাজারের দোকান হিসেবে কোনো কক্ষ ভাড়া দেওয়া হবে না। ওষুধ, কাপড়, মুদি ও ইলেকট্রনিক্স পণ্যের ব্যবসায়ীদের অগ্রাধিকার দেওয়া হবে। দোকান দেখতে চাইলে প্রতিদিন সকাল ১০টা থেকে সন্ধ্যা ৬টার মধ্যে ব্যবস্থাপনা অফিসে যোগাযোগ করুন।
+
+ব্যবস্থাপক
+কদমরেণু বিপণি বিতান",n/a,n/a,,
+QUESTION,N136,main,BN,From what date will the shops at Kadamrenu Market Complex be available for rent?,কদমরেণু বিপণি বিতানের দোকানগুলো কোন তারিখ থেকে ভাড়া দেওয়া হবে?,,,n/a,
+QUESTION,N136,main,RBN,From what date will the shops at Kadamrenu Market Complex be available for rent?,kodomrenu biponi bitaner dokangulo kon tarikh theke vara dewa hobe?,,,n/a,
+QUESTION,N136,main,CM,From what date will the shops at Kadamrenu Market Complex be available for rent?,কদমরেণু বিপণি বিতানের shop গুলো কোন date থেকে ভাড়া দেওয়া হবে?,,,n/a,
+QUESTION,N136,main,CMR,From what date will the shops at Kadamrenu Market Complex be available for rent?,kodomrenu biponi bitaner shop gulo kon date theke vara dewa hobe?,,,n/a,
+QUESTION,N136,sibling,BN,What is the monthly rent of a ground-floor shop at Kadamrenu Market Complex?,কদমরেণু বিপণি বিতানের নিচতলার দোকানের মাসিক ভাড়া কত টাকা?,,,n/a,
+QUESTION,N136,sibling,RBN,What is the monthly rent of a ground-floor shop at Kadamrenu Market Complex?,kodomrenu biponi bitaner nichtolar dokaner mashik vara koto taka?,,,n/a,
+QUESTION,N136,sibling,CM,What is the monthly rent of a ground-floor shop at Kadamrenu Market Complex?,কদমরেণু বিপণি বিতানের ground floor এর দোকানের monthly ভাড়া কত টাকা?,,,n/a,
+QUESTION,N136,sibling,CMR,What is the monthly rent of a ground-floor shop at Kadamrenu Market Complex?,kodomrenu biponi bitaner ground floor er dokaner monthly vara koto taka?,,,n/a,
+NOTICE,N138,main,,How many fish fry will each registered member of the Chitolbari Fishers' Cooperative Society receive?,"চিতলবাড়ি মৎস্যজীবী সমবায় সমিতি
+মাছের পোনা বিতরণ সংক্রান্ত বিজ্ঞপ্তি
+
+চিতলবাড়ি মৎস্যজীবী সমবায় সমিতির নিবন্ধিত সদস্যদের জানানো যাচ্ছে যে, পুকুরে মাছ চাষ বাড়ানোর লক্ষ্যে সমিতির পক্ষ থেকে এ মৌসুমে বিনামূল্যে মাছের পোনা বিতরণ করা হবে। পোনা বিতরণ করা হবে ৯ মে ২০২৭ তারিখ সকাল ৯টা থেকে সমিতির নদীঘাট সংলগ্ন হ্যাচারি প্রাঙ্গণে।
+
+পোনা পেতে হলে সদস্যের নিজ নামে বা পারিবারিক মালিকানায় কমপক্ষে ২০ শতাংশ আয়তনের পুকুর থাকতে হবে। পুকুরে আগে থেকে চুন প্রয়োগ ও আগাছা পরিষ্কার করে রাখতে হবে। সমিতির মাঠকর্মীরা বিতরণের আগের সপ্তাহে প্রতিটি পুকুর সরেজমিনে পরিদর্শন করবেন। পরিদর্শনে অনুপযুক্ত পাওয়া গেলে সংশ্লিষ্ট সদস্যকে এবারের তালিকা থেকে বাদ দেওয়া হবে।
+
+পোনা পরিবহনের জন্য সদস্যদের নিজ উদ্যোগে পানিভর্তি পাতিল বা অক্সিজেনযুক্ত পলিথিন ব্যাগ আনতে হবে। পোনা ছাড়ার পর প্রথম মাসে পরিমিত খাবার দেওয়ার বিষয়ে সমিতির মৎস্য পরামর্শক বিতরণের দিন সংক্ষিপ্ত পরামর্শ দেবেন। বর্তমানে সমিতির মোট সদস্যসংখ্যা ১৪০ জন। যেসব সদস্যের বার্ষিক চাঁদা বকেয়া আছে, তাঁদের বিতরণের আগেই চাঁদা পরিশোধ করতে হবে। সদস্য পরিচয়পত্র ছাড়া কাউকে পোনা দেওয়া হবে না। প্রতিনিধির মাধ্যমে পোনা সংগ্রহ করতে চাইলে সদস্যের স্বাক্ষরিত অনুমতিপত্র আনতে হবে।
+
+সভাপতি
+চিতলবাড়ি মৎস্যজীবী সমবায় সমিতি",n/a,n/a,,
+QUESTION,N138,main,BN,How many fish fry will each registered member of the Chitolbari Fishers' Cooperative Society receive?,চিতলবাড়ি মৎস্যজীবী সমবায় সমিতির প্রত্যেক নিবন্ধিত সদস্য কয়টি করে মাছের পোনা পাবেন?,,,n/a,
+QUESTION,N138,main,RBN,How many fish fry will each registered member of the Chitolbari Fishers' Cooperative Society receive?,chitolbari motshojibi shomobay shomitir prottek nibondhito shodosso koyti kore macher pona paben?,,,n/a,
+QUESTION,N138,main,CM,How many fish fry will each registered member of the Chitolbari Fishers' Cooperative Society receive?,চিতলবাড়ি মৎস্যজীবী সমবায় সমিতির প্রত্যেক registered member কয়টি করে মাছের পোনা পাবেন?,,,n/a,
+QUESTION,N138,main,CMR,How many fish fry will each registered member of the Chitolbari Fishers' Cooperative Society receive?,chitolbari motshojibi shomobay shomitir prottek registered member koyti kore macher pona paben?,,,n/a,
+QUESTION,N138,sibling,BN,On what date will the Chitolbari Fishers' Cooperative Society distribute the fish fry?,চিতলবাড়ি মৎস্যজীবী সমবায় সমিতি কোন তারিখে মাছের পোনা বিতরণ করবে?,,,n/a,
+QUESTION,N138,sibling,RBN,On what date will the Chitolbari Fishers' Cooperative Society distribute the fish fry?,chitolbari motshojibi shomobay shomiti kon tarikhe macher pona bitoron korbe?,,,n/a,
+QUESTION,N138,sibling,CM,On what date will the Chitolbari Fishers' Cooperative Society distribute the fish fry?,চিতলবাড়ি মৎস্যজীবী সমবায় সমিতি কোন date এ মাছের পোনা distribute করবে?,,,n/a,
+QUESTION,N138,sibling,CMR,On what date will the Chitolbari Fishers' Cooperative Society distribute the fish fry?,chitolbari motshojibi shomobay shomiti kon date e macher pona distribute korbe?,,,n/a,
+NOTICE,N143,main,,What is the monthly salary for the machine operator post at Moyurponkhi Printing Press?,"ময়ূরপঙ্খী ছাপাখানা
+জরুরি ভিত্তিতে লোক নিয়োগ
+
+দীর্ঘ দুই দশক ধরে বই, ক্যালেন্ডার, দাওয়াতপত্র ও প্যাকেজিং সামগ্রী মুদ্রণের সঙ্গে যুক্ত ময়ূরপঙ্খী ছাপাখানা ব্যবসা সম্প্রসারণের জন্য নিচের পদগুলোতে লোক নিয়োগ দেবে।
+
+১. মেশিন অপারেটর (অফসেট মেশিন) — ৬টি পদ। প্রার্থীর অফসেট মুদ্রণ যন্ত্র চালানো ও রক্ষণাবেক্ষণের বাস্তব অভিজ্ঞতা থাকতে হবে। রাতের পালায় কাজ করলে অতিরিক্ত ভাতা দেওয়া হবে।
+
+২. সহকারী অপারেটর — এই পদে নতুনরাও আবেদন করতে পারবেন; কাজের পাশাপাশি হাতে-কলমে প্রশিক্ষণ দেওয়া হবে। সহকারী অপারেটর পদের মাসিক বেতন ৯,৮০০ টাকা।
+
+৩. গ্রাফিক ডিজাইনার — ডিজাইন সফটওয়্যারে দক্ষ এবং বাংলা টাইপে পারদর্শী প্রার্থীরা আবেদন করতে পারবেন। বেতন অভিজ্ঞতা অনুযায়ী আলোচনা সাপেক্ষে।
+
+সকল পদের জন্য প্রার্থীকে শারীরিকভাবে সুস্থ এবং ছাপাখানার আশেপাশে বসবাসকারী হতে হবে। কর্মঘণ্টা সকাল ৯টা থেকে সন্ধ্যা ৬টা, শুক্রবার সাপ্তাহিক ছুটি। দুই ঈদে উৎসব ভাতা এবং বছরে একবার বেতন বৃদ্ধির সুযোগ রয়েছে। আগ্রহী প্রার্থীদের হাতে লেখা আবেদনপত্র, জীবনবৃত্তান্ত ও জাতীয় পরিচয়পত্রের ফটোকপি নিয়ে সরাসরি ছাপাখানার অফিসে যোগাযোগ করতে বলা হচ্ছে। আবেদন গ্রহণের শেষ তারিখ ২০ মার্চ ২০২৭। বাছাইকৃত প্রার্থীদের হাতে-কলমে দক্ষতা যাচাই পরীক্ষা নেওয়া হবে।
+
+স্বত্বাধিকারী
+ময়ূরপঙ্খী ছাপাখানা",n/a,n/a,,
+QUESTION,N143,main,BN,What is the monthly salary for the machine operator post at Moyurponkhi Printing Press?,ময়ূরপঙ্খী ছাপাখানায় মেশিন অপারেটর পদের মাসিক বেতন কত টাকা?,,,n/a,
+QUESTION,N143,main,RBN,What is the monthly salary for the machine operator post at Moyurponkhi Printing Press?,moyurponkhi chapakhanay meshin oparetor poder mashik beton koto taka?,,,n/a,
+QUESTION,N143,main,CM,What is the monthly salary for the machine operator post at Moyurponkhi Printing Press?,ময়ূরপঙ্খী ছাপাখানায় machine operator পদের monthly salary কত টাকা?,,,n/a,
+QUESTION,N143,main,CMR,What is the monthly salary for the machine operator post at Moyurponkhi Printing Press?,moyurponkhi chapakhanay machine operator poder monthly salary koto taka?,,,n/a,
+QUESTION,N143,sibling,BN,How many machine operator posts are vacant at Moyurponkhi Printing Press?,ময়ূরপঙ্খী ছাপাখানায় মেশিন অপারেটরের কয়টি পদ খালি আছে?,,,n/a,
+QUESTION,N143,sibling,RBN,How many machine operator posts are vacant at Moyurponkhi Printing Press?,moyurponkhi chapakhanay meshin oparetorer koyti pod khali ache?,,,n/a,
+QUESTION,N143,sibling,CM,How many machine operator posts are vacant at Moyurponkhi Printing Press?,ময়ূরপঙ্খী ছাপাখানায় machine operator এর কয়টি post খালি আছে?,,,n/a,
+QUESTION,N143,sibling,CMR,How many machine operator posts are vacant at Moyurponkhi Printing Press?,moyurponkhi chapakhanay machine operator er koyti post khali ache?,,,n/a,
+NOTICE,N151,main,,How many CCTV cameras will the Kathgolap Tower Flat Owners' Welfare Association install?,"কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতি
+নিরাপত্তা ব্যবস্থা আধুনিকায়ন সংক্রান্ত বিজ্ঞপ্তি
+
+সম্প্রতি এলাকায় কয়েকটি চুরির ঘটনার পরিপ্রেক্ষিতে কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতির কার্যনির্বাহী কমিটি ভবনের নিরাপত্তা ব্যবস্থা আধুনিকায়নের সিদ্ধান্ত নিয়েছে। এর অংশ হিসেবে ভবনের প্রবেশপথ, পার্কিং এলাকা, সিঁড়ি, লিফটের সামনে এবং ছাদে প্রয়োজনীয় সংখ্যক সিসিটিভি ক্যামেরা স্থাপন করা হবে। ক্যামেরার ফুটেজ নিচতলার নিরাপত্তা কক্ষে সার্বক্ষণিক পর্যবেক্ষণ করা হবে এবং অন্তত এক মাস সংরক্ষিত থাকবে।
+
+স্থাপনের কাজ শুরু হবে ৩ মে ২০২৭ তারিখে এবং আনুমানিক দুই সপ্তাহের মধ্যে শেষ হবে। কাজ চলাকালীন কিছু সময়ের জন্য করিডোরে বিদ্যুৎ সংযোগ বন্ধ থাকতে পারে। এছাড়া মূল ফটকে ইলেকট্রনিক কার্ডের মাধ্যমে প্রবেশ ব্যবস্থা চালু করা হবে; প্রত্যেক ফ্ল্যাটকে চারটি করে প্রবেশ কার্ড দেওয়া হবে। অতিরিক্ত কার্ডের প্রয়োজন হলে নির্ধারিত মূল্যে সমিতির অফিস থেকে সংগ্রহ করা যাবে।
+
+এই কাজের ব্যয় নির্বাহের জন্য প্রত্যেক ফ্ল্যাট মালিককে এককালীন ৭,৮০০ টাকা প্রদান করতে হবে, যা ২০ এপ্রিল ২০২৭ তারিখের মধ্যে সমিতির হিসাবে জমা দিতে হবে। ভাড়াটিয়াদের ক্ষেত্রে এই অর্থ ফ্ল্যাট মালিক পরিশোধ করবেন। নিরাপত্তাকর্মীদের নতুন ব্যবস্থার ওপর প্রশিক্ষণ দেওয়া হবে। নিরাপত্তা সংক্রান্ত যেকোনো অভিযোগ সমিতির অফিসে লিখিতভাবে জানানোর অনুরোধ করা হলো।
+
+সভাপতি
+কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতি",n/a,n/a,,
+QUESTION,N151,main,BN,How many CCTV cameras will the Kathgolap Tower Flat Owners' Welfare Association install?,কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতি মোট কয়টি সিসিটিভি ক্যামেরা স্থাপন করবে?,,,n/a,
+QUESTION,N151,main,RBN,How many CCTV cameras will the Kathgolap Tower Flat Owners' Welfare Association install?,kathgolap tower flat malik kollan shomiti mot koyti sisitivi kyamera sthapon korbe?,,,n/a,
+QUESTION,N151,main,CM,How many CCTV cameras will the Kathgolap Tower Flat Owners' Welfare Association install?,কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতি মোট কয়টি CCTV camera বসাবে?,,,n/a,
+QUESTION,N151,main,CMR,How many CCTV cameras will the Kathgolap Tower Flat Owners' Welfare Association install?,kathgolap tower flat malik kollan shomiti mot koyti CCTV camera boshabe?,,,n/a,
+QUESTION,N151,sibling,BN,On what date will the installation work start at the Kathgolap Tower Flat Owners' Welfare Association's building?,কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতির ভবনে স্থাপনের কাজ কোন তারিখে শুরু হবে?,,,n/a,
+QUESTION,N151,sibling,RBN,On what date will the installation work start at the Kathgolap Tower Flat Owners' Welfare Association's building?,kathgolap tower flat malik kollan shomitir bhobone sthaponer kaj kon tarikhe shuru hobe?,,,n/a,
+QUESTION,N151,sibling,CM,On what date will the installation work start at the Kathgolap Tower Flat Owners' Welfare Association's building?,কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতির ভবনে installation এর কাজ কোন date এ শুরু হবে?,,,n/a,
+QUESTION,N151,sibling,CMR,On what date will the installation work start at the Kathgolap Tower Flat Owners' Welfare Association's building?,kathgolap tower flat malik kollan shomitir bhobone installation er kaj kon date e shuru hobe?,,,n/a,
+NOTICE,N161,main,,Who has been elected president of the new committee of the Jonakipara Neighbourhood Development Association?,"জোনাকিপাড়া মহল্লা উন্নয়ন সমিতি
+নতুন কার্যনির্বাহী কমিটি গঠন সংক্রান্ত বিজ্ঞপ্তি
+
+জোনাকিপাড়া মহল্লা উন্নয়ন সমিতির সকল সদস্য ও এলাকাবাসীকে জানানো যাচ্ছে যে, গত সাধারণ সভায় সদস্যদের সরাসরি ভোটে সমিতির নতুন কার্যনির্বাহী কমিটি গঠিত হয়েছে। নতুন কমিটি ১৫ সদস্যবিশিষ্ট এবং এর মেয়াদ দুই বছর।
+
+নবগঠিত কমিটির সভাপতির নাম আনুষ্ঠানিক অনুমোদনের পর জানানো হবে। সাধারণ সম্পাদক নির্বাচিত হয়েছেন আতিকুল ইসলাম রনি এবং কোষাধ্যক্ষের দায়িত্ব পেয়েছেন মোস্তফা জামান। কমিটিতে নারী সদস্যদের অংশগ্রহণ এবার আগের তুলনায় বেড়েছে, যা এলাকাবাসীর কাছে প্রশংসিত হয়েছে।
+
+নতুন কমিটি দায়িত্ব গ্রহণের পর প্রথম সভায় কয়েকটি অগ্রাধিকারমূলক কাজের সিদ্ধান্ত নিয়েছে: মহল্লার ভেতরের সরু রাস্তাগুলোতে সড়কবাতি স্থাপন, নালা পরিষ্কার ও মশক নিধন অভিযান, রাতে পাহারার জন্য পালাক্রমে স্বেচ্ছাসেবক দল গঠন এবং শিশুদের জন্য একটি ছোট খেলার মাঠ সংস্কার। এসব কাজের জন্য এলাকাবাসীর কাছ থেকে স্বেচ্ছায় অনুদান গ্রহণ করা হবে, এবং প্রতিটি অনুদানের রসিদ দেওয়া হবে।
+
+সমিতির মাসিক সভা প্রতি মাসের শেষ শুক্রবার বাদ আসর সমিতির কার্যালয়ে অনুষ্ঠিত হবে। মহল্লার যেকোনো সমস্যা বা পরামর্শ লিখিতভাবে কার্যালয়ের অভিযোগ বাক্সে জমা দেওয়া যাবে। মহল্লাকে পরিচ্ছন্ন, নিরাপদ ও বাসযোগ্য রাখতে সকলের সহযোগিতা কামনা করা হচ্ছে।
+
+দপ্তর সম্পাদক
+জোনাকিপাড়া মহল্লা উন্নয়ন সমিতি",n/a,n/a,,
+QUESTION,N161,main,BN,Who has been elected president of the new committee of the Jonakipara Neighbourhood Development Association?,জোনাকিপাড়া মহল্লা উন্নয়ন সমিতির নতুন কমিটির সভাপতি কে নির্বাচিত হয়েছেন?,,,n/a,
+QUESTION,N161,main,RBN,Who has been elected president of the new committee of the Jonakipara Neighbourhood Development Association?,jonakipara moholla unnoyon shomitir notun komitir shovapoti ke nirbachito hoyechen?,,,n/a,
+QUESTION,N161,main,CM,Who has been elected president of the new committee of the Jonakipara Neighbourhood Development Association?,জোনাকিপাড়া মহল্লা উন্নয়ন সমিতির new committee র president কে হয়েছেন?,,,n/a,
+QUESTION,N161,main,CMR,Who has been elected president of the new committee of the Jonakipara Neighbourhood Development Association?,jonakipara moholla unnoyon shomitir new committee r president ke hoyechen?,,,n/a,
+QUESTION,N161,sibling,BN,How many members are on the new executive committee of the Jonakipara Neighbourhood Development Association?,জোনাকিপাড়া মহল্লা উন্নয়ন সমিতির নতুন কার্যনির্বাহী কমিটি কত সদস্যবিশিষ্ট?,,,n/a,
+QUESTION,N161,sibling,RBN,How many members are on the new executive committee of the Jonakipara Neighbourhood Development Association?,jonakipara moholla unnoyon shomitir notun karjonirbahi komiti koto shodossobishishto?,,,n/a,
+QUESTION,N161,sibling,CM,How many members are on the new executive committee of the Jonakipara Neighbourhood Development Association?,জোনাকিপাড়া মহল্লা উন্নয়ন সমিতির new committee তে কতজন member আছেন?,,,n/a,
+QUESTION,N161,sibling,CMR,How many members are on the new executive committee of the Jonakipara Neighbourhood Development Association?,jonakipara moholla unnoyon shomitir new committee te kotojon member achen?,,,n/a,

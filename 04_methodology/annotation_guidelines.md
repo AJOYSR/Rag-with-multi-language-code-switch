@@ -62,3 +62,5 @@ Example: the question asks for the fee. The edited notice says "the fee must be 
 
 ## Consent
 Before you start, the author will explain the study and confirm that you agree to take part, to having your anonymised ratings published, and how you want to be credited. You can stop at any time.
+
+**Returning the sheet:** save it as `annotation_sample_RETURNED.csv` with the "CSV UTF-8" option, then open it again and check that the Bengali text is still readable before sending it back.

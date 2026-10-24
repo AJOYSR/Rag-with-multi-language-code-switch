@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-24",
+  "incident": "review_main sheets saved as plain CSV (cp1252); Bengali text replaced by '?'",
+  "recovery": "original text columns restored from the generated sheets (git 298f3f1); author-filled columns (STATUS, Y/N, *_EDIT, comment) copied from the returned files",
+  "files": {
+    "review_main": {
+      "rows": 340,
+      "author_columns_copied": [
+        "en_EDIT",
+        "bn_EDIT",
+        "rbn_EDIT",
+        "cm_EDIT",
+        "cmr_EDIT",
+        "meaning_equivalent_all (Y/N)",
+        "natural (Y/N)",
+        "STATUS (approve/edit/drop)",
+        "comment"
+      ],
+      "edit_cells_lost": []
+    },
+    "review_main_passages": {
+      "rows": 170,
+      "author_columns_copied": [
+        "passage_EDIT",
+        "replacement_EDIT",
+        "insufficient_really_unanswerable (Y/N)",
+        "names_fictional_ok (Y/N)",
+        "STATUS (approve/edit/drop)",
+        "comment"
+      ],
+      "edit_cells_lost": []
+    }
+  }
+}
