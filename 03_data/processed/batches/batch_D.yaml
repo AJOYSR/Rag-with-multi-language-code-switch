@@ -1,0 +1,1723 @@
+# Batch D — AI-drafted (Claude), 2026-10-24, NOT author-reviewed
+# Domains: community, culture, housing, agriculture, environment, jobs. Ids N129–N170. All names fictional.
+- id: N129
+  format: multi
+  domain: culture
+  answer_type: amount
+  entity:
+    bn: "কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদ"
+    rom: "kashfuldanga boishakhi mela udjapon porishod"
+    en: "Kashfuldanga Boishakhi Mela Celebration Council"
+  edit_type: deletion
+  passage: |
+    কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদ
+    স্টল বরাদ্দ বিজ্ঞপ্তি
+
+    বাংলা নববর্ষ উপলক্ষে কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদের উদ্যোগে প্রতি বছরের মতো এবারও স্থানীয় উচ্চ বিদ্যালয় মাঠে সপ্তাহব্যাপী বৈশাখী মেলার আয়োজন করা হয়েছে। মেলায় হস্তশিল্প, মৃৎশিল্প, তাঁতের কাপড়, ঐতিহ্যবাহী খাবার ও শিশুদের খেলনার স্টল থাকবে। আগ্রহী ব্যবসায়ী ও উদ্যোক্তাদের কাছ থেকে স্টল বরাদ্দের আবেদন আহ্বান করা হচ্ছে।
+
+    মেলা প্রাঙ্গণে মোট ৮৪টি স্টল বসানো হবে, যার মধ্যে কিছু স্টল নারী উদ্যোক্তাদের জন্য সংরক্ষিত থাকবে। ছোট আকারের প্রতিটি স্টলের ভাড়া পুরো মেলার জন্য ২,৭৫০ টাকা। বড় আকারের খাবারের স্টলের ভাড়া ৪,৬০০ টাকা, যা বিদ্যুৎ বিলসহ নির্ধারিত। আবেদন ফরম পরিষদের অফিস থেকে ৫০ টাকার বিনিময়ে সংগ্রহ করা যাবে। স্টল ভাড়া মোবাইল ব্যাংকিং বা নগদে পরিশোধ করা যাবে, তবে বরাদ্দপত্র পাওয়ার আগে পুরো ভাড়া জমা দিতে হবে। একজন আবেদনকারী একাধিক স্টলের জন্য আবেদন করতে পারবেন না।
+
+    মেলা চলাকালীন প্রতিদিন বিকেল থেকে রাত পর্যন্ত সাংস্কৃতিক অনুষ্ঠান, লোকগান ও পুতুলনাচ পরিবেশিত হবে। মেলা প্রাঙ্গণে ধূমপান সম্পূর্ণ নিষিদ্ধ। নিরাপত্তার জন্য পরিষদের স্বেচ্ছাসেবক দল সার্বক্ষণিক দায়িত্ব পালন করবে। স্টল বরাদ্দ লটারির মাধ্যমে নির্ধারণ করা হবে এবং ফলাফল পরিষদের নোটিশ বোর্ডে টাঙিয়ে দেওয়া হবে। বিস্তারিত জানতে পরিষদের অফিসে সকাল ১০টা থেকে বিকেল ৫টার মধ্যে যোগাযোগ করুন।
+
+    আহ্বায়ক
+    কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদ
+  answer_sentence: "ছোট আকারের প্রতিটি স্টলের ভাড়া পুরো মেলার জন্য ২,৭৫০ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 2750}
+  q:
+    en: "What is the rent for a small stall at the fair organised by the Kashfuldanga Boishakhi Mela Celebration Council?"
+    bn: "কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদের মেলায় ছোট স্টলের ভাড়া কত টাকা?"
+    rbn: "kashfuldanga boishakhi mela udjapon porishoder melay choto stoler vara koto taka?"
+    cm: "কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদের মেলায় small stall এর rent কত টাকা?"
+    cmr: "kashfuldanga boishakhi mela udjapon porishoder melay small stall er rent koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 84}
+    q:
+      en: "How many stalls in total will be set up at the fair organised by the Kashfuldanga Boishakhi Mela Celebration Council?"
+      bn: "কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদের মেলায় মোট কয়টি স্টল বসানো হবে?"
+      rbn: "kashfuldanga boishakhi mela udjapon porishoder melay mot koyti stol boshano hobe?"
+      cm: "কাশফুলডাঙা বৈশাখী মেলা উদযাপন পরিষদের মেলায় মোট কয়টি stall বসানো হবে?"
+      cmr: "kashfuldanga boishakhi mela udjapon porishoder melay mot koyti stall boshano hobe?"
+
+- id: N130
+  format: multi
+  domain: housing
+  answer_type: date
+  entity:
+    bn: "দোয়েলকুঞ্জ ফ্ল্যাট মালিক সমিতি"
+    rom: "doyelkunjo flat malik shomiti"
+    en: "Doyelkunja Flat Owners' Association"
+  edit_type: neutralisation
+  passage: |
+    দোয়েলকুঞ্জ ফ্ল্যাট মালিক সমিতি
+    বার্ষিক সাধারণ সভার নোটিশ
+
+    দোয়েলকুঞ্জ ফ্ল্যাট মালিক সমিতির সকল সম্মানিত সদস্যের অবগতির জন্য জানানো যাচ্ছে যে, সমিতির বার্ষিক সাধারণ সভা আগামী ১৮ মার্চ ২০২৭ তারিখে সন্ধ্যা ৭টায় ভবনের নিচতলার কমিউনিটি হলে অনুষ্ঠিত হবে। সভায় প্রত্যেক ফ্ল্যাট মালিক অথবা তাঁর মনোনীত একজন প্রতিনিধি উপস্থিত থাকতে পারবেন।
+
+    সভার আলোচ্যসূচি: (ক) বিগত বছরের আয়-ব্যয়ের হিসাব অনুমোদন; (খ) মাসিক রক্ষণাবেক্ষণ চাঁদা পুনর্বিবেচনা; (গ) পুরোনো লিফট পরিবর্তনের প্রস্তাব; (ঘ) নিরাপত্তাকর্মীর সংখ্যা বৃদ্ধি; (ঙ) নতুন কার্যনির্বাহী কমিটি নির্বাচন; এবং (চ) বিবিধ।
+
+    উল্লেখ্য, বর্তমানে ফ্ল্যাটপ্রতি মাসিক রক্ষণাবেক্ষণ চাঁদা ৩,৫০০ টাকা। বিদ্যুৎ ও পানির খরচ বৃদ্ধির কারণে কমিটি এই চাঁদা বাড়ানোর প্রস্তাব করেছে। বর্তমান কার্যনির্বাহী কমিটির মেয়াদ ৩১ মার্চ ২০২৭ তারিখে শেষ হবে। যেসব সদস্যের চাঁদা বকেয়া আছে, তাঁদের ১০ মার্চ ২০২৭ তারিখের মধ্যে বকেয়া পরিশোধ করার অনুরোধ করা হলো, অন্যথায় তাঁরা নির্বাচনে ভোট দিতে পারবেন না। নির্বাচনে প্রার্থী হতে ইচ্ছুক সদস্যদের সমিতির অফিসে লিখিতভাবে নাম জমা দিতে হবে। সভায় সকল সদস্যের উপস্থিতি একান্তভাবে কাম্য।
+
+    সাধারণ সম্পাদক
+    দোয়েলকুঞ্জ ফ্ল্যাট মালিক সমিতি
+  answer_sentence: "সমিতির বার্ষিক সাধারণ সভা আগামী ১৮ মার্চ ২০২৭ তারিখে সন্ধ্যা ৭টায় ভবনের নিচতলার কমিউনিটি হলে অনুষ্ঠিত হবে।"
+  insuff_replacement: "সমিতির বার্ষিক সাধারণ সভা ভবনের নিচতলার কমিউনিটি হলে অনুষ্ঠিত হবে; সভার তারিখ ও সময় পরবর্তীতে জানানো হবে।"
+  gold: {day: 18, month: 3, year: 2027}
+  q:
+    en: "On what date will the annual general meeting of the Doyelkunja Flat Owners' Association be held?"
+    bn: "দোয়েলকুঞ্জ ফ্ল্যাট মালিক সমিতির বার্ষিক সাধারণ সভা কোন তারিখে হবে?"
+    rbn: "doyelkunjo flat malik shomitir barshik sadharon shova kon tarikhe hobe?"
+    cm: "দোয়েলকুঞ্জ ফ্ল্যাট মালিক সমিতির বার্ষিক সাধারণ meeting কোন date এ হবে?"
+    cmr: "doyelkunjo flat malik shomitir barshik sadharon meeting kon date e hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 3500}
+    q:
+      en: "What is the current monthly maintenance charge per flat at the Doyelkunja Flat Owners' Association?"
+      bn: "দোয়েলকুঞ্জ ফ্ল্যাট মালিক সমিতিতে বর্তমানে ফ্ল্যাটপ্রতি মাসিক রক্ষণাবেক্ষণ চাঁদা কত টাকা?"
+      rbn: "doyelkunjo flat malik shomitite bortomane flatproti mashik rokkhonabekkhon chada koto taka?"
+      cm: "দোয়েলকুঞ্জ ফ্ল্যাট মালিক সমিতিতে বর্তমানে ফ্ল্যাটপ্রতি monthly maintenance চাঁদা কত টাকা?"
+      cmr: "doyelkunjo flat malik shomitite bortomane flatproti monthly maintenance chada koto taka?"
+
+- id: N131
+  format: multi
+  domain: community
+  answer_type: name
+  entity:
+    bn: "শাপলাচর যুব ফুটবল টুর্নামেন্ট"
+    rom: "shaplachor jubo football tournament"
+    en: "Shaplachar Youth Football Tournament"
+  edit_type: deletion
+  passage: |
+    শাপলাচর যুব ফুটবল টুর্নামেন্ট ২০২৭
+    দল নিবন্ধন বিজ্ঞপ্তি
+
+    শাপলাচর ক্রীড়া সংঘের আয়োজনে শাপলাচর যুব ফুটবল টুর্নামেন্ট ২০২৭ আগামী মাসে ইউনিয়ন পরিষদ মাঠে শুরু হতে যাচ্ছে। ইউনিয়নের বিভিন্ন গ্রাম ও পাড়ার অনূর্ধ্ব-২১ খেলোয়াড়দের নিয়ে গঠিত দল এই টুর্নামেন্টে অংশ নিতে পারবে। প্রতিটি দলে সর্বোচ্চ ১৮ জন খেলোয়াড় নিবন্ধন করা যাবে। দল নিবন্ধন ফি ১,২০০ টাকা, যা নিবন্ধনের সময় নগদে জমা দিতে হবে। নিবন্ধনের শেষ তারিখ ২৮ ফেব্রুয়ারি ২০২৭।
+
+    খেলাগুলো নকআউট পদ্ধতিতে অনুষ্ঠিত হবে এবং প্রতিটি ম্যাচ ৭০ মিনিটের হবে। টুর্নামেন্টের প্রধান রেফারির দায়িত্ব পালন করবেন জেলা রেফারি সমিতির সদস্য ইমতিয়াজ শাহরিয়ার। প্রতিটি ম্যাচে দুজন সহকারী রেফারি থাকবেন। খেলোয়াড়দের জাতীয় পরিচয়পত্র অথবা জন্মনিবন্ধন সনদের ফটোকপি নিবন্ধনের সময় জমা দিতে হবে।
+
+    চ্যাম্পিয়ন দল ট্রফি ও নগদ অর্থ পুরস্কার পাবে, রানার্সআপ দলও ট্রফি পাবে। এছাড়া টুর্নামেন্টের সেরা খেলোয়াড় ও সর্বোচ্চ গোলদাতাকে বিশেষ পুরস্কার দেওয়া হবে। মাঠে দর্শকদের শৃঙ্খলা বজায় রাখার জন্য স্বেচ্ছাসেবকরা দায়িত্বে থাকবেন। কোনো দল নির্ধারিত সময়ের পর ১৫ মিনিটের মধ্যে মাঠে উপস্থিত না হলে প্রতিপক্ষকে জয়ী ঘোষণা করা হবে। নিবন্ধন ফরম ক্রীড়া সংঘের কার্যালয়ে প্রতিদিন বিকেলে পাওয়া যাচ্ছে।
+
+    আহ্বায়ক, টুর্নামেন্ট পরিচালনা কমিটি
+    শাপলাচর ক্রীড়া সংঘ
+  answer_sentence: "টুর্নামেন্টের প্রধান রেফারির দায়িত্ব পালন করবেন জেলা রেফারি সমিতির সদস্য ইমতিয়াজ শাহরিয়ার।"
+  insuff_replacement: ""
+  gold: {aliases: ["ইমতিয়াজ শাহরিয়ার", "Imtiaz Shahriar", "Imtiaz Shahriyar", "Imtiyaz Shahriar"]}
+  q:
+    en: "Who will be the chief referee of the Shaplachar Youth Football Tournament?"
+    bn: "শাপলাচর যুব ফুটবল টুর্নামেন্টের প্রধান রেফারি কে থাকবেন?"
+    rbn: "shaplachor jubo football tournamenter prodhan refari ke thakben?"
+    cm: "শাপলাচর যুব ফুটবল টুর্নামেন্টের chief referee কে থাকবেন?"
+    cmr: "shaplachor jubo football tournamenter chief referee ke thakben?"
+  sibling:
+    answer_type: amount
+    gold: {value: 1200}
+    q:
+      en: "What is the team registration fee for the Shaplachar Youth Football Tournament?"
+      bn: "শাপলাচর যুব ফুটবল টুর্নামেন্টে দল নিবন্ধন ফি কত টাকা?"
+      rbn: "shaplachor jubo football tournamente dol nibondhon fee koto taka?"
+      cm: "শাপলাচর যুব ফুটবল টুর্নামেন্টে team registration fee কত টাকা?"
+      cmr: "shaplachor jubo football tournamente team registration fee koto taka?"
+
+- id: N132
+  format: multi
+  domain: jobs
+  answer_type: number
+  entity:
+    bn: "চালতাবাড়ি খাদ্যপণ্য লিমিটেড"
+    rom: "chaltabari khaddopponno limited"
+    en: "Chaltabari Food Products Limited"
+  edit_type: neutralisation
+  passage: |
+    চালতাবাড়ি খাদ্যপণ্য লিমিটেড
+    নিয়োগ বিজ্ঞপ্তি
+
+    মুড়ি, চানাচুর ও বিস্কুট প্রস্তুতকারী প্রতিষ্ঠান চালতাবাড়ি খাদ্যপণ্য লিমিটেড তাদের বিক্রয় বিভাগে জনবল নিয়োগের জন্য যোগ্য প্রার্থীদের কাছ থেকে আবেদন আহ্বান করছে।
+
+    পদের নাম: বিক্রয় প্রতিনিধি। এই পদে মোট ২৩ জন প্রার্থী নিয়োগ দেওয়া হবে। নির্বাচিত প্রার্থীদের জেলার বিভিন্ন উপজেলায় পাইকারি ও খুচরা দোকানে পণ্য সরবরাহের তদারকি করতে হবে। শিক্ষাগত যোগ্যতা ন্যূনতম উচ্চ মাধ্যমিক পাস। প্রার্থীর বয়স অনূর্ধ্ব ৩০ বছর হতে হবে। মোটরসাইকেল চালাতে জানা প্রার্থীদের অগ্রাধিকার দেওয়া হবে। মাসিক বেতন ১৬,০০০ টাকা, সঙ্গে বিক্রয়ের ওপর কমিশন ও দৈনিক যাতায়াত ভাতা দেওয়া হবে।
+
+    পদের নাম: হিসাব সহকারী। এই পদে স্নাতক পাস এবং কম্পিউটারে হিসাব রাখার কাজে দক্ষ প্রার্থীরা আবেদন করতে পারবেন। মাসিক বেতন আলোচনা সাপেক্ষে নির্ধারণ করা হবে।
+
+    আগ্রহী প্রার্থীদের জীবনবৃত্তান্ত, দুই কপি পাসপোর্ট সাইজের ছবি ও শিক্ষাগত সনদের ফটোকপিসহ আবেদনপত্র প্রতিষ্ঠানের প্রধান কার্যালয়ে সরাসরি অথবা ডাকযোগে পাঠাতে হবে। আবেদনের শেষ তারিখ ১২ ফেব্রুয়ারি ২০২৭। শুধুমাত্র প্রাথমিকভাবে বাছাইকৃত প্রার্থীদের মৌখিক পরীক্ষার জন্য মোবাইলে খুদে বার্তার মাধ্যমে জানানো হবে। কোনো ধরনের সুপারিশ প্রার্থীর অযোগ্যতা হিসেবে বিবেচিত হবে।
+
+    মানবসম্পদ বিভাগ
+    চালতাবাড়ি খাদ্যপণ্য লিমিটেড
+  answer_sentence: "এই পদে মোট ২৩ জন প্রার্থী নিয়োগ দেওয়া হবে।"
+  insuff_replacement: "এই পদে প্রয়োজনীয় সংখ্যক প্রার্থী নিয়োগ দেওয়া হবে।"
+  gold: {value: 23}
+  q:
+    en: "How many sales representatives will Chaltabari Food Products Limited recruit?"
+    bn: "চালতাবাড়ি খাদ্যপণ্য লিমিটেড কতজন বিক্রয় প্রতিনিধি নিয়োগ দেবে?"
+    rbn: "chaltabari khaddopponno limited kotojon bikroy protinidhi niyog debe?"
+    cm: "চালতাবাড়ি খাদ্যপণ্য লিমিটেড কতজন sales representative নিয়োগ দেবে?"
+    cmr: "chaltabari khaddopponno limited kotojon sales representative niyog debe?"
+  sibling:
+    answer_type: date
+    gold: {day: 12, month: 2, year: 2027}
+    q:
+      en: "What is the last date to apply for the jobs at Chaltabari Food Products Limited?"
+      bn: "চালতাবাড়ি খাদ্যপণ্য লিমিটেডের চাকরিতে আবেদনের শেষ তারিখ কবে?"
+      rbn: "chaltabari khaddopponno limiteder chakrite abedoner shesh tarikh kobe?"
+      cm: "চালতাবাড়ি খাদ্যপণ্য লিমিটেডের চাকরিতে apply করার last date কবে?"
+      cmr: "chaltabari khaddopponno limiteder chakrite apply korar last date kobe?"
+
+- id: N133
+  format: multi
+  domain: environment
+  answer_type: yesno
+  entity:
+    bn: "পলাশবাড়িয়া সবুজ বন্ধু সংঘ"
+    rom: "polashbariya shobuj bondhu shongho"
+    en: "Palashbaria Green Friends Association"
+  edit_type: deletion
+  passage: |
+    পলাশবাড়িয়া সবুজ বন্ধু সংঘ
+    বৃক্ষরোপণ কর্মসূচি ২০২৭
+
+    বর্ষা মৌসুম উপলক্ষে পলাশবাড়িয়া সবুজ বন্ধু সংঘ এলাকাজুড়ে বৃক্ষরোপণ কর্মসূচির আয়োজন করেছে। কর্মসূচি অনুষ্ঠিত হবে ৫ জুলাই ২০২৭ তারিখে, সকাল ৮টা থেকে দুপুর ১টা পর্যন্ত। প্রথম পর্বে গ্রামের প্রধান সড়কের দুই পাশে এবং দ্বিতীয় পর্বে প্রাথমিক বিদ্যালয় ও কবরস্থানের সীমানায় চারা রোপণ করা হবে।
+
+    এবারের কর্মসূচিতে আম, জাম, কাঁঠাল, নিম ও অর্জুনসহ বিভিন্ন প্রজাতির চারা রোপণ করা হবে। কর্মসূচিতে অংশগ্রহণকারী প্রত্যেক পরিবারকে বাড়ির আঙিনায় লাগানোর জন্য বিনামূল্যে দুটি করে ফলদ গাছের চারা দেওয়া হবে। রোপণের পর চারাগুলোর চারপাশে বাঁশের খাঁচা দেওয়া হবে, যাতে গবাদিপশু ক্ষতি করতে না পারে। সংঘের সদস্যরা পরবর্তী ছয় মাস নিয়মিত পানি দেওয়া ও পরিচর্যার দায়িত্ব পালন করবেন।
+
+    আগ্রহী পরিবার ও স্বেচ্ছাসেবকদের ২৫ জুন ২০২৭ তারিখের মধ্যে সংঘের কার্যালয়ে নাম নিবন্ধন করতে হবে। স্বেচ্ছাসেবকদের নিজ নিজ কোদাল বা খুন্তি সঙ্গে আনার অনুরোধ করা হলো। অংশগ্রহণকারীদের জন্য দুপুরে হালকা নাশতার ব্যবস্থা থাকবে। বৃষ্টি হলেও কর্মসূচি নির্ধারিত সময়েই চলবে, তবে প্রবল দুর্যোগ দেখা দিলে নতুন সময়সূচি জানিয়ে দেওয়া হবে। পরিবেশ রক্ষার এই উদ্যোগে এলাকার সকলের অংশগ্রহণ কামনা করা হচ্ছে।
+
+    সভাপতি
+    পলাশবাড়িয়া সবুজ বন্ধু সংঘ
+  answer_sentence: "কর্মসূচিতে অংশগ্রহণকারী প্রত্যেক পরিবারকে বাড়ির আঙিনায় লাগানোর জন্য বিনামূল্যে দুটি করে ফলদ গাছের চারা দেওয়া হবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Will the Palashbaria Green Friends Association give participating families saplings free of charge?"
+    bn: "পলাশবাড়িয়া সবুজ বন্ধু সংঘ কি অংশগ্রহণকারী পরিবারগুলোকে বিনামূল্যে চারা দেবে?"
+    rbn: "polashbariya shobuj bondhu shongho ki ongshogrohonkari poribarguloke binamulle chara debe?"
+    cm: "পলাশবাড়িয়া সবুজ বন্ধু সংঘ কি participant পরিবারগুলোকে free তে চারা দেবে?"
+    cmr: "polashbariya shobuj bondhu shongho ki participant poribarguloke free te chara debe?"
+  sibling:
+    answer_type: date
+    gold: {day: 5, month: 7, year: 2027}
+    q:
+      en: "On what date will the Palashbaria Green Friends Association hold its tree-planting programme?"
+      bn: "পলাশবাড়িয়া সবুজ বন্ধু সংঘের বৃক্ষরোপণ কর্মসূচি কোন তারিখে অনুষ্ঠিত হবে?"
+      rbn: "polashbariya shobuj bondhu shongho kon tarikhe brikkhoropon kormoshuchi korbe?"
+      cm: "পলাশবাড়িয়া সবুজ বন্ধু সংঘের tree plantation program কোন তারিখে হবে?"
+      cmr: "polashbariya shobuj bondhu shongho kon tarikhe tree plantation program korbe?"
+
+- id: N134
+  format: multi
+  domain: community
+  answer_type: yesno
+  entity:
+    bn: "হিজলতলী জামে মসজিদ"
+    rom: "hijoltoli jame moshjid"
+    en: "Hijaltali Jame Mosque"
+  edit_type: neutralisation
+  passage: |
+    হিজলতলী জামে মসজিদ পরিচালনা কমিটি
+    বার্ষিক মাহফিল সংক্রান্ত বিজ্ঞপ্তি
+
+    এলাকাবাসীর অবগতির জন্য জানানো যাচ্ছে যে, হিজলতলী জামে মসজিদ পরিচালনা কমিটির উদ্যোগে আগামী ২২ জানুয়ারি ২০২৭ তারিখে মসজিদ প্রাঙ্গণে বার্ষিক মাহফিল অনুষ্ঠিত হবে। মাহফিল আসরের নামাজের পর শুরু হয়ে এশার নামাজের পর মোনাজাতের মাধ্যমে শেষ হবে।
+
+    মাহফিলে অংশগ্রহণকারীদের সুবিধার্থে নিচের বিষয়গুলো লক্ষ রাখার অনুরোধ করা হলো। মসজিদের মূল ভবনের পাশাপাশি পূর্ব দিকের খোলা মাঠে প্যান্ডেল তৈরি করা হবে এবং সেখানে বসার জন্য চাটাই বিছানো থাকবে। নারীদের জন্য উত্তর পাশে আলাদা পর্দাঘেরা বসার স্থান থাকবে। মাহফিল চলাকালীন মসজিদ প্রাঙ্গণে কোনো ধরনের গাড়ি পার্ক করা যাবে না। অজুর জন্য অতিরিক্ত পানির ট্যাংক ও কল বসানো হবে। শিশুদের সঙ্গে আনলে অভিভাবকদের নিজ দায়িত্বে তাদের দেখাশোনা করতে হবে।
+
+    মাহফিলের ব্যয় নির্বাহের জন্য এলাকাবাসীর কাছ থেকে স্বেচ্ছায় অনুদান গ্রহণ করা হচ্ছে। অনুদান কমিটির কোষাধ্যক্ষের কাছে রসিদের মাধ্যমে জমা দেওয়া যাবে। মাহফিল শেষে উপস্থিত সকলের মধ্যে তবারক বিতরণ করা হবে। শৃঙ্খলা রক্ষার জন্য কমিটির স্বেচ্ছাসেবকরা লাল ব্যাজ পরে দায়িত্ব পালন করবেন; যেকোনো প্রয়োজনে তাঁদের সহযোগিতা নেওয়ার অনুরোধ রইল। উচ্চ শব্দের আতশবাজি বা পটকা ফোটানো সম্পূর্ণ নিষেধ।
+
+    সাধারণ সম্পাদক
+    হিজলতলী জামে মসজিদ পরিচালনা কমিটি
+  answer_sentence: "মাহফিল চলাকালীন মসজিদ প্রাঙ্গণে কোনো ধরনের গাড়ি পার্ক করা যাবে না।"
+  insuff_replacement: "মাহফিল চলাকালীন গাড়ি পার্কিং সংক্রান্ত নির্দেশনা পরে জানানো হবে।"
+  gold: {value: false}
+  q:
+    en: "Can vehicles be parked inside the premises of Hijaltali Jame Mosque during the mahfil?"
+    bn: "মাহফিল চলাকালীন হিজলতলী জামে মসজিদ প্রাঙ্গণে কি গাড়ি রাখা যাবে?"
+    rbn: "mahfil cholakalin hijoltoli jame moshjid prangone ki gari rakha jabe?"
+    cm: "মাহফিল চলাকালীন হিজলতলী জামে মসজিদ প্রাঙ্গণে কি car park করা যাবে?"
+    cmr: "mahfil cholakalin hijoltoli jame moshjid prangone ki car park kora jabe?"
+  sibling:
+    answer_type: date
+    gold: {day: 22, month: 1, year: 2027}
+    q:
+      en: "On what date will the annual mahfil be held at Hijaltali Jame Mosque?"
+      bn: "হিজলতলী জামে মসজিদে বার্ষিক মাহফিল কোন তারিখে অনুষ্ঠিত হবে?"
+      rbn: "hijoltoli jame moshjide barshik mahfil kon tarikhe onushthito hobe?"
+      cm: "হিজলতলী জামে মসজিদে annual মাহফিল কোন date এ হবে?"
+      cmr: "hijoltoli jame moshjide annual mahfil kon date e hobe?"
+
+- id: N135
+  format: multi
+  domain: agriculture
+  answer_type: amount
+  entity:
+    bn: "কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতি"
+    rom: "kaunbari krishok kollan shomobay shomiti"
+    en: "Kaunbari Farmers' Welfare Cooperative Society"
+  edit_type: neutralisation
+  passage: |
+    কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতি
+    রবি মৌসুমে কৃষি সহায়তা বিতরণ সংক্রান্ত বিজ্ঞপ্তি
+
+    কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতির সদস্যদের জানানো যাচ্ছে যে, চলতি রবি মৌসুমে ক্ষুদ্র ও প্রান্তিক কৃষকদের জন্য সমিতির নিজস্ব তহবিল থেকে কৃষি সহায়তা কর্মসূচি গ্রহণ করা হয়েছে। এ বছর মোট ২১৫ জন কৃষককে এই কর্মসূচির জন্য নির্বাচন করা হয়েছে। নির্বাচিত কৃষকদের তালিকা সমিতির কার্যালয়ের নোটিশ বোর্ডে টাঙানো হয়েছে।
+
+    নির্বাচিত প্রত্যেক কৃষক সার ও বীজ কেনার জন্য ২,৩৮০ টাকা নগদ সহায়তা পাবেন। সহায়তার অর্থ কৃষকের নিজ নামে খোলা মোবাইল ব্যাংকিং হিসাবে পাঠানো হবে, তাই প্রত্যেককে সক্রিয় হিসাব নম্বর জমা দিতে হবে। যাঁদের এখনো মোবাইল ব্যাংকিং হিসাব নেই, তাঁরা সমিতির মাঠকর্মীর সহায়তায় হিসাব খুলে নিতে পারবেন।
+
+    সহায়তা পেতে হলে কৃষককে অবশ্যই সমিতির নিয়মিত সদস্য হতে হবে এবং চলতি বছরের বার্ষিক সদস্য চাঁদা ১০০ টাকা পরিশোধিত থাকতে হবে। আবেদনের সঙ্গে জাতীয় পরিচয়পত্রের ফটোকপি ও জমির পরিমাণ উল্লেখ করে ইউনিয়ন উপসহকারী কৃষি কর্মকর্তার প্রত্যয়নপত্র জমা দিতে হবে। একই পরিবারের একাধিক সদস্য সহায়তার জন্য বিবেচিত হবেন না।
+
+    সহায়তার অর্থ শুধুমাত্র গম, সরিষা, আলু বা ডাল চাষের কাজে ব্যবহার করতে হবে। সমিতির মাঠকর্মীরা মৌসুমজুড়ে খেত পরিদর্শন করবেন। কোনো অনিয়ম পাওয়া গেলে ভবিষ্যতে ওই কৃষককে সহায়তা তালিকা থেকে বাদ দেওয়া হবে।
+
+    সম্পাদক
+    কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতি
+  answer_sentence: "নির্বাচিত প্রত্যেক কৃষক সার ও বীজ কেনার জন্য ২,৩৮০ টাকা নগদ সহায়তা পাবেন।"
+  insuff_replacement: "নির্বাচিত প্রত্যেক কৃষক সার ও বীজ কেনার জন্য নগদ সহায়তা পাবেন; সহায়তার পরিমাণ পরবর্তীতে জানানো হবে।"
+  gold: {value: 2380}
+  q:
+    en: "How much cash assistance will each selected farmer receive from the Kaunbari Farmers' Welfare Cooperative Society?"
+    bn: "কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতি থেকে নির্বাচিত প্রত্যেক কৃষক কত টাকা নগদ সহায়তা পাবেন?"
+    rbn: "kaunbari krishok kollan shomobay shomiti theke nirbachito prottek krishok koto taka nogod shohayota paben?"
+    cm: "কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতি থেকে selected প্রত্যেক কৃষক কত টাকা cash সহায়তা পাবেন?"
+    cmr: "kaunbari krishok kollan shomobay shomiti theke selected prottek krishok koto taka cash shohayota paben?"
+  sibling:
+    answer_type: number
+    gold: {value: 215}
+    q:
+      en: "How many farmers in total have been selected for the Kaunbari Farmers' Welfare Cooperative Society's assistance programme this year?"
+      bn: "এ বছর কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতির সহায়তা কর্মসূচিতে মোট কতজন কৃষক নির্বাচিত হয়েছেন?"
+      rbn: "e bochor kaunbari krishok kollan shomobay shomitir shohayota kormoshuchite mot kotojon krishok nirbachito hoyechen?"
+      cm: "এ বছর কাউনবাড়ি কৃষক কল্যাণ সমবায় সমিতির সহায়তা program এ মোট কতজন কৃষক selected হয়েছেন?"
+      cmr: "e bochor kaunbari krishok kollan shomobay shomitir shohayota program e mot kotojon krishok selected hoyechen?"
+
+- id: N136
+  format: multi
+  domain: housing
+  answer_type: date
+  entity:
+    bn: "কদমরেণু বিপণি বিতান"
+    rom: "kodomrenu biponi bitan"
+    en: "Kadamrenu Market Complex"
+  edit_type: deletion
+  passage: |
+    কদমরেণু বিপণি বিতান
+    দোকান ভাড়া দেওয়া হবে
+
+    বাজার রোডে নবনির্মিত কদমরেণু বিপণি বিতানের নিচতলা ও দোতলায় মোট বারোটি দোকান ভাড়া দেওয়ার জন্য আগ্রহী ব্যবসায়ীদের কাছ থেকে আবেদন আহ্বান করা হচ্ছে। দোকানগুলো ১ মার্চ ২০২৭ থেকে ভাড়া দেওয়া হবে। প্রতিটি দোকানে বিদ্যুতের আলাদা মিটার, শাটার দরজা এবং পেছনে ছোট গুদাম কক্ষ রয়েছে। ভবনে সার্বক্ষণিক নিরাপত্তাকর্মী ও সিসিটিভি ক্যামেরার ব্যবস্থা আছে।
+
+    নিচতলার প্রতিটি দোকানের মাসিক ভাড়া ৮,৫০০ টাকা এবং দোতলার প্রতিটি দোকানের মাসিক ভাড়া ৬,২০০ টাকা। ভাড়ার সঙ্গে সাধারণ এলাকার বিদ্যুৎ ও পরিচ্ছন্নতা বাবদ মাসিক সার্ভিস চার্জ আলাদাভাবে দিতে হবে। চুক্তি স্বাক্ষরের সময় ছয় মাসের ভাড়ার সমপরিমাণ অর্থ জামানত হিসেবে জমা দিতে হবে, যা চুক্তি শেষে ফেরতযোগ্য।
+
+    আগ্রহী ব্যক্তিদের ১০ ফেব্রুয়ারি ২০২৭ তারিখের মধ্যে ট্রেড লাইসেন্স ও জাতীয় পরিচয়পত্রের ফটোকপিসহ ভবনের ব্যবস্থাপনা অফিসে আবেদন জমা দিতে হবে। একাধিক আবেদন পড়লে লটারির মাধ্যমে দোকান বরাদ্দ করা হবে। মাছ, মাংস বা কাঁচাবাজারের দোকান হিসেবে কোনো কক্ষ ভাড়া দেওয়া হবে না। ওষুধ, কাপড়, মুদি ও ইলেকট্রনিক্স পণ্যের ব্যবসায়ীদের অগ্রাধিকার দেওয়া হবে। দোকান দেখতে চাইলে প্রতিদিন সকাল ১০টা থেকে সন্ধ্যা ৬টার মধ্যে ব্যবস্থাপনা অফিসে যোগাযোগ করুন।
+
+    ব্যবস্থাপক
+    কদমরেণু বিপণি বিতান
+  answer_sentence: "দোকানগুলো ১ মার্চ ২০২৭ থেকে ভাড়া দেওয়া হবে।"
+  insuff_replacement: ""
+  gold: {day: 1, month: 3, year: 2027}
+  q:
+    en: "From what date will the shops at Kadamrenu Market Complex be available for rent?"
+    bn: "কদমরেণু বিপণি বিতানের দোকানগুলো কোন তারিখ থেকে ভাড়া দেওয়া হবে?"
+    rbn: "kodomrenu biponi bitaner dokangulo kon tarikh theke vara dewa hobe?"
+    cm: "কদমরেণু বিপণি বিতানের shop গুলো কোন date থেকে ভাড়া দেওয়া হবে?"
+    cmr: "kodomrenu biponi bitaner shop gulo kon date theke vara dewa hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 8500}
+    q:
+      en: "What is the monthly rent of a ground-floor shop at Kadamrenu Market Complex?"
+      bn: "কদমরেণু বিপণি বিতানের নিচতলার দোকানের মাসিক ভাড়া কত টাকা?"
+      rbn: "kodomrenu biponi bitaner nichtolar dokaner mashik vara koto taka?"
+      cm: "কদমরেণু বিপণি বিতানের ground floor এর দোকানের monthly ভাড়া কত টাকা?"
+      cmr: "kodomrenu biponi bitaner ground floor er dokaner monthly vara koto taka?"
+
+- id: N137
+  format: multi
+  domain: jobs
+  answer_type: name
+  entity:
+    bn: "জলকলমি নারী উন্নয়ন সংস্থা"
+    rom: "jolkolmi nari unnoyon shongstha"
+    en: "Jolkolmi Women's Development Organisation"
+  edit_type: neutralisation
+  passage: |
+    জলকলমি নারী উন্নয়ন সংস্থা
+    দর্জি ও পোশাক তৈরি বিষয়ক প্রশিক্ষণ কোর্সে ভর্তি বিজ্ঞপ্তি
+
+    গ্রামীণ নারীদের আত্মকর্মসংস্থান সৃষ্টির লক্ষ্যে জলকলমি নারী উন্নয়ন সংস্থা দর্জি ও পোশাক তৈরি বিষয়ক একটি অনাবাসিক প্রশিক্ষণ কোর্স চালু করতে যাচ্ছে। কোর্সের মেয়াদ ৪৫ দিন এবং প্রতিদিন সকাল ৯টা থেকে দুপুর ১টা পর্যন্ত সংস্থার প্রশিক্ষণ কেন্দ্রে ক্লাস হবে।
+
+    প্রশিক্ষণ পরিচালনা করবেন সংস্থার জ্যেষ্ঠ প্রশিক্ষক মাহমুদা ফেরদৌসী। কোর্সে সেলাই মেশিন চালানো, মাপ নেওয়া, কাপড় কাটা, ব্লাউজ, সালোয়ার-কামিজ ও শিশুদের পোশাক তৈরি এবং ছোট ব্যবসা পরিচালনার প্রাথমিক ধারণা দেওয়া হবে। প্রতিটি ব্যাচে সর্বোচ্চ ৩০ জন প্রশিক্ষণার্থী ভর্তি করা হবে।
+
+    ভর্তির যোগ্যতা: বয়স ১৮ থেকে ৪০ বছরের মধ্যে, ন্যূনতম অষ্টম শ্রেণি পাস এবং সংস্থার কর্ম এলাকার স্থায়ী বাসিন্দা হতে হবে। বিধবা, স্বামী পরিত্যক্তা ও প্রতিবন্ধী নারীদের অগ্রাধিকার দেওয়া হবে। কোর্সটি সম্পূর্ণ বিনামূল্যে, তবে প্রশিক্ষণ উপকরণের জন্য ভর্তির সময় ২০০ টাকা জমা দিতে হবে, যা কোর্স শেষে ফেরত দেওয়া হবে।
+
+    সফলভাবে কোর্স সম্পন্নকারীদের সনদপত্র দেওয়া হবে এবং সেরা প্রশিক্ষণার্থীদের সহজ কিস্তিতে সেলাই মেশিন কেনার সুযোগ দেওয়া হবে। আগ্রহী প্রার্থীদের জাতীয় পরিচয়পত্রের ফটোকপি ও দুই কপি ছবিসহ সংস্থার ইউনিয়ন অফিসে যোগাযোগ করতে অনুরোধ করা হলো।
+
+    নির্বাহী পরিচালক
+    জলকলমি নারী উন্নয়ন সংস্থা
+  answer_sentence: "প্রশিক্ষণ পরিচালনা করবেন সংস্থার জ্যেষ্ঠ প্রশিক্ষক মাহমুদা ফেরদৌসী।"
+  insuff_replacement: "প্রশিক্ষণ পরিচালনা করবেন সংস্থার একজন অভিজ্ঞ প্রশিক্ষক।"
+  gold: {aliases: ["মাহমুদা ফেরদৌসী", "Mahmuda Ferdousi", "Mahmuda Ferdousy", "Mahmuda Firdousi"]}
+  q:
+    en: "Who will conduct the tailoring training course of the Jolkolmi Women's Development Organisation?"
+    bn: "জলকলমি নারী উন্নয়ন সংস্থার দর্জি প্রশিক্ষণ কোর্সটি কে পরিচালনা করবেন?"
+    rbn: "jolkolmi nari unnoyon shongsthar dorji proshikkhon ke porichalona korben?"
+    cm: "জলকলমি নারী উন্নয়ন সংস্থার tailoring training কে পরিচালনা করবেন?"
+    cmr: "jolkolmi nari unnoyon shongsthar tailoring training ke porichalona korben?"
+  sibling:
+    answer_type: number
+    gold: {value: 45}
+    q:
+      en: "How many days long is the tailoring course of the Jolkolmi Women's Development Organisation?"
+      bn: "জলকলমি নারী উন্নয়ন সংস্থার দর্জি প্রশিক্ষণ কোর্সের মেয়াদ কত দিন?"
+      rbn: "jolkolmi nari unnoyon shongsthar dorji proshikkhoner meyad koto din?"
+      cm: "জলকলমি নারী উন্নয়ন সংস্থার tailoring course এর মেয়াদ কত দিন?"
+      cmr: "jolkolmi nari unnoyon shongsthar tailoring course er meyad koto din?"
+
+- id: N138
+  format: multi
+  domain: agriculture
+  answer_type: number
+  entity:
+    bn: "চিতলবাড়ি মৎস্যজীবী সমবায় সমিতি"
+    rom: "chitolbari motshojibi shomobay shomiti"
+    en: "Chitolbari Fishers' Cooperative Society"
+  edit_type: deletion
+  passage: |
+    চিতলবাড়ি মৎস্যজীবী সমবায় সমিতি
+    মাছের পোনা বিতরণ সংক্রান্ত বিজ্ঞপ্তি
+
+    চিতলবাড়ি মৎস্যজীবী সমবায় সমিতির নিবন্ধিত সদস্যদের জানানো যাচ্ছে যে, পুকুরে মাছ চাষ বাড়ানোর লক্ষ্যে সমিতির পক্ষ থেকে এ মৌসুমে বিনামূল্যে মাছের পোনা বিতরণ করা হবে। প্রত্যেক নিবন্ধিত সদস্য ৬৫০টি করে রুই, কাতলা ও মৃগেল মাছের পোনা পাবেন। পোনা বিতরণ করা হবে ৯ মে ২০২৭ তারিখ সকাল ৯টা থেকে সমিতির নদীঘাট সংলগ্ন হ্যাচারি প্রাঙ্গণে।
+
+    পোনা পেতে হলে সদস্যের নিজ নামে বা পারিবারিক মালিকানায় কমপক্ষে ২০ শতাংশ আয়তনের পুকুর থাকতে হবে। পুকুরে আগে থেকে চুন প্রয়োগ ও আগাছা পরিষ্কার করে রাখতে হবে। সমিতির মাঠকর্মীরা বিতরণের আগের সপ্তাহে প্রতিটি পুকুর সরেজমিনে পরিদর্শন করবেন। পরিদর্শনে অনুপযুক্ত পাওয়া গেলে সংশ্লিষ্ট সদস্যকে এবারের তালিকা থেকে বাদ দেওয়া হবে।
+
+    পোনা পরিবহনের জন্য সদস্যদের নিজ উদ্যোগে পানিভর্তি পাতিল বা অক্সিজেনযুক্ত পলিথিন ব্যাগ আনতে হবে। পোনা ছাড়ার পর প্রথম মাসে পরিমিত খাবার দেওয়ার বিষয়ে সমিতির মৎস্য পরামর্শক বিতরণের দিন সংক্ষিপ্ত পরামর্শ দেবেন। বর্তমানে সমিতির মোট সদস্যসংখ্যা ১৪০ জন। যেসব সদস্যের বার্ষিক চাঁদা বকেয়া আছে, তাঁদের বিতরণের আগেই চাঁদা পরিশোধ করতে হবে। সদস্য পরিচয়পত্র ছাড়া কাউকে পোনা দেওয়া হবে না। প্রতিনিধির মাধ্যমে পোনা সংগ্রহ করতে চাইলে সদস্যের স্বাক্ষরিত অনুমতিপত্র আনতে হবে।
+
+    সভাপতি
+    চিতলবাড়ি মৎস্যজীবী সমবায় সমিতি
+  answer_sentence: "প্রত্যেক নিবন্ধিত সদস্য ৬৫০টি করে রুই, কাতলা ও মৃগেল মাছের পোনা পাবেন।"
+  insuff_replacement: ""
+  gold: {value: 650}
+  q:
+    en: "How many fish fry will each registered member of the Chitolbari Fishers' Cooperative Society receive?"
+    bn: "চিতলবাড়ি মৎস্যজীবী সমবায় সমিতির প্রত্যেক নিবন্ধিত সদস্য কয়টি করে মাছের পোনা পাবেন?"
+    rbn: "chitolbari motshojibi shomobay shomitir prottek nibondhito shodosso koyti kore macher pona paben?"
+    cm: "চিতলবাড়ি মৎস্যজীবী সমবায় সমিতির প্রত্যেক registered member কয়টি করে মাছের পোনা পাবেন?"
+    cmr: "chitolbari motshojibi shomobay shomitir prottek registered member koyti kore macher pona paben?"
+  sibling:
+    answer_type: date
+    gold: {day: 9, month: 5, year: 2027}
+    q:
+      en: "On what date will the Chitolbari Fishers' Cooperative Society distribute the fish fry?"
+      bn: "চিতলবাড়ি মৎস্যজীবী সমবায় সমিতি কোন তারিখে মাছের পোনা বিতরণ করবে?"
+      rbn: "chitolbari motshojibi shomobay shomiti kon tarikhe macher pona bitoron korbe?"
+      cm: "চিতলবাড়ি মৎস্যজীবী সমবায় সমিতি কোন date এ মাছের পোনা distribute করবে?"
+      cmr: "chitolbari motshojibi shomobay shomiti kon date e macher pona distribute korbe?"
+
+- id: N139
+  format: multi
+  domain: community
+  answer_type: yesno
+  entity:
+    bn: "ঝাউতলা শীতকালীন ব্যাডমিন্টন প্রতিযোগিতা"
+    rom: "jhautola shitkalin badminton protijogita"
+    en: "Jhautala Winter Badminton Competition"
+  edit_type: neutralisation
+  passage: |
+    ঝাউতলা শীতকালীন ব্যাডমিন্টন প্রতিযোগিতা ২০২৭
+    অংশগ্রহণের আহ্বান
+
+    ঝাউতলা তরুণ সংঘের উদ্যোগে প্রতি বছরের মতো এবারও ঝাউতলা শীতকালীন ব্যাডমিন্টন প্রতিযোগিতা আয়োজন করা হয়েছে। প্রতিযোগিতা সংঘের নিজস্ব আলোকিত কোর্টে প্রতিদিন সন্ধ্যা ৬টা থেকে রাত ১০টা পর্যন্ত অনুষ্ঠিত হবে। প্রতিযোগিতা শুরু হবে ৮ জানুয়ারি ২০২৭ তারিখে এবং ফাইনাল খেলা অনুষ্ঠিত হবে ২৯ জানুয়ারি ২০২৭ তারিখে।
+
+    এবার পুরুষ দ্বৈত, নারী দ্বৈত ও অনূর্ধ্ব-১৬ একক এই তিনটি বিভাগে খেলা হবে। দ্বৈত বিভাগে প্রতিটি দলের প্রবেশ ফি ৬০০ টাকা এবং অনূর্ধ্ব-১৬ একক বিভাগে প্রবেশ ফি ২৫০ টাকা। প্রতিটি বিভাগের চ্যাম্পিয়ন ও রানার্সআপকে ট্রফি ও সনদপত্র দেওয়া হবে। খেলায় শুধু সংঘ সরবরাহকৃত পালকের শাটলকক ব্যবহার করা যাবে।
+
+    খেলোয়াড়দের নির্ধারিত সময়ের অন্তত ২০ মিনিট আগে কোর্টে উপস্থিত হতে হবে। কোর্টে প্রবেশের সময় অবশ্যই খেলার উপযোগী জুতা পরতে হবে। আম্পায়ারের সিদ্ধান্তই চূড়ান্ত বলে গণ্য হবে। দর্শকদের জন্য প্রবেশ সম্পূর্ণ বিনামূল্যে। দর্শকদের কোর্টের চারপাশে নির্ধারিত সীমানার বাইরে বসতে হবে এবং খেলা চলাকালীন উচ্চস্বরে কথা বলা বা বাঁশি বাজানো থেকে বিরত থাকতে হবে। নিবন্ধন ফরম সংঘের কার্যালয়ে পাওয়া যাচ্ছে; নিবন্ধনের সময় খেলোয়াড়ের ছবি ও বয়সের প্রমাণপত্র জমা দিতে হবে।
+
+    সাধারণ সম্পাদক
+    ঝাউতলা তরুণ সংঘ
+  answer_sentence: "দর্শকদের জন্য প্রবেশ সম্পূর্ণ বিনামূল্যে।"
+  insuff_replacement: "দর্শকদের প্রবেশ সংক্রান্ত তথ্য পরে জানানো হবে।"
+  gold: {value: true}
+  q:
+    en: "Is entry free for spectators at the Jhautala Winter Badminton Competition?"
+    bn: "ঝাউতলা শীতকালীন ব্যাডমিন্টন প্রতিযোগিতায় দর্শকদের প্রবেশ কি বিনামূল্যে?"
+    rbn: "jhautola shitkalin badminton protijogitay dorshokder probesh ki binamulle?"
+    cm: "ঝাউতলা শীতকালীন ব্যাডমিন্টন প্রতিযোগিতায় দর্শকদের entry কি free?"
+    cmr: "jhautola shitkalin badminton protijogitay dorshokder entry ki free?"
+  sibling:
+    answer_type: amount
+    gold: {value: 600}
+    q:
+      en: "What is the entry fee per team in the doubles categories of the Jhautala Winter Badminton Competition?"
+      bn: "ঝাউতলা শীতকালীন ব্যাডমিন্টন প্রতিযোগিতার দ্বৈত বিভাগে প্রতিটি দলের প্রবেশ ফি কত টাকা?"
+      rbn: "jhautola shitkalin badminton protijogitar dwoito bibhage protiti doler probesh fee koto taka?"
+      cm: "ঝাউতলা শীতকালীন ব্যাডমিন্টন প্রতিযোগিতার doubles এ প্রতিটি team এর entry fee কত টাকা?"
+      cmr: "jhautola shitkalin badminton protijogitar doubles e protiti team er entry fee koto taka?"
+
+- id: N140
+  format: multi
+  domain: housing
+  answer_type: yesno
+  entity:
+    bn: "সোনালুবাগ অ্যাপার্টমেন্ট মালিক সমিতি"
+    rom: "shonalubag apartment malik shomiti"
+    en: "Shonalubag Apartment Owners' Association"
+  edit_type: deletion
+  passage: |
+    সোনালুবাগ অ্যাপার্টমেন্ট মালিক সমিতি
+    বাসিন্দাদের জন্য জরুরি বিজ্ঞপ্তি
+
+    সোনালুবাগ অ্যাপার্টমেন্ট মালিক সমিতির কার্যনির্বাহী কমিটির সর্বশেষ সভায় ভবনের নিরাপত্তা ও শৃঙ্খলা রক্ষার জন্য কয়েকটি সিদ্ধান্ত গৃহীত হয়েছে, যা সকল ফ্ল্যাট মালিক ও ভাড়াটিয়াদের জন্য প্রযোজ্য।
+
+    রাত ১১টার পর মূল ফটক বন্ধ থাকবে; এরপর প্রবেশের জন্য নিরাপত্তাকর্মীকে পরিচয় দিতে হবে। বাইরের অতিথি ও গৃহকর্মীদের নাম অভ্যর্থনা খাতায় লিপিবদ্ধ করতে হবে। সমিতির পূর্বানুমতি ছাড়া ছাদে কোনো ধরনের সামাজিক বা পারিবারিক অনুষ্ঠান আয়োজন করা যাবে না। সিঁড়ি ও করিডোরে জুতা, সাইকেল বা অন্য কোনো মালামাল রাখা যাবে না। ময়লা নির্দিষ্ট পাত্রে ফেলতে হবে এবং প্রতিদিন সকাল ৮টার মধ্যে দরজার বাইরে রাখতে হবে।
+
+    এছাড়া পুরোনো জেনারেটরটি ঘন ঘন বিকল হওয়ায় নতুন জেনারেটর কেনার সিদ্ধান্ত নেওয়া হয়েছে। এ বাবদ প্রত্যেক ফ্ল্যাট মালিককে এককালীন ১২,৫০০ টাকা প্রদান করতে হবে, যা দুই কিস্তিতে পরিশোধ করা যাবে। প্রথম কিস্তি জমার শেষ তারিখ ১৫ এপ্রিল ২০২৭। লিফট রক্ষণাবেক্ষণের জন্য প্রতি মাসের প্রথম রবিবার সকাল ১০টা থেকে দুপুর ১২টা পর্যন্ত লিফট বন্ধ থাকবে। যেকোনো অভিযোগ বা পরামর্শ সমিতির অফিসে লিখিতভাবে জমা দেওয়ার অনুরোধ করা হলো।
+
+    সাধারণ সম্পাদক
+    সোনালুবাগ অ্যাপার্টমেন্ট মালিক সমিতি
+  answer_sentence: "সমিতির পূর্বানুমতি ছাড়া ছাদে কোনো ধরনের সামাজিক বা পারিবারিক অনুষ্ঠান আয়োজন করা যাবে না।"
+  insuff_replacement: ""
+  gold: {value: false}
+  q:
+    en: "Can residents hold a family event on the roof without prior permission from the Shonalubag Apartment Owners' Association?"
+    bn: "সোনালুবাগ অ্যাপার্টমেন্ট মালিক সমিতির পূর্বানুমতি ছাড়া কি বাসিন্দারা ছাদে পারিবারিক অনুষ্ঠান করতে পারবেন?"
+    rbn: "shonalubag apartment malik shomitir purbanumoti chara ki bashindara chade paribarik onushthan korte parben?"
+    cm: "সোনালুবাগ অ্যাপার্টমেন্ট মালিক সমিতির permission ছাড়া কি বাসিন্দারা ছাদে family program করতে পারবেন?"
+    cmr: "shonalubag apartment malik shomitir permission chara ki bashindara chade family program korte parben?"
+  sibling:
+    answer_type: amount
+    gold: {value: 12500}
+    q:
+      en: "How much must each flat owner pay for the new generator at the Shonalubag Apartment Owners' Association?"
+      bn: "সোনালুবাগ অ্যাপার্টমেন্ট মালিক সমিতিতে নতুন জেনারেটরের জন্য প্রত্যেক ফ্ল্যাট মালিককে কত টাকা দিতে হবে?"
+      rbn: "shonalubag apartment malik shomitite notun jenaretorer jonno prottek flat malikke koto taka dite hobe?"
+      cm: "সোনালুবাগ অ্যাপার্টমেন্ট মালিক সমিতিতে new generator এর জন্য প্রত্যেক ফ্ল্যাট মালিককে কত টাকা দিতে হবে?"
+      cmr: "shonalubag apartment malik shomitite new generator er jonno prottek flat malikke koto taka dite hobe?"
+
+- id: N141
+  format: multi
+  domain: environment
+  answer_type: number
+  entity:
+    bn: "নলখাগড়া নদী রক্ষা ক্লাব"
+    rom: "nolkhagra nodi rokkha club"
+    en: "Nolkhagra River Protection Club"
+  edit_type: neutralisation
+  passage: |
+    নলখাগড়া নদী রক্ষা ক্লাব
+    নদী পরিচ্ছন্নতা অভিযান ২০২৭
+
+    নদীর পাড় ও পানি প্লাস্টিক বর্জ্যমুক্ত রাখার লক্ষ্যে নলখাগড়া নদী রক্ষা ক্লাব আগামী ২০ নভেম্বর ২০২৭ তারিখে দিনব্যাপী নদী পরিচ্ছন্নতা অভিযানের আয়োজন করেছে। অভিযান শুরু হবে সকাল ৭টায় খেয়াঘাট থেকে এবং পুরোনো লোহার সেতু পর্যন্ত প্রায় তিন কিলোমিটার এলাকা পরিষ্কার করা হবে।
+
+    এই অভিযানে মোট ৮৫ জন স্বেচ্ছাসেবক অংশ নেবেন। স্বেচ্ছাসেবকদের কয়েকটি দলে ভাগ করে নদীর দুই পাড়ে পাঠানো হবে। একটি দল নৌকায় করে পানিতে ভাসমান বোতল, পলিথিন ও অন্যান্য বর্জ্য সংগ্রহ করবে। সংগৃহীত বর্জ্য আলাদা বস্তায় ভরে পৌরসভার নির্ধারিত স্থানে পৌঁছে দেওয়া হবে, এবং পুনর্ব্যবহারযোগ্য প্লাস্টিক স্থানীয় ভাঙারি ব্যবসায়ীদের কাছে বিক্রি করে সেই অর্থ ক্লাবের পরিবেশ তহবিলে জমা রাখা হবে।
+
+    স্বেচ্ছাসেবকদের জন্য হাতমোজা, মাস্ক ও টুপি ক্লাবের পক্ষ থেকে সরবরাহ করা হবে। প্রত্যেককে নিজের পানির বোতল সঙ্গে আনতে বলা হচ্ছে। সাঁতার না জানলে কাউকে নৌকার দলে রাখা হবে না। দুপুরে খেয়াঘাট সংলগ্ন মাঠে সবার জন্য খাবারের ব্যবস্থা থাকবে। অভিযান শেষে বিকেলে নদী দূষণ রোধে করণীয় বিষয়ে একটি সংক্ষিপ্ত আলোচনা সভা অনুষ্ঠিত হবে, যেখানে এলাকার জেলে ও নৌকার মাঝিরা তাঁদের অভিজ্ঞতা তুলে ধরবেন। আগ্রহীরা ক্লাবের কার্যালয়ে নাম নিবন্ধন করতে পারবেন।
+
+    আহ্বায়ক
+    নলখাগড়া নদী রক্ষা ক্লাব
+  answer_sentence: "এই অভিযানে মোট ৮৫ জন স্বেচ্ছাসেবক অংশ নেবেন।"
+  insuff_replacement: "অভিযানে অংশ নেওয়া স্বেচ্ছাসেবকের সংখ্যা নিবন্ধন শেষে চূড়ান্ত করা হবে।"
+  gold: {value: 85}
+  q:
+    en: "How many volunteers will take part in the Nolkhagra River Protection Club's river cleanup drive?"
+    bn: "নলখাগড়া নদী রক্ষা ক্লাবের নদী পরিচ্ছন্নতা অভিযানে কতজন স্বেচ্ছাসেবক অংশ নেবেন?"
+    rbn: "nolkhagra nodi rokkha cluber nodi porichchonnota obhijane kotojon sheccha shebok ongsho neben?"
+    cm: "নলখাগড়া নদী রক্ষা ক্লাবের cleanup drive এ কতজন volunteer অংশ নেবেন?"
+    cmr: "nolkhagra nodi rokkha cluber cleanup drive e kotojon volunteer ongsho neben?"
+  sibling:
+    answer_type: date
+    gold: {day: 20, month: 11, year: 2027}
+    q:
+      en: "On what date will the Nolkhagra River Protection Club hold its river cleanup drive?"
+      bn: "নলখাগড়া নদী রক্ষা ক্লাবের নদী পরিচ্ছন্নতা অভিযান কোন তারিখে হবে?"
+      rbn: "nolkhagra nodi rokkha cluber nodi porichchonnota obhijan kon tarikhe hobe?"
+      cm: "নলখাগড়া নদী রক্ষা ক্লাবের cleanup drive কোন date এ হবে?"
+      cmr: "nolkhagra nodi rokkha cluber cleanup drive kon date e hobe?"
+
+- id: N142
+  format: multi
+  domain: culture
+  answer_type: date
+  entity:
+    bn: "বকুলডাঙা নাট্যচর্চা কেন্দ্র"
+    rom: "bokuldanga nattochorcha kendro"
+    en: "Bokuldanga Theatre Practice Centre"
+  edit_type: neutralisation
+  passage: |
+    বকুলডাঙা নাট্যচর্চা কেন্দ্র
+    পঞ্চদশ নাট্যোৎসব ২০২৭
+
+    বকুলডাঙা নাট্যচর্চা কেন্দ্রের প্রতিষ্ঠার পনেরো বছর পূর্তি উপলক্ষে পাঁচ দিনব্যাপী নাট্যোৎসবের আয়োজন করা হয়েছে। নাট্যোৎসবের উদ্বোধন হবে ৬ অক্টোবর ২০২৭ তারিখ সন্ধ্যায়, কেন্দ্রের নিজস্ব মিলনায়তনে। উৎসবে জেলার বিভিন্ন নাট্যদলের মোট আটটি নাটক মঞ্চস্থ হবে।
+
+    প্রতিদিন সন্ধ্যা ৬টা ৩০ মিনিটে প্রথম নাটক এবং রাত ৮টা ১৫ মিনিটে দ্বিতীয় নাটক শুরু হবে। প্রতিটি প্রদর্শনীর টিকিটের মূল্য ১৫০ টাকা। শিক্ষার্থীরা পরিচয়পত্র দেখিয়ে ৮০ টাকায় টিকিট কিনতে পারবেন। পুরো উৎসবের জন্য সাশ্রয়ী মূল্যের মৌসুমি পাসও পাওয়া যাবে। টিকিট মিলনায়তনের কাউন্টারে প্রদর্শনীর দুই ঘণ্টা আগে থেকে বিক্রি শুরু হবে।
+
+    উৎসবের সমাপনী দিনে নাট্যচর্চায় বিশেষ অবদানের জন্য দুজন প্রবীণ নাট্যকর্মীকে সম্মাননা দেওয়া হবে। এছাড়া উৎসব চলাকালীন প্রতিদিন দুপুরে তরুণদের জন্য অভিনয় ও মঞ্চসজ্জা বিষয়ক কর্মশালা অনুষ্ঠিত হবে; কর্মশালায় অংশ নিতে আগে থেকে নাম নিবন্ধন করতে হবে। নাটক শুরু হওয়ার পর মিলনায়তনে প্রবেশ করা যাবে না। মিলনায়তনের ভেতরে ছবি তোলা ও ভিডিও ধারণ নিষিদ্ধ। শিশুদের নিয়ে আসা দর্শকদের অনুরোধ করা হচ্ছে যেন প্রদর্শনী চলাকালীন অন্য দর্শকদের অসুবিধা না হয়। নাট্যপ্রেমী সকলকে উৎসবে আমন্ত্রণ জানানো হলো।
+
+    সাধারণ সম্পাদক
+    বকুলডাঙা নাট্যচর্চা কেন্দ্র
+  answer_sentence: "নাট্যোৎসবের উদ্বোধন হবে ৬ অক্টোবর ২০২৭ তারিখ সন্ধ্যায়, কেন্দ্রের নিজস্ব মিলনায়তনে।"
+  insuff_replacement: "নাট্যোৎসবের উদ্বোধন হবে কেন্দ্রের নিজস্ব মিলনায়তনে; উদ্বোধনের তারিখ শিগগিরই জানানো হবে।"
+  gold: {day: 6, month: 10, year: 2027}
+  q:
+    en: "On what date will the Bokuldanga Theatre Practice Centre's theatre festival open?"
+    bn: "বকুলডাঙা নাট্যচর্চা কেন্দ্রের নাট্যোৎসবের উদ্বোধন কোন তারিখে হবে?"
+    rbn: "bokuldanga nattochorcha kendro kon tarikhe tader nattoutshober udbodhon korbe?"
+    cm: "বকুলডাঙা নাট্যচর্চা কেন্দ্রের drama festival এর opening কোন date এ?"
+    cmr: "bokuldanga nattochorcha kendro kon date e tader drama festival er opening korbe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 150}
+    q:
+      en: "What is the ticket price per show at the Bokuldanga Theatre Practice Centre's theatre festival?"
+      bn: "বকুলডাঙা নাট্যচর্চা কেন্দ্রের নাট্যোৎসবে প্রতিটি প্রদর্শনীর টিকিটের দাম কত টাকা?"
+      rbn: "bokuldanga nattochorcha kendro ayojito nattoutshobe protiti prodorshonir tikiter dam koto taka?"
+      cm: "বকুলডাঙা নাট্যচর্চা কেন্দ্রের নাট্যোৎসবে প্রতিটি show এর ticket price কত টাকা?"
+      cmr: "bokuldanga nattochorcha kendro ayojito nattoutshobe protiti show er ticket price koto taka?"
+
+
+- id: N143
+  format: multi
+  domain: jobs
+  answer_type: amount
+  entity:
+    bn: "ময়ূরপঙ্খী ছাপাখানা"
+    rom: "moyurponkhi chapakhana"
+    en: "Moyurponkhi Printing Press"
+  edit_type: deletion
+  passage: |
+    ময়ূরপঙ্খী ছাপাখানা
+    জরুরি ভিত্তিতে লোক নিয়োগ
+
+    দীর্ঘ দুই দশক ধরে বই, ক্যালেন্ডার, দাওয়াতপত্র ও প্যাকেজিং সামগ্রী মুদ্রণের সঙ্গে যুক্ত ময়ূরপঙ্খী ছাপাখানা ব্যবসা সম্প্রসারণের জন্য নিচের পদগুলোতে লোক নিয়োগ দেবে।
+
+    ১. মেশিন অপারেটর (অফসেট মেশিন) — ৬টি পদ। প্রার্থীর অফসেট মুদ্রণ যন্ত্র চালানো ও রক্ষণাবেক্ষণের বাস্তব অভিজ্ঞতা থাকতে হবে। মেশিন অপারেটর পদের মাসিক বেতন ১৪,৫০০ টাকা। রাতের পালায় কাজ করলে অতিরিক্ত ভাতা দেওয়া হবে।
+
+    ২. সহকারী অপারেটর — এই পদে নতুনরাও আবেদন করতে পারবেন; কাজের পাশাপাশি হাতে-কলমে প্রশিক্ষণ দেওয়া হবে। সহকারী অপারেটর পদের মাসিক বেতন ৯,৮০০ টাকা।
+
+    ৩. গ্রাফিক ডিজাইনার — ডিজাইন সফটওয়্যারে দক্ষ এবং বাংলা টাইপে পারদর্শী প্রার্থীরা আবেদন করতে পারবেন। বেতন অভিজ্ঞতা অনুযায়ী আলোচনা সাপেক্ষে।
+
+    সকল পদের জন্য প্রার্থীকে শারীরিকভাবে সুস্থ এবং ছাপাখানার আশেপাশে বসবাসকারী হতে হবে। কর্মঘণ্টা সকাল ৯টা থেকে সন্ধ্যা ৬টা, শুক্রবার সাপ্তাহিক ছুটি। দুই ঈদে উৎসব ভাতা এবং বছরে একবার বেতন বৃদ্ধির সুযোগ রয়েছে। আগ্রহী প্রার্থীদের হাতে লেখা আবেদনপত্র, জীবনবৃত্তান্ত ও জাতীয় পরিচয়পত্রের ফটোকপি নিয়ে সরাসরি ছাপাখানার অফিসে যোগাযোগ করতে বলা হচ্ছে। আবেদন গ্রহণের শেষ তারিখ ২০ মার্চ ২০২৭। বাছাইকৃত প্রার্থীদের হাতে-কলমে দক্ষতা যাচাই পরীক্ষা নেওয়া হবে।
+
+    স্বত্বাধিকারী
+    ময়ূরপঙ্খী ছাপাখানা
+  answer_sentence: "মেশিন অপারেটর পদের মাসিক বেতন ১৪,৫০০ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 14500}
+  q:
+    en: "What is the monthly salary for the machine operator post at Moyurponkhi Printing Press?"
+    bn: "ময়ূরপঙ্খী ছাপাখানায় মেশিন অপারেটর পদের মাসিক বেতন কত টাকা?"
+    rbn: "moyurponkhi chapakhanay meshin oparetor poder mashik beton koto taka?"
+    cm: "ময়ূরপঙ্খী ছাপাখানায় machine operator পদের monthly salary কত টাকা?"
+    cmr: "moyurponkhi chapakhanay machine operator poder monthly salary koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 6}
+    q:
+      en: "How many machine operator posts are vacant at Moyurponkhi Printing Press?"
+      bn: "ময়ূরপঙ্খী ছাপাখানায় মেশিন অপারেটরের কয়টি পদ খালি আছে?"
+      rbn: "moyurponkhi chapakhanay meshin oparetorer koyti pod khali ache?"
+      cm: "ময়ূরপঙ্খী ছাপাখানায় machine operator এর কয়টি post খালি আছে?"
+      cmr: "moyurponkhi chapakhanay machine operator er koyti post khali ache?"
+
+- id: N144
+  format: multi
+  domain: community
+  answer_type: name
+  entity:
+    bn: "অশ্বত্থতলা সার্বজনীন পূজা উদযাপন কমিটি"
+    rom: "oshshotthotola sharbojonin puja udjapon komiti"
+    en: "Oshwatthatala Sarbojonin Puja Celebration Committee"
+  edit_type: deletion
+  passage: |
+    অশ্বত্থতলা সার্বজনীন পূজা উদযাপন কমিটি
+    স্বেচ্ছাসেবক ও শৃঙ্খলা বিষয়ক বিজ্ঞপ্তি
+
+    অশ্বত্থতলা সার্বজনীন পূজা উদযাপন কমিটির পক্ষ থেকে এলাকাবাসীকে জানানো যাচ্ছে যে, এবারের শারদীয় উৎসবের পাঁচ দিন মণ্ডপ ও আশেপাশের এলাকায় শৃঙ্খলা বজায় রাখতে একটি স্বেচ্ছাসেবক দল গঠন করা হয়েছে। এবার মোট ৬০ জন স্বেচ্ছাসেবক পালাক্রমে দায়িত্ব পালন করবেন। স্বেচ্ছাসেবক দলের সমন্বয়কের দায়িত্ব পালন করবেন প্রণবেশ হালদার। স্বেচ্ছাসেবকরা হলুদ রঙের জ্যাকেট ও পরিচয়পত্র পরে থাকবেন।
+
+    দর্শনার্থীদের সুবিধার জন্য মণ্ডপে প্রবেশ ও বের হওয়ার আলাদা পথ রাখা হবে। নারী, শিশু ও প্রবীণদের জন্য আলাদা সারির ব্যবস্থা থাকবে। মণ্ডপ এলাকায় সিসিটিভি ক্যামেরা বসানো হবে এবং একটি তথ্যকেন্দ্র খোলা থাকবে, যেখানে হারানো জিনিস বা হারিয়ে যাওয়া শিশুর বিষয়ে সহায়তা পাওয়া যাবে। প্রতিদিন রাত ১০টার পর মণ্ডপ এলাকায় মাইক ব্যবহার বন্ধ থাকবে।
+
+    মণ্ডপের ভেতরে জুতা পরে প্রবেশ করা যাবে না; জুতা রাখার জন্য প্রবেশপথে আলাদা স্থান থাকবে। মণ্ডপ প্রাঙ্গণে কোনো ধরনের আতশবাজি বা পটকা ফোটানো সম্পূর্ণ নিষিদ্ধ। দর্শনার্থীদের মূল্যবান জিনিসপত্র সাবধানে রাখার অনুরোধ করা হলো। স্বেচ্ছাসেবক হিসেবে যোগ দিতে আগ্রহী তরুণ-তরুণীরা কমিটির কার্যালয়ে নাম জমা দিতে পারবেন; তাঁদের জন্য উৎসবের আগে একটি প্রস্তুতি সভা অনুষ্ঠিত হবে। সকলের সহযোগিতায় একটি শান্তিপূর্ণ ও সুশৃঙ্খল উৎসব আয়োজন করাই কমিটির লক্ষ্য।
+
+    সাধারণ সম্পাদক
+    অশ্বত্থতলা সার্বজনীন পূজা উদযাপন কমিটি
+  answer_sentence: "স্বেচ্ছাসেবক দলের সমন্বয়কের দায়িত্ব পালন করবেন প্রণবেশ হালদার।"
+  insuff_replacement: ""
+  gold: {aliases: ["প্রণবেশ হালদার", "Pronobesh Haldar", "Pranabesh Haldar", "Pronobesh Halder"]}
+  q:
+    en: "Who will coordinate the volunteer team of the Oshwatthatala Sarbojonin Puja Celebration Committee?"
+    bn: "অশ্বত্থতলা সার্বজনীন পূজা উদযাপন কমিটির স্বেচ্ছাসেবক দলের সমন্বয়ক কে?"
+    rbn: "oshshotthotola sharbojonin puja udjapon komitir sheccha shebok doler shomonnoyok ke?"
+    cm: "অশ্বত্থতলা সার্বজনীন পূজা উদযাপন কমিটির volunteer team এর coordinator কে?"
+    cmr: "oshshotthotola sharbojonin puja udjapon komitir volunteer team er coordinator ke?"
+  sibling:
+    answer_type: number
+    gold: {value: 60}
+    q:
+      en: "How many volunteers in total will serve with the Oshwatthatala Sarbojonin Puja Celebration Committee this time?"
+      bn: "এবার অশ্বত্থতলা সার্বজনীন পূজা উদযাপন কমিটির হয়ে মোট কতজন স্বেচ্ছাসেবক দায়িত্ব পালন করবেন?"
+      rbn: "ebar oshshotthotola sharbojonin puja udjapon komitir hoye mot kotojon sheccha shebok dayitto palon korben?"
+      cm: "এবার অশ্বত্থতলা সার্বজনীন পূজা উদযাপন কমিটির হয়ে মোট কতজন volunteer duty করবেন?"
+      cmr: "ebar oshshotthotola sharbojonin puja udjapon komitir hoye mot kotojon volunteer duty korben?"
+
+- id: N145
+  format: multi
+  domain: agriculture
+  answer_type: number
+  entity:
+    bn: "শালিখডাঙা কৃষক মাঠ স্কুল"
+    rom: "shalikhdanga krishok math school"
+    en: "Shalikhdanga Farmer Field School"
+  edit_type: deletion
+  passage: |
+    শালিখডাঙা কৃষক মাঠ স্কুল
+    জৈব বালাইনাশক তৈরি বিষয়ক কর্মশালা
+
+    ফসলে রাসায়নিক কীটনাশকের ব্যবহার কমিয়ে নিরাপদ খাদ্য উৎপাদনে কৃষকদের উৎসাহিত করতে শালিখডাঙা কৃষক মাঠ স্কুল একটি দিনব্যাপী হাতে-কলমে কর্মশালার আয়োজন করেছে। কর্মশালা অনুষ্ঠিত হবে ১৭ আগস্ট ২০২৭ তারিখে, মাঠ স্কুলের প্রদর্শনী খামারে, সকাল ৯টা থেকে বিকেল ৪টা পর্যন্ত।
+
+    কর্মশালায় নিম পাতা, তামাক পাতা, রসুন ও মরিচ দিয়ে ঘরোয়া পদ্ধতিতে জৈব বালাইনাশক তৈরি, ফেরোমন ফাঁদ ব্যবহার, আলোক ফাঁদ স্থাপন এবং উপকারী পোকা চেনার কৌশল শেখানো হবে। এছাড়া কেঁচো সার তৈরির একটি প্রদর্শনী থাকবে। কর্মশালায় সর্বোচ্চ ৪৫ জন কৃষক অংশ নিতে পারবেন। নারী কৃষক ও তরুণ উদ্যোক্তাদের অংশগ্রহণে বিশেষভাবে উৎসাহিত করা হচ্ছে।
+
+    অংশগ্রহণের জন্য কোনো ফি দিতে হবে না। অংশগ্রহণকারীদের দুপুরের খাবার ও হাতে-কলমে শেখার উপকরণ মাঠ স্কুলের পক্ষ থেকে দেওয়া হবে। কর্মশালা শেষে প্রত্যেককে একটি করে ফেরোমন ফাঁদ ও জৈব বালাইনাশক তৈরির সহজ নির্দেশিকা পুস্তিকা দেওয়া হবে। আগ্রহী কৃষকদের ১০ আগস্ট ২০২৭ তারিখের মধ্যে মাঠ স্কুলের সহায়কের কাছে নাম নিবন্ধন করতে হবে। নিবন্ধন আগে এলে আগে পাবেন ভিত্তিতে গ্রহণ করা হবে। কর্মশালার দিন মাঠে কাজ করার উপযোগী পোশাক পরে আসার অনুরোধ করা হলো। বৃষ্টি হলে কর্মশালার তাত্ত্বিক অংশ মাঠ স্কুলের ঘরে অনুষ্ঠিত হবে।
+
+    সমন্বয়ক
+    শালিখডাঙা কৃষক মাঠ স্কুল
+  answer_sentence: "কর্মশালায় সর্বোচ্চ ৪৫ জন কৃষক অংশ নিতে পারবেন।"
+  insuff_replacement: ""
+  gold: {value: 45}
+  q:
+    en: "What is the maximum number of farmers who can join the workshop of Shalikhdanga Farmer Field School?"
+    bn: "শালিখডাঙা কৃষক মাঠ স্কুলের কর্মশালায় সর্বোচ্চ কতজন কৃষক অংশ নিতে পারবেন?"
+    rbn: "shalikhdanga krishok math schooler kormoshalay shorbochcho kotojon krishok ongsho nite parben?"
+    cm: "শালিখডাঙা কৃষক মাঠ স্কুলের workshop এ maximum কতজন কৃষক অংশ নিতে পারবেন?"
+    cmr: "shalikhdanga krishok math schooler workshop e maximum kotojon krishok ongsho nite parben?"
+  sibling:
+    answer_type: date
+    gold: {day: 17, month: 8, year: 2027}
+    q:
+      en: "On what date will the Shalikhdanga Farmer Field School hold its workshop?"
+      bn: "শালিখডাঙা কৃষক মাঠ স্কুলের কর্মশালা কোন তারিখে অনুষ্ঠিত হবে?"
+      rbn: "shalikhdanga krishok math schooler kormoshala kon tarikhe onushthito hobe?"
+      cm: "শালিখডাঙা কৃষক মাঠ স্কুলের workshop কোন date এ হবে?"
+      cmr: "shalikhdanga krishok math schooler workshop kon date e hobe?"
+
+- id: N146
+  format: multi
+  domain: jobs
+  answer_type: yesno
+  entity:
+    bn: "কলমিলতা জীবিকা উন্নয়ন প্রকল্প"
+    rom: "kolmilota jibika unnoyon prokolpo"
+    en: "Kolmilata Livelihood Development Project"
+  edit_type: deletion
+  passage: |
+    কলমিলতা জীবিকা উন্নয়ন প্রকল্প
+    হাঁস-মুরগি পালন বিষয়ক প্রশিক্ষণে অংশগ্রহণের আহ্বান
+
+    কলমিলতা জীবিকা উন্নয়ন প্রকল্পের আওতায় কর্ম এলাকার বেকার তরুণ-তরুণী ও গৃহিণীদের জন্য হাঁস-মুরগি পালন বিষয়ক একটি প্রশিক্ষণ কোর্সের আয়োজন করা হয়েছে। প্রশিক্ষণের মেয়াদ ২১ দিন। প্রশিক্ষণ শুরু হবে ৪ এপ্রিল ২০২৭ তারিখে এবং প্রতিদিন সকাল ১০টা থেকে বিকেল ৩টা পর্যন্ত প্রকল্পের প্রশিক্ষণ কেন্দ্রে ক্লাস চলবে।
+
+    প্রশিক্ষণে খামারের ঘর তৈরি, বাচ্চা লালন-পালন, সুষম খাদ্য তৈরি, টিকা প্রদান, সাধারণ রোগ চেনা ও প্রতিরোধ, ডিম ও মাংস বাজারজাতকরণ এবং খামারের আয়-ব্যয়ের হিসাব রাখা শেখানো হবে। প্রশিক্ষণ চলাকালীন প্রত্যেক অংশগ্রহণকারী দৈনিক যাতায়াত ভাতা পাবেন। তাত্ত্বিক ক্লাসের পাশাপাশি নিকটবর্তী দুটি সফল খামারে মাঠ পরিদর্শনের ব্যবস্থা থাকবে।
+
+    আবেদনকারীর বয়স ১৮ থেকে ৪৫ বছরের মধ্যে হতে হবে এবং ন্যূনতম পঞ্চম শ্রেণি পাস হতে হবে। যাঁদের বাড়িতে ছোট পরিসরে হাঁস-মুরগি পালনের জায়গা আছে, তাঁদের অগ্রাধিকার দেওয়া হবে। প্রতি ব্যাচে সীমিত সংখ্যক প্রশিক্ষণার্থী নেওয়া হবে। প্রশিক্ষণ শেষে সফল প্রশিক্ষণার্থীদের সনদপত্র দেওয়া হবে এবং আগ্রহীদের খামার শুরু করতে প্রকল্পের সহজ শর্তের ঋণ কর্মসূচির সঙ্গে যুক্ত করা হবে। আবেদনপত্র প্রকল্পের ইউনিয়ন অফিস থেকে সংগ্রহ করে জাতীয় পরিচয়পত্রের ফটোকপি ও এক কপি ছবিসহ জমা দিতে হবে। আবেদন জমার শেষ তারিখ ২৫ মার্চ ২০২৭।
+
+    প্রকল্প ব্যবস্থাপক
+    কলমিলতা জীবিকা উন্নয়ন প্রকল্প
+  answer_sentence: "প্রশিক্ষণ চলাকালীন প্রত্যেক অংশগ্রহণকারী দৈনিক যাতায়াত ভাতা পাবেন।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Will participants in the Kolmilata Livelihood Development Project training receive a daily travel allowance?"
+    bn: "কলমিলতা জীবিকা উন্নয়ন প্রকল্পের প্রশিক্ষণে অংশগ্রহণকারীরা কি দৈনিক যাতায়াত ভাতা পাবেন?"
+    rbn: "kolmilota jibika unnoyon prokolpo er proshikkhone ongshogrohonkarira ki doinik jatayat vata paben?"
+    cm: "কলমিলতা জীবিকা উন্নয়ন প্রকল্পের training এ অংশগ্রহণকারীরা কি daily যাতায়াত ভাতা পাবেন?"
+    cmr: "kolmilota jibika unnoyon prokolpo er training e ongshogrohonkarira ki daily jatayat vata paben?"
+  sibling:
+    answer_type: number
+    gold: {value: 21}
+    q:
+      en: "How many days long is the poultry training of the Kolmilata Livelihood Development Project?"
+      bn: "কলমিলতা জীবিকা উন্নয়ন প্রকল্পের হাঁস-মুরগি পালন প্রশিক্ষণের মেয়াদ কত দিন?"
+      rbn: "kolmilota jibika unnoyon prokolpo er hash murgi palon proshikkhoner meyad koto din?"
+      cm: "কলমিলতা জীবিকা উন্নয়ন প্রকল্পের poultry training এর মেয়াদ কত দিন?"
+      cmr: "kolmilota jibika unnoyon prokolpo er poultry training er meyad koto din?"
+
+- id: N147
+  format: multi
+  domain: housing
+  answer_type: yesno
+  entity:
+    bn: "মধুমালতী নিবাস"
+    rom: "modhumaloti nibash"
+    en: "Modhumalati Nibash"
+  edit_type: neutralisation
+  passage: |
+    টু-লেট
+    মধুমালতী নিবাস, পুকুরপাড় লেন
+
+    মধুমালতী নিবাসের চতুর্থ তলায় একটি পরিবারবান্ধব ফ্ল্যাট ভাড়া দেওয়া হবে। ফ্ল্যাটটিতে তিনটি শয়নকক্ষ, দুটি বাথরুম, একটি ড্রয়িং-ডাইনিং, রান্নাঘর এবং দক্ষিণমুখী একটি বারান্দা রয়েছে। ফ্ল্যাটটি ১ মে ২০২৭ থেকে ওঠার উপযোগী থাকবে।
+
+    ফ্ল্যাটের মাসিক ভাড়া ১৮,০০০ টাকা। পানি ও বিদ্যুৎ বিল ভাড়ার বাইরে ভাড়াটিয়াকে আলাদাভাবে পরিশোধ করতে হবে। এছাড়া সিঁড়ি পরিষ্কার, দারোয়ান ও ময়লা সংগ্রহ বাবদ মাসিক ১,২০০ টাকা সার্ভিস চার্জ দিতে হবে। ওঠার আগে দুই মাসের ভাড়া অগ্রিম হিসেবে জমা দিতে হবে।
+
+    ফ্ল্যাটে লাইনের গ্যাস সংযোগ নেই, রান্নার জন্য সিলিন্ডার ব্যবহার করতে হবে। ভবনে লিফট নেই, তবে সিঁড়ি প্রশস্ত ও আলোকিত। ছাদে কাপড় শুকানোর ব্যবস্থা আছে। নিচতলায় একটি মোটরসাইকেল রাখার জায়গা পাওয়া যাবে, তবে প্রাইভেট কার রাখার কোনো ব্যবস্থা নেই। নিকটেই প্রাথমিক বিদ্যালয়, কাঁচাবাজার ও মসজিদ রয়েছে।
+
+    শুধুমাত্র ছোট পরিবারকে ফ্ল্যাট ভাড়া দেওয়া হবে; ব্যাচেলর বা মেস হিসেবে ভাড়া দেওয়া হবে না। ভাড়াটিয়াকে চুক্তিপত্রে স্বাক্ষরের সময় জাতীয় পরিচয়পত্রের ফটোকপি এবং পরিবারের সদস্যদের তালিকা জমা দিতে হবে। পোষা প্রাণী রাখার বিষয়ে বাড়ির মালিকের সঙ্গে আগে আলোচনা করতে হবে। ফ্ল্যাট দেখতে চাইলে প্রতিদিন বিকেল ৪টা থেকে সন্ধ্যা ৭টার মধ্যে নিচতলার কেয়ারটেকারের সঙ্গে যোগাযোগ করুন।
+  answer_sentence: "ফ্ল্যাটে লাইনের গ্যাস সংযোগ নেই, রান্নার জন্য সিলিন্ডার ব্যবহার করতে হবে।"
+  insuff_replacement: "রান্নার গ্যাসের ব্যবস্থা সম্পর্কে বিস্তারিত জানতে বাড়ির মালিকের সঙ্গে যোগাযোগ করুন।"
+  gold: {value: false}
+  q:
+    en: "Does the flat for rent at Modhumalati Nibash have a piped gas connection?"
+    bn: "মধুমালতী নিবাসের ভাড়ার ফ্ল্যাটে কি লাইনের গ্যাস সংযোগ আছে?"
+    rbn: "modhumaloti nibasher varar flate ki lainer gash shongjog ache?"
+    cm: "মধুমালতী নিবাসের rent এর flat এ কি line gas connection আছে?"
+    cmr: "modhumaloti nibasher rent er flat e ki line gas connection ache?"
+  sibling:
+    answer_type: amount
+    gold: {value: 18000}
+    q:
+      en: "What is the monthly rent of the flat at Modhumalati Nibash?"
+      bn: "মধুমালতী নিবাসের ফ্ল্যাটের মাসিক ভাড়া কত টাকা?"
+      rbn: "modhumaloti nibasher flater mashik vara koto taka?"
+      cm: "মধুমালতী নিবাসের flat এর monthly rent কত টাকা?"
+      cmr: "modhumaloti nibasher flat er monthly rent koto taka?"
+
+- id: N148
+  format: multi
+  domain: community
+  answer_type: date
+  entity:
+    bn: "ঘাসফড়িং যুব সংঘ"
+    rom: "ghashforing jubo shongho"
+    en: "Ghashforing Youth Association"
+  edit_type: deletion
+  passage: |
+    ঘাসফড়িং যুব সংঘ
+    স্বেচ্ছায় রক্তদান কর্মসূচি
+
+    মানবতার সেবায় এগিয়ে আসার আহ্বান জানিয়ে ঘাসফড়িং যুব সংঘ প্রতি বছরের মতো এবারও স্বেচ্ছায় রক্তদান কর্মসূচির আয়োজন করেছে। রক্তদান কর্মসূচি অনুষ্ঠিত হবে ১১ জুন ২০২৭ তারিখে সংঘের নিজস্ব কার্যালয়ে। কর্মসূচিতে উপজেলা স্বাস্থ্য কমপ্লেক্সের অভিজ্ঞ চিকিৎসক ও টেকনোলজিস্টরা উপস্থিত থাকবেন এবং জীবাণুমুক্ত সরঞ্জাম ব্যবহার করে রক্ত সংগ্রহ করবেন।
+
+    রক্তদাতার বয়স ১৮ থেকে ৬০ বছরের মধ্যে হতে হবে এবং ওজন কমপক্ষে ৫০ কেজি হতে হবে। গত চার মাসের মধ্যে যাঁরা রক্ত দিয়েছেন, তাঁরা এবার রক্ত দিতে পারবেন না। জ্বর, সর্দি-কাশি বা কোনো সংক্রামক রোগে আক্রান্ত ব্যক্তিরা রক্তদান থেকে বিরত থাকবেন। রক্ত দেওয়ার আগে প্রত্যেক দাতার রক্তচাপ ও হিমোগ্লোবিন পরীক্ষা করা হবে।
+
+    আগ্রহী রক্তদাতাদের ৮ জুন ২০২৭ তারিখের মধ্যে সংঘের স্বেচ্ছাসেবকদের কাছে নাম ও রক্তের গ্রুপ নিবন্ধন করতে অনুরোধ করা হলো। রক্তদানের আগের রাতে পর্যাপ্ত ঘুম এবং সকালে হালকা খাবার খেয়ে আসার পরামর্শ দেওয়া হচ্ছে। প্রত্যেক রক্তদাতাকে রক্তদানের পর ফলের রস ও হালকা নাশতা দেওয়া হবে এবং একটি রক্তদাতা সনদ ও রক্তের গ্রুপ উল্লেখ করা কার্ড প্রদান করা হবে। সংগৃহীত রক্ত উপজেলা হাসপাতালের রক্ত সঞ্চালন বিভাগে মুমূর্ষু রোগীদের জন্য সংরক্ষণ করা হবে।
+
+    সভাপতি
+    ঘাসফড়িং যুব সংঘ
+  answer_sentence: "রক্তদান কর্মসূচি অনুষ্ঠিত হবে ১১ জুন ২০২৭ তারিখে সংঘের নিজস্ব কার্যালয়ে।"
+  insuff_replacement: ""
+  gold: {day: 11, month: 6, year: 2027}
+  q:
+    en: "On what date will the Ghashforing Youth Association hold its blood donation programme?"
+    bn: "ঘাসফড়িং যুব সংঘের রক্তদান কর্মসূচি কোন তারিখে অনুষ্ঠিত হবে?"
+    rbn: "ghashforing jubo shongho kon tarikhe roktodan kormoshuchi ayojon korbe?"
+    cm: "ঘাসফড়িং যুব সংঘের blood donation program কোন date এ হবে?"
+    cmr: "ghashforing jubo shongho kon date e blood donation program korbe?"
+  sibling:
+    answer_type: number
+    gold: {value: 50}
+    q:
+      en: "What is the minimum weight in kilograms for a donor at the Ghashforing Youth Association's blood donation programme?"
+      bn: "ঘাসফড়িং যুব সংঘের রক্তদান কর্মসূচিতে রক্তদাতার ওজন কমপক্ষে কত কেজি হতে হবে?"
+      rbn: "ghashforing jubo shongho ayojito roktodan kormoshuchite roktodatar ojon komopokkhe koto keji hote hobe?"
+      cm: "ঘাসফড়িং যুব সংঘের blood donation program এ donor এর ওজন কমপক্ষে কত কেজি হতে হবে?"
+      cmr: "ghashforing jubo shongho ayojito blood donation program e donor er ojon komopokkhe koto keji hote hobe?"
+
+- id: N149
+  format: multi
+  domain: agriculture
+  answer_type: name
+  entity:
+    bn: "টেংরামারি মৎস্য খামারি সমিতি"
+    rom: "tengramari motsho khamari shomiti"
+    en: "Tengramari Fish Farmers' Association"
+  edit_type: neutralisation
+  passage: |
+    টেংরামারি মৎস্য খামারি সমিতি
+    খাঁচায় মাছ চাষ বিষয়ক প্রশিক্ষণ
+
+    নদী ও বড় জলাশয়ে খাঁচায় মাছ চাষের মাধ্যমে আয় বাড়ানোর লক্ষ্যে টেংরামারি মৎস্য খামারি সমিতি সদস্যদের জন্য দুই দিনব্যাপী একটি প্রশিক্ষণের আয়োজন করেছে। প্রশিক্ষণ অনুষ্ঠিত হবে ১৪ ও ১৫ সেপ্টেম্বর ২০২৭ তারিখে সমিতির সভাকক্ষে এবং দ্বিতীয় দিন বিকেলে নদীর ঘাটে স্থাপিত প্রদর্শনী খাঁচা সরেজমিনে দেখানো হবে।
+
+    প্রশিক্ষণ দেবেন মৎস্য বিশেষজ্ঞ শাহনেওয়াজ কিবরিয়া। প্রশিক্ষণে খাঁচা তৈরির উপকরণ ও খরচ, উপযুক্ত স্থান নির্বাচন, মনোসেক্স তেলাপিয়া ও পাঙাশের পোনা মজুদ, ভাসমান খাবার প্রয়োগ, পানির গুণাগুণ পরীক্ষা এবং রোগ ব্যবস্থাপনা বিষয়ে আলোচনা করা হবে। এছাড়া মাছ বাজারজাতকরণ ও সমবায়ভিত্তিক বিক্রয়ের সুবিধা নিয়ে একটি মুক্ত আলোচনা পর্ব থাকবে।
+
+    প্রশিক্ষণে অংশ নিতে নিবন্ধন ফি ২০০ টাকা, যা দিয়ে প্রশিক্ষণ সহায়িকা, খাতা-কলম ও দুপুরের খাবারের খরচ মেটানো হবে। শুধুমাত্র সমিতির নিয়মিত সদস্যরা অংশ নিতে পারবেন; প্রত্যেক সদস্য পরিবারের পক্ষ থেকে একজন করে নিবন্ধন করা যাবে। প্রশিক্ষণ শেষে অংশগ্রহণকারীদের সনদপত্র দেওয়া হবে এবং আগ্রহী সদস্যদের খাঁচা স্থাপনে সমিতির পক্ষ থেকে কারিগরি পরামর্শ দেওয়া হবে। নিবন্ধনের জন্য সমিতির কোষাধ্যক্ষের সঙ্গে কার্যালয়ে যোগাযোগ করুন। আসন সংখ্যা সীমিত হওয়ায় দ্রুত নিবন্ধন করার অনুরোধ করা হলো।
+
+    সাধারণ সম্পাদক
+    টেংরামারি মৎস্য খামারি সমিতি
+  answer_sentence: "প্রশিক্ষণ দেবেন মৎস্য বিশেষজ্ঞ শাহনেওয়াজ কিবরিয়া।"
+  insuff_replacement: "প্রশিক্ষণ দেবেন একজন অভিজ্ঞ মৎস্য বিশেষজ্ঞ।"
+  gold: {aliases: ["শাহনেওয়াজ কিবরিয়া", "Shahnewaz Kibria", "Shahnawaz Kibria", "Shahnewaj Kibria"]}
+  q:
+    en: "Who will conduct the cage fish farming training of the Tengramari Fish Farmers' Association?"
+    bn: "টেংরামারি মৎস্য খামারি সমিতির খাঁচায় মাছ চাষ প্রশিক্ষণ কে দেবেন?"
+    rbn: "tengramari motsho khamari shomitir khachay mach chash proshikkhon ke diben?"
+    cm: "টেংরামারি মৎস্য খামারি সমিতির cage fish farming training কে দেবেন?"
+    cmr: "tengramari motsho khamari shomitir cage fish farming training ke diben?"
+  sibling:
+    answer_type: amount
+    gold: {value: 200}
+    q:
+      en: "What is the registration fee for the Tengramari Fish Farmers' Association's training?"
+      bn: "টেংরামারি মৎস্য খামারি সমিতির প্রশিক্ষণে নিবন্ধন ফি কত টাকা?"
+      rbn: "tengramari motsho khamari shomitir proshikkhone nibondhon fee koto taka?"
+      cm: "টেংরামারি মৎস্য খামারি সমিতির training এ registration fee কত টাকা?"
+      cmr: "tengramari motsho khamari shomitir training e registration fee koto taka?"
+
+- id: N150
+  format: multi
+  domain: community
+  answer_type: amount
+  entity:
+    bn: "পানকৌড়ি আন্তঃপাড়া ক্রিকেট টুর্নামেন্ট"
+    rom: "pankouri antopara cricket tournament"
+    en: "Pankouri Inter-Para Cricket Tournament"
+  edit_type: neutralisation
+  passage: |
+    পানকৌড়ি আন্তঃপাড়া ক্রিকেট টুর্নামেন্ট ২০২৭
+    দল আহ্বান
+
+    পানকৌড়ি ক্রীড়া ও সাংস্কৃতিক ক্লাবের আয়োজনে শীত মৌসুমে পানকৌড়ি আন্তঃপাড়া ক্রিকেট টুর্নামেন্ট অনুষ্ঠিত হতে যাচ্ছে। টুর্নামেন্টে সর্বোচ্চ ১২টি দল অংশ নিতে পারবে এবং আগে নিবন্ধনকারী দলগুলো অগ্রাধিকার পাবে। প্রতিটি খেলা টেপ টেনিস বলে আট ওভারের ভিত্তিতে অনুষ্ঠিত হবে।
+
+    প্রতিটি দলের প্রবেশ ফি ৩,২০০ টাকা। প্রবেশ ফি দিয়ে বল, আম্পায়ার ও মাঠ প্রস্তুতির খরচ মেটানো হবে। চ্যাম্পিয়ন দল পাবে ট্রফি ও নগদ ২০,০০০ টাকা এবং রানার্সআপ দল পাবে ট্রফি ও নগদ ১০,০০০ টাকা। প্রতিটি খেলার সেরা খেলোয়াড়কে একটি করে স্মারক দেওয়া হবে।
+
+    প্রতিটি দল সর্বোচ্চ ১৪ জন খেলোয়াড়ের নাম জমা দিতে পারবে এবং খেলোয়াড়দের অবশ্যই সংশ্লিষ্ট পাড়ার স্থায়ী বাসিন্দা হতে হবে। বাইরের কোনো খেলোয়াড় খেলানো প্রমাণিত হলে ওই দলকে টুর্নামেন্ট থেকে বাদ দেওয়া হবে। খেলোয়াড়দের নিজ নিজ দলের রঙের জার্সি পরে মাঠে নামতে হবে। খেলা চলাকালীন মাঠে অশোভন আচরণ করলে খেলোয়াড়কে পরবর্তী খেলায় নিষিদ্ধ করা হবে। দল নিবন্ধনের শেষ তারিখ ১৮ ডিসেম্বর ২০২৭। নিবন্ধনের সময় দলের অধিনায়ককে খেলোয়াড়দের তালিকা ও ছবি জমা দিতে হবে। খেলার সূচি লটারির মাধ্যমে নির্ধারণ করে ক্লাবের নোটিশ বোর্ডে প্রকাশ করা হবে।
+
+    সাধারণ সম্পাদক
+    পানকৌড়ি ক্রীড়া ও সাংস্কৃতিক ক্লাব
+  answer_sentence: "প্রতিটি দলের প্রবেশ ফি ৩,২০০ টাকা।"
+  insuff_replacement: "প্রতিটি দলের প্রবেশ ফি আয়োজক কমিটির পরবর্তী সভায় নির্ধারণ করা হবে।"
+  gold: {value: 3200}
+  q:
+    en: "What is the entry fee per team for the Pankouri Inter-Para Cricket Tournament?"
+    bn: "পানকৌড়ি আন্তঃপাড়া ক্রিকেট টুর্নামেন্টে প্রতিটি দলের প্রবেশ ফি কত টাকা?"
+    rbn: "pankouri antopara cricket tournamente protiti doler probesh fee koto taka?"
+    cm: "পানকৌড়ি আন্তঃপাড়া ক্রিকেট টুর্নামেন্টে প্রতিটি team এর entry fee কত টাকা?"
+    cmr: "pankouri antopara cricket tournamente protiti team er entry fee koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 12}
+    q:
+      en: "What is the maximum number of teams that can take part in the Pankouri Inter-Para Cricket Tournament?"
+      bn: "পানকৌড়ি আন্তঃপাড়া ক্রিকেট টুর্নামেন্টে সর্বোচ্চ কয়টি দল অংশ নিতে পারবে?"
+      rbn: "pankouri antopara cricket tournamente shorbochcho koyti dol ongsho nite parbe?"
+      cm: "পানকৌড়ি আন্তঃপাড়া ক্রিকেট টুর্নামেন্টে maximum কয়টি team অংশ নিতে পারবে?"
+      cmr: "pankouri antopara cricket tournamente maximum koyti team ongsho nite parbe?"
+
+- id: N151
+  format: multi
+  domain: housing
+  answer_type: number
+  entity:
+    bn: "কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতি"
+    rom: "kathgolap tower flat malik kollan shomiti"
+    en: "Kathgolap Tower Flat Owners' Welfare Association"
+  edit_type: neutralisation
+  passage: |
+    কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতি
+    নিরাপত্তা ব্যবস্থা আধুনিকায়ন সংক্রান্ত বিজ্ঞপ্তি
+
+    সম্প্রতি এলাকায় কয়েকটি চুরির ঘটনার পরিপ্রেক্ষিতে কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতির কার্যনির্বাহী কমিটি ভবনের নিরাপত্তা ব্যবস্থা আধুনিকায়নের সিদ্ধান্ত নিয়েছে। এর অংশ হিসেবে ভবনের প্রবেশপথ, পার্কিং এলাকা, সিঁড়ি, লিফটের সামনে এবং ছাদে মোট ৩২টি সিসিটিভি ক্যামেরা স্থাপন করা হবে। ক্যামেরার ফুটেজ নিচতলার নিরাপত্তা কক্ষে সার্বক্ষণিক পর্যবেক্ষণ করা হবে এবং অন্তত এক মাস সংরক্ষিত থাকবে।
+
+    স্থাপনের কাজ শুরু হবে ৩ মে ২০২৭ তারিখে এবং আনুমানিক দুই সপ্তাহের মধ্যে শেষ হবে। কাজ চলাকালীন কিছু সময়ের জন্য করিডোরে বিদ্যুৎ সংযোগ বন্ধ থাকতে পারে। এছাড়া মূল ফটকে ইলেকট্রনিক কার্ডের মাধ্যমে প্রবেশ ব্যবস্থা চালু করা হবে; প্রত্যেক ফ্ল্যাটকে চারটি করে প্রবেশ কার্ড দেওয়া হবে। অতিরিক্ত কার্ডের প্রয়োজন হলে নির্ধারিত মূল্যে সমিতির অফিস থেকে সংগ্রহ করা যাবে।
+
+    এই কাজের ব্যয় নির্বাহের জন্য প্রত্যেক ফ্ল্যাট মালিককে এককালীন ৭,৮০০ টাকা প্রদান করতে হবে, যা ২০ এপ্রিল ২০২৭ তারিখের মধ্যে সমিতির হিসাবে জমা দিতে হবে। ভাড়াটিয়াদের ক্ষেত্রে এই অর্থ ফ্ল্যাট মালিক পরিশোধ করবেন। নিরাপত্তাকর্মীদের নতুন ব্যবস্থার ওপর প্রশিক্ষণ দেওয়া হবে। নিরাপত্তা সংক্রান্ত যেকোনো অভিযোগ সমিতির অফিসে লিখিতভাবে জানানোর অনুরোধ করা হলো।
+
+    সভাপতি
+    কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতি
+  answer_sentence: "এর অংশ হিসেবে ভবনের প্রবেশপথ, পার্কিং এলাকা, সিঁড়ি, লিফটের সামনে এবং ছাদে মোট ৩২টি সিসিটিভি ক্যামেরা স্থাপন করা হবে।"
+  insuff_replacement: "এর অংশ হিসেবে ভবনের প্রবেশপথ, পার্কিং এলাকা, সিঁড়ি, লিফটের সামনে এবং ছাদে প্রয়োজনীয় সংখ্যক সিসিটিভি ক্যামেরা স্থাপন করা হবে।"
+  gold: {value: 32}
+  q:
+    en: "How many CCTV cameras will the Kathgolap Tower Flat Owners' Welfare Association install?"
+    bn: "কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতি মোট কয়টি সিসিটিভি ক্যামেরা স্থাপন করবে?"
+    rbn: "kathgolap tower flat malik kollan shomiti mot koyti sisitivi kyamera sthapon korbe?"
+    cm: "কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতি মোট কয়টি CCTV camera বসাবে?"
+    cmr: "kathgolap tower flat malik kollan shomiti mot koyti CCTV camera boshabe?"
+  sibling:
+    answer_type: date
+    gold: {day: 3, month: 5, year: 2027}
+    q:
+      en: "On what date will the installation work start at the Kathgolap Tower Flat Owners' Welfare Association's building?"
+      bn: "কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতির ভবনে স্থাপনের কাজ কোন তারিখে শুরু হবে?"
+      rbn: "kathgolap tower flat malik kollan shomitir bhobone sthaponer kaj kon tarikhe shuru hobe?"
+      cm: "কাঠগোলাপ টাওয়ার ফ্ল্যাট মালিক কল্যাণ সমিতির ভবনে installation এর কাজ কোন date এ শুরু হবে?"
+      cmr: "kathgolap tower flat malik kollan shomitir bhobone installation er kaj kon date e shuru hobe?"
+
+- id: N152
+  format: multi
+  domain: culture
+  answer_type: yesno
+  entity:
+    bn: "হিমঝুরি পিঠা উৎসব"
+    rom: "himjhuri pitha utshob"
+    en: "Himjhuri Pitha Festival"
+  edit_type: neutralisation
+  passage: |
+    হিমঝুরি পিঠা উৎসব ২০২৭
+    সবার জন্য উন্মুক্ত
+
+    শীতের ঐতিহ্য ধরে রাখতে হিমঝুরি সাংস্কৃতিক পরিষদের আয়োজনে তিন দিনব্যাপী হিমঝুরি পিঠা উৎসব অনুষ্ঠিত হবে ১৪ থেকে ১৬ জানুয়ারি ২০২৭ পর্যন্ত, পৌর ঈদগাহ মাঠের পাশের খোলা প্রাঙ্গণে। প্রতিদিন দুপুর ২টা থেকে রাত ৯টা পর্যন্ত উৎসব চলবে।
+
+    উৎসবে এলাকার গৃহিণী ও ক্ষুদ্র উদ্যোক্তাদের ৪০টির বেশি স্টলে ভাপা, চিতই, পাটিসাপটা, দুধপুলি, নকশি পিঠা, পাকান ও তেলের পিঠাসহ নানা ধরনের পিঠা পাওয়া যাবে। এছাড়া খেজুরের গুড় ও গুড়ের তৈরি মিষ্টান্নের আলাদা স্টল থাকবে। উৎসবের শেষ দিনে সেরা পিঠা প্রস্তুতকারীদের মধ্যে পুরস্কার বিতরণ করা হবে।
+
+    উৎসব প্রাঙ্গণে প্রবেশ টিকিটের মূল্য জনপ্রতি ৩০ টাকা। প্রতিদিন সন্ধ্যায় লোকগান, পালাগান ও বাউল গানের আসর বসবে। উৎসবের দ্বিতীয় দিন সকালে শিশুদের জন্য চিত্রাঙ্কন প্রতিযোগিতার আয়োজন করা হবে। দর্শনার্থীদের সুবিধার জন্য প্রাঙ্গণে বসার জায়গা, বিশুদ্ধ খাবার পানি ও অস্থায়ী শৌচাগারের ব্যবস্থা থাকবে।
+
+    স্টল বরাদ্দ সম্পন্ন হয়েছে; নতুন কোনো স্টলের আবেদন গ্রহণ করা হবে না। পরিবেশ রক্ষার জন্য উৎসব প্রাঙ্গণে পলিথিনের ব্যাগ ব্যবহার নিরুৎসাহিত করা হচ্ছে এবং বিক্রেতাদের কাগজের ঠোঙা ব্যবহারের অনুরোধ করা হয়েছে। নিরাপত্তার জন্য স্বেচ্ছাসেবক ও আনসার সদস্যরা দায়িত্ব পালন করবেন। পরিবার-পরিজন নিয়ে উৎসবে আসার আমন্ত্রণ রইল।
+
+    আহ্বায়ক
+    হিমঝুরি সাংস্কৃতিক পরিষদ
+  answer_sentence: "উৎসবের দ্বিতীয় দিন সকালে শিশুদের জন্য চিত্রাঙ্কন প্রতিযোগিতার আয়োজন করা হবে।"
+  insuff_replacement: "উৎসবে শিশুদের জন্য কোনো বিশেষ আয়োজন থাকবে কি না, তা পরে জানানো হবে।"
+  gold: {value: true}
+  q:
+    en: "Will there be a drawing competition for children at the Himjhuri Pitha Festival?"
+    bn: "হিমঝুরি পিঠা উৎসবে কি শিশুদের জন্য চিত্রাঙ্কন প্রতিযোগিতা হবে?"
+    rbn: "himjhuri pitha utshobe ki shishuder jonno chitrankon protijogita hobe?"
+    cm: "হিমঝুরি পিঠা উৎসবে কি বাচ্চাদের জন্য drawing competition হবে?"
+    cmr: "himjhuri pitha utshobe ki bachchader jonno drawing competition hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 30}
+    q:
+      en: "What is the entry ticket price per person at the Himjhuri Pitha Festival?"
+      bn: "হিমঝুরি পিঠা উৎসবে জনপ্রতি প্রবেশ টিকিটের দাম কত টাকা?"
+      rbn: "himjhuri pitha utshobe jonoproti probesh tikiter dam koto taka?"
+      cm: "হিমঝুরি পিঠা উৎসবে জনপ্রতি entry ticket এর দাম কত টাকা?"
+      cmr: "himjhuri pitha utshobe jonoproti entry ticket er dam koto taka?"
+
+- id: N153
+  format: multi
+  domain: jobs
+  answer_type: yesno
+  entity:
+    bn: "ঝিনুকমালা ট্রেডার্স"
+    rom: "jhinukmala traders"
+    en: "Jhinukmala Traders"
+  edit_type: deletion
+  passage: |
+    ঝিনুকমালা ট্রেডার্স
+    স্টোর কিপার নিয়োগ বিজ্ঞপ্তি
+
+    নির্মাণসামগ্রী ও হার্ডওয়্যার পণ্যের পাইকারি সরবরাহকারী প্রতিষ্ঠান ঝিনুকমালা ট্রেডার্স তাদের গুদামের জন্য একজন স্টোর কিপার নিয়োগ দেবে। নির্বাচিত প্রার্থীকে গুদামে পণ্য গ্রহণ ও সরবরাহের হিসাব রাখা, মজুদ পণ্যের নিয়মিত তালিকা তৈরি এবং মাস শেষে মজুদ প্রতিবেদন জমা দেওয়ার দায়িত্ব পালন করতে হবে।
+
+    শিক্ষাগত যোগ্যতা: ন্যূনতম স্নাতক পাস; বাণিজ্য বিভাগের প্রার্থীদের অগ্রাধিকার দেওয়া হবে। এই পদে আবেদনের জন্য সংশ্লিষ্ট কাজে কমপক্ষে দুই বছরের অভিজ্ঞতা আবশ্যক। কম্পিউটারে হিসাবের সফটওয়্যার ও স্প্রেডশিট ব্যবহারে দক্ষতা থাকতে হবে। প্রার্থীর বয়স ২৫ থেকে ৩৫ বছরের মধ্যে হতে হবে এবং গুদামের কাছাকাছি এলাকায় বসবাসকারীদের অগ্রাধিকার দেওয়া হবে।
+
+    মাসিক বেতন ১৫,০০০ থেকে ১৮,০০০ টাকা, যোগ্যতা অনুযায়ী নির্ধারণ করা হবে। এছাড়া দুপুরের খাবার, বছরে দুটি উৎসব ভাতা ও মোবাইল বিল দেওয়া হবে। কর্মঘণ্টা সকাল ৮টা থেকে সন্ধ্যা ৬টা, সপ্তাহে একদিন ছুটি। নিয়োগের প্রথম তিন মাস শিক্ষানবিশকাল হিসেবে গণ্য হবে।
+
+    আগ্রহী প্রার্থীদের জীবনবৃত্তান্ত, সদ্য তোলা ছবি ও সকল সনদের ফটোকপি প্রতিষ্ঠানের প্রধান কার্যালয়ে সরাসরি জমা দিতে হবে। আবেদন জমার শেষ তারিখ ৭ ফেব্রুয়ারি ২০২৭। বাছাইকৃত প্রার্থীদের লিখিত ও মৌখিক পরীক্ষার তারিখ পরে জানিয়ে দেওয়া হবে।
+
+    ব্যবস্থাপনা পরিচালক
+    ঝিনুকমালা ট্রেডার্স
+  answer_sentence: "এই পদে আবেদনের জন্য সংশ্লিষ্ট কাজে কমপক্ষে দুই বছরের অভিজ্ঞতা আবশ্যক।"
+  insuff_replacement: ""
+  gold: {value: false}
+  q:
+    en: "Can candidates with no work experience apply for the store keeper post at Jhinukmala Traders?"
+    bn: "ঝিনুকমালা ট্রেডার্সের স্টোর কিপার পদে কি কোনো অভিজ্ঞতা ছাড়া আবেদন করা যাবে?"
+    rbn: "jhinukmala traders er stor kipar pode ki kono obhiggota chara abedon kora jabe?"
+    cm: "ঝিনুকমালা ট্রেডার্সের store keeper পদে কি কোনো experience ছাড়া apply করা যাবে?"
+    cmr: "jhinukmala traders er store keeper pode ki kono experience chara apply kora jabe?"
+  sibling:
+    answer_type: date
+    gold: {day: 7, month: 2, year: 2027}
+    q:
+      en: "What is the last date to apply for the store keeper post at Jhinukmala Traders?"
+      bn: "ঝিনুকমালা ট্রেডার্সের স্টোর কিপার পদে আবেদনের শেষ তারিখ কবে?"
+      rbn: "jhinukmala traders er stor kipar pode abedoner shesh tarikh kobe?"
+      cm: "ঝিনুকমালা ট্রেডার্সের store keeper পদে apply করার last date কবে?"
+      cmr: "jhinukmala traders er store keeper pode apply korar last date kobe?"
+
+- id: N154
+  format: multi
+  domain: agriculture
+  answer_type: date
+  entity:
+    bn: "সরিষাফুল সেচ পাম্প ব্যবহারকারী সমিতি"
+    rom: "shorishaful sech pamp babohari shomiti"
+    en: "Shorishaful Irrigation Pump Users' Association"
+  edit_type: neutralisation
+  passage: |
+    সরিষাফুল সেচ পাম্প ব্যবহারকারী সমিতি
+    সৌরচালিত সেচ পাম্পে ভর্তুকির আবেদন আহ্বান
+
+    ডিজেল খরচ কমিয়ে বোরো মৌসুমে সাশ্রয়ী সেচ নিশ্চিত করতে সরিষাফুল সেচ পাম্প ব্যবহারকারী সমিতি তার সদস্যদের জন্য সৌরচালিত সেচ পাম্প স্থাপনে ভর্তুকি কর্মসূচি চালু করেছে। এ বছর সমিতি মোট ৩৬টি সৌরচালিত পাম্প স্থাপনে সহায়তা দেবে। প্রতিটি পাম্পের মোট খরচের ৬০ শতাংশ সমিতির উন্নয়ন তহবিল থেকে বহন করা হবে এবং বাকি অর্থ কৃষক বা কৃষক দলকে কিস্তিতে পরিশোধ করতে হবে।
+
+    আবেদনের যোগ্যতা: আবেদনকারীকে অন্তত দুই বছর ধরে সমিতির সদস্য হতে হবে এবং পাম্পের আওতায় কমপক্ষে পাঁচ একর আবাদি জমি থাকতে হবে। কয়েকজন কৃষক মিলে দলগতভাবেও আবেদন করা যাবে। যাঁদের জমিতে ইতিমধ্যে বিদ্যুৎচালিত পাম্প রয়েছে, তাঁরা এই কর্মসূচির জন্য বিবেচিত হবেন না।
+
+    আবেদন ফরম সমিতির কার্যালয় থেকে বিনামূল্যে সংগ্রহ করা যাবে। পূরণকৃত ফরমের সঙ্গে জমির দলিল বা খতিয়ানের ফটোকপি, জাতীয় পরিচয়পত্র এবং সমিতির সদস্য কার্ডের ফটোকপি জমা দিতে হবে। আবেদন জমা দেওয়ার শেষ তারিখ ২৬ জানুয়ারি ২০২৭। প্রাপ্ত আবেদন যাচাই-বাছাইয়ের পর একটি কমিটি সরেজমিনে জমি পরিদর্শন করবে। চূড়ান্ত তালিকা সমিতির নোটিশ বোর্ডে প্রকাশ করা হবে। নির্বাচিত কৃষকদের পাম্প পরিচালনা ও রক্ষণাবেক্ষণ বিষয়ে এক দিনের প্রশিক্ষণ দেওয়া হবে।
+
+    সাধারণ সম্পাদক
+    সরিষাফুল সেচ পাম্প ব্যবহারকারী সমিতি
+  answer_sentence: "আবেদন জমা দেওয়ার শেষ তারিখ ২৬ জানুয়ারি ২০২৭।"
+  insuff_replacement: "আবেদন জমা দেওয়ার শেষ তারিখ পরবর্তীতে জানানো হবে।"
+  gold: {day: 26, month: 1, year: 2027}
+  q:
+    en: "What is the last date to apply for the solar pump subsidy of the Shorishaful Irrigation Pump Users' Association?"
+    bn: "সরিষাফুল সেচ পাম্প ব্যবহারকারী সমিতির সৌর পাম্প ভর্তুকির জন্য আবেদনের শেষ তারিখ কবে?"
+    rbn: "shorishaful sech pamp babohari shomitir shour pamp vortukir jonno abedoner shesh tarikh kobe?"
+    cm: "সরিষাফুল সেচ পাম্প ব্যবহারকারী সমিতির solar pump subsidy এর last date কবে?"
+    cmr: "shorishaful sech pamp babohari shomitir solar pump subsidy er last date kobe?"
+  sibling:
+    answer_type: number
+    gold: {value: 36}
+    q:
+      en: "How many solar pumps will the Shorishaful Irrigation Pump Users' Association support this year?"
+      bn: "সরিষাফুল সেচ পাম্প ব্যবহারকারী সমিতি এ বছর কয়টি সৌরচালিত পাম্প স্থাপনে সহায়তা দেবে?"
+      rbn: "shorishaful sech pamp babohari shomiti e bochor koyti shourchalito pamp sthapone shohayota debe?"
+      cm: "সরিষাফুল সেচ পাম্প ব্যবহারকারী সমিতি এ বছর কয়টি solar pump বসাতে সহায়তা দেবে?"
+      cmr: "shorishaful sech pamp babohari shomiti e bochor koyti solar pump boshate shohayota debe?"
+
+- id: N155
+  format: multi
+  domain: environment
+  answer_type: name
+  entity:
+    bn: "বনটিয়া পরিবেশ ক্লাব"
+    rom: "bontiya poribesh club"
+    en: "Bontia Environment Club"
+  edit_type: deletion
+  passage: |
+    বনটিয়া পরিবেশ ক্লাব
+    বৃক্ষমেলা ও চারা বিনিময় উৎসব
+
+    পরিবেশ সচেতনতা বাড়াতে বনটিয়া পরিবেশ ক্লাব আগামী ২ জুলাই ২০২৭ তারিখে উপজেলা পরিষদ চত্বরে দিনব্যাপী বৃক্ষমেলা ও চারা বিনিময় উৎসবের আয়োজন করেছে। মেলায় স্থানীয় নার্সারি ও শৌখিন বাগানিদের স্টলে প্রায় ১২০ প্রজাতির ফলদ, বনজ, ঔষধি ও ফুলের গাছের চারা প্রদর্শন ও বিক্রি করা হবে।
+
+    মেলার বিশেষ আকর্ষণ চারা বিনিময় কর্নার, যেখানে দর্শনার্থীরা নিজের বাড়ির টবের একটি চারা এনে অন্য একটি চারার সঙ্গে বিনিময় করতে পারবেন। এছাড়া ছাদবাগান, কম্পোস্ট সার তৈরি ও বীজ সংরক্ষণ বিষয়ে বিশেষজ্ঞদের সংক্ষিপ্ত আলোচনা থাকবে। শিক্ষার্থীদের জন্য পরিবেশ বিষয়ক কুইজ প্রতিযোগিতা অনুষ্ঠিত হবে এবং বিজয়ীদের পুরস্কার হিসেবে চারা দেওয়া হবে।
+
+    মেলায় স্টল দিতে আগ্রহী নার্সারি মালিকদের ২০ জুন ২০২৭ তারিখের মধ্যে নিবন্ধন করতে হবে। নিবন্ধনের জন্য যোগাযোগ করতে হবে ক্লাবের সাধারণ সম্পাদক রুমানা পারভীনের সঙ্গে। স্টল বরাদ্দ আগে নিবন্ধনকারীদের অগ্রাধিকার ভিত্তিতে করা হবে। প্রতিটি স্টলে একটি টেবিল ও দুটি চেয়ার ক্লাবের পক্ষ থেকে দেওয়া হবে।
+
+    মেলা প্রাঙ্গণে প্লাস্টিকের ব্যাগ ও একবার ব্যবহারযোগ্য প্লাস্টিক পণ্য সম্পূর্ণ নিষিদ্ধ থাকবে। দর্শনার্থীদের কাপড় বা পাটের ব্যাগ সঙ্গে আনার অনুরোধ করা হলো। মেলা সকাল ৯টা থেকে সন্ধ্যা ৬টা পর্যন্ত সবার জন্য উন্মুক্ত থাকবে।
+
+    সভাপতি
+    বনটিয়া পরিবেশ ক্লাব
+  answer_sentence: "নিবন্ধনের জন্য যোগাযোগ করতে হবে ক্লাবের সাধারণ সম্পাদক রুমানা পারভীনের সঙ্গে।"
+  insuff_replacement: ""
+  gold: {aliases: ["রুমানা পারভীন", "Rumana Parvin", "Rumana Parveen", "Rumana Pervin"]}
+  q:
+    en: "Whom should nursery owners contact to register for a stall at the Bontia Environment Club's tree fair?"
+    bn: "বনটিয়া পরিবেশ ক্লাবের বৃক্ষমেলায় স্টলের নিবন্ধনের জন্য কার সঙ্গে যোগাযোগ করতে হবে?"
+    rbn: "bontiya poribesh cluber brikkhomelay stoler nibondhoner jonno kar shathe jogajog korte hobe?"
+    cm: "বনটিয়া পরিবেশ ক্লাবের বৃক্ষমেলায় stall registration এর জন্য কার সঙ্গে contact করতে হবে?"
+    cmr: "bontiya poribesh cluber brikkhomelay stall registration er jonno kar shathe contact korte hobe?"
+  sibling:
+    answer_type: date
+    gold: {day: 2, month: 7, year: 2027}
+    q:
+      en: "On what date will the Bontia Environment Club hold its tree fair?"
+      bn: "বনটিয়া পরিবেশ ক্লাবের বৃক্ষমেলা কোন তারিখে অনুষ্ঠিত হবে?"
+      rbn: "bontiya poribesh cluber brikkhomela kon tarikhe onushthito hobe?"
+      cm: "বনটিয়া পরিবেশ ক্লাবের tree fair কোন date এ হবে?"
+      cmr: "bontiya poribesh cluber tree fair kon date e hobe?"
+
+- id: N156
+  format: multi
+  domain: community
+  answer_type: amount
+  entity:
+    bn: "গাংচিল পাঠাগার ও সমাজকল্যাণ সংঘ"
+    rom: "gangchil pathagar o shomajkollan shongho"
+    en: "Gangchil Library and Social Welfare Association"
+  edit_type: deletion
+  passage: |
+    গাংচিল পাঠাগার ও সমাজকল্যাণ সংঘ
+    নতুন সদস্য সংগ্রহ অভিযান
+
+    পাঠাভ্যাস গড়ে তোলা ও সামাজিক কাজে তরুণদের যুক্ত করার লক্ষ্যে গাংচিল পাঠাগার ও সমাজকল্যাণ সংঘ নতুন সদস্য সংগ্রহ অভিযান শুরু করেছে। পাঠাগারে বর্তমানে মোট বইয়ের সংখ্যা ৪,২০০, যার মধ্যে গল্প-উপন্যাস, কবিতা, ইতিহাস, বিজ্ঞান, শিশুসাহিত্য ও বিভিন্ন প্রতিযোগিতামূলক পরীক্ষার প্রস্তুতির বই উল্লেখযোগ্য। এছাড়া প্রতিদিন তিনটি জাতীয় ও একটি স্থানীয় দৈনিক পত্রিকা রাখা হয়।
+
+    সদস্যপদের জন্য নির্ধারিত ফরম পূরণ করে দুই কপি ছবি ও জাতীয় পরিচয়পত্র বা জন্মনিবন্ধনের ফটোকপি জমা দিতে হবে। প্রাপ্তবয়স্ক সদস্যদের বার্ষিক সদস্য ফি ৩৬০ টাকা। স্কুল ও কলেজের শিক্ষার্থীদের জন্য বার্ষিক ফি ১২০ টাকা। সদস্যরা একসঙ্গে সর্বোচ্চ দুটি বই চৌদ্দ দিনের জন্য বাড়িতে নিতে পারবেন। নির্ধারিত সময়ের মধ্যে বই ফেরত না দিলে প্রতিদিনের জন্য সামান্য জরিমানা দিতে হবে।
+
+    পাঠাগার শনিবার থেকে বৃহস্পতিবার বিকেল ৩টা থেকে রাত ৮টা পর্যন্ত খোলা থাকে। সংঘের উদ্যোগে প্রতি মাসে একটি পাঠচক্র, বছরে একবার বইমেলা এবং শীতকালে দরিদ্রদের মধ্যে শীতবস্ত্র বিতরণ কর্মসূচি পরিচালিত হয়। আগ্রহী সদস্যরা স্বেচ্ছাসেবক হিসেবে এসব কর্মসূচিতে অংশ নিতে পারবেন। পাঠাগারের ভেতরে উচ্চস্বরে কথা বলা ও মোবাইল ফোনে কথা বলা নিষেধ। বই দান করতে আগ্রহী শুভানুধ্যায়ীদের পাঠাগারের দায়িত্বপ্রাপ্ত গ্রন্থাগারিকের সঙ্গে যোগাযোগ করার অনুরোধ করা হলো।
+
+    সাধারণ সম্পাদক
+    গাংচিল পাঠাগার ও সমাজকল্যাণ সংঘ
+  answer_sentence: "প্রাপ্তবয়স্ক সদস্যদের বার্ষিক সদস্য ফি ৩৬০ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 360}
+  q:
+    en: "What is the annual membership fee for adult members of the Gangchil Library and Social Welfare Association?"
+    bn: "গাংচিল পাঠাগার ও সমাজকল্যাণ সংঘে প্রাপ্তবয়স্ক সদস্যদের বার্ষিক সদস্য ফি কত টাকা?"
+    rbn: "gangchil pathagar o shomajkollan shongho te praptoboyosko shodossoder barshik shodosso fee koto taka?"
+    cm: "গাংচিল পাঠাগার ও সমাজকল্যাণ সংঘে adult member দের annual fee কত টাকা?"
+    cmr: "gangchil pathagar o shomajkollan shongho te adult member der annual fee koto taka?"
+  sibling:
+    answer_type: number
+    gold: {value: 4200}
+    q:
+      en: "How many books does the library of the Gangchil Library and Social Welfare Association currently have?"
+      bn: "গাংচিল পাঠাগার ও সমাজকল্যাণ সংঘের পাঠাগারে বর্তমানে কয়টি বই আছে?"
+      rbn: "gangchil pathagar o shomajkollan shongho er pathagare bortomane koyti boi ache?"
+      cm: "গাংচিল পাঠাগার ও সমাজকল্যাণ সংঘের library তে বর্তমানে কয়টি book আছে?"
+      cmr: "gangchil pathagar o shomajkollan shongho er library te bortomane koyti book ache?"
+
+
+- id: N157
+  format: multi
+  domain: jobs
+  answer_type: number
+  entity:
+    bn: "শিমুলতুলা দক্ষতা উন্নয়ন কেন্দ্র"
+    rom: "shimultula dokkhota unnoyon kendro"
+    en: "Shimultula Skills Development Centre"
+  edit_type: deletion
+  passage: |
+    শিমুলতুলা দক্ষতা উন্নয়ন কেন্দ্র
+    কম্পিউটার অফিস অ্যাপ্লিকেশন কোর্সে ভর্তি চলছে
+
+    বেকার তরুণ-তরুণীদের কর্মসংস্থানের উপযোগী করে গড়ে তুলতে শিমুলতুলা দক্ষতা উন্নয়ন কেন্দ্র তিন মাস মেয়াদি কম্পিউটার অফিস অ্যাপ্লিকেশন কোর্সের নতুন ব্যাচে ভর্তির আবেদন আহ্বান করছে। ক্লাস শুরু হবে ২ আগস্ট ২০২৭ তারিখে। সপ্তাহে পাঁচ দিন, প্রতিদিন দুই ঘণ্টা করে সকাল ও বিকেল দুই শিফটে ক্লাস নেওয়া হবে।
+
+    কোর্সে কম্পিউটারের মৌলিক ধারণা, বাংলা ও ইংরেজি টাইপিং, ওয়ার্ড প্রসেসিং, স্প্রেডশিট, প্রেজেন্টেশন তৈরি, ইন্টারনেট ব্যবহার, ই-মেইল এবং অনলাইনে সরকারি সেবার আবেদন করার পদ্ধতি শেখানো হবে। নতুন এই ব্যাচে মোট ৩৮টি আসন রয়েছে। প্রত্যেক প্রশিক্ষণার্থীর জন্য আলাদা কম্পিউটারের ব্যবস্থা থাকবে।
+
+    ভর্তির যোগ্যতা ন্যূনতম এসএসসি বা সমমান পাস এবং বয়স ১৬ থেকে ৩৫ বছর। কোর্স ফি ২,৪০০ টাকা, যা দুই কিস্তিতে পরিশোধ করা যাবে। দরিদ্র ও মেধাবী প্রার্থীদের জন্য সীমিত সংখ্যক বৃত্তির ব্যবস্থা রয়েছে; বৃত্তির জন্য আবেদনপত্রের সঙ্গে ইউনিয়ন পরিষদ চেয়ারম্যানের প্রত্যয়নপত্র জমা দিতে হবে। নিয়মিত উপস্থিতি ও চূড়ান্ত মূল্যায়নে উত্তীর্ণ প্রশিক্ষণার্থীদের সনদপত্র দেওয়া হবে।
+
+    কোর্স শেষে সেরা প্রশিক্ষণার্থীদের স্থানীয় প্রতিষ্ঠানে শিক্ষানবিশ হিসেবে কাজের সুযোগ করে দেওয়ার চেষ্টা করা হবে। ভর্তি ফরম কেন্দ্রের অফিস থেকে সংগ্রহ করে দুই কপি ছবি ও সনদের ফটোকপিসহ জমা দিতে হবে। আসন পূর্ণ হয়ে গেলে ভর্তি কার্যক্রম বন্ধ করে দেওয়া হবে।
+
+    পরিচালক
+    শিমুলতুলা দক্ষতা উন্নয়ন কেন্দ্র
+  answer_sentence: "নতুন এই ব্যাচে মোট ৩৮টি আসন রয়েছে।"
+  insuff_replacement: ""
+  gold: {value: 38}
+  q:
+    en: "How many seats are there in the new computer course batch at the Shimultula Skills Development Centre?"
+    bn: "শিমুলতুলা দক্ষতা উন্নয়ন কেন্দ্রের নতুন কম্পিউটার কোর্সের ব্যাচে কয়টি আসন আছে?"
+    rbn: "shimultula dokkhota unnoyon kendro er notun kompiutar korsher bache koyti ashon ache?"
+    cm: "শিমুলতুলা দক্ষতা উন্নয়ন কেন্দ্রের নতুন computer course batch এ কয়টি আসন আছে?"
+    cmr: "shimultula dokkhota unnoyon kendro er notun computer course batch e koyti ashon ache?"
+  sibling:
+    answer_type: date
+    gold: {day: 2, month: 8, year: 2027}
+    q:
+      en: "On what date will classes start for the new batch at the Shimultula Skills Development Centre?"
+      bn: "শিমুলতুলা দক্ষতা উন্নয়ন কেন্দ্রের নতুন ব্যাচের ক্লাস কোন তারিখে শুরু হবে?"
+      rbn: "shimultula dokkhota unnoyon kendro er notun bacher klash kon tarikhe shuru hobe?"
+      cm: "শিমুলতুলা দক্ষতা উন্নয়ন কেন্দ্রের new batch এর class কোন তারিখে শুরু হবে?"
+      cmr: "shimultula dokkhota unnoyon kendro er new batch er class kon tarikhe shuru hobe?"
+
+- id: N158
+  format: multi
+  domain: community
+  answer_type: yesno
+  entity:
+    bn: "কদমবেলা মন্দির পরিচালনা কমিটি"
+    rom: "kodombela mondir porichalona komiti"
+    en: "Kadambela Temple Management Committee"
+  edit_type: deletion
+  passage: |
+    কদমবেলা মন্দির পরিচালনা কমিটি
+    প্রতিষ্ঠাবার্ষিকী উৎসব ২০২৭
+
+    কদমবেলা মন্দিরের প্রতিষ্ঠার পঞ্চাশ বছর পূর্তি উপলক্ষে কদমবেলা মন্দির পরিচালনা কমিটি তিন দিনব্যাপী প্রতিষ্ঠাবার্ষিকী উৎসবের আয়োজন করেছে। উৎসব শুরু হবে ২৩ ফেব্রুয়ারি ২০২৭ তারিখে এবং চলবে টানা তিন দিন। উৎসবের প্রতিদিন সকালে পূজা-অর্চনা এবং সন্ধ্যায় কীর্তন ও ভক্তিমূলক গানের অনুষ্ঠান থাকবে।
+
+    উৎসব উপলক্ষে মন্দির প্রাঙ্গণ আলোকসজ্জায় সাজানো হবে। উৎসবের দ্বিতীয় দিন মন্দির প্রাঙ্গণে বিনামূল্যে স্বাস্থ্য পরীক্ষা ক্যাম্পের আয়োজন করা হবে। প্রতিদিন দুপুরে আগত ভক্ত ও দর্শনার্থীদের মধ্যে প্রসাদ বিতরণ করা হবে। প্রসাদ বিতরণের সময় শৃঙ্খলা রক্ষায় নারী ও পুরুষদের জন্য আলাদা সারি থাকবে।
+
+    দর্শনার্থীদের সুবিধার্থে মন্দিরের পশ্চিম পাশের খালি জায়গায় অস্থায়ী জুতা রাখার স্থান ও পানীয় জলের ব্যবস্থা থাকবে। উৎসব চলাকালীন মন্দিরের মূল কক্ষে ছবি তোলা নিরুৎসাহিত করা হচ্ছে। শিশুদের সঙ্গে আনলে অভিভাবকদের সতর্ক থাকার অনুরোধ করা হলো। শৃঙ্খলা রক্ষায় কমিটির স্বেচ্ছাসেবকরা কমলা রঙের ব্যাজ পরে দায়িত্ব পালন করবেন।
+
+    উৎসবের ব্যয় নির্বাহে ভক্তদের স্বেচ্ছায় দান গ্রহণ করা হচ্ছে; দান কমিটির কোষাধ্যক্ষের কাছে রসিদের মাধ্যমে জমা দেওয়া যাবে। এলাকার সকল ধর্মের মানুষকে উৎসবের সাংস্কৃতিক অনুষ্ঠানে আমন্ত্রণ জানানো হচ্ছে। উচ্চ শব্দের পটকা ও আতশবাজি ব্যবহার সম্পূর্ণ নিষিদ্ধ।
+
+    সাধারণ সম্পাদক
+    কদমবেলা মন্দির পরিচালনা কমিটি
+  answer_sentence: "উৎসবের দ্বিতীয় দিন মন্দির প্রাঙ্গণে বিনামূল্যে স্বাস্থ্য পরীক্ষা ক্যাম্পের আয়োজন করা হবে।"
+  insuff_replacement: ""
+  gold: {value: true}
+  q:
+    en: "Will the Kadambela Temple Management Committee organise a free health check-up camp during the festival?"
+    bn: "কদমবেলা মন্দির পরিচালনা কমিটি কি উৎসবে বিনামূল্যে স্বাস্থ্য পরীক্ষা ক্যাম্পের আয়োজন করবে?"
+    rbn: "kodombela mondir porichalona komiti ki utshobe binamulle shasthyo porikkha kyamper ayojon korbe?"
+    cm: "কদমবেলা মন্দির পরিচালনা কমিটি কি উৎসবে free health check-up camp করবে?"
+    cmr: "kodombela mondir porichalona komiti ki utshobe free health check-up camp korbe?"
+  sibling:
+    answer_type: date
+    gold: {day: 23, month: 2, year: 2027}
+    q:
+      en: "On what date will the Kadambela Temple Management Committee's founding anniversary festival begin?"
+      bn: "কদমবেলা মন্দির পরিচালনা কমিটির প্রতিষ্ঠাবার্ষিকী উৎসব কোন তারিখে শুরু হবে?"
+      rbn: "kodombela mondir porichalona komitir protishthabarshiki utshob kon tarikhe shuru hobe?"
+      cm: "কদমবেলা মন্দির পরিচালনা কমিটির anniversary festival কোন date এ শুরু হবে?"
+      cmr: "kodombela mondir porichalona komitir anniversary festival kon date e shuru hobe?"
+
+- id: N159
+  format: multi
+  domain: agriculture
+  answer_type: yesno
+  entity:
+    bn: "বোয়ালজুড়ি বিল মৎস্যজীবী সমিতি"
+    rom: "boyaljuri bil motshojibi shomiti"
+    en: "Boaljuri Beel Fishers' Association"
+  edit_type: neutralisation
+  passage: |
+    বোয়ালজুড়ি বিল মৎস্যজীবী সমিতি
+    মাছ আহরণ ও নিলাম সংক্রান্ত বিজ্ঞপ্তি
+
+    বোয়ালজুড়ি বিল মৎস্যজীবী সমিতির সদস্যদের অবগতির জন্য জানানো যাচ্ছে যে, চলতি মৌসুমে সমিতির ইজারাকৃত বিল থেকে সম্মিলিতভাবে মাছ আহরণ করা হবে। মাছ আহরণ শেষে আগামী ১৯ নভেম্বর ২০২৭ তারিখে সকাল ৭টা থেকে বিলের উত্তর ঘাটে মাছের প্রকাশ্য নিলাম অনুষ্ঠিত হবে।
+
+    নিলামে শোল, গজার, রুই, কাতলা, বোয়াল ও বিভিন্ন দেশি ছোট মাছ ওজন অনুযায়ী লট আকারে তোলা হবে। প্রতিটি লটের সর্বনিম্ন দর নিলামের আগে ঘাটে টাঙিয়ে দেওয়া হবে। নিলামে শুধুমাত্র সমিতির নিবন্ধিত সদস্যরাই অংশ নিতে পারবেন। সর্বোচ্চ দরদাতাকে সঙ্গে সঙ্গে নগদে মূল্য পরিশোধ করে লট বুঝে নিতে হবে।
+
+    নিলাম থেকে প্রাপ্ত অর্থের একটি অংশ বিলের ইজারার কিস্তি পরিশোধে, একটি অংশ পরবর্তী মৌসুমে পোনা মজুদে এবং বাকি অংশ সদস্যদের মধ্যে সমানভাবে বণ্টন করা হবে। বণ্টনের হিসাব সমিতির বার্ষিক সভায় উপস্থাপন করা হবে।
+
+    মাছ আহরণের কাজে অংশ নেওয়া সদস্যদের নিজ নিজ জাল ও নৌকা নিয়ে ভোর ৫টার মধ্যে ঘাটে উপস্থিত থাকতে হবে। নিষিদ্ধ কারেন্ট জাল ব্যবহার করলে সংশ্লিষ্ট সদস্যের সদস্যপদ স্থগিত করা হবে। ডিমওয়ালা মা মাছ ধরা পড়লে তা বিলে ছেড়ে দিতে হবে। নিলামস্থলে শৃঙ্খলা রক্ষায় সমিতির কার্যনির্বাহী সদস্যরা উপস্থিত থাকবেন।
+
+    সভাপতি
+    বোয়ালজুড়ি বিল মৎস্যজীবী সমিতি
+  answer_sentence: "নিলামে শুধুমাত্র সমিতির নিবন্ধিত সদস্যরাই অংশ নিতে পারবেন।"
+  insuff_replacement: "নিলামে অংশগ্রহণের নিয়মাবলি জানতে সমিতির কার্যালয়ে যোগাযোগ করুন।"
+  gold: {value: false}
+  q:
+    en: "Can people who are not members take part in the fish auction of the Boaljuri Beel Fishers' Association?"
+    bn: "বোয়ালজুড়ি বিল মৎস্যজীবী সমিতির মাছের নিলামে কি সদস্য নন এমন ব্যক্তিরা অংশ নিতে পারবেন?"
+    rbn: "boyaljuri bil motshojibi shomitir macher nilame ki shodosso non emon bektira ongsho nite parben?"
+    cm: "বোয়ালজুড়ি বিল মৎস্যজীবী সমিতির fish auction এ কি non-member রা অংশ নিতে পারবেন?"
+    cmr: "boyaljuri bil motshojibi shomitir fish auction e ki non-member ra ongsho nite parben?"
+  sibling:
+    answer_type: date
+    gold: {day: 19, month: 11, year: 2027}
+    q:
+      en: "On what date will the Boaljuri Beel Fishers' Association hold its fish auction?"
+      bn: "বোয়ালজুড়ি বিল মৎস্যজীবী সমিতির মাছের নিলাম কোন তারিখে অনুষ্ঠিত হবে?"
+      rbn: "boyaljuri bil motshojibi shomitir macher nilam kon tarikhe onushthito hobe?"
+      cm: "বোয়ালজুড়ি বিল মৎস্যজীবী সমিতির fish auction কোন date এ হবে?"
+      cmr: "boyaljuri bil motshojibi shomitir fish auction kon date e hobe?"
+
+- id: N160
+  format: multi
+  domain: jobs
+  answer_type: date
+  entity:
+    bn: "কেয়াপাতা হস্তশিল্প কারখানা"
+    rom: "keyapata hostoshilpo karkhana"
+    en: "Keyapata Handicraft Factory"
+  edit_type: deletion
+  passage: |
+    কেয়াপাতা হস্তশিল্প কারখানা
+    কারিগর নিয়োগ বিজ্ঞপ্তি
+
+    বাঁশ, বেত, হোগলা ও পাটজাত পণ্যের মাধ্যমে দেশীয় হস্তশিল্প তৈরিকারী প্রতিষ্ঠান কেয়াপাতা হস্তশিল্প কারখানা রপ্তানি আদেশ বৃদ্ধির কারণে দক্ষ কারিগর নিয়োগ দেবে। এ পর্যায়ে মোট ১৪ জন কারিগর নিয়োগ দেওয়া হবে। বাঁশ ও বেতের ঝুড়ি, পাটের ব্যাগ, পাপোশ এবং ঘর সাজানোর সামগ্রী তৈরিতে অভিজ্ঞ নারী ও পুরুষ উভয়েই আবেদন করতে পারবেন।
+
+    প্রার্থীদের প্রথমে কারখানায় একটি ব্যবহারিক দক্ষতা পরীক্ষায় অংশ নিতে হবে, যেখানে নির্ধারিত সময়ের মধ্যে একটি নমুনা পণ্য তৈরি করতে হবে। ব্যবহারিক পরীক্ষায় উত্তীর্ণ প্রার্থীদের মৌখিক সাক্ষাৎকার নেওয়া হবে ১৩ এপ্রিল ২০২৭ তারিখে। সাক্ষাৎকারের সময় প্রার্থীদের পূর্বে তৈরি করা নিজের কাজের নমুনা সঙ্গে আনতে উৎসাহিত করা হচ্ছে।
+
+    কারিগরদের কাজের মান ও পরিমাণ অনুযায়ী মাসিক মজুরি নির্ধারণ করা হবে, সঙ্গে উৎপাদন বোনাস দেওয়া হবে। কারখানায় নিরাপদ কর্মপরিবেশ, শিশু দিবাযত্ন কক্ষ এবং দুপুরে বিরতির ব্যবস্থা রয়েছে। নির্বাচিত কারিগরদের নতুন নকশা ও রপ্তানিমানের ফিনিশিং বিষয়ে প্রশিক্ষণ দেওয়া হবে।
+
+    আগ্রহী প্রার্থীদের ৩১ মার্চ ২০২৭ তারিখের মধ্যে কারখানার অফিসে নাম, ঠিকানা ও অভিজ্ঞতার বিবরণসহ আবেদন জমা দিতে হবে। লেখাপড়া কম জানা প্রার্থীরা অফিসে এসে মৌখিকভাবে তথ্য দিয়ে আবেদন করতে পারবেন। ব্যবহারিক পরীক্ষার সময়সূচি আবেদনকারীদের মোবাইলে জানিয়ে দেওয়া হবে।
+
+    ব্যবস্থাপক
+    কেয়াপাতা হস্তশিল্প কারখানা
+  answer_sentence: "ব্যবহারিক পরীক্ষায় উত্তীর্ণ প্রার্থীদের মৌখিক সাক্ষাৎকার নেওয়া হবে ১৩ এপ্রিল ২০২৭ তারিখে।"
+  insuff_replacement: ""
+  gold: {day: 13, month: 4, year: 2027}
+  q:
+    en: "On what date will the Keyapata Handicraft Factory hold interviews for candidates who pass the practical test?"
+    bn: "কেয়াপাতা হস্তশিল্প কারখানায় ব্যবহারিক পরীক্ষায় উত্তীর্ণ প্রার্থীদের সাক্ষাৎকার কোন তারিখে হবে?"
+    rbn: "keyapata hostoshilpo karkhanay byaboharik porikkhay uttirno prarthider shakkhatkar kon tarikhe hobe?"
+    cm: "কেয়াপাতা হস্তশিল্প কারখানায় practical test এ পাস করা প্রার্থীদের interview কোন তারিখে হবে?"
+    cmr: "keyapata hostoshilpo karkhanay practical test e pash kora prarthider interview kon tarikhe hobe?"
+  sibling:
+    answer_type: number
+    gold: {value: 14}
+    q:
+      en: "How many artisans will the Keyapata Handicraft Factory recruit at this stage?"
+      bn: "কেয়াপাতা হস্তশিল্প কারখানা এ পর্যায়ে কতজন কারিগর নিয়োগ দেবে?"
+      rbn: "keyapata hostoshilpo karkhana e porjaye kotojon karigor niyog debe?"
+      cm: "কেয়াপাতা হস্তশিল্প কারখানা এ পর্যায়ে কতজন কারিগর recruit করবে?"
+      cmr: "keyapata hostoshilpo karkhana e porjaye kotojon karigor recruit korbe?"
+
+- id: N161
+  format: multi
+  domain: community
+  answer_type: name
+  entity:
+    bn: "জোনাকিপাড়া মহল্লা উন্নয়ন সমিতি"
+    rom: "jonakipara moholla unnoyon shomiti"
+    en: "Jonakipara Neighbourhood Development Association"
+  edit_type: neutralisation
+  passage: |
+    জোনাকিপাড়া মহল্লা উন্নয়ন সমিতি
+    নতুন কার্যনির্বাহী কমিটি গঠন সংক্রান্ত বিজ্ঞপ্তি
+
+    জোনাকিপাড়া মহল্লা উন্নয়ন সমিতির সকল সদস্য ও এলাকাবাসীকে জানানো যাচ্ছে যে, গত সাধারণ সভায় সদস্যদের সরাসরি ভোটে সমিতির নতুন কার্যনির্বাহী কমিটি গঠিত হয়েছে। নতুন কমিটি ১৫ সদস্যবিশিষ্ট এবং এর মেয়াদ দুই বছর।
+
+    নবগঠিত কমিটির সভাপতি নির্বাচিত হয়েছেন ফারহানা ইয়াসমিন চৌধুরী। সাধারণ সম্পাদক নির্বাচিত হয়েছেন আতিকুল ইসলাম রনি এবং কোষাধ্যক্ষের দায়িত্ব পেয়েছেন মোস্তফা জামান। কমিটিতে নারী সদস্যদের অংশগ্রহণ এবার আগের তুলনায় বেড়েছে, যা এলাকাবাসীর কাছে প্রশংসিত হয়েছে।
+
+    নতুন কমিটি দায়িত্ব গ্রহণের পর প্রথম সভায় কয়েকটি অগ্রাধিকারমূলক কাজের সিদ্ধান্ত নিয়েছে: মহল্লার ভেতরের সরু রাস্তাগুলোতে সড়কবাতি স্থাপন, নালা পরিষ্কার ও মশক নিধন অভিযান, রাতে পাহারার জন্য পালাক্রমে স্বেচ্ছাসেবক দল গঠন এবং শিশুদের জন্য একটি ছোট খেলার মাঠ সংস্কার। এসব কাজের জন্য এলাকাবাসীর কাছ থেকে স্বেচ্ছায় অনুদান গ্রহণ করা হবে, এবং প্রতিটি অনুদানের রসিদ দেওয়া হবে।
+
+    সমিতির মাসিক সভা প্রতি মাসের শেষ শুক্রবার বাদ আসর সমিতির কার্যালয়ে অনুষ্ঠিত হবে। মহল্লার যেকোনো সমস্যা বা পরামর্শ লিখিতভাবে কার্যালয়ের অভিযোগ বাক্সে জমা দেওয়া যাবে। মহল্লাকে পরিচ্ছন্ন, নিরাপদ ও বাসযোগ্য রাখতে সকলের সহযোগিতা কামনা করা হচ্ছে।
+
+    দপ্তর সম্পাদক
+    জোনাকিপাড়া মহল্লা উন্নয়ন সমিতি
+  answer_sentence: "নবগঠিত কমিটির সভাপতি নির্বাচিত হয়েছেন ফারহানা ইয়াসমিন চৌধুরী।"
+  insuff_replacement: "নবগঠিত কমিটির সভাপতির নাম আনুষ্ঠানিক অনুমোদনের পর জানানো হবে।"
+  gold: {aliases: ["ফারহানা ইয়াসমিন চৌধুরী", "ফারহানা ইয়াসমিন", "Farhana Yasmin Chowdhury", "Farhana Yasmin", "Farhana Yeasmin Chowdhury"]}
+  q:
+    en: "Who has been elected president of the new committee of the Jonakipara Neighbourhood Development Association?"
+    bn: "জোনাকিপাড়া মহল্লা উন্নয়ন সমিতির নতুন কমিটির সভাপতি কে নির্বাচিত হয়েছেন?"
+    rbn: "jonakipara moholla unnoyon shomitir notun komitir shovapoti ke nirbachito hoyechen?"
+    cm: "জোনাকিপাড়া মহল্লা উন্নয়ন সমিতির new committee র president কে হয়েছেন?"
+    cmr: "jonakipara moholla unnoyon shomitir new committee r president ke hoyechen?"
+  sibling:
+    answer_type: number
+    gold: {value: 15}
+    q:
+      en: "How many members are on the new executive committee of the Jonakipara Neighbourhood Development Association?"
+      bn: "জোনাকিপাড়া মহল্লা উন্নয়ন সমিতির নতুন কার্যনির্বাহী কমিটি কত সদস্যবিশিষ্ট?"
+      rbn: "jonakipara moholla unnoyon shomitir notun karjonirbahi komiti koto shodossobishishto?"
+      cm: "জোনাকিপাড়া মহল্লা উন্নয়ন সমিতির new committee তে কতজন member আছেন?"
+      cmr: "jonakipara moholla unnoyon shomitir new committee te kotojon member achen?"
+
+- id: N162
+  format: multi
+  domain: environment
+  answer_type: amount
+  entity:
+    bn: "লতাকস্তুরী ছাদবাগান প্রতিযোগিতা"
+    rom: "latakosturi chadbagan protijogita"
+    en: "Latakasturi Rooftop Garden Competition"
+  edit_type: neutralisation
+  passage: |
+    লতাকস্তুরী ছাদবাগান প্রতিযোগিতা ২০২৭
+    নিবন্ধন চলছে
+
+    শহরে সবুজের পরিমাণ বাড়াতে এবং নিরাপদ সবজি উৎপাদনে নাগরিকদের উৎসাহিত করতে লতাকস্তুরী নাগরিক পরিবেশ ফোরাম এ বছর দ্বিতীয়বারের মতো লতাকস্তুরী ছাদবাগান প্রতিযোগিতার আয়োজন করেছে। পৌর এলাকার যেকোনো বাসাবাড়ি, অফিস বা শিক্ষাপ্রতিষ্ঠানের ছাদবাগান এই প্রতিযোগিতায় অংশ নিতে পারবে।
+
+    প্রতিযোগিতায় নিবন্ধনের শেষ তারিখ ৩০ এপ্রিল ২০২৭। নিবন্ধনের সময় বাগানের কয়েকটি ছবি, ঠিকানা ও বাগানের আনুমানিক আয়তন জমা দিতে হবে। নিবন্ধন সম্পূর্ণ বিনামূল্যে। মে ও জুন মাসে বিচারকমণ্ডলী সরেজমিনে বাগানগুলো পরিদর্শন করবেন।
+
+    গাছের বৈচিত্র্য, জৈব পদ্ধতির ব্যবহার, পানি সাশ্রয়, বর্জ্য থেকে কম্পোস্ট তৈরি এবং বাগানের সামগ্রিক পরিচর্যা বিবেচনা করে নম্বর দেওয়া হবে। রাসায়নিক কীটনাশক ব্যবহারের প্রমাণ পাওয়া গেলে সংশ্লিষ্ট বাগান প্রতিযোগিতা থেকে বাদ পড়বে।
+
+    পুরস্কার: প্রথম পুরস্কার নগদ ১২,০০০ টাকা ও সম্মাননা ক্রেস্ট। দ্বিতীয় পুরস্কার নগদ ৮,০০০ টাকা এবং তৃতীয় পুরস্কার নগদ ৫,০০০ টাকা। এছাড়া শিক্ষাপ্রতিষ্ঠানের সেরা ছাদবাগানের জন্য একটি বিশেষ পুরস্কার এবং অংশগ্রহণকারী সবাইকে সনদপত্র ও একটি করে ফলের চারা দেওয়া হবে। পুরস্কার বিতরণী অনুষ্ঠানের তারিখ পরে জানানো হবে। ফোরামের স্বেচ্ছাসেবকরা নতুন ছাদবাগানিদের জন্য বিনামূল্যে পরামর্শ দেবেন।
+
+    সদস্য সচিব
+    লতাকস্তুরী নাগরিক পরিবেশ ফোরাম
+  answer_sentence: "পুরস্কার: প্রথম পুরস্কার নগদ ১২,০০০ টাকা ও সম্মাননা ক্রেস্ট।"
+  insuff_replacement: "পুরস্কার: প্রথম স্থান অধিকারী পাবেন আকর্ষণীয় নগদ পুরস্কার ও সম্মাননা ক্রেস্ট।"
+  gold: {value: 12000}
+  q:
+    en: "How much cash is the first prize in the Latakasturi Rooftop Garden Competition?"
+    bn: "লতাকস্তুরী ছাদবাগান প্রতিযোগিতায় প্রথম পুরস্কার কত টাকা?"
+    rbn: "latakosturi chadbagan protijogitay prothom puroskar koto taka?"
+    cm: "লতাকস্তুরী ছাদবাগান প্রতিযোগিতায় first prize কত টাকা?"
+    cmr: "latakosturi chadbagan protijogitay first prize koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 30, month: 4, year: 2027}
+    q:
+      en: "What is the last date to register for the Latakasturi Rooftop Garden Competition?"
+      bn: "লতাকস্তুরী ছাদবাগান প্রতিযোগিতায় নিবন্ধনের শেষ তারিখ কবে?"
+      rbn: "latakosturi chadbagan protijogitay nibondhoner shesh tarikh kobe?"
+      cm: "লতাকস্তুরী ছাদবাগান প্রতিযোগিতায় registration এর last date কবে?"
+      cmr: "latakosturi chadbagan protijogitay registration er last date kobe?"
+
+- id: N163
+  format: multi
+  domain: community
+  answer_type: number
+  entity:
+    bn: "চরকাঁকড়া হাডুডু প্রতিযোগিতা"
+    rom: "chorkakra hadudu protijogita"
+    en: "Chorkakra Hadudu Competition"
+  edit_type: neutralisation
+  passage: |
+    চরকাঁকড়া হাডুডু প্রতিযোগিতা ২০২৭
+    গ্রামীণ খেলাকে বাঁচিয়ে রাখার আহ্বান
+
+    হারিয়ে যেতে বসা গ্রামীণ খেলা হাডুডুকে নতুন প্রজন্মের কাছে জনপ্রিয় করতে চরকাঁকড়া যুব উন্নয়ন ক্লাবের উদ্যোগে চরকাঁকড়া হাডুডু প্রতিযোগিতার আয়োজন করা হয়েছে। প্রতিযোগিতা অনুষ্ঠিত হবে চরকাঁকড়া সরকারি প্রাথমিক বিদ্যালয় মাঠে।
+
+    এবারের প্রতিযোগিতায় মোট ১৬টি দল অংশ নেবে। দলগুলোকে চারটি গ্রুপে ভাগ করে লিগ পদ্ধতিতে প্রাথমিক পর্বের খেলা হবে এবং প্রতি গ্রুপের শীর্ষ দুই দল কোয়ার্টার ফাইনালে উঠবে। ফাইনাল খেলা অনুষ্ঠিত হবে ২১ মার্চ ২০২৭ তারিখ বিকেলে। প্রতিটি দলে সাতজন খেলোয়াড় মাঠে খেলবেন এবং পাঁচজন অতিরিক্ত খেলোয়াড় রাখা যাবে।
+
+    খেলোয়াড়দের অবশ্যই চরকাঁকড়া ইউনিয়নের স্থায়ী বাসিন্দা হতে হবে এবং বয়স ১৮ বছরের বেশি হতে হবে। চ্যাম্পিয়ন দল পাবে একটি ষাঁড় ও ট্রফি, রানার্সআপ দল পাবে একটি খাসি ও ট্রফি। প্রতিযোগিতার সেরা খেলোয়াড়কে একটি বাইসাইকেল উপহার দেওয়া হবে।
+
+    খেলার দিন দর্শকদের মাঠের চারপাশে বাঁশ দিয়ে ঘেরা সীমানার বাইরে থাকতে হবে। মাঠে কোনো ধরনের বিশৃঙ্খলা সৃষ্টি করলে সংশ্লিষ্ট দলকে প্রতিযোগিতা থেকে বাদ দেওয়া হবে। খেলাগুলো পরিচালনা করবেন অভিজ্ঞ বিচারকমণ্ডলী এবং তাঁদের সিদ্ধান্তই চূড়ান্ত। প্রতিদিনের খেলার সূচি ক্লাবের নোটিশ বোর্ডে ও বাজারের মোড়ে মাইকিং করে জানানো হবে।
+
+    সভাপতি
+    চরকাঁকড়া যুব উন্নয়ন ক্লাব
+  answer_sentence: "এবারের প্রতিযোগিতায় মোট ১৬টি দল অংশ নেবে।"
+  insuff_replacement: "এবারের প্রতিযোগিতায় অংশগ্রহণকারী দলের সংখ্যা নিবন্ধন শেষে চূড়ান্ত করা হবে।"
+  gold: {value: 16}
+  q:
+    en: "How many teams will take part in the Chorkakra Hadudu Competition this year?"
+    bn: "এবারের চরকাঁকড়া হাডুডু প্রতিযোগিতায় মোট কয়টি দল অংশ নেবে?"
+    rbn: "ebarer chorkakra hadudu protijogitay mot koyti dol ongsho nebe?"
+    cm: "এবারের চরকাঁকড়া হাডুডু প্রতিযোগিতায় মোট কয়টি team খেলবে?"
+    cmr: "ebarer chorkakra hadudu protijogitay mot koyti team khelbe?"
+  sibling:
+    answer_type: date
+    gold: {day: 21, month: 3, year: 2027}
+    q:
+      en: "On what date will the final of the Chorkakra Hadudu Competition be played?"
+      bn: "চরকাঁকড়া হাডুডু প্রতিযোগিতার ফাইনাল খেলা কোন তারিখে হবে?"
+      rbn: "chorkakra hadudu protijogitar fainal khela kon tarikhe hobe?"
+      cm: "চরকাঁকড়া হাডুডু প্রতিযোগিতার final match কোন date এ হবে?"
+      cmr: "chorkakra hadudu protijogitar final match kon date e hobe?"
+
+- id: N164
+  format: multi
+  domain: housing
+  answer_type: date
+  entity:
+    bn: "পারুলবীথি আবাসিক এলাকা বাসিন্দা সমিতি"
+    rom: "parulbithi abashik elaka bashinda shomiti"
+    en: "Parulbithi Residential Area Residents' Association"
+  edit_type: neutralisation
+  passage: |
+    পারুলবীথি আবাসিক এলাকা বাসিন্দা সমিতি
+    গ্যাস লাইন নিরাপত্তা পরিদর্শন সংক্রান্ত বিজ্ঞপ্তি
+
+    সম্প্রতি পার্শ্ববর্তী এলাকায় গ্যাস লিকেজ থেকে অগ্নিকাণ্ডের ঘটনার পরিপ্রেক্ষিতে পারুলবীথি আবাসিক এলাকা বাসিন্দা সমিতি এলাকার সকল বাড়ির গ্যাস লাইন ও চুলার নিরাপত্তা পরিদর্শনের উদ্যোগ নিয়েছে। পরিদর্শন করবে সমিতি নিয়োজিত একটি অভিজ্ঞ কারিগরি দল। পরিদর্শন অনুষ্ঠিত হবে ৯ অক্টোবর ২০২৭ তারিখে, সকাল ৯টা থেকে সন্ধ্যা পর্যন্ত।
+
+    পরিদর্শনের সময় কারিগরি দল প্রতিটি বাড়ির রাইজার, পাইপের সংযোগস্থল, রেগুলেটর ও চুলার অবস্থা পরীক্ষা করবে। কোনো লিকেজ বা ত্রুটি পাওয়া গেলে তাৎক্ষণিকভাবে বাড়ির মালিককে লিখিতভাবে জানানো হবে। ছোটখাটো ত্রুটিপূর্ণ চুলা মেরামতে প্রতি চুলা ৪৫০ টাকা খরচ পড়বে, যা বাড়ির মালিক বা ভাড়াটিয়াকে পরিশোধ করতে হবে। বড় ধরনের ত্রুটির ক্ষেত্রে গ্যাস বিতরণ কর্তৃপক্ষের অনুমোদিত ঠিকাদারের মাধ্যমে মেরামত করতে হবে।
+
+    পরিদর্শনের দিন প্রত্যেক বাড়িতে অন্তত একজন প্রাপ্তবয়স্ক সদস্যকে উপস্থিত থাকার অনুরোধ করা হলো। পরিদর্শন চলাকালীন কিছু সময়ের জন্য সংশ্লিষ্ট বাড়ির গ্যাস সরবরাহ বন্ধ রাখা হতে পারে। পরিদর্শন দলের সদস্যরা সমিতির পরিচয়পত্র বহন করবেন; পরিচয়পত্র ছাড়া কাউকে বাড়িতে প্রবেশ করতে দেবেন না। এছাড়া রান্নাঘরে বাতাস চলাচলের ব্যবস্থা রাখা ও চুলা জ্বালানো অবস্থায় রান্নাঘর ছেড়ে না যাওয়ার পরামর্শ দেওয়া হচ্ছে।
+
+    সাধারণ সম্পাদক
+    পারুলবীথি আবাসিক এলাকা বাসিন্দা সমিতি
+  answer_sentence: "পরিদর্শন অনুষ্ঠিত হবে ৯ অক্টোবর ২০২৭ তারিখে, সকাল ৯টা থেকে সন্ধ্যা পর্যন্ত।"
+  insuff_replacement: "পরিদর্শনের তারিখ ও সময় কারিগরি দলের সঙ্গে আলোচনা করে পরে জানানো হবে।"
+  gold: {day: 9, month: 10, year: 2027}
+  q:
+    en: "On what date will the Parulbithi Residential Area Residents' Association carry out the gas line inspection?"
+    bn: "পারুলবীথি আবাসিক এলাকা বাসিন্দা সমিতির গ্যাস লাইন পরিদর্শন কোন তারিখে হবে?"
+    rbn: "parulbithi abashik elaka bashinda shomitir gash lain poridorshon kon tarikhe hobe?"
+    cm: "পারুলবীথি আবাসিক এলাকা বাসিন্দা সমিতির gas line inspection কোন date এ হবে?"
+    cmr: "parulbithi abashik elaka bashinda shomitir gas line inspection kon date e hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 450}
+    q:
+      en: "How much does it cost to repair a faulty stove under the Parulbithi Residential Area Residents' Association's inspection?"
+      bn: "পারুলবীথি আবাসিক এলাকা বাসিন্দা সমিতির পরিদর্শনে ত্রুটিপূর্ণ চুলা মেরামতে প্রতি চুলায় কত টাকা খরচ পড়বে?"
+      rbn: "parulbithi abashik elaka bashinda shomitir poridorshone trutipurno chula meramote proti chulay koto taka khoroch porbe?"
+      cm: "পারুলবীথি আবাসিক এলাকা বাসিন্দা সমিতির inspection এ faulty চুলা repair করতে কত টাকা লাগবে?"
+      cmr: "parulbithi abashik elaka bashinda shomitir inspection e faulty chula repair korte koto taka lagbe?"
+
+- id: N165
+  format: multi
+  domain: agriculture
+  answer_type: number
+  entity:
+    bn: "গোধূলিহাট গবাদিপশু পালনকারী সমিতি"
+    rom: "godhulihat gobadiposhu palonkari shomiti"
+    en: "Godhulihat Livestock Farmers' Association"
+  edit_type: deletion
+  passage: |
+    গোধূলিহাট গবাদিপশু পালনকারী সমিতি
+    গবাদিপশুর টিকাদান ক্যাম্প
+
+    বর্ষা মৌসুমে গবাদিপশুর তড়কা ও বাদলা রোগের প্রাদুর্ভাব রোধে গোধূলিহাট গবাদিপশু পালনকারী সমিতি উপজেলা প্রাণিসম্পদ দপ্তরের সহযোগিতায় একটি বিশেষ টিকাদান ক্যাম্পের আয়োজন করেছে। ক্যাম্প অনুষ্ঠিত হবে ২৭ সেপ্টেম্বর ২০২৭ তারিখে, গোধূলিহাট পশুর হাটের খোলা চত্বরে, সকাল ৮টা থেকে দুপুর ২টা পর্যন্ত।
+
+    ক্যাম্পে গরু, মহিষ, ছাগল ও ভেড়াকে টিকা দেওয়া হবে। প্রত্যেক খামারি সর্বোচ্চ ১৪টি গবাদিপশুকে এই ক্যাম্পে টিকা দেওয়াতে পারবেন। সমিতির সদস্যদের জন্য টিকা সম্পূর্ণ বিনামূল্যে; অ-সদস্য খামারিদের প্রতি পশুর জন্য নামমাত্র মূল্য দিতে হবে। টিকা দেওয়ার পাশাপাশি অভিজ্ঞ প্রাণিচিকিৎসকেরা পশুর কৃমিনাশক ওষুধ সম্পর্কে পরামর্শ দেবেন।
+
+    খামারিদের অনুরোধ করা হচ্ছে, অসুস্থ, গর্ভাবস্থার শেষ পর্যায়ে থাকা এবং তিন মাসের কম বয়সী বাছুরকে ক্যাম্পে না আনতে। পশু আনার সময় দড়ি দিয়ে শক্ত করে বেঁধে আনতে হবে এবং ভিড় এড়াতে নির্ধারিত সারিতে অপেক্ষা করতে হবে। প্রতিটি টিকাপ্রাপ্ত পশুর কানে চিহ্ন দেওয়া হবে এবং খামারিকে একটি টিকা কার্ড দেওয়া হবে, যা পরবর্তী টিকার সময় সঙ্গে আনতে হবে।
+
+    টিকাদানের পর দুই-তিন দিন পশুকে ভারী কাজে না লাগানো এবং পর্যাপ্ত পানি ও খাবার দেওয়ার পরামর্শ দেওয়া হচ্ছে। বিস্তারিত জানতে সমিতির কার্যালয়ে যোগাযোগ করুন।
+
+    সম্পাদক
+    গোধূলিহাট গবাদিপশু পালনকারী সমিতি
+  answer_sentence: "প্রত্যেক খামারি সর্বোচ্চ ১৪টি গবাদিপশুকে এই ক্যাম্পে টিকা দেওয়াতে পারবেন।"
+  insuff_replacement: ""
+  gold: {value: 14}
+  q:
+    en: "What is the maximum number of animals each farmer can get vaccinated at the Godhulihat Livestock Farmers' Association's camp?"
+    bn: "গোধূলিহাট গবাদিপশু পালনকারী সমিতির ক্যাম্পে প্রত্যেক খামারি সর্বোচ্চ কয়টি পশুকে টিকা দেওয়াতে পারবেন?"
+    rbn: "godhulihat gobadiposhu palonkari shomitir kyampe prottek khamari shorbochcho koyti poshuke tika dewate parben?"
+    cm: "গোধূলিহাট গবাদিপশু পালনকারী সমিতির camp এ প্রত্যেক খামারি maximum কয়টি পশুকে vaccine দেওয়াতে পারবেন?"
+    cmr: "godhulihat gobadiposhu palonkari shomitir camp e prottek khamari maximum koyti poshuke vaccine dewate parben?"
+  sibling:
+    answer_type: date
+    gold: {day: 27, month: 9, year: 2027}
+    q:
+      en: "On what date will the Godhulihat Livestock Farmers' Association hold its vaccination camp?"
+      bn: "গোধূলিহাট গবাদিপশু পালনকারী সমিতির টিকাদান ক্যাম্প কোন তারিখে অনুষ্ঠিত হবে?"
+      rbn: "godhulihat gobadiposhu palonkari shomitir tikadan kyamp kon tarikhe onushthito hobe?"
+      cm: "গোধূলিহাট গবাদিপশু পালনকারী সমিতির vaccination camp কোন date এ হবে?"
+      cmr: "godhulihat gobadiposhu palonkari shomitir vaccination camp kon date e hobe?"
+
+- id: N166
+  format: multi
+  domain: culture
+  answer_type: date
+  entity:
+    bn: "আকাশমণি ঘুড়ি উৎসব"
+    rom: "akashmoni ghuri utshob"
+    en: "Akashmoni Kite Festival"
+  edit_type: neutralisation
+  passage: |
+    আকাশমণি ঘুড়ি উৎসব ২০২৭
+    অংশগ্রহণের আমন্ত্রণ
+
+    পুরান শহরের ঐতিহ্যবাহী ঘুড়ি ওড়ানোর সংস্কৃতিকে ধরে রাখতে আকাশমণি সাংস্কৃতিক জোটের আয়োজনে অনুষ্ঠিত হবে আকাশমণি ঘুড়ি উৎসব। উৎসব অনুষ্ঠিত হবে ১৬ জানুয়ারি ২০২৭ তারিখে, নদীতীরের বড় খেলার মাঠে, দুপুর ১২টা থেকে সূর্যাস্ত পর্যন্ত। সন্ধ্যায় মাঠে ফানুস ওড়ানোর পরিবর্তে পরিবেশবান্ধব আলোকসজ্জা ও লোকসংগীতের আয়োজন থাকবে।
+
+    উৎসবে তিনটি বিভাগে প্রতিযোগিতা হবে: সবচেয়ে বড় ঘুড়ি, সবচেয়ে সুন্দর নকশার ঘুড়ি এবং ঘুড়ির কাটাকাটি বা প্যাঁচ খেলা। প্রতিযোগিতায় অংশ নিতে প্রতিটি বিভাগে নিবন্ধন ফি ১০০ টাকা। নিবন্ধন করা যাবে জোটের কার্যালয়ে অথবা উৎসবের দিন সকাল ১০টা পর্যন্ত মাঠে স্থাপিত নিবন্ধন বুথে।
+
+    প্যাঁচ খেলায় কাচের গুঁড়া মেশানো মাঞ্জা সুতা ও নাইলনের সুতা ব্যবহার সম্পূর্ণ নিষিদ্ধ, কারণ এটি পাখি ও পথচারীদের জন্য বিপজ্জনক। শিশুদের ঘুড়ি ওড়ানোর জন্য মাঠের একটি অংশ আলাদা করে রাখা হবে এবং সেখানে অভিভাবকদের উপস্থিত থাকতে হবে। মাঠে বিভিন্ন স্টলে রঙিন ঘুড়ি, নাটাই ও সুতা কিনতে পাওয়া যাবে। এছাড়া ঐতিহ্যবাহী খাবারের স্টলও থাকবে।
+
+    প্রতিটি বিভাগের বিজয়ীদের ক্রেস্ট ও সনদপত্র দেওয়া হবে। বিদ্যুতের তারের কাছাকাছি ঘুড়ি না ওড়ানো এবং ছাদের কিনারায় না দাঁড়ানোর জন্য সবাইকে বিশেষভাবে সতর্ক করা হচ্ছে।
+
+    আহ্বায়ক
+    আকাশমণি সাংস্কৃতিক জোট
+  answer_sentence: "উৎসব অনুষ্ঠিত হবে ১৬ জানুয়ারি ২০২৭ তারিখে, নদীতীরের বড় খেলার মাঠে, দুপুর ১২টা থেকে সূর্যাস্ত পর্যন্ত।"
+  insuff_replacement: "উৎসব অনুষ্ঠিত হবে নদীতীরের বড় খেলার মাঠে; উৎসবের তারিখ ও সময় পরবর্তীতে জানানো হবে।"
+  gold: {day: 16, month: 1, year: 2027}
+  q:
+    en: "On what date will the Akashmoni Kite Festival be held?"
+    bn: "আকাশমণি ঘুড়ি উৎসব কোন তারিখে অনুষ্ঠিত হবে?"
+    rbn: "akashmoni ghuri utshob kon tarikhe onushthito hobe?"
+    cm: "আকাশমণি ঘুড়ি উৎসব কোন date এ হবে?"
+    cmr: "akashmoni ghuri utshob kon date e hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 100}
+    q:
+      en: "What is the registration fee per category for the competitions at the Akashmoni Kite Festival?"
+      bn: "আকাশমণি ঘুড়ি উৎসবের প্রতিযোগিতায় প্রতিটি বিভাগে নিবন্ধন ফি কত টাকা?"
+      rbn: "akashmoni ghuri utshob er protijogitay protiti bibhage nibondhon fee koto taka?"
+      cm: "আকাশমণি ঘুড়ি উৎসবের competition এ প্রতিটি category তে registration fee কত টাকা?"
+      cmr: "akashmoni ghuri utshob er competition e protiti category te registration fee koto taka?"
+
+- id: N167
+  format: multi
+  domain: jobs
+  answer_type: name
+  entity:
+    bn: "বাবুইবাসা কৃষি খামার"
+    rom: "babuibasha krishi khamar"
+    en: "Babuibasha Agro Farm"
+  edit_type: deletion
+  passage: |
+    বাবুইবাসা কৃষি খামার
+    খামার সুপারভাইজার নিয়োগ বিজ্ঞপ্তি
+
+    সমন্বিত সবজি, ফল ও দুগ্ধ উৎপাদনকারী প্রতিষ্ঠান বাবুইবাসা কৃষি খামার তাদের প্রায় ৩০ একরের খামার তদারকির জন্য একজন খামার সুপারভাইজার নিয়োগ দেবে। নির্বাচিত প্রার্থীকে দৈনিক শ্রমিক ব্যবস্থাপনা, সেচ ও সার প্রয়োগের সময়সূচি নির্ধারণ, দুগ্ধ খামারের দৈনিক উৎপাদনের হিসাব রাখা এবং উৎপাদিত পণ্য বাজারে পাঠানোর তদারকি করতে হবে।
+
+    প্রার্থীর কৃষি ডিপ্লোমা বা কৃষি বিষয়ে স্নাতক ডিগ্রি থাকতে হবে। মোটরসাইকেল চালাতে জানা আবশ্যক এবং খামারে অবস্থান করে কাজ করার মানসিকতা থাকতে হবে। খামারের ভেতরেই থাকার জন্য একটি আলাদা কক্ষ ও তিন বেলা খাবারের ব্যবস্থা থাকবে।
+
+    মাসিক বেতন ২২,০০০ টাকা, সঙ্গে উৎপাদন লক্ষ্য পূরণ হলে ত্রৈমাসিক প্রণোদনা দেওয়া হবে। প্রথম ছয় মাস সন্তোষজনক কাজের পর চাকরি স্থায়ী করা হবে এবং বছরে দুটি উৎসব ভাতা দেওয়া হবে। মাসে চার দিন ছুটি পাওয়া যাবে, যা খামারের কাজের চাপ বুঝে নির্ধারণ করা হবে।
+
+    আগ্রহী প্রার্থীদের জীবনবৃত্তান্ত, সনদের ফটোকপি ও দুই কপি ছবিসহ আবেদনপত্র পাঠাতে হবে। আবেদনপত্র পাঠাতে হবে খামারের ব্যবস্থাপক সাইফুল ইসলাম তালুকদারের কাছে। আবেদনপত্রের খামের ওপর পদের নাম স্পষ্ট করে লিখতে হবে। আবেদনের শেষ তারিখ ১৫ মে ২০২৭। শুধুমাত্র বাছাইকৃত প্রার্থীদের সাক্ষাৎকারের জন্য ডাকা হবে এবং সাক্ষাৎকারের দিন খামার ঘুরিয়ে দেখানো হবে।
+
+    বাবুইবাসা কৃষি খামার
+  answer_sentence: "আবেদনপত্র পাঠাতে হবে খামারের ব্যবস্থাপক সাইফুল ইসলাম তালুকদারের কাছে।"
+  insuff_replacement: ""
+  gold: {aliases: ["সাইফুল ইসলাম তালুকদার", "Saiful Islam Talukder", "Saiful Islam Talukdar", "Shaiful Islam Talukder"]}
+  q:
+    en: "To whom should applications for the farm supervisor post at Babuibasha Agro Farm be sent?"
+    bn: "বাবুইবাসা কৃষি খামারের খামার সুপারভাইজার পদের আবেদনপত্র কার কাছে পাঠাতে হবে?"
+    rbn: "babuibasha krishi khamarer khamar suparvaizar poder abedonpotro kar kache pathate hobe?"
+    cm: "বাবুইবাসা কৃষি খামারের farm supervisor পদের application কার কাছে পাঠাতে হবে?"
+    cmr: "babuibasha krishi khamarer farm supervisor poder application kar kache pathate hobe?"
+  sibling:
+    answer_type: amount
+    gold: {value: 22000}
+    q:
+      en: "What is the monthly salary for the farm supervisor post at Babuibasha Agro Farm?"
+      bn: "বাবুইবাসা কৃষি খামারে খামার সুপারভাইজার পদের মাসিক বেতন কত টাকা?"
+      rbn: "babuibasha krishi khamare khamar suparvaizar poder mashik beton koto taka?"
+      cm: "বাবুইবাসা কৃষি খামারে farm supervisor পদের monthly salary কত টাকা?"
+      cmr: "babuibasha krishi khamare farm supervisor poder monthly salary koto taka?"
+
+- id: N168
+  format: multi
+  domain: community
+  answer_type: amount
+  entity:
+    bn: "হরিণমারা প্রবীণ কল্যাণ সমিতি"
+    rom: "horinmara probin kollan shomiti"
+    en: "Harinmara Senior Citizens' Welfare Association"
+  edit_type: deletion
+  passage: |
+    হরিণমারা প্রবীণ কল্যাণ সমিতি
+    বার্ষিক বনভোজন ২০২৭
+
+    হরিণমারা প্রবীণ কল্যাণ সমিতির সম্মানিত সদস্যদের জানানো যাচ্ছে যে, প্রতি বছরের মতো এবারও সমিতির বার্ষিক বনভোজনের আয়োজন করা হয়েছে। বনভোজন অনুষ্ঠিত হবে ৫ ফেব্রুয়ারি ২০২৭ তারিখে, শহর থেকে প্রায় এক ঘণ্টার দূরত্বে অবস্থিত একটি বাগানবাড়িতে। সকাল ৮টায় সমিতির কার্যালয়ের সামনে থেকে বাস ছেড়ে যাবে এবং সন্ধ্যার আগে ফিরে আসবে।
+
+    বনভোজনে অংশ নিতে প্রত্যেক সদস্যের জন্য চাঁদা ৯৫০ টাকা। সদস্যদের সঙ্গে আসা অতিথিদের জন্য জনপ্রতি চাঁদা ১,১০০ টাকা। দশ বছরের কম বয়সী নাতি-নাতনিদের জন্য কোনো চাঁদা লাগবে না। চাঁদার মধ্যে যাতায়াত, সকালের নাশতা, দুপুরের খাবার ও বিকেলের চা অন্তর্ভুক্ত।
+
+    প্রবীণ সদস্যদের সুবিধার কথা বিবেচনা করে বাগানবাড়িতে ছায়াযুক্ত বসার জায়গা, হুইলচেয়ার চলাচলের উপযোগী পথ এবং প্রাথমিক চিকিৎসার ব্যবস্থা রাখা হবে। একজন চিকিৎসক সারাদিন দলের সঙ্গে থাকবেন। যাঁদের ডায়াবেটিস বা উচ্চ রক্তচাপ আছে, তাঁদের জন্য আলাদা খাবারের ব্যবস্থা থাকবে; নিবন্ধনের সময় তা জানাতে হবে। নিজ নিজ নিয়মিত ওষুধ সঙ্গে আনার অনুরোধ করা হলো।
+
+    দিনব্যাপী আয়োজনে স্মৃতিচারণ, কবিতা আবৃত্তি, গানের আসর এবং প্রবীণদের জন্য হালকা মজার খেলা থাকবে, শেষে র‍্যাফেল ড্র অনুষ্ঠিত হবে। আগ্রহী সদস্যদের ২৫ জানুয়ারি ২০২৭ তারিখের মধ্যে সমিতির কোষাধ্যক্ষের কাছে চাঁদা জমা দিয়ে নাম নিবন্ধন করতে হবে। আসন সীমিত।
+
+    সাধারণ সম্পাদক
+    হরিণমারা প্রবীণ কল্যাণ সমিতি
+  answer_sentence: "বনভোজনে অংশ নিতে প্রত্যেক সদস্যের জন্য চাঁদা ৯৫০ টাকা।"
+  insuff_replacement: ""
+  gold: {value: 950}
+  q:
+    en: "How much is the contribution per member for the annual picnic of the Harinmara Senior Citizens' Welfare Association?"
+    bn: "হরিণমারা প্রবীণ কল্যাণ সমিতির বার্ষিক বনভোজনে প্রত্যেক সদস্যের চাঁদা কত টাকা?"
+    rbn: "horinmara probin kollan shomitir barshik bonovojone prottek shodossher chada koto taka?"
+    cm: "হরিণমারা প্রবীণ কল্যাণ সমিতির annual picnic এ প্রত্যেক member এর চাঁদা কত টাকা?"
+    cmr: "horinmara probin kollan shomitir annual picnic e prottek member er chada koto taka?"
+  sibling:
+    answer_type: date
+    gold: {day: 5, month: 2, year: 2027}
+    q:
+      en: "On what date will the Harinmara Senior Citizens' Welfare Association hold its annual picnic?"
+      bn: "হরিণমারা প্রবীণ কল্যাণ সমিতির বার্ষিক বনভোজন কোন তারিখে অনুষ্ঠিত হবে?"
+      rbn: "horinmara probin kollan shomitir barshik bonovojon kon tarikhe onushthito hobe?"
+      cm: "হরিণমারা প্রবীণ কল্যাণ সমিতির annual picnic কোন date এ হবে?"
+      cmr: "horinmara probin kollan shomitir annual picnic kon date e hobe?"
+
+- id: N169
+  format: multi
+  domain: environment
+  answer_type: number
+  entity:
+    bn: "কাঁঠালচাঁপা সবুজায়ন উদ্যোগ"
+    rom: "kathalchapa shobujayon uddog"
+    en: "Kathalchapa Greening Initiative"
+  edit_type: deletion
+  passage: |
+    কাঁঠালচাঁপা সবুজায়ন উদ্যোগ
+    সড়কের দুই পাশে বৃক্ষরোপণ প্রকল্প
+
+    তীব্র গরম ও সড়কের ধুলাবালি কমাতে স্থানীয় তরুণদের সংগঠন কাঁঠালচাঁপা সবুজায়ন উদ্যোগ ইউনিয়নের প্রধান সংযোগ সড়কের দুই পাশে বৃক্ষরোপণ প্রকল্প হাতে নিয়েছে। প্রকল্পের কাজ শুরু হবে ১২ জুলাই ২০২৭ তারিখে এবং বর্ষা মৌসুম শেষ হওয়ার আগেই রোপণের কাজ সম্পন্ন করা হবে।
+
+    প্রকল্পের আওতায় সড়কের প্রায় সাত কিলোমিটার অংশে মোট ১৩৫০টি চারা রোপণ করা হবে। ছায়াদানকারী গাছ হিসেবে মেহগনি, কৃষ্ণচূড়া, জারুল, সোনালু ও বকুলসহ বিভিন্ন প্রজাতির চারা বাছাই করা হয়েছে। চারা রোপণের জন্য ইউনিয়ন পরিষদ ও সড়কের পাশের জমির মালিকদের সম্মতি নেওয়া হয়েছে।
+
+    প্রতিটি চারার চারপাশে বাঁশের খাঁচা ও নামফলক লাগানো হবে। রোপণের পর প্রথম দুই বছর চারাগুলোর পরিচর্যার দায়িত্ব পালন করবে সংগঠনের স্বেচ্ছাসেবক দল। প্রতিটি পাড়া থেকে একজন করে পরিচর্যাকারী নির্ধারণ করা হবে, যিনি নিয়মিত পানি দেওয়া, আগাছা পরিষ্কার এবং মরে যাওয়া চারার জায়গায় নতুন চারা লাগানোর বিষয়টি দেখবেন।
+
+    প্রকল্পের ব্যয় স্থানীয় ব্যবসায়ী, প্রবাসী ও এলাকাবাসীর স্বেচ্ছা অনুদানে নির্বাহ করা হচ্ছে। যেকোনো ব্যক্তি নিজের বা প্রিয়জনের নামে একটি চারার পরিচর্যার খরচ বহন করতে পারবেন। স্বেচ্ছাসেবক হিসেবে যুক্ত হতে আগ্রহীরা সংগঠনের কার্যালয়ে যোগাযোগ করুন। গাছের ক্ষতি না করার জন্য এলাকাবাসী ও গবাদিপশুর মালিকদের সচেতন থাকার অনুরোধ করা হলো।
+
+    সমন্বয়ক
+    কাঁঠালচাঁপা সবুজায়ন উদ্যোগ
+  answer_sentence: "প্রকল্পের আওতায় সড়কের প্রায় সাত কিলোমিটার অংশে মোট ১৩৫০টি চারা রোপণ করা হবে।"
+  insuff_replacement: ""
+  gold: {value: 1350}
+  q:
+    en: "How many saplings will the Kathalchapa Greening Initiative plant along the road?"
+    bn: "কাঁঠালচাঁপা সবুজায়ন উদ্যোগ সড়কের দুই পাশে মোট কয়টি চারা রোপণ করবে?"
+    rbn: "kathalchapa shobujayon uddog shoroker dui pashe mot koyti chara ropon korbe?"
+    cm: "কাঁঠালচাঁপা সবুজায়ন উদ্যোগ road এর দুই পাশে মোট কয়টি চারা plant করবে?"
+    cmr: "kathalchapa shobujayon uddog road er dui pashe mot koyti chara plant korbe?"
+  sibling:
+    answer_type: date
+    gold: {day: 12, month: 7, year: 2027}
+    q:
+      en: "On what date will the Kathalchapa Greening Initiative start its tree-planting project?"
+      bn: "কাঁঠালচাঁপা সবুজায়ন উদ্যোগের বৃক্ষরোপণ প্রকল্পের কাজ কোন তারিখে শুরু হবে?"
+      rbn: "kathalchapa shobujayon uddog er brikkhoropon prokolper kaj kon tarikhe shuru hobe?"
+      cm: "কাঁঠালচাঁপা সবুজায়ন উদ্যোগের tree plantation project কোন date এ শুরু হবে?"
+      cmr: "kathalchapa shobujayon uddog er tree plantation project kon date e shuru hobe?"
+
+- id: N170
+  format: multi
+  domain: culture
+  answer_type: name
+  entity:
+    bn: "বাঁশঝাড়িয়া সংগীত নিকেতন"
+    rom: "bashjhariya shongit niketon"
+    en: "Bashjharia Music School"
+  edit_type: neutralisation
+  passage: |
+    বাঁশঝাড়িয়া সংগীত নিকেতন
+    বার্ষিক সংগীত সন্ধ্যা ২০২৭
+
+    বাঁশঝাড়িয়া সংগীত নিকেতনের শিক্ষার্থীদের অংশগ্রহণে বার্ষিক সংগীত সন্ধ্যা অনুষ্ঠিত হবে ১৯ মার্চ ২০২৭ তারিখে, সন্ধ্যা ৬টায়, স্থানীয় টাউন হল মিলনায়তনে। অনুষ্ঠানে নিকেতনের বিভিন্ন বয়সী প্রায় ৮০ জন শিক্ষার্থী রবীন্দ্রসংগীত, নজরুলসংগীত, লোকগান, দেশাত্মবোধক গান ও যন্ত্রসংগীত পরিবেশন করবে।
+
+    অনুষ্ঠানের বিশেষ আকর্ষণ শিশু শিক্ষার্থীদের সমবেত সংগীত পরিবেশনা। শিশুদের সমবেত সংগীত পরিচালনা করবেন নিকেতনের সংগীত শিক্ষক তাহমিনা সুলতানা মৌ। এছাড়া তবলা, বাঁশি ও হারমোনিয়াম বিভাগের শিক্ষার্থীরা একটি যৌথ যন্ত্রসংগীত পরিবেশন করবে। অনুষ্ঠানের শেষ পর্বে নিকেতনের শিক্ষকবৃন্দ একক সংগীত পরিবেশন করবেন।
+
+    অনুষ্ঠানে প্রবেশের জন্য আমন্ত্রণপত্র প্রয়োজন হবে। শিক্ষার্থীদের প্রত্যেক পরিবারের জন্য দুটি করে আমন্ত্রণপত্র নিকেতনের অফিস থেকে বিতরণ করা হবে। সাধারণ দর্শকদের জন্য সীমিত সংখ্যক আমন্ত্রণপত্র অনুষ্ঠানের আগের দিন পর্যন্ত অফিসে পাওয়া যাবে।
+
+    অংশগ্রহণকারী শিক্ষার্থীদের অনুষ্ঠান শুরুর অন্তত দুই ঘণ্টা আগে মিলনায়তনে উপস্থিত হয়ে মহড়ায় অংশ নিতে হবে। মেয়েদের লাল-সাদা শাড়ি বা সালোয়ার-কামিজ এবং ছেলেদের সাদা পাঞ্জাবি পরে আসতে হবে। অনুষ্ঠান চলাকালীন মোবাইল ফোন নীরব রাখার এবং শিশুদের নিয়ে আসা অভিভাবকদের নির্ধারিত আসনে বসার অনুরোধ করা হলো। অনুষ্ঠান শেষে বছরের সেরা শিক্ষার্থীদের পুরস্কার দেওয়া হবে।
+
+    অধ্যক্ষ
+    বাঁশঝাড়িয়া সংগীত নিকেতন
+  answer_sentence: "শিশুদের সমবেত সংগীত পরিচালনা করবেন নিকেতনের সংগীত শিক্ষক তাহমিনা সুলতানা মৌ।"
+  insuff_replacement: "শিশুদের সমবেত সংগীত পরিচালনা করবেন নিকেতনের একজন অভিজ্ঞ সংগীত শিক্ষক।"
+  gold: {aliases: ["তাহমিনা সুলতানা মৌ", "তাহমিনা সুলতানা", "Tahmina Sultana Mou", "Tahmina Sultana", "Tahmina Sultana Mow"]}
+  q:
+    en: "Who will direct the children's group song at the Bashjharia Music School's annual music evening?"
+    bn: "বাঁশঝাড়িয়া সংগীত নিকেতনের বার্ষিক সংগীত সন্ধ্যায় শিশুদের সমবেত সংগীত কে পরিচালনা করবেন?"
+    rbn: "bashjhariya shongit niketoner barshik shongit shondhay shishuder shomobeto shongit ke porichalona korben?"
+    cm: "বাঁশঝাড়িয়া সংগীত নিকেতনের annual program এ শিশুদের group song কে পরিচালনা করবেন?"
+    cmr: "bashjhariya shongit niketoner annual program e shishuder group song ke porichalona korben?"
+  sibling:
+    answer_type: date
+    gold: {day: 19, month: 3, year: 2027}
+    q:
+      en: "On what date will the Bashjharia Music School hold its annual music evening?"
+      bn: "বাঁশঝাড়িয়া সংগীত নিকেতনের বার্ষিক সংগীত সন্ধ্যা কোন তারিখে অনুষ্ঠিত হবে?"
+      rbn: "bashjhariya shongit niketoner barshik shongit shondha kon tarikhe onushthito hobe?"
+      cm: "বাঁশঝাড়িয়া সংগীত নিকেতনের annual music program কোন date এ হবে?"
+      cmr: "bashjhariya shongit niketoner annual music program kon date e hobe?"
