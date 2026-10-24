@@ -1,5 +1,5 @@
 # Pipeline smoke test on 2 DRAFT items. Not a result; never reported.
-model: "qwen3.5:9b"
+model: "hf.co/bartowski/Qwen_Qwen3.5-9B-GGUF:Q4_K_M"
 items: 03_data/processed/pilot_items_draft.yaml
 smoke: true
 max_items: 2

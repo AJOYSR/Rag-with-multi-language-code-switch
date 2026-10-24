@@ -1,5 +1,5 @@
 # G2 pilot. Requires author-approved items (03_data/variants/review_pilot*.csv returned).
-model: "gemma2:9b"
+model: "hf.co/bartowski/gemma-2-9b-it-GGUF:Q4_K_M"
 items: 03_data/processed/pilot_items_approved.yaml
 split: dev
 variants: [en, bn, rbn, cm, cmr]

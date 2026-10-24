@@ -28,7 +28,7 @@ MONTHS = {
 
 CURRENCY = r"(টাকা|টাকার|টাকায়|৳|tk\.?|taka|bdt)"
 
-YES = {"yes", "হ্যাঁ", "হ্যা", "হা", "hya", "ha", "haan", "hyan", "ji", "জি"}
+YES = {"yes", "হ্যাঁ", "হ্যা", "হা", "hya", "haa", "hae", "ha", "haan", "hyan", "ji", "জি"}
 NO = {"no", "না", "na", "nah"}
 
 # Phrases that signal abstention when a model ignores the exact token.

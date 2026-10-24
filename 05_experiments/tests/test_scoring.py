@@ -79,3 +79,16 @@ def test_first_token_binary_prob():
     assert math.isclose(first_token_binary_prob(lp), 0.7 / 0.9)
     assert math.isnan(first_token_binary_prob([]))
     assert math.isclose(mean_logprob([{"logprob": -1.0}, {"logprob": -3.0}]), -2.0)
+
+
+def test_combiner_ranks_by_informative_feature():
+    import numpy as np
+    from src.scoring import fit_combiner
+    rng = np.random.default_rng(0)
+    x1 = rng.uniform(size=200)                 # informative
+    x2 = rng.uniform(size=200)                 # noise
+    y = (x1 > 0.5).astype(float)
+    f = fit_combiner(np.c_[x1, x2], y)
+    s = f(np.array([[0.9, 0.5], [0.1, 0.5]]))
+    assert s[0] > 0.8 and s[1] < 0.2
+    assert abs(f.weights[1]) > 3 * abs(f.weights[2])

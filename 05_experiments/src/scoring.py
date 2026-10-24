@@ -105,3 +105,27 @@ def transfer_table(dev_en: pd.DataFrame, test: pd.DataFrame, target_risk: float)
                      "realised_risk": m["risk"], "coverage": m["coverage"],
                      "violation": m["risk"] - target_risk})
     return pd.DataFrame(rows)
+
+
+def fit_combiner(X: np.ndarray, y: np.ndarray, l2: float = 1.0, iters: int = 500, lr: float = 0.5):
+    """L2-regularised logistic regression by gradient descent (deterministic, no tuning).
+
+    Features are standardised with the fitting data's mean/sd; returns a scorer
+    f(X) -> P(answer is correct), used as the M3 selective-generation score.
+    """
+    X = np.asarray(X, float)
+    y = np.asarray(y, float)
+    mu, sd = X.mean(0), X.std(0)
+    sd[sd == 0] = 1.0
+    Z = np.c_[np.ones(len(X)), (X - mu) / sd]
+    w = np.zeros(Z.shape[1])
+    for _ in range(iters):
+        p = 1 / (1 + np.exp(-Z @ w))
+        grad = Z.T @ (p - y) / len(y) + l2 * np.r_[0, w[1:]] / len(y)
+        w -= lr * grad
+
+    def score(Xn):
+        Zn = np.c_[np.ones(len(Xn)), (np.asarray(Xn, float) - mu) / sd]
+        return 1 / (1 + np.exp(-Zn @ w))
+    score.weights = w
+    return score

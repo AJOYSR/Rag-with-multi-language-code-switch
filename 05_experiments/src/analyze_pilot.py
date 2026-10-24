@@ -18,7 +18,7 @@ from scipy.stats import norm
 
 from .llm import first_token_binary_prob, mean_logprob
 from .normalize import is_abstention, match
-from .scoring import bootstrap, metrics, paired_diff, transfer_table
+from .scoring import bootstrap, fit_combiner, metrics, paired_diff, transfer_table
 
 ROOT = Path(__file__).resolve().parents[2]
 VARIANT_ORDER = ["en", "bn", "rbn", "cm", "cmr"]
@@ -43,10 +43,18 @@ def outcome_frame(df: pd.DataFrame, method: str, question: str = "main") -> pd.D
 
 
 def m3_frame(df: pd.DataFrame) -> pd.DataFrame:
-    gen = outcome_frame(df, "GEN")
+    """GEN answers + sufficiency P("1") + answer confidence; score = combiner fitted on EN only."""
+    gen = outcome_frame(df, "GEN").merge(
+        df[(df.method == "GEN") & (df.question == "main")][["item_id", "variant", "sufficiency", "conf"]],
+        on=["item_id", "variant", "sufficiency"], how="left")
     suff = df[(df.method == "SUFF") & (df.question == "main")][["item_id", "variant", "sufficiency", "p_suff"]]
-    out = gen.merge(suff, on=["item_id", "variant", "sufficiency"], how="left")
-    return out.rename(columns={"p_suff": "score"})
+    out = gen.merge(suff, on=["item_id", "variant", "sufficiency"], how="left").dropna(subset=["p_suff", "conf"])
+    en = out[out.variant == "en"]
+    target = (en.sufficiency == "suff") & en.correct          # answering would be correct
+    f = fit_combiner(en[["p_suff", "conf"]].to_numpy(), target.to_numpy())
+    out["score"] = f(out[["p_suff", "conf"]].to_numpy())
+    out.attrs["combiner_weights"] = f.weights.tolist()
+    return out
 
 
 def per_variant(d: pd.DataFrame, n_boot: int) -> pd.DataFrame:
@@ -121,10 +129,11 @@ def main(*run_dirs, n_boot: int = 2000):
         m3 = m3_frame(df)
         if len(m3) and m3["score"].notna().any():
             results["GEN_per_variant"] = per_variant(m3, n_boot)
-            results["SUFF_rater"] = m3.assign(pred=m3.score >= 0.5, gold=m3.sufficiency == "suff").groupby("variant").apply(
-                lambda g: pd.Series({"acc": (g.pred == g.gold).mean(), "mean_p_suff_suff": g[g.gold].score.mean(),
-                                     "mean_p_suff_insuff": g[~g.gold].score.mean(), "nan_scores": g.score.isna().sum()}),
+            results["SUFF_rater"] = m3.assign(pred=m3.p_suff >= 0.5, gold=m3.sufficiency == "suff").groupby("variant").apply(
+                lambda g: pd.Series({"acc": (g.pred == g.gold).mean(), "mean_p_suff_suff": g[g.gold].p_suff.mean(),
+                                     "mean_p_suff_insuff": g[~g.gold].p_suff.mean()}),
                 include_groups=False).reset_index()
+            print("M3 combiner weights [bias, p_suff, conf] (fitted on EN):", np.round(m3.attrs["combiner_weights"], 3))
             en = m3[m3.variant == "en"]
             results["M3_transfer_EXPLORATORY"] = pd.concat(
                 [transfer_table(en, m3.dropna(subset=["score"]), r) for r in (0.05, 0.10, 0.20)], ignore_index=True)
