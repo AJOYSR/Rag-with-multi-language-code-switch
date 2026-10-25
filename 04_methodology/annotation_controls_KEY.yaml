@@ -1,0 +1,40 @@
+# Annotation control round (quality check of the second annotator, A2). DO NOT SEND TO A2.
+# Written 2026-10-25, before A2 saw any control row. Logged as a protocol addition (decision_log).
+# Rows come from main items NOT in annotation_sample.csv. A2 is told only that this is a short extra set.
+#
+# Pre-registered pass rule:
+#   a planted flaw is detected if  meaning flaw -> meaning_1to3 == 1
+#                                   naturalness flaw -> naturalness_1to3 <= 2
+#                                   leak -> answer_still_findable_Y_N == Y
+#   a clean row is a false alarm if  meaning == 1, or naturalness == 1, or (notice) Y
+#   PASS if >= 7 of 8 flaws detected AND <= 1 of 4 clean rows is a false alarm.
+#   The result is reported in the paper whether it passes or fails.
+# If it fails: the main-sample agreement is reported as uninformative, and a fresh second annotator
+# rates a new >= 20% sample (decision then goes to the author).
+controls:
+  - {cid: C01, item: N001, question: main, version: BN,  expect: meaning,
+     text: "বেতফলপুর আদর্শ উচ্চ বিদ্যালয়ে নবম শ্রেণিতে মাসিক বেতন কত টাকা?",
+     why: "class six admission fee -> class nine monthly tuition"}
+  - {cid: C02, item: N010, question: main, version: RBN, expect: meaning,
+     text: "keorakhali biggan o projukti bisshobiddaloye e bochor prothom borsher shikkharthider hostel fee koto taka?",
+     why: "yes/no about seat allotment -> amount of hostel fee"}
+  - {cid: C03, item: N054, question: main, version: CM,  expect: meaning,
+     text: "শিরীষতলি জেনারেল হাসপাতালে AC cabin এর মাসিক ভাড়া কত টাকা?",
+     why: "non-AC daily rent -> AC monthly rent"}
+  - {cid: C04, item: N070, question: main, version: CMR, expect: meaning,
+     text: "kanchonmala shishu hospitaler outdoor bivag kon date theke bondho thakbe?",
+     why: "date it moves to new building -> date it will be closed"}
+  - {cid: C05, item: N038, question: main, version: BN,  expect: naturalness,
+     text: "কে নিমফুলিয়া প্রকৌশল বিশ্ববিদ্যালয়ের দায়িত্ব নিয়েছেন হিসেবে ছাত্রকল্যাণ উপদেষ্টা?",
+     why: "same words, scrambled order"}
+  - {cid: C06, item: N062, question: main, version: CM,  expect: naturalness,
+     text: "শটিবন কিডনি ও ডায়ালাইসিস সেন্টারের new unit এ how many dialysis machines installed হয়েছে কয়টি?",
+     why: "whole English clause inserted plus duplicated question word"}
+  - {cid: C07, item: N016, question: main, version: "", expect: leak, passage: sufficient,
+     why: "notice is the SUFFICIENT version: fee is stated"}
+  - {cid: C08, item: N045, question: main, version: "", expect: leak, passage: sufficient,
+     why: "notice is the SUFFICIENT version: date is stated"}
+  - {cid: C09, item: N024, question: main, version: CM,  expect: clean}
+  - {cid: C10, item: N031, question: main, version: RBN, expect: clean}
+  - {cid: C11, item: N062, question: main, version: "", expect: clean, passage: insufficient}
+  - {cid: C12, item: N070, question: main, version: "", expect: clean, passage: insufficient}
