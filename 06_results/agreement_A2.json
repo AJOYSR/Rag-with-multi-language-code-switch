@@ -1,0 +1,57 @@
+{
+  "n_items": 35,
+  "fails": [],
+  "dimensions": {
+    "meaning": {
+      "n": 280,
+      "percent_agreement": 1.0,
+      "cohen_kappa": null,
+      "author_positive": 280,
+      "a2_positive": 280
+    },
+    "naturalness": {
+      "n": 280,
+      "percent_agreement": 1.0,
+      "cohen_kappa": null,
+      "author_positive": 280,
+      "a2_positive": 280
+    },
+    "insufficiency": {
+      "n": 35,
+      "percent_agreement": 1.0,
+      "cohen_kappa": null,
+      "author_positive": 35,
+      "a2_positive": 35
+    }
+  },
+  "a2_meaning_dist": {
+    "3": 280
+  },
+  "a2_naturalness_dist": {
+    "3": 277,
+    "2": 3
+  },
+  "a2_comments": [
+    {
+      "item_id": "N003",
+      "question": "main",
+      "version": "CM",
+      "naturalness_1to3": "2",
+      "comment": "it should be বইপড়া instead of reading to increase the natural text"
+    },
+    {
+      "item_id": "N003",
+      "question": "sibling",
+      "version": "BN",
+      "naturalness_1to3": "2",
+      "comment": "চাঁদা bengali people use ফি, instead of চাঁদা"
+    },
+    {
+      "item_id": "N003",
+      "question": "sibling",
+      "version": "RBN",
+      "naturalness_1to3": "2",
+      "comment": "same reason"
+    }
+  ]
+}
