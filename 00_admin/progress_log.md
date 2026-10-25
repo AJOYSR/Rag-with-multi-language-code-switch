@@ -83,3 +83,9 @@
 - Done: author's main review recovered (encoding incident #2; nothing lost) and applied → `03_data/processed/main_items_approved.yaml`, 168 items (N083, N007 dropped); outcome `03_data/variants/review_main_outcome.json`; annotation sample `03_data/variants/annotation_sample.csv` (35 items, 21%, 315 rows).
 - Next: second native-speaker annotator fills `annotation_sample.csv` → compute percent agreement and Cohen's κ → revise/drop failing items → `03_data/DATA_CARD.md`, `03_data/raw/SOURCES.csv` → G3.
 - Blocker: second annotator.
+
+### Session — 2026-10-25 — Phase 4b (G3 preparation)
+- Done: A2 ratings received and scored (`src.agreement`, `06_results/agreement_A2.json`): 100% agreement, κ undefined (ceiling), no failures (4d80a32). Annotator control round built with pre-registered key and pass rule (b778646). Data card v1.0-rc, `raw/SOURCES.csv`, `splits/split_v1.json` (9299a44). N003 suggestions not applied (logged).
+- Issues: ratings at ceiling, so κ cannot show discrimination; the control round addresses this. The author first said they filled the sheet, then corrected: A2 rated it (logged).
+- Next: A2 rates `03_data/variants/annotation_controls.csv` → `python -m src.build_annotation_controls --score ...` → G3 memo. Decide on the Wikipedia realism subset (protocol §2, up to 20 items).
+- Needs author: send the control sheet to A2; confirm A2's consent and credit preference; release licence; realism subset yes/no.
