@@ -1,17 +1,20 @@
-# Data Card (draft — to be completed in M3)
+# Data Card (v1.0-rc, 2026-10-25; completes at Gate G3)
 
 | Field | Value |
 |---|---|
-| Name | TBD |
-| Version | 0.1 — pilot draft (30 items, AI-drafted, **awaiting author review**) |
-| Base items | target 150–200 (pilot: 30) |
-| Variants | EN, BN (Bengali script), RBN (romanized), CM (Bengali script + English insertions), CMR (romanized + English insertions) — 2×2 script × mixing design (decision_log 2026-10-23); RBN rules in `variants/RBN_convention.md` |
-| Conditions | sufficient / insufficient evidence (minimal edit) |
-| Sources | Pilot: 30 **fictional** notices written for this project (no external source text; licence: project-owned). Wikipedia realism subset planned for M3; each raw doc will be logged in `raw/SOURCES.csv` (id, url, access_date, licence) |
-| Construction | Pilot passages, questions and all variants **drafted by an AI agent (Claude Opus 5.5, 2026-10-23)**; author review/edit pending (`variants/review_pilot*.csv`); edit rate will be recorded in `variants/review_outcome.json`. Insufficient passages are generated programmatically from a marked answer sentence + replacement, with automatic checks (gold absent from insufficient passage; near-miss sibling answer present). |
-| Validation | TBD — second-annotator sample size, percent agreement, κ, dropped items |
-| Closed-book filter | TBD — items answerable without evidence, per model |
-| Splits | by base item; dev ≈ 25%, test ≈ 75%, stratified by answer type |
-| Licence of release | TBD (must be compatible with every source) |
-| Known issues | Fictional names may accidentally match real entities (author check pending). Yes/no items have a 50% closed-book guessing baseline. Pilot items are dev-only (used for prompt/setting choices). |
-| Personal data | None (KYC or other employer data excluded by design) |
+| Name | TBD (author decides) |
+| Version | 1.0-rc: 198 author-reviewed base items (30 pilot + 168 main) |
+| Task | Answer-or-abstain over Bengali notices with **sufficient** vs **insufficient** evidence; each item has a main question and a near-miss sibling question |
+| Variants | EN, BN (Bengali script), RBN (Roman-script Bengali), CM (Bengali script + English insertions), CMR (Roman script + English insertions). 2×2 script × mixing design within Bengali (decision_log 2026-10-23). RBN rules: `variants/RBN_convention.md` (incl. author rule ফি → "fee") |
+| Answer types | number, amount, date, name, yes/no |
+| Sources | **Core: fictional notices written for this project** (institutions, places and people fictional; author checked every name, `names_fictional_ok = Y` for all items). No external source text; see `raw/SOURCES.csv`. Realism subset (protocol §2, "up to 20" Bengali Wikipedia items): **not built** (status: pending author decision) |
+| Construction | Passages, questions and all variants **drafted by an AI agent (Claude Opus 5.5)**: pilot 2026-10-23; main set 2026-10-24 by four parallel agent runs (batches A–D). **Every item and every variant reviewed by the author (native Bengali speaker)** in `variants/review_pilot*_RETURNED.csv` and `variants/review_main*_RETURNED.csv`. Insufficient passages are produced programmatically from a marked answer sentence + replacement (deletion or neutralisation), with automatic checks (gold absent from insufficient passage; sibling answer present; entity named in every question) |
+| Item formats | Pilot (30): single short notice, 35–60 words, deletion edits, dev only. Main (168): 155–195 words (mean 174), shown with 2 distractor notices from the same split (`items.build_contexts`, seed 20261024); 86 deletion / 82 neutralisation edits |
+| Domains (main) | health 22, commerce 14, civic 13, transport 13, community 11, finance 10, admission 8, jobs 8, and 16 smaller education/civic/utility domains |
+| Author review | Pilot: 30/30 approved, 10/300 strings edited (3.3%). Main: 168/170 kept, 0/1,685 strings edited; dropped N083 (answer leak, flagged in agent spot-read) and N007 (sibling RBN/CMR differed only by a space) |
+| Second-annotator validation | A2 (native Bengali speaker, anonymous): 35 items (21%, stratified by answer type), 280 question versions + 35 notices (`variants/annotation_sample_RETURNED.csv`). Agreement with author: 100% on meaning, naturalness, insufficiency; **Cohen's κ undefined** (both raters used one category throughout). No failures. **Control round** with 8 planted flaws + 4 clean rows: pending (`variants/annotation_controls.csv`; key and pass rule fixed in advance in `04_methodology/annotation_controls_KEY.yaml`) |
+| Splits | By base item (`splits/split_v1.json`): **dev 50** (30 pilot + 20 main; 10 per answer type) / **test 148** (main only; 29–30 per answer type). Pilot items are dev-only |
+| Closed-book filter | Applied per model at analysis time (protocol §10): non-yes/no items answered correctly closed-book are excluded from that model's UAR; yes/no items excluded if correct closed-book in ≥ 4/5 variants. Pilot: 0 closed-book correct non-yes/no answers (`06_results/G2_pilot_report.md`) |
+| Licence of release | TBD by the author. [REC] CC BY 4.0 (all text is project-owned) |
+| Known issues | Ratings at ceiling (κ undefined; see control round). Several items keep same-type decoy values (e.g., another fee) on purpose; agent-flagged possible weak spots listed in `processed/batches/review_flags.yaml`, all approved by the author. Some RBN questions keep English loanwords, which narrows the RBN/CMR contrast for those items. Yes/no items have a 50% guessing baseline. Fictional names may accidentally match real entities. AI-drafted text may have regular patterns that differ from human-written notices |
+| Personal data | None. No employer (KYC or production) data. The second annotator is identified only as A2 |
