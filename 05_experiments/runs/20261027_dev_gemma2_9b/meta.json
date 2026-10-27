@@ -1,0 +1,64 @@
+{
+  "run_id": "20261027_dev_gemma2_9b",
+  "config": {
+    "model": "hf.co/bartowski/gemma-2-9b-it-GGUF:Q4_K_M",
+    "items": "03_data/processed/items_v1.yaml",
+    "split": "dev",
+    "variants": [
+      "en",
+      "bn",
+      "rbn",
+      "cm",
+      "cmr"
+    ],
+    "methods": [
+      "M1",
+      "GEN",
+      "SUFF",
+      "CB",
+      "TR",
+      "TRP"
+    ],
+    "seed": 0,
+    "temperature": 0.0,
+    "num_ctx": 8192,
+    "protocol_frozen_hash": "bb82a66ed205590b4264d21d534e84e660ad658f55ed0c0773a6177213f2f9f6"
+  },
+  "config_path": "configs/dev_gemma2_9b.yaml",
+  "started": "2026-10-27T16:27:26.953963",
+  "git_commit": "4c6aa778bd147f4e3cf5251f26913fe45211b27d-dirty",
+  "ollama_version": "0.40.9",
+  "model": {
+    "name": "hf.co/bartowski/gemma-2-9b-it-GGUF:Q4_K_M",
+    "digest": "85d7938fc7b34dcc79333d00276582596ce00e3af902b20a4ad0a3a2f444297a",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "gemma2",
+      "families": [
+        "gemma2"
+      ],
+      "parameter_size": "9.24B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 8192,
+      "embedding_length": 3584,
+      "runner": "ggml"
+    },
+    "size_bytes": 5761058685,
+    "license_head": ""
+  },
+  "prompt_version": "v1.0-2026-10-24",
+  "decoding": {
+    "temperature": 0.0,
+    "seed": 0,
+    "num_ctx": 8192,
+    "max_tokens": {
+      "M1": 64,
+      "GEN": 64,
+      "SUFF": 2,
+      "CB": 64,
+      "TR": 96,
+      "TRP": 96
+    }
+  }
+}

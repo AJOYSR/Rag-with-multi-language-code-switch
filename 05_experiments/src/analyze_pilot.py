@@ -30,8 +30,9 @@ def load_run(run_dir: Path) -> pd.DataFrame:
     df = pd.DataFrame(recs)
     df["category"] = [outcome(c, t) for c, t in zip(df["content"], df["answer_type"])]
     # manual adjudication of 'ambiguous' cases (plan §5.5), keyed by run + response key
-    adj_path = ROOT / "06_results" / "adjudication_pilot.csv"
-    adj = pd.read_csv(adj_path) if adj_path.exists() else pd.DataFrame(columns=["run_id", "key", "label"])
+    adj_files = sorted((ROOT / "06_results").glob("adjudication_*.csv"))
+    adj = (pd.concat([pd.read_csv(f) for f in adj_files], ignore_index=True) if adj_files
+           else pd.DataFrame(columns=["run_id", "key", "label"]))
     adj = adj[adj.run_id == run_dir.name].set_index("key")["label"].to_dict()
     df["adjudicated"] = df["key"].map(adj)
     df.loc[df.adjudicated.notna(), "category"] = df.loc[df.adjudicated.notna(), "adjudicated"].map(

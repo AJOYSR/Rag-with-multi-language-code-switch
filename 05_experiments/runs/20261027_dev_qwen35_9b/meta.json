@@ -1,0 +1,64 @@
+{
+  "run_id": "20261027_dev_qwen35_9b",
+  "config": {
+    "model": "hf.co/bartowski/Qwen_Qwen3.5-9B-GGUF:Q4_K_M",
+    "items": "03_data/processed/items_v1.yaml",
+    "split": "dev",
+    "variants": [
+      "en",
+      "bn",
+      "rbn",
+      "cm",
+      "cmr"
+    ],
+    "methods": [
+      "M1",
+      "GEN",
+      "SUFF",
+      "CB",
+      "TR",
+      "TRP"
+    ],
+    "seed": 0,
+    "temperature": 0.0,
+    "num_ctx": 8192,
+    "protocol_frozen_hash": "bb82a66ed205590b4264d21d534e84e660ad658f55ed0c0773a6177213f2f9f6"
+  },
+  "config_path": "configs/dev_qwen35_9b.yaml",
+  "started": "2026-10-27T14:47:50.178889",
+  "git_commit": "9d41814d444ed5cc45a0cd8a54f282a1b529dbd9",
+  "ollama_version": "0.40.9",
+  "model": {
+    "name": "hf.co/bartowski/Qwen_Qwen3.5-9B-GGUF:Q4_K_M",
+    "digest": "446dc6a1b5effc9a3cd831c7c33a7dc245493ca3f48a6c745bab10d25c5f615b",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen35",
+      "families": [
+        "qwen35"
+      ],
+      "parameter_size": "9.2B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 262144,
+      "embedding_length": 4096,
+      "runner": "ggml"
+    },
+    "size_bytes": 7087508415,
+    "license_head": ""
+  },
+  "prompt_version": "v1.0-2026-10-24",
+  "decoding": {
+    "temperature": 0.0,
+    "seed": 0,
+    "num_ctx": 8192,
+    "max_tokens": {
+      "M1": 64,
+      "GEN": 64,
+      "SUFF": 2,
+      "CB": 64,
+      "TR": 96,
+      "TRP": 96
+    }
+  }
+}
