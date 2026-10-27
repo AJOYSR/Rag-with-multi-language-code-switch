@@ -1105,7 +1105,7 @@
     q:
       en: How many seats are there in the diploma course at Madhabikunja Nursing Institute?
       bn: মাধবীকুঞ্জ নার্সিং ইনস্টিটিউটের ডিপ্লোমা কোর্সে মোট কয়টি আসন আছে?
-      rbn: madhobikunjo nursing institute er diploma korse mot koyti ashon ache?
+      rbn: madhobikunjo nursing institute er diploma course e mot koyti ashon ache?
       cm: মাধবীকুঞ্জ নার্সিং ইনস্টিটিউটের diploma course এ মোট কয়টি seat আছে?
       cmr: madhobikunjo nursing institute er diploma course e mot koyti seat ache?
   review:
@@ -1116,7 +1116,8 @@
     sibling:
       meaning_equivalent_all: Y
       natural: Y
-      comment: ''
+      comment: 'Author decision 2026-10-27 (chat): ''korse/korser'' -> ''course e/course
+        er'' in RBN after A2 rated N031 RBN meaning 1'
   status: author-reviewed
 - id: N016
   format: multi
@@ -1169,7 +1170,8 @@
     en: What is the fee for the full admission preparation course at Brishtimahal
       Admission Coaching?
     bn: বৃষ্টিমহল ভর্তি কোচিংয়ে পূর্ণাঙ্গ ভর্তি প্রস্তুতি কোর্সের ফি কত টাকা?
-    rbn: brishtimohol vorti coaching e purnango vorti prostuti korser fee koto taka?
+    rbn: brishtimohol vorti coaching e purnango vorti prostuti course er fee koto
+      taka?
     cm: বৃষ্টিমহল ভর্তি কোচিংয়ে full course এর fee কত টাকা?
     cmr: brishtimohol vorti coaching e full course er fee koto taka?
   sibling:
@@ -1182,8 +1184,8 @@
       en: On what date will classes of the admission preparation course at Brishtimahal
         Admission Coaching start?
       bn: বৃষ্টিমহল ভর্তি কোচিংয়ে ভর্তি প্রস্তুতি কোর্সের ক্লাস কোন তারিখে শুরু হবে?
-      rbn: brishtimohol vorti coaching e vorti prostuti korser klash kon tarikhe shuru
-        hobe?
+      rbn: brishtimohol vorti coaching e vorti prostuti course er klash kon tarikhe
+        shuru hobe?
       cm: বৃষ্টিমহল ভর্তি কোচিংয়ে admission course এর class কোন তারিখে শুরু হবে?
       cmr: brishtimohol vorti coaching e admission course er class kon tarikhe shuru
         hobe?
@@ -1191,11 +1193,13 @@
     main:
       meaning_equivalent_all: Y
       natural: Y
-      comment: ''
+      comment: 'Author decision 2026-10-27 (chat): ''korse/korser'' -> ''course e/course
+        er'' in RBN after A2 rated N031 RBN meaning 1'
     sibling:
       meaning_equivalent_all: Y
       natural: Y
-      comment: ''
+      comment: 'Author decision 2026-10-27 (chat): ''korse/korser'' -> ''course e/course
+        er'' in RBN after A2 rated N031 RBN meaning 1'
   status: author-reviewed
 - id: N017
   format: multi
@@ -1578,7 +1582,7 @@
     en: What is the course fee per semester for the B.Ed course at Suparibagan Teachers'
       Training College?
     bn: সুপারিবাগান টিচার্স ট্রেনিং কলেজে বিএড কোর্সের প্রতি সেমিস্টারের ফি কত টাকা?
-    rbn: shuparibagan teachers training college e BEd korser proti semestarer fee
+    rbn: shuparibagan teachers training college e BEd course er proti semestarer fee
       koto taka?
     cm: সুপারিবাগান টিচার্স ট্রেনিং কলেজে B.Ed এর per semester fee কত টাকা?
     cmr: shuparibagan teachers training college e B.Ed er per semester fee koto taka?
@@ -1601,7 +1605,8 @@
     main:
       meaning_equivalent_all: Y
       natural: Y
-      comment: ''
+      comment: 'Author decision 2026-10-27 (chat): ''korse/korser'' -> ''course e/course
+        er'' in RBN after A2 rated N031 RBN meaning 1'
     sibling:
       meaning_equivalent_all: Y
       natural: Y
@@ -1742,7 +1747,7 @@
     en: Who will be the lead trainer of the spoken English course at Kanchanbela Language
       Learning Centre?
     bn: কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্রের স্পোকেন ইংলিশ কোর্সের প্রধান প্রশিক্ষক কে?
-    rbn: kanchonbela vasha shikkha kendro er spoken english korser prodhan proshikkhok
+    rbn: kanchonbela vasha shikkha kendro er spoken english course er prodhan proshikkhok
       ke?
     cm: কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্রের spoken English course এর main trainer কে?
     cmr: kanchonbela vasha shikkha kendro er spoken english course er main trainer
@@ -1755,21 +1760,24 @@
       en: How many classes are there in the spoken English course at Kanchanbela Language
         Learning Centre?
       bn: কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্রের স্পোকেন ইংলিশ কোর্সে মোট কয়টি ক্লাস হবে?
-      rbn: kanchonbela vasha shikkha kendro er spoken english korse mot koyti klash
+      rbn: kanchonbela vasha shikkha kendro er spoken english course e mot koyti klash
         hobe?
       cm: কাঞ্চনবেলা ভাষা শিক্ষা কেন্দ্রের spoken English course এ মোট কয়টি class
         হবে?
-      cmr: kanchonbela vasha shikkha kendro er spoken english course e mot koyti class
-        hobe?
+      cmr: kanchonbela vasha shikkha kendro er spoken english course e total koyti
+        class hobe?
   review:
     main:
       meaning_equivalent_all: Y
       natural: Y
-      comment: ''
+      comment: 'Author decision 2026-10-27 (chat): ''korse/korser'' -> ''course e/course
+        er'' in RBN after A2 rated N031 RBN meaning 1'
     sibling:
       meaning_equivalent_all: Y
       natural: Y
-      comment: ''
+      comment: 'Author decision 2026-10-27 (chat): ''korse/korser'' -> ''course e/course
+        er'' in RBN after A2 rated N031 RBN meaning 1 | Author-approved 2026-10-27
+        (chat): CMR given a real English insertion (''total'') to keep RBN/CMR contrast'
   status: author-reviewed
 - id: N024
   format: multi
@@ -2392,9 +2400,9 @@
   q:
     en: What is the fee for the crash course at Nishinda Job Preparation Centre?
     bn: নিশিন্দা চাকরি প্রস্তুতি কেন্দ্রের ক্র্যাশ কোর্সের ফি কত টাকা?
-    rbn: nishinda chakri prostuti kendro er krash korser fee koto taka?
+    rbn: nishinda chakri prostuti kendro er krash course er fee koto taka?
     cm: নিশিন্দা চাকরি প্রস্তুতি কেন্দ্রের crash course এর fee কত টাকা?
-    cmr: nishinda chakri prostuti kendro er crash course er fee koto taka?
+    cmr: nishinda chakri prostuti kendro er crash course er total fee koto taka?
   sibling:
     answer_type: number
     gold:
@@ -2403,18 +2411,21 @@
       en: How many classes are there in the crash course at Nishinda Job Preparation
         Centre?
       bn: নিশিন্দা চাকরি প্রস্তুতি কেন্দ্রের ক্র্যাশ কোর্সে মোট কয়টি ক্লাস হবে?
-      rbn: nishinda chakri prostuti kendro er krash korse mot koyti klash hobe?
+      rbn: nishinda chakri prostuti kendro er krash course e mot koyti klash hobe?
       cm: নিশিন্দা চাকরি প্রস্তুতি কেন্দ্রের crash course এ মোট কয়টি class হবে?
       cmr: nishinda chakri prostuti kendro er crash course e mot koyti class hobe?
   review:
     main:
       meaning_equivalent_all: Y
       natural: Y
-      comment: ''
+      comment: 'Author decision 2026-10-27 (chat): ''korse/korser'' -> ''course e/course
+        er'' in RBN after A2 rated N031 RBN meaning 1 | Author-approved 2026-10-27
+        (chat): CMR given a real English insertion (''total'') to keep RBN/CMR contrast'
     sibling:
       meaning_equivalent_all: Y
       natural: Y
-      comment: ''
+      comment: 'Author decision 2026-10-27 (chat): ''korse/korser'' -> ''course e/course
+        er'' in RBN after A2 rated N031 RBN meaning 1'
   status: author-reviewed
 - id: N032
   format: multi

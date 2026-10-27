@@ -7,7 +7,7 @@
   "not_unanswerable": [],
   "problems": [],
   "edited_passages": 0,
-  "edited_strings": 0,
+  "edited_strings": 10,
   "reviewed_strings": 1685,
   "approved_items": [
     "N001",
@@ -179,5 +179,5 @@
     "N169",
     "N170"
   ],
-  "edit_rate_strings": 0.0
+  "edit_rate_strings": 0.005934718100890208
 }
