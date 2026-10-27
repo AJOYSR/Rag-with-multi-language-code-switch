@@ -93,6 +93,9 @@ def main(cfg_path: str):
                            max_tokens=MAX_TOKENS[m], num_ctx=cfg.get("num_ctx", 4096))
             rec = {"key": f"{m}|{r.item_id}|{r.question}|{r.variant}|{r.sufficiency}", "method": m,
                    **{k: v for k, v in r.__dict__.items() if k != "passage"}, "messages": msg, **res}
+            if (res.get("prompt_tokens") or 0) + MAX_TOKENS[m] >= cfg.get("num_ctx", 4096):
+                sys.exit(f"refusing: prompt may be truncated ({res['prompt_tokens']} tokens, num_ctx {cfg.get('num_ctx', 4096)}) "
+                         f"at {rec['key']}; raise num_ctx in the config")
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
             f.flush()
             if i % 50 == 0:
