@@ -124,8 +124,15 @@ def fit_combiner(X: np.ndarray, y: np.ndarray, l2: float = 1.0, iters: int = 500
         grad = Z.T @ (p - y) / len(y) + l2 * np.r_[0, w[1:]] / len(y)
         w -= lr * grad
 
+    return combiner(w, mu, sd)
+
+
+def combiner(w, mu, sd):
+    """Scorer from stored parameters (weights [bias, ...], feature mean and sd)."""
+    w, mu, sd = (np.asarray(a, float) for a in (w, mu, sd))
+
     def score(Xn):
         Zn = np.c_[np.ones(len(Xn)), (np.asarray(Xn, float) - mu) / sd]
         return 1 / (1 + np.exp(-Zn @ w))
-    score.weights = w
+    score.weights, score.mu, score.sd = w, mu, sd
     return score
