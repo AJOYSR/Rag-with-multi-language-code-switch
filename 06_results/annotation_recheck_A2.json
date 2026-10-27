@@ -1,0 +1,35 @@
+{
+  "n": 10,
+  "meaning": {
+    "3": 9,
+    "2": 1
+  },
+  "naturalness": {
+    "3": 7,
+    "2": 3
+  },
+  "fails_meaning_1": [],
+  "below_3": [
+    {
+      "item_id": "N023",
+      "question": "main",
+      "version": "RBN",
+      "meaning_1to3": "2",
+      "naturalness_1to3": "2"
+    },
+    {
+      "item_id": "N031",
+      "question": "main",
+      "version": "RBN",
+      "meaning_1to3": "3",
+      "naturalness_1to3": "2"
+    },
+    {
+      "item_id": "N031",
+      "question": "sibling",
+      "version": "RBN",
+      "meaning_1to3": "3",
+      "naturalness_1to3": "2"
+    }
+  ]
+}

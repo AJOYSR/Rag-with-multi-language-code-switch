@@ -1,0 +1,11 @@
+﻿row_type,item_id,question,version,english_reference,text_to_rate,meaning_1to3,naturalness_1to3,answer_still_findable_Y_N,comment
+QUESTION,N015,sibling,RBN,How many seats are there in the diploma course at Madhabikunja Nursing Institute?,madhobikunjo nursing institute er diploma course e mot koyti ashon ache?,3,3,n/a,
+QUESTION,N016,main,RBN,What is the fee for the full admission preparation course at Brishtimahal Admission Coaching?,brishtimohol vorti coaching e purnango vorti prostuti course er fee koto taka?,3,3,n/a,
+QUESTION,N016,sibling,RBN,On what date will classes of the admission preparation course at Brishtimahal Admission Coaching start?,brishtimohol vorti coaching e vorti prostuti course er klash kon tarikhe shuru hobe?,3,3,n/a,
+QUESTION,N021,main,RBN,What is the course fee per semester for the B.Ed course at Suparibagan Teachers' Training College?,shuparibagan teachers training college e BEd course er proti semestarer fee koto taka?,3,3,n/a,
+QUESTION,N023,main,RBN,Who will be the lead trainer of the spoken English course at Kanchanbela Language Learning Centre?,kanchonbela vasha shikkha kendro er spoken english course er prodhan proshikkhok ke?,2,2,n/a,
+QUESTION,N023,sibling,RBN,How many classes are there in the spoken English course at Kanchanbela Language Learning Centre?,kanchonbela vasha shikkha kendro er spoken english course e mot koyti klash hobe?,3,3,n/a,
+QUESTION,N023,sibling,CMR,How many classes are there in the spoken English course at Kanchanbela Language Learning Centre?,kanchonbela vasha shikkha kendro er spoken english course e total koyti class hobe?,3,3,n/a,
+QUESTION,N031,main,RBN,What is the fee for the crash course at Nishinda Job Preparation Centre?,nishinda chakri prostuti kendro er krash course er fee koto taka?,3,2,n/a,
+QUESTION,N031,main,CMR,What is the fee for the crash course at Nishinda Job Preparation Centre?,nishinda chakri prostuti kendro er crash course er total fee koto taka?,3,3,n/a,
+QUESTION,N031,sibling,RBN,How many classes are there in the crash course at Nishinda Job Preparation Centre?,nishinda chakri prostuti kendro er krash course e mot koyti klash hobe?,3,2,n/a,

@@ -89,3 +89,8 @@
 - Issues: ratings at ceiling, so κ cannot show discrimination; the control round addresses this. The author first said they filled the sheet, then corrected: A2 rated it (logged).
 - Next: A2 rates `03_data/variants/annotation_controls.csv` → `python -m src.build_annotation_controls --score ...` → G3 memo. Decide on the Wikipedia realism subset (protocol §2, up to 20 items).
 - Needs author: send the control sheet to A2; confirm A2's consent and credit preference; release licence; realism subset yes/no.
+
+### Session — 2026-10-27 — Phase 4b → Gate G3
+- Done: control round scored (pass at threshold); author 'course' fix + 2 CMR fixes; A2 re-check (all pass); licence CC BY 4.0; Wikipedia subset not built; G3 report `06_results/G3_quality_report.md`.
+- Next: author decision at G3 → Phase 4c dev runs (measure time), then test runs.
+- Blockers: G3 decision; A2 consent confirmation.
