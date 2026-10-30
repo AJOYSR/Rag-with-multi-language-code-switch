@@ -1,0 +1,10 @@
+# Phase 4c TEST run (protocol v1.0, confirmatory). Calibration frozen in 06_results/calibration (commit 57ceda0) before this run.
+model: "hf.co/bartowski/gemma-2-9b-it-GGUF:Q4_K_M"
+items: 03_data/processed/items_v1.yaml
+split: test
+variants: [en, bn, rbn, cm, cmr]
+methods: [M1, GEN, SUFF, CB, TR, TRP]
+seed: 0
+temperature: 0.0
+num_ctx: 8192
+protocol_frozen_hash: bb82a66ed205590b4264d21d534e84e660ad658f55ed0c0773a6177213f2f9f6

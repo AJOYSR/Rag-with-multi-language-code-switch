@@ -1,7 +1,7 @@
 PY := .venv/bin/python
 EXP := cd 05_experiments &&
 
-.PHONY: env test review-sheet smoke pilot analyze-pilot items dev
+.PHONY: env test review-sheet smoke pilot analyze-pilot items dev test-run
 
 env:            ## create the pinned environment
 	uv venv --python 3.11 .venv && uv pip install --python $(PY) -r requirements.txt
@@ -26,3 +26,6 @@ items:          ## combined author-reviewed item file (pilot + main) used by all
 
 dev:            ## Phase 4c dev runs (M3 combiner fit, threshold selection)
 	$(EXP) ../$(PY) -m src.run configs/dev_qwen35_9b.yaml && ../$(PY) -m src.run configs/dev_gemma2_9b.yaml
+
+test-run:       ## Phase 4c TEST runs (only after G3 and calibration are committed)
+	$(EXP) ../$(PY) -m src.run configs/test_qwen35_9b.yaml && ../$(PY) -m src.run configs/test_gemma2_9b.yaml
