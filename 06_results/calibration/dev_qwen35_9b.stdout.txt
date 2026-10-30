@@ -1,0 +1,49 @@
+{
+  "dev_run": "20261027_dev_qwen35_9b",
+  "model": "hf.co/bartowski/Qwen_Qwen3.5-9B-GGUF:Q4_K_M",
+  "digest": "446dc6a1b5effc9a3cd831c7c33a7dc245493ca3f48a6c745bab10d25c5f615b",
+  "git_commit_of_run": "9d41814d444ed5cc45a0cd8a54f282a1b529dbd9",
+  "n_en_dev_rows": 100,
+  "n_en_dev_items": 50,
+  "M3": {
+    "features": [
+      "p_suff",
+      "conf"
+    ],
+    "weights": [
+      -0.926254980428333,
+      3.0720329694333337,
+      1.0835893470399571
+    ],
+    "mu": [
+      0.6542276641229773,
+      -0.1739811949998279
+    ],
+    "sd": [
+      0.37915608042765536,
+      0.14703067642894505
+    ],
+    "tau": {
+      "0.05": 0.42570778185843794,
+      "0.1": 0.1004388115796423,
+      "0.2": 4.3797100485574344e-05
+    }
+  },
+  "M2b": {
+    "tau": {
+      "0.05": -0.1119834692653967,
+      "0.1": -0.18711963893481426,
+      "0.2": -0.8952425420284271
+    }
+  },
+  "sanity_EN_dev": {
+    "GEN_UAR": 0.16,
+    "GEN_sel_acc": 0.96,
+    "GEN_risk": 0.1724137931034483,
+    "M3_r0.10_risk": 0.09433962264150944,
+    "M3_r0.10_coverage": 0.53,
+    "M3_r0.10_sel_acc": 0.96
+  },
+  "rows_missing_scores": 0
+}
+-> /Users/ajoysrju/Desktop/Projects/Topic1_Abstention_Transfer_Bengali_RAG/06_results/calibration/Qwen_Qwen3.5-9B-GGUF.json

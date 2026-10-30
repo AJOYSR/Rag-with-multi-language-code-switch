@@ -1,0 +1,38 @@
+run_id,key,label,adjudicator,date,note
+20261027_dev_qwen35_9b,M1|P18|main|rbn|suff,specific_yes,author (native Bengali speaker; reviewed and confirmed),2026-10-30,affirmative statement: app will work normally
+20261027_dev_qwen35_9b,M1|P29|main|rbn|suff,specific_yes,author (native Bengali speaker; reviewed and confirmed),2026-10-30,affirmative statement: secondary students can take part
+20261027_dev_qwen35_9b,M1|P29|main|rbn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,states a different fact (college students)
+20261027_dev_qwen35_9b,M1|N030|main|en|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,GEN|N030|main|en|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,M1|N030|main|bn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,GEN|N030|main|bn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,M1|N030|main|rbn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,GEN|N030|main|rbn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,M1|N030|main|cm|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,GEN|N030|main|cm|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,M1|N030|main|cmr|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,GEN|N030|main|cmr|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,M1|N053|main|en|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,GEN|N053|main|en|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,M1|N053|main|bn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,GEN|N053|main|bn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,M1|N053|main|cm|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,GEN|N053|main|cm|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,GEN|N063|main|bn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,GEN|N063|main|cm|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or see another notice
+20261027_dev_qwen35_9b,M1|N111|main|rbn|suff,specific_yes,author (native Bengali speaker; reviewed and confirmed),2026-10-30,affirmative statement: off days will be deducted
+20261027_dev_qwen35_9b,GEN|N111|main|rbn|suff,specific_yes,author (native Bengali speaker; reviewed and confirmed),2026-10-30,affirmative statement
+20261027_dev_qwen35_9b,M1|N111|main|cmr|suff,specific_yes,author (native Bengali speaker; reviewed and confirmed),2026-10-30,affirmative statement
+20261027_dev_qwen35_9b,GEN|N111|main|cmr|suff,specific_yes,author (native Bengali speaker; reviewed and confirmed),2026-10-30,affirmative statement
+20261027_dev_gemma2_9b,GEN|P05|main|rbn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,CHECK: lists other stops; implies 'no' but does not say it
+20261027_dev_gemma2_9b,GEN|P05|main|cmr|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,CHECK: lists other stops; implies 'no' but does not say it
+20261027_dev_gemma2_9b,GEN|P14|main|rbn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,CHECK: lists other open shops; pharmacies not mentioned
+20261027_dev_gemma2_9b,M1|P18|main|rbn|suff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,"gives a time, not yes/no"
+20261027_dev_gemma2_9b,GEN|N030|main|en|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or not yet decided
+20261027_dev_gemma2_9b,GEN|N030|main|bn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or not yet decided
+20261027_dev_gemma2_9b,GEN|N030|main|cm|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or not yet decided
+20261027_dev_gemma2_9b,GEN|N053|main|en|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or not yet decided
+20261027_dev_gemma2_9b,GEN|N053|main|bn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,off-task: copies a different notice
+20261027_dev_gemma2_9b,GEN|N063|main|cm|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,defers: decided/announced later or not yet decided
+20261027_dev_gemma2_9b,M1|N111|main|rbn|suff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,CHECK: fragment 'next month's bill'; does not clearly say yes
+20261027_dev_gemma2_9b,GEN|N111|main|rbn|insuff,nonspecific,author (native Bengali speaker; reviewed and confirmed),2026-10-30,"gives a date/time, not yes/no"
