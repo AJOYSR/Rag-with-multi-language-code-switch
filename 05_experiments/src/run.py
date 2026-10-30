@@ -1,10 +1,12 @@
 """Run one config: python -m src.run configs/<name>.yaml
 
 Writes runs/<run_id>/meta.json and runs/<run_id>/responses.jsonl (append-only;
-an interrupted run resumes by skipping keys already written).
+an interrupted run resumes by skipping keys already written). If the environment variable
+RUN_DEADLINE (Unix time) is set, the run stops cleanly between calls once it passes.
 """
 import datetime as dt
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -83,12 +85,24 @@ def main(cfg_path: str):
     resp_path = out / "responses.jsonl"
     done = set()
     if resp_path.exists():
-        done = {json.loads(l)["key"] for l in resp_path.read_text(encoding="utf-8").splitlines() if l.strip()}
+        lines = resp_path.read_text(encoding="utf-8").splitlines()
+        if lines and lines[-1].strip():
+            try:
+                json.loads(lines[-1])
+            except json.JSONDecodeError:  # half-written last line from a hard stop: drop it, the call is redone
+                resp_path.write_text("\n".join(lines[:-1]) + ("\n" if len(lines) > 1 else ""), encoding="utf-8")
+                lines = lines[:-1]
+                print("dropped a half-written last line", flush=True)
+        done = {json.loads(l)["key"] for l in lines if l.strip()}
     todo = [(m, r, msg) for m, r, msg in jobs(cfg, items, all_items)
             if f"{m}|{r.item_id}|{r.question}|{r.variant}|{r.sufficiency}" not in done]
     print(f"{run_id}: {len(done)} done, {len(todo)} to go", flush=True)
+    deadline = float(os.environ.get("RUN_DEADLINE", "inf"))
     with open(resp_path, "a", encoding="utf-8") as f:
         for i, (m, r, msg) in enumerate(todo, 1):
+            if dt.datetime.now().timestamp() > deadline:
+                print(f"{run_id}: deadline reached, stopped cleanly after {i - 1} calls this session", flush=True)
+                sys.exit(3)
             res = llm.chat(cfg["model"], msg, seed=cfg.get("seed", 0), temperature=cfg.get("temperature", 0.0),
                            max_tokens=MAX_TOKENS[m], num_ctx=cfg.get("num_ctx", 4096))
             rec = {"key": f"{m}|{r.item_id}|{r.question}|{r.variant}|{r.sufficiency}", "method": m,
